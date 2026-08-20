@@ -1,0 +1,307 @@
+{
+  "id": "a06",
+  "nivel": "avancado",
+  "numero": 34,
+  "parte": "A06",
+  "titulo": "Ein Land, das für einen Tag komplett orange wird",
+  "subtitulo": "Ein Königstag im April, zwei stille Minuten im Mai, ein Schuh am Kamin im Dezember, und ein Süden, der im Februar tanzt",
+  "slot": "A06",
+  "moldura": "ganha",
+  "cena": "Am 27. April trägst du versehentlich Blau, und die ganze Straße um dich herum ist in Orange getaucht, mit einem Flohmarkt vor jeder Haustür.",
+  "frasePiso": "Vier Termine im Kopf — Ende April, Anfang Mai, Anfang Dezember, Februar im Süden — und der Kalender dieses Landes ergibt plötzlich Sinn.",
+  "permissao": "Du musst diese Termine nicht auswendig kennen, bevor du landest — das Land selbst zeigt sie dir laut genug: Orange auf der Straße, zwei Minuten Stille um acht Uhr abends, ein Schuh vor dem Kamin. Erkennen reicht völlig, niemand erwartet, dass ein Gast den Kalender vorab auswendig kann.",
+  "permissaoAudioKey": "hol-a06-n10",
+  "espelho": "Wer im eigenen Land schon mal einen Nationalfeiertag, einen Gedenktag und ein Familienfest im selben Kalenderjahr erklärt hat, kennt diese Mischung aus Feiern und Innehalten bereits. Neu ist hier nur die Reihenfolge und wie nah beieinander April und Mai liegen.",
+  "fichasCulturais": [
+    {
+      "sinal": "Am Abend des 4. Mai bleiben plötzlich alle auf der Straße stehen, Gespräche verstummen, und niemand bewegt sich für zwei Minuten.",
+      "suaLeitura": "Ist etwas passiert? Sollte ich auch stehen bleiben, oder störe ich, wenn ich mitmache?",
+      "oQueEAli": "Um acht Uhr abends am 4. Mai hält das ganze Land zwei Minuten Stille für die Toten des Zweiten Weltkriegs und späterer Konflikte — der Dodenherdenking. Am Tag danach, dem 5. Mai, folgt der Bevrijdingsdag, der Tag der Befreiung von 1945, mit Konzerten und Festen im ganzen Land.",
+      "oQueVoceFaz": "Bleib einfach stehen und still, wo immer du gerade bist — das ist die ganze erwartete Handlung, kein Ritual, das du sonst kennen musst.",
+      "oQueMelhora": "Ein plötzlicher, unerklärter Stillstand auf der Straße wird zu einem Moment, an dem du weißt, was gerade passiert, statt verwirrt danebenzustehen.",
+      "ondeNaoVale": "Der 5. Mai selbst ist überwiegend ein Freudentag mit Musik und Straßenfesten — die Stille gehört allein zum Abend des 4. Mai, nicht zum ganzen Zeitraum.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "hol-a06-n05",
+        "hol-a06-n06"
+      ]
+    },
+    {
+      "sinal": "Anfang Dezember stellt ein Kind seinen Schuh vor den Kamin, mit einer Karotte daneben, und singt dabei ein Lied.",
+      "suaLeitura": "Das ist wohl eine frühe, kleine Weihnachtsvorbereitung.",
+      "oQueEAli": "Das ist Sinterklaas, ein eigenständiges Fest am Abend des 5. Dezember, unabhängig von Weihnachten: Kinder singen Lieder für den Heiligen und seine Helfer und bekommen am nächsten Morgen kleine Süßigkeiten im Schuh — die großen Geschenke folgen am Pakjesavond selbst. Weihnachten wird hier separat und deutlich ruhiger gefeiert.",
+      "oQueVoceFaz": "Erwarte in der ersten Dezemberwoche volle Geschäfte, «pepernoten»-Gebäck an jeder Kasse, und frag ruhig nach, wenn dir der Unterschied zu Weihnachten nicht klar ist — das wird gern erklärt.",
+      "oQueMelhora": "Zwei separate Feste zu erkennen statt eines verlängerten Weihnachtens erklärt, warum der Dezember hier schon in der ersten Woche voller Lieder und Süßigkeiten ist.",
+      "ondeNaoVale": "Die genaue Gestalt der Helferfiguren wird von Stadt zu Stadt unterschiedlich gehandhabt und verändert sich sichtbar von Jahr zu Jahr — das ist hier bewusst nicht Teil der Beschreibung, nur das Datum und der Ablauf des Fests selbst.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "hol-a06-n07"
+      ]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "hol-a06-koningsdag",
+      "afirmacao": "Koningsdag, der Königstag, wird am 27. April gefeiert — dem Geburtstag von König Willem-Alexander, seit dessen Thronbesteigung 2013 (fällt der Tag auf einen Sonntag, verschiebt er sich auf den 26.). Es ist der einzige Tag im Jahr, an dem private Straßenverkäufe ohne Genehmigung erlaubt sind, deshalb die Flohmärkte vor jeder Tür; in Amsterdam versammeln sich am Museumplein üblicherweise mehrere Hunderttausend Menschen.",
+      "fonte": "Königshaus der Niederlande, offizielle Themenseite «King's Day»; ergänzende historische Einordnung u. a. bei Wikipedia («Koningsdag»).",
+      "ano": 2024,
+      "revisarAte": "2030-08-20",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "hol-a06-n02",
+        "hol-a06-n03"
+      ]
+    },
+    {
+      "id": "hol-a06-bevrijding",
+      "afirmacao": "Am 4. Mai wird um 20 Uhr im ganzen Land zwei Minuten geschwiegen — der Dodenherdenking für die Toten des Zweiten Weltkriegs und späterer Konflikte. Am 5. Mai folgt der Bevrijdingsdag, der Jahrestag der Befreiung von der deutschen Besatzung 1945; seit 1990 wird er jährlich begangen, als voller arbeitsfreier Feiertag jedoch nur alle fünf Jahre.",
+      "fonte": "Nationales Komitee 4 und 5 Mai (offizielle niederländische Gedenkorganisation); ergänzende Darstellung bei iamExpat und DutchReview.",
+      "ano": 2024,
+      "revisarAte": "2030-08-20",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "hol-a06-n05",
+        "hol-a06-n06"
+      ]
+    },
+    {
+      "id": "hol-a06-sinterklaas",
+      "afirmacao": "Sinterklaas wird am Abend des 5. Dezember (Pakjesavond) gefeiert, unabhängig von Weihnachten — mit Liedern, kleinen Geschenken im Schuh und, am Abend selbst, dem großen Geschenkeaustausch. Weihnachten wird separat und deutlich ruhiger begangen.",
+      "fonte": "Expatica / iamExpat, Themenseiten zu Sinterklaas und Weihnachten in den Niederlanden.",
+      "ano": 2024,
+      "revisarAte": "2029-08-20",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "hol-a06-n07"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a06-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "Vier Termine, die den Kalender hier prägen. Merk dir nicht das Datum — merk dir, was du an dem Tag um dich herum siehst."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a06-n02",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Siebenundzwanzigster April: Königstag. Das ganze Land trägt Orange, und vor jeder Tür steht ein kleiner Flohmarkt."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_f",
+      "audioKey": "hol-a06-r01",
+      "tom": "ganha",
+      "receptivo": true,
+      "acao": "Sie bietet dir ihre alten Sachen an, wie an diesem Tag üblich. Ein Blick und ein Lächeln genügen, wenn du nichts willst.",
+      "es": "Kijk gerust, alles moet weg vandaag!",
+      "pinyin": "kaik che-RUST, AL-les moet vech fan-DAACH",
+      "pt": "Schau ruhig, heute muss alles weg!",
+      "tts": "Kijk gerust, alles moet weg vandaag!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a06-n03",
+      "tom": "ganha",
+      "pt": "Der einzige Tag im Jahr mit freiem Straßenverkauf, ohne Genehmigung. In Amsterdam kommen Hunderttausende zusammen."
+    },
+    {
+      "consulta": [
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "molde": "WAS-KOSTET",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-a06-p01",
+      "promptPt": "Auf einer Decke liegt genau die Kaffeekanne, die du gesucht hast. Frag nach dem Preis, mit dem Baustein, den du kennst. Sprich jetzt.",
+      "audioKey": "hol-a06-t01",
+      "es": "Hoeveel kost deze kan?",
+      "pinyin": "HOE-feel kost DAY-ze kan",
+      "pt": "Wie viel kostet diese Kanne?",
+      "tts": "Hoeveel kost deze kan?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a06-n04",
+      "tom": "ganha",
+      "pt": "Eine Woche später kommt der ruhige Gegenpol. Vierter Mai, acht Uhr abends: das ganze Land bleibt zwei Minuten stehen."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-a06-r02",
+      "tom": "ganha",
+      "receptivo": true,
+      "acao": "Um Punkt acht verstummt die Straße von selbst. Bleib einfach stehen, wo du bist — mehr wird nicht erwartet.",
+      "es": "Om acht uur is het stil, twee minuten lang, in het hele land.",
+      "pinyin": "om acht üür is het stil, tvee mee-NÜ-ten lang, in het HEE-le lant",
+      "pt": "Um acht Uhr ist es still, zwei Minuten lang, im ganzen Land.",
+      "tts": "Om acht uur is het stil, twee minuten lang, in het hele land."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a06-n05",
+      "tom": "ganha",
+      "bloco": "capsula",
+      "pt": "Der vierte Mai ist der Dodenherdenking, die Erinnerung an die Toten des Zweiten Weltkriegs und späterer Konflikte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a06-n06",
+      "tom": "ganha",
+      "pt": "Der fünfte Mai, der Bevrijdingsdag, feiert die Befreiung von 1945 — mit Konzerten, jedes fünfte Jahr als voller Feiertag."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-a06-p02",
+      "promptPt": "Am 5. Mai spielt auf dem Platz Livemusik, und du willst wissen, was heute genau gefeiert wird. Frag ruhig. Sprich jetzt.",
+      "audioKey": "hol-a06-t02",
+      "es": "Wat wordt hier vandaag gevierd?",
+      "pinyin": "vat vort heer fan-DAACH che-FEERT",
+      "pt": "Was wird hier heute gefeiert?",
+      "tts": "Wat wordt hier vandaag gevierd?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a06-n07",
+      "tom": "ganha",
+      "pt": "Anfang Dezember: Sinterklaas, ein eigenes Fest — Schuh am Kamin, kleine Süßigkeiten, unabhängig von Weihnachten."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_f",
+      "audioKey": "hol-a06-r03",
+      "tom": "ganha",
+      "receptivo": true,
+      "acao": "Sie erklärt kurz, dass das nicht Weihnachten ist. Nimm es als eigenständiges Fest, nicht als frühe Bescherung.",
+      "es": "Vijf december is Sinterklaas, dat is echt iets anders dan kerst.",
+      "pinyin": "faif de-SEM-ber is SIN-ter-klaas, dat is echt eets AN-ders dan kerst",
+      "pt": "Der fünfte Dezember ist Sinterklaas, das ist wirklich etwas anderes als Weihnachten.",
+      "tts": "Vijf december is Sinterklaas, dat is echt iets anders dan kerst."
+    },
+    {
+      "consulta": [
+        "reparo/como-se-diz"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-a06-p03",
+      "promptPt": "Vor der Kasse liegt ein Berg kleiner Gewürzkekse, den du noch nie gesehen hast. Frag, was das ist. Sprich jetzt.",
+      "audioKey": "hol-a06-t03",
+      "es": "Wat zijn dat voor koekjes?",
+      "pinyin": "vat zain dat foor KOEK-yes",
+      "pt": "Was sind das für Kekse?",
+      "tts": "Wat zijn dat voor koekjes?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a06-n08",
+      "tom": "ganha",
+      "pt": "Im Süden, in Limburg und Brabant, tanzt im Februar ein ganz anderes Fest: Karneval, laut und bunt."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-a06-p04",
+      "promptPt": "Im Süden erzählt dir jemand vom Karneval, ganz anders als alles, was du bisher gesehen hast. Zeig ehrliches Interesse. Sprich jetzt.",
+      "audioKey": "hol-a06-t04",
+      "es": "Dat kende ik nog niet, vertel meer!",
+      "pinyin": "dat KEN-de ik noch niet, fer-TEL meer",
+      "pt": "Das kannte ich noch nicht, erzähl mehr!",
+      "tts": "Dat kende ik nog niet, vertel meer!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a06-n09",
+      "bloco": "permissao",
+      "tom": "ganha",
+      "pt": "Du brauchst diese Termine nicht vorab auswendig zu können — das Land zeigt sie dir laut genug, wenn du gerade dort bist."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "molde": "DANKE",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-a06-p05",
+      "promptPt": "Jemand hat dir den ganzen Unterschied zwischen den Festen erklärt. Bedank dich, mit der Form, die du schon kennst. Sprich jetzt.",
+      "audioKey": "hol-a06-t05",
+      "es": "Dank je wel voor de uitleg!",
+      "pinyin": "dank jö vel foor de ÖÜT-lech",
+      "pt": "Danke für die Erklärung!",
+      "tts": "Dank je wel voor de uitleg!"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-a06-s01",
+      "tom": "ganha",
+      "es": "Hoeveel kost deze kan? Wat wordt hier vandaag gevierd? Wat zijn dat voor koekjes?",
+      "pinyin": "HOE-feel kost DAY-ze kan · vat vort heer fan-DAACH che-FEERT · vat zain dat foor KOEK-yes",
+      "pt": "Schatte die drei nach, die den Flohmarkt, den Gedenktag und das Fest im Dezember abdecken.",
+      "tts": "Hoeveel kost deze kan? Wat wordt hier vandaag gevierd? Wat zijn dat voor koekjes?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a06-n10",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "A06 fertig. Orange im April, zwei Minuten Stille im Mai, ein Schuh im Dezember, und ein tanzender Süden im Februar."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Vier Termine, und warum sie so nah beieinander liegen",
+    "secoes": [
+      {
+        "titulo": "Koningsdag — der Tag, an dem das ganze Land verkauft",
+        "corpo": "Der Königstag am 27. April geht auf den Geburtstag des amtierenden Königs Willem-Alexander zurück, seit dessen Thronbesteigung 2013; fällt der Tag auf einen Sonntag, wandert er auf den 26. Er ist der einzige Tag im Jahr, an dem private Straßenverkäufe ohne Genehmigung und Steuer erlaubt sind — daher die Flohmärkte vor praktisch jeder Tür. In Amsterdam versammeln sich am Museumplein traditionell mehrere Hunderttausend Menschen.",
+        "exemplos": [
+          { "es": "Hoeveel kost deze kan?", "pt": "Wie viel kostet diese Kanne?" }
+        ]
+      },
+      {
+        "titulo": "Der 4. und 5. Mai — zwei Minuten, dann ein Fest",
+        "corpo": "Am 4. Mai um 20 Uhr hält das ganze Land landesweit zwei Minuten Stille — der Dodenherdenking für die Toten des Zweiten Weltkriegs und späterer Konflikte, koordiniert vom Nationalen Komitee 4 und 5 Mai. Der 5. Mai, Bevrijdingsdag, erinnert an die Befreiung von der deutschen Besatzung 1945 und wird seit 1990 jährlich mit Konzerten und Straßenfesten begangen; als voller arbeitsfreier Feiertag zählt er jedoch nur alle fünf Jahre."
+      },
+      {
+        "titulo": "Sinterklaas — ein eigenes Fest, kein frühes Weihnachten",
+        "corpo": "Sinterklaas wird am Abend des 5. Dezember, dem Pakjesavond, gefeiert: Kinder singen Lieder, stellen einen Schuh mit einer Karotte für das Pferd des Heiligen auf und bekommen kleine Süßigkeiten, während am Abend selbst die größeren Geschenke folgen. Weihnachten wird in den Niederlanden separat und spürbar ruhiger begangen — die beiden Feste zu verwechseln ist der häufigste Irrtum von Besuchern in dieser Jahreszeit."
+      },
+      {
+        "titulo": "Der Süden tanzt anders",
+        "corpo": "In den traditionell katholisch geprägten Provinzen Limburg und Noord-Brabant hat der Karneval im Februar eine lange, lebendige Tradition mit Umzügen, Musik und tagelangen Feiern — ein deutlicher Kontrast zum eher zurückhaltenden Kalender in großen Teilen des restlichen Landes, und ein weiteres sichtbares Echo der historischen Trennlinie zwischen den Regionen, die A04 schon einmal berührt hat."
+      }
+    ]
+  }
+}

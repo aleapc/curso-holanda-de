@@ -1,0 +1,422 @@
+{
+  "id": "b06",
+  "nivel": "basico",
+  "numero": 6,
+  "parte": "B06",
+  "titulo": "Haben Sie — en dan wat het eerste uur maar nodig heeft",
+  "subtitulo": "Vier balies tussen de bagageband en een stoel in de trein, en één opener die op elk daarvan past",
+  "cena": "Duitse aankomsthal: de band staat stil, de telefoon vond geen netwerk, en er staan vier balies tussen u en zitten.",
+  "moldura": "ganha",
+  "frasePiso": "Haben Sie, plus het ding, en de hele aankomsthal wordt in drie woorden beantwoordbaar.",
+  "moldes": [
+    "HABEN-SIE"
+  ],
+  "clique": {
+    "contagem": [
+      "de telefoonbalie",
+      "de informatiebalie",
+      "de kiosk bij de uitgang",
+      "het luchthavencafé"
+    ],
+    "desconto": "De telefoonbalie, de informatiebalie, de kiosk en het café kregen dezelfde twee woorden uit u. Alleen het ding op het eind bewoog, en dat kwam al aangekleed.",
+    "piso": "De volgende keer dat u niet weet of een zaak in voorraad heeft wat u nodig hebt, gaat u het niet uitbeelden en geen app openen. U zegt Haben Sie en noemt het ding."
+  },
+  "fatosDatados": [
+    {
+      "id": "de-b06-pfand",
+      "afirmacao": "Het verschil tussen de schapprijs en de kassa is wettelijk verplicht erbij te staan. § 31 Abs. 1 VerpackG stelt een statiegeld van «mindestens 0,25 Euro einschließlich Umsatzsteuer» per eenmalige verpakking — een minimum in plaats van een vast bedrag, en inclusief btw — en eist dat de verpakking permanent als statiegeldplichtig gemarkeerd is voor verkoop. § 7 PAngV 2022 doet dan het tegenintuïtieve deel: de handelaar «hat deren Höhe neben dem Gesamtpreis anzugeben und nicht in diesen einzubeziehen» — geef het statiegeld naast het totaalbedrag aan en tel het uitdrukkelijk níét mee. Daarom leest een etiket 0,99 euro en zegt de kassa 1,24: het is de enige uitdrukkelijke uitzondering op de regel van § 3 PAngV dat de getoonde prijs al alles bevat. Terugbrengen is een plicht onder § 31 Abs. 2: de distributeur neemt de lege terug aan het verkooppunt of dichtbij, tijdens openingstijden, en betaalt het statiegeld gratis terug; een detailhandelaar met een verkoopoppervlakte onder 200 vierkante meter mag zich beperken tot de materialen die hij verkoopt, wat hem niet vrijstelt. Herbruikbare flessen werken andersom — het Mehrwegpfand is een civielrechtelijke afspraak, het bedrag wordt door elke bottelaar bepaald, en er is geen wettelijke plicht die terug te nemen, al betalen de meeste winkels hun eigen merken uit commerciële hoffelijkheid terug.",
+      "fonte": "§ 31 Abs. 1 e Abs. 2 VerpackG e § 7 PAngV 2022, verbatim de gesetze-im-internet.de; § 3 Abs. 1 e § 2 PAngV (Gesamtpreis inclui o IVA) verbatim; Verbraucherzentrale, verbatim «Die Pfandhöhe und die Erstattung für Mehrwegflaschen sind zivilrechtliche Vereinbarungen» e «Immerhin erstatten die meisten Geschäfte das Pfand jedoch auch für Mehrwegflaschen ihrer Marken»; dpg-pfandsystem.de sobre retomada por máquina e à mão no caixa. RESSALVAS: as isenções do § 31 Abs. 4 estão em PARÁFRASE (a ferramenta recusou transcrever a lista) e nenhuma citação literal lhes é atribuída; os valores costumeiros de Mehrweg (0,08 € / 0,15 € / 1,50 € o engradado) são uso de mercado, não norma; o termo «Pfandbon» não aparece verbatim na fonte oficial; a data de entrada em vigor do VerpackG não foi verificada em fonte primária.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-b06-n06",
+        "de-b06-n07",
+        "de-b06-n08"
+      ]
+    },
+    {
+      "id": "de-b06-terminal",
+      "afirmacao": "De winkel die om half tien 's avonds nog open is in de terminal, is open onder een uitzondering met een voorwaarde eraan. § 9 LadSchlG laat winkels op luchthavens open «an allen Tagen während des ganzen Tages», met 24 december afgekapt om 5 uur 's middags, en beperkt vervolgens wat er buiten normale uren verkocht mag worden: «An Werktagen während der allgemeinen Ladenschlusszeiten (§ 3) und an Sonn- und Feiertagen ist nur die Abgabe von Reisebedarf an Reisende gestattet» — reisbenodigdheden, aan reizigers, en niets anders. § 8 geeft winkels in personentreinstations hetzelfde regime. De algemene regel waar ze een uitzondering op zijn is § 3 LadSchlG: gesloten op zondagen en feestdagen, en vanaf 8 uur 's avonds op andere dagen.",
+      "fonte": "§§ 3, 8 e 9 LadSchlG, verbatim de gesetze-im-internet.de, abertos em 5/8/2026. RESSALVAS: o § 8 Abs. 2a, com regime próprio para estações de longa distância em cidades acima de 200.000 habitantes, foi lido só em resumo; e a prática amplamente relatada de usar o supermercado de uma Hauptbahnhof como mercearia dominical plena NÃO foi confirmada em fonte alguma — juridicamente o § 8 só autoriza Reisebedarf a viajantes. Desde 2006 o Ladenschluss é competência dos Länder (Art. 74 Abs. 1 Nr. 11 GG) e só 3 dos 16 foram verificados.",
+      "ano": 2026,
+      "revisarAte": "2027-02-28",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": [
+        "de-b06-n10"
+      ]
+    },
+    {
+      "id": "de-b06-karte",
+      "afirmacao": "Kaarten aanvaarden hier is niet hetzelfde als úw kaart aanvaarden. Het binnenlandse pinsysteem girocard, beheerd door EURO Kartensysteme GmbH voor de Duitse banken, omschrijft zichzelf als «das elektronische Bezahlsystem der deutschen Banken und Sparkassen» met «rund 100 Millionen ausgegebenen Karten», en zegt dat internationaal bereik van een co-badge afhangt: «Darüber hinaus verfügt die girocard in der Regel über eine Zusatzfunktion, ein sogenanntes Co-Badge eines internationalen Debitsystems (Maestro, Debit Mastercard, V Pay, Visa Debit oder JCB).» De schaal verklaart waarom het telt: het EHI Retail Institute's Zahlungssysteme im Einzelhandel 2025, dat 495 miljard euro aan Duitse stationaire detailhandel in 2024 dekt, zet girocard op 41,5 procent van de omzet en 28,89 procent van de transacties, tegen 33,8 procent van de omzet contant en 8,3 procent op kredietkaarten.",
+      "fonte": "girocard.eu, operado pela EURO Kartensysteme GmbH (empresa conjunta da Deutsche Kreditwirtschaft), verbatim; EHI Retail Institute, «Zahlungssysteme im Einzelhandel 2025», Colônia, junho/2025, dados de 2024, PDF de amostra aberto. RESSALVA EXPRESSA: NÃO existe declaração institucional da Bundesbank ou da Deutsche Kreditwirtschaft afirmando que cartões Visa/Mastercard estrangeiros são recusados em terminais girocard-only — a ligação causal é explicação de mecanismo e nunca pode ser apresentada como citação.",
+      "ano": 2025,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-b06-n11"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b06-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Uw eerste uur is vier balies en vier kleine behoeften. Elk daarvan opent met dezelfde twee woorden."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b06-n02",
+      "bloco": "molde",
+      "pt": "Hier is de bouwsteen: Haben Sie, en dan het ding. Heeft u — en dan wat u toevallig nodig hebt."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-b06-t01",
+      "es": "Guten Tag, haben Sie eine SIM-Karte?",
+      "pinyin": "GOO-ten TAHK, HAH-ben zee EYE-nuh ZIM-kar-tuh",
+      "pt": "Goedendag, heeft u een simkaart?",
+      "tts": "Guten Tag, haben Sie eine SIM-Karte?"
+    },
+    {
+      "consulta": [
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "HABEN-SIE",
+      "encaixe": "eine SIM-Karte",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b06-p01",
+      "promptPt": "Aan de telefoonbalie naast de bagageband, zonder netwerk sinds de wielen de grond raakten. Vraag. Zeg het nu.",
+      "audioKey": "de-b06-t01",
+      "es": "Guten Tag, haben Sie eine SIM-Karte?",
+      "pinyin": "GOO-ten TAHK, HAH-ben zee EYE-nuh ZIM-kar-tuh",
+      "pt": "Goedendag, heeft u een simkaart?",
+      "tts": "Guten Tag, haben Sie eine SIM-Karte?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b06-r01",
+      "es": "Ja, natürlich. Mit oder ohne Vertrag?",
+      "pinyin": "yah, na-TEWR-likh. mit OH-der OH-nuh fer-TRAHK",
+      "pt": "Ja, natuurlijk. Met of zonder contract?",
+      "tts": "Ja, natürlich. Mit oder ohne Vertrag?",
+      "receptivo": true,
+      "acao": "Blijf staan voor de tweede helft van het antwoord — dit is de vraag die beslist wat u betaalt."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b06-n03",
+      "bloco": "corpo",
+      "pt": "Het ding komt al aangekleed. Niet Tisch maar einen Tisch, en u leert het paar in zijn geheel, nooit in stukken."
+    },
+    {
+      "consulta": [
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "HABEN-SIE",
+      "encaixe": "WLAN",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b06-p02",
+      "promptPt": "Aan de informatiebalie, en alles wat u wilt versturen zegt dat het offline is. Vraag. Zeg het nu.",
+      "audioKey": "de-b06-t02",
+      "es": "Haben Sie WLAN?",
+      "pinyin": "HAH-ben zee VAY-lahn",
+      "pt": "Heeft u wifi?",
+      "tts": "Haben Sie WLAN?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b06-n04",
+      "pt": "De bouwsteen vraagt wat deze persoon heeft, niet of het ding ergens in het gebouw bestaat."
+    },
+    {
+      "consulta": [
+        "pagar/dinheiro"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "HABEN-SIE",
+      "encaixe": "Wechselgeld",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b06-p03",
+      "promptPt": "De bagagetrolley bij de kiosk bij de uitgang neemt munten, en de automaat gaf u een vijftig. Vraag. Zeg het nu.",
+      "audioKey": "de-b06-t03",
+      "es": "Haben Sie Wechselgeld?",
+      "pinyin": "HAH-ben zee VEK-sel-gelt",
+      "pt": "Heeft u wisselgeld?",
+      "tts": "Haben Sie Wechselgeld?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b06-r02",
+      "es": "Nein, aber der Automat da drüben gibt Münzen.",
+      "pinyin": "nine, AH-ber dair ow-toh-MAHT dah DREW-ben gipt MEWN-tsen",
+      "pt": "Nee, maar de automaat daar geeft munten.",
+      "tts": "Nein, aber der Automat da drüben gibt Münzen.",
+      "receptivo": true,
+      "acao": "Blijf één tel voorbij het eerste woord. Een nee hier komt meestal met het adres van het ja erachteraan."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b06-n05",
+      "pt": "Sie zit al in de bouwsteen, dus de beleefdheid is geregeld voor u uw mond opent."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "HABEN-SIE",
+      "encaixe": "eine Toilette",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b06-p04",
+      "promptPt": "In het luchthavencafé, voor een uur op de trein naar de stad. Vraag. Zeg het nu.",
+      "audioKey": "de-b06-t04",
+      "es": "Haben Sie eine Toilette?",
+      "pinyin": "HAH-ben zee EYE-nuh twa-LE-tuh",
+      "pt": "Heeft u een toilet?",
+      "tts": "Haben Sie eine Toilette?"
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "HABEN-SIE",
+      "encaixe": "Wasser",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b06-p05",
+      "promptPt": "Nog in het luchthavencafé, en wat u meebracht ging bij de security in een bak. Vraag. Zeg het nu.",
+      "audioKey": "de-b06-t05",
+      "es": "Haben Sie Wasser?",
+      "pinyin": "HAH-ben zee VA-ser",
+      "pt": "Heeft u water?",
+      "tts": "Haben Sie Wasser?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b06-n06",
+      "pt": "Het schap zei negenennegentig cent en de kassa zegt één vierentwintig. Dat verschil heeft een naam: Pfand."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-b06-r03",
+      "es": "Das macht ein Euro vierundzwanzig.",
+      "pinyin": "das makht ine OY-roh FEER-oont-tsvan-tsikh",
+      "pt": "Dat wordt één euro vierentwintig.",
+      "tts": "Das macht ein Euro vierundzwanzig.",
+      "receptivo": true,
+      "acao": "Betaal het en houd de lege fles. Het extra is statiegeld, en het DPG-teken op de fles krijgt het terug."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b06-n07",
+      "pt": "De wet verbiedt het statiegeld in de schapprijs op te nemen. Het is de enige uitzondering op wat u ziet is wat u betaalt."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b06-n08",
+      "pt": "Minstens vijfentwintig cent, op plastic flessen en blikjes. De lege terugnemen is de plicht van de winkel."
+    },
+    {
+      "consulta": [
+        "chegar/balcao",
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "HABEN-SIE",
+      "encaixe": "einen Stadtplan",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b06-p06",
+      "promptPt": "Terug bij de informatiebalie, met een telefoon op vier procent en een straat die u nooit hebt gelopen. Vraag. Zeg het nu.",
+      "audioKey": "de-b06-t06",
+      "es": "Haben Sie einen Stadtplan?",
+      "pinyin": "HAH-ben zee EYE-nen SHTAT-plahn",
+      "pt": "Heeft u een stadsplattegrond?",
+      "tts": "Haben Sie einen Stadtplan?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b06-n09",
+      "bloco": "capsula",
+      "pt": "De bouwsteen geeft niet om wat het ding is. Een kaart, een plattegrond, munten, water, een toilet, kaartjes."
+    },
+    {
+      "consulta": [
+        "transporte/bagagem",
+        "quarto/mala"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "HABEN-SIE",
+      "encaixe": "eine Gepäckaufbewahrung",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b06-p07",
+      "promptPt": "De kamer is pas om drie uur klaar en u draagt alles wat u bezit. Vraag aan de informatiebalie. Zeg het nu.",
+      "audioKey": "de-b06-t07",
+      "es": "Haben Sie eine Gepäckaufbewahrung?",
+      "pinyin": "HAH-ben zee EYE-nuh ge-PECK-owf-be-vah-roong",
+      "pt": "Heeft u bagageopslag?",
+      "tts": "Haben Sie eine Gepäckaufbewahrung?"
+    },
+    {
+      "consulta": [
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "HABEN-SIE",
+      "encaixe": "Fahrkarten",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b06-p08",
+      "promptPt": "De kiosk bij de uitgang verkoopt reistickets, en er staan elf mensen bij de automaat. Vraag. Zeg het nu.",
+      "audioKey": "de-b06-t08",
+      "es": "Haben Sie Fahrkarten?",
+      "pinyin": "HAH-ben zee FAR-kar-ten",
+      "pt": "Heeft u kaartjes?",
+      "tts": "Haben Sie Fahrkarten?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b06-n10",
+      "pt": "Een terminalwinkel open om half tien is open voor reizigers, en wettelijk alleen voor reisspullen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b06-n11",
+      "pt": "Kaarten aannemen hier betekent niet de uwe. Veel terminals zijn eerst op het binnenlandse systeem bedraad."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "DANKE",
+      "encaixe": "vielen Dank",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b06-p09",
+      "promptPt": "Ze hielpen u in tien seconden. Sluit af zoals dat hier gaat. Zeg het nu.",
+      "audioKey": "de-b06-t09",
+      "es": "Vielen Dank!",
+      "pinyin": "FEE-len DANK",
+      "pt": "Hartelijk dank!",
+      "tts": "Vielen Dank!"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-b06-s01",
+      "es": "Haben Sie WLAN? Haben Sie Wechselgeld? Haben Sie eine Toilette?",
+      "pinyin": "HAH-ben zee VAY-lahn. HAH-ben zee VEK-sel-gelt. HAH-ben zee EYE-nuh twa-LE-tuh",
+      "pt": "Schaduw één opener over drie totaal verschillende balies.",
+      "tts": "Haben Sie WLAN? Haben Sie Wechselgeld? Haben Sie eine Toilette?",
+      "molde": "HABEN-SIE"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b06-n12",
+      "bloco": "recap",
+      "pt": "B06 klaar. Eén bouwsteen, vier balies, en het hele eerste uur beantwoord met Haben Sie en een ding."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Eén opener, en acht dingen om te vragen",
+    "secoes": [
+      {
+        "titulo": "Haben Sie plus het ding",
+        "corpo": "Houd Haben Sie en zet erachter alles wat een persoon achter een balie fysiek zou kunnen hebben. De opener verandert nooit: de beleefde vorm zit er al in, het is al een vraag zodra uw stem omhoog gaat, en niets erin hangt af van met wie u praat of wat het ding is. Dat maakt het de goedkoopste en breedste bouwsteen van de cursus — hij komt in de kaartverkoophal terug, aan tafel, in de winkel en aan de hotelbalie zonder één verandering.",
+        "exemplos": [
+          {
+            "es": "Haben Sie WLAN?",
+            "pt": "Heeft u wifi?"
+          },
+          {
+            "es": "Haben Sie Wechselgeld?",
+            "pt": "Heeft u wisselgeld?"
+          }
+        ]
+      },
+      {
+        "titulo": "Het ding komt al aangekleed",
+        "corpo": "Het Duits markeert de rol van een zelfstandig naamwoord op het lidwoordje ervoor, en na Haben Sie ligt dat lidwoordje vast. Deze cursus geeft u nooit een kaal zelfstandig naamwoord om precies die reden: de tegel zegt einen Tisch, ein Zimmer, eine SIM-Karte, en u leert elk paar in zijn geheel, zoals u een telefoonnummer leerde. Niets hoeft aan de balie uitgezocht te worden. Dat de woordenboekvorm van einen Tisch der Tisch is klopt, en u mag het de hele reis negeren. Twee dingen komen echt kaal en dat is geen uitzondering om te bewaken: meervouden, zoals in Haben Sie Fahrkarten, en stoffen, zoals in Haben Sie Wasser — het Nederlands doet hetzelfde en u doet het al zonder nadenken."
+      },
+      {
+        "titulo": "Wat deze persoon heeft, niet wat bestaat",
+        "corpo": "Het Nederlands grijpt naar is er…, en het Duits kent een manier om dat ook te zeggen. Aan een balie is het de verkeerde vorm. De vraag die antwoord krijgt gaat over de persoon voor u — wat heeft ú — en het verschil tussen die twee is het verschil tussen voorlezen uit een taalgidsje en klinken als iemand die dit al vaker heeft gedaan. Het levert bovendien een beter antwoord op: wie het ding niet heeft, vertelt u meestal wie wel."
+      },
+      {
+        "titulo": "Het etiket liegt bij wet, en de kassa heeft gelijk",
+        "corpo": "Een fles gemerkt 0,99 slaat 1,24 aan, en niemand heeft u te veel gerekend. Eenmalige drankverpakking draagt een statiegeld van minstens vijfentwintig cent inclusief btw, en een aparte regel eist dat de handelaar dat statiegeld naast het totaalbedrag toont en er uitdrukkelijk niet in optelt. Dus de schapprijs is een echte prijs met een bekend extra ernaast bevestigd — de enige uitdrukkelijke uitzondering op de anders absolute Duitse regel dat het getal dat u ziet het getal is dat u betaalt. Het geld komt terug: de winkel heeft de wettelijke plicht de lege terug te nemen en gratis uit te betalen, en een kleine winkel mag zich beperken tot de materialen die hij verkoopt. Herbruikbaar glas is een ander beestje, privé tussen bottelaars geregeld in plaats van bij wet, en de vuistregel is simpel — plastic of blik met het statiegeldteken gaat naar elke supermarkt, retourglas gaat terug naar waar u het kocht."
+      },
+      {
+        "titulo": "Open om half tien, en wat dat toestaat",
+        "corpo": "Winkels op luchthavens en in personentreinstations mogen elke dag en de hele dag open, en daarom leeft de terminal op een uur waarop de stad dat niet doet. De vergunning is smal: buiten normale winkeltijden, en op zondagen en feestdagen, mogen ze reisbenodigdheden verkopen aan reizigers en niets anders. De algemene regel waarop ze een uitzondering zijn sluit winkels op zondagen en feestdagen en vanaf acht uur 's avonds. Het is de moeite waard te weten binnen welke van de twee regels u staat, want dat verklaart zowel de open deur hier als de gesloten een uur later in de stad."
+      },
+      {
+        "titulo": "Contant, en de kaart die niet uw kaart is",
+        "corpo": "Er is in Duitsland geen wettelijke plicht een kaart aan te nemen, en «nur Bargeld» op een bord is rechtsgeldig in plaats van dwarsliggend. Er is een tweede, stiller probleem eronder: het binnenlandse pinsysteem draagt ongeveer honderd miljoen kaarten en eenenveertig procent van de stationaire detailhandelsomzet, en zijn internationale bereik hangt van een co-badge af. Een terminal hier kan dus voor het nationale systeem gebouwd zijn, en een zaak die kaarten neemt is niet automatisch een zaak die de uwe neemt. Nederlandse Maestro en V Pay werken meestal, maar vraag voor u zich verbindt, en houd genoeg biljetten op zak om het antwoord er niet toe te laten doen."
+      }
+    ]
+  },
+  "slot": "B06",
+  "permissao": "U hebt geen aparte zin nodig voor elke balie in dat gebouw, en niemand cijfert daar uw Duits. Guten Tag, Haben Sie, het ding, en een stem die omhoog gaat is een volledig verzoek overal in de terminal — en u mag dezelfde twee woorden aan alle vier de balies gebruiken zonder ze te variëren om beter te klinken.",
+  "permissaoAudioKey": "de-b06-n02",
+  "espelho": "Wie op een onbekende luchthaven thuis landt draait deze triage al zonder hem te benoemen — signaal, geld, koffers, ergens om te staan. Het enige nieuwe is dat in drie woorden doen die nooit veranderen.",
+  "fichasCulturais": [
+    {
+      "sinal": "U brengt een fles gemerkt 0,99 naar de kassa en krijgt 1,24 gerekend, zonder uitleg en zonder excuus.",
+      "suaLeitura": "U bent te veel gerekend, of er wordt aan de kassa belasting bijgeteld zoals thuis.",
+      "oQueEAli": "Geen van beide. Eenmalige drankverpakking draagt een statiegeld van minstens vijfentwintig cent inclusief btw, en de wet eist dat de handelaar dat bedrag naast het totaal toont en er uitdrukkelijk niet in optelt. Het verschil is het statiegeld, en het is de enige uitdrukkelijke uitzondering op de Duitse regel dat de getoonde prijs al alles bevat, btw inbegrepen. De winkel heeft dan de wettelijke plicht de lege tijdens openingstijden terug te nemen en het statiegeld gratis uit te betalen.",
+      "oQueVoceFaz": "Betaal het zonder te vragen, houd de lege, en voed hem aan een retourautomaat bij praktisch elke supermarkt — het is het statiegeldteken op de fles dat de automaat leest, en een kleine winkel hoeft alleen de materialen terug te nemen die hij verkoopt. Is het een retourbaar glas, breng het dan terug naar de winkel waar u het kocht.",
+      "oQueMelhora": "Een getal dat op scherpe praktijk leek wordt geld dat u vasthoudt, en een prullenbak op het station houdt op de plek te zijn waar een fles eindigt. U kent dit ritme trouwens al — statiegeld op flessen bestaat ook in Nederland; het Duitse systeem is gewoon breder.",
+      "ondeNaoVale": "De herbruikbare kant is geen wet: die statiegelden zijn privéafspraken tussen bottelaars, hun bedrag varieert, en er is geen wettelijke plicht die flessen terug te nemen — de meeste winkels betalen hun eigen merken uit commerciële hoffelijkheid terug. De uitzonderingslijst voor wat überhaupt statiegeld draagt wordt hier in parafrase gelezen, en de gebruikelijke herbruikbare bedragen zijn marktgebruik in plaats van een wettelijk getal.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-b06-n06",
+        "de-b06-n07",
+        "de-b06-n08"
+      ]
+    },
+    {
+      "sinal": "De terminalwinkel draait vrolijk door om half tien 's avonds, en de supermarkt waar u een uur later in de stad naartoe loopt is donker.",
+      "suaLeitura": "Openingstijden zijn hier willekeurig, of die supermarkt heeft het gewoon vroeg opgegeven.",
+      "oQueEAli": "Twee verschillende regels. Winkels op luchthavens en in personentreinstations mogen elke dag en de hele dag open, maar buiten normale uren en op zondagen en feestdagen mogen ze alleen reisbenodigdheden verkopen, en alleen aan reizigers. Al het andere valt onder de algemene regel: gesloten op zondagen en feestdagen, en vanaf acht uur 's avonds op de andere dagen.",
+      "oQueVoceFaz": "Koop wat de avond nodig heeft voor achten, en behandel de terminalwinkel als wat hij wettelijk is — een plek voor reisspullen, geen kruidenier.",
+      "oQueMelhora": "U leest een donkere winkelpui niet meer als pech en gaat de aankomstavond plannen rond een regel die u kunt voorspellen.",
+      "ondeNaoVale": "Winkelsluiting is sinds 2006 de zaak van elk Land, en slechts drie van de zestien zijn hier gecontroleerd. Beieren stapte op 1 augustus 2025 uit het federale model en laat nu onbemande minisupermarkten tot 150 vierkante meter de klok rond draaien. En de wijdverbreid gemelde praktijk om de supermarkt van een Hauptbahnhof als volledige zondagskruidenier te gebruiken werd in geen enkele bron bevestigd — de wet staat alleen reisbenodigdheden toe.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-b06-n10"
+      ]
+    }
+  ]
+}

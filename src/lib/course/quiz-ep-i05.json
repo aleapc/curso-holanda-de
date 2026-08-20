@@ -1,0 +1,96 @@
+{
+  "id": "q-i05",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Fünf Fragen, die garantiert kommen",
+  "subtitulo": "Ein neuer Baustein für das, was Ihnen wirklich gefällt",
+  "introAudioKey": "hol-i05-q-i",
+  "introPt": "Ein Reisender sitzt in einer Hostelküche und beantwortet dieselben Fragen, die er schon dreimal diese Woche gehört hat.",
+  "cenario": "Gemeinschaftsküche im Hostel, halb neun abends.",
+  "dialogo": [
+    {
+      "audioKey": "hol-i05-q01",
+      "voz": "target_nl_m",
+      "es": "Natuurlijk! Waar kom je vandaan?",
+      "pt": "Natürlich! Woher kommst du?",
+      "tts": "Natuurlijk! Waar kom je vandaan?"
+    },
+    {
+      "audioKey": "hol-i05-q02",
+      "voz": "target_nl_m",
+      "es": "Wat vind je van Nederland?",
+      "pt": "Was hältst du von den Niederlanden?",
+      "tts": "Wat vind je van Nederland?"
+    },
+    {
+      "audioKey": "hol-i05-q03",
+      "voz": "target_nl_f",
+      "es": "Ik hou van deze stad.",
+      "pt": "Ich mag die Stadt.",
+      "tts": "Ik hou van deze stad."
+    },
+    {
+      "audioKey": "hol-i05-q04",
+      "voz": "target_nl_f",
+      "es": "Ik hou van fietsen.",
+      "pt": "Ich mag das Radfahren.",
+      "tts": "Ik hou van fietsen."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Was macht der neue Baustein «Ik hou van [Ding]»?",
+      "opcoes": [
+        "Er fragt nach dem Preis von etwas",
+        "Er drückt aus, was Ihnen gefällt — ein Ort, ein Getränk, eine Aktivität",
+        "Er funktioniert nur bei Essen",
+        "Er ist eine höfliche Bitte um Hilfe"
+      ],
+      "correta": 1,
+      "explica": "Ik hou van + [Ding] macht aus jeder Frage nach Ihrer Meinung eine kurze, ehrliche Antwort — die Stadt, das Bier, das Radfahren."
+    },
+    {
+      "pergunta": "«Wat vind je van Nederland?» kommt fast in jedem Gespräch mit Fremden. Was ist die beste Vorbereitung?",
+      "opcoes": [
+        "Eine lange Analyse des ganzen Landes vorbereiten",
+        "Für die immer gleichen Fragen fertige, kurze Antworten haben",
+        "Die Frage möglichst umgehen",
+        "Nur mit Ja oder Nein antworten"
+      ],
+      "correta": 1,
+      "explica": "Woher, wie lange, was gefällt Ihnen — dieselben Fragen wiederholen sich. Fertige Sätze lassen Sie zuhören statt übersetzen."
+    },
+    {
+      "pergunta": "Jemand fragt direkt nach Ihrer Herkunft, kaum dass Sie sich hingesetzt haben. Was bedeutet das?",
+      "opcoes": [
+        "Es ist unhöflich und sollte zurückgewiesen werden",
+        "Direkte persönliche Fragen früh im Gespräch sind hier normal — Interesse, keine Prüfung",
+        "Es ist ein Zeichen von Misstrauen",
+        "Man sollte die Frage nicht beantworten"
+      ],
+      "correta": 1,
+      "explica": "Fragen nach Herkunft, Beruf oder Meinung kommen hier oft schon in der ersten Minute, direkt und ohne Umschweife."
+    },
+    {
+      "pergunta": "Es ist spät, und Sie möchten das Gespräch beenden. Was dürfen Sie tun?",
+      "opcoes": [
+        "Einfach wortlos aufstehen und gehen",
+        "Einen langen, formellen Abschied halten",
+        "Kurz und freundlich sagen, dass Sie los müssen",
+        "Warten, bis der andere das Gespräch beendet"
+      ],
+      "correta": 2,
+      "explica": "Ein Gespräch freundlich und kurz zu beenden ist völlig in Ordnung — Sie schulden niemandem eine lange Erklärung."
+    },
+    {
+      "pergunta": "«Dank je wel voor het biertje!» — warum «je» und nicht «u»?",
+      "opcoes": [
+        "Ein Fehler, der korrigiert werden sollte",
+        "Bei DANKE ist die Wahl zwischen den Formen selbst der Lerninhalt, und «je» passt zum Küchentisch unter Gleichaltrigen",
+        "«U» funktioniert bei DANKE grundsätzlich nicht",
+        "«Je» ist die einzig richtige Form im ganzen Kurs"
+      ],
+      "correta": 1,
+      "explica": "DANKE ist ein geschlossener Baustein mit mehreren Formen — Dank je, Dank u wel, Bedankt. Welche passt, hängt vom Ton der Situation ab."
+    }
+  ]
+}

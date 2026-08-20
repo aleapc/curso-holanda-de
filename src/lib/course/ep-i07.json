@@ -1,0 +1,303 @@
+{
+  "id": "i07",
+  "nivel": "intermediario",
+  "numero": 25,
+  "parte": "I07",
+  "titulo": "Ein Wort, das den Koch aus der Küche holt",
+  "subtitulo": "Loben, danken, und ruhig reklamieren, ohne dass daraus eine Szene wird",
+  "cena": "Der Hauptgang ist gerade angekommen, dampfend und genau richtig — und am Nachbartisch reklamiert gerade jemand ruhig, weil die Suppe kalt war.",
+  "moldura": "ganha",
+  "decisao": "das Lob, das den Koch aus der Küche holt, und die ruhige Reklamation, die das Essen warm zurückbringt, statt einen Streit anzufangen",
+  "emJogo": "ambos",
+  "moldes": ["WIE-LECKER"],
+  "clique": {
+    "contagem": ["Suppe", "Apfelkuchen", "Abend"],
+    "desconto": "Die Suppe, der Apfelkuchen und der Abend bekamen dieselben drei Wörter von Ihnen. Nur das Ding dazwischen wechselte, und das kam schon fertig.",
+    "piso": "Das nächste Mal, wenn Ihnen wirklich etwas schmeckt, warten Sie nicht auf einen langen Satz. Sie sagen Wat een heerlijke und nennen es."
+  },
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-i07-n01",
+      "gesto": 3,
+      "tom": "ganha",
+      "bloco": "aquecimento",
+      "pt": "Derselbe Faustschlag von gestern trägt heute ein Lob — dieselbe Betonung, ein wärmeres Wort."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "bloco": "callback",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i07-p01",
+      "promptPt": "Derselbe Satz wie gestern beim Frühstückstisch, nur diesmal live, mit dem Teller noch dampfend vor sich. Sagen Sie es. Jetzt sprechen.",
+      "audioKey": "hol-i07-t01",
+      "es": "Ik heb heerlijk gegeten.",
+      "pinyin": "ik heb HAYR-lick chuh-CHAY-ten",
+      "pt": "Ich habe köstlich gegessen.",
+      "tts": "Ik heb heerlijk gegeten."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-i07-n02",
+      "tom": "ganha",
+      "bloco": "cena",
+      "pt": "Der Hauptgang steht vor Ihnen, dampfend und richtig. Am Nachbartisch reklamiert jemand ruhig."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-i07-n03",
+      "tom": "ganha",
+      "bloco": "corpo",
+      "pt": "Ein neuer Baustein, geboren genau hier: Wat een heerlijke — und dahinter das Ding, das Sie gerade wirklich begeistert."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-i07-r01",
+      "tom": "ganha",
+      "es": "Wat een heerlijke soep!",
+      "pinyin": "vat ayn HAYR-lij-kuh soop",
+      "pt": "Was für eine köstliche Suppe!",
+      "tts": "Wat een heerlijke soep!"
+    },
+    {
+      "consulta": ["simpatia/elogiar-comida"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "bloco": "molde",
+      "molde": "WIE-LECKER",
+      "encaixe": "soep",
+      "encaixeGloss": "Suppe",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i07-p02",
+      "promptPt": "Der erste Löffel ist besser, als Sie erwartet haben. Sagen Sie es so, dass die Bedienung es weitergibt. Jetzt sprechen.",
+      "audioKey": "hol-i07-t02",
+      "es": "Wat een heerlijke soep!",
+      "pinyin": "vat ayn HAYR-lij-kuh soop",
+      "pt": "Was für eine köstliche Suppe!",
+      "tts": "Wat een heerlijke soep!"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-i07-r02",
+      "tom": "ganha",
+      "es": "Leuk, dat zeg ik door aan de kok.",
+      "pinyin": "löök, dat zech ik dohr aan duh kok",
+      "pt": "Schön, das sage ich dem Koch weiter.",
+      "tts": "Leuk, dat zeg ik door aan de kok.",
+      "receptivo": true,
+      "acao": "Ein Lob geht hier oft direkt in die Küche weiter — deshalb taucht der Koch manchmal kurz danach am Tisch auf."
+    },
+    {
+      "consulta": ["simpatia/elogiar-comida"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "WIE-LECKER",
+      "encaixe": "appeltaart",
+      "encaixeGloss": "Apfelkuchen",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i07-p03",
+      "promptPt": "Der Nachtisch kommt an, warm, mit einer Kugel Sahne obendrauf. Sagen Sie, was Sie davon halten. Jetzt sprechen.",
+      "audioKey": "hol-i07-t03",
+      "es": "Wat een heerlijke appeltaart!",
+      "pinyin": "vat ayn HAYR-lij-kuh AH-pel-taart",
+      "pt": "Was für ein köstlicher Apfelkuchen!",
+      "tts": "Wat een heerlijke appeltaart!"
+    },
+    {
+      "consulta": ["simpatia/elogiar-lugar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "WIE-LECKER",
+      "encaixe": "avond",
+      "encaixeGloss": "Abend",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i07-p04",
+      "promptPt": "Nicht nur der Teller — alles bis jetzt war es wert. Fassen Sie den ganzen Moment in einem Satz zusammen. Jetzt sprechen.",
+      "audioKey": "hol-i07-t04",
+      "es": "Wat een heerlijke avond!",
+      "pinyin": "vat ayn HAYR-lij-kuh AA-vont",
+      "pt": "Was für ein köstlicher Abend!",
+      "tts": "Wat een heerlijke avond!"
+    },
+    {
+      "consulta": ["simpatia/elogiar-comida"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "WIE-LECKER",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i07-p05",
+      "promptPt": "Manchmal reicht keine Zeit für einen ganzen Satz — nur ein kurzer Ausruf, während die Bedienung schon weitergeht. Jetzt sprechen.",
+      "audioKey": "hol-i07-t05",
+      "es": "Wat lekker!",
+      "pinyin": "vat LEK-ker",
+      "pt": "Wie lecker!",
+      "tts": "Wat lekker!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-i07-n04",
+      "tom": "protege",
+      "bloco": "capsula",
+      "pt": "Und wenn etwas nicht stimmt: Eine Reklamation läuft hier meist ruhig und direkt ab."
+    },
+    {
+      "consulta": ["mesa/errado"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "dit is koud",
+      "encaixeGloss": "das ist kalt",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i07-p06",
+      "promptPt": "Der Teller vom Nachbartisch war eben nicht das einzige Problem — Ihre eigene Suppe ist auch schon lauwarm. Sagen Sie es ruhig. Jetzt sprechen.",
+      "audioKey": "hol-i07-t06",
+      "es": "Pardon, dit is koud.",
+      "pinyin": "par-DON, dit is kowt",
+      "pt": "Entschuldigung, das ist kalt.",
+      "tts": "Pardon, dit is koud."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-i07-r03",
+      "tom": "ganha",
+      "es": "Sorry, ik haal het meteen terug.",
+      "pinyin": "SO-rie, ik haal (h)ut me-TEEN te-RUCH",
+      "pt": "Entschuldigung, ich hole es sofort zurück.",
+      "tts": "Sorry, ik haal het meteen terug.",
+      "receptivo": true,
+      "acao": "Ein sofortiges Angebot ist die übliche Reaktion — Sie müssen nicht nachhaken oder sich mehrmals entschuldigen."
+    },
+    {
+      "consulta": ["mesa/errado"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "KONNEN-SIE",
+      "encaixe": "dit opwarmen",
+      "encaixeGloss": "das aufwärmen",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i07-p07",
+      "promptPt": "Statt eines neuen Tellers reicht Ihnen eigentlich schon Wärme. Sagen Sie genau das. Jetzt sprechen.",
+      "audioKey": "hol-i07-t07",
+      "es": "Kunt u dit opwarmen?",
+      "pinyin": "kunt ü dit OP-var-men",
+      "pt": "Können Sie das aufwärmen?",
+      "tts": "Kunt u dit opwarmen?"
+    },
+    {
+      "consulta": ["simpatia/agradecer"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "DANKE",
+      "encaixe": "dank u wel",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i07-p08",
+      "promptPt": "Der Teller kommt warm zurück, und die Sache ist erledigt, ohne dass jemand laut wurde. Bedanken Sie sich. Jetzt sprechen.",
+      "audioKey": "hol-i07-t08",
+      "es": "Dank u wel, nu is het perfect.",
+      "pinyin": "dank ü wel, nü is (h)ut per-FEKT",
+      "pt": "Vielen Dank, jetzt ist es perfekt.",
+      "tts": "Dank u wel, nu is het perfect."
+    },
+    {
+      "consulta": ["mesa/mesa"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "WANN-IST",
+      "encaixe": "de muziek",
+      "encaixeGloss": "die Musik",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i07-p09",
+      "promptPt": "Am Tresen wird gerade eine Bühne aufgebaut, und der Abend ist noch nicht vorbei. Fragen Sie, wann es losgeht. Jetzt sprechen.",
+      "audioKey": "hol-i07-t09",
+      "es": "Hoe laat begint de muziek?",
+      "pinyin": "hoo laat buh-CHINT duh mü-ZEEK",
+      "pt": "Wann fängt die Musik an?",
+      "tts": "Hoe laat begint de muziek?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-i07-n05",
+      "tom": "ganha",
+      "bloco": "permissao",
+      "pt": "Sie dürfen loben, ohne dick aufzutragen, und ruhig reklamieren, ohne unhöflich zu wirken."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-i07-n06",
+      "tom": "ganha",
+      "bloco": "clique",
+      "pt": "Suppe, Apfelkuchen, Abend: dieselben drei Wörter von Ihnen. Nur das Ding dazwischen wechselte."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-i07-s01",
+      "tom": "ganha",
+      "molde": "WIE-LECKER",
+      "es": "Wat een heerlijke soep! Wat een heerlijke appeltaart! Wat een heerlijke avond!",
+      "pinyin": "vat ayn HAYR-lij-kuh soop! vat ayn HAYR-lij-kuh AH-pel-taart! vat ayn HAYR-lij-kuh AA-vont!",
+      "pt": "Schatten Sie drei Lobsätze hintereinander, jeder mit einem neuen Ding.",
+      "tts": "Wat een heerlijke soep! Wat een heerlijke appeltaart! Wat een heerlijke avond!"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_m",
+      "audioKey": "hol-i07-n07",
+      "tom": "ganha",
+      "bloco": "recap",
+      "pt": "I07 fertig. Ein Baustein, der den Koch aus der Küche holt, und eine ruhige Art, es zu sagen, wenn etwas nicht stimmt."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Loben und ruhig reklamieren",
+    "secoes": [
+      {
+        "titulo": "Wat een heerlijke — Lob mit einem Wort dahinter",
+        "corpo": "Dieser Baustein macht aus jedem guten Bissen und jedem guten Abend ein Kompliment, das die Bedienung tatsächlich weitergibt. Er funktioniert für Essen, für Orte, für ganze Momente.",
+        "exemplos": [
+          { "es": "Wat een heerlijke soep!", "pt": "Was für eine köstliche Suppe!" },
+          { "es": "Wat een heerlijke avond!", "pt": "Was für ein köstlicher Abend!" }
+        ]
+      },
+      {
+        "titulo": "Reklamieren ohne Drama",
+        "corpo": "Ein Pardon, ein kurzer Fakt (dit is koud), und eine höfliche Bitte (Kunt u dit opwarmen?) reichen meist völlig. Eine ruhige, direkte Reklamation ist hier normal — sie wird als sachliche Information verstanden, nicht als Angriff."
+      }
+    ]
+  },
+  "slot": "I07",
+  "permissao": "Sie dürfen loben, ohne dick aufzutragen, und ruhig reklamieren, ohne unhöflich zu wirken.",
+  "permissaoAudioKey": "hol-i07-n05",
+  "espelho": "Wer im eigenen Land eine kalte Suppe wortlos isst, um keine Szene zu machen, verpasst hier eine ganz normale, unaufgeregte Möglichkeit, dass sie doch noch warm wird.",
+  "fichasCulturais": [
+    {
+      "sinal": "Sie sagen ruhig 'Pardon, dit is koud', und die Bedienung entschuldigt sich kurz und bringt den Teller sofort zurück in die Küche.",
+      "suaLeitura": "Das war jetzt unangenehm, und ich habe die Stimmung am Tisch gestört.",
+      "oQueEAli": "Eine sachliche, ruhige Reklamation gilt hier als normale Information für die Küche, nicht als Vorwurf oder Konfrontation. Niemand erwartet eine lange Entschuldigung oder ein großes Gespräch darüber.",
+      "oQueVoceFaz": "Ein kurzer Satz reicht: Pardon, dit is koud. Kunt u dit opwarmen? Danach ist das Thema erledigt.",
+      "oQueMelhora": "Sie bekommen ein warmes Essen, ohne dass der Abend davon überschattet wird — und ohne dass Sie sich für die Rückmeldung entschuldigen müssen.",
+      "ondeNaoVale": "In einem sehr formellen Restaurant mit vielen Gängen wird eine Reklamation oft über die Bedienung an den Küchenchef weitergegeben und dort ausführlicher behandelt.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["hol-i07-n04"]
+    }
+  ]
+}

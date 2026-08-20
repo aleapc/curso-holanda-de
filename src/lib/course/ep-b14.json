@@ -1,0 +1,357 @@
+{
+  "id": "b14",
+  "nivel": "basico",
+  "numero": 14,
+  "parte": "B14",
+  "slot": "B14",
+  "titulo": "Mag ik afrekenen — der Moment, in dem der Tisch sich entscheidet",
+  "subtitulo": "Pin oder Bargeld, ein Trinkgeld, das keiner verlangt, und eine App, die die Runde für dich teilt",
+  "cena": "Ein Eetcafé am Abend, die Teller sind weg, jemand am Tisch greift schon zum Handy, und der Kellner sieht kurz herüber.",
+  "moldura": "ganha",
+  "frasePiso": "Mag ik afrekenen, plus eine Zahl, die du laut sagst — das schließt jeden Tisch in diesem Land, egal wer bezahlt.",
+  "fatosDatados": [
+    {
+      "id": "hol-b14-fooi",
+      "afirmacao": "Der Service ist gesetzlich schon im Preis enthalten («inclusief service») — ein Trinkgeld ist nie eine Pflicht, sondern eine freiwillige Anerkennung. Aufrunden oder etwa 5 bis 10 Prozent gilt bereits als großzügig. Zahlst du am Kartenterminal, sagst du den GESAMTBETRAG laut, den du zahlen willst — das Gerät fragt nicht separat nach Trinkgeld, du nennst einfach die runde Summe.",
+      "fonte": "Verbraucherpraxis in den Niederlanden, zusammengefasst aus gastronomischen Verbraucherhinweisen; kein amtlicher Prozentsatz existiert, daher wird hier bewusst eine Spanne statt einer festen Zahl genannt.",
+      "ano": 2024,
+      "revisarAte": "2027-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "hol-b14-n06"
+      ]
+    },
+    {
+      "id": "hol-b14-tikkie",
+      "afirmacao": "Die Rechnung zu teilen («samen of apart», getrennt bezahlen) ist hier kein Fauxpas, sondern gelebter Alltag. Die App Tikkie — eine Zahlungsaufforderung per WhatsApp-Link, verbunden mit ABN AMRO — ist landesweit allgegenwärtig: Hat jemand für dich vorgelegt, bekommst du danach schlicht «een Tikkie» geschickt, statt Bargeld zu wechseln.",
+      "fonte": "Marktnutzung Tikkie/ABN AMRO, gastronomische Alltagspraxis der Niederlande. RESSALVA: die Verbreitung ist beobachtete Nutzung, keine zitierte Statistik.",
+      "ano": 2024,
+      "revisarAte": "2027-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "hol-b14-n07"
+      ]
+    },
+    {
+      "id": "hol-b14-pinnen-tafel",
+      "afirmacao": "Auch am Tisch gilt, was du seit der ersten Stunde weißt: Debitkarte («pinnen») ist der Normalfall, ausländische Kreditkarten werden häufig abgelehnt, besonders wenn das Lokal ein tragbares Terminal an den Tisch bringt statt einer Kasse. Eine Debitkarte plus etwas Bargeld bleibt die sichere Kombination, auch beim Abendessen.",
+      "fonte": "Betaalvereniging Nederland / DNB, Factsheet Toonbankbetalingen 2024 — dieselbe Quelle wie in B06, hier auf den Restauranttisch bezogen.",
+      "ano": 2024,
+      "revisarAte": "2027-08-20",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "hol-b14-n03"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b14-n01",
+      "gesto": 1,
+      "tom": "ganha",
+      "bloco": "aquecimento",
+      "pt": "Ein Takt pro Wort, ruhig: mag ik af-RE-ke-nen. Der Rhythmus trägt die Bitte, kein Zögern nötig."
+    },
+    {
+      "consulta": [
+        "pagar/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "afrekenen",
+      "encaixeGloss": "abrechnen",
+      "bloco": "callback",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b14-p01",
+      "promptPt": "Gestern Abend am Tresen hast du mit genau diesem Baustein den Kaffee bezahlt. Jetzt sitzt der ganze Tisch, die Teller sind leer. Sag es. Sprich jetzt.",
+      "audioKey": "hol-b14-t01",
+      "es": "Mag ik afrekenen?",
+      "pinyin": "mach ik af-RAY-ke-nen?",
+      "pt": "Darf ich abrechnen?",
+      "tts": "Mag ik afrekenen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b14-n02",
+      "tom": "ganha",
+      "bloco": "cena",
+      "pt": "Die Teller sind weg, jemand greift schon zum Handy, und der Kellner sieht kurz herüber. Jetzt entscheidet der Tisch."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b14-r01",
+      "tom": "ganha",
+      "es": "Komt eraan. Samen of apart?",
+      "pinyin": "komt e-RAAN. SAA-men of a-PART?",
+      "pt": "Kommt sofort. Zusammen oder getrennt?",
+      "tts": "Komt eraan. Samen of apart?",
+      "receptivo": true,
+      "acao": "Zwei Wörter zum Erkennen: samen ist zusammen, apart ist getrennt. Entscheidet der Tisch vorher, antwortest du mit nur einem Wort."
+    },
+    {
+      "consulta": [
+        "pagar/rachar"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b14-p02",
+      "promptPt": "Vier Personen, vier verschiedene Gerichte, und keiner will vorstrecken. Sag, wie ihr zahlt. Sprich jetzt.",
+      "audioKey": "hol-b14-t02",
+      "es": "We doen het apart, graag.",
+      "pinyin": "vuh doon het a-PART, chraach",
+      "pt": "Wir machen das getrennt, bitte.",
+      "tts": "We doen het apart, graag."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b14-n03",
+      "tom": "protege",
+      "bloco": "corpo",
+      "pt": "Auch am Tisch gilt die Regel aus B06: pinnen ist der Normalfall, Kredit oft die Ausnahme, besonders am tragbaren Terminal."
+    },
+    {
+      "consulta": [
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b14-p03",
+      "promptPt": "Nur Bargeld im Portemonnaie, und der Kellner bringt schon das kleine Terminal an den Tisch. Frag nach der anderen Möglichkeit. Sprich jetzt.",
+      "audioKey": "hol-b14-t03",
+      "es": "Neemt u ook contant?",
+      "pinyin": "NAY-mt ü ohk kon-TANT?",
+      "pt": "Nehmen Sie auch Bargeld?",
+      "tts": "Neemt u ook contant?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b14-r02",
+      "tom": "ganha",
+      "es": "Ja hoor, contant kan ook. Alleen geen creditcard.",
+      "pinyin": "ya hohr, kon-TANT kan ohk. AL-leen cheen KRE-dit-kaart",
+      "pt": "Klar, Bargeld geht auch. Nur keine Kreditkarte.",
+      "tts": "Ja hoor, contant kan ook. Alleen geen creditcard.",
+      "receptivo": true,
+      "acao": "Zück Debitkarte oder Bargeld — die Kreditkarte lässt du stecken, hier ist das die Ausnahme, kein Sonderfall gegen dich."
+    },
+    {
+      "consulta": [
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b14-p04",
+      "promptPt": "Das Terminal wird zu dir gedreht, und du entscheidest dich für die Debitkarte, nicht das Bargeld in deiner Tasche. Sag es. Sprich jetzt.",
+      "audioKey": "hol-b14-t04",
+      "es": "Ik betaal met pin.",
+      "pinyin": "ik buh-TAAL met pin",
+      "pt": "Ich zahle mit Debitkarte.",
+      "tts": "Ik betaal met pin."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b14-n04",
+      "tom": "ganha",
+      "pt": "Ik betaal met pin ist keine Erklärung — es ist die vollständige Antwort auf jede Zahlungsfrage in diesem Land."
+    },
+    {
+      "consulta": [
+        "pagar/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "de rekening apart",
+      "encaixeGloss": "die Rechnung getrennt",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b14-p05",
+      "promptPt": "Zwei Personen wollen sofort los, zwei bleiben noch für einen Kaffee. Bitte um deinen eigenen Teil. Sprich jetzt.",
+      "audioKey": "hol-b14-t05",
+      "es": "Mag ik de rekening apart?",
+      "pinyin": "mach ik de RAY-ke-ning a-PART?",
+      "pt": "Darf ich die Rechnung getrennt haben?",
+      "tts": "Mag ik de rekening apart?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b14-n05",
+      "tom": "ganha",
+      "pt": "Am Terminal fragt niemand extra nach Trinkgeld. Du sagst laut die Zahl, die du zahlen willst — die Rundung ist dein Trinkgeld."
+    },
+    {
+      "consulta": [
+        "pagar/gorjeta"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b14-p06",
+      "promptPt": "Die Anzeige zeigt eine krumme Summe mit Kommastellen, und du willst lieber den runden Betrag nennen, der wie ein kleines Dankeschön wirkt. Sag ihn laut. Sprich jetzt.",
+      "audioKey": "hol-b14-t06",
+      "es": "Doe maar twintig euro.",
+      "pinyin": "doo maar TVIN-tich Ö-roh",
+      "pt": "Machen Sie einfach zwanzig Euro.",
+      "tts": "Doe maar twintig euro."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b14-n06",
+      "tom": "ganha",
+      "bloco": "capsula",
+      "pt": "Der Service steckt schon im Preis, per Gesetz. Trinkgeld ist freiwillig — aufrunden oder fünf bis zehn Prozent gelten schon als großzügig."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b14-n07",
+      "tom": "ganha",
+      "pt": "Und wenn jemand für dich vorgelegt hat, sagst du nicht zahl mich zurück — du wartest auf einen Link."
+    },
+    {
+      "consulta": [
+        "pagar/rachar"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b14-p07",
+      "promptPt": "Deine Freundin hat die ganze Runde mit ihrer Karte bezahlt, und du hast nur Bargeld übrig, das du eigentlich sparen wolltest. Frag nach dem Link. Sprich jetzt.",
+      "audioKey": "hol-b14-t07",
+      "es": "Stuur je mij een Tikkie?",
+      "pinyin": "stür yuh mäi un TIK-kie?",
+      "pt": "Schickst du mir eine Tikkie?",
+      "tts": "Stuur je mij een Tikkie?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b14-r03",
+      "tom": "ganha",
+      "es": "Ja, ik stuur je zo een Tikkie via WhatsApp.",
+      "pinyin": "ya, ik stür yuh zoh un TIK-kie vee-a VATS-ep",
+      "pt": "Ja, ich schicke dir gleich eine Tikkie über WhatsApp.",
+      "tts": "Ja, ik stuur je zo een Tikkie via WhatsApp.",
+      "receptivo": true,
+      "acao": "Kein Bargeld nötig, kein Wechselgeld zählen. Der Link kommt von selbst, du musst nur antippen."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "DANKE",
+      "encaixe": "dank je wel",
+      "encaixeGloss": "danke schön",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b14-p08",
+      "promptPt": "Alles bezahlt, jeder auf seine Art, keiner musste vorstrecken. Schließ den Abend ab. Sprich jetzt.",
+      "audioKey": "hol-b14-t08",
+      "es": "Dank je wel!",
+      "pinyin": "dank yuh vel!",
+      "pt": "Danke schön!",
+      "tts": "Dank je wel!"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-b14-s01",
+      "tom": "ganha",
+      "es": "Mag ik afrekenen? Ik betaal met pin. Doe maar twintig euro.",
+      "pinyin": "mach ik af-RAY-ke-nen? ik buh-TAAL met pin. doo maar TVIN-tich Ö-roh",
+      "pt": "Schatte die drei Sätze, die jeden Tisch schließen.",
+      "tts": "Mag ik afrekenen? Ik betaal met pin. Doe maar twintig euro."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b14-n09",
+      "tom": "ganha",
+      "bloco": "recap",
+      "pt": "B14 fertig. Mag ik afrekenen, pin statt Kredit, die Rundung als Dank, und eine Tikkie, wenn ein anderer vorlegt."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Der Tisch, die Karte, und der Link, der später kommt",
+    "secoes": [
+      {
+        "titulo": "Mag ik afrekenen, wieder da",
+        "corpo": "Derselbe Baustein aus B11 schließt jetzt den ganzen Tisch, nicht nur eine Tasse. Mag ik afrekenen? · Mag ik de rekening apart? — nur das Ding am Ende wechselt, wie immer.",
+        "exemplos": [
+          {
+            "es": "Mag ik afrekenen?",
+            "pt": "Darf ich abrechnen?"
+          },
+          {
+            "es": "Mag ik de rekening apart?",
+            "pt": "Darf ich die Rechnung getrennt haben?"
+          }
+        ]
+      },
+      {
+        "titulo": "Pin, wieder am Tisch",
+        "corpo": "Was am Kiosk galt, gilt auch beim Abendessen: Debitkarte ist der Normalfall, Kreditkarten werden oft abgelehnt, besonders wenn das Restaurant ein tragbares Terminal an den Tisch bringt statt einer festen Kasse. Ik betaal met pin ist keine Erklärung, sondern die vollständige, erwartete Antwort."
+      },
+      {
+        "titulo": "Die Rundung ist das Trinkgeld",
+        "corpo": "Der Service steckt bereits im ausgewiesenen Preis — Trinkgeld ist immer freiwillig, nie eine Pflichtabgabe. Am Kartenterminal gibt es kein separates Trinkgeldfeld wie in manchen anderen Ländern: Du sagst laut die Summe, die du zahlen willst, und die Differenz zur eigentlichen Rechnung ist deine Anerkennung. Aufrunden oder etwa fünf bis zehn Prozent gilt bereits als großzügig — es gibt keine amtliche Prozentzahl, also keinen Grund, sich unter Druck zu setzen."
+      },
+      {
+        "titulo": "Tikkie, und warum niemand Wechselgeld zählt",
+        "corpo": "Die Rechnung zu teilen ist hier gelebter Alltag, kein Zeichen von Geiz. Legt jemand für die Gruppe vor, folgt meist kein Bargeldtausch am Tisch, sondern eine Tikkie — eine Zahlungsaufforderung per WhatsApp-Link. Stuur je mij een Tikkie? ist die normale Bitte danach, und Antippen genügt, um zurückzuzahlen."
+      }
+    ]
+  },
+  "permissao": "Du musst nicht in der Landeswährung im Kopf umrechnen, um freundlich zu wirken. Doe maar zwanzig Euro ist eine vollständige, übliche Art zu runden — niemand erwartet einen festen Prozentsatz, und niemand ist beleidigt, wenn du den exakten Betrag zahlst. Und du darfst getrennt zahlen wollen, ohne das zu erklären: we doen het apart ist ein gewöhnlicher Satz an jedem Tisch hier.",
+  "permissaoAudioKey": "hol-b14-n06",
+  "fichasCulturais": [
+    {
+      "sinal": "Der Kellner dreht das Kartenterminal zu dir, ohne nach einem Trinkgeldprozentsatz zu fragen, und wartet einfach.",
+      "suaLeitura": "Sie erwarten, dass ich weiß, wie viel ich extra geben soll, und ich stehe jetzt schlecht da, egal was ich sage.",
+      "oQueEAli": "Der Service ist per Gesetz bereits im ausgewiesenen Preis enthalten. Es gibt keinen erwarteten Prozentsatz und kein Trinkgeldfeld auf dem Display — das Terminal fragt nach dem Gesamtbetrag, den du zahlen willst, nicht separat nach einem Trinkgeld.",
+      "oQueVoceFaz": "Sag laut eine runde Zahl, die knapp über der Rechnung liegt — doe maar twintig euro — oder zahl den exakten Betrag. Beides ist normal und niemand rechnet nach.",
+      "oQueMelhora": "Du verlässt das Lokal, ohne im Kopf einen Prozentsatz gerechnet zu haben, und die Geste bleibt eine Geste, kein Pflichtprogramm.",
+      "ondeNaoVale": "In sehr touristischen Lokalen taucht gelegentlich doch ein Trinkgeldfeld am Terminal auf — das ist dann die Ausnahme, keine neue Regel, und du darfst es trotzdem auf null lassen.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "hol-b14-n06"
+      ]
+    },
+    {
+      "sinal": "Deine Freundin bezahlt die ganze Runde mit ihrer Karte, sagt aber nichts von zurückzahlen — und drei Minuten später klingelt dein Handy mit einem WhatsApp-Link.",
+      "suaLeitura": "Das wirkt geschäftsmäßig für Freunde unter sich — als würde eine Rechnung zwischen Bekannten gestellt.",
+      "oQueEAli": "Tikkie ist hier so gewöhnlich wie Wechselgeld zählen anderswo. Es ersetzt das umständliche Auseinanderrechnen an Ort und Stelle, gerade unter Freunden, und niemand liest daraus Misstrauen heraus.",
+      "oQueVoceFaz": "Tipp den Link an und zahl, sobald es dir passt. Willst du selbst vorlegen und später eine Tikkie schicken, ist das genauso normal: stuur je mij een Tikkie? ist eine Bitte, keine Forderung.",
+      "oQueMelhora": "Niemand muss an der Bar nach Kleingeld kramen, und geteilte Abende bleiben unkompliziert, auch zu fünft.",
+      "ondeNaoVale": "In formelleren Situationen — einer Einladung durch Gastgeber zum Beispiel — wird eher gar nicht geteilt; Tikkie gehört zum lockeren Ausgehen unter Gleichgestellten, nicht zu jeder Zahlung.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "hol-b14-n07"
+      ]
+    }
+  ]
+}

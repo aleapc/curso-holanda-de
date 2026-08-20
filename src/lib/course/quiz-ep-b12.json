@@ -1,0 +1,96 @@
+{
+  "id": "q-b12",
+  "nivel": "basico",
+  "titulo": "Quiz — Zonder, und der Teller wird neu gebaut",
+  "subtitulo": "Ein Wort, drei Theken, und der Diphthong, den dein Deutsch nicht hat",
+  "introAudioKey": "hol-b12-q-i",
+  "introPt": "Eine Frittenbude, eine Käsetheke, ein Cafétisch — und dasselbe Wort, das an allen dreien funktioniert.",
+  "cenario": "Sonntagmittag, eine Frittenbude in einer niederländischen Stadt.",
+  "dialogo": [
+    {
+      "audioKey": "hol-b12-q01",
+      "voz": "target_nl_f",
+      "es": "Zonder ui, alstublieft.",
+      "pt": "Ohne Zwiebeln, bitte.",
+      "tts": "Zonder ui, alstublieft."
+    },
+    {
+      "audioKey": "hol-b12-q02",
+      "voz": "target_nl_m",
+      "es": "Zonder ui, komt eraan. Nog iets erbij?",
+      "pt": "Ohne Zwiebeln, kommt sofort. Sonst noch etwas dazu?",
+      "tts": "Zonder ui, komt eraan. Nog iets erbij?"
+    },
+    {
+      "audioKey": "hol-b12-q03",
+      "voz": "target_nl_f",
+      "es": "Heeft u iets zonder prik?",
+      "pt": "Haben Sie etwas ohne Kohlensäure?",
+      "tts": "Heeft u iets zonder prik?"
+    },
+    {
+      "audioKey": "hol-b12-q04",
+      "voz": "target_nl_m",
+      "es": "Ja hoor, plat water of appelsap.",
+      "pt": "Klar, stilles Wasser oder Apfelsaft.",
+      "tts": "Ja hoor, plat water of appelsap."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Was steht nach zonder?",
+      "opcoes": [
+        "Ein kleines Wort, dann das Ding",
+        "Das Ding, ganz kahl, ohne Artikel davor",
+        "Ein Verb",
+        "Immer eine Zahl"
+      ],
+      "correta": 1,
+      "explica": "Zonder ui, zonder suiker, zonder korst — zwei Wörter, keine Beugung. Zonder ist die einzige Stelle im Kurs, an der das Ding völlig kahl kommt."
+    },
+    {
+      "pergunta": "Ist zonder ein Cousin von deinem ohne?",
+      "opcoes": [
+        "Ja, fast identisch",
+        "Nein, es ist neues Vokabular — geen dagegen ist der echte Zwilling von kein",
+        "Ja, aber nur bei Getränken",
+        "Nein, es bedeutet das Gegenteil"
+      ],
+      "correta": 1,
+      "explica": "Zonder klingt nicht wie ohne und muss neu gelernt werden. Geen dagegen klingt fast wie kein und bedeutet genau das — ein Geschenk, kein neues Wort."
+    },
+    {
+      "pergunta": "Wie klingt ⟨ui⟩ in zonder ui?",
+      "opcoes": [
+        "Wie ein deutsches ui",
+        "Ein eigener Diphthong, öü, den dein Deutsch nicht hat",
+        "Wie ein langes u",
+        "Wie ein kurzes i"
+      ],
+      "correta": 1,
+      "explica": "Ui ist [œy] — Lippen gerundet, Zunge vorn, ein Klang ohne Cousin im Deutschen. Zonder ui ist die kürzeste Übung dafür, weil du sie an jeder zweiten Theke sagst."
+    },
+    {
+      "pergunta": "Nog iets erbij? — was tust du?",
+      "opcoes": [
+        "Danke sagen und gehen",
+        "Die Frage nutzen, um gleich das nächste Ding zu bestellen",
+        "Noch einmal langsamer fragen",
+        "Warten, bis sie von selbst weiterspricht"
+      ],
+      "correta": 1,
+      "explica": "Nog iets erbij? ist deine zweite Chance an derselben Theke — nutz sie, statt später noch einmal in der Schlange zu stehen."
+    },
+    {
+      "pergunta": "Ja hoor, plat water of appelsap — was bedeutet plat hier?",
+      "opcoes": [
+        "Flach, im Sinn von platt gedrückt",
+        "Still, ohne Kohlensäure",
+        "Billig",
+        "Warm"
+      ],
+      "correta": 1,
+      "explica": "Plat heißt hier still, nicht flach. Wähl eins der beiden Wörter — plat water oder appelsap — und sag nur das."
+    }
+  ]
+}

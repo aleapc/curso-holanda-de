@@ -1,0 +1,96 @@
+{
+  "id": "q-a08",
+  "nivel": "avancado",
+  "titulo": "Quiz — De laatste ochtend, en de kaart in uw zak",
+  "subtitulo": "Vijf vragen over twee afscheiden, tien openers, twee nummers en de enige regel die niet bij de prijs mag worden opgeteld",
+  "introAudioKey": "de-a08-q-i",
+  "introPt": "Een laatste ochtend op drie drempels, en alles waarvoor de cursus was op één kaart.",
+  "cenario": "De bakker, de balie en de keukendeur, allemaal binnen tweehonderd meter, en later een trein.",
+  "dialogo": [
+    {
+      "audioKey": "de-a08-q01",
+      "voz": "target_de_f",
+      "es": "Es hat sehr gut geschmeckt.",
+      "pt": "Het smaakte heel goed.",
+      "tts": "Es hat sehr gut geschmeckt."
+    },
+    {
+      "audioKey": "de-a08-q02",
+      "voz": "target_de_m",
+      "es": "Das freut mich sehr! Kommen Sie wieder.",
+      "pt": "Dat verheugt me zeer! Komt u terug.",
+      "tts": "Das freut mich sehr! Kommen Sie wieder."
+    },
+    {
+      "audioKey": "de-a08-q03",
+      "voz": "target_de_f",
+      "es": "Vielen Dank für die Woche! Ich komme wieder.",
+      "pt": "Hartelijk dank voor de week! Ik kom terug.",
+      "tts": "Vielen Dank für die Woche! Ich komme wieder."
+    },
+    {
+      "audioKey": "de-a08-q04",
+      "voz": "target_de_m",
+      "es": "Kommen Sie gut nach Hause! Bis zum nächsten Mal.",
+      "pt": "Kom veilig thuis! Tot de volgende keer.",
+      "tts": "Kommen Sie gut nach Hause! Bis zum nächsten Mal."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Waarom leert deze cursus alleen Tschüss en Auf Wiedersehen?",
+      "opcoes": [
+        "Regionale afscheiden gelden als onbeleefd van een buitenlander",
+        "Het zijn de enige twee die in standaard-Duits bestaan",
+        "De verspreiding van de regionale kon niet worden geverifieerd",
+        "De andere zijn beperkt tot Oostenrijk en Zwitserland"
+      ],
+      "correta": 2,
+      "explica": "Het enquêteproject dat had kunnen vaststellen waar Ade, Pfiat di en Servus daadwerkelijk worden gebruikt, publiceerde zijn afscheidkaarten zonder bijschrift en met een regel dat de tekst nog komt. De etymologieën staan vast in woordenboeken; de geografie niet. Dus de cursus leert de neutrale en de formele en beweert niets over de rest."
+    },
+    {
+      "pergunta": "U belt 112 in Duitsland. Wie neemt op?",
+      "opcoes": [
+        "Eén dienst die politie, brand of ambulance stuurt",
+        "De brandweer en de ambulance — de politie is 110",
+        "De huisartsenspoedpost",
+        "Een Engelstalige lijn voor buitenlandse bezoekers"
+      ],
+      "correta": 1,
+      "explica": "Er zijn twee nummers, en dit is het detail dat een bezoeker uit een land met één nummer zonder aankomt: 112 is brand en ambulance, 110 is de politie, en 112 verbindt u niet met hen door. Een derde, 116117, dekt wat u naar een spreekkamer zou brengen wanneer die dicht is — en de eigen Engelse pagina zegt dat de dienst alleen in het Duits beschikbaar is."
+    },
+    {
+      "pergunta": "Het schap zegt 0,99 € en de kassa vraagt 1,24 €. Wat is er gebeurd?",
+      "opcoes": [
+        "De btw is aan de kassa toegevoegd",
+        "De prijs was verkeerd geëtiketteerd",
+        "Het statiegeld op de verpakking, dat volgens de wet niet bij de prijs mag worden opgeteld",
+        "Een servicekosten voor kaartbetalingen"
+      ],
+      "correta": 2,
+      "explica": "De prijsregels vereisen de totaalprijs inclusief btw, en vereisen apart dat het statiegeld naast die totaalprijs wordt vermeld en uitdrukkelijk níét erin wordt gevouwen. Beide getallen zijn correct, en het gat is een regel die wordt nageleefd, geen truc."
+    },
+    {
+      "pergunta": "Het verlaagde 7-procenttarief kwam terug voor restauranteten op 1 januari 2026. Waar ziet een gast het?",
+      "opcoes": [
+        "Als een aparte regel op de rekening",
+        "Nergens — de getoonde prijs is de totaalprijs, inclusief btw",
+        "Toegevoegd aan de kassa, zoals een omzetbelasting",
+        "Alleen op kaartbonnen"
+      ],
+      "correta": 1,
+      "explica": "Omdat de wet totaalprijzen inclusief btw eist, ziet de klant nooit een tarief, alleen één getal. Dranken bleven op 19 procent staan, en die verandering is op de rekening even onzichtbaar."
+    },
+    {
+      "pergunta": "Waarom overhandigde elke bouwsteen in deze cursus u het zelfstandig naamwoord met zijn lidwoord er al aan?",
+      "opcoes": [
+        "Omdat Duitse naamwoorden altijd met een lidwoord worden gebruikt",
+        "Omdat het lidwoord verandert met het werk dat het naamwoord doet, en u dat nooit hoefde uit te rekenen",
+        "Omdat het lidwoord de klemtoon van de zin draagt",
+        "Omdat de zin daardoor beleefder wordt"
+      ],
+      "correta": 1,
+      "explica": "Einen Tisch, ein Zimmer, eine Bäckerei — geleerd als geheel, zoals u een telefoonnummer leert. De markering zit op het lidwoord en verandert met de rol van het naamwoord in de zin, en een reiziger vragen dat aan een toonbank te beslissen is het ene wat de methode weigert te doen."
+    }
+  ]
+}

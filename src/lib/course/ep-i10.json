@@ -1,0 +1,321 @@
+{
+  "id": "i10",
+  "nivel": "intermediario",
+  "numero": 28,
+  "parte": "I10",
+  "titulo": "Rechnung, Rundung, Rachen — Geld ohne Drama",
+  "subtitulo": "Kein Trinkgeldzwang, geteilte Rechnungen per App, und ein letztes Wort darüber, welche Sprache Sie zuerst versuchen",
+  "cena": "Die Rechnung landet am Kartenlesegerät, ohne eine Zeile für Trinkgeld, und alle am Tisch schauen sich kurz an, wer was beisteuert.",
+  "moldura": "ganha",
+  "decisao": "wie viel Trinkgeld, ob Sie teilen, und ob Sie überhaupt handeln — alles gerahmt als 'so funktioniert es hier', nicht als Regel, die Sie brechen könnten",
+  "emJogo": "dinheiro",
+  "frasePiso": "Sie bezahlen eine ganze Reise lang, ohne einmal unsicher am Tisch zu sitzen, wie viel Trinkgeld richtig ist. Die meisten Reisenden rechnen die ganze Zeit nach amerikanischem Maßstab und liegen jedes Mal daneben.",
+  "fatosDatados": [
+    {
+      "id": "hol-i10-fooi",
+      "afirmacao": "Der Service ist in den Niederlanden gesetzlich bereits im ausgewiesenen Preis enthalten (inclusief service) — es gibt keine Trinkgeldpflicht. Ein Trinkgeld ist eine freiwillige Anerkennung: Aufrunden oder etwa fünf bis zehn Prozent gelten bereits als großzügig. Beim Bezahlen mit der Karte (PIN) nennt man dem Personal laut den GESAMTBETRAG, auf den aufgerundet werden soll, statt eine separate Trinkgeldzeile auszufüllen.",
+      "fonte": "Consumentenbond en horeca-brancheafspraken NL (servicegeld wettelijk in de rekening inbegrepen, geen fooiplicht); praktijk beschreven op Holland.com en in reisgidsen over pinbetalingen.",
+      "ano": 2026,
+      "revisarAte": "2028-08-20",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": ["hol-i10-n03"]
+    },
+    {
+      "id": "hol-i10-tikkie",
+      "afirmacao": "Rechnungen zu teilen ('ieder betaalt voor zich', sinngemäß 'go Dutch') ist hier kultureller Normalfall, kein Zeichen von Geiz. Die App Tikkie von ABN AMRO — eine Zahlungsanfrage per WhatsApp oder Link — ist im Alltag allgegenwärtig: Hat jemand für Sie ausgelegt, bekommen Sie meist kurz danach ein Tikkie geschickt, statt dass Bargeld den Tisch macht.",
+      "fonte": "ABN AMRO (Tikkie, seit 2016 im Markt); breite Marktnutzung, dokumentiert in niederländischen Konsumentenberichten und Presseartikeln zum Zahlungsverhalten.",
+      "ano": 2026,
+      "revisarAte": "2028-08-20",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": ["hol-i10-n05"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-i10-n01",
+      "gesto": 4,
+      "tom": "ganha",
+      "bloco": "aquecimento",
+      "pt": "Derselbe Faustschlag trägt heute ein neues Thema: Geld."
+    },
+    {
+      "consulta": ["pagar/dinheiro"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "bloco": "callback",
+      "molde": "ICH-SUCHE",
+      "encaixe": "een pinautomaat",
+      "encaixeGloss": "einen Geldautomaten",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i10-p01",
+      "promptPt": "Derselbe Baustein wie auf dem Markt, nur diesmal, weil Sie etwas Bargeld für später möchten. Fragen Sie danach. Jetzt sprechen.",
+      "audioKey": "hol-i10-t01",
+      "es": "Ik zoek een pinautomaat.",
+      "pinyin": "ik zook ayn PIN-ow-toh-maat",
+      "pt": "Ich suche einen Geldautomaten.",
+      "tts": "Ik zoek een pinautomaat."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-i10-r01",
+      "tom": "ganha",
+      "es": "Dat is dan achttien euro vijftig.",
+      "pinyin": "dat is dan ACHT-teen OY-roh FAIF-tich",
+      "pt": "Das macht dann achtzehn Euro fünfzig.",
+      "tts": "Dat is dan achttien euro vijftig."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-i10-n02",
+      "tom": "ganha",
+      "bloco": "cena",
+      "pt": "Keine Trinkgeldzeile auf dem Display, kein Prozentfeld — nur eine Zahl, und alle am Tisch schauen sich kurz an."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-i10-n03",
+      "tom": "protege",
+      "bloco": "corpo",
+      "pt": "Der Service steckt hier gesetzlich schon im Preis. Trinkgeld ist freiwillig — Aufrunden reicht schon."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i10-p02",
+      "promptPt": "Bei der Kartenzahlung gibt es kein Feld zum Ausfüllen — Sie nennen einfach die Zahl, auf die aufgerundet werden soll. Jetzt sprechen.",
+      "audioKey": "hol-i10-t02",
+      "es": "Doe er twintig euro van, alstublieft.",
+      "pinyin": "doo er TVIN-tich OY-roh fan, al-stü-BLEEFT",
+      "pt": "Runden Sie es bitte auf zwanzig Euro auf.",
+      "tts": "Doe er twintig euro van, alstublieft."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-i10-r02",
+      "tom": "ganha",
+      "es": "Prima, dank u wel!",
+      "pinyin": "PREE-ma, dank ü wel",
+      "pt": "Gut, vielen Dank!",
+      "tts": "Prima, dank u wel!",
+      "receptivo": true,
+      "acao": "Eine einzige Zahl reicht als ganze Trinkgeldentscheidung — niemand erwartet eine Prozentrechnung im Kopf."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-i10-n04",
+      "tom": "ganha",
+      "bloco": "capsula",
+      "pt": "Zahlt jemand am Tisch für Sie mit, folgt oft keine Bargeldübergabe — nur eine kurze App-Anfrage."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i10-p03",
+      "promptPt": "Die Rechnung ist schon bezahlt, aber nicht von Ihnen. Kündigen Sie an, wie Sie es später zurückgeben. Jetzt sprechen.",
+      "audioKey": "hol-i10-t03",
+      "es": "Ik stuur je zo een Tikkie.",
+      "pinyin": "ik stör yuh zoh ayn TIK-kee",
+      "pt": "Ich schicke dir gleich ein Tikkie.",
+      "tts": "Ik stuur je zo een Tikkie."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-i10-n05",
+      "tom": "ganha",
+      "pt": "Ein Wochenende später, auf dem Flohmarkt: Hier trifft dieselbe Frage einen ganz anderen Kontext."
+    },
+    {
+      "consulta": ["compras/quanto"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "WAS-KOSTET",
+      "encaixe": "deze sjaal",
+      "encaixeGloss": "dieser Schal",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i10-p04",
+      "promptPt": "Kein Preisschild am Stand, nur ein Berg Stoff und ein Verkäufer, der Sie erwartungsvoll ansieht. Fragen Sie nach. Jetzt sprechen.",
+      "audioKey": "hol-i10-t04",
+      "es": "Hoeveel kost deze sjaal?",
+      "pinyin": "hoo-FAYL kost DAY-zuh SHAAL",
+      "pt": "Wie viel kostet dieser Schal?",
+      "tts": "Hoeveel kost deze sjaal?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-i10-r03",
+      "tom": "ganha",
+      "es": "Tien euro, of twee voor achttien.",
+      "pinyin": "teen OY-roh, of tvay for ACHT-teen",
+      "pt": "Zehn Euro, oder zwei für achtzehn.",
+      "tts": "Tien euro, of twee voor achttien."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-i10-n06",
+      "tom": "ganha",
+      "pt": "Ein zweiter Preis für zwei Stück ist normale Verkaufslogik, kein Signal zum Feilschen."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i10-p05",
+      "promptPt": "Der Preis ist fair, und ein zweites Angebot bräuchten Sie ohnehin nicht. Nehmen Sie ihn an, freundlich und ohne Umwege. Jetzt sprechen.",
+      "audioKey": "hol-i10-t05",
+      "es": "Dat is prima, dank u wel.",
+      "pinyin": "dat is PREE-ma, dank ü wel",
+      "pt": "Das ist in Ordnung, vielen Dank.",
+      "tts": "Dat is prima, dank u wel."
+    },
+    {
+      "consulta": ["simpatia/elogiar-lugar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ICH-MAG",
+      "encaixe": "deze rommelmarkt",
+      "encaixeGloss": "diesen Flohmarkt",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i10-p06",
+      "promptPt": "Der Baustein aus der Hostelküche passt auch hier, zwischen zwei Ständen voller alter Dinge. Sagen Sie, was Ihnen daran gefällt. Jetzt sprechen.",
+      "audioKey": "hol-i10-t06",
+      "es": "Ik hou van deze rommelmarkt.",
+      "pinyin": "ik how fan DAY-zuh ROM-mel-markt",
+      "pt": "Ich mag diesen Flohmarkt.",
+      "tts": "Ik hou van deze rommelmarkt."
+    },
+    {
+      "consulta": ["compras/pagar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "HABEN-SIE",
+      "encaixe": "ook kleingeld",
+      "encaixeGloss": "auch Kleingeld",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i10-p07",
+      "promptPt": "Nur ein großer Schein steckt in Ihrer Tasche, und der Verkäufer wechselt sichtlich ungern. Fragen Sie, ob es auch anders geht. Jetzt sprechen.",
+      "audioKey": "hol-i10-t07",
+      "es": "Heeft u ook kleingeld?",
+      "pinyin": "HÉÉFT ü ohk KLAIN-chelt",
+      "pt": "Haben Sie auch Kleingeld?",
+      "tts": "Heeft u ook kleingeld?"
+    },
+    {
+      "consulta": ["simpatia/agradecer"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "DANKE",
+      "encaixe": "dank u wel, tot ziens",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i10-p08",
+      "promptPt": "Der Handel ist geschlossen, der Schal ist eingepackt. Schließen Sie mit einem letzten Satz ab. Jetzt sprechen.",
+      "audioKey": "hol-i10-t08",
+      "es": "Dank u wel, tot ziens!",
+      "pinyin": "dank ü wel, tot zeens",
+      "pt": "Vielen Dank, auf Wiedersehen!",
+      "tts": "Dank u wel, tot ziens!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-i10-n07",
+      "tom": "ganha",
+      "bloco": "permissao",
+      "pt": "Sie dürfen aufrunden statt rechnen, und einen fairen Preis annehmen, ohne zu handeln."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-i10-n08",
+      "tom": "ganha",
+      "bloco": "espelho",
+      "pt": "Ein letztes Wort: Deutsch als erster Satz kann wie eine Annahme wirken. Sicherer sind Englisch oder Niederländisch."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-i10-s01",
+      "tom": "ganha",
+      "molde": "WAS-KOSTET",
+      "es": "Hoeveel kost deze sjaal? Dat is prima, dank u wel. Ik hou van deze rommelmarkt.",
+      "pinyin": "hoo-FAYL kost DAY-zuh SHAAL? dat is PREE-ma, dank ü wel. ik how fan DAY-zuh ROM-mel-markt.",
+      "pt": "Schatten Sie den ganzen Flohmarktbesuch: fragen, annehmen, loben.",
+      "tts": "Hoeveel kost deze sjaal? Dat is prima, dank u wel. Ik hou van deze rommelmarkt."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_m",
+      "audioKey": "hol-i10-n09",
+      "tom": "ganha",
+      "bloco": "recap",
+      "pt": "I10 und APROVEITO sind fertig. Aufrunden, ein Tikkie statt Bargeld, und der erste Satz auf Englisch oder Niederländisch."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Geld ohne Drama, und ein letztes Wort zur Sprache",
+    "secoes": [
+      {
+        "titulo": "Trinkgeld: aufrunden reicht",
+        "corpo": "Der Service ist in den Niederlanden gesetzlich bereits im ausgewiesenen Preis enthalten. Ein Trinkgeld ist eine freiwillige Anerkennung — Aufrunden oder fünf bis zehn Prozent gelten schon als großzügig, keine feste Erwartung wie in manchen anderen Ländern.",
+        "exemplos": [
+          { "es": "Doe er twintig euro van, alstublieft.", "pt": "Runden Sie es bitte auf zwanzig Euro auf." }
+        ]
+      },
+      {
+        "titulo": "Tikkie: Rechnungen teilen ohne Bargeld",
+        "corpo": "Rechnungen zu teilen ist hier kultureller Normalfall. Die App Tikkie macht daraus eine kurze Zahlungsanfrage per Link statt einer Bargeldübergabe am Tisch — praktisch für Gruppen, und niemand empfindet es als unpersönlich."
+      },
+      {
+        "titulo": "Warum der erste Satz nicht Deutsch ist",
+        "corpo": "Die Niederlande liegen international an der Spitze bei Englischkenntnissen, und viele verstehen zumindest etwas Deutsch. Trotzdem: Ein Fremder, der Sie sofort auf Deutsch anspricht, kann unbeabsichtigt wie eine Annahme wirken. Englisch oder ein paar Wörter Niederländisch sind der sicherere erste Schritt — und ein echter Versuch auf Niederländisch, und sei es nur dank u wel, wird hier tatsächlich bemerkt und honoriert."
+      }
+    ]
+  },
+  "slot": "I10",
+  "permissao": "Sie dürfen aufrunden statt rechnen, und einen fairen Preis annehmen, ohne zu handeln.",
+  "permissaoAudioKey": "hol-i10-n07",
+  "espelho": "Ein Fremder auf Deutsch anzusprechen kann hier wie eine stille Annahme wirken. Der sicherere erste Satz ist Englisch — oder eben Niederländisch.",
+  "fichasCulturais": [
+    {
+      "sinal": "Die Rechnung kommt am Kartenlesegerät an, ohne Feld für Trinkgeld und ohne Prozentvorschlag.",
+      "suaLeitura": "Vielleicht ist Trinkgeld hier unüblich, oder ich mache etwas falsch, wenn ich danach frage.",
+      "oQueEAli": "Der Service ist gesetzlich bereits im Preis enthalten. Ein Trinkgeld ist eine freiwillige, kleine Anerkennung — kein Pflichtanteil und keine Prozentrechnung, die jemand von Ihnen erwartet.",
+      "oQueVoceFaz": "Nennen Sie beim Bezahlen laut die Zahl, auf die aufgerundet werden soll: Doe er twintig euro van.",
+      "oQueMelhora": "Sie zahlen entspannt, ohne im Kopf Prozente von einer fremden Währung auszurechnen, und niemand erwartet mehr von Ihnen.",
+      "ondeNaoVale": "In sehr touristischen Lokalen mit internationalem Publikum taucht mancherorts inzwischen doch ein Trinkgeldfeld am Terminal auf — dort gilt dieselbe Freiwilligkeit, nur mit mehr Papier drumherum.",
+      "evidencia": "FATO",
+      "audioKeys": ["hol-i10-n03"]
+    },
+    {
+      "sinal": "Jemand bezahlt für die ganze Gruppe, und statt Bargeld einzusammeln, tippt die Person kurz auf ihrem Handy.",
+      "suaLeitura": "Das wirkt distanziert, fast wie eine offizielle Rechnung unter Freunden.",
+      "oQueEAli": "Rechnungen zu teilen ist hier ein selbstverständlicher Wert. Die App Tikkie schickt eine kurze Zahlungsanfrage per Link — schnell, genau, ohne dass jemand Wechselgeld für fünf Personen suchen muss.",
+      "oQueVoceFaz": "Zahlen Sie die Anfrage zeitnah, wenn Sie eine bekommen, und stellen Sie selbst eine, wenn Sie ausgelegt haben.",
+      "oQueMelhora": "Der Abend endet ohne Kopfrechnen am Tisch, und die Freundschaft trägt keine offene Rechnung mit sich herum.",
+      "ondeNaoVale": "Unter sehr engen Freunden wird oft gar nicht geteilt — dort übernimmt reihum einfach jemand die ganze Rechnung, ohne dass mitgezählt wird.",
+      "evidencia": "FATO",
+      "audioKeys": ["hol-i10-n05"]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "q-b14",
+  "nivel": "basico",
+  "titulo": "Quiz — Zahlen, bitte, en de twee rechtsgeldige bordjes",
+  "subtitulo": "Om de rekening vragen, de kaart controleren vóór de maaltijd, en een afronding die niemand van u kan eisen",
+  "introAudioKey": "de-b14-q-i",
+  "introPt": "Een tafel sluit af: er wordt om de rekening gevraagd, de splitsing valt in één woord, en het totaal wordt afgerond of niet.",
+  "cenario": "Het einde van de lunch in een Gaststätte, met een kaartterminal op de balie en een bordje ernaast.",
+  "dialogo": [
+    {
+      "audioKey": "de-b14-q01",
+      "voz": "target_de_f",
+      "es": "Zahlen, bitte. Nehmen Sie Karte?",
+      "pt": "De rekening, alstublieft. Neemt u kaart aan?",
+      "tts": "Zahlen, bitte. Nehmen Sie Karte?"
+    },
+    {
+      "audioKey": "de-b14-q02",
+      "voz": "target_de_m",
+      "es": "Tut mir leid, nur Bargeld. Zusammen oder getrennt?",
+      "pt": "Het spijt me, alleen contant. Samen of apart?",
+      "tts": "Tut mir leid, nur Bargeld. Zusammen oder getrennt?"
+    },
+    {
+      "audioKey": "de-b14-q03",
+      "voz": "target_de_f",
+      "es": "Zusammen, bitte.",
+      "pt": "Samen, alstublieft.",
+      "tts": "Zusammen, bitte."
+    },
+    {
+      "audioKey": "de-b14-q04",
+      "voz": "target_de_m",
+      "es": "Das macht dreiunddreißig Euro vierzig.",
+      "pt": "Dat is drieëndertig euro veertig.",
+      "tts": "Das macht dreiunddreißig Euro vierzig."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Het bordje zegt nur Bargeld. Wat is uw positie?",
+      "opcoes": [
+        "De zaak overtreedt een regel en kan gevraagd worden de kaart aan te nemen",
+        "Het is legaal — geen Duitse wet verplicht iemand een kaart te accepteren",
+        "Het is alleen legaal bij zaken onder een bepaalde omvang",
+        "Het hangt af van het bedrag dat u betaalt"
+      ],
+      "correta": 1,
+      "explica": "Eurobankbiljetten zijn onder § 14 van de Bundesbankwet het enige onbeperkte wettige betaalmiddel, en er is geen plicht om een kaart aan te nemen. Het spiegelbordje, alleen kaart, is ook legaal."
+    },
+    {
+      "pergunta": "Wanneer is het beste moment om Nehmen Sie Karte? te vragen?",
+      "opcoes": [
+        "Als de rekening komt",
+        "Bij de deur, vóór u gaat zitten of bestelt",
+        "Zodra u ziet of er een terminal is",
+        "Alleen bij zaken die klein lijken"
+      ],
+      "correta": 1,
+      "explica": "Dat is het moment waarop u nog kunt kiezen waar u uitgeeft. Daarna blijft alleen een pinautomaat zoeken over terwijl uw tafel wacht."
+    },
+    {
+      "pergunta": "De kaart zei 12,50 voor het gerecht. Wat staat er op de bon?",
+      "opcoes": [
+        "12,50 plus btw aan de kassa",
+        "12,50, want de getoonde prijs moet btw bevatten",
+        "12,50 plus een servicecomponent",
+        "Het varieert met het tarief op eten"
+      ],
+      "correta": 1,
+      "explica": "De prijsregeling verplicht de Gesamtpreis — het totaal inclusief btw en elke andere component. U ziet nooit 7% of 19% apart, ook al veranderde het tarief op restaurantdiensten op 1 januari 2026."
+    },
+    {
+      "pergunta": "Hoeveel bent u verplicht als fooi te geven?",
+      "opcoes": [
+        "Tussen vijf en tien procent",
+        "Wat de terminal voorstelt",
+        "Niets — de belastingcode moet het vrijwillig noemen om het vrij te stellen",
+        "Tien procent in restaurants, minder aan een balie"
+      ],
+      "correta": 2,
+      "explica": "§ 3 Nr. 51 van de Wet inkomstenbelasting stelt fooien alleen vrij nadat is verklaard dat ze vrijwillig zijn gegeven, zonder wettelijke aanspraak, en bovenop het bedrag dat verschuldigd is. De 5–10% die u elders leest komt uit een enquête in opdracht van een bedrijf dat fooi-terminals verkoopt."
+    },
+    {
+      "pergunta": "«Das macht dreiunddreißig Euro vierzig.» Hoeveel is dat?",
+      "opcoes": [
+        "43,30",
+        "33,40",
+        "23,40",
+        "33,14"
+      ],
+      "correta": 1,
+      "explica": "Drei-und-dreißig is drieëndertig — precies zoals u het in het Nederlands zegt. Eerst de eenheden, dan de tientallen; die volgorde komt gratis mee."
+    }
+  ]
+}

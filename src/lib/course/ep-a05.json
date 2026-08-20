@@ -1,0 +1,321 @@
+{
+  "id": "a05",
+  "nivel": "avancado",
+  "numero": 33,
+  "parte": "A05",
+  "titulo": "Fryslân, wo ein zweites Straßenschild auf dich wartet",
+  "subtitulo": "Weltmeister im Englisch seit sechs Jahren in Folge, ein Nachbarland, das man eher versteht als spricht, und ein zweites, ganz eigenes Amtssprachenschild",
+  "slot": "A05",
+  "moldura": "ganha",
+  "cena": "Du bestellst gerade auf Niederländisch, kommst ins Stocken, und bevor du das nächste Wort suchst, antwortet die Frau am Tresen schon fließend auf Englisch.",
+  "frasePiso": "Öffne mit «Sorry» und Englisch oder Niederländisch, nie mit Deutsch als erstem Wort an einem Tresen — und du hast das ganze Kapitel schon richtig gemacht.",
+  "permissao": "Du musst nicht erraten, welche Sprache gerade passt. Ein kurzes «Spreekt u Engels?» ist überall ein völlig normaler Satz, und niemand hört darin, dass du aufgegeben hast — im Gegenteil, du hast gerade zuerst auf Niederländisch angesetzt, und das zählt bereits.",
+  "permissaoAudioKey": "hol-a05-n10",
+  "espelho": "Jeder, der in einem Grenzgebiet schon erlebt hat, wie ein Nachbar mühelos zwischen zwei Sprachen wechselt, ohne dass eine davon die eigene ist, kennt dieses Gefühl bereits. Neu ist hier nur, wie schnell der Wechsel kommt, und wie wenig er über dein Niederländisch aussagt.",
+  "fichasCulturais": [
+    {
+      "sinal": "Du sprichst einen Fremden auf der Straße direkt auf Deutsch an, und die Antwort fällt spürbar kürzer aus als erwartet.",
+      "suaLeitura": "Mein Deutsch kam falsch an, oder die Person hat schlechte Laune.",
+      "oQueEAli": "Die beiden Sprachen liegen so nah beieinander, dass ein Deutsch-Auftakt bei einer fremden Person leicht wie die Annahme klingt, die Niederlande seien eine Art Erweiterung Deutschlands — ein historisch heikler Unterton, den du nicht meinst, der aber leicht mitschwingt. Ein Einstieg auf Englisch oder Niederländisch gilt als der sichere Weg.",
+      "oQueVoceFaz": "Öffne mit «Sorry» plus Englisch oder deinem Niederländisch, nie mit Deutsch als erstem Wort bei einer unbekannten Person. Sobald ein Gespräch läuft und dein Deutsch von der anderen Seite angeboten wird, ist es völlig unproblematisch.",
+      "oQueMelhora": "Ein kurzer, kühler erster Moment verschwindet komplett, und du hast dazu noch den Bonus, dass ein Versuch auf Niederländisch hier echte Sympathie kauft.",
+      "ondeNaoVale": "In Grenzregionen, unter älteren Sprechern oder sobald ihr euch schon kennt, wird Deutsch oft ganz selbstverständlich verwendet — die Regel gilt für den ersten Satz mit einer fremden Person, nicht für jedes Gespräch danach.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "hol-a05-n06",
+        "hol-a05-n07"
+      ]
+    },
+    {
+      "sinal": "In Friesland stehen die Straßenschilder mit zwei Namen übereinander, und im Café unterhalten sich zwei Leute in einer Sprache, die weder Niederländisch noch Deutsch ist.",
+      "suaLeitura": "Das ist ein Dialekt oder einfach schlecht ausgesprochenes Niederländisch.",
+      "oQueEAli": "Das ist Westfriesisch (Frysk), eine eigenständige, amtlich anerkannte Sprache mit eigener Grammatik und Rechtschreibung, die in der Provinz Friesland Schulunterricht und offizielle Dokumente einschließt. Rund 400.000 Menschen sprechen sie dort im Alltag.",
+      "oQueVoceFaz": "Nimm die zweisprachigen Schilder als Hinweis, wo du bist, nicht als Fehler auf der Karte — und frag ruhig nach, was ein friesisches Wort bedeutet, wenn es dir auffällt.",
+      "oQueMelhora": "Ein Land, das du für sprachlich einheitlich hieltest, wird mit einem Blick auf ein Straßenschild plötzlich interessanter, und ein «Wat betekent dat?» öffnet fast immer ein Gespräch.",
+      "ondeNaoVale": "Außerhalb von Friesland begegnet dir Westfriesisch praktisch nie — die zweisprachigen Schilder und das Alltagsgespräch darin sind an diese eine Provinz gebunden, nicht an das ganze Land.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "hol-a05-n08",
+        "hol-a05-n09"
+      ]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "hol-a05-englisch",
+      "afirmacao": "Die Niederlande stehen im EF English Proficiency Index 2024 auf Platz 1 von 113 Ländern, mit 636 Punkten — das sechste Jahr in Folge an der Spitze. Das Land wechselt beim kleinsten Anzeichen von Schwierigkeit oft von sich aus ins Englische, unabhängig davon, wie gut dein Niederländisch schon ist.",
+      "fonte": "EF Education First, EF English Proficiency Index 2024 (globales Länderranking, veröffentlicht von EF EPI).",
+      "ano": 2024,
+      "revisarAte": "2027-08-20",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "hol-a05-n02",
+        "hol-a05-n03"
+      ]
+    },
+    {
+      "id": "hol-a05-deutsch-verstehen",
+      "afirmacao": "Schätzungsweise um die 71 Prozent können sich auf Deutsch mehr oder weniger verständigen — eine Größenordnung, keine Volkszählungszahl —, und das Verstehen ist deutlich asymmetrisch: Niederländer verstehen gesprochenes Deutsch im Schnitt besser, als Deutsche gesprochenes Niederländisch verstehen.",
+      "fonte": "Kursinterne Recherche zu Sprachkompetenz-Schätzungen im deutsch-niederländischen Sprachpaar (Größenordnungsangabe, kein Einzelbeleg mit Volkszählungscharakter).",
+      "ano": 2024,
+      "revisarAte": "2027-08-20",
+      "evidencia": "INFERENCIA",
+      "risco": "medio",
+      "audioKeys": [
+        "hol-a05-n04",
+        "hol-a05-n05"
+      ]
+    },
+    {
+      "id": "hol-a05-fries",
+      "afirmacao": "Westfriesisch (Frysk) ist eine eigene, amtlich anerkannte Sprache und in der Provinz Friesland neben Niederländisch offizielle Verwaltungs- und Unterrichtssprache. Rund 400.000 Menschen sprechen es dort im Alltag.",
+      "fonte": "Minority Rights Group International, Themenseite «Frisians in the Netherlands»; ergänzende Angaben aus sprachwissenschaftlichen Standardnachschlagewerken zum Westfriesischen.",
+      "ano": 2024,
+      "revisarAte": "2029-08-20",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "hol-a05-n08"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a05-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "Zwei andere Sprachen warten hier auf dich. Die eine ist Englisch. Die andere hat ein eigenes Straßenschild."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a05-n02",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Erstens: Englisch. Das Land steht seit sechs Jahren in Folge auf Platz eins der Welt."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_f",
+      "audioKey": "hol-a05-r01",
+      "tom": "ganha",
+      "receptivo": true,
+      "acao": "Der Wechsel wird angeboten, nicht verlangt. Nimm ihn an, wenn es schneller geht, oder bleib beim Niederländischen, wenn du üben willst.",
+      "es": "Zal ik het in het Engels proberen? Dat gaat misschien sneller.",
+      "pinyin": "zal ik het in het ENG-els PRO-be-ren? dat chaat mis-schien SNEL-ler",
+      "pt": "Soll ich es auf Englisch versuchen? Das geht vielleicht schneller.",
+      "tts": "Zal ik het in het Engels proberen? Dat gaat misschien sneller."
+    },
+    {
+      "consulta": [
+        "reparo/ingles"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-a05-p01",
+      "promptPt": "Du willst lieber beim Niederländischen bleiben, auch wenn es langsamer geht. Sag genau das, ehrlich und knapp. Sprich jetzt.",
+      "audioKey": "hol-a05-t01",
+      "es": "Ik wil het graag in het Nederlands proberen.",
+      "pinyin": "ik vil het chraach in het NÉÉ-der-lants PRO-be-ren",
+      "pt": "Ich möchte es gern auf Niederländisch versuchen.",
+      "tts": "Ik wil het graag in het Nederlands proberen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a05-n03",
+      "tom": "ganha",
+      "pt": "Der Wechsel kommt oft schon beim kleinsten Stocken — unabhängig davon, wie gut dein Niederländisch wirklich ist."
+    },
+    {
+      "consulta": [
+        "reparo/como-se-diz"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-a05-p02",
+      "promptPt": "Am Tresen kommst du gerade nicht weiter und willst höflich nach Englisch fragen. Sprich jetzt.",
+      "audioKey": "hol-a05-t02",
+      "es": "Spreekt u Engels?",
+      "pinyin": "SPRAYKT ü ENG-els",
+      "pt": "Sprechen Sie Englisch?",
+      "tts": "Spreekt u Engels?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a05-n04",
+      "tom": "ganha",
+      "pt": "Zweitens: Deutsch selbst. Eine grobe Schätzung sagt, rund einundsiebzig Prozent verständigen sich einigermaßen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a05-n05",
+      "tom": "ganha",
+      "pt": "Das Verstehen läuft dabei nicht gleich in beide Richtungen — hier versteht man gesprochenes Deutsch oft besser, als umgekehrt."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-a05-r02",
+      "tom": "ganha",
+      "receptivo": true,
+      "acao": "Ein knapper erster Moment, weil Deutsch das erste Wort war. Sobald das Gespräch läuft, wird er meist warm.",
+      "es": "O, u spreekt Duits. Prima, dat versta ik goed.",
+      "pinyin": "o, ü sprakt döüts. PREE-ma, dat fer-STAA ik choet",
+      "pt": "Oh, Sie sprechen Deutsch. Prima, das verstehe ich gut.",
+      "tts": "O, u spreekt Duits. Prima, dat versta ik goed."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a05-n06",
+      "tom": "ganha",
+      "bloco": "capsula",
+      "pt": "Deutsch als allererstes Wort an einen Fremden kann trotzdem falsch klingen — als würdest du eine Selbstverständlichkeit voraussetzen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a05-n07",
+      "tom": "ganha",
+      "pt": "Die sichere Reihenfolge: erst «Sorry», dann Englisch oder dein Niederländisch. Deutsch darf folgen, sobald das Gespräch läuft."
+    },
+    {
+      "consulta": [
+        "reparo/como-se-diz"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "molde": "ENTSCHULDIGUNG",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-a05-p03",
+      "promptPt": "Du sprichst jemanden auf der Straße an, den du noch nie gesehen hast. Öffne mit dem neutralen Baustein, den du schon kennst. Sprich jetzt.",
+      "audioKey": "hol-a05-t03",
+      "es": "Sorry, spreekt u Engels?",
+      "pinyin": "SOR-rie, SPRAYKT ü ENG-els",
+      "pt": "Entschuldigung, sprechen Sie Englisch?",
+      "tts": "Sorry, spreekt u Engels?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a05-n08",
+      "tom": "ganha",
+      "pt": "Und dann ist da noch Friesland: ein eigenes Straßenschild, eine eigene Amtssprache, rund vierhunderttausend Sprecher."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_f",
+      "audioKey": "hol-a05-r03",
+      "tom": "ganha",
+      "receptivo": true,
+      "acao": "Weder Niederländisch noch Deutsch — das ist Westfriesisch, eine eigene Sprache mit eigener Schrift auf dem Schild über dir.",
+      "es": "Dit is Frysk, dat is hier de tweede taal.",
+      "pinyin": "dit is frisk, dat is heer de TVEE-de taal",
+      "pt": "Das ist Friesisch, das ist hier die zweite Sprache.",
+      "tts": "Dit is Frysk, dat is hier de tweede taal."
+    },
+    {
+      "consulta": [
+        "reparo/como-se-diz"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-a05-p04",
+      "promptPt": "Unter dem niederländischen Ortsschild steht ein zweiter Name, den du nicht lesen kannst. Frag, was das bedeutet. Sprich jetzt.",
+      "audioKey": "hol-a05-t04",
+      "es": "Wat betekent dat bord?",
+      "pinyin": "vat be-TAY-kent dat bort",
+      "pt": "Was bedeutet dieses Schild?",
+      "tts": "Wat betekent dat bord?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a05-n09",
+      "tom": "ganha",
+      "pt": "Außerhalb von Friesland begegnet dir das kaum — die zweisprachigen Schilder gehören nur zu dieser einen Provinz."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "molde": "DANKE",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-a05-p05",
+      "promptPt": "Sie hat dir gerade erklärt, was auf dem Schild steht. Bedank dich, mit der Form, die du schon kennst. Sprich jetzt.",
+      "audioKey": "hol-a05-t05",
+      "es": "Dank u wel voor de uitleg!",
+      "pinyin": "dank ü wel foor de ÖÜT-lech",
+      "pt": "Danke für die Erklärung!",
+      "tts": "Dank u wel voor de uitleg!"
+    },
+    {
+      "consulta": ["reparo/como-se-diz"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-a05-p06",
+      "promptPt": "Sie hat gerade ein friesisches Wort benutzt, das du noch nie gehört hast. Frag, wie man das auf Niederländisch sagt. Sprich jetzt.",
+      "audioKey": "hol-a05-t06",
+      "es": "Hoe zeg je dat in het Nederlands?",
+      "pinyin": "hoe zech yö dat in het NÉÉ-der-lants",
+      "pt": "Wie sagt man das auf Niederländisch?",
+      "tts": "Hoe zeg je dat in het Nederlands?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-a05-s01",
+      "tom": "ganha",
+      "es": "Spreekt u Engels? Sorry, spreekt u Engels? Wat betekent dat bord?",
+      "pinyin": "SPRAYKT ü ENG-els · SOR-rie, SPRAYKT ü ENG-els · vat be-TAY-kent dat bort",
+      "pt": "Schatte die drei nach, die den Sprachwechsel und das fremde Schild abdecken.",
+      "tts": "Spreekt u Engels? Sorry, spreekt u Engels? Wat betekent dat bord?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a05-n10",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "A05 fertig. Englisch wird angeboten, Deutsch versteht man oft gut, und Friesland hat sein eigenes Schild — öffne trotzdem nie mit Deutsch."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Drei Sprachen, ein Land, und die Reihenfolge, die den Unterschied macht",
+    "secoes": [
+      {
+        "titulo": "Platz eins der Welt im Englischen",
+        "corpo": "Der EF English Proficiency Index misst Englischkenntnisse anhand standardisierter Sprachtests in über hundert Ländern. Die Niederlande stehen dort 2024 zum sechsten Mal in Folge auf Platz eins, mit 636 von möglichst erreichbaren Punkten. Praktisch bedeutet das: Sobald ein Gespräch stockt, wird oft von der anderen Seite aus ins Englische gewechselt — unabhängig davon, wie gut dein Niederländisch tatsächlich schon ist. Das ist kein Urteil über dich, sondern Gewohnheit.",
+        "exemplos": [
+          { "es": "Spreekt u Engels?", "pt": "Sprechen Sie Englisch?" },
+          { "es": "Ik wil het graag in het Nederlands proberen.", "pt": "Ich möchte es gern auf Niederländisch versuchen." }
+        ]
+      },
+      {
+        "titulo": "Deutsch verstehen, ohne es zuerst zu sprechen",
+        "corpo": "Eine grobe Schätzung — Größenordnung, keine exakte Volkszählungszahl — setzt den Anteil derer, die sich auf Deutsch einigermaßen verständigen können, bei rund 71 Prozent an. Das Verstehen läuft dabei nicht symmetrisch: Niederländer sind es durch Fernsehen, Schule und die geografische Nähe gewohnt, gesprochenes Deutsch zu verstehen, während umgekehrt weniger Deutsche aktiv Niederländisch verstehen. Das erklärt, warum ein Gespräch, das auf Deutsch beginnt, inhaltlich oft erstaunlich gut funktioniert — der heikle Punkt ist nicht das Verstehen, sondern der erste Eindruck des Ansprechens."
+      },
+      {
+        "titulo": "Warum die Reihenfolge zählt, nicht die Sprache selbst",
+        "corpo": "Die beiden Sprachen liegen so nah beieinander, dass ein Deutsch-Auftakt bei einer unbekannten Person leicht wie eine unausgesprochene Annahme klingt — historisch ein empfindliches Thema, das niemand hier laut anspricht, das aber im ersten Moment mitschwingt. Die sichere Reihenfolge ist einfach: zuerst «Sorry» plus Englisch oder dein Niederländisch, nie Deutsch als allererstes Wort an einen Fremden. Sobald ihr im Gespräch seid — erst recht in Grenzregionen oder mit älteren Sprechern —, ist Deutsch völlig unproblematisch, und ein ehrlicher Versuch auf Niederländisch kauft von Anfang an echte Sympathie."
+      },
+      {
+        "titulo": "Fryslân: ein zweites Amtssprachenschild",
+        "corpo": "Westfriesisch (Frysk) ist keine Mundart des Niederländischen, sondern eine eigenständige, amtlich anerkannte Sprache mit eigener Grammatik, eigener Rechtschreibung und eigenem Schulunterricht in der Provinz Friesland. Rund 400.000 Menschen sprechen es dort im Alltag, sichtbar an zweisprachigen Ortsschildern. Außerhalb dieser einen Provinz begegnet es dir praktisch nicht — es ist eine regionale Besonderheit, kein zweites Nationalsprachensystem."
+      }
+    ]
+  }
+}

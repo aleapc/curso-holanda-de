@@ -1,0 +1,96 @@
+{
+  "id": "q-i07",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Ein Wort, das den Koch aus der Küche holt",
+  "subtitulo": "Loben, danken, und ruhig reklamieren",
+  "introAudioKey": "hol-i07-q-i",
+  "introPt": "Ein Reisender lobt den Hauptgang und muss kurz darauf ruhig reklamieren, weil die Suppe kalt ist.",
+  "cenario": "Ein kleines Restaurant, mitten im Abendessen.",
+  "dialogo": [
+    {
+      "audioKey": "hol-i07-q01",
+      "voz": "target_nl_f",
+      "es": "Wat een heerlijke soep!",
+      "pt": "Was für eine köstliche Suppe!",
+      "tts": "Wat een heerlijke soep!"
+    },
+    {
+      "audioKey": "hol-i07-q02",
+      "voz": "target_nl_m",
+      "es": "Leuk, dat zeg ik door aan de kok.",
+      "pt": "Schön, das sage ich dem Koch weiter.",
+      "tts": "Leuk, dat zeg ik door aan de kok."
+    },
+    {
+      "audioKey": "hol-i07-q03",
+      "voz": "target_nl_f",
+      "es": "Pardon, dit is koud.",
+      "pt": "Entschuldigung, das ist kalt.",
+      "tts": "Pardon, dit is koud."
+    },
+    {
+      "audioKey": "hol-i07-q04",
+      "voz": "target_nl_m",
+      "es": "Sorry, ik haal het meteen terug.",
+      "pt": "Entschuldigung, ich hole es sofort zurück.",
+      "tts": "Sorry, ik haal het meteen terug."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Was macht der Baustein «Wat een heerlijke [Ding]!»?",
+      "opcoes": [
+        "Er bittet um die Rechnung",
+        "Er lobt etwas so konkret, dass es weitergegeben wird — an die Küche, an den Gastgeber",
+        "Er fragt nach dem Preis",
+        "Er funktioniert nur bei Getränken"
+      ],
+      "correta": 1,
+      "explica": "Wat een heerlijke + [Ding] macht aus einem guten Bissen ein Kompliment, das die Bedienung tatsächlich weitergibt — an die Suppe, den Kuchen, den ganzen Abend."
+    },
+    {
+      "pergunta": "«Leuk, dat zeg ik door aan de kok.» Was passiert hier gerade?",
+      "opcoes": [
+        "Die Bedienung macht sich über Sie lustig",
+        "Ein Lob geht hier oft direkt in die Küche weiter",
+        "Der Koch hat einen Fehler gemacht",
+        "Man sollte jetzt nach der Rechnung fragen"
+      ],
+      "correta": 1,
+      "explica": "Ein konkretes Lob wird oft an die Küche weitergegeben — deshalb ist die Entscheidung, wie viele Wat een heerlijke, das eine, das den Koch aus der Küche holt."
+    },
+    {
+      "pergunta": "Ihre Suppe ist kalt. Was ist der richtige Ton für die Reklamation?",
+      "opcoes": [
+        "Laut und mit langer Erklärung, damit es niemand überhört",
+        "Ruhig und kurz: Pardon, dit is koud",
+        "Gar nicht sagen, um keine Szene zu machen",
+        "Sofort um Entschädigung bitten"
+      ],
+      "correta": 1,
+      "explica": "Eine ruhige, direkte Reklamation gilt als normale Information für die Küche, nicht als Konfrontation. Ein Pardon und ein kurzer Fakt reichen."
+    },
+    {
+      "pergunta": "«Sorry, ik haal het meteen terug.» Was tun Sie als Nächstes?",
+      "opcoes": [
+        "Weiter nachhaken und sich mehrfach entschuldigen lassen",
+        "Es einfach annehmen — ein sofortiges Angebot ist die übliche Reaktion",
+        "Um ein kostenloses Dessert bitten",
+        "Das Restaurant sofort verlassen"
+      ],
+      "correta": 1,
+      "explica": "Ein sofortiges Angebot ist die übliche Reaktion auf eine ruhige Reklamation. Sie müssen nicht weiter nachhaken."
+    },
+    {
+      "pergunta": "Manchmal reicht keine Zeit für einen ganzen Satz. Was sagen Sie dann?",
+      "opcoes": [
+        "Wat lekker!",
+        "Ein ganzer erklärender Nebensatz",
+        "Gar nichts, nur nicken",
+        "Zurück zum Anfang des Bausteins"
+      ],
+      "correta": 0,
+      "explica": "Wat lekker! ist die kurze, feste Form ohne Lücke — für den Moment, in dem keine Zeit für einen vollen Satz bleibt."
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "id": "b01",
+  "nivel": "basico",
+  "numero": 1,
+  "parte": "B01",
+  "titulo": "Scheveningen am Bäckerfenster — fünf Laute, die Ihr Mund schon anders kann",
+  "subtitulo": "Niederländisch und Deutsch teilen fast denselben Mund. Nur eine Hand hält fünf Laute auseinander, vom kehligen g bis zum ui, das es im Deutschen gar nicht gibt",
+  "cena": "Am Fenster eines Bäckers in Scheveningen stehen drei Wörter mit Kreide geschrieben — huis, uit, gezellig — und Ihr Auge liest sie sofort, Ihr Mund noch nicht richtig.",
+  "moldura": "ganha",
+  "frasePiso": "Fünf Bewegungen, eine Hand: das kehlige g, das ui, das ij, das eu, die Endung -tje. Danach ist Scheveningen nur noch ein Wort, kein Test mehr.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "hol-b01-gussenhoven",
+      "afirmacao": "Fünf Laute erklären fast den ganzen Klangunterschied zwischen Ihrem Deutsch und dem Niederländisch, das Sie hier hören. Erstens: das geschriebene ⟨sch⟩ ist im Niederländischen am Silbenanfang zwei Laute hintereinander, [s] plus ein reibendes [x] — nicht der eine deutsche Laut [ʃ]. Zweitens: ⟨g⟩ und ⟨ch⟩ sind Reibelaute, im Süden des Landes eher am weichen Gaumen (velar), im Norden weiter hinten, am Zäpfchen (uvular) — beides kehliger als Ihr deutsches ch in Bach. Drittens: der Diphthong in huis und ui, phonetisch [œy], hat im Deutschen keine Entsprechung. Und viertens: ⟨ei⟩/⟨ij⟩ ist [ɛi], ⟨eu⟩ ist [ø] — zwei Laute, die Ihr Ohr aus eu in neus und Ihrem eigenen ö-artigen Laut schon fast kennt.",
+      "fonte": "Gussenhoven, Carlos, «Dutch», Illustrations of the IPA, Handbook of the International Phonetic Association, Cambridge University Press, 1999, S. 74–77 (Diphthonge /ɛi, œy, ɑu/; Reibelaute [x]/[ɣ] velar südlich der Linie Rotterdam–Nijmegen, weiter nördlich post-velar/uvular). Die Silbenanfangs-Lesart von ⟨sch⟩ als [sx] ist Standardbeschreibung des Niederländischen und wird u. a. in populärwissenschaftlichen Darstellungen des «Scheveningen-Tests» im Zweiten Weltkrieg wiedergegeben (siehe zweiter Eintrag). RESSALVA: die genaue Artikulationsstelle (velar/uvular) variiert regional und wird hier nicht als einheitliche Regel behauptet.",
+      "ano": 1999,
+      "revisarAte": "2031-08-20",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "hol-b01-n04",
+        "hol-b01-n07"
+      ]
+    },
+    {
+      "id": "hol-b01-scheveningen",
+      "afirmacao": "Im Zweiten Weltkrieg nutzten Niederländer den Ortsnamen Scheveningen, um sich untereinander von deutschen Spionen zu unterscheiden: Wer als Deutscher aufgewachsen ist, ersetzt das doppelte [sx] am Anfang fast automatisch durch den vertrauten Laut [ʃ] — und verrät sich damit in einem einzigen Wort. Die Anekdote ist breit dokumentiert, aber sie ist ein historisches Zitat aus Erzählungen und Presseartikeln, keine wissenschaftliche Quellenangabe mit Primärbeleg.",
+      "fonte": "Weithin berichtete Kriegsanekdote, u. a. wiedergegeben in populärwissenschaftlichen Sprachartikeln und im Wikipedia-Eintrag «Scheveningen dialect»; keine einzelne Primärquelle mit Datum verifiziert. Als kulturelle Anekdote geführt, nicht als geprüfte Statistik.",
+      "ano": 2024,
+      "revisarAte": "2029-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "hol-b01-n08"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b01-n01",
+      "gesto": 1,
+      "tom": "ganha",
+      "bloco": "aquecimento",
+      "pt": "Niederländisch und Deutsch teilen fast denselben Mund. Nur fünf Bewegungen sind neu, und eine Hand hält sie auseinander."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b01-n02",
+      "tom": "ganha",
+      "bloco": "corpo",
+      "pt": "Bewegung eins: das kehlige g und ch. Kratzen Sie weiter hinten im Hals als Ihr deutsches ch in Bach — härter, reibender."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_f",
+      "audioKey": "hol-b01-t01",
+      "tom": "ganha",
+      "es": "Graag, dank u wel.",
+      "pinyin": "CHRAACH, dank ü wel",
+      "pt": "Gerne, vielen Dank.",
+      "tts": "Graag, dank u wel."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b01-p01",
+      "promptPt": "Jemand hält Ihnen die Tür auf. Antworten Sie mit dem Wort, das zweimal das kehlige g braucht. Sag es jetzt.",
+      "audioKey": "hol-b01-t01",
+      "es": "Graag, dank u wel.",
+      "pinyin": "CHRAACH, dank ü wel",
+      "pt": "Gerne, vielen Dank.",
+      "tts": "Graag, dank u wel."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b01-n03",
+      "tom": "ganha",
+      "pt": "Bewegung zwei: ui. Kein deutscher Laut kommt ihm nahe — die Lippen starten gerundet und öffnen sich zu einem hellen ö-i."
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b01-p02",
+      "promptPt": "Kleine Eisdiele an der Straße, warmer Nachmittag. Bestellen Sie eine Kugel für unterwegs. Sag es jetzt.",
+      "audioKey": "hol-b01-t02",
+      "es": "Een ijsje, alstublieft.",
+      "pinyin": "en EIS-yuh, als-tü-BLEEFT",
+      "pt": "Ein Eis, bitte.",
+      "tts": "Een ijsje, alstublieft."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b01-r01",
+      "tom": "ganha",
+      "es": "Met of zonder slagroom?",
+      "pinyin": "met of ZON-der SLACH-room",
+      "pt": "Mit oder ohne Sahne?",
+      "tts": "Met of zonder slagroom?",
+      "receptivo": true,
+      "acao": "Zwei Wörter reichen als Antwort: met oder zonder. Nicken Sie nicht nur — sagen Sie eins der beiden."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b01-n04",
+      "tom": "ganha",
+      "pt": "Bewegung drei: ij und ei klingen wie das englische I in nine — nicht wie Ihr deutsches ei in Wein."
+    },
+    {
+      "consulta": [
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b01-p03",
+      "promptPt": "Ihre Taschen sind leer, der Schlüssel fehlt, und Sie tasten am Gürtel. Sagen Sie, wonach Sie suchen. Sag es jetzt.",
+      "audioKey": "hol-b01-t03",
+      "es": "Ik zoek mijn sleutel.",
+      "pinyin": "ik zook mein SLÖÖ-tel",
+      "pt": "Ich suche meinen Schlüssel.",
+      "tts": "Ik zoek mijn sleutel."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b01-n05",
+      "tom": "ganha",
+      "pt": "Sleutel trägt die vierte Bewegung: eu ist der Laut in Ihrem deutschen neu — nichts Neues für Ihren Mund."
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b01-p04",
+      "promptPt": "Am Süßwarenstand, zwei Sorten Bonbons, und der Preis pro Tüte steht in kleiner Schrift. Fragen Sie ihn. Sag es jetzt.",
+      "audioKey": "hol-b01-t04",
+      "es": "Twee euro, alstublieft?",
+      "pinyin": "twee ÖÖ-ro, als-tü-BLEEFT",
+      "pt": "Zwei Euro, bitte?",
+      "tts": "Twee euro, alstublieft?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b01-n06",
+      "tom": "ganha",
+      "pt": "Bewegung fünf, die billigste: -tje. Hängt an fast jedem kleinen, freundlichen Ding — Sie hören es den ganzen Tag."
+    },
+    {
+      "consulta": [
+        "chegar/balcao",
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b01-p05",
+      "promptPt": "Am Bahnschalter, Sie brauchen genau eine Fahrkarte für die Stadt. Sag es jetzt.",
+      "audioKey": "hol-b01-t05",
+      "es": "Een kaartje, graag.",
+      "pinyin": "en KAART-yuh, CHRAACH",
+      "pt": "Eine Fahrkarte, bitte.",
+      "tts": "Een kaartje, graag."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b01-r02",
+      "tom": "ganha",
+      "es": "Gezellig hier, hè?",
+      "pinyin": "che-ZELL-ich heer, heh",
+      "pt": "Gemütlich hier, oder?",
+      "tts": "Gezellig hier, hè?",
+      "receptivo": true,
+      "acao": "Gezellig trägt das kehlige g zweimal. Es hat keine deutsche Ein-Wort-Entsprechung — nicken Sie, und behalten Sie den Klang im Ohr."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b01-n07",
+      "tom": "ganha",
+      "bloco": "capsula",
+      "pt": "Alle fünf stecken in einem Wort: gezellig. Ein Gefühl ohne deutsches Einzelwort — gemütlich, warm, unter Leuten."
+    },
+    {
+      "consulta": [
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b01-p06",
+      "promptPt": "Sie stehen an einem der schmalen Wasserwege der Altstadt, das Licht liegt schräg auf der Oberfläche, und jemand neben Ihnen wartet auf ein Kompliment. Sag es jetzt.",
+      "audioKey": "hol-b01-t06",
+      "es": "Deze gracht is prachtig.",
+      "pinyin": "DAY-zuh chracht is PRACH-tich",
+      "pt": "Diese Gracht ist wunderschön.",
+      "tts": "Deze gracht is prachtig."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b01-n08",
+      "tom": "ganha",
+      "pt": "Ein Wort testet alle fünf zugleich: Scheveningen. Im Krieg erkannten Niederländer daran echte Landsleute."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b01-p07",
+      "promptPt": "Sie verlassen die Bäckerei mit einer vollen Tüte, und die Verkäuferin blickt schon zur nächsten Person. Sie kommen sicher wieder her. Sag es jetzt.",
+      "audioKey": "hol-b01-t07",
+      "es": "Tot morgen!",
+      "pinyin": "tot MOR-chen",
+      "pt": "Bis morgen!",
+      "tts": "Tot morgen!"
+    },
+    {
+      "consulta": ["mesa/bebida"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b01-p08",
+      "promptPt": "An einem kleinen Tisch am Kanal, ein warmer Abend, und die Bedienung wartet auf Ihre Bestellung. Sag es jetzt.",
+      "audioKey": "hol-b01-t08",
+      "es": "Een biertje, alstublieft.",
+      "pinyin": "un BEER-tyuh, als-tü-BLEEFT",
+      "pt": "Ein Bier, bitte.",
+      "tts": "Een biertje, alstublieft."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-b01-s01",
+      "tom": "ganha",
+      "es": "Graag, dank u wel. Een ijsje, alstublieft. Deze gracht is prachtig.",
+      "pinyin": "CHRAACH, dank ü wel · en EIS-yuh, als-tü-BLEEFT · DAY-zuh chracht is PRACH-tich",
+      "pt": "Schatten Sie drei Sätze, die alle fünf Bewegungen zusammen tragen.",
+      "tts": "Graag, dank u wel. Een ijsje, alstublieft. Deze gracht is prachtig."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b01-n09",
+      "tom": "ganha",
+      "bloco": "recap",
+      "pt": "B01 fertig. Kehliges g, ui, ij, eu, die Endung -tje — fünf Bewegungen, eine Hand, und Scheveningen ist nur ein Wort."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Fünf Bewegungen, ein geteilter Mund",
+    "secoes": [
+      {
+        "titulo": "Was Sie geschenkt bekommen",
+        "corpo": "Niederländisch und Deutsch sind Nachbarsprachen, und die Wortschatz-Überschneidung ist riesig: water/Wasser, brood/Brot, bier/Bier, huis/Haus, koffie/Kaffee, melk/Milch. Auch die Satzstruktur — Verb an zweiter Stelle im Hauptsatz, Verb am Ende im Nebensatz — ist identisch mit Ihrer eigenen. Der Aufwand dieses Kurses steckt nicht im Satzbau, sondern in fünf Lauten und in den falschen Freunden, die noch kommen.",
+        "exemplos": [
+          {
+            "es": "Graag, dank u wel.",
+            "pt": "Gerne, vielen Dank."
+          }
+        ]
+      },
+      {
+        "titulo": "Das kehlige g und ch",
+        "corpo": "Ihr deutsches ch in Bach ist ein guter Ausgangspunkt, aber der niederländische Laut sitzt oft weiter hinten und reibt härter — im Süden des Landes eher am weichen Gaumen, im Norden noch weiter hinten. Es gibt keine einzelne Regel, die überall gilt, aber die Richtung stimmt immer: härter und kehliger, als Sie es aus dem Deutschen kennen. graag, gezellig und gracht üben genau das."
+      },
+      {
+        "titulo": "Der Laut, den es im Deutschen nicht gibt",
+        "corpo": "ui, wie in huis und ijsje, ist ein Diphthong, für den es im Deutschen keine Entsprechung gibt: die Lippen beginnen gerundet und öffnen sich zu einem hellen i. Es ist der einzige der fünf Laute, den Sie wirklich neu lernen — die anderen vier haben alle eine deutsche Anker-Silbe."
+      },
+      {
+        "titulo": "ij/ei, eu, und die Falle beim Lesen",
+        "corpo": "ij und ei klingen im Niederländischen wie das englische I in nine, nicht wie Ihr deutsches ei in Wein — die Falle ist, dass Ihr Auge das ei liest und Ihr Mund automatisch die deutsche Version produziert. eu dagegen ist geschenkt: es ist genau der Laut in Ihrem eigenen neu, und sleutel, deur, leuk kosten Sie nichts extra."
+      },
+      {
+        "titulo": "Die Endung -tje, überall im Alltag",
+        "corpo": "-tje hängt an tausenden Wörtern und macht sie klein, freundlich oder beiläufig — kaartje, biertje, momentje, huisje. Es ist keine Grammatikregel zum Auswendiglernen, sondern ein Klang, den Sie am Ende dieses Kurses automatisch erkennen, weil Sie ihn so oft hören."
+      },
+      {
+        "titulo": "Scheveningen, und warum es ein gutes Testwort ist",
+        "corpo": "Scheveningen trägt vier der fünf Bewegungen in einem einzigen Wort: das kehlige sch-plus-ch am Anfang, das kehlige g im Wortinneren, und den ganzen Rhythmus der Silben. Im Zweiten Weltkrieg diente es Niederländern als schnelle Probe, wer als Deutscher aufgewachsen ist — eine oft erzählte Anekdote, kein Laborexperiment. Für Sie ist es heute kein Test, sondern ein Übungswort: Wenn Sie es einigermaßen treffen, haben Sie den Kern dieses Kapitels schon."
+      }
+    ]
+  },
+  "slot": "B01",
+  "permissao": "Sie dürfen heute fremd klingen. Niemand hier zählt Ihre g-Laute mit, und der einzige wirklich neue Laut — ui — braucht mehrere Tage, um sich einzuschleifen. Setzen Sie die Betonung so, wie Ihr Deutsch sie setzen würde, denn das Niederländische macht es fast immer genauso, und stecken Sie Ihre Aufmerksamkeit ganz in die fünf Bewegungen. Mehr verlangt dieser erste Tag nicht.",
+  "permissaoAudioKey": "hol-b01-n01",
+  "espelho": "Sie kennen dieses Ohrentraining schon aus dem eigenen Deutsch: Wörter wie Chemie oder Genie klingen anders, als sie geschrieben aussehen, und Ihr Ohr lernte diese Ausnahmen irgendwann und hörte auf, sie infrage zu stellen. Dieses Kapitel ist dieselbe Arbeit an fünf Lauten, nur dass das Niederländische darin viel konsequenter ist, als Ihr eigenes Deutsch es je war.",
+  "fichasCulturais": [
+    {
+      "sinal": "Sie lesen ein Wort auf einer Speisekarte oder einem Schild laut vor, und die Person, mit der Sie sprechen, zögert kurz, bevor sie antwortet.",
+      "suaLeitura": "Mein Akzent muss so stark sein, dass sogar einzelne Wörter nicht ankommen.",
+      "oQueEAli": "Sehr oft war der Klang in Ordnung und nur ein Buchstabe nicht. Das Niederländische ordnet manchen Buchstaben einen anderen Laut zu, als das Deutsche es tut: geschriebenes sch ist am Silbenanfang [s]+[x], nicht [ʃ]; g und ch sind kehliger als im Deutschen; und ui hat gar keine deutsche Entsprechung.",
+      "oQueVoceFaz": "Wechseln Sie bewusst bei jedem g, ch oder ui, das Ihnen begegnet, und sagen Sie die zweite Hälfte von ij und ei bewusst wie ein englisches I. Landet ein Wort noch nicht, zeigen Sie lieber auf die Schrift, statt lauter zu wiederholen.",
+      "oQueMelhora": "Einzelne Wörter werden sofort erkannt, und Sie behandeln ein Lese-Problem nicht länger wie ein Akzent-Problem.",
+      "ondeNaoVale": "Das ist keine Behauptung, dass jeder Buchstabe anders klingt als im Deutschen — Wörter wie bier, water und huis lesen sich fast wie sie klingen. Und niemand an einer Ladentheke zählt Ihre Aussprache mit; viele Gespräche laufen glatt weiter, auch wenn ein Laut daneben liegt.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "hol-b01-n04"
+      ]
+    },
+    {
+      "sinal": "Jemand sagt «Gezellig, hè?» über einen ganz gewöhnlichen Nachmittag am Kanal, und Sie suchen vergeblich nach dem passenden deutschen Wort dafür.",
+      "suaLeitura": "Ich habe etwas nicht verstanden, das eigentlich einfach sein sollte.",
+      "oQueEAli": "Gezellig hat im Deutschen kein einzelnes Wort als Entsprechung — es liegt irgendwo zwischen gemütlich, unter Leuten und genau richtig gerade jetzt, und es ist eines der meistgenutzten Wörter im niederländischen Alltag, für Cafés, Wohnungen und ganze Nachmittage gleichermaßen.",
+      "oQueVoceFaz": "Nehmen Sie das Wort als Ganzes auf, statt es zu übersetzen. Ein Nicken und «Ja, gezellig» reicht als Antwort völlig aus.",
+      "oQueMelhora": "Sie hören auf, nach einem deutschen Einzelwort zu suchen, das es nicht gibt, und Sie besitzen ab jetzt ein Wort, das Sie den Rest der Reise benutzen können.",
+      "ondeNaoVale": "Nicht jedes ähnlich klingende Wort ist so besonders — die meisten niederländischen Alltagswörter haben ganz normale deutsche Entsprechungen. Gezellig ist die Ausnahme, kein Muster.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "hol-b01-n07"
+      ]
+    }
+  ]
+}

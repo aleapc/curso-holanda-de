@@ -1,0 +1,96 @@
+{
+  "id": "q-b08",
+  "nivel": "basico",
+  "titulo": "Quiz — Wo ist, en het antwoord dat in uw hoofd past",
+  "subtitulo": "Drie woorden eruit, één arm terug",
+  "introAudioKey": "de-b08-q-i",
+  "introPt": "Een bezoeker met een dode telefoon vraagt in een bakkerij drie woorden en loopt naar buiten met een bestemming.",
+  "cenario": "Een hoekwinkel bij een kruispunt, halverwege de middag.",
+  "dialogo": [
+    {
+      "audioKey": "de-b08-q01",
+      "voz": "target_de_f",
+      "es": "Entschuldigung, wo ist der Bahnhof?",
+      "pt": "Neem me niet kwalijk, waar is het station?",
+      "tts": "Entschuldigung, wo ist der Bahnhof?"
+    },
+    {
+      "audioKey": "de-b08-q02",
+      "voz": "target_de_m",
+      "es": "Moin! Immer geradeaus, dann links.",
+      "pt": "Moin! Rechtdoor, dan links.",
+      "tts": "Moin! Immer geradeaus, dann links."
+    },
+    {
+      "audioKey": "de-b08-q03",
+      "voz": "target_de_f",
+      "es": "Ist es weit?",
+      "pt": "Is het ver?",
+      "tts": "Ist es weit?"
+    },
+    {
+      "audioKey": "de-b08-q04",
+      "voz": "target_de_m",
+      "es": "Nein, gleich um die Ecke, keine fünf Minuten.",
+      "pt": "Nee, vlak om de hoek, geen vijf minuten.",
+      "tts": "Nein, gleich um die Ecke, keine fünf Minuten."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Hoe klinkt de w in «wo»?",
+      "opcoes": [
+        "Als de w in het Engelse «water»",
+        "Ongeveer als uw eigen ⟨w⟩ in «wat»",
+        "Stom, niet uitgesproken",
+        "Als de f in «feit»"
+      ],
+      "correta": 1,
+      "explica": "De Duitse geschreven ⟨w⟩ ligt dicht bij uw eigen ⟨w⟩ — Wo als «voh». De duurdere valkuil is de geschreven ⟨v⟩: die is meestal stemloos in het Duits — viel als «feel» — terwijl uw eigen ⟨v⟩ vaak stem draagt."
+    },
+    {
+      "pergunta": "«Bier» en «nein». Hoe leest u de klinkerparen?",
+      "opcoes": [
+        "Bier zoals bij u; nein als het Engelse «nain», niet als uw ⟨ij⟩",
+        "Beide als een lange E",
+        "Bier als «baier»; nein als «nien»",
+        "Beide als de Nederlandse ⟨ij⟩"
+      ],
+      "correta": 0,
+      "explica": "Bier klinkt hier gewoon als bij u. Maar Duitse ⟨ei⟩ (nein, mein, eins) valt dichter bij het Engelse «I» dan bij uw ⟨ij⟩ — dat is de valstrik voor een Nederlandse lezer."
+    },
+    {
+      "pergunta": "Ze wijzen een lange straat in en zeggen er nog veertig woorden bij. Wat is het goedkoopste herstel?",
+      "opcoes": [
+        "Vraag ze het hele geheel op te schrijven",
+        "Stel een vraag met maar twee mogelijke antwoorden, zoals «links of rechts»",
+        "Zeg dat u het niet begreep en loop weg",
+        "Herhaal de vraag luider"
+      ],
+      "correta": 1,
+      "explica": "Vraag klein en het antwoord blijft klein. Links of rechts en ist es weit zijn beide met één hand te beantwoorden, en dat laat u met iets weg dat u kunt vasthouden."
+    },
+    {
+      "pergunta": "U zegt Guten Tag bij binnenkomst in een winkel in het noorden en krijgt «Moin» terug. Wat is dat?",
+      "opcoes": [
+        "Een correctie van uw groet",
+        "Een regionale groet, opgetekend in Sleeswijk-Holstein en het noorden van Nedersaksen",
+        "Kort voor «Morgen», dus alleen vóór de middag",
+        "Een ongeduldig antwoord"
+      ],
+      "correta": 1,
+      "explica": "Het komt van een bijvoeglijk naamwoord dat aangenaam betekent, niet van Morgen, en de enquête die het in kaart brengt publiceert plaatsen in plaats van percentages. U hoeft het nooit zelf te produceren: Hallo werkt overal."
+    },
+    {
+      "pergunta": "U vraagt in het Duits en wordt in vloeiend Engels beantwoord. Wat gebeurde er?",
+      "opcoes": [
+        "Uw Duits was te slecht om mee te werken",
+        "Ongeveer twee op de drie volwassenen daar zeggen dat ze in een andere taal een gesprek kunnen voeren, en iemand is efficiënt",
+        "U koos het verkeerde beleefdheidsniveau",
+        "Engels is de officiële taal van de spoorwegen"
+      ],
+      "correta": 1,
+      "explica": "In de Europese talenpeiling 2023 zei 65 procent van de respondenten in Duitsland een extra taal goed genoeg te spreken om een gesprek te voeren. Vraag in het Duits, neem het antwoord in het Engels, sluit af in het Duits."
+    }
+  ]
+}

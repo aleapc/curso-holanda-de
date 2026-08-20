@@ -1,0 +1,96 @@
+{
+  "id": "q-b11",
+  "nivel": "basico",
+  "titulo": "Quiz — Mag ik, und die erste Runde kommt",
+  "subtitulo": "Zeg het maar als Einladung, und der Satz, der nie fragt, ob du etwas magst",
+  "introAudioKey": "hol-b11-q-i",
+  "introPt": "Ein Tresen, drei Leute tief, und ein Barmann, der in zwei Sekunden Aufmerksamkeit erwartet.",
+  "cenario": "Zehn nach eins, ein Tresen in Amsterdam.",
+  "dialogo": [
+    {
+      "audioKey": "hol-b11-q01",
+      "voz": "target_nl_m",
+      "es": "Zeg het maar!",
+      "pt": "Sag einfach, was du willst!",
+      "tts": "Zeg het maar!"
+    },
+    {
+      "audioKey": "hol-b11-q02",
+      "voz": "target_nl_f",
+      "es": "Mag ik een koffie?",
+      "pt": "Darf ich einen Kaffee haben?",
+      "tts": "Mag ik een koffie?"
+    },
+    {
+      "audioKey": "hol-b11-q03",
+      "voz": "target_nl_m",
+      "es": "Komt eraan.",
+      "pt": "Kommt sofort.",
+      "tts": "Komt eraan."
+    },
+    {
+      "audioKey": "hol-b11-q04",
+      "voz": "target_nl_f",
+      "es": "Mag ik afrekenen?",
+      "pt": "Darf ich abrechnen?",
+      "tts": "Mag ik afrekenen?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Der Barmann sagt Zeg het maar! Was bedeutet das?",
+      "opcoes": [
+        "Er fragt nach deinem Namen",
+        "Er lädt dich ein, sofort zu bestellen",
+        "Er sagt, dass er gleich zurückkommt",
+        "Er bittet dich, langsamer zu sprechen"
+      ],
+      "correta": 1,
+      "explica": "Zeg het maar heißt sag einfach, was du willst — die landesweite Einladung, mit der Theken dich zum Bestellen auffordern, keine Frage zum Nachdenken."
+    },
+    {
+      "pergunta": "Was bedeutet Mag ik een koffie? wirklich?",
+      "opcoes": [
+        "Ich mag Kaffee — ein Geschmacksurteil",
+        "Darf ich einen Kaffee haben? — eine höfliche Bitte",
+        "Ich brauche dringend Kaffee",
+        "Haben Sie Kaffee?"
+      ],
+      "correta": 1,
+      "explica": "Mag kommt von mogen, dürfen, nicht von mögen. Weil du den Kaffee ohnehin bekommst, merkst du den falschen Freund nie — genau das macht ihn zur perfekten stillen Falle."
+    },
+    {
+      "pergunta": "Was kommt nach Mag ik?",
+      "opcoes": [
+        "Ein Verb",
+        "Das Ding, das du bestellst — nie gebeugt",
+        "Der Name des Barmanns",
+        "Eine Uhrzeit"
+      ],
+      "correta": 1,
+      "explica": "Mag ik trägt das Ding fertig, ohne Fall: een koffie, een biertje, de rekening. Nur das Ding am Ende wechselt, der Baustein bleibt gleich."
+    },
+    {
+      "pergunta": "Warum bezahlst du an vielen Theken pro Runde statt am Ende?",
+      "opcoes": [
+        "Weil das Land teuer ist",
+        "Weil oft direkt bei der Bestellung abgerechnet wird, statt eine offene Rechnung wachsen zu lassen",
+        "Weil man dort kein Vertrauen in Gäste hat",
+        "Weil Kreditkarten dort nicht funktionieren"
+      ],
+      "correta": 1,
+      "explica": "An vielen Theken zahlst du direkt, wenn du bestellst — keine offene Rechnung, die bis zum Aufbruch wächst. Mag ik afrekenen? schließt genau das ab, jederzeit."
+    },
+    {
+      "pergunta": "Was macht das -tje in een biertje?",
+      "opcoes": [
+        "Es macht das Bier kleiner",
+        "Es macht die Bitte weicher, ohne die Menge zu ändern",
+        "Es markiert die Mehrzahl",
+        "Es ist ein Fehler, den man vermeiden sollte"
+      ],
+      "correta": 1,
+      "explica": "Das Diminutiv -tje hörst du den ganzen Tag am Tresen. Es verändert nicht die Größe des Getränks, nur den Klang der Bitte."
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "id": "b05",
+  "nivel": "basico",
+  "numero": 5,
+  "parte": "B05",
+  "titulo": "Drie vragen, en u hebt alle drie antwoorden al",
+  "subtitulo": "Paspoortcontrole in Frankfurt, Hamburg of München: waarom u kwam, hoe lang u blijft, en het adres dat u gewoon mag tonen",
+  "cena": "De paspoortbalie op een Duitse luchthaven, twintig minuten na de landing, met de rij achter u dichtend en één ambtenaar die opkijkt.",
+  "moldura": "ganha",
+  "frasePiso": "Drie zinnen van vier woorden elk, staand gezegd, en de balie ligt achter u.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "de-b05-sie",
+      "afirmacao": "Sie is de standaard en u hoeft er nooit vanaf te wijken. De Sprachratgeber van de Duden zegt het rechtuit: «Grundsätzlich ist im Geschäftsleben oder bei neuen Kontakten aber zunächst das Sie die korrekte Ansprache», en beschrijft du als aangeboden van boven naar beneden — door de baas aan de werknemer, door de oudere collega aan de jongere — waarbij een ongevraagde du van een oudere aan een jongere als slechte manieren geldt. Horst Simon van de Freie Universität Berlin, geïnterviewd door Spektrum der Wissenschaft op 27 maart 2023, relativeert de hiërarchie in één richting en scherpt ze in een andere: iedereen mag du aanbieden, en de echte asymmetrie zit erin dat wie het aanbod ontvangt het nauwelijks kan afslaan. De overgang wordt in de literatuur ook als eenrichting en praktisch onomkeerbaar behandeld. De bewering dat Sie verdwijnt staat niet vast: Simon zegt dat, en de enige beschikbare kwantitatieve lezing, een Appinio-enquête van 7 januari 2026 onder 4 877 respondenten van 16 tot 54 jaar, heeft 54 procent die Sie tegen de baas gebruikt en minder dan 10 procent in elke leeftijdsband voor afschaffing.",
+      "fonte": "Duden, Sprachratgeber «Duzen oder Siezen?», verbatim; Horst Simon (FU Berlin), entrevista à Spektrum der Wissenschaft, 27/3/2023 [RESUMO, página lida por fetch]; irreversibilidade via Finkenstaedt 1963: 232, citado em trabalho da Univ. Oldenburg (original NÃO acessado); Appinio, «Siezen oder Duzen», 7/1/2026, N=4.877, 16–54 anos [RESUMO]. RESSALVAS: instituto comercial, representatividade não declarada, faixa etária para em 54 anos. RECUSADO e fora daqui: «a mulher oferece o du» (só sites de etiqueta; a literatura alcançada aponta no sentido oposto) e qualquer medição de como o erro de tratamento de um estrangeiro é recebido — não existe.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-b05-n02",
+        "de-b05-n03"
+      ]
+    },
+    {
+      "id": "de-b05-englisch",
+      "afirmacao": "Engels is in Duitsland wijd beschikbaar en is nog steeds geen plan. Special Eurobarometer 540, veldwerk september tot oktober 2023 en gepubliceerd in 2024, heeft 65 procent van de respondenten in Duitsland die zeggen goed genoeg Engels te spreken om een gesprek te voeren, tegen een EU27-gemiddelde van 47 procent; het vergelijkbare cijfer in Special Eurobarometer 386, veld in 2012, was 56 procent tegen een EU27-gemiddelde van 38. Twee eerlijke kanttekeningen reizen mee met dat getal. De Eurostat Adult Education Survey heeft 87,7 procent van de 25- tot 64-jarigen in Duitsland die minstens één vreemde taal opgeven in 2022, maar slechts ongeveer 28 procent van hen noemt zich vaardig — een andere vraag, geen tegenspraak en niets om bij op te tellen. En de uitsplitsingen van 2012 tonen zeer goed Engels geconcentreerd onder 15- tot 24-jarigen (27 procent tegen 15 procent bij 55-plussers) en onder mensen in grote steden (29 procent tegen 15 procent in dorpen), waarbij Duitse respondenten tot de mensen behoren die hun Engels het vaakst alleen af en toe gebruiken (58 procent).",
+      "fonte": "Special Eurobarometer 540, campo set–out 2023, publicado 2024 (Verian para a DG EAC, DOI 10.2766/28257), p. 20, tabela D48.otherlang — Alemanha 65%, média EU27 47%; Special Eurobarometer 386 (campo fev–mar 2012), p. 21, tabela D48T — Alemanha 56%, média EU27 38%, mais as quebras por idade, escolaridade e tipo de localidade; Eurostat, Adult Education Survey, tabelas edat_aes_l21 e edat_aes_l31. RESSALVA DE PROVENIÊNCIA: o PDF do SP540 foi aberto num espelho fora do domínio europa.eu, com capa, ISBN, DOI e layout íntegros e o valor validado contra o texto corrido. NÃO USAR o EF EPI como estimativa populacional: a própria EF declara a amostra «self-selected and not guaranteed to be representative».",
+      "ano": 2024,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-b05-n04"
+      ]
+    },
+    {
+      "id": "de-b05-gruss",
+      "afirmacao": "Welke groet u hoort hangt af van waar het vliegtuig u afzette, en de vraag die de kaart maakte is precies die van de reiziger. De Atlas zur deutschen Alltagssprache, geleid door Stephan Elspaß en Robert Möller, vroeg in ronde 2, vraag F01, hoe mensen 's middags een klein winkeltje binnenkomend groeten. Moin en Moinmoin komen terug uit Sleeswijk-Holstein en het noorden van Nedersaksen; Grüß Gott uit Zuid-Duitsland, Oostenrijk en de voor-alpiene gordel; Servus uit oostelijk Beieren en Oostenrijk; Grüezi en Hoi uit Noord- en Oost-Zwitserland; en Hallo in het algemeen, geregistreerd in zo'n 150 enquêtepunten en door het project omschreven als de grootste gebruiksverschuiving sinds de jaren zeventig. De atlas beslist ook een stukje volksetymologie: Moin komt niet van Morgen. Het komt van moien Dag en het Nederduitse en Friese moi, dat prettig betekent, dus wat in de korte vorm overleeft is het bijvoeglijk naamwoord alleen — wat u als Nederlander herkent, omdat hetzelfde bijvoeglijk naamwoord in uw eigen taal leeft.",
+      "fonte": "Atlas zur deutschen Alltagssprache (AdA), Elspaß (Salzburg) / Möller (Liège), Rodada 2, questão F01 «Gruß am Nachmittag» [RESUMO — página lida por fetch]. RESSALVAS DE MÉTODO: o AdA publica CATEGORIAS ORDINAIS (üblich / ab und zu / unüblich) por localidade e NÃO percentuais — qualquer número percentual atribuído a esta carta seria invenção; e são pontos de inquérito, não isoglossas, de modo que a «área exata» do Moin não existe além de Schleswig-Holstein e do norte da Baixa Saxônia. As cartas de despedida (Rodada 10, 17a e 17b) existem mas a página traz só as imagens e «Text folgt in Kürze» — ensinar com segurança apenas Tschüss e Auf Wiedersehen. RESSALVA ADICIONAL: só a ETIMOLOGIA de «Moin» é do AdA; a consequência de que POR ISSO se usa a qualquer hora do dia é MODERADA (snippet e verbete enciclopédico), e é assim que ela aparece no episódio — como leitura, nunca como carta do atlas.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-b05-n06",
+        "de-b05-n07"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b05-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "De balie is drie vragen lang, en u hebt alle drie de antwoorden al. Waarom, hoe lang, en waar."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b05-r01",
+      "es": "Guten Tag. Ihren Reisepass, bitte.",
+      "pinyin": "GOO-ten TAHK. EE-ren RYE-zuh-pass, BI-tuh",
+      "pt": "Goedendag. Uw paspoort, alstublieft.",
+      "tts": "Guten Tag. Ihren Reisepass, bitte."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b05-p01",
+      "promptPt": "De hand is al uit en de rij achter u is lang. Antwoord de hand, en groet eerst. Zeg het nu.",
+      "audioKey": "de-b05-t01",
+      "es": "Guten Tag. Hier ist mein Reisepass.",
+      "pinyin": "GOO-ten TAHK. heer ist mine RYE-zuh-pass",
+      "pt": "Goedendag. Hier is mijn paspoort.",
+      "tts": "Guten Tag. Hier ist mein Reisepass."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b05-n02",
+      "bloco": "corpo",
+      "pt": "Sie zit in elke zin aan deze balie, en u bent nooit degene die beslist het te laten vallen."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b05-r02",
+      "es": "Was ist der Grund Ihrer Reise?",
+      "pinyin": "vas ist dair GROONT EE-rer RYE-zuh",
+      "pt": "Wat is het doel van uw reis?",
+      "tts": "Was ist der Grund Ihrer Reise?"
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b05-p02",
+      "promptPt": "Eerste vraag, en een korte zin is hier een volledig antwoord. Zeg waarvoor u kwam. Zeg het nu.",
+      "audioKey": "de-b05-t02",
+      "es": "Ich mache Urlaub.",
+      "pinyin": "ikh MAKH-uh OOR-lowp",
+      "pt": "Ik ben op vakantie.",
+      "tts": "Ich mache Urlaub."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b05-r03",
+      "es": "Wie lange bleiben Sie in Deutschland?",
+      "pinyin": "vee LANG-uh BLY-ben zee in DOYTCH-lant",
+      "pt": "Hoe lang blijft u in Duitsland?",
+      "tts": "Wie lange bleiben Sie in Deutschland?"
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b05-p03",
+      "promptPt": "Tweede vraag. Een getal en de eenheid, en dan stoppen met praten. Zeg het nu.",
+      "audioKey": "de-b05-t03",
+      "es": "Ich bleibe zehn Tage.",
+      "pinyin": "ikh BLY-buh tsayn TAH-guh",
+      "pt": "Ik blijf tien dagen.",
+      "tts": "Ich bleibe zehn Tage."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b05-r04",
+      "es": "Und wo wohnen Sie?",
+      "pinyin": "oont voh VOH-nen zee",
+      "pt": "En waar verblijft u?",
+      "tts": "Und wo wohnen Sie?"
+    },
+    {
+      "consulta": [
+        "chegar/entrar",
+        "quarto/checkin"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b05-p04",
+      "promptPt": "Derde vraag. Begin met het soort adres, niet met de straatnaam. Zeg het nu.",
+      "audioKey": "de-b05-t04",
+      "es": "Ich wohne in einem Hotel.",
+      "pinyin": "ikh VOH-nuh in EYE-nem ho-TEL",
+      "pt": "Ik verblijf in een hotel.",
+      "tts": "Ich wohne in einem Hotel."
+    },
+    {
+      "consulta": [
+        "chegar/entrar",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b05-p05",
+      "promptPt": "U leest geen Duitse straatnaam vlot voor, en niemand vraagt dat. Zeg het nu.",
+      "audioKey": "de-b05-t05",
+      "es": "Die Adresse steht hier.",
+      "pinyin": "dee a-DRE-suh shtayt heer",
+      "pt": "Het adres staat hier.",
+      "tts": "Die Adresse steht hier."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b05-n03",
+      "pt": "Aan deze balie laat niemand het Sie vallen. Later biedt iemand het misschien aan, en dat aanbod is altijd aan hem."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-b05-r05",
+      "es": "Wir können uns gern duzen.",
+      "pinyin": "veer KURN-en oons gairn DOO-tsen",
+      "pt": "We mogen elkaar gerust tutoyeren.",
+      "tts": "Wir können uns gern duzen.",
+      "receptivo": true,
+      "acao": "Dagen later, van een host of collega en nooit van een ambtenaar: herken de uitnodiging, antwoord «Gern», en merk op dat u nooit degene was die die deur moest openen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b05-n04",
+      "pt": "Twee van de drie volwassenen hier zeggen Engels te kunnen voeren. Wijd beschikbaar is niet hetzelfde als gegarandeerd."
+    },
+    {
+      "consulta": [
+        "reparo/ingles"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "sprechen Sie Englisch",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b05-p06",
+      "promptPt": "De zin ging twee keer langs u en de rij wacht nog. Vraag om de andere taal. Zeg het nu.",
+      "audioKey": "de-b05-t06",
+      "es": "Entschuldigung, sprechen Sie Englisch?",
+      "pinyin": "ent-SHOOL-di-goong, SHPRE-khen zee ENG-lish",
+      "pt": "Pardon, spreekt u Engels?",
+      "tts": "Entschuldigung, sprechen Sie Englisch?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b05-r06",
+      "es": "Ja, natürlich. Wie kann ich Ihnen helfen?",
+      "pinyin": "yah, na-TEWR-likh. vee kan ikh EE-nen HEL-fen",
+      "pt": "Ja, natuurlijk. Hoe kan ik u helpen?",
+      "tts": "Ja, natürlich. Wie kann ich Ihnen helfen?",
+      "receptivo": true,
+      "acao": "Neem de overstap en ga verder in het Engels. Dat u in het Duits vroeg, is wat dat kocht."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b05-n05",
+      "pt": "Entschuldigung koopt een herhaling zonder u te verontschuldigen voor uw bestaan. De opener die nooit opraakt."
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "ich habe das nicht verstanden",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b05-p07",
+      "promptPt": "Het kwam op volle snelheid terug en u ving één woord. Zeg dat, gewoon. Zeg het nu.",
+      "audioKey": "de-b05-t07",
+      "es": "Entschuldigung, ich habe das nicht verstanden.",
+      "pinyin": "ent-SHOOL-di-goong, ikh HAH-buh das nikht fer-SHTAN-den",
+      "pt": "Pardon, dat heb ik niet verstaan.",
+      "tts": "Entschuldigung, ich habe das nicht verstanden."
+    },
+    {
+      "consulta": [
+        "reparo/ingles",
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "ich spreche nur wenig Deutsch",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b05-p08",
+      "promptPt": "Zet het niveau van dit gesprek voor het verder gaat. Zeg het nu.",
+      "audioKey": "de-b05-t08",
+      "es": "Entschuldigung, ich spreche nur wenig Deutsch.",
+      "pinyin": "ent-SHOOL-di-goong, ikh SHPRE-khuh noor VAY-nikh DOYTCH",
+      "pt": "Pardon, ik spreek maar een beetje Duits.",
+      "tts": "Entschuldigung, ich spreche nur wenig Deutsch."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b05-n06",
+      "bloco": "capsula",
+      "pt": "De groet waarin u landt hangt af van de landingsbaan. Moin in het noorden, Grüß Gott in het zuiden, Hallo overal."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-b05-r07",
+      "es": "Moin!",
+      "pinyin": "moyn",
+      "pt": "Moin!",
+      "tts": "Moin!",
+      "receptivo": true,
+      "acao": "Antwoord Guten Tag en loop door. In het noorden is dit de groet zelf, op elk uur van de dag."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b05-n07",
+      "pt": "Moin heeft niets met Morgen te maken. Het is een oud woord voor mooi — u herkent het zelf."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b05-n08",
+      "pt": "Guten Tag antwoordt op elk daarvan, in elke aankomsthal van het land. U hoeft nooit de lokale te matchen."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "DANKE",
+      "encaixe": "danke schön",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b05-p09",
+      "promptPt": "De stempel staat erin en de ambtenaar kijkt al langs u. Sluit af in twee woorden en ga. Zeg het nu.",
+      "audioKey": "de-b05-t09",
+      "es": "Danke schön.",
+      "pinyin": "DAN-kuh shurn",
+      "pt": "Hartelijk dank.",
+      "tts": "Danke schön."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-b05-s01",
+      "es": "Ich mache Urlaub. Ich bleibe zehn Tage. Ich wohne in einem Hotel.",
+      "pinyin": "ikh MAKH-uh OOR-lowp. ikh BLY-buh tsayn TAH-guh. ikh VOH-nuh in EYE-nem ho-TEL",
+      "pt": "Schaduw de drie antwoorden in de volgorde waarin ze altijd worden gevraagd.",
+      "tts": "Ich mache Urlaub. Ich bleibe zehn Tage. Ich wohne in einem Hotel."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b05-n09",
+      "bloco": "recap",
+      "pt": "B05 klaar. Doel, duur, adres — en twee uitwegen als het antwoord sneller terugkomt dan u leest."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "De balie, en de ene sociale beslissing die u nooit hoeft te nemen",
+    "secoes": [
+      {
+        "titulo": "Drie antwoorden, elk vier woorden",
+        "corpo": "Elke versie van deze balie vraagt dezelfde drie dingen: waarom u kwam, hoe lang u blijft, en waar. Elk antwoord is één korte zin met het werkwoord op de tweede plek en het gekozen ding op het eind — Ich mache Urlaub, Ich bleibe zehn Tage, Ich wohne in einem Hotel. Niets erin hoeft ter plekke in elkaar gezet te worden. Is de reis werk in plaats van vakantie, dan hoort u geschäftlich in de vraag en kunt u de paspoortversie van hetzelfde antwoord teruggeven; en wil de ambtenaar de straat, dan toont u de notitie in plaats van hem hardop te lezen, wat voor u beiden sneller gaat.",
+        "exemplos": [
+          {
+            "es": "Ich bleibe zehn Tage.",
+            "pt": "Ik blijf tien dagen."
+          },
+          {
+            "es": "Die Adresse steht hier.",
+            "pt": "Het adres staat hier."
+          }
+        ]
+      },
+      {
+        "titulo": "Sie, en waarom dit voor u het makkelijke land is",
+        "corpo": "U kent dit al: het Siezen is voor u in Duitsland precies wat U-zeggen thuis is. Aan het loket, tegen een onbekende, in de eerste minuut — Sie tegenover u en Sie terug. De sprong naar du komt als aanbod, en hoewel een stijlgids die beschrijft als van boven naar beneden aangeboden — baas aan werknemer, oudere collega aan jongere — wijst een linguïst van de Freie Universität Berlin erop dat iedereen het aanbod kan doen en dat de echte asymmetrie is dat wie het krijgt het nauwelijks kan weigeren. Het aanbod is dus nooit aan u om te doen, de overgang is praktisch onomkeerbaar zodra hij gemaakt is, en de veilige vorm zit al in elke zin van dit deel gebakken. De goedkope fout is één Sie te veel; er is geen dure versie van die fout."
+      },
+      {
+        "titulo": "U wordt waarschijnlijk in het Engels beantwoord, en dat blijft geen plan",
+        "corpo": "65 procent van de respondenten in Duitsland vertelde de Europese enquête van 2023 dat ze goed genoeg Engels spreken om een gesprek te voeren, tegen een Europees gemiddelde van 47, en het cijfer klom van 56 in 2012. Twee dingen houden dat af van een strategie. Een ander Europees instrument vraagt naar niveau in plaats van gesprek, en daar noemt maar ongeveer een kwart van wie een vreemde taal opgeeft zich vaardig — een andere vraag, geen tegenspraak, en niets om bij op te tellen. En zelf gerapporteerd sterk Engels concentreert zich in jongere leeftijdsbanden en grotere steden. Vraag in het Duits, neem de overstap wanneer die aangeboden wordt, en behandel de overstap als beleefdheid in plaats van als recht."
+      },
+      {
+        "titulo": "De groet is aardrijkskunde, en alleen voor uw oren",
+        "corpo": "De kaart hierachter is een echte enquêtevraag en zit in een klein winkeltje 's middags, wat precies uw situatie is. Moin hoort bij Sleeswijk-Holstein en het noorden van Nedersaksen, Grüß Gott bij het zuiden en Oostenrijk, Servus bij oostelijk Beieren en Oostenrijk, Grüezi en Hoi bij Noord- en Oost-Zwitserland — en Hallo heeft zich overal verspreid, de grootste gebruiksverschuiving sinds de jaren zeventig. Eén correctie is de moeite waard: Moin is geen ingekorte Morgen. Het komt van een oud woord dat mooi betekent, en daarom past het op elk uur — precies zoals mooi in uw eigen taal werkt. Herken ze allemaal; produceer Guten Tag of Hallo. Een regionale groet napraten die u niet met de paplepel kreeg, is niet vereist en levert niets op."
+      },
+      {
+        "titulo": "Entschuldigung, en de twee dingen die het koopt",
+        "corpo": "Het is het langste woord dat u zo vroeg leert, en dat is opzet: het is onmiskenbaar, het kost de ander niets, en het maakt van een gestrande wisseling een tweede poging. Aan ich habe das nicht verstanden gehangen vraagt het een herhaling; aan ich spreche nur wenig Deutsch zet het het niveau van al wat volgt; aan sprechen Sie Englisch gehangen geeft het de keuze van taal weg zonder dat de ander gezichtsverlies lijdt. Drie functies, één opener, en geen van drie is een excuus voor uw aanwezigheid.",
+        "exemplos": [
+          {
+            "es": "Entschuldigung, ich habe das nicht verstanden.",
+            "pt": "Pardon, dat heb ik niet verstaan."
+          }
+        ]
+      }
+    ]
+  },
+  "slot": "B05",
+  "permissao": "U mag deze balie in vier woorden beantwoorden en stoppen. Niets hier beloont een langere zin, niemand cijfert de grammatica, en er wacht geen aanspreekbeslissing op u — Sie zit al in elke regel die u hebt, dus het enige wat rest is het korte ware antwoord zeggen en het paspoort terugnemen.",
+  "permissaoAudioKey": "de-b05-n02",
+  "espelho": "Wie ooit door zijn eigen grens naar huis is gekomen en drie vlakke vragen met vlakke stem heeft beantwoord, kent dit script al. Het enige nieuwe is dat de beleefde vorm hier voor u gekozen is, wat één beslissing minder is dan thuis.",
+  "fichasCulturais": [
+    {
+      "sinal": "Elke wisseling op de luchthaven blijft op Sie, niemand warmt op, en een collega in Berlijn die u in du schrijft lijkt met andere regels te spelen.",
+      "suaLeitura": "De formaliteit is kilte, of een test, en overschakelen op du zou het vriendelijke zijn.",
+      "oQueEAli": "Sie is simpelweg de juiste aanspreekvorm voor zaken en nieuwe contacten, en draagt geen temperatuur. Het du komt als aanbod; een stijlgids beschrijft het als van boven naar beneden aangeboden, en een linguïst van de Freie Universität Berlin voegt toe dat iedereen het aanbod kan doen en dat de echte asymmetrie is dat wie het krijgt het nauwelijks kan weigeren. De overgang wordt als praktisch onomkeerbaar behandeld, en het idee dat Sie op zijn retour is staat niet vast.",
+      "oQueVoceFaz": "Gebruik Sie met iedereen die u niet tot du heeft uitgenodigd, antwoord «Gern» als de uitnodiging komt, en behandel de uitnodiging als de beslissing van de ander in plaats van een deur die u kunt duwen.",
+      "oQueMelhora": "U besteedt geen aandacht aan een sociale keuze, want in dit land hebt u er geen — het tegenovergestelde van wat er in vijf andere bestemmingen van deze reeks gebeurt.",
+      "ondeNaoVale": "De basis hier is een lexicografische stijlgids en een genoemd linguïst-interview, geen meting van hoe een misslag van een buitenlander wordt ontvangen; zo'n meting bestaat niet. Het enige beschikbare getal komt van een commercieel instituut, verklaart geen representativiteit en stopt bij leeftijd 54. En let op de Hamburger Sie — voornaam plus Sie — die is in het noorden vaker; uw voornaam aan Sie gehangen horen is een regionaal patroon en geen misslag.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-b05-n02",
+        "de-b05-n03"
+      ]
+    },
+    {
+      "sinal": "U landt in Hamburg en wordt om vier uur 's middags met «Moin» begroet, of in München met «Grüß Gott», en geen van beide is de groet die u oefende.",
+      "suaLeitura": "Of u leerde het verkeerde woord, of ze praten expres dialect tegen u.",
+      "oQueEAli": "Een landelijke enquête vroeg precies dit — hoe u groet bij het binnenlopen van een klein winkeltje 's middags — en de antwoorden komen geografisch. Moin en Moinmoin horen bij Sleeswijk-Holstein en het noorden van Nedersaksen, Grüß Gott bij Zuid-Duitsland en Oostenrijk, Servus bij oostelijk Beieren en Oostenrijk, Grüezi en Hoi bij Noord- en Oost-Zwitserland, en Hallo duikt bijna overal op als de grootste gebruiksverschuiving sinds de jaren zeventig. Moin is ook geen ingekorte Morgen: het komt van een oud bijvoeglijk naamwoord dat mooi betekent, en daarom wordt het op elk uur gebruikt.",
+      "oQueVoceFaz": "Antwoord met Guten Tag of Hallo, allebei bruikbaar in elk deel van het land, en behandel de lokale groet als iets om te herkennen in plaats van iets om na te doen.",
+      "oQueMelhora": "Een regionale groet klinkt niet meer als een correctie van uw Duits en gaat u vertellen, gratis en accuraat, in welk deel van het land u geland bent.",
+      "ondeNaoVale": "De atlas publiceert ordinale categorieën per enquêtepunt in plaats van percentages, en enquêtepunten zijn geen grenzen — er is geen exacte Moin-lijn voorbij Sleeswijk-Holstein en het noorden van Nedersaksen, en elk percentage aan deze kaart gehangen zou verzonnen zijn. Afscheidsgroeten werden niet gepubliceerd in tekst, dus houd productie op Tschüss en Auf Wiedersehen. En let op de splitsing in wat hier wordt geclaimd: de atlas geeft de etymologie van Moin, terwijl de stap van die etymologie naar «dus werkt het op elk uur» op een woordenboekniveau berust in plaats van op de enquête.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-b05-n06",
+        "de-b05-n07"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "id": "a01",
+  "nivel": "avancado",
+  "numero": 29,
+  "parte": "A01",
+  "titulo": "Wie es klingt, wenn es nicht an dich gerichtet ist",
+  "subtitulo": "Der Diphthong ui existiert im Deutschen nicht, das g wird zur Reibung im Rachen, und -tje klebt an fast jedem Wort, das dir lieb ist",
+  "slot": "A01",
+  "moldura": "ganha",
+  "cena": "Zwei Reisende neben dir auf dem Bahnsteig lösen in Windeseile etwas, und jedes Wort, das dir vertraut vorkommt, biegt im letzten Moment in eine andere Bedeutung ab.",
+  "frasePiso": "Erkennst du künftig nur den Klang von ui und ch, ist dir ein gutes Stück von jedem Satz auf dem Bahnsteig sofort klarer — ganz ohne ein einziges neues Wort zu lernen.",
+  "permissao": "Du musst hier nichts verstehen. Das ganze Ziel dieses Teils ist, dass dein Ohr die vier, fünf Klänge wiedererkennt, die dein Deutsch nicht kennt — nicht, dass du dem Tempo folgst. Ein Drittel mitzubekommen ist bei echtem Sprechtempo schon ein gutes Ergebnis, auch für Muttersprachler einer Nachbarsprache.",
+  "permissaoAudioKey": "hol-a01-n09",
+  "espelho": "Wer zu Hause zwei Leuten aus einer anderen Gegend zugehört hat, die schnell sprachen, kennt dieses Gefühl schon — Tempo und geteilter Kontext machen mehr kaputt als eine fremde Sprache. Neu ist hier nur, dass dieselben vier, fünf Dinge jedem Wort passieren, also lohnt es sich, sie einmal zu lernen statt Wort für Wort zu raten.",
+  "fichasCulturais": [
+    {
+      "sinal": "Am Nachbartisch bestellt jemand etwas mit dem Wort «mag», und du hörst «mag» wie dein eigenes «mögen».",
+      "suaLeitura": "Die Person sagt gerade, dass sie etwas gernhat — das ist doch das Gleiche wie bei uns.",
+      "oQueEAli": "«Mag» kommt von «mogen» und heißt hier «dürfen», nicht «mögen». Es ist der berühmteste falsche Freund des Paars, genau weil er so unauffällig ist — das Ergebnis am Tresen ist dasselbe, ob man «ich mag» oder «darf ich» meint, also merkt man den Irrtum selten.",
+      "oQueVoceFaz": "Wenn dir «mag» begegnet, höre «darf ich» statt «ich mag» — den Rest des Satzes verstehst du meistens ohnehin über den Zusammenhang.",
+      "oQueMelhora": "Du erkennst die häufigste Falle des ganzen Kurses schon beim Zuhören, bevor du selbst mit ihr arbeitest — das kommt in B11 dran.",
+      "ondeNaoVale": "Nicht jede Ähnlichkeit ist eine Falle: water, brood, bier, huis heißen genau das, was sie zu heißen scheinen. Und diese Regel gilt nur für den Klang «mag» — «mogelijk» (möglich) ist ein eigenes Wort.",
+      "evidencia": "FATO",
+      "audioKeys": ["hol-a01-n05", "hol-a01-n06"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a01-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "Bisher war das Niederländische immer an dich gerichtet. Jetzt hörst du, wie es klingt, wenn zwei Leute miteinander reden."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a01-n02",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Regel eins, sie zahlt sich am meisten aus: der Diphthong ui. Dein Deutsch hat diesen Laut nicht."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-a01-r01",
+      "tom": "ganha",
+      "receptivo": true,
+      "acao": "Der Laut in huis und uit ist neu für dich — er liegt zwischen deinem eu und deinem ei. Höre ihn, ohne ihn einzuordnen.",
+      "es": "Ik ga even naar buiten, ik ben zo terug.",
+      "pinyin": "ik chaa ÉÉ-ven naar BÖÜ-ten, ik ben zo te-RUCH",
+      "pt": "Ich gehe kurz raus, bin sofort zurück.",
+      "tts": "Ik ga even naar buiten, ik ben zo terug."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a01-n03",
+      "tom": "ganha",
+      "pt": "Huis, uit, buiten — überall derselbe Laut. Merk ihn dir als eigenen Klang, nicht als Mischung aus zwei deutschen."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_f",
+      "audioKey": "hol-a01-r02",
+      "tom": "ganha",
+      "receptivo": true,
+      "acao": "ij und ei klingen gleich und wie dein eigenes ei — mij, zijn, trein. Das kostet dich nichts, es ist geschenkt.",
+      "es": "Mijn trein staat op het tweede spoor, wij hebben nog tijd.",
+      "pinyin": "main train staat op het TWÉÉ-de spoor, wai HÉÉ-ben noch TAIT",
+      "pt": "Mein Zug steht auf Gleis zwei, wir haben noch Zeit.",
+      "tts": "Mijn trein staat op het tweede spoor, wij hebben nog tijd."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a01-n04",
+      "tom": "ganha",
+      "pt": "Zweite Regel, sie ist geschenkt: ei und ij klingen wie dein deutsches ei. Kein neuer Laut, nur eine neue Schreibweise."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-a01-r03",
+      "tom": "ganha",
+      "receptivo": true,
+      "acao": "Jetzt der falsche Freund: mag. Es klingt wie dein «mag», heißt aber «darf ich» — die berühmteste Falle des Paars.",
+      "es": "Mag ik hier even zitten? Het is nogal druk vandaag.",
+      "pinyin": "mach ik heer ÉÉ-ven ZIT-ten? het is noch-al druk van-DAACH",
+      "pt": "Darf ich mich kurz hier hinsetzen? Es ist heute ziemlich voll.",
+      "tts": "Mag ik hier even zitten? Het is nogal druk vandaag."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a01-n05",
+      "tom": "ganha",
+      "bloco": "capsula",
+      "pt": "Mag klingt wie mögen, meint aber dürfen. Der Trick: Man bekommt trotzdem, was man wollte — der Irrtum bleibt unsichtbar."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a01-n06",
+      "tom": "ganha",
+      "pt": "Merk dir den Klang, nicht die Bedeutung, die du aus dem Deutschen mitbringst. In B11 wird daraus dein wichtigstes Wort."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_f",
+      "audioKey": "hol-a01-r04",
+      "tom": "ganha",
+      "receptivo": true,
+      "acao": "eu klingt wie dein eigenes eu von neu — keur, deur, kleur. Auch das ist geschenkt.",
+      "es": "Doe die deur maar dicht, het tocht hier enorm.",
+      "pinyin": "doe die döör maar dicht, het tocht heer e-NORM",
+      "pt": "Mach die Tür bitte zu, hier zieht es enorm.",
+      "tts": "Doe die deur maar dicht, het tocht hier enorm."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-a01-r05",
+      "tom": "ganha",
+      "receptivo": true,
+      "acao": "g und ch sind hier eine raue Reibung ganz hinten im Rachen — härter als dein Ach-Laut. Scheveningen ist der Testfall.",
+      "es": "Ga je nog naar Scheveningen, of blijf je in Den Haag?",
+      "pinyin": "cha jö noch naar SCHÉÉ-ve-ning-en, of blaif jö in den Chaach",
+      "pt": "Fährst du noch nach Scheveningen, oder bleibst du in Den Haag?",
+      "tts": "Ga je nog naar Scheveningen, of blijf je in Den Haag?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a01-n07",
+      "tom": "protege",
+      "pt": "Scheveningen ist absichtlich schwer — man testete damit im Krieg, wer aus dem Land war. Niemand erwartet, dass du ihn schaffst."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_f",
+      "audioKey": "hol-a01-r06",
+      "tom": "ganha",
+      "receptivo": true,
+      "acao": "Die Endung -tje macht Dinge klein und beiläufig, ohne dass sich sonst etwas am Wort ändert. Sie klebt an fast allem.",
+      "es": "Wil je een kopje koffie en een koekje erbij?",
+      "pinyin": "vil jö en KOP-yö KOF-fie en en KOEK-yö er-BAI",
+      "pt": "Möchtest du ein Tässchen Kaffee und ein Keksje dazu?",
+      "tts": "Wil je een kopje koffie en een koekje erbij?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a01-n08",
+      "tom": "ganha",
+      "pt": "Kopje, koekje, momentje — jedes Wort kann klein werden. Höre die Endung, nicht das Wort davor."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-a01-r07",
+      "tom": "ganha",
+      "receptivo": true,
+      "acao": "Am Satzende fällt die -en-Endung oft zur bloßen Schwa-Silbe zusammen — lopen klingt fast wie lope. Das ist normal, kein Nuscheln.",
+      "es": "We gaan zo lopen, pak je jas maar even.",
+      "pinyin": "wö chaan zo LO-pö, pak jö jas maar ÉÉ-ven",
+      "pt": "Wir gehen gleich zu Fuß, hol schon mal deine Jacke.",
+      "tts": "We gaan zo lopen, pak je jas maar even."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a01-n09",
+      "tom": "ganha",
+      "bloco": "permissao",
+      "pt": "Ein Drittel mitzubekommen ist bei diesem Tempo schon gut — auch für Muttersprachler einer Nachbarsprache. Niemand prüft dich."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_f",
+      "audioKey": "hol-a01-r08",
+      "tom": "ganha",
+      "receptivo": true,
+      "acao": "Zwei falsche Freunde auf einmal: eng heißt eng im Sinn von schmal, nicht ängstigend, und aardig heißt sympathisch, nicht artig.",
+      "es": "Die straat is best eng, maar de mensen daar zijn heel aardig.",
+      "pinyin": "die straat is best eng, maar de MEN-sen daar zain héél AAR-dich",
+      "pt": "Die Straße ist ziemlich eng, aber die Leute dort sind sehr sympathisch.",
+      "tts": "Die straat is best eng, maar de mensen daar zijn heel aardig."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a01-n10",
+      "tom": "ganha",
+      "pt": "Eng ist eng, nicht ängstigend. Aardig ist sympathisch, nicht artig. Zwei weitere Fallen, die genauso unauffällig bleiben."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_m",
+      "audioKey": "hol-a01-s01",
+      "tom": "ganha",
+      "es": "Ik ga even naar buiten. Mag ik hier zitten? Ga je nog naar Scheveningen?",
+      "pinyin": "ik chaa ÉÉ-ven naar BÖÜ-ten. mach ik heer ZIT-ten? chaa jö noch naar SCHÉÉ-ve-ning-en?",
+      "pt": "Schatte die drei Sätze nach, die ui, mag und die raue g-Reibung tragen.",
+      "tts": "Ik ga even naar buiten. Mag ik hier zitten? Ga je nog naar Scheveningen?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a01-n11",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "A01 fertig. ui ist neu, ei ist geschenkt, g reibt hinten im Rachen, -tje macht klein, und mag heißt darf."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Fünf Dinge, die mit dem Niederländischen passieren, bevor es dein Ohr erreicht",
+    "secoes": [
+      {
+        "titulo": "Der Diphthong, den dein Deutsch nicht hat",
+        "corpo": "ui — geschrieben in huis, uit, buiten — ist der teuerste einzelne Laut dieses Paars, weil er in keinem deutschen Wort vorkommt. Phonetisch liegt er zwischen deinem eu und deinem ei, aber als eigener Laut, keine Mischung. Er lohnt sich, weil er sehr häufig ist: huis (Haus), uit (aus/heraus), buiten (draußen), tuin (Garten) — alles Wörter, die in der ersten Reisewoche mehrfach am Tag fallen.",
+        "exemplos": [
+          { "es": "Ik ga even naar buiten.", "pt": "Ich gehe kurz raus." },
+          { "es": "Doe die deur maar dicht.", "pt": "Mach die Tür bitte zu." }
+        ]
+      },
+      {
+        "titulo": "Was geschenkt ist: ei, ij und eu",
+        "corpo": "Drei Digraphen liest du bereits richtig, ohne es zu wissen. ei und ij klingen beide wie dein deutsches ei — mij, zijn, trein, klein. eu klingt wie dein deutsches eu — deur, kleur, keuze. Das Niederländische verlangt hier nichts Neues von dir; es nutzt exakt die Laute, die dein Deutsch schon kennt, nur unter anderer Schreibung."
+      },
+      {
+        "titulo": "g und ch: das raue Reiben im Rachen",
+        "corpo": "Die niederländische g (und ch) ist eine Reibung weit hinten im Rachen — härter und rauer als dein deutscher Ach-Laut, eher wie ein kleines Räuspern. Scheveningen, der Badeort bei Den Haag, ist der bekannte Testfall: Er enthält den Laut mehrfach und wurde im Zweiten Weltkrieg genutzt, um zu prüfen, wer die Sprache wirklich spricht. Niemand erwartet, dass du ihn beim ersten Versuch triffst — ihn zu erkennen, wenn du ihn hörst, reicht für dieses Ziel."
+      },
+      {
+        "titulo": "Die Endung -tje, die an fast jedem Wort haftet",
+        "corpo": "Das Diminutiv -tje (mit Varianten -je, -pje, -etje) macht ein Wort klein, beiläufig oder liebevoll, ohne die Grundbedeutung zu ändern: kopje (Tässchen), koekje (Keksje), momentje (Momentchen). Es ist im Alltagsniederländisch außerordentlich produktiv — häufiger als das deutsche -chen — und du hörst es an der Theke ständig, oft ohne dass es etwas Kleines beschreibt: een momentje ist einfach «kurz»."
+      },
+      {
+        "titulo": "Der falsche Freund, der die ganze Reise begleitet",
+        "corpo": "mag klingt wie dein mögen und ist doch das Verb mogen — dürfen. Mag ik een koffie heißt «darf ich einen Kaffee», nicht «ich mag einen Kaffee». Weil das Ergebnis am Tresen dasselbe ist — man bekommt den Kaffee so oder so — bleibt der Irrtum unsichtbar, was ihn zur zuverlässigsten Falle des ganzen Kurses macht. Zwei weitere, kleinere: eng heißt eng/schmal, nicht ängstigend; aardig heißt sympathisch, nicht artig/brav."
+      }
+    ]
+  }
+}

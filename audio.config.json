@@ -1,0 +1,19 @@
+{
+  "_comentario": "curso-holanda-de (survival Neerlandês → Países Baixos, guia de-DE): PAR INVERTIDO do curso-alemanha-nl (NL → Alemanha). voz-GUIA em ALEMÃO (Juli educadora + Thomas avisos, as vozes-guia alemãs já provadas no curso-espanha-de); fala-ALVO em NEERLANDÊS (Noa f + Wim m, as vozes neerlandesas do curso-alemanha-nl/curso-espanha-nl). É o espelho: lá o neerlandês guia e o alemão é alvo; aqui o alemão guia e o neerlandês é alvo. REGRA INV-5: a voz-guia (de) nunca fala neerlandês, a voz nativa (nl) nunca fala alemão — e como as duas línguas são MUITO próximas, este é o par de maior risco de vazamento; o G14 recebeu uma entrada 'nl' na tabela MARCAS justamente para pegar a guia alemã escorregando pro neerlandês.",
+  "_fonetica_do_par": "Alemão → neerlandês: o par mais PRÓXIMO do catálogo (duas germânicas ocidentais vizinhas, parcialmente inteligíveis por escrito). CHEGA COM: quase toda a estrutura de frase, ordem de palavras, e um estoque enorme de cognatos (water/Wasser, brood/Brot, bier/Bier, huis/Haus). O custo do aluno NÃO é montar a frase — migra para (1) PRONÚNCIA: o ⟨g⟩/⟨ch⟩ neerlandês é uma fricativa dura [x]/[ɣ] mais gutural que a alemã (Scheveningen é o xibolete), o ditongo ⟨ui⟩ [œy] (huis, ui) que o alemão não tem, ⟨ij⟩/⟨ei⟩ [ɛi], ⟨eu⟩ [ø], o diminutivo ⟨-tje⟩; e (2) FALSOS AMIGOS de alta frequência — o maior perigo porque tudo PARECE igual: bellen (telefonar, não latir), mogen (poder/ter licença, não gostar), eng (assustador, não estreito), brutaal (atrevido, não brutal), aardig (simpático, não 'artig'/comportado), meer (lago/mais), slim (esperto). O erro nº 1 do comprador alemão não é articulatório nem gramatical: é a ARMADILHA DO COGNATO — ele lê/ouve uma palavra parecida e assume o sentido alemão. Detalhe a autorar em docs/FUNDACAO.md.",
+  "guideModel": "eleven_flash_v2_5",
+  "targetModel": "eleven_multilingual_v2",
+  "roles": {
+    "guide_de_f": { "voiceId": "b7rYqIwPfdKfLiwkAgFs", "languageCode": "de", "name": "Juli" },
+    "guide_de_m": { "voiceId": "5faieqDE3osz75KiOI2M", "languageCode": "de", "name": "Thomas" },
+    "target_nl_f": { "voiceId": "6e6TrJGLhrDGMKOy5x2i", "languageCode": "nl", "name": "Noa" },
+    "target_nl_m": { "voiceId": "n7ouoGANCMwNqHL3VPz1", "languageCode": "nl", "name": "Wim" }
+  },
+  "_ear_module": "A01 (o módulo de ouvido) usa as mesmas Noa/Wim como fala-alvo — não há um 2º par neerlandês na biblioteca, então A01 NÃO alega sotaque regional nenhum (mesma decisão dos cursos espanhol/italiano, onde só havia duas vozes-alvo). Os episódios clonados do curso-alemanha-nl referenciam 'ear_de_f/m'; ao reautorar A01 na Fase 2, trocar por 'target_nl_f/m'.",
+  "_g14": {
+    "guia": ["guide_de_f", "guide_de_m"],
+    "guiaLingua": "de",
+    "alvo": ["target_nl_f", "target_nl_m"],
+    "alvoLingua": "nl"
+  }
+}

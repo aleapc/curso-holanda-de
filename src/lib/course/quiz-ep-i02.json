@@ -1,0 +1,96 @@
+{
+  "id": "q-i02",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Wer ist dran? Keiner ruft eine Nummer",
+  "subtitulo": "Der Blick als Ticket, und vier Wörter, die an jeder Theke reichen",
+  "introAudioKey": "hol-i02-q-i",
+  "introPt": "Ein Reisender steht in einer Bäckerei ohne Ziehautomat und muss den Blick statt einer Nummer lesen.",
+  "cenario": "Eine kleine Bäckerei, kurz vor Mittag.",
+  "dialogo": [
+    {
+      "audioKey": "hol-i02-q01",
+      "voz": "target_nl_f",
+      "es": "Hoe laat sluit de bakkerij?",
+      "pt": "Wann schließt die Bäckerei?",
+      "tts": "Hoe laat sluit de bakkerij?"
+    },
+    {
+      "audioKey": "hol-i02-q02",
+      "voz": "target_nl_m",
+      "es": "Om vijf uur. U bent op tijd.",
+      "pt": "Um fünf Uhr. Sie sind rechtzeitig.",
+      "tts": "Om vijf uur. U bent op tijd."
+    },
+    {
+      "audioKey": "hol-i02-q03",
+      "voz": "target_nl_f",
+      "es": "Mag ik twee broodjes?",
+      "pt": "Darf ich zwei Brötchen haben?",
+      "tts": "Mag ik twee broodjes?"
+    },
+    {
+      "audioKey": "hol-i02-q04",
+      "voz": "target_nl_m",
+      "es": "Dat is dan vier euro tachtig.",
+      "pt": "Das macht dann vier Euro achtzig.",
+      "tts": "Dat is dan vier euro tachtig."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Welcher Baustein steckt in «Hoe laat sluit de bakkerij?»?",
+      "opcoes": [
+        "Ein neuer Baustein nur für Geschäfte",
+        "Derselbe Baustein aus APROVEITO Teil eins, nur mit einem neuen Ding dahinter",
+        "Eine feste Redewendung ohne Baustein",
+        "Eine Frage, die nur Verkäufer stellen dürfen"
+      ],
+      "correta": 1,
+      "explica": "Hoe laat is/sluit ___? ist derselbe Baustein wie beim Frühstück und beim letzten Zug. Nur das Ding ändert sich."
+    },
+    {
+      "pergunta": "Kein Ziehautomat, keine Nummer. Wie organisiert sich die Reihenfolge an dieser Theke?",
+      "opcoes": [
+        "Über einen Zettel, den man am Eingang zieht",
+        "Über Blickkontakt — wer zuletzt kam, behält selbst den Überblick",
+        "Man ruft laut den eigenen Namen",
+        "Es gibt keine Reihenfolge, alle drängen gleichzeitig vor"
+      ],
+      "correta": 1,
+      "explica": "An kleinen Theken ohne Ziehautomat zählt der Blick, nicht die Lautstärke. Wer laut ruft, gewinnt selten Zeit."
+    },
+    {
+      "pergunta": "Der Verkäufer nennt drei Brotsorten in einem Atemzug, und Sie verstehen höchstens eine. Was sagen Sie?",
+      "opcoes": [
+        "Gar nichts, einfach irgendetwas zeigen",
+        "Sorry, ik versta u niet",
+        "Auf Deutsch weiterreden, bis er es versteht",
+        "Den nächsten in der Reihe vorlassen"
+      ],
+      "correta": 1,
+      "explica": "«Sorry, ik versta u niet» ist der Baustein Sorry/Pardon plus dem, was Sie wirklich brauchen — hier: dass er es noch einmal sagt."
+    },
+    {
+      "pergunta": "«Dat is dan vier euro tachtig.» Was tun Sie?",
+      "opcoes": [
+        "Fragen, ob das ein Sonderpreis für Touristen ist",
+        "Die Zahl als Stichwort zum Zahlen nehmen, nicht als Rätsel",
+        "Warten, bis jemand anders zahlt",
+        "Um eine Quittung auf Englisch bitten"
+      ],
+      "correta": 1,
+      "explica": "Eine Zahl am Ende einer Bestellung ist das Stichwort zum Zahlen. Wer sie nicht versteht, kann höflich um Wiederholung bitten: Kunt u dat herhalen?"
+    },
+    {
+      "pergunta": "Was dürfen Sie an einer niederländischen Theke ohne schlechtes Gewissen tun?",
+      "opcoes": [
+        "Wortlos warten, bis der Blick Sie trifft, und leise sprechen",
+        "Laut rufen, damit man Sie schneller bedient",
+        "Einen ganzen deutschen Höflichkeitssatz aufsagen",
+        "Die Reihe überspringen, wenn es schnell gehen muss"
+      ],
+      "correta": 0,
+      "explica": "Laut und lang ist hier keine Höflichkeit — es ist nur laut. Ein Gruß, das Ding, ein bitte reichen für eine höfliche Bestellung."
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "id": "i02",
+  "nivel": "intermediario",
+  "numero": 20,
+  "parte": "I02",
+  "titulo": "Wer ist dran? Keiner ruft eine Nummer",
+  "subtitulo": "Der Blick, der Sie zur Reihe macht — und die vier Wörter, die an jeder Theke reichen",
+  "cena": "Bäckerei, kurz vor Mittag, kein Ziehautomat, drei Personen vor Ihnen — und der Verkäufer schaut plötzlich genau Sie an.",
+  "moldura": "ganha",
+  "decisao": "wo Sie stehen und wie Sie den Blick beantworten — abwarten oder mit einem Pardon zu viel Höflichkeit die Reihe verlieren",
+  "emJogo": "tempo",
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-i02-n01",
+      "gesto": 4,
+      "tom": "ganha",
+      "bloco": "aquecimento",
+      "pt": "Ihr Faustschlag von gestern trifft heute jedes betonte Wort an der Theke — auch wenn niemand Ihre Nummer ruft."
+    },
+    {
+      "consulta": ["compras/balcao"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "bloco": "callback",
+      "molde": "WANN-IST",
+      "encaixe": "de bakkerij",
+      "encaixeGloss": "die Bäckerei",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i02-p01",
+      "promptPt": "Derselbe Baustein wie gestern beim Abendessen, nur ein neues Ding dahinter: Die Schlange vor Ihnen wächst, und Sie wissen nicht, wie lange dieser Laden heute überhaupt offen hat. Fragen Sie. Jetzt sprechen.",
+      "audioKey": "hol-i02-t01",
+      "es": "Hoe laat sluit de bakkerij?",
+      "pinyin": "hoo laat sloöyt duh BAH-ke-rai",
+      "pt": "Wann schließt die Bäckerei?",
+      "tts": "Hoe laat sluit de bakkerij?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-i02-r01",
+      "tom": "ganha",
+      "es": "Om vijf uur. U bent op tijd.",
+      "pinyin": "om fayf ür. ü bent op tayt.",
+      "pt": "Um fünf Uhr. Sie sind rechtzeitig.",
+      "tts": "Om vijf uur. U bent op tijd.",
+      "receptivo": true,
+      "acao": "Eine Uhrzeit in der Antwort ist eine Erlaubnis, nicht zu hetzen — merken Sie sich sie und lassen Sie die Schultern sinken."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-i02-n02",
+      "tom": "ganha",
+      "bloco": "cena",
+      "pt": "Drei Personen vor Ihnen, kein Zettel mit einer Nummer — und der Verkäufer schaut plötzlich genau Sie an."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-i02-n03",
+      "tom": "ganha",
+      "bloco": "corpo",
+      "pt": "Dieser Blick ist der ganze Aufruf. Kein Name, keine Nummer — nur ein Wimpernschlag, in dem Sie an der Reihe sind."
+    },
+    {
+      "consulta": ["compras/balcao"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "twee broodjes",
+      "encaixeGloss": "zwei Brötchen",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i02-p02",
+      "promptPt": "Der Blick liegt jetzt auf Ihnen, und Sie brauchen zwei vom Frühstück, das schon fast weg ist. Jetzt sprechen.",
+      "audioKey": "hol-i02-t02",
+      "es": "Mag ik twee broodjes?",
+      "pinyin": "mach ik tvay BROH-duh-yes",
+      "pt": "Darf ich zwei Brötchen haben?",
+      "tts": "Mag ik twee broodjes?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-i02-r02",
+      "tom": "ganha",
+      "es": "Verder nog iets?",
+      "pinyin": "FER-der noch eets",
+      "pt": "Sonst noch etwas?",
+      "tts": "Verder nog iets?",
+      "receptivo": true,
+      "acao": "Ein Ja oder Nein reicht als Antwort — Sie müssen keinen neuen Satz bauen."
+    },
+    {
+      "consulta": ["compras/balcao"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "HABEN-SIE",
+      "encaixe": "nog vers brood",
+      "encaixeGloss": "noch frisches Brot",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i02-p03",
+      "promptPt": "Das Fach mit dem Weißbrot ist leer, aber hinter dem Verkäufer öffnet sich gerade ein Ofen. Fragen Sie, ob mehr kommt. Jetzt sprechen.",
+      "audioKey": "hol-i02-t03",
+      "es": "Heeft u nog vers brood?",
+      "pinyin": "HÉÉFT ü noch fers broht",
+      "pt": "Haben Sie noch frisches Brot?",
+      "tts": "Heeft u nog vers brood?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-i02-n04",
+      "tom": "protege",
+      "bloco": "capsula",
+      "pt": "Ein Wort für die Reihe: An kleinen Theken zählt der Blick, nicht die Lautstärke. Wer laut ruft, gewinnt selten Zeit."
+    },
+    {
+      "consulta": ["reparo/devagar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "ik versta u niet",
+      "encaixeGloss": "ich verstehe Sie nicht",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i02-p04",
+      "promptPt": "Er hat gerade drei Sorten in einem Atemzug genannt, und höchstens eine davon kam bei Ihnen an. Sagen Sie es ihm. Jetzt sprechen.",
+      "audioKey": "hol-i02-t04",
+      "es": "Sorry, ik versta u niet.",
+      "pinyin": "SO-rie, ik FER-sta ü neet",
+      "pt": "Entschuldigung, ich verstehe Sie nicht.",
+      "tts": "Sorry, ik versta u niet."
+    },
+    {
+      "consulta": ["reparo/devagar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "KONNEN-SIE",
+      "encaixe": "dat herhalen",
+      "encaixeGloss": "das wiederholen",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i02-p05",
+      "promptPt": "Statt aufzugeben, bitten Sie um dieselben drei Namen noch einmal — langsamer reicht schon. Jetzt sprechen.",
+      "audioKey": "hol-i02-t05",
+      "es": "Kunt u dat herhalen?",
+      "pinyin": "kunt ü dat her-HAA-len",
+      "pt": "Können Sie das wiederholen?",
+      "tts": "Kunt u dat herhalen?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-i02-r03",
+      "tom": "ganha",
+      "es": "Dat is dan vier euro tachtig.",
+      "pinyin": "dat is dan feer OY-roh TACH-tich",
+      "pt": "Das macht dann vier Euro achtzig.",
+      "tts": "Dat is dan vier euro tachtig.",
+      "receptivo": true,
+      "acao": "Eine Zahl am Ende einer Bestellung ist Ihr Stichwort zu zahlen, kein Rätsel zum Lösen."
+    },
+    {
+      "consulta": ["reparo/escreve"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "KONNEN-SIE",
+      "encaixe": "dat opschrijven",
+      "encaixeGloss": "das aufschreiben",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i02-p06",
+      "promptPt": "Die Zahl kam zu schnell, und Ihr Kopf hat nur die Hälfte behalten. Bitten Sie um Ziffern auf Papier. Jetzt sprechen.",
+      "audioKey": "hol-i02-t06",
+      "es": "Kunt u dat opschrijven?",
+      "pinyin": "kunt ü dat OP-schray-ven",
+      "pt": "Können Sie das aufschreiben?",
+      "tts": "Kunt u dat opschrijven?"
+    },
+    {
+      "consulta": ["reparo/ingles"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "spreekt u Engels",
+      "encaixeGloss": "sprechen Sie Englisch",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i02-p07",
+      "promptPt": "Ihr Niederländisch reicht für heute nicht mehr, und die Schlange hinter Ihnen wird länger. Fragen Sie höflich nach einer Brücke. Jetzt sprechen.",
+      "audioKey": "hol-i02-t07",
+      "es": "Pardon, spreekt u Engels?",
+      "pinyin": "par-DON, spraykt ü ENG-els",
+      "pt": "Entschuldigung, sprechen Sie Englisch?",
+      "tts": "Pardon, spreekt u Engels?"
+    },
+    {
+      "consulta": ["simpatia/agradecer"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "DANKE",
+      "encaixe": "dank u wel",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i02-p08",
+      "promptPt": "Sie haben, was Sie wollten, und die Schlange wartet nicht auf Höflichkeitsfloskeln. Schließen Sie kurz ab. Jetzt sprechen.",
+      "audioKey": "hol-i02-t08",
+      "es": "Dank u wel!",
+      "pinyin": "dank ü wel",
+      "pt": "Vielen Dank!",
+      "tts": "Dank u wel!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-i02-n05",
+      "tom": "ganha",
+      "bloco": "permissao",
+      "pt": "Sie dürfen wortlos warten, bis der Blick Sie trifft, und Sie dürfen leise sprechen. Laut und lang ist hier keine Höflichkeit — es ist nur laut."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-i02-s01",
+      "tom": "ganha",
+      "molde": "ICH-MOCHTE",
+      "es": "Mag ik twee broodjes? Heeft u nog vers brood? Dank u wel!",
+      "pinyin": "mach ik tvay BROH-duh-yes? HÉÉFT ü noch fers broht? dank ü wel!",
+      "pt": "Schatten Sie drei Sätze an einer einzigen Theke.",
+      "tts": "Mag ik twee broodjes? Heeft u nog vers brood? Dank u wel!"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "hol-i02-n06",
+      "tom": "ganha",
+      "bloco": "recap",
+      "pt": "I02 fertig. Ein Blick statt einer Nummer, ein Baustein fürs Bestellen, und Pardon, wenn die Ohren nicht mitkommen."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Der Blick als Ticket",
+    "secoes": [
+      {
+        "titulo": "Warum niemand ruft",
+        "corpo": "An kleinen Theken ohne Ziehautomat organisiert sich die Reihenfolge über Blickkontakt: Wer zuletzt kam, behält selbst den Überblick, und der Verkäufer wendet sich der Person zu, die als Nächste dran ist. Das ist kein Zufall und keine Unhöflichkeit — es ist einfach ein anderes System als das Nummernschild, das Sie vielleicht gewohnt sind.",
+        "exemplos": [
+          { "es": "Ben ik aan de beurt?", "pt": "Bin ich an der Reihe?" },
+          { "es": "Wie is er aan de beurt?", "pt": "Wer ist dran?" }
+        ]
+      },
+      {
+        "titulo": "Vier Wörter reichen an jeder Theke",
+        "corpo": "Ein Gruß, das Ding, ein bitte — mehr braucht eine höfliche Bestellung nicht. Wer versucht, das mit einem ganzen deutschen Höflichkeitssatz aufzufüllen, verliert nur Zeit, ohne netter zu wirken."
+      }
+    ]
+  },
+  "slot": "I02",
+  "permissao": "Sie dürfen wortlos warten, bis der Blick Sie trifft, und Sie dürfen leise sprechen. Laut und lang ist hier keine Höflichkeit — es ist nur laut.",
+  "permissaoAudioKey": "hol-i02-n05",
+  "fichasCulturais": [
+    {
+      "sinal": "Niemand ruft eine Nummer oder Ihren Namen; die Bedienung schaut Sie nur für einen Wimpernschlag an.",
+      "suaLeitura": "Ich werde übergangen, weil ich nicht laut genug war oder keinen Zettel gezogen habe.",
+      "oQueEAli": "An kleinen Theken ohne Ziehautomat organisiert sich die Reihenfolge über Blickkontakt statt über ein Ticketsystem. Wer zuletzt kam, hält den Überblick selbst — 'wie is er aan de beurt?' ist eine ganz normale Frage, kein Vorwurf an irgendjemanden.",
+      "oQueVoceFaz": "Bleiben Sie in Sichtweite der Theke, nehmen Sie den Blick an, wenn er kommt, und fragen Sie ruhig 'Ben ik aan de beurt?', wenn Sie unsicher sind.",
+      "oQueMelhora": "Sie hören auf, auf ein Zeichen zu warten, das nie kommt, und die Wartezeit fühlt sich kürzer an, weil Sie wissen, worauf Sie achten.",
+      "ondeNaoVale": "In großen Ketten mit Ziehautomat gilt die gezogene Nummer, nicht der Blick — dort fragt niemand, wer dran ist.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["hol-i02-n02", "hol-i02-n03"]
+    }
+  ]
+}

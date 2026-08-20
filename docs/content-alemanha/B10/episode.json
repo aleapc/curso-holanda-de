@@ -1,0 +1,493 @@
+{
+  "id": "b10",
+  "nivel": "basico",
+  "numero": 10,
+  "parte": "B10",
+  "slot": "B10",
+  "titulo": "Zeg de tweede letter, en het bord leest zichzelf",
+  "subtitulo": "Deuren, openingstijden, en één etiket dat het tegenovergestelde betekent van wat het lijkt",
+  "cena": "Zondag, twintig over negen, een straat vol rolluiken in een stad waar u gisteravond landde, en het enige verlichte raam is een bakkerij twee deuren verder.",
+  "moldura": "ganha",
+  "frasePiso": "Vier dingen vinden in een vreemde stad met drie woorden. De meesten die hier een week doorbrengen, wijzen naar dingen en hopen.",
+  "moldes": [
+    "ICH-SUCHE"
+  ],
+  "clique": {
+    "contagem": [
+      "de etalage van de apotheek",
+      "de bankhal",
+      "de bakkerij",
+      "het perron van het station"
+    ],
+    "desconto": "Niemand gaf u vier zinnen. U hield twee woorden vast en wisselde het ding aan het eind, en de straat antwoordde elke keer.",
+    "piso": "De volgende keer dat een straat u niets biedt om naar te wijzen, hebt u nog steeds een opening — en u leest de deur voordat u eraan trekt."
+  },
+  "fatosDatados": [
+    {
+      "id": "de-b10-ladenschluss",
+      "afirmacao": "De sluitingstijd van winkels is in de wet geschreven, niet in gewoonte. § 3 van de federale Ladenschlussgesetz houdt winkels dicht op zondagen en feestdagen, vóór 6 uur 's ochtends en vanaf 20 uur, en op 24 december vanaf 14 uur; bakkerijen mogen vanaf halfzes open. Sinds de federalismehervorming van 2006 regelen de zestien Länder dit zelf — art. 74 lid 1 nr. 11 GG haalt Ladenschluss uit het federale economische recht — en de federale wet blijft over als restmodel.",
+      "fonte": "Ladenschlussgesetz § 3 e Art. 74 Abs. 1 Nr. 11 GG, texto integral em gesetze-im-internet.de, lido em 5/8/2026",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-b10-n07"
+      ]
+    },
+    {
+      "id": "de-b10-bayern-2025",
+      "afirmacao": "Beieren stapte uit de federale wet: de Bayerisches Ladenschlussgesetz van 25 juli 2025 is van kracht sinds 1 augustus 2025. Hij houdt de 20-uursgrens van maandag tot zaterdag, staat elke gemeente toe om zonder motivering tot acht late avonden per jaar vrij te geven, en laat onbemande minisupermarkten tot 150 vierkante meter dag en nacht open zijn, zondagen inbegrepen.",
+      "fonte": "Bayerisches Ladenschlussgesetz de 25/7/2025 (GVBl. S. 246), Art. 2, verificado em gesetze-bayern.de",
+      "ano": 2025,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-b10-n08"
+      ]
+    },
+    {
+      "id": "de-b10-bargeld",
+      "afirmacao": "Contant geld is het enige onbeperkte wettige betaalmiddel volgens § 14 lid 1 van de Bundesbank-wet, en niets verplicht een handelaar om een kaart aan te nemen. Het betalingsonderzoek van de Bundesbank, gepubliceerd op 17 juni 2026, vond dat contant bruikbaar was bij 94% van de aankopen aan het loket en dat een niet-contante methode werd, of zou zijn, geaccepteerd bij 86% — tegen 81% twee jaar eerder; op markten en straatkramen was de acceptatie van niet-contante middelen 43%.",
+      "fonte": "§ 14 Abs. 1 BBankG; Deutsche Bundesbank, «Zahlungsverhalten in Deutschland 2025», publicado 17/6/2026 (6.070 entrevistas, campo 8/9 a 2/12/2025)",
+      "ano": 2026,
+      "revisarAte": "2028-06-30",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-b10-n06"
+      ]
+    },
+    {
+      "id": "de-b10-pfand-etiqueta",
+      "afirmacao": "Het schaplabel en de kassa mogen wettelijk uiteenlopen. § 3 van de Preisangabenverordnung verplicht de totaalprijs inclusief btw, en § 7 verplicht het statiegeld ernaast te vermelden en het uitdrukkelijk niet in de prijs op te tellen; § 31 van de Verpackungsgesetz stelt het statiegeld op minimaal 25 cent inclusief btw. Dus een fles met 0,99 € op het etiket rekent af op 1,24 €.",
+      "fonte": "PAngV 2022 §§ 3 e 7; VerpackG § 31 Abs. 1, texto integral em gesetze-im-internet.de, lido em 5/8/2026",
+      "ano": 2026,
+      "revisarAte": "2027-01-31",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-b10-n11"
+      ]
+    },
+    {
+      "id": "de-b10-ortografia",
+      "afirmacao": "De leesregels zijn officieel, geen folklore: het Amtliches Regelwerk dat van kracht is sinds 1 juli 2024 noemt ⟨ie⟩ als een lange ie-klank in inheemse woorden, ⟨ei⟩ als de tweeklank van eigen, ⟨w⟩ als /v/, ⟨z⟩ als /ts/ tussen de medeklinkercombinaties, en ⟨s⟩ vóór een klinker als /z/ in sagen, Seife, lesen. ⟨v⟩ is de uitzondering: § 29 geeft /f/ in een korte gesloten lijst van inheemse woorden — Vater, viel, vier, von, vor en een paar meer — terwijl § 30 /v/ geeft in leenwoorden zoals Vase en privat en aarzeling registreert in November, Larve, Vers.",
+      "fonte": "Rat für deutsche Rechtschreibung / IDS Mannheim, «Amtliches Regelwerk der deutschen Rechtschreibung», edição 2024, §§ 1, 22, 27, 29 e 30",
+      "ano": 2024,
+      "revisarAte": "2028-07-01",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-b10-n03",
+        "de-b10-n04"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b10-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "Voordat iemand hier iets tegen u zegt, doen de muren het. Deuren, uren en etiketten: veel van deze reis staat opgeschreven."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b10-n02",
+      "bloco": "cena",
+      "pt": "Zondag, twintig over negen, een straat vol rolluiken. Twee ramen zijn verlicht en beide vertellen u iets."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-b10-r01",
+      "es": "Geöffnet: Montag bis Samstag, 8 bis 20 Uhr. Sonntag Ruhetag.",
+      "pinyin": "guh-URF-net: MOHN-tahk bis ZAMS-tahk, akht bis TSVAN-tsikh oor. ZON-tahk ROO-eh-tahk",
+      "pt": "Open van maandag tot en met zaterdag, 8 tot 20. Zondag is een rustdag.",
+      "tts": "Geöffnet: Montag bis Samstag, acht bis zwanzig Uhr. Sonntag Ruhetag.",
+      "receptivo": true,
+      "acao": "Lees eerst het tweede getal. Twintig is acht uur 's avonds. Elke deelstaat bepaalt zijn eigen avondgrens, dus het bord is de wet, niet de gewoonte."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b10-r02",
+      "es": "Ziehen. Drücken.",
+      "pinyin": "TSEE-en. DRUEK-en",
+      "pt": "Trekken. Duwen.",
+      "tts": "Ziehen. Drücken.",
+      "receptivo": true,
+      "acao": "Twee woorden op glas op ooghoogte. Lees ze voordat uw hand beslist."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b10-n03",
+      "bloco": "corpo",
+      "pt": "Één leesregel betaalt de reis terug. Bij ei en ie zegt u de tweede letter. Bier is uw bier. Nein rijmt op mijn."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-b10-r03",
+      "es": "Eingang. Ausgang. Einfahrt. Ausfahrt.",
+      "pinyin": "INE-gang. OWS-gang. INE-fart. OWS-fart",
+      "pt": "Ingang. Uitgang. Inrit, voor voertuigen. Uitrit, voor voertuigen.",
+      "tts": "Eingang. Ausgang. Einfahrt. Ausfahrt.",
+      "receptivo": true,
+      "acao": "Ein is in, aus is uit. Zodra u dat paar hoort, leest u de helft van de borden in elk gebouw hier."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b10-n04",
+      "pt": "Let op drie letters. De ⟨v⟩ is een f in oude woorden — Vater, vier — en niet uw stemhebbende v. De ⟨z⟩ wordt ts. De ⟨w⟩ ligt dicht bij de uwe."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b10-r04",
+      "es": "Nur Bargeld.",
+      "pinyin": "noor BAR-gelt",
+      "pt": "Alleen contant.",
+      "tts": "Nur Bargeld.",
+      "receptivo": true,
+      "acao": "Kijk hier vóór het bestellen op de kassa, niet erna. Het bord is legaal, en het is de reden dat de volgende zin bestaat."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b10-n05",
+      "bloco": "molde",
+      "pt": "Hier is dan de bouwsteen die dingen vindt: ich suche, en daarachter wat u probeert te bereiken."
+    },
+    {
+      "consulta": [
+        "saude/algo-para",
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-SUCHE",
+      "encaixe": "eine Apotheke",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b10-p01",
+      "promptPt": "Uw hoofdpijnpillen zijn in het vliegtuig opgeraakt en de man die zijn hond uitlaat lijkt hier te wonen. Zeg wat u zoekt. Spreek nu.",
+      "audioKey": "de-b10-t01",
+      "es": "Ich suche eine Apotheke.",
+      "pinyin": "ikh ZOO-khuh INE-uh ah-poh-TAY-kuh",
+      "pt": "Ik zoek een apotheek.",
+      "tts": "Ich suche eine Apotheke."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b10-rr01",
+      "es": "Am Marktplatz, gleich neben der Kirche.",
+      "pinyin": "am MARKT-plats, glykh NAY-ben dair KEER-khuh",
+      "pt": "Op het marktplein, direct naast de kerk.",
+      "tts": "Am Marktplatz, gleich neben der Kirche."
+    },
+    {
+      "consulta": [
+        "pagar/dinheiro",
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-SUCHE",
+      "encaixe": "einen Geldautomaten",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b10-p02",
+      "promptPt": "De kassa van de bakkerij zei alleen contant en u hebt nog elf euro. Vraag het aan de vrouw in de bankhal. Spreek nu.",
+      "audioKey": "de-b10-t02",
+      "es": "Ich suche einen Geldautomaten.",
+      "pinyin": "ikh ZOO-khuh INE-en GELT-ow-toh-mah-ten",
+      "pt": "Ik zoek een geldautomaat.",
+      "tts": "Ich suche einen Geldautomaten."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b10-n06",
+      "pt": "Contant werkt bijna overal; een kaart niet. Niemand hier is verplicht om die van u aan te nemen."
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-SUCHE",
+      "encaixe": "eine Bäckerei",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b10-p03",
+      "promptPt": "Het is zondag en één verlicht raam op straat verkoopt iets warms. Zoek uit waar de dichtstbijzijnde is. Spreek nu.",
+      "audioKey": "de-b10-t03",
+      "es": "Ich suche eine Bäckerei.",
+      "pinyin": "ikh ZOO-khuh INE-uh bek-uh-RYE",
+      "pt": "Ik zoek een bakkerij.",
+      "tts": "Ich suche eine Bäckerei."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b10-n07",
+      "bloco": "capsula",
+      "pt": "De uren zijn wet, geen humeur. Zondagen en feestdagen dicht; de avondgrens is acht, en elke deelstaat mag hem verschuiven."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-b10-r05",
+      "es": "Bäckerei: Sonntag 8 bis 11 Uhr.",
+      "pinyin": "bek-uh-RYE: ZON-tahk akht bis elf oor",
+      "pt": "Bakkerij: zondag, 8 tot 11.",
+      "tts": "Bäckerei: Sonntag acht bis elf Uhr.",
+      "receptivo": true,
+      "acao": "Kopieer het raam naar uw ochtend. Het zondagblok is kort en sluit rond de hoofdkerkdienst."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b10-n08",
+      "pt": "Beieren schreef in 2025 zijn eigen versie: onbemande winkels tot 150 vierkante meter mogen dag en nacht open zijn."
+    },
+    {
+      "consulta": [
+        "compras/balcao",
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-SUCHE",
+      "encaixe": "einen Supermarkt",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b10-p04",
+      "promptPt": "Maandag, halfzeven, en de koelkast in het appartement dat u huurt is leeg. Vraag het aan de buur op de trap. Spreek nu.",
+      "audioKey": "de-b10-t04",
+      "es": "Ich suche einen Supermarkt.",
+      "pinyin": "ikh ZOO-khuh INE-en ZOO-per-markt",
+      "pt": "Ik zoek een supermarkt.",
+      "tts": "Ich suche einen Supermarkt."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b10-r06",
+      "es": "Verkauf von Reisebedarf an Reisende.",
+      "pinyin": "fair-KOWF fon RYE-zuh-buh-darf an RYE-zen-duh",
+      "pt": "Verkoop van reisbehoeften aan reizigers.",
+      "tts": "Verkauf von Reisebedarf an Reisende.",
+      "receptivo": true,
+      "acao": "Deze regel is de vergunning van winkels in stations en luchthavens. Verwacht een reisplank, geen weekboodschap."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b10-n09",
+      "pt": "Winkels in stations en luchthavens blijven de hele dag open, en volgens de wet verkopen zij reisbehoeften."
+    },
+    {
+      "consulta": [
+        "transporte/placas",
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WO-IST",
+      "encaixe": "der Eingang",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b10-p05",
+      "promptPt": "U liep de hele stationshal af en elke glazen deur was voor mensen die naar buiten kwamen. Vraag het aan de bewaker. Spreek nu.",
+      "audioKey": "de-b10-t05",
+      "es": "Wo ist der Eingang?",
+      "pinyin": "voh ist dair INE-gang",
+      "pt": "Waar is de ingang?",
+      "tts": "Wo ist der Eingang?"
+    },
+    {
+      "consulta": [
+        "transporte/placas",
+        "quarto/mala"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WO-IST",
+      "encaixe": "der Aufzug",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b10-p06",
+      "promptPt": "Spoor 11, twee trappen op, en een koffer die zwaarder weegt dan op donderdag. Vraag het. Spreek nu.",
+      "audioKey": "de-b10-t06",
+      "es": "Wo ist der Aufzug?",
+      "pinyin": "voh ist dair OWF-tsook",
+      "pt": "Waar is de lift?",
+      "tts": "Wo ist der Aufzug?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b10-n10",
+      "tom": "protege",
+      "pt": "Eén woord dat u traag leest. Gift op een fles is gif. Dezelfde oude wortel als uw woord, tegenovergestelde taak."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b10-r07",
+      "es": "Gift. Nicht trinken.",
+      "pinyin": "gift. nikht TRINK-en",
+      "pt": "Gif. Niet drinken.",
+      "tts": "Gift. Nicht trinken.",
+      "receptivo": true,
+      "acao": "Zet de fles terug op de plank. De oude betekenis overleeft alleen in Mitgift, een bruidsschat — nooit op een etiket."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b10-n11",
+      "tom": "ganha",
+      "pt": "Dan het etiket dat op een fout lijkt en gehoorzaamheid is. De plank zegt 0,99 en de kassa vraagt 1,24."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-b10-r08",
+      "es": "0,99 Euro, zuzüglich 25 Cent Pfand.",
+      "pinyin": "NOOL komma NOYN-oont-NOYN-tsikh OY-roh, TSOO-tsueg-likh FUENF-oont-tsvan-tsikh tsent pfant",
+      "pt": "0,99 euro, plus 25 cent statiegeld.",
+      "tts": "Null Komma neunundneunzig Euro, zuzüglich fünfundzwanzig Cent Pfand.",
+      "receptivo": true,
+      "acao": "Tel het statiegeld er zelf bij op voordat u munten uittelt. De wet verbiedt de winkel om het in de plankprijs te verwerken."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b10-n12",
+      "pt": "Overal elders is het getal op de plank het hele bedrag. Btw zit erin, er wordt niets bijgeteld."
+    },
+    {
+      "consulta": [
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WO-IST",
+      "encaixe": "der Ausgang",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b10-p07",
+      "promptPt": "Flessen ingeleverd, munten in de hand, en deze winkel is gebouwd door iemand die daglicht haat. Vraag het. Spreek nu.",
+      "audioKey": "de-b10-t07",
+      "es": "Wo ist der Ausgang?",
+      "pinyin": "voh ist dair OWS-gang",
+      "pt": "Waar is de uitgang?",
+      "tts": "Wo ist der Ausgang?"
+    },
+    {
+      "consulta": [
+        "chegar/entrar",
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-SUCHE",
+      "encaixe": "den Hauptbahnhof",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b10-p08",
+      "promptPt": "Uw trein vertrekt over veertig minuten en de kaart op uw telefoon laadt een leeg grijs vlak. Vraag het aan wie dan ook. Spreek nu.",
+      "audioKey": "de-b10-t08",
+      "es": "Ich suche den Hauptbahnhof.",
+      "pinyin": "ikh ZOO-khuh dayn HOWPT-bahn-hohf",
+      "pt": "Ik zoek het centraal station.",
+      "tts": "Ich suche den Hauptbahnhof."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-b10-s01",
+      "es": "Ich suche eine Apotheke. Ich suche einen Geldautomaten. Ich suche den Hauptbahnhof.",
+      "pinyin": "ikh ZOO-khuh INE-uh ah-poh-TAY-kuh. ikh ZOO-khuh INE-en GELT-ow-toh-mah-ten. ikh ZOO-khuh dayn HOWPT-bahn-hohf",
+      "pt": "Herhaal dezelfde twee woorden bij drie totaal verschillende boodschappen.",
+      "tts": "Ich suche eine Apotheke. Ich suche einen Geldautomaten. Ich suche den Hauptbahnhof.",
+      "molde": "ICH-SUCHE"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b10-n13",
+      "bloco": "clique",
+      "pt": "Tel de plekken: de etalage van de apotheek, de bankhal, de bakkerij, het perron van het station."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b10-n14",
+      "bloco": "recap",
+      "pt": "B10 klaar. Lees de tweede letter, lees het sluitingsuur, en zet ich suche vóór alles wat u nodig hebt."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "De straat als leesoefening",
+    "secoes": [
+      {
+        "titulo": "De regel van de tweede letter",
+        "corpo": "In het Duits zijn ei en ie een gesloten paar: u zegt de tweede letter en klaar. Ei is de klank van uw ⟨ij⟩ — nein, eins, Wein, Einfahrt. Ie is een lange /i/ — Bier, vier, Liebe, sieben, precies zoals in uw eigen bier en vier. Voor u komt dit vrijwel gratis: het Nederlands schrijft dezelfde tegenstelling met ⟨ij⟩ tegenover ⟨ie⟩, en het officiële Duitse Regelwerk dat sinds juli 2024 van kracht is bevestigt de regel zonder inheemse uitzondering."
+      },
+      {
+        "titulo": "Vier letters die van werk wisselen",
+        "corpo": "⟨w⟩ is hun v — Wasser, Wein, wo — en dat ligt dicht bij uw eigen w, dus gratis. ⟨v⟩ is de dure: in een korte gesloten lijst oude inheemse woorden — Vater, viel, vier, von, vor — is hij /f/, niet uw stemhebbende v. In leenwoorden zoals Vase en privat is hij weer v, en een handvol — waaronder November — aarzelt. ⟨z⟩ is nooit z: hij is ts, zoals in katzen — zehn, zwanzig, Platz. En ⟨s⟩ vóór een klinker is z: suche begint als zoenen, Seife als zeep. Behalve de v is niets hiervan een nieuwe klank voor u — het zijn nieuwe etiketten op klanken die uw mond al maakt."
+      },
+      {
+        "titulo": "Ich suche, en wat erachter komt",
+        "corpo": "Het ding na ich suche komt al aangekleed: eine Apotheke, einen Geldautomaten, den Hauptbahnhof. Leer elk als een blok, zoals u een telefoonnummer leerde, en laat het kleine woord nooit vóór wegvallen. Het Duits verandert dat kleine woord al naargelang de rol die het ding in de zin speelt, en na ich suche ligt die rol vast — dus het blok dat u leerde is het blok dat u zegt, en u hoeft aan de stoep nooit iets te berekenen."
+      },
+      {
+        "titulo": "Deuren en de uren erachter",
+        "corpo": "De sluitingstijd is wetgeving. De federale wet houdt winkels dicht op zondagen en feestdagen, vóór zes uur 's ochtends en vanaf acht uur 's avonds, met bakkerijen die om halfzes mogen starten; en sinds 2006 schrijft elk van de zestien Länder zijn eigen versie, waardoor het detail verandert naarmate u reist. De Beierse eigen wet trad in augustus 2025 in werking en laat onder meer onbemande winkels tot 150 vierkante meter dag en nacht open zijn. Wat er op zondag open is, is een korte lijst waarop u kunt plannen: de dienstapotheek, de bakkerij in zijn ochtendraam, het tankstation voor brandstof en reisbehoeften, en de winkels in stations en luchthavens — die volgens de wet reisbehoeften aan reizigers verkopen, geen weekboodschap doen. Een verkaufsoffener Sonntag, waarop een stad een middag opengaat, is lokaal, gedateerd en aan een gelegenheid gebonden; daar rekent u niet op."
+      },
+      {
+        "titulo": "De prijs op het etiket",
+        "corpo": "Het getal dat u ziet is het getal dat u betaalt: de Preisangabenverordnung verplicht handelaren om de totaalprijs met btw er al in te tonen. Er is precies één wettelijke uitzondering, en dat is het statiegeld op een fles of blikje. Dezelfde regeling verplicht de winkel om het statiegeld ernaast te vermelden en het uitdrukkelijk niet erin te verrekenen. Dus 0,99 € op de plank, minimaal 0,25 € statiegeld volgens de Verpackungsgesetz, en 1,24 € aan de kassa — een verplichting om níet op te tellen, die een uitstekende imitatie geeft van een fout."
+      },
+      {
+        "titulo": "Gift",
+        "corpo": "Das Gift is gif. Uw Nederlandse woord «gift» en het Duitse woord zijn oorspronkelijk hetzelfde woord: het Duitse zelfstandig naamwoord is gebouwd op geben, geven, en betekende ooit een gave, voordat de betekenis versmalde tot een dosis van iets dat doodt. Het moderne Duits bewaart de oude betekenis alleen nog in de samenstelling Mitgift, bruidsschat. Op een fles, in een kast of aan een hek, leest u het als gif en niets anders."
+      }
+    ]
+  },
+  "permissao": "U mag stilstaan voor een bord en het twee keer lezen; niemand op die straat klokt u. En ich suche plus een ding is hier een volledig verzoek — er is geen aanloop met begroeting en excuus nodig om het te laten werken, en u mag dezelfde twee woorden gebruiken bij de etalage van de apotheek, de bankhal en het perron van het station, zonder ze telkens anders aan te kleden.",
+  "espelho": "De reiziger die thuis elk woord van een menu leest en dan in het buitenland naar een deur gokt, doet het moeilijkere, niet het dapperdere.",
+  "fichasCulturais": [
+    {
+      "sinal": "Vijf over acht 's avonds, de supermarktdeur gaat niet open, en de lichten binnen branden nog met personeel dat achter het glas beweegt.",
+      "suaLeitura": "Ze sluiten vroeg, ze zagen mij aankomen, en ze hadden er geen zin in.",
+      "oQueEAli": "De sluitingstijd is een zaak van wet, niet van humeur van de winkelier. De federale wet sluit winkels op zondagen en feestdagen en vanaf acht uur 's avonds, en sinds 2006 schrijft elke deelstaat zijn eigen versie — die van Beieren werd van kracht in augustus 2025. Het constitutionele anker zit erboven: zondag is beschermd als rustdag via artikel 139 van de Weimargrondwet, overgenomen in de Grondwet via artikel 140.",
+      "oQueVoceFaz": "Doe boodschappen vóór acht, en plan zondag als een dag met een eigen korte lijst: bakkerij in het ochtendraam, dienstapotheek, tankstation voor reisbehoeften, winkels in stations en luchthavens.",
+      "oQueMelhora": "De zondag houdt op u te overvallen, en u krijgt de ochtend terug — een bakkerij om negen uur op zondag is een van de beste halfuurtjes die het land te bieden heeft.",
+      "ondeNaoVale": "De openingstijden horen bij elke deelstaat, en slechts drie van de zestien zijn voor deze cursus gecontroleerd — Beieren, Berlijn en Noordrijn-Westfalen, de laatste twee alleen gedeeltelijk. Restaurants en cafés vallen onder een aparte tak van het recht en niets hier beschrijft die. Een verkaufsoffener Sonntag bestaat, maar is lokaal, gedateerd en incidenteel.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-b10-n07",
+        "de-b10-n08"
+      ]
+    },
+    {
+      "sinal": "De plank zegt 0,99 €, u geeft een euro, en de kassa vraagt 1,24 €.",
+      "suaLeitura": "Of dat was het verkeerde plankje, of iemand houdt mij voor de gek.",
+      "oQueEAli": "Het is een verplichting om níet op te tellen. De prijzenregeling maakt van de weergegeven prijs de totaalprijs met btw erin, en de eerstvolgende paragraaf verplicht de handelaar het statiegeld ernaast te tonen en er uitdrukkelijk niet in te verrekenen. Het statiegeld zelf is minimaal 25 cent volgens de verpakkingswet, en het zinnetje zzgl. 0,25 € Pfand is de winkel die de wet gehoorzaamt.",
+      "oQueVoceFaz": "Lees de tweede regel op het etiket en tel er zelf bij op voordat u munten uittelt; het statiegeld komt terug wanneer het leeggoed dat doet.",
+      "oQueMelhora": "U leest een wettig etiket niet langer als een truc, en u begint het statiegeld te zien als geld dat geparkeerd is in plaats van geld dat weg is.",
+      "ondeNaoVale": "Dit gaat over het eenmalige statiegeld, gemarkeerd met het DPG-logo. Herbruikbaar glas loopt via een privaatrechtelijke afspraak tussen bottelaar en winkel, niet via de wet, en de bedragen zijn marktgebruik. Wijn, sterkedrank en drankkartons zijn vrijgesteld — maar de vrijstelling vervalt zodra dezelfde drank in blik of plastic komt, en die dragen dan het statiegeld als al het andere.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-b10-n11",
+        "de-b10-n12"
+      ]
+    }
+  ]
+}

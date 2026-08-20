@@ -1,0 +1,96 @@
+{
+  "id": "q-a04",
+  "nivel": "avancado",
+  "titulo": "Quiz — Het oude debat",
+  "subtitulo": "Vijf vragen over een loonpaar uit 2024, twee bijnamen die op hun plek blijven, en een paragraaf met een nummer",
+  "introAudioKey": "de-a04-q-i",
+  "introPt": "Een lange tafel, een stad die vroeger aan de andere kant lag, en een gat gelaten precies waar uw mening moet komen.",
+  "cenario": "Laat op een avond met vier mensen die elkaar dertig jaar kennen en zich zojuist naar de bezoeker hebben gedraaid.",
+  "dialogo": [
+    {
+      "audioKey": "de-a04-q01",
+      "voz": "target_de_m",
+      "es": "Ich komme aus Leipzig. Das war früher die DDR.",
+      "pt": "Ik kom uit Leipzig. Dat was vroeger de DDR.",
+      "tts": "Ich komme aus Leipzig. Das war früher die DDR."
+    },
+    {
+      "audioKey": "de-a04-q02",
+      "voz": "target_de_f",
+      "es": "Ossi, Wessi — das sagen wir schon untereinander.",
+      "pt": "Ossi, Wessi — dat zeggen we onderling wel.",
+      "tts": "Ossi, Wessi — das sagen wir schon untereinander."
+    },
+    {
+      "audioKey": "de-a04-q03",
+      "voz": "target_de_m",
+      "es": "Und was denken Sie darüber? Sagen Sie mal ehrlich.",
+      "pt": "En wat denkt u ervan? Zeg het eens eerlijk.",
+      "tts": "Und was denken Sie darüber? Sagen Sie mal ehrlich."
+    },
+    {
+      "audioKey": "de-a04-q04",
+      "voz": "target_de_f",
+      "es": "Lass ihn doch. Wir sind uns ja selbst nicht einig.",
+      "pt": "Laat hem toch. Wij zijn het onderling ook niet eens.",
+      "tts": "Lass ihn doch. Wir sind uns ja selbst nicht einig."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Welke hiervan is een gedateerd cijfer en geen mening?",
+      "opcoes": [
+        "Dat de hereniging goed is afgehandeld",
+        "Dat de kloof intussen gesloten had moeten zijn",
+        "Dat het gemiddelde voltijdloon in 2024 4.810 euro in het westen en 3.973 in het oosten was",
+        "Dat het oosten op ongeveer achtenzeventig procent van het westen zit"
+      ],
+      "correta": 2,
+      "explica": "Het statistiekbureau vat het in één zin: het westen verdiende nog een goede vijfde meer. Het zeventig-en-nog-wat percentage is het cijfer om met rust te laten — het komt niet voor in de federale eenheidsberichten voor 2024 of 2025, beide integraal gelezen."
+    },
+    {
+      "pergunta": "Hij heeft net verteld aan welke kant van de oude grens hij opgroeide. Wat is de zet?",
+      "opcoes": [
+        "Een sympathieke kijk op de hereniging aanbieden",
+        "Neem het als geografie en vraag naar de stad — hoe die is veranderd, hoe lang hij er woont",
+        "Verander onmiddellijk van onderwerp, want het is delicaat",
+        "Vraag welk systeem hij verkoos"
+      ],
+      "correta": 1,
+      "explica": "Het is informatie, geen uitnodiging om over iets te oordelen. De lokale vraag verplaatst u van het nationale debat, waar u geen positie hebt, naar de straat buiten, waar hij de enige beschikbare expert is."
+    },
+    {
+      "pergunta": "Waarom houdt de cursus de twee bijnamen uit uw mond?",
+      "opcoes": [
+        "Een Duitse instelling heeft ze als beledigend verklaard",
+        "Ze zijn wettelijk verboden",
+        "Eén woordenboek markeert de oostelijke als vaak denigrerend, en een zaak uit 2010 toont hem gebruikt als negatieve markering op een cv",
+        "Niemand gebruikt ze meer"
+      ],
+      "correta": 2,
+      "explica": "Geen instelling zegt zoiets, en twee woordenboeken zijn het oneens over het label — een zegt vaak denigrerend, de ander slechts gewoon. Het woordenboeklabel plus één gedocumenteerd sollicitatiegeval is genoeg reden voor een bezoeker, en meer wordt niet beweerd."
+    },
+    {
+      "pergunta": "Welke bepaling van het wetboek van strafrecht dekt de opgeheven-armgroet?",
+      "opcoes": [
+        "Paragraaf 130, over opruiing",
+        "Paragraaf 86a, die vlaggen, insignes, uniformstukken, leuzen en groetvormen noemt",
+        "Geen bepaling — het is een kwestie van sociale afkeuring",
+        "Een lokale verordening die per deelstaat verschilt"
+      ],
+      "correta": 1,
+      "explica": "Tot drie jaar of een geldboete, en de term groetvormen in het tweede lid brengt het gebaar erbinnen. De geschreven uitzonderingen zijn burgerschapsvorming, kunst, wetenschap, onderzoek, onderwijs en journalistiek — een grap en een foto staan op geen enkele."
+    },
+    {
+      "pergunta": "De tafel vraagt u hun debat te beslechten. Wat werkt echt?",
+      "opcoes": [
+        "Kies de betere zaak, zodat ze weten dat u luisterde",
+        "Zeg Davon weiß ich zu wenig, en vraag dan wat hier veranderd is",
+        "Leg uit dat elk land dit probleem heeft",
+        "Zeg dat het onderwerp ongepast is voor een bezoeker"
+      ],
+      "correta": 1,
+      "explica": "Na een week in een land is te weinig weten het accurate antwoord en wordt het als respect gehoord. Als er wordt aangedrongen, is Dazu möchte ich lieber nichts sagen beleefd en definitief, en is Können wir über etwas anderes sprechen direct zonder onbeleefd te zijn."
+    }
+  ]
+}

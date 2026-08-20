@@ -1,0 +1,333 @@
+{
+  "id": "b02",
+  "nivel": "basico",
+  "numero": 2,
+  "parte": "B02",
+  "slot": "B02",
+  "titulo": "Goedendag, dank u wel — die zehn Wörter der Ladentür",
+  "subtitulo": "Eine Glocke schlägt an, die Verkäuferin sieht auf, und zehn kleine Wörter tragen Gruß, Dank und Abschied durch die ganze Reise",
+  "cena": "Die Glocke über der Tür einer kleinen Bäckerei in Utrecht schlägt an, und die Verkäuferin sieht auf, bevor Sie ein einziges Wort gesagt haben.",
+  "moldura": "ganha",
+  "frasePiso": "Zehn Wörter — Gruß, Bitte, Dank, Abschied — und Sie kommen durch jede kurze Begegnung dieser Reise, ohne je einen ganzen Satz gebraucht zu haben.",
+  "moldes": ["DANKE"],
+  "clique": {
+    "contagem": ["Bäckerei", "Kiosk am Bahnhof", "Hotelrezeption"],
+    "desconto": "In der Bäckerei, am Kiosk und an der Hotelrezeption haben Sie dieselben zwei, drei Wörter gesagt. Niemand hat Ihnen für jeden Ort einen neuen Satz beigebracht — Sie hatten ihn schon.",
+    "piso": "Ab jetzt eröffnen und schließen Sie jede kurze Begegnung dieser Reise selbst — mit denselben Wörtern, die Sie heute schon dreimal benutzt haben."
+  },
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b02-n01",
+      "gesto": 1,
+      "tom": "ganha",
+      "bloco": "aquecimento",
+      "pt": "Zehn Wörter tragen jede kurze Begegnung: Gruß, Bitte, Dank, Abschied — und keins ändert sich."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b02-n02",
+      "tom": "ganha",
+      "bloco": "molde",
+      "pt": "Hier ist der erste Baustein: dank u wel. Fest, kurz, und er passt hinter jeden Satz von heute."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_f",
+      "audioKey": "hol-b02-t01",
+      "tom": "ganha",
+      "es": "Goedendag! Alstublieft, uw brood.",
+      "pinyin": "CHUU-den-dach! als-tü-BLEEFT, üü brood",
+      "pt": "Guten Tag! Bitte, Ihr Brot.",
+      "tts": "Goedendag! Alstublieft, uw brood."
+    },
+    {
+      "consulta": ["chegar/entrar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b02-p01",
+      "promptPt": "Die Glocke schlägt an, die Verkäuferin sieht auf, und noch hat niemand ein Wort gesagt. Grüßen Sie zuerst. Sag es jetzt.",
+      "audioKey": "hol-b02-t02",
+      "es": "Goedendag!",
+      "pinyin": "CHUU-den-dach!",
+      "pt": "Guten Tag!",
+      "tts": "Goedendag!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b02-n03",
+      "tom": "ganha",
+      "bloco": "corpo",
+      "pt": "Goedendag passt den ganzen Tag — anders als Ihr Morgen, Tag, Abend. Ein Wort, jede Stunde."
+    },
+    {
+      "consulta": ["simpatia/agradecer"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "DANKE",
+      "encaixe": "bedankt",
+      "encaixeGloss": "danke",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b02-p02",
+      "promptPt": "Sie nehmen das Brot entgegen, warm und noch eingepackt. Schließen Sie kurz ab. Sag es jetzt.",
+      "audioKey": "hol-b02-t03",
+      "es": "Bedankt!",
+      "pinyin": "buh-DANKT!",
+      "pt": "Danke!",
+      "tts": "Bedankt!"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b02-r01",
+      "tom": "ganha",
+      "es": "Graag gedaan, tot ziens!",
+      "pinyin": "chraach chuh-DAAN, tot ZEENS!",
+      "pt": "Gerne, auf Wiedersehen!",
+      "tts": "Graag gedaan, tot ziens!",
+      "receptivo": true,
+      "acao": "«Graag gedaan» ist die Antwort auf Ihr Danke — nichts zu tun außer zurückzunicken und weiterzugehen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b02-n04",
+      "tom": "ganha",
+      "pt": "Drei feste Formen: bedankt, kurz und sicher; dank u wel, die höfliche; dank je wel, die man Ihnen entgegenbringt."
+    },
+    {
+      "consulta": ["chegar/balcao", "simpatia/agradecer"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "DANKE",
+      "encaixe": "dank u wel",
+      "encaixeGloss": "vielen Dank",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b02-p03",
+      "promptPt": "Am Kiosk am Bahnhof hat der Verkäufer Ihnen den Fahrplan aus dem Regal geholt, ohne dass Sie danach fragen mussten. Bedanken Sie sich ausführlicher als eben. Sag es jetzt.",
+      "audioKey": "hol-b02-t04",
+      "es": "Dank u wel!",
+      "pinyin": "dank ü WEL!",
+      "pt": "Vielen Dank!",
+      "tts": "Dank u wel!"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b02-r02",
+      "tom": "ganha",
+      "es": "Dank je wel, en een fijne dag nog!",
+      "pinyin": "dank yuh wel, en un FEI-nuh dach noch!",
+      "pt": "Danke dir, und noch einen schönen Tag!",
+      "tts": "Dank je wel, en een fijne dag nog!",
+      "receptivo": true,
+      "acao": "«Dank je wel» ist die vertraute Form, die Ihnen jemand zurückgibt — erkennen reicht, Sie müssen sie nie selbst benutzen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b02-n05",
+      "tom": "ganha",
+      "pt": "«u» steckt in dank u wel schon drin, wie in Heeft u aus B06. Kein du/Sie zu entscheiden."
+    },
+    {
+      "consulta": ["chegar/sair", "quarto/checkin"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b02-p04",
+      "promptPt": "An der Hotelrezeption hat man Ihnen den Zimmerschlüssel gegeben und den Weg zum Aufzug gezeigt. Verabschieden Sie sich für heute Abend. Sag es jetzt.",
+      "audioKey": "hol-b02-t05",
+      "es": "Tot ziens!",
+      "pinyin": "tot ZEENS!",
+      "pt": "Auf Wiedersehen!",
+      "tts": "Tot ziens!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b02-n06",
+      "tom": "ganha",
+      "pt": "Tot ziens ist die sichere Abschiedsform bei Fremden. Doei ist die lockere Version — oft gehört."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b02-r03",
+      "tom": "ganha",
+      "es": "Doei!",
+      "pinyin": "DOO-ie!",
+      "pt": "Tschüss!",
+      "tts": "Doei!",
+      "receptivo": true,
+      "acao": "Doei ist ein Wort, kein Satz — winken und Doei zurückgeben reicht, auch wenn Sie es nie selbst eröffnen."
+    },
+    {
+      "consulta": ["chegar/entrar", "chegar/balcao"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "DANKE",
+      "encaixe": "bedankt",
+      "encaixeGloss": "danke",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b02-p05",
+      "promptPt": "Zurück am Kiosk, jetzt nur für eine Wasserflasche, die der Verkäufer Ihnen ohne ein Wort über den Tresen schiebt. Sag es jetzt.",
+      "audioKey": "hol-b02-t06",
+      "es": "Bedankt!",
+      "pinyin": "buh-DANKT!",
+      "pt": "Danke!",
+      "tts": "Bedankt!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b02-n07",
+      "tom": "ganha",
+      "bloco": "capsula",
+      "pt": "Wer zuerst grüßt, bevor er etwas verlangt, gilt hier als aufmerksam — es ist der normale Satzanfang, kein Extra."
+    },
+    {
+      "consulta": ["chegar/balcao"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b02-p06",
+      "promptPt": "Der Bäcker hinter dem Tresen sieht auf, bevor Sie einen Schritt weitergegangen sind, und wartet auf Ihr erstes Wort. Grüßen Sie ihn. Sag es jetzt.",
+      "audioKey": "hol-b02-t07",
+      "es": "Goedendag!",
+      "pinyin": "CHUU-den-dach!",
+      "pt": "Guten Tag!",
+      "tts": "Goedendag!"
+    },
+    {
+      "consulta": ["chegar/entrar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b02-p07",
+      "promptPt": "Sie treten in einen kleinen Drogeriemarkt, die Glocke schlägt an, und die Angestellte hinter der Kasse hebt kurz den Kopf. Sag es jetzt.",
+      "audioKey": "hol-b02-t08",
+      "es": "Goedendag!",
+      "pinyin": "CHUU-den-dach!",
+      "pt": "Guten Tag!",
+      "tts": "Goedendag!"
+    },
+    {
+      "consulta": ["simpatia/agradecer"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "DANKE",
+      "encaixe": "dank u wel",
+      "encaixeGloss": "vielen Dank",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b02-p08",
+      "promptPt": "Der Busfahrer hält extra an, damit Sie mit dem schweren Koffer bequem einsteigen können. Sag es jetzt.",
+      "audioKey": "hol-b02-t04",
+      "es": "Dank u wel!",
+      "pinyin": "dank ü WEL!",
+      "pt": "Vielen Dank!",
+      "tts": "Dank u wel!"
+    },
+    {
+      "consulta": ["chegar/sair"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b02-p09",
+      "promptPt": "Sie verlassen das Hotel für den ganzen Tag, und der Portier an der Tür nickt Ihnen zu. Sag es jetzt.",
+      "audioKey": "hol-b02-t05",
+      "es": "Tot ziens!",
+      "pinyin": "tot ZEENS!",
+      "pt": "Auf Wiedersehen!",
+      "tts": "Tot ziens!"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-b02-s01",
+      "tom": "ganha",
+      "es": "Goedendag. Bedankt. Dank u wel. Tot ziens.",
+      "pinyin": "CHUU-den-dach. buh-DANKT. dank ü wel. tot ZEENS.",
+      "pt": "Schatten Sie die vier Wörter, die jede kurze Begegnung eröffnen und schließen.",
+      "tts": "Goedendag. Bedankt. Dank u wel. Tot ziens.",
+      "molde": "DANKE"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b02-n08",
+      "tom": "ganha",
+      "bloco": "permissao",
+      "pt": "Sie müssen bedankt und dank u wel nicht nach Regel wählen. Beide sind immer richtig."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b02-n09",
+      "tom": "ganha",
+      "bloco": "clique",
+      "pt": "Bäckerei, Kiosk, Rezeption — überall dieselben Wörter. Niemand gab Ihnen für jeden Ort einen neuen Satz."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b02-n10",
+      "tom": "ganha",
+      "bloco": "recap",
+      "pt": "B02 fertig. Goedendag, bedankt, dank u wel, tot ziens — vier Wörter, jede Begegnung eröffnet und geschlossen."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Zehn Wörter, ein Baustein",
+    "secoes": [
+      {
+        "titulo": "Warum dank u wel der erste Baustein ist",
+        "corpo": "dank u wel ändert sich nie — kein Kasus, keine Beugung, keine Entscheidung. Genau das macht es zum billigsten Baustein des Kurses: Sie hängen es hinter jeden Satz, jeden Tag, an jedem Ort, und es ist immer richtig. Die drei Formen — bedankt, dank u wel, dank je wel — sind eine geschlossene Liste, keine Regel zum Ausrechnen: bedankt für den kurzen Alltag, dank u wel wenn Sie noch etwas höflicher klingen wollen, dank je wel erkennen Sie, wenn es Ihnen entgegenkommt.",
+        "exemplos": [
+          { "es": "Bedankt!", "pt": "Danke!" },
+          { "es": "Dank u wel!", "pt": "Vielen Dank!" }
+        ]
+      },
+      {
+        "titulo": "Goedendag statt drei Tageszeiten",
+        "corpo": "Das Niederländische kennt goedemorgen, goedemiddag und goedenavond so wie Ihr Deutsch Morgen, Tag und Abend unterscheidet. Aber goedendag funktioniert den ganzen Tag über als sichere neutrale Form, und dieser Kurs gibt Ihnen genau die eine Variante, mit der Sie nie danebenliegen — die drei Tageszeiten müssen Sie sich nicht merken, um durchzukommen."
+      },
+      {
+        "titulo": "«u» ist schon entschieden",
+        "corpo": "dank u wel trägt die höfliche Form «u» schon in sich, genau wie Heeft u aus B06. Sie müssen beim Danken nicht neu entscheiden, ob Sie höflich oder locker klingen — die sichere Form ist eingebaut, und dank je wel hören Sie nur von der anderen Seite."
+      },
+      {
+        "titulo": "Wer zuerst grüßt",
+        "corpo": "In kleinen Läden, Bäckereien und an Ständen gilt der erste Ton als Teil des Kaufs, nicht als Extra-Höflichkeit — wer die Tür aufmacht und direkt fragt, wird knapper bedient als wer erst goedendag sagt. Es ist kein hartes Gesetz, sondern eine spürbare Gewohnheit, die sich lohnt zu übernehmen."
+      }
+    ]
+  },
+  "permissao": "Sie müssen nicht zwischen bedankt und dank u wel nach Regel wählen — beide sind immer richtig, und Sie dürfen ruhig dasselbe Wort den ganzen Tag benutzen, ohne dass es unhöflich klingt.",
+  "permissaoAudioKey": "hol-b02-n08",
+  "espelho": "Sie kennen dieses Muster aus dem eigenen Deutsch: Ein knappes „Danke“ und ein förmliches „Vielen Dank“ stehen nebeneinander, und niemand erklärt Ihnen die Regel dahinter — Sie haben sie durch Hören gelernt, genauso wie hier.",
+  "fichasCulturais": [
+    {
+      "sinal": "Sie treten in einen kleinen Laden oder eine Bäckerei ein, sagen sofort, was Sie wollen, und die Verkäuferin antwortet kürzer und kühler als erwartet.",
+      "suaLeitura": "Die Bedienung war unfreundlich, obwohl ich höflich gefragt habe.",
+      "oQueEAli": "In kleinen Läden gilt der Gruß beim Eintreten als Teil der Bestellung, nicht als optionale Höflichkeit davor — wer direkt mit der Bestellung beginnt, überspringt einen Schritt, den die Verkäuferin erwartet hat.",
+      "oQueVoceFaz": "Sagen Sie goedendag, bevor Sie irgendetwas anderes sagen — auch wenn Sie es eilig haben. Es kostet eine Sekunde und ändert den ganzen Ton des Gesprächs.",
+      "oQueMelhora": "Sie werden ab dem ersten Wort als aufmerksamer Gast gelesen, nicht als jemand, der nur eine Transaktion abwickelt.",
+      "ondeNaoVale": "An großen Selbstbedienungskassen und in Supermärkten mit Scanner erwartet niemand einen Gruß — dort zählt nur, dass Sie zügig durchkommen.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["hol-b02-n07"]
+    }
+  ]
+}

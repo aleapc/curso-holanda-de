@@ -1,0 +1,96 @@
+{
+  "id": "q-b06",
+  "nivel": "basico",
+  "titulo": "Quiz — Heeft u, und dann, was die erste Stunde eben braucht",
+  "subtitulo": "Ein Baustein über vier Schalter, und der Unterschied zwischen «Karte» und «deiner Karte»",
+  "introAudioKey": "hol-b06-q-i",
+  "introPt": "Ein Reisender durchquert die Ankunftshalle mit einem Öffner und acht verschiedenen Bedürfnissen.",
+  "cenario": "Ankunft in Amsterdam, die erste Stunde.",
+  "dialogo": [
+    {
+      "audioKey": "hol-b06-q01",
+      "voz": "target_nl_f",
+      "es": "Goedendag, heeft u een simkaart?",
+      "pt": "Guten Tag, haben Sie eine SIM-Karte?",
+      "tts": "Goedendag, heeft u een simkaart?"
+    },
+    {
+      "audioKey": "hol-b06-q02",
+      "voz": "target_nl_m",
+      "es": "Ja, natuurlijk. Met of zonder abonnement?",
+      "pt": "Ja, natürlich. Mit oder ohne Vertrag?",
+      "tts": "Ja, natuurlijk. Met of zonder abonnement?"
+    },
+    {
+      "audioKey": "hol-b06-q03",
+      "voz": "target_nl_f",
+      "es": "Heeft u wisselgeld?",
+      "pt": "Haben Sie Wechselgeld?",
+      "tts": "Heeft u wisselgeld?"
+    },
+    {
+      "audioKey": "hol-b06-q04",
+      "voz": "target_nl_m",
+      "es": "Sorry, we nemen alleen pinpas, geen creditcard.",
+      "pt": "Tut mir leid, wir nehmen nur die Debitkarte, keine Kreditkarte.",
+      "tts": "Sorry, we nemen alleen pinpas, geen creditcard."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Was kommt nach «Heeft u»?",
+      "opcoes": [
+        "Ein Verb",
+        "Das Ding, von dem du willst, dass sie es haben",
+        "Eine Zahl",
+        "Dein Name"
+      ],
+      "correta": 1,
+      "explica": "Der Baustein ist Heeft u plus ein Ding: een simkaart, wifi, wisselgeld, water, kaartjes. Der Öffner selbst ändert nie seine Form, und die höfliche Form «u» steckt schon drin."
+    },
+    {
+      "pergunta": "Das Niederländische hat keinen Kasus wie dein Deutsch. Was heißt das für diesen Baustein?",
+      "opcoes": [
+        "Du musst das Ding an der Kasse erst beugen",
+        "Nichts — das Ding kommt in der Wörterbuchform, und «een» ist für beide Geschlechter gleich",
+        "Du musst immer den bestimmten Artikel benutzen",
+        "Der Baustein funktioniert nur mit Wörtern, die sich nie ändern"
+      ],
+      "correta": 1,
+      "explica": "Nach Heeft u steht «een simkaart», «een kamer» — dein «ein/eine/einen» wird zu einem einzigen «een». Nur der bestimmte Artikel de/het klebt am Wort, und den lernst du als Block mit. Mehrzahl und Stoffe kommen blank: Heeft u kaartjes, Heeft u water."
+    },
+    {
+      "pergunta": "«Nee, maar de automaat daar geeft munten.» Was tust du?",
+      "opcoes": [
+        "Dich bedanken und weggehen",
+        "Noch einmal langsamer fragen",
+        "Bleib einen Takt — das Nein trägt die Adresse des Ja",
+        "Versuch die Frage auf Englisch"
+      ],
+      "correta": 2,
+      "explica": "Das erste Wort ist nur die erste Hälfte. Der nützliche Teil ist der Automat da, der Kiosk gegenüber, der Schalter, der einen Fünfziger wechselt."
+    },
+    {
+      "pergunta": "An der Kasse: «Sorry, we nemen alleen pinpas, geen creditcard.» Was ist hier los?",
+      "opcoes": [
+        "Deine Karte ist gesperrt",
+        "Ein Touristenzuschlag",
+        "Normalfall — viele Kassen nehmen nur Debit («pinnen»), nicht ausländischen Kredit",
+        "Ein Fehler, den du reklamieren solltest"
+      ],
+      "correta": 2,
+      "explica": "In den Niederlanden ist Debit der Normalfall: rund vier von fünf Zahlungen laufen über Karte, fast alles davon «pinnen», und Kredit ist unter einem Prozent. «Karten nehmen wir» heißt nicht «deine Kreditkarte nehmen wir». Zück die Debitkarte oder Bargeld."
+    },
+    {
+      "pergunta": "Du fragst «Mag ik een koffie?». Was hast du gesagt?",
+      "opcoes": [
+        "«Ich mag einen Kaffee» — ein Geschmacksurteil",
+        "«Darf ich einen Kaffee?» — eine höfliche Bitte",
+        "«Ich muss einen Kaffee»",
+        "«Haben Sie Kaffee?»"
+      ],
+      "correta": 1,
+      "explica": "«Mag» kommt von «mogen» = dürfen, nicht von «mögen». «Mag ik ___?» ist «Darf ich ___?», die höfliche Bitte, mit der du bestellst. Weil du den Kaffee ohnehin bekommst, merkst du den falschen Freund nie — deshalb ist er die Falle des Sprachpaars."
+    }
+  ]
+}

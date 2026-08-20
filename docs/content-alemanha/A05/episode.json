@@ -1,0 +1,388 @@
+{
+  "id": "a05",
+  "nivel": "avancado",
+  "numero": 33,
+  "parte": "A05",
+  "titulo": "De andere taal, en de hallo die met de kaart meebeweegt",
+  "subtitulo": "Moin is een bijvoeglijk naamwoord, Grüß Gott trekt een lijn door het land, Oostenrijkse woorden hebben juridische status in Brussel, en Engels is hier een enquête-antwoord en geen garantie",
+  "cena": "Een kleine winkel midden in de middag, waar de groet die over de toonbank komt u vertelt in welk derde deel van het land u staat.",
+  "moldura": "ganha",
+  "frasePiso": "Zes woorden die goed gedragen worden verslaan een paragraaf die slecht wordt gebracht. Hallo, alstublieft, dank u, sorry, en de twee afscheidsgroeten — dat is de hele set.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "de-a05-gruss",
+      "afirmacao": "De groetkaart komt uit een enquête en niet uit reisgidslore, en de vraag is precies de gebruikssituatie van de reiziger. Atlas zur deutschen Alltagssprache (AdA), Elspaß, Salzburg, en Möller, Luik, Ronde 2, vraag F01, «Gruß am Nachmittag»: hoe men gewoonlijk groet bij het binnenkomen van een kleine winkel in de middag waar men de mensen kent. De verdeling: Moin en Moinmoin in Schleswig-Holstein en het noorden van Nedersaksen; Grüß Gott in Zuid-Duitsland, Beieren, Oostenrijk en de pre-Alpiene gordel; Servus in oostelijk Beieren en Oostenrijk; Grüß Euch in Oostenrijk en groeiend; Grüezi en Hoi in noordelijk en oostelijk Zwitserland en Vorarlberg; en Hallo algemeen, geregistreerd op ongeveer 150 enquêtelocaties. Twee bevindingen van de AdA zelf zijn beter dan de reisgidsversie: Moin komt niet van «Morgen» maar van «moien Dag», van het Nederduitse en Friese moi dat mooi of aangenaam betekent, dus wat in de korte vorm overleeft is alleen het bijvoeglijk naamwoord — de verdere claim dat het daarom op elk uur werkt, verschijnt in een snippet en een encyclopedielemma en wordt als GEMIDDELD beoordeeld; en Hallo is de grootste verandering in gebruik sinds de jaren 1970, verdringt of concurreert met Guten Tag vooral in het noorden en westen, buiten het Moin-gebied. Drie grenzen: de AdA publiceert ordinale categorieën per locatie, nooit percentages, dus elk percentage dat aan deze kaarten wordt toegeschreven zou verzonnen zijn; het exacte gebied van Moin bestaat niet als isoglosse, alleen als enquêtepunten, dus niets fijner dan Schleswig-Holstein plus het noorden van Nedersaksen kan worden gesteld; en de afscheidskaarten bestaan maar de pagina bevat alleen afbeeldingen en de woorden «Text folgt in Kürze», dus alleen Tschüss als neutraal en Auf Wiedersehen als formeel kan met vertrouwen worden geleerd.",
+      "fonte": "Atlas zur deutschen Alltagssprache (AdA), Rodada 2, questão F01 «Gruß am Nachmittag» [RESUMO — página lida por fetch]; etimologia de Moin do próprio AdA; Rodada 10, questões 17a e 17b, para a despedida — página só com imagens e «Text folgt in Kürze». Pesquisa §3.2 e §3.5, itens 18 e 19 da lista de exclusão. ⚠ Nenhum percentual pode ser atribuído ao AdA: as cartas publicam categorias ordinais (üblich / ab und zu / unüblich).",
+      "ano": 2026,
+      "revisarAte": "2030-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-a05-n05",
+        "de-a05-n06",
+        "de-a05-n07",
+        "de-a05-n08"
+      ]
+    },
+    {
+      "id": "de-a05-englisch",
+      "afirmacao": "Special Eurobarometer 540, Europeans and their languages, veldwerk september-oktober 2023, gepubliceerd in 2024 voor DG EAC: 65 procent in Duitsland zegt genoeg Engels te spreken om een gesprek te voeren, als extra taal, tegen een EU27-gemiddelde van 47 procent, verbatim uit de lopende tekst: «Nearly half of Europeans (47%) say they speak it, a slight increase (+5) compared to 2012.» Het vergelijkbare eerdere cijfer, Special Eurobarometer 386, veldwerk februari-maart 2012, was 56 procent voor Duitsland tegen 38 procent voor de EU27. Het eerlijke tegenwicht is de Eurostat Adult Education Survey, tabellen edat_aes_l21 en edat_aes_l31, voor Duitsland 25-64 jaar: die zonder vreemde taal daalden van 21,3 procent in 2016 naar 12,3 in 2022, dus 87,7 procent geeft minstens één op — maar van hen noemt slechts 28,0 procent zich vaardig in hun beste vreemde taal, wat neerkomt op ongeveer 24,5 procent van de leeftijdsband. De twee vragen zijn verschillend, zelfbeoordeelde conversatie versus een CEFR-achtig niveau, en ze mogen nooit opgeteld of gepresenteerd worden alsof ze elkaar bevestigen. Onderverdelingen, uit de enquête van 2012 en op Europees niveau, verbatim: zeer goed Engels is frequenter onder «younger people, particularly 15-24 year olds (27%), compared with those aged 55+ (15%)», onder «those who finished their full time education aged 20+ (26%)», en onder «people who live in large towns (29%), particularly when compared with those who live in rural villages (15%)»; hetzelfde rapport merkt op dat Duitsers die Engels spreken behoren tot degenen die het slechts af en toe gebruiken, op 58 procent. Twee herkomstnotities: het PDF van SP540 dat werkelijk werd geopend, kwam van een mirror buiten het europa.eu-domein, met kaft, ISBN, DOI en opmaak intact en de waarde gekruist met de lopende tekst; en de EF English Proficiency Index, die Duitsland in 2025 4e van 123 plaatst na 10e in 2024, wordt door zijn eigen uitgever beschreven als zelfgeselecteerd en niet gegarandeerd representatief, dus het is nooit een populatieschatting. Een oost-westbreuk voor Engels is AFWEZIG als data en wordt hier in geen enkele vorm beweerd.",
+      "fonte": "Special Eurobarometer 540 (Verian para a DG EAC, DOI 10.2766/28257), p. 20, tabela «D48.otherlang.»; SP386 (2012), p. 21, célula DE; Eurostat AES, tabelas edat_aes_l21 e edat_aes_l31; EF EPI 2025, Appendix A, «Sampling Biases», verbatim: «The test-taking population represented in this Index is self-selected and not guaranteed to be representative.» Pesquisa §10.1 e item 38 da lista de exclusão.",
+      "ano": 2023,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-a05-n02",
+        "de-a05-n03",
+        "de-a05-n04"
+      ]
+    },
+    {
+      "id": "de-a05-plurizentrik",
+      "afirmacao": "Duits is niet alleen dat van Duitsland, en aan Oostenrijkse kant is dit primair EU-recht en geen etiquette. Protokoll Nr. 10 gehecht aan het Toetredingsverdrag van 1994 (PB C 241 van 29 augustus 1994, CELEX 11994N/PRO/10, open op EUR-Lex), getiteld «über die Verwendung spezifisch österreichischer Ausdrücke der deutschen Sprache im Rahmen der Europäischen Union»: artikel 1 geeft de specifiek Oostenrijkse termen dezelfde juridische status en gevolgen als hun Duitse tegenhangers, en artikel 2 vereist dat nieuwe EU-teksten opgesteld in het Duits de Oostenrijkse varianten opnemen. Voorbehoud: de bijlage met de termen verschijnt als een lege tabel op EUR-Lex, dus het vaak aangehaalde cijfer van 23 termen werd NIET geverifieerd. Aan Zwitserse zijde stemde het kanton Zürich op 15 mei 2011 voor het initiatief «JA zur Mundart im Kindergarten»; de schoolwet werd aangepast zodat de instructietaal in de kleuterschool «grundsätzlich» het dialect is, met Standaardduits beperkt tot «einzelne Verse und Lieder, bei Rollenspielen oder bei Audio- und Bildmedien», van kracht sinds 1 augustus 2012. Voorbehoud: het gemelde aandeel van 53,9 procent kwam uit een snippet en werd NIET geverifieerd. De cursus onderwijst het juridische feit en weigert uitdrukkelijk de voorschrijvende reisgidsformule «noem een Oostenrijker nooit een Duitser», die geen bron heeft: het protocol zegt veel meer, met veel minder risico.",
+      "fonte": "Protokoll Nr. 10 ao Ato de Adesão de 1994, JO C 241 de 29/8/1994, CELEX 11994N/PRO/10, EUR-Lex aberto, arts. 1 e 2. Cantão de Zurique, votação de 15/5/2011, «JA zur Mundart im Kindergarten», em vigor desde 1/8/2012, comunicado aberto em zh.ch. Pesquisa §10.5, itens 9 e 46 da lista de exclusão. ⚠ A lista dos «23 termos» e o percentual da votação de Zurique NÃO foram verificados e não entram.",
+      "ano": 2012,
+      "revisarAte": "2031-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-a05-n10",
+        "de-a05-n11"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a05-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Twee andere talen wachten u hier op. Eén is Engels. De andere is de hallo, die met de kaart meebeweegt."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a05-n02",
+      "bloco": "corpo",
+      "pt": "In 2023 zei vijfenzestig procent genoeg Engels te spreken om te converseren. In de hele Unie zevenenveertig."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a05-n03",
+      "pt": "Elf jaar eerder gaf dezelfde vraag zesenvijftig. Dus het cijfer bewoog, en het bewoog in één richting."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a05-n04",
+      "pt": "De andere helft van de waarheid: een tweede enquête vraagt naar niveau, en slechts een kwart noemt zich vaardig."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-a05-r01",
+      "receptivo": true,
+      "acao": "De omschakeling wordt aangeboden, niet geëist. Neem hem aan, en bewaar uw Duits voor de groet en het bedankje.",
+      "es": "Ich kann Ihnen gerne auch auf Englisch helfen.",
+      "pt": "Ik kan u ook graag in het Engels helpen.",
+      "tts": "Ich kann Ihnen gerne auch auf Englisch helfen."
+    },
+    {
+      "consulta": [
+        "reparo/ingles"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-a05-p01",
+      "promptPt": "U wilt in hun taal beginnen en eerlijk zijn over hoever het gaat, alles in één korte zin. Spreek nu.",
+      "audioKey": "de-a05-t01",
+      "es": "Ich spreche nur ein bisschen Deutsch.",
+      "pinyin": "ikh SHPREH-khuh noor ine BISS-khen DOYTCH",
+      "pt": "Ik spreek maar een beetje Duits.",
+      "tts": "Ich spreche nur ein bisschen Deutsch."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a05-n05",
+      "bloco": "capsula",
+      "pt": "Nu de hallo. Een enquête vroeg hoe mensen groeten in een kleine winkel in de middag. De antwoorden tekenen een kaart."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-a05-r02",
+      "receptivo": true,
+      "acao": "U bent in het noorden — Schleswig-Holstein of het topje van Nedersaksen. Het werkt op elk uur van de dag.",
+      "es": "Moin! Moin moin. Was darf's denn sein?",
+      "pt": "Moin! Moin moin. Wat mag het zijn?",
+      "tts": "Moin! Moin moin. Was darf's denn sein?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a05-n06",
+      "pt": "Moin heeft niets met Morgen te maken. Het komt van een Nederduits woord voor aangenaam, en alleen het bijvoeglijk naamwoord blijft."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-a05-r03",
+      "receptivo": true,
+      "acao": "Zuid — Beieren, Oostenrijk, de pre-Alpiene gordel. Er wordt niets religieus van u gevraagd; het is gewoon de lokale hallo.",
+      "es": "Grüß Gott! Was kann ich für Sie tun?",
+      "pt": "Grüß Gott! Wat kan ik voor u doen?",
+      "tts": "Grüß Gott! Was kann ich für Sie tun?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-a05-r04",
+      "receptivo": true,
+      "acao": "Oostelijk Beieren en Oostenrijk. Neem het als hallo; voor weggaan gebruikt u Tschüss en Auf Wiedersehen.",
+      "es": "Servus! Grüß Euch, ein Tisch ist noch frei.",
+      "pt": "Servus! Hallo jullie beiden, er is nog een tafel vrij.",
+      "tts": "Servus! Grüß Euch, ein Tisch ist noch frei."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a05-n07",
+      "pt": "Hallo is de algemene, geregistreerd op zo'n honderdvijftig plekken, en de grootste verandering sinds de jaren zeventig."
+    },
+    {
+      "consulta": [
+        "chegar/entrar",
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-a05-p02",
+      "promptPt": "U stapt om drie uur 's middags een kleine winkel binnen en heeft geen idee welke regionale hallo hier in gebruik is. Spreek nu.",
+      "audioKey": "de-a05-t02",
+      "es": "Hallo, guten Tag!",
+      "pinyin": "HA-lo, GOO-ten tahk",
+      "pt": "Hallo, goedendag!",
+      "tts": "Hallo, guten Tag!"
+    },
+    {
+      "consulta": [
+        "reparo/devagar",
+        "reparo/como-se-diz"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-a05-p03",
+      "promptPt": "De groet die u kreeg was één lettergreep en u heeft hem nog nooit gehoord. Vraag hem opnieuw. Spreek nu.",
+      "audioKey": "de-a05-t03",
+      "es": "Entschuldigung, wie bitte?",
+      "pinyin": "ent-SHOOL-di-goong, vee BIT-tuh",
+      "pt": "Pardon, wat zei u?",
+      "tts": "Entschuldigung, wie bitte?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a05-n08",
+      "pt": "Voor afscheid zijn er slechts twee die overal veilig zijn. Tschüss tussen mensen, en Auf Wiedersehen aan een balie."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-a05-p04",
+      "promptPt": "Zij besteedde vier minuten aan een vraag van dertig seconden, en u wilt dat zij weet dat het aankwam. Spreek nu.",
+      "audioKey": "de-a05-t04",
+      "es": "Vielen Dank, das ist sehr nett!",
+      "pinyin": "FEE-len dank, dass isst zair nett",
+      "pt": "Heel hartelijk dank, dat is erg aardig!",
+      "tts": "Vielen Dank, das ist sehr nett!"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-a05-p05",
+      "promptPt": "U verlaat een balie waar iemand in uniform net uw hele middag heeft geregeld. Sluit het formeel. Spreek nu.",
+      "audioKey": "de-a05-t05",
+      "es": "Danke schön, auf Wiedersehen!",
+      "pinyin": "DAN-kuh shurn, owf VEE-der-zay-en",
+      "pt": "Dank u wel, tot ziens!",
+      "tts": "Danke schön, auf Wiedersehen!"
+    },
+    {
+      "consulta": [
+        "chegar/sair",
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-a05-p06",
+      "promptPt": "Zelfde middag, andere deur: de vrouw van de bakker praat al een week met u. Sluit het warm. Spreek nu.",
+      "audioKey": "de-a05-t06",
+      "es": "Tschüss, schönen Tag noch!",
+      "pinyin": "chuess, SHUR-nen tahk nokh",
+      "pt": "Doei, nog een fijne dag!",
+      "tts": "Tschüss, schönen Tag noch!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a05-n09",
+      "pt": "Zes woorden dragen een hele reis. Hallo, bitte, danke, Entschuldigung, en de twee afscheidsgroeten. Meer is niet nodig."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a05-n10",
+      "pt": "En de taal is niet alleen van dit land. Oostenrijkse woorden hebben in EU-teksten dezelfde juridische status."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-a05-r05",
+      "receptivo": true,
+      "acao": "Zelfde taal, ander woord voor hetzelfde ding. Schrijf het op in plaats van te corrigeren — beide zijn juist.",
+      "es": "Bei uns heißt das Erdapfel, nicht Kartoffel.",
+      "pt": "Bij ons heet dat Erdapfel, geen Kartoffel.",
+      "tts": "Bei uns heißt das Erdapfel, nicht Kartoffel."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a05-n11",
+      "pt": "In Zürich besloten kiezers in 2011 dat de kleuterschool in dialect draait. Standaardduits behield de liedjes."
+    },
+    {
+      "consulta": [
+        "reparo/como-se-diz",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-a05-p07",
+      "promptPt": "Er ging net een woord voorbij dat u niet kent, en de persoon die het gebruikte is de enige expert in de ruimte. Spreek nu.",
+      "audioKey": "de-a05-t07",
+      "es": "Wie sagt man das bei Ihnen?",
+      "pinyin": "vee zahkt mann dass by EE-nen",
+      "pt": "Hoe zegt men dat bij u?",
+      "tts": "Wie sagt man das bei Ihnen?"
+    },
+    {
+      "consulta": [
+        "reparo/escreve"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-a05-p08",
+      "promptPt": "Derde keer horen van een regionaal woord en het blijft een waas — schakel over in plaats van een vierde keer te vragen. Spreek nu.",
+      "audioKey": "de-a05-t08",
+      "es": "Können Sie mir das bitte aufschreiben?",
+      "pinyin": "KUR-nen zee meer dass BIT-tuh OWF-shry-ben",
+      "pt": "Kunt u dat voor mij opschrijven, alstublieft?",
+      "tts": "Können Sie mir das bitte aufschreiben?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-a05-s01",
+      "es": "Hallo, guten Tag! Vielen Dank, das ist sehr nett! Tschüss, schönen Tag noch!",
+      "pinyin": "HA-lo GOO-ten tahk · FEE-len dank dass isst zair nett · chuess SHUR-nen tahk nokh",
+      "pt": "Schaduw de drie die een deur openen, een vreemde bedanken en hem weer sluiten.",
+      "tts": "Hallo, guten Tag! Vielen Dank, das ist sehr nett! Tschüss, schönen Tag noch!"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a05-n12",
+      "bloco": "recap",
+      "pt": "A05 klaar. Moin in het noorden, Grüß Gott in het zuiden, Hallo overal, en zes woorden die in één zak passen."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "De hallo die een kaart heeft, en zes woorden die overal heen gaan",
+    "secoes": [
+      {
+        "titulo": "Zes woorden, en waarom dat de hele lijst is",
+        "corpo": "Hallo, bitte, danke, Entschuldigung, tschüss, auf Wiedersehen. Dat is een groet, een alstublieft, een dank u, een verontschuldiging en twee afscheidsgroeten — een voor mensen en een voor balies — en samen dekken zij elke gewone uitwisseling die een bezoeker op een dag heeft. Zes woorden goed dragen is meer waard dan er veertig half onthouden, want deze komen bovenaan een interactie en zetten de temperatuur. Entschuldigung is de langste en de waardevolste: het is onmogelijk voor iets anders aan te zien, het opent zonder andere hoffelijkheid de aandacht van een vreemde, en het dient zowel als sorry als als pardon. Bitte doet meer werk dan de vertaling suggereert — het is alstublieft, maar het beantwoordt ook een dankwoord, en het betekent «pardon?» wanneer uw stem aan het eind omhooggaat.",
+        "exemplos": [
+          {
+            "es": "Hallo, guten Tag!",
+            "pt": "Hallo, goedendag!"
+          },
+          {
+            "es": "Danke schön, auf Wiedersehen!",
+            "pt": "Dank u wel, tot ziens!"
+          }
+        ]
+      },
+      {
+        "titulo": "De hallo heeft een kaart, en de kaart komt uit een enquête",
+        "corpo": "Een taalatlas stelde precies de vraag die een reiziger beantwoord wil zien: hoe groet u normaal wanneer u in de middag een kleine winkel binnenloopt? Moin, en verdubbeld als Moinmoin, hoort bij Schleswig-Holstein en het noorden van Nedersaksen. Grüß Gott is Zuid-Duitsland, Beieren, Oostenrijk en de pre-Alpiene gordel. Servus is oostelijk Beieren en Oostenrijk. Grüß Euch is Oostenrijks en groeit. Grüezi en Hoi zijn noordelijk en oostelijk Zwitserland en Vorarlberg. En Hallo is de algemene, geregistreerd op zo'n honderdvijftig van de enquêtelocaties. Twee grenzen zijn de moeite van het vermelden waard: de atlas publiceert categorieën in plaats van percentages, dus elk cijfer aan deze kaarten gehecht zou verzonnen zijn; en er is geen exacte grens voor Moin, alleen enquêtepunten, dus niets fijner dan «Schleswig-Holstein en het noorden van Nedersaksen» kan eerlijk worden getekend. Hallo is intussen de grootste enkele verandering in groetgewoonten sinds de jaren 1970, in het noorden en westen concurrerend met of vervangend voor Guten Tag, buiten de Moin-gordel."
+      },
+      {
+        "titulo": "Moin is een bijvoeglijk naamwoord, geen morgen",
+        "corpo": "De reisgidsversie zegt dat Moin een afgekorte Morgen is en dat het in de middag gebruiken een lokale grap is. De atlas zegt het anders: het komt van moien Dag, van een Nederduits en Fries woord moi dat mooi of aangenaam betekent, dus wat in de korte vorm overleeft is het bijvoeglijk naamwoord en niet het zelfstandig naamwoord. De claim dat het precies daarom op elk uur werkt, is zwakker bewijs — een snippet en een encyclopedielemma — dus behandel het als waarschijnlijk in plaats van zeker. Wat in de praktijk veilig is, is eenvoudiger: als Moin over de toonbank kwam, is Moin een goed antwoord, om elf uur 's ochtends of om zes uur 's avonds. Op de terugweg zijn de twee woorden die in elke regio veilig zijn Tschüss, neutraal en persoonlijk, en Auf Wiedersehen, formeel en juist aan elke balie. De regionale afscheidsgroeten waarover u elders leest, hebben enquêtekaarten die zonder tekst werden gepubliceerd, dus de cursus noemt hun regio's niet en tekent hun geografie niet."
+      },
+      {
+        "titulo": "Engels: wat het cijfer is, en wat het niet is",
+        "corpo": "Vijfenzestig procent zei in 2023 genoeg Engels te spreken om een gesprek te voeren, tegen zevenenveertig procent in de EU, en van zesenvijftig procent in 2012. Behandel dat als een zelfrapport over een vaardigheid, geen garantie over de persoon voor u — en houd het naast een tweede enquête die een andere vraag stelt: 87,7 procent van de volwassenen gaf in 2022 minstens één vreemde taal op, maar slechts 28 procent van hen noemde zich vaardig, wat neerkomt op ongeveer een kwart van de leeftijdsband. Twee vragen, twee antwoorden, en ze mogen niet worden opgeteld. Wat de Europese onderverdelingen suggereren, is waar u het kunt verwachten: meer bij vijftien tot vierentwintigjarigen dan bij vijfenvijftigplussers, meer bij wie tot na hun twintigste studeerde, en markant meer in grote steden dan in dorpen — en zelfs onder wie het spreekt, gebruikt een meerderheid het slechts af en toe. Eén index die u aangehaald ziet, die dit land vierde ter wereld zet, wordt door de eigen uitgever beschreven als zelfgeselecteerd en niet representatief, en het is nooit een populatieschatting. Er zijn geen data over een oost-westverschil in Engels, dus daarover wordt niets beweerd."
+      },
+      {
+        "titulo": "De taal is niet alleen van dit land, en dat staat in de EU-wet",
+        "corpo": "De reisgidsregel «noem een Oostenrijker nooit een Duitser» heeft geen bron, en er is iets veel beters om te weten. Protocol Nr. 10 bij het Toetredingsverdrag van 1994 geeft specifiek Oostenrijkse uitdrukkingen van de Duitse taal dezelfde juridische status en gevolgen als hun Duitse tegenhangers, en vereist dat nieuwe EU-wetgeving opgesteld in het Duits de Oostenrijkse varianten opneemt. Dat is primair Europees recht, afgesproken in 1994, en het zegt het interessante ronduit: er bestaat meer dan één correcte Duits. De lijst van eraan gehechte termen verschijnt als een lege tabel in de officiële database, dus het vaak aangehaalde aantal termen is niet geverifieerd en wordt hier niet herhaald. Zwitserland ging op zijn eigen manier verder: kiezers in het kanton Zürich besloten in mei 2011 dat de kleuterschool in dialect wordt onderwezen, met Standaardduits behouden voor afzonderlijke verzen en liedjes, rollenspel en opgenomen media, van kracht sinds augustus 2012. Het praktische gevolg voor u is klein en aangenaam. Wanneer een woord opduikt dat niet is wat u geleerd heeft, is het geen te corrigeren fout — het is een variant met een paspoort. Vraag hoe zij het zeggen, schrijf het op, en gebruik het hunne."
+      }
+    ]
+  },
+  "slot": "A05",
+  "permissao": "U mag elke regionale groet met Hallo beantwoorden. Het is over het hele land geregistreerd en niemand hoort het als een weigering om mee te doen — een Moin of Grüß Gott spiegelen is een bonus, nooit een verplichting, en er een verkeerd doen kost niets. U mag in één zin zeggen dat uw Duits maar zo ver gaat; mensen schakelen makkelijk over naar Engels en die omschakeling is een aanbod en geen oordeel over u. En u mag vragen of een woord opgeschreven wordt in plaats van het een vierde keer te horen, wat sneller is en u de spelling ook oplevert.",
+  "permissaoAudioKey": "de-a05-n09",
+  "espelho": "Iedereen die in eigen land een bezoeker heeft zien aankomen met één regionale groet en die in totaal het verkeerde gebied heeft zien inzetten, weet hoe dat landt — niet beledigend, gewoon een tikje grappig, en onmiddellijk informatief over waar ze het lazen. Het omgekeerde is ook vertrouwd: een vreemde die netjes alstublieft en dank u zegt en niets anders, koopt meer goodwill dan iemand die een paragraaf probeert.",
+  "fichasCulturais": [
+    {
+      "sinal": "U loopt een winkel binnen, zegt Guten Tag, en krijgt een enkele lettergreep terug die u nooit hoorde, of een groet die God noemt.",
+      "suaLeitura": "Ik heb een dialect gekregen dat ik niet kan volgen, en de rest van dit gesprek gaat me boven de pet.",
+      "oQueEAli": "U heeft de lokale groet gekregen, en dat is een kaartverwijzing. Een taalatlas stelde precies deze vraag — hoe u groet bij het binnenkomen van een kleine winkel in de middag — en de antwoorden sorteren per regio: Moin in Schleswig-Holstein en het noorden van Nedersaksen, Grüß Gott in het zuiden en de pre-Alpiene gordel, Servus in oostelijk Beieren en Oostenrijk, Hallo overal. Moin is geen afgekorte Morgen: het komt van een Nederduits woord voor aangenaam, en alleen het bijvoeglijk naamwoord blijft.",
+      "oQueVoceFaz": "Antwoord met Hallo, guten Tag, dat overal werkt, of geef dezelfde groet terug die u kreeg als u hem verstond. Als u het niet ving, laat Entschuldigung, wie bitte hem herhalen en niemand vindt het erg om ernaar gevraagd te worden.",
+      "oQueMelhora": "De groet stopt een test te zijn die u heeft gefaald en wordt informatie over waar u staat, en de uitwisseling erna is precies in het Duits dat u al heeft.",
+      "ondeNaoVale": "De regionale kaart is getekend op basis van enquêtepunten, niet grenzen, dus behandel hem als tendens en niet als regel — de atlas publiceert categorieën in plaats van percentages, en er bestaat geen exact gebied voor Moin buiten Schleswig-Holstein en het noorden van Nedersaksen. Een groet spiegelen is optioneel; er volgt niets slechts uit een week Hallo gebruiken. En voor afscheid zijn alleen Tschüss en Auf Wiedersehen overal veilig: de regionale afscheidsgroeten hebben kaarten die zonder tekst werden gepubliceerd.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-a05-n05",
+        "de-a05-n06",
+        "de-a05-n07"
+      ]
+    },
+    {
+      "sinal": "U begint in het Duits, en het antwoord komt meteen in vloeiend Engels terug voordat u de zin heeft afgemaakt.",
+      "suaLeitura": "Mijn accent verried me en ik ben beleefd verteld het niet te proberen.",
+      "oQueEAli": "Het is een aanbod van het snelste gedeelde kanaal, en heel gebruikelijk: vijfenzestig procent zei in 2023 een gesprek in het Engels te kunnen voeren, tegen zevenenveertig procent in de hele EU. Het is ook een zelfrapport in plaats van een belofte — een andere enquête vond dat van de achtentachtig procent die een vreemde taal opgeeft, slechts ongeveer achtentwintig procent zich vaardig noemt. Verwacht het meest in steden en van jongere sprekers, en verwacht dat velen van hen Engels slechts af en toe gebruiken.",
+      "oQueVoceFaz": "Neem het Engels voor de inhoud en bewaar het Duits voor het frame: de groet, de alstublieft, de dank u en het afscheid. Als een woord het waard is, vraag hoe zij het zeggen, en vraag ernaar op papier als het niet blijft plakken.",
+      "oQueMelhora": "U stopt de omschakeling te behandelen als een afwijzing, doet uw zaken op volle snelheid, en verlaat de uitwisseling nog steeds met de zes woorden die de volgende warmer maken.",
+      "ondeNaoVale": "Het is geen garantie dat er Engels zal zijn. De cijfers dalen buiten grote steden en bij oudere sprekers, en formulieren, mededelingen en balies in kleine steden zijn een andere zaak. Er zijn geen data over een oost-westverschil in Engels, dus er mag niets worden aangenomen op basis van welk deel van het land u zich bevindt.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-a05-n02",
+        "de-a05-n03",
+        "de-a05-n04"
+      ]
+    }
+  ]
+}

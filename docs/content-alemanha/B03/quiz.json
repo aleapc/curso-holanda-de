@@ -1,0 +1,96 @@
+{
+  "id": "q-b03",
+  "nivel": "basico",
+  "titulo": "Quiz — Entschuldigung, en dan wat u nodig hebt",
+  "subtitulo": "Eén opener, zeven tweede helften, en de twee verzoeken die een getal op papier krijgen",
+  "introAudioKey": "de-b03-q-i",
+  "introPt": "Een reiziger mist een spoornummer aan een loket en vraagt drie keer, elke keer om iets kleiners.",
+  "cenario": "Een loket in een hoofdstation, een rij achter u, en een aansluiting met twee overstappen erin.",
+  "dialogo": [
+    {
+      "audioKey": "de-b03-q01",
+      "voz": "target_de_f",
+      "es": "Entschuldigung, ich habe das nicht verstanden.",
+      "pt": "Pardon, ik heb dat niet verstaan.",
+      "tts": "Entschuldigung, ich habe das nicht verstanden."
+    },
+    {
+      "audioKey": "de-b03-q02",
+      "voz": "target_de_m",
+      "es": "Gleis vierzehn, umsteigen in Hannover.",
+      "pt": "Spoor veertien, overstappen in Hannover.",
+      "tts": "Gleis vierzehn, umsteigen in Hannover."
+    },
+    {
+      "audioKey": "de-b03-q03",
+      "voz": "target_de_f",
+      "es": "Entschuldigung, schreiben Sie es bitte auf.",
+      "pt": "Pardon, schrijft u het alstublieft op.",
+      "tts": "Entschuldigung, schreiben Sie es bitte auf."
+    },
+    {
+      "audioKey": "de-b03-q04",
+      "voz": "target_de_m",
+      "es": "Natürlich. Bitte schön.",
+      "pt": "Natuurlijk. Alstublieft.",
+      "tts": "Natürlich. Bitte schön."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Het antwoord kwam de tweede keer op precies dezelfde snelheid terug. Waarom vraagt u?",
+      "opcoes": [
+        "Noch einmal, nog een keer",
+        "Langsamer — langzamer benoemt de daadwerkelijke moeilijkheid en is een kleinere gunst",
+        "Niets; u hebt uw beurt gebruikt",
+        "Het hele ding in het Engels"
+      ],
+      "correta": 1,
+      "explica": "Om een herhaling vragen levert dezelfde zin op dezelfde snelheid op, omdat niemand weet dat snelheid het probleem was. Gebruik noch einmal wanneer u de zin volledig miste, langsamer wanneer u hem hoorde en niet kon bijhouden."
+    },
+    {
+      "pergunta": "Er zit een prijs of een spoornummer in de zin. Wat is de beste zet?",
+      "opcoes": [
+        "Vraag om een herhaling tot het landt",
+        "Krijg het op papier of op een scherm — schreiben Sie es bitte auf",
+        "Gok en controleer later",
+        "Herhaal het getal willekeurig terug"
+      ],
+      "correta": 1,
+      "explica": "Getallen kosten u geld, en ze overleven herhaling het slechtst. Papier sluit de uitwisseling in één zet in plaats van drie."
+    },
+    {
+      "pergunta": "Hoeveel Engels kunt u op rekenen in Duitsland?",
+      "opcoes": [
+        "Vrijwel iedereen, dus Duits is optioneel",
+        "Ongeveer vijfenzestig procent zei in de EU-enquête van 2023 een gesprek te kunnen voeren — een goede gok, geen zekerheid",
+        "Vrijwel niemand buiten de luchthavens",
+        "Alleen mensen onder de vijfentwintig"
+      ],
+      "correta": 1,
+      "explica": "Vijfenzestig procent tegen een Europees gemiddelde van zevenenveertig, omhoog van zesenvijftig in 2012 — en velen die ja zeggen, gebruiken het slechts af en toe. Vraag eerst; open niet in het Engels alsof het u toekomt."
+    },
+    {
+      "pergunta": "Waarom komt elke tweede helft van de bouwsteen als één heel blok?",
+      "opcoes": [
+        "Om tijd te sparen",
+        "Omdat het Duits het werk van een zelfstandig naamwoord op het lidwoord ervoor markeert, dus zelf de helft bouwen zou betekenen dat u aan de kassa een vorm moet beslissen",
+        "Omdat de woorden niet gescheiden kunnen worden",
+        "Omdat het uitdrukkingen zijn zonder letterlijke betekenis"
+      ],
+      "correta": 1,
+      "explica": "Het lidwoord is het eerste woord van de opening, dus een open tweede helft zou u onder druk een verbuigingstabel in de hand duwen. Hier kiest u een behoefte, geen vorm, en de opener verandert nooit."
+    },
+    {
+      "pergunta": "Wat doet u direct na de opener?",
+      "opcoes": [
+        "Doorpraten om uw zelfvertrouwen niet te verliezen",
+        "Laat een halve tel stilte — de pauze draait een onbekende naar u toe",
+        "Hem harder herhalen",
+        "Op uw telefoon wijzen"
+      ],
+      "correta": 1,
+      "explica": "De pauze verandert de houding van de ander, en wat er daarna komt, komt trager dan het anders zou zijn. Het kost niets en het is de goedkoopste helft van de zet."
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "id": "b12",
+  "nivel": "basico",
+  "numero": 12,
+  "parte": "B12",
+  "slot": "B12",
+  "titulo": "Zonder — das Wort, das den Teller neu baut",
+  "subtitulo": "Fünf Dinge, die du rausnimmst, an einer Frittenbude, einer Käsetheke und einem Cafétisch am Gracht",
+  "cena": "Sonntagmittag, eine Frittenbude mit Kreidetafel, drei Leute hinter dir in der Schlange, und die Frau mit der Frittenschaufel sieht dich direkt an.",
+  "moldura": "ganha",
+  "frasePiso": "Zonder, plus das Ding — an drei verschiedenen Theken bestellt, und du hast nie ein Ding bekommen, das du rausnehmen wolltest.",
+  "moldes": [
+    "OHNE"
+  ],
+  "clique": {
+    "contagem": [
+      "Frittenbude",
+      "Käsetheke auf dem Markt",
+      "Cafétisch am Gracht"
+    ],
+    "desconto": "Niemand gab dir drei Sätze für drei Theken. Du hast ein Wort festgehalten, es vor das Ding gestellt, das du nicht wolltest, und jede Theke hat verstanden.",
+    "piso": "Das nächste Mal, wenn ein Ding auf deinem Teller landen will, das du nicht willst, isst du nicht drumherum. Du sagst das eine Wort, das es rausnimmt."
+  },
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b12-n01",
+      "gesto": 2,
+      "tom": "ganha",
+      "bloco": "aquecimento",
+      "pt": "Reine Vokale, lang gehalten: kaas, vlees, brood. Kein Rutschen zum Diphthong, ein Ton bis zum Ende."
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "HABEN-SIE",
+      "encaixe": "een koffie verkeerd",
+      "encaixeGloss": "ein Milchkaffee",
+      "bloco": "callback",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b12-p01",
+      "promptPt": "Gestern am Tresen hast du dein erstes Bier bestellt. Heute Morgen willst du etwas Milchigeres. Frag danach. Sprich jetzt.",
+      "audioKey": "hol-b12-t01",
+      "es": "Heeft u een koffie verkeerd?",
+      "pinyin": "héeft ü un KOF-fie ver-KAYRT?",
+      "pt": "Haben Sie einen Milchkaffee?",
+      "tts": "Heeft u een koffie verkeerd?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b12-n02",
+      "tom": "ganha",
+      "bloco": "cena",
+      "pt": "Sonntagmittag, eine Frittenbude, drei Leute hinter dir. Die Frau mit der Schaufel sieht dich an und wartet."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b12-n03",
+      "tom": "ganha",
+      "bloco": "molde",
+      "pt": "Hier ist der Baustein, der jeden Teller neu baut: Zonder, und dann das Ding, das du rausnimmst."
+    },
+    {
+      "consulta": [
+        "dieta/sem",
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "OHNE",
+      "encaixe": "ui",
+      "encaixeGloss": "Zwiebeln",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b12-p02",
+      "promptPt": "Die Portion Pommes kommt standardmäßig mit den rohen weißen Ringen obendrauf, und die magst du seit Kindertagen nicht. Sag es. Sprich jetzt.",
+      "audioKey": "hol-b12-t02",
+      "es": "Zonder ui, alstublieft.",
+      "pinyin": "ZON-der öü, als-tü-BLEEFT",
+      "pt": "Ohne Zwiebeln, bitte.",
+      "tts": "Zonder ui, alstublieft."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b12-n04",
+      "tom": "ganha",
+      "bloco": "corpo",
+      "pt": "Ui klingt wie öü — der Diphthong, den dein Deutsch nicht kennt. Hör genau hin, bevor du ihn selbst sagst."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b12-r01",
+      "tom": "ganha",
+      "es": "Zonder ui, komt eraan. Nog iets erbij?",
+      "pinyin": "ZON-der öü, komt e-RAAN. noch eets er-BÄI?",
+      "pt": "Ohne Zwiebeln, kommt sofort. Sonst noch etwas dazu?",
+      "tts": "Zonder ui, komt eraan. Nog iets erbij?",
+      "receptivo": true,
+      "acao": "Nog iets erbij ist die Anschlussfrage. Nutze sie für das Nächste, statt später noch einmal in der Schlange zu stehen."
+    },
+    {
+      "consulta": [
+        "dieta/sem",
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "OHNE",
+      "encaixe": "mayonaise",
+      "encaixeGloss": "Mayonnaise",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b12-p03",
+      "promptPt": "Sie greift schon zum weißen Klecks, standardmäßig auf jede Portion hier. Du willst die Pommes pur. Sag es. Sprich jetzt.",
+      "audioKey": "hol-b12-t03",
+      "es": "Zonder mayonaise, alstublieft.",
+      "pinyin": "ZON-der ma-yo-NAY-ze, als-tü-BLEEFT",
+      "pt": "Ohne Mayonnaise, bitte.",
+      "tts": "Zonder mayonaise, alstublieft."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b12-n05",
+      "tom": "ganha",
+      "pt": "Zonder ist kein Cousin von ohne — ein ganz neues Wort. Geen dagegen ist der Zwilling von kein, und den erkennst du sofort."
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "HABEN-SIE",
+      "encaixe": "iets zonder prik",
+      "encaixeGloss": "etwas ohne Kohlensäure",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b12-p04",
+      "promptPt": "Die Kühlvitrine an der Käsetheke zeigt nur sprudelndes Wasser, und dein Magen mag das heute nicht. Frag, ob es etwas anderes gibt. Sprich jetzt.",
+      "audioKey": "hol-b12-t04",
+      "es": "Heeft u iets zonder prik?",
+      "pinyin": "héeft ü eets ZON-der prik?",
+      "pt": "Haben Sie etwas ohne Kohlensäure?",
+      "tts": "Heeft u iets zonder prik?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b12-r02",
+      "tom": "ganha",
+      "es": "Ja hoor, plat water of appelsap.",
+      "pinyin": "ya hohr, plat VAA-ter of AP-pel-sap",
+      "pt": "Klar, stilles Wasser oder Apfelsaft.",
+      "tts": "Ja hoor, plat water of appelsap.",
+      "receptivo": true,
+      "acao": "Plat heißt hier still, nicht flach. Wähl eins der beiden Wörter und sag nur das."
+    },
+    {
+      "consulta": [
+        "dieta/sem",
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "OHNE",
+      "encaixe": "korst",
+      "encaixeGloss": "Rinde",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b12-p05",
+      "promptPt": "An der Käsetheke auf dem Markt zeigt sie dir den ganzen Laib, samt der harten gelben Außenseite. Für unterwegs willst du die nicht mitschleppen. Sag es. Sprich jetzt.",
+      "audioKey": "hol-b12-t05",
+      "es": "Zonder korst, alstublieft.",
+      "pinyin": "ZON-der korst, als-tü-BLEEFT",
+      "pt": "Ohne Rinde, bitte.",
+      "tts": "Zonder korst, alstublieft."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b12-n06",
+      "tom": "ganha",
+      "bloco": "capsula",
+      "pt": "Derselbe Baustein läuft durch jede Theke: die Frittenbude, den Käsestand, den Cafétisch. Nur das Ding am Ende wechselt."
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "OHNE",
+      "encaixe": "suiker",
+      "encaixeGloss": "Zucker",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b12-p06",
+      "promptPt": "Am Cafétisch am Gracht bringt er den Kaffee standardmäßig mit einem Tütchen auf der Untertasse. Du trinkst ihn pur. Sag es. Sprich jetzt.",
+      "audioKey": "hol-b12-t06",
+      "es": "Zonder suiker, alstublieft.",
+      "pinyin": "ZON-der SÖÜ-ker, als-tü-BLEEFT",
+      "pt": "Ohne Zucker, bitte.",
+      "tts": "Zonder suiker, alstublieft."
+    },
+    {
+      "consulta": [
+        "dieta/sem",
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "OHNE",
+      "encaixe": "slagroom",
+      "encaixeGloss": "Sahne",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b12-p07",
+      "promptPt": "Die heiße Schokolade kommt hier mit einer ganzen Wolke obendrauf, und du willst nur den Kakao. Sag es. Sprich jetzt.",
+      "audioKey": "hol-b12-t07",
+      "es": "Zonder slagroom, alstublieft.",
+      "pinyin": "ZON-der SLACH-rohm, als-tü-BLEEFT",
+      "pt": "Ohne Sahne, bitte.",
+      "tts": "Zonder slagroom, alstublieft."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "DANKE",
+      "encaixe": "bedankt",
+      "encaixeGloss": "danke",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b12-p08",
+      "promptPt": "Drei Theken, drei Mal Zonder, und jedes Mal kam genau das, was du wolltest. Schließ locker ab. Sprich jetzt.",
+      "audioKey": "hol-b12-t08",
+      "es": "Bedankt!",
+      "pinyin": "buh-DANKT!",
+      "pt": "Danke!",
+      "tts": "Bedankt!"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-b12-s01",
+      "tom": "ganha",
+      "es": "Zonder ui. Zonder mayonaise. Zonder suiker.",
+      "pinyin": "ZON-der öü. ZON-der ma-yo-NAY-ze. ZON-der SÖÜ-ker",
+      "pt": "Schatte dasselbe Wort über drei völlig verschiedene Dinge.",
+      "tts": "Zonder ui. Zonder mayonaise. Zonder suiker.",
+      "molde": "OHNE"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b12-n07",
+      "tom": "ganha",
+      "bloco": "recap",
+      "pt": "B12 fertig. Zonder, plus das Ding — an der Frittenbude, am Käsestand, am Cafétisch, ohne dass du je drumherum essen musst."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Zonder, und warum es kein Cousin von ohne ist",
+    "secoes": [
+      {
+        "titulo": "Zonder, plus das Ding, kahl",
+        "corpo": "Zonder nimmt das Ding kahl wie ohne — kein kleines Wort davor, nie eine Entscheidung über den Artikel. Zonder ui, zonder suiker, zonder korst: zwei Wörter, keine Beugung. Der Unterschied zu ohne selbst ist rein im Klang: zonder ist neues Vokabular, kein Cousin, den du erraten kannst.",
+        "exemplos": [
+          {
+            "es": "Zonder ui, alstublieft.",
+            "pt": "Ohne Zwiebeln, bitte."
+          },
+          {
+            "es": "Zonder suiker, alstublieft.",
+            "pt": "Ohne Zucker, bitte."
+          }
+        ]
+      },
+      {
+        "titulo": "Geen — der echte Zwilling von kein",
+        "corpo": "Wo zonder ein neues Wort ist, ist geen ein Geschenk: es klingt fast wie kein und bedeutet genau das. «Ik heb geen tijd» — ich habe keine Zeit. An der Theke hörst du beide, oft nebeneinander: «Heeft u geen wisselgeld?» fragt nach fehlendem Wechselgeld, «zonder wisselgeld» wäre eine andere Bitte. Du musst geen nicht produzieren, um es hier zu erkennen — nur wissen, dass es ein Freund ist, kein neues Vokabular."
+      },
+      {
+        "titulo": "⟨ui⟩, der Diphthong, den dein Deutsch nicht hat",
+        "corpo": "Ui ist [œy] — nicht wie ein deutsches ui, nicht wie eu, ein eigener Klang mit den Lippen gerundet und der Zunge vorn. Ui, huis, öü im Respelling: das ist die Stelle im Wort, an der du dich am meisten anstrengen musst, und zonder ui ist die kürzeste Übung dafür, weil du sie an jeder zweiten Theke sagst."
+      }
+    ]
+  },
+  "permissao": "Du musst nicht erklären, warum du etwas weglässt. Zonder plus das Ding ist an jeder Theke ein vollständiger, höflicher Satz, ohne Entschuldigung und ohne Geschichte dazu — auch wenn es nur Geschmack ist und keine Allergie.",
+  "permissaoAudioKey": "hol-b12-n03",
+  "fichasCulturais": [
+    {
+      "sinal": "Du sagst zonder und die Person hinter der Theke wiederholt es knapp — zonder ui — und schreibt weiter, ohne aufzuschauen.",
+      "suaLeitura": "Das klang kurz angebunden. Ich habe mit meiner Extra-Bitte für Verstimmung gesorgt.",
+      "oQueEAli": "Das Nachsprechen ist die Bestätigung, kein Verdruss. An einer Theke mit Schlange ist das die schnellste Art zu zeigen, dass die Änderung angekommen ist — ohne Umweg, weil die Schlange läuft.",
+      "oQueVoceFaz": "Antworte mit ja oder een moment und häng das nächste Ding dran, falls es eins gibt. Kommt die Wiederholung falsch zurück, sag das eine Wort noch einmal.",
+      "oQueMelhora": "Du bekommst eine Bestätigung, die du in einer Sprache, die du gerade lernst, noch prüfen kannst — bevor das Essen fertig ist, nicht danach.",
+      "ondeNaoVale": "Das beschreibt eine Theke mit Schlange, keine Regel über Tonfall im ganzen Land. An einem ruhigen Cafétisch am Nachmittag darf es gern länger sein.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "hol-b12-r01"
+      ]
+    }
+  ]
+}

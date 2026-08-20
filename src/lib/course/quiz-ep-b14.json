@@ -1,0 +1,96 @@
+{
+  "id": "q-b14",
+  "nivel": "basico",
+  "titulo": "Quiz — Mag ik afrekenen, und der Tisch entscheidet",
+  "subtitulo": "Pin oder Bargeld, eine Rundung statt eines Prozentsatzes, und eine App, die später einen Link schickt",
+  "introAudioKey": "hol-b14-q-i",
+  "introPt": "Ein Eetcafé am Abend, die Teller sind weg, und der Tisch entscheidet, wie bezahlt wird.",
+  "cenario": "Ein Eetcafé am Abend, vier Personen, ein Tisch.",
+  "dialogo": [
+    {
+      "audioKey": "hol-b14-q01",
+      "voz": "target_nl_f",
+      "es": "Mag ik afrekenen?",
+      "pt": "Darf ich abrechnen?",
+      "tts": "Mag ik afrekenen?"
+    },
+    {
+      "audioKey": "hol-b14-q02",
+      "voz": "target_nl_m",
+      "es": "Komt eraan. Samen of apart?",
+      "pt": "Kommt sofort. Zusammen oder getrennt?",
+      "tts": "Komt eraan. Samen of apart?"
+    },
+    {
+      "audioKey": "hol-b14-q03",
+      "voz": "target_nl_f",
+      "es": "Doe maar twintig euro.",
+      "pt": "Machen Sie einfach zwanzig Euro.",
+      "tts": "Doe maar twintig euro."
+    },
+    {
+      "audioKey": "hol-b14-q04",
+      "voz": "target_nl_f",
+      "es": "Stuur je mij een Tikkie?",
+      "pt": "Schickst du mir eine Tikkie?",
+      "tts": "Stuur je mij een Tikkie?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Samen of apart — was bedeuten die beiden Wörter?",
+      "opcoes": [
+        "Schnell oder langsam",
+        "Zusammen oder getrennt",
+        "Bar oder Karte",
+        "Jetzt oder später"
+      ],
+      "correta": 1,
+      "explica": "Samen ist zusammen, apart ist getrennt. Entscheidet der Tisch vorher, antwortest du mit nur einem Wort."
+    },
+    {
+      "pergunta": "Warum sagst du am Terminal Doe maar twintig euro laut?",
+      "opcoes": [
+        "Weil das Terminal kein Trinkgeldfeld hat — die Rundung ist dein Trinkgeld",
+        "Weil das Gesetz einen festen Prozentsatz vorschreibt",
+        "Weil zwanzig Euro immer der Mindestbetrag ist",
+        "Weil Bargeld dort verboten ist"
+      ],
+      "correta": 0,
+      "explica": "Der Service steckt bereits im Preis. Am Terminal sagst du laut die Summe, die du zahlen willst — die Differenz zur Rechnung ist deine freiwillige Anerkennung."
+    },
+    {
+      "pergunta": "Wie viel Trinkgeld erwartet das Gesetz von dir?",
+      "opcoes": [
+        "Zwanzig Prozent",
+        "Zehn Prozent, immer",
+        "Keinen festen Prozentsatz — Aufrunden oder etwa fünf bis zehn Prozent gilt schon als großzügig",
+        "Trinkgeld ist verboten"
+      ],
+      "correta": 2,
+      "explica": "Es gibt keine amtliche Prozentzahl. Der Service ist per Gesetz bereits im Preis enthalten, und jedes zusätzliche Trinkgeld ist freiwillig."
+    },
+    {
+      "pergunta": "Stuur je mij een Tikkie? — worum bittest du?",
+      "opcoes": [
+        "Um eine Postkarte",
+        "Um einen Zahlungslink per WhatsApp, weil jemand für dich vorgelegt hat",
+        "Um eine Einladung zum Essen",
+        "Um eine Quittung"
+      ],
+      "correta": 1,
+      "explica": "Tikkie ist eine Zahlungsaufforderung per WhatsApp-Link. Hat jemand für dich vorgelegt, bekommst du danach einfach eine Tikkie, statt Bargeld zu wechseln."
+    },
+    {
+      "pergunta": "Deine Kreditkarte wird am Tisch abgelehnt. Was ist wahrscheinlich los?",
+      "opcoes": [
+        "Die Karte ist gesperrt",
+        "Kredit wird hier oft abgelehnt — Debitkarte oder Bargeld ist die sichere Kombination",
+        "Das Restaurant nimmt generell keine Karten",
+        "Ein Fehler, den du reklamieren solltest"
+      ],
+      "correta": 1,
+      "explica": "Wie schon am ersten Tag: Debitkarte ist der Normalfall, ausländisches Kredit oft die Ausnahme, besonders am tragbaren Terminal."
+    }
+  ]
+}

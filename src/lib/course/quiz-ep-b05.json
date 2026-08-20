@@ -1,0 +1,79 @@
+{
+  "id": "q-b05",
+  "nivel": "basico",
+  "titulo": "Quiz — Drei Fragen, und Sie hatten die Antworten schon",
+  "subtitulo": "Der Zug über die Grenze, der Schalter und die Hotelrezeption",
+  "introAudioKey": "hol-b05-q-i",
+  "introPt": "Ein Zug rollt über die Grenze, ein Schaffner geht durch die Reihen, und dieselben drei Fragen tauchen später an der Rezeption wieder auf.",
+  "cenario": "Zuggrenzübergang und Hotelrezeption.",
+  "dialogo": [
+    {
+      "audioKey": "hol-b05-q01",
+      "voz": "target_nl_m",
+      "es": "Wat is het doel van uw reis?",
+      "pt": "Was ist der Zweck Ihrer Reise?",
+      "tts": "Wat is het doel van uw reis?"
+    },
+    {
+      "audioKey": "hol-b05-q02",
+      "voz": "target_nl_m",
+      "es": "En hoe lang blijft u?",
+      "pt": "Und wie lange bleiben Sie?",
+      "tts": "En hoe lang blijft u?"
+    },
+    {
+      "audioKey": "hol-b05-q03",
+      "voz": "target_nl_m",
+      "es": "En waar logeert u?",
+      "pt": "Und wo übernachten Sie?",
+      "tts": "En waar logeert u?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Warum rollt der Zug meistens ohne Halt über die deutsch-niederländische Grenze?",
+      "opcoes": [
+        "Weil es keine Grenzbeamten mehr gibt",
+        "Weil beide Länder Schengen sind — systematische Kontrollen an der Binnengrenze entfallen",
+        "Weil die Grenze nur mit dem Auto existiert",
+        "Weil Kontrollen gesetzlich verboten sind"
+      ],
+      "correta": 1,
+      "explica": "Schengen-Staaten verzichten auf systematische Personenkontrollen an Binnengrenzen. Punktuelle Kontrollen bleiben trotzdem rechtlich möglich, vor allem im Zug."
+    },
+    {
+      "pergunta": "«Wat is het doel van uw reis?» Was antworten Sie für einen normalen Urlaub?",
+      "opcoes": ["Een week", "Vakantie", "In een hotel", "Bedankt"],
+      "correta": 1,
+      "explica": "Ein Wort reicht als Antwort auf den Zweck der Reise: vakantie."
+    },
+    {
+      "pergunta": "«En hoe lang blijft u?» Was ist eine passende kurze Antwort?",
+      "opcoes": ["Goedendag", "Sorry, ik versta u niet", "Een week", "Dank u wel"],
+      "correta": 2,
+      "explica": "Eine Zahl plus week oder dagen reicht als Antwort auf die Dauer."
+    },
+    {
+      "pergunta": "Am Flughafen teilt sich der Gang in zwei Schlangen, und kein Schild ist lesbar. Was fragen Sie die Person vor Ihnen?",
+      "opcoes": [
+        "Pardon, is dit de rij voor de paspoortcontrole?",
+        "Heeft u wifi?",
+        "Wat kan ik voor u doen?",
+        "Dank u wel!"
+      ],
+      "correta": 0,
+      "explica": "Derselbe Baustein aus B03 — Sorry oder Pardon, plus was Sie brauchen — trägt auch diese neue Frage nach der richtigen Schlange."
+    },
+    {
+      "pergunta": "Wo hören Sie dieselben drei Fragen später noch einmal?",
+      "opcoes": [
+        "Nirgends, sie kommen nur einmal vor",
+        "An der Hotelrezeption, für das Anmeldeformular",
+        "Nur bei der Rückreise",
+        "Nur bei der Polizei"
+      ],
+      "correta": 1,
+      "explica": "Grund, Dauer und Unterkunft sind auch die Standardfragen an der Rezeption — dieselben drei kurzen Antworten funktionieren dort genauso."
+    }
+  ]
+}

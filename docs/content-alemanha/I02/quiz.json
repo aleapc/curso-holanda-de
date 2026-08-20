@@ -1,0 +1,96 @@
+{
+  "id": "q-i02",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Uw beurt aan de toonbank",
+  "subtitulo": "Vier woorden, en niets aan de kassa dat u niet zag aankomen",
+  "introAudioKey": "de-i02-q-i",
+  "introPt": "Een reiziger groet op de weg naar binnen, bestelt in vier woorden, vraagt vóór het bestellen naar betalen, en is niet verrast door het totaal.",
+  "cenario": "Een kleine winkel op dinsdagmiddag, drie mensen vóór u, en daarna een kraam op het plein.",
+  "dialogo": [
+    {
+      "audioKey": "de-i02-q01",
+      "voz": "target_de_f",
+      "es": "Moin! Was darf's sein?",
+      "pt": "Moin! Wat mag het zijn?",
+      "tts": "Moin! Was darf's sein?"
+    },
+    {
+      "audioKey": "de-i02-q02",
+      "voz": "target_de_m",
+      "es": "Ich möchte zwei Brötchen, bitte.",
+      "pt": "Ik wil graag twee broodjes, alstublieft.",
+      "tts": "Ich möchte zwei Brötchen, bitte."
+    },
+    {
+      "audioKey": "de-i02-q03",
+      "voz": "target_de_f",
+      "es": "Das macht ein Euro vierundzwanzig. Neunundneunzig Cent plus Pfand.",
+      "pt": "Dat wordt een euro vierentwintig. Negenennegentig cent plus statiegeld.",
+      "tts": "Das macht ein Euro vierundzwanzig. Neunundneunzig Cent plus Pfand."
+    },
+    {
+      "audioKey": "de-i02-q04",
+      "voz": "target_de_m",
+      "es": "Nur Bargeld, tut mir leid. Der Automat ist um die Ecke.",
+      "pt": "Alleen contant, sorry. De automaat staat om de hoek.",
+      "tts": "Nur Bargeld, tut mir leid. Der Automat ist um die Ecke."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Op het schap stond 0,99 € en aan de kassa staat 1,24 €. Wat is er gebeurd?",
+      "opcoes": [
+        "De belasting is aan de kassa bijgeteld, zoals in de Verenigde Staten",
+        "Het schapetiket was verouderd",
+        "Het statiegeld is toegevoegd — de wet vereist dat het naast de prijs staat en er uitdrukkelijk niet in wordt gevouwen",
+        "Er is een servicetoeslag op de transactie toegepast"
+      ],
+      "correta": 2,
+      "explica": "De prijsopgaveregels maken van de vermelde prijs het totaal met de btw al binnenin, en gebieden dan dat het statiegeld naast dat totaal staat en er niet in zit. Eenmalig statiegeld is minstens vijfentwintig cent inclusief btw."
+    },
+    {
+      "pergunta": "Waar hoort Moin thuis, en waar komt het vandaan?",
+      "opcoes": [
+        "Het hoge noorden, en het komt van een woord dat mooi of aangenaam betekent",
+        "Beieren, en het is kort voor Morgen",
+        "Overal, en het is een verkorte Guten Morgen",
+        "Het Rijnland, en het is een carnavalsgroet"
+      ],
+      "correta": 0,
+      "explica": "Sleeswijk-Holstein en noordelijk Nedersaksen. Het gaat terug op moien Dag en op het Nederduits en Fries moi, dus alleen het bijvoeglijk naamwoord blijft over — en daarom wordt het op elk uur gebruikt, niet alleen 's ochtends."
+    },
+    {
+      "pergunta": "Een kraam wuift uw kaart weg en wijst naar een bord met nur Bargeld. Wat is de juridische positie?",
+      "opcoes": [
+        "Ze schenden een plicht om kaartbetaling aan te nemen",
+        "Ze moeten de kaart aannemen boven een minimumbedrag",
+        "Ze moeten hem aannemen als ze ergens een kaartlogo tonen",
+        "Er wordt niets geschonden — er is geen verplichting om kaarten aan te nemen, en biljetten zijn het enige onbeperkte wettige betaalmiddel"
+      ],
+      "correta": 3,
+      "explica": "Alleen contant en alleen kaart zijn in Duitsland beide wettig. Eurobiljetten zijn het enige onbeperkte wettige betaalmiddel, en een handelaar die contant wil weigeren moet dat vooraf afspreken — en dat doet een bord met alleen kaart."
+    },
+    {
+      "pergunta": "Iemand aan een toonbank zegt «wir können uns gerne duzen». Wat is dat?",
+      "opcoes": [
+        "Een correctie — u gebruikte du en had Sie moeten gebruiken",
+        "Een aanbod om over te stappen op du, gedaan van hun kant, dat u aanneemt",
+        "Een verzoek om langzamer te spreken",
+        "Een beleefde manier om het gesprek te beëindigen"
+      ],
+      "correta": 1,
+      "explica": "De overgang naar du wordt aangeboden, nooit door u voorgesteld, en is eenmaal gemaakt niet terug te draaien. Uw taak is hem te herkennen en ja te zeggen. Sie blijft anders de hele reis goed."
+    },
+    {
+      "pergunta": "Waar is contant nog overweldigend de manier waarop mensen betalen?",
+      "opcoes": [
+        "In supermarkten",
+        "Op markten en straatkraampjes, waar negen van de tien betalingen contant zijn",
+        "Alleen in restaurants",
+        "Nergens — giraal passeerde in 2025 de negentig procent"
+      ],
+      "correta": 1,
+      "explica": "De studie 2025 van de centrale bank vond giraal voor het eerst over de helft van de dagelijkse betalingen met 55 procent, maar op markten en straatverkoop waren negen van de tien betalingen contant en werd giraal in slechts 43 procent aanvaard."
+    }
+  ]
+}

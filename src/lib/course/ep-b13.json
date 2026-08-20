@@ -1,0 +1,295 @@
+{
+  "id": "b13",
+  "nivel": "basico",
+  "numero": 13,
+  "parte": "B13",
+  "slot": "B13",
+  "titulo": "Ik heb een allergie — der Satz, der vor der Bestellung kommt",
+  "subtitulo": "Vier Wörter, das Wort für Erdnuss, und die Karte, die du zeigst, falls die Wörter nicht reichen",
+  "cena": "Ein Eetcafé in Utrecht, die Karte noch offen, der Moment kurz bevor die Bestellung Richtung Küche geht.",
+  "moldura": "protege",
+  "frasePiso": "Ik heb een allergie voor, plus das Wort, plus die Karte in der Hand. Das ist eine vollständige Anweisung an eine Küche, gesagt, während die Pfanne noch kalt ist.",
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b13-n01",
+      "gesto": 1,
+      "tom": "ganha",
+      "bloco": "aquecimento",
+      "pt": "Ein Satz, gesagt bevor die Bestellung weggeht, macht die ganze Arbeit. Sag ihn flach, und sag ihn zuerst."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b13-n02",
+      "tom": "ganha",
+      "bloco": "cena",
+      "pt": "Ik heb een allergie voor. Vier Wörter. Kein Umweg, keine Geschichte über das letzte Mal."
+    },
+    {
+      "consulta": [
+        "dieta/dizer"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "protege",
+      "encaixe": "pinda's",
+      "encaixeGloss": "Erdnüsse",
+      "bloco": "callback",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b13-p01",
+      "promptPt": "Der Kellner hat den Block offen und wartet, dass der Tisch sich entscheidet. Sag es als Erstes, bevor irgendjemand bestellt. Sprich jetzt.",
+      "audioKey": "hol-b13-t01",
+      "es": "Ik heb een allergie voor pinda's.",
+      "pinyin": "ik hep un al-ler-CHEE vohr PIN-daas",
+      "pt": "Ich habe eine Allergie gegen Erdnüsse.",
+      "tts": "Ik heb een allergie voor pinda's."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b13-r01",
+      "tom": "ganha",
+      "es": "Momentje, ik vraag het even in de keuken na.",
+      "pinyin": "moh-MENT-yuh, ik fraach het AY-fen in de KÖÜ-ken naa",
+      "pt": "Einen Moment, ich frage kurz in der Küche nach.",
+      "tts": "Momentje, ik vraag het even in de keuken na.",
+      "receptivo": true,
+      "acao": "Warte die Stille aus. Sie bedeutet, dass die Küche gerade gefragt wird — das ist die Antwort, die du wolltest."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b13-n03",
+      "tom": "ganha",
+      "bloco": "corpo",
+      "pt": "Die zweite Hälfte kennst du schon aus B12: zonder, und dann das Ding, das nicht auf den Teller darf."
+    },
+    {
+      "consulta": [
+        "dieta/sem",
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "protege",
+      "molde": "OHNE",
+      "encaixe": "noten",
+      "encaixeGloss": "Nüsse",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b13-p02",
+      "promptPt": "Der Salat auf der Karte trägt eine gehackte Garnitur, oben drauf, gut sichtbar, und genau die ist dein Problem. Sag es weg. Sprich jetzt.",
+      "audioKey": "hol-b13-t02",
+      "es": "Zonder noten, alstublieft.",
+      "pinyin": "ZON-der NOH-ten, als-tü-BLEEFT",
+      "pt": "Ohne Nüsse, bitte.",
+      "tts": "Zonder noten, alstublieft."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b13-n04",
+      "tom": "ganha",
+      "pt": "Zonder nimmt das Ding kahl, ohne Artikel davor — genau wie du es aus B12 kennst. Zonder noten, zonder pinda's."
+    },
+    {
+      "consulta": [
+        "dieta/o-que-tem",
+        "mesa/carta"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b13-p03",
+      "promptPt": "Das Tagesgericht trägt einen Namen, den du nie gehört hast, und auf der Karte steht nichts weiter. Frag nach. Sprich jetzt.",
+      "audioKey": "hol-b13-t03",
+      "es": "Wat zit er allemaal in?",
+      "pinyin": "vat zit er AL-le-maal in?",
+      "pt": "Was ist da alles drin?",
+      "tts": "Wat zit er allemaal in?"
+    },
+    {
+      "consulta": [
+        "dieta/o-que-tem"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "protege",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b13-p04",
+      "promptPt": "Du vermutest Erdnussöl in der Sauce, und ein einziges Ja oder Nein reicht dir. Frag direkt. Sprich jetzt.",
+      "audioKey": "hol-b13-t04",
+      "es": "Zit er pindaolie in?",
+      "pinyin": "zit er PIN-daa-OH-lie in?",
+      "pt": "Ist da Erdnussöl drin?",
+      "tts": "Zit er pindaolie in?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b13-n05",
+      "tom": "ganha",
+      "pt": "In heißt hier drin. Jeder Satz mit in am Ende ist eine Zutatenliste — behandle ihn so."
+    },
+    {
+      "consulta": [
+        "dieta/cartao",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "protege",
+      "molde": "KONNEN-SIE",
+      "encaixe": "dat in de keuken navragen",
+      "encaixeGloss": "das in der Küche nachfragen",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b13-p05",
+      "promptPt": "Er zuckt mit den Schultern — er weiß es ehrlich nicht. Schick ihn zu jemandem, der es weiß. Sprich jetzt.",
+      "audioKey": "hol-b13-t05",
+      "es": "Kunt u dat in de keuken navragen?",
+      "pinyin": "kunt ü dat in de KÖÜ-ken NAA-fraa-chen?",
+      "pt": "Können Sie das in der Küche nachfragen?",
+      "tts": "Kunt u dat in de keuken navragen?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b13-r02",
+      "tom": "protege",
+      "es": "Dat kan ik u niet garanderen.",
+      "pinyin": "dat kan ik ü neet chaa-ran-DEE-ren",
+      "pt": "Das kann ich Ihnen nicht garantieren.",
+      "tts": "Dat kan ik u niet garanderen.",
+      "receptivo": true,
+      "acao": "Das ist eine ehrliche Antwort, keine Ablehnung. Nimm es als Nein für dieses Gericht und frag, was die Küche sicher kann."
+    },
+    {
+      "consulta": [
+        "dieta/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "protege",
+      "molde": "KONNEN-SIE",
+      "encaixe": "dat aan de keuken doorgeven",
+      "encaixeGloss": "das an die Küche weitergeben",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b13-p06",
+      "promptPt": "Er nickte, schrieb aber nichts auf und drehte sich schon um. Sorg dafür, dass es mit der Bestellung mitgeht. Sprich jetzt.",
+      "audioKey": "hol-b13-t06",
+      "es": "Kunt u dat aan de keuken doorgeven?",
+      "pinyin": "kunt ü dat aan de KÖÜ-ken DOHR-che-ven?",
+      "pt": "Können Sie das an die Küche weitergeben?",
+      "tts": "Kunt u dat aan de keuken doorgeven?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b13-n06",
+      "tom": "protege",
+      "bloco": "capsula",
+      "pt": "Wird die Antwort weich — misschien, een beetje — sag klarer: dit is een allergie, geen voorkeur. Kein Extra-Ton, nur klarer."
+    },
+    {
+      "consulta": [
+        "dieta/dizer"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "protege",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b13-p07",
+      "promptPt": "Sie sagt vielleicht geht ein bisschen, und dein Körper meint das nicht so. Mach den Satz härter, nicht lauter. Sprich jetzt.",
+      "audioKey": "hol-b13-t07",
+      "es": "Dit is een allergie, geen voorkeur.",
+      "pinyin": "dit is un al-ler-CHEE, cheen vohr-KÖÜR",
+      "pt": "Das ist eine Allergie, keine Vorliebe.",
+      "tts": "Dit is een allergie, geen voorkeur."
+    },
+    {
+      "consulta": [
+        "dieta/cartao",
+        "reparo/escreve"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b13-p08",
+      "promptPt": "Du hast es im Flugzeug fertig getippt, in klarem Niederländisch, und es steht auf deinem Handy. Reich es weiter, statt weiter zu reden. Sprich jetzt.",
+      "audioKey": "hol-b13-t08",
+      "es": "Hier staat het in het Nederlands.",
+      "pinyin": "heer staat het in het NAY-der-lands",
+      "pt": "Hier steht es auf Niederländisch.",
+      "tts": "Hier staat het in het Nederlands."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-b13-s01",
+      "tom": "protege",
+      "es": "Zonder noten. Zonder pinda's. Zit er pindaolie in?",
+      "pinyin": "ZON-der NOH-ten. ZON-der PIN-daas. zit er PIN-daa-OH-lie in?",
+      "pt": "Schatte dieselbe Zutatenprüfung über drei verschiedene Dinge.",
+      "tts": "Zonder noten. Zonder pinda's. Zit er pindaolie in?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b13-n07",
+      "tom": "ganha",
+      "bloco": "recap",
+      "pt": "B13 fertig. Der flache Satz zuerst, zonder plus das Ding, und die Karte, die du zeigst, wenn Worte nicht reichen."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Der Satz, die Karte, und warum er zuerst kommt",
+    "secoes": [
+      {
+        "titulo": "Warum er zuerst kommt, und flach bleibt",
+        "corpo": "Eine Küche kann nur handeln, solange noch gekocht wird. Sobald der Teller auf dem Tisch steht, bleibt nur noch Zurückschicken, und die Pfanne war schon benutzt. Ik heb een allergie voor ist vier Wörter und gehört an den Anfang der Bestellung, bevor irgendjemand am Tisch gewählt hat. Widersteh dem Drang, ihn weicher zu machen — sorry, dass ich lästig bin, wahrscheinlich geht es schon. Jede Weichmachung verschiebt die Bitte von der Spalte geht nicht in die Spalte hätte lieber nicht, und eine belegte Küche sortiert genau danach.",
+        "exemplos": [
+          {
+            "es": "Ik heb een allergie voor pinda's.",
+            "pt": "Ich habe eine Allergie gegen Erdnüsse."
+          },
+          {
+            "es": "Dit is een allergie, geen voorkeur.",
+            "pt": "Das ist eine Allergie, keine Vorliebe."
+          }
+        ]
+      },
+      {
+        "titulo": "In — das Wort, das drin bedeutet",
+        "corpo": "Wat zit er allemaal in? liefert dir die Zutatenliste. Zit er pindaolie in? liefert dir Ja oder Nein. Und kommt die Antwort zurück, ist in das Wort, auf das du achtest: er zit pindaolie in bedeutet, das Öl steckt im Gericht, nicht auf dem Tisch daneben."
+      },
+      {
+        "titulo": "Die Frage über den Kellner hinausschicken",
+        "corpo": "Kunt u dat in de keuken navragen? und Kunt u dat aan de keuken doorgeven? sind zwei Hälften derselben Aufgabe: die Frage zu der Person mit der Pfanne bringen, und deine Einschränkung mit der Bestellung mitreisen lassen. Kommt dat kan ik u niet garanderen zurück, ist das keine Weigerung zu helfen — es ist jemand, der nichts verspricht, was er nicht überblickt. Nimm es als Nein für dieses Gericht und frag, was die Küche sicher zubereiten kann."
+      },
+      {
+        "titulo": "Wenn die Antwort weich wird",
+        "corpo": "Misschien oder een beetje ist keine Zusage. Die geschützte Zweitform ist dit is een allergie, geen voorkeur — kein neuer Satz, nur eine schärfere Version desselben. Und wenn Worte nicht reichen, ist die geschriebene Karte, auf Niederländisch, die sicherste Version von allen: hier staat het in het Nederlands, gefolgt von einem Blick, statt einem Satz nach dem anderen."
+      }
+    ]
+  },
+  "permissao": "Du darfst das schlecht sagen. Ein flaches Ik heb een allergie voor mit deutschem Akzent, ohne die Wortstellung zu prüfen und mit der falschen Betonung, ist eine vollständige, wirksame Anweisung — und du darfst es jeder Person sagen, die eine Bestellung aufnimmt, jeden Tag der Reise, ohne dich je für die Wiederholung zu entschuldigen. Du darfst auch ein Handy-Display reichen, statt zu sprechen, und du darfst wat zit er allemaal in? so lange fragen, bis die Antwort nicht mehr vage ist.",
+  "permissaoAudioKey": "hol-b13-n06",
+  "espelho": "Wer schon einmal einen Freund mit Nussallergie zum Essen mitgenommen hat, kennt diese Reihenfolge bereits — sag es früh, sag es klar, gib es an die Küche weiter, prüf die Sauce noch einmal. Neu sind nur vier der Wörter.",
+  "fichasCulturais": [
+    {
+      "sinal": "Du sagst deine Allergie, und die Person am Tisch fragt zurück: bedoel je een allergie of vind je het gewoon niet lekker?",
+      "suaLeitura": "Sie glauben mir nicht, oder sie halten mich für übertrieben.",
+      "oQueEAli": "Eine Küche behandelt eine Allergie und eine Abneigung als zwei verschiedene Aufgaben mit unterschiedlichem Verfahren, und die Frage ist, wie die Person vor dir herausfindet, mit welcher der beiden sie es zu tun hat. Zonder, allein, drückt eine Vorliebe aus; eine benannte Allergie löst in vielen Küchen eine eigene, ernstere Routine aus.",
+      "oQueVoceFaz": "Antworte klar: dit is een allergie, geen voorkeur, wenn die Rückfrage kommt. Das ist keine Eskalation, sondern die Information, auf die die Frage schon zielte.",
+      "oQueMelhora": "Die Küche bekommt die richtige Information beim ersten Versuch, und du musst nicht bei jeder Mahlzeit dasselbe Gespräch neu führen.",
+      "ondeNaoVale": "Nicht jeder Ort stellt die Rückfrage — viele nehmen die erste Nennung sofort ernst, ohne nachzuhaken, und das Fehlen der Rückfrage ist kein Zeichen von Nachlässigkeit.",
+      "evidencia": "INFERENCIA",
+      "audioKeys": [
+        "hol-b13-n06"
+      ]
+    }
+  ]
+}

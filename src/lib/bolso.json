@@ -1,0 +1,34 @@
+{
+  "marca": "Zeg het maar!",
+  "cabecalho": "Die Niederlande auf einen Blick",
+  "titulo": "Die Reisetasche",
+  "subtitulo": "Das Wichtigste bleibt im Flugmodus verfügbar.",
+  "rotulos": {
+    "cambio": "Währungsrechner",
+    "valorEm": "Betrag in",
+    "dataCotacao": "Kursdatum",
+    "avisoCotacao": "Nur als Anhaltspunkt. Prüfen Sie den Kurs Ihrer Karte oder Bank, bevor Sie zahlen.",
+    "tomadas": "Steckdosen & Strom",
+    "emergencia": "Notfall",
+    "ligar": "Anrufen",
+    "saberUtil": "Gut zu wissen"
+  },
+  "mesmaMoeda": "Die Niederlande zahlen in Euro — genau wie zu Hause. Nichts umzurechnen, keine Umrechnungsgebühr an der Kasse.",
+  "moedas": {
+    "EUR": { "flag": "🇪🇺", "locale": "de-DE" }
+  },
+  "cambio": {
+    "date": "2026-08-20",
+    "rates": {}
+  },
+  "tomadas": "Wie in Deutschland — Schuko-Steckdose, 230 V. Kein Adapter nötig.",
+  "emergencia": [
+    { "numero": "112", "oQue": "Polizei, Feuerwehr und Rettungsdienst — anders als in Deutschland ist es EINE einzige Nummer für alles. Achtung: nur per Sprachanruf erreichbar, nicht per SMS." }
+  ],
+  "saberUtil": [
+    { "emoji": "💳", "texto": "Bezahlt wird fast immer mit der Debitkarte (\"pinnen\") — ausländische Kreditkarten werden oft abgelehnt, besonders am Selbstbedienungsautomaten beim Supermarkt Albert Heijn. Nehmen Sie also eine Debitkarte UND etwas Bargeld mit." },
+    { "emoji": "💊", "texto": "Die apotheek verkauft nur Medikamente auf Rezept (auch ein EU-Rezept aus Deutschland gilt). Für Kopfschmerztabletten & Co. ohne Rezept geht man zur drogist (z. B. Kruidvat, Etos)." },
+    { "emoji": "🪙", "texto": "Der Service ist gesetzlich im Preis inbegriffen — Trinkgeld ist rein freiwillig. Aufrunden reicht völlig." },
+    { "emoji": "🚴", "texto": "Auf dem Fahrradweg (fietspad) hat das Fahrrad Vorfahrt. Behandeln Sie ihn wie eine Autospur — nicht betreten, nicht als Gehweg benutzen." }
+  ]
+}

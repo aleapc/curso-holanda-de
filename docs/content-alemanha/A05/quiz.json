@@ -1,0 +1,96 @@
+{
+  "id": "q-a05",
+  "nivel": "avancado",
+  "titulo": "Quiz — De andere taal, en de hallo die met de kaart meebeweegt",
+  "subtitulo": "Vijf vragen over een groet van één lettergreep, een enquête-antwoord van vijfenzestig procent, en zes woorden die in een zak passen",
+  "introAudioKey": "de-a05-q-i",
+  "introPt": "Drie winkels op één middag, drie verschillende hallo's, en een omschakeling naar Engels voordat u uw zin had afgemaakt.",
+  "cenario": "Een dag die in een bakker in het noorden begint, aan een balie in het zuiden eindigt, en er een grens tussen passeert.",
+  "dialogo": [
+    {
+      "audioKey": "de-a05-q01",
+      "voz": "target_de_m",
+      "es": "Moin! Moin moin. Was darf's denn sein?",
+      "pt": "Moin! Moin moin. Wat mag het zijn?",
+      "tts": "Moin! Moin moin. Was darf's denn sein?"
+    },
+    {
+      "audioKey": "de-a05-q02",
+      "voz": "target_de_f",
+      "es": "Grüß Gott! Was kann ich für Sie tun?",
+      "pt": "Grüß Gott! Wat kan ik voor u doen?",
+      "tts": "Grüß Gott! Was kann ich für Sie tun?"
+    },
+    {
+      "audioKey": "de-a05-q03",
+      "voz": "target_de_m",
+      "es": "Ich kann Ihnen gerne auch auf Englisch helfen.",
+      "pt": "Ik kan u ook graag in het Engels helpen.",
+      "tts": "Ich kann Ihnen gerne auch auf Englisch helfen."
+    },
+    {
+      "audioKey": "de-a05-q04",
+      "voz": "target_de_f",
+      "es": "Bei uns heißt das Erdapfel, nicht Kartoffel.",
+      "pt": "Bij ons heet dat Erdapfel, geen Kartoffel.",
+      "tts": "Bei uns heißt das Erdapfel, nicht Kartoffel."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "U wordt om vier uur 's middags begroet met Moin. Wat zegt het u?",
+      "opcoes": [
+        "Dat de spreker het tijdstip verwart",
+        "Dat u in het noorden bent — Schleswig-Holstein of het topje van Nedersaksen — en het werkt op elk uur",
+        "Dat de winkel bijna sluit",
+        "Dat u opzettelijk informeel wordt aangesproken"
+      ],
+      "correta": 1,
+      "explica": "De groet is een kaartverwijzing. Moin komt helemaal niet van Morgen: het komt van moien Dag, van een Nederduits woord voor aangenaam, dus wat in de korte vorm overleeft is alleen het bijvoeglijk naamwoord."
+    },
+    {
+      "pergunta": "Grüß Gott en Servus plaatsen u waar?",
+      "opcoes": [
+        "In een kerkelijke context, ongeacht de regio",
+        "In het zuiden — Beieren, Oostenrijk, de pre-Alpiene gordel — met Servus geconcentreerd in oostelijk Beieren en Oostenrijk",
+        "In Zwitserland",
+        "Alleen in formele registers, waar dan ook in het land"
+      ],
+      "correta": 1,
+      "explica": "De enquêtevraag was letterlijk hoe u groet bij het binnenkomen van een kleine winkel in de middag, dus dit is baliewoordenschat in plaats van theorie. Er wordt niets religieus van u gevraagd, en Servus is het oostelijk-Beierse en Oostenrijkse antwoord op dezelfde enquêtevraag."
+    },
+    {
+      "pergunta": "Vijfenzestig procent zei in 2023 een gesprek in het Engels te kunnen voeren. Wat is dat cijfer?",
+      "opcoes": [
+        "Een geteste vaardigheid over de hele bevolking",
+        "Een zelfrapport in een enquête, tegen zevenenveertig procent in de hele EU",
+        "Het aandeel dat dagelijks Engels gebruikt",
+        "Een ranglijst van een talenschool"
+      ],
+      "correta": 1,
+      "explica": "Een andere enquête vroeg naar niveau: achtentachtig procent geeft een vreemde taal op maar slechts ongeveer achtentwintig procent van hen noemt zich vaardig. Twee vragen, twee antwoorden, nooit op te tellen. Verwacht Engels vaak — het meest in steden, het minst in dorpen."
+    },
+    {
+      "pergunta": "Iemand gebruikt een woord dat u anders leerde, en zegt dat het is wat ze het daar noemen. Wat gebeurt hier?",
+      "opcoes": [
+        "Een fout die het waard is zachtjes te corrigeren",
+        "Een regionale variant — en aan Oostenrijkse zijde hebben specifiek Oostenrijkse termen dezelfde juridische status als de Duitse in EU-recht",
+        "Straattaal die in winkels vermeden moet worden",
+        "Een totaal andere taal"
+      ],
+      "correta": 1,
+      "explica": "Protocol Nr. 10 bij het Toetredingsverdrag van 1994 geeft Oostenrijkse uitdrukkingen dezelfde juridische status en gevolgen, en vereist dat nieuwe EU-teksten in het Duits ze opnemen. Vraag hoe zij het zeggen, schrijf het op, en gebruik het hunne."
+    },
+    {
+      "pergunta": "Welke zes woorden vormen de hele set?",
+      "opcoes": [
+        "Guten Morgen, guten Tag, guten Abend, gute Nacht, Moin, Servus",
+        "Hallo, bitte, danke, Entschuldigung, tschüss, auf Wiedersehen",
+        "Ja, nein, vielleicht, gut, schlecht, okay",
+        "De regionale groet van de deelstaat waarin u bent"
+      ],
+      "correta": 1,
+      "explica": "Een groet, een alstublieft, een dank u, een verontschuldiging en twee afscheidsgroeten — een voor mensen, een voor balies. Alleen Tschüss en Auf Wiedersehen zijn voor weggaan overal veilig; de regionale afscheidsgroeten hebben kaarten die zonder tekst werden gepubliceerd."
+    }
+  ]
+}

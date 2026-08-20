@@ -1,0 +1,96 @@
+{
+  "id": "q-i09",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Marktochtend en de statiegeldautomaat",
+  "subtitulo": "Briefjes op de kramen, vijfentwintig cent terug, en de data die de middag bepalen",
+  "introAudioKey": "de-i09-q-i",
+  "introPt": "Een bezoeker vraagt het uur, betaalt contant op een kraam en brengt de lege flessen terug voor het statiegeld.",
+  "cenario": "Zaterdag op een Wochenmarkt die tot twee loopt, en op de terugweg de supermarkthal.",
+  "dialogo": [
+    {
+      "audioKey": "de-i09-q01",
+      "voz": "target_de_f",
+      "es": "Wann ist der Markt?",
+      "pt": "Wanneer is de markt?",
+      "tts": "Wann ist der Markt?"
+    },
+    {
+      "audioKey": "de-i09-q02",
+      "voz": "target_de_m",
+      "es": "Dienstags und samstags, bis vierzehn Uhr.",
+      "pt": "Dinsdags en zaterdags, tot twee uur 's middags.",
+      "tts": "Dienstags und samstags, bis vierzehn Uhr."
+    },
+    {
+      "audioKey": "de-i09-q03",
+      "voz": "target_de_f",
+      "es": "Ich möchte ein Kilo Kartoffeln, bitte.",
+      "pt": "Ik wil graag een kilo aardappelen, alstublieft.",
+      "tts": "Ich möchte ein Kilo Kartoffeln, bitte."
+    },
+    {
+      "audioKey": "de-i09-q04",
+      "voz": "target_de_m",
+      "es": "Zusammen sieben Euro achtzig. Nur Bargeld, bitte.",
+      "pt": "Samen zeven tachtig. Alleen contant, alstublieft.",
+      "tts": "Zusammen sieben Euro achtzig. Nur Bargeld, bitte."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Bis vierzehn Uhr. Wanneer stoppen de kramen met verkopen?",
+      "opcoes": [
+        "Vier uur 's middags",
+        "Twee uur 's middags",
+        "Tien uur 's ochtends",
+        "Het hangt van het weer af"
+      ],
+      "correta": 1,
+      "explica": "Tijden komen op de 24-uursklok, en een markt die op vierzehn Uhr sluit wordt vanaf ongeveer half twee opgeruimd."
+    },
+    {
+      "pergunta": "Een kraam zegt nur Bargeld. Wat is dat?",
+      "opcoes": [
+        "Een onregelmatigheid die u kunt melden",
+        "Volstrekt wettig — bankbiljetten zijn het enige onbeperkte wettige betaalmiddel, en niemand hoeft een kaart aan te nemen",
+        "Een teken dat de kraam geen vergunning heeft",
+        "Een regel die alleen voor de middag geldt"
+      ],
+      "correta": 1,
+      "explica": "Op markten en straatverkopen zijn negen op tien betalingen contant, en slechts 43 procent van die verkopers neemt iets anders aan. Neem geld op vóór u gaat."
+    },
+    {
+      "pergunta": "Het schap zegt 0,99 € en de kassa vraagt 1,24 €. Waarom?",
+      "opcoes": [
+        "Btw wordt aan de kassa opgeteld",
+        "Het statiegeld op de verpakking is minstens 25 cent, en de wet vereist dat het náást de prijs staat en er uitdrukkelijk niet in wordt opgeteld",
+        "Een servicekost op verpakte goederen",
+        "Het etiket was verouderd"
+      ],
+      "correta": 1,
+      "explica": "Het is de ene aangegeven uitzondering op de regel dat de getoonde prijs de prijs is. Breng de lege verpakkingen terug en het geld gaat af van uw boodschappen."
+    },
+    {
+      "pergunta": "Welke van deze draagt geen statiegeld?",
+      "opcoes": [
+        "Een plastic waterfles",
+        "Een blikje bier",
+        "Een drankkarton, een wijnfles, en alles onder 0,1 of boven 3 liter",
+        "Een plastic fles drinkyoghurt"
+      ],
+      "correta": 2,
+      "explica": "Het materiaal beslist meer dan de drank: plastic flessen en blikjes dragen het bijna altijd, kartons en wijnflessen niet."
+    },
+    {
+      "pergunta": "Wanneer is het Oktoberfest?",
+      "opcoes": [
+        "De hele maand oktober",
+        "Het begint in september — 19 september tot 4 oktober in 2026, zestien dagen",
+        "De eerste twee weken van november",
+        "Het schuift mee met Pasen"
+      ],
+      "correta": 1,
+      "explica": "De naam misleidt. En de Maß loopt in 2026 van 14,80 € tot 15,90 € — een prijs die de tapbedrijven zetten, die de stad enkel op redelijkheid toetst."
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "id": "b17",
+  "nivel": "basico",
+  "numero": 17,
+  "parte": "B17",
+  "titulo": "Apotheke — de balie die het oplost voor er een dokter aan te pas moet",
+  "subtitulo": "Zeg waar u iets tegen nodig heeft, zeg waar het pijn doet, en weet welke deur om vier uur 's ochtends open is",
+  "moldura": "protege",
+  "cena": "Een Duitse winkelstraat om half tien 's avonds: de apotheek is donker, er hangt een geprint blad achter het raam, en iets wat u gegeten heeft heeft besloten een probleem te worden.",
+  "frasePiso": "Etwas gegen, plus het ding dat pijn doet. Met die zin wordt u geholpen aan een apotheekbalie waar dan ook in het land.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "de-b17-notdienst",
+      "afirmacao": "Het nacht- en zondagsrooster van apotheken in Duitsland is een wettelijke plicht, geen vrijwillige afspraak. § 4 Abs. 1 LadSchlG laat apotheken open «an allen Tagen während des ganzen Tages», en Abs. 2 vereist dat de autoriteit gelast dat in een gemeente met meerdere apotheken een deel in wisseldienst sluit tijdens de algemene winkelsluitingsuren. § 23 ApBetrO legt «ständige Dienstbereitschaft» op en laat de autoriteit een apotheek vrijstellen in vastgestelde vensters — middernacht tot 8 uur maandag t/m zaterdag, 18.30 uur tot middernacht maandag t/m vrijdag, 14 uur tot middernacht op zaterdag, 24 en 31 december, en zondagen en feestdagen. Een gesloten apotheek moet zichtbaar een bord ophangen met de dichtstbijzijnde open apotheken: dat is het blad achter het raam. De roosters worden opgesteld door de Landesapothekerkammern, en de officiële zoekfunctie is aponet.de/apotheke/notdienstsuche. In steden heeft ongeveer één apotheek op de tien 's nachts dienst.",
+      "fonte": "gesetze-im-internet.de (§ 4 Abs. 1 e 2 LadSchlG e § 23 ApBetrO, abertos em 5/8/2026; o trecho «ständige Dienstbereitschaft» verbatim, o resto parafraseado); abda.de, Faktenblatt Notdienst, Stand junho/2026 [RESUMO] — pesquisa § 6.3.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": ["de-b17-n04", "de-b17-n05"]
+    },
+    {
+      "id": "de-b17-notdienstgebuehr",
+      "afirmacao": "De toeslag voor de apotheek buiten kantooruren is bij regeling vastgesteld en is klein. § 6 AMPreisV staat de apotheek toe «einen zusätzlichen Betrag von 2,50 Euro einschließlich Umsatzsteuer» te rekenen tussen 20 en 6 uur, op zondagen en feestdagen, en op 24 december. Een bezoeker betaalt hem, omdat een bezoeker als particulier koopt. Twee correcties die het waard zijn om mee te nemen: de toeslag staat in § 6, niet § 7 — § 7 gaat over gecontroleerde medicijnen op 4,26 € — en de Praxisgebühr van 10 € per kwartaal om een dokter te zien is afgeschaft bij unanieme Bundestagstemming op 9/11/2012 met ingang van 1/1/2013, dus elke gids die het nog noemt is al dertien jaar fout.",
+      "fonte": "gesetze-im-internet.de (§ 6 e § 7 AMPreisV, abertos, com o valor verbatim); abolição da Praxisgebühr [RESUMO de bundestag.de] — pesquisa § 6.3 e § 6.5. Os valores 0,69 €/min e 0,69 €/SMS do serviço 22833 são recusados: não vêm da ABDA.",
+      "ano": 2026,
+      "revisarAte": "2027-01-31",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": ["de-b17-n06"]
+    },
+    {
+      "id": "de-b17-numeros",
+      "afirmacao": "Duitsland heeft twee alarmnummers, en de splitsing is anders dan de Nederlandse gewoonte van 112 voor alles. 112 bereikt de brandweer en de Rettungsdienst; 110 bereikt de politie. De twee genationaliseerde nummers werden op 20/9/1973 tussen Bund en Länder overeengekomen, en 112 werd in 1991 door de EU-Raad als het gemeenschappelijke Europese nummer aangenomen. Aan Nederlandse zijde bevestigt de rijksoverheid dat 112 in heel de EU voor politie, brandweer en ambulance werkt, dus de reflex «bel 112» geeft in Duitsland een ambulance en de brandweer, niet de politie. Daarnaast is 116117 de dienst buiten kantooruren van huisartsen, gerund door de Kassenärztliche Bundesvereinigung: 24 uur per dag, voor klachten die u naar een huisarts zou brengen als die open was, niet voor een levensbedreigend spoedgeval en niet voor tandheelkunde. De eigen Engelstalige pagina zegt dat «This service is only available in German» — de website heeft een Engelse versie, de telefoonlijn niet. De lijn is gratis verklaard «mit deutschem Telefonvertrag», dus de kosten vanaf een buitenlandse simkaart of in roaming zijn onbekend en mogen niet als gratis worden beschreven.",
+      "fonte": "bbk.bund.de, bundesregierung.de e polizei-beratung.de [RESUMO]; BMI, comunicado de setembro/2023; rijksoverheid.nl «Bellen naar 112 in het buitenland», acessada em 5/8/2026, verbatim; 116117.de e 116117.de/de/englisch.php, abertas em 5/8/2026, verbatim — pesquisa § 6.1 e § 6.2.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": ["de-b17-n07", "de-b17-n08"]
+    },
+    {
+      "id": "de-b17-cobertura",
+      "afirmacao": "Wat het bezoek kost, hangt af van uw verzekering. Als Nederlands ingezetene reist u met een Europese Ziekteverzekeringskaart (EHIC) achterop uw zorgpas: die geeft toegang tot medisch noodzakelijke zorg in Duitsland onder dezelfde voorwaarden als een Duitse ingezetene, wat kan betekenen gratis of dezelfde eigen bijdrage die een lokale betaalt. De rijksoverheid en Zorginstituut Nederland zeggen expliciet dat de EHIC geen reisverzekering vervangt: geen dekking voor privébehandeling, repatriëring of bergredding. De Duitse eigen bijdragen staan in de sociale wet: § 39 Abs. 4 SGB V met § 61 Satz 2 stelt 10 € per kalenderdag klinische ziekenhuisopname voor maximaal 28 dagen per jaar, en dezelfde § 61 stelt 10% van de prijs voor medicijnen met een ondergrens van 5 € en een bovengrens van 10 €. Voor reizigers van buiten de EU/EER geldt geen EHIC: alleen particuliere reisverzekering.",
+      "fonte": "gesetze-im-internet.de (§ 39 Abs. 4 e § 61 Satz 2 SGB V, verbatim); rijksoverheid.nl e zorginstituutnederland.nl sobre EHIC, abertas em 5/8/2026, verbatim — pesquisa § 6.4, 6.5 e 6.6.",
+      "ano": 2026,
+      "revisarAte": "2027-04-30",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": ["de-b17-n09"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b17-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Dit is het enige deel van de module dat plant voor een slecht uur. Tien minuten nu koopt dat uur terug."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b17-n02",
+      "bloco": "molde",
+      "pt": "De Apotheke is hier de eerste deur, niet de laatste. De balie onder de rode A doet het meeste werk."
+    },
+    {
+      "consulta": ["saude/algo-para", "chegar/balcao"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-SUCHE",
+      "encaixe": "eine Apotheke",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b17-p01",
+      "promptPt": "U staat in een straat die u niet kent en zoekt de winkel met de grote rode letter. Vraag een voorbijganger. Spreek nu.",
+      "audioKey": "de-b17-t01",
+      "es": "Ich suche eine Apotheke.",
+      "pinyin": "ikh ZOO-khe AI-ne a-po-TAY-ke",
+      "pt": "Ik zoek een apotheek.",
+      "tts": "Ich suche eine Apotheke."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b17-r01",
+      "es": "Die hier ist zu. Der Notdienst steht am Fenster.",
+      "pinyin": "dee heer ist tsoo. dair NOHT-deenst shtayt am FEN-stah",
+      "pt": "Deze is dicht. Het dienstrooster hangt achter het raam.",
+      "tts": "Die hier ist zu. Der Notdienst steht am Fenster.",
+      "receptivo": true,
+      "acao": "Loop niet weg. Ga naar het glas en lees het blad dat erachter geplakt zit — het noemt de open apotheek."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b17-n03",
+      "bloco": "corpo",
+      "pt": "Een donkere apotheek vertelt u waar de verlichte is. Dat blad ophangen is een plicht, geen vriendelijkheid."
+    },
+    {
+      "consulta": ["saude/guardia", "chegar/balcao"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WO-IST",
+      "encaixe": "die nächste Apotheke",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b17-p02",
+      "promptPt": "Het blad achter het glas is in kleine letters en u wilt het adres hardop horen. Vraag het aan de man die langsloopt. Spreek nu.",
+      "audioKey": "de-b17-t02",
+      "es": "Wo ist die nächste Apotheke?",
+      "pinyin": "voh ist dee NEKH-ste a-po-TAY-ke",
+      "pt": "Waar is de dichtstbijzijnde apotheek?",
+      "tts": "Wo ist die nächste Apotheke?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b17-n04",
+      "pt": "Eén apotheek op tien heeft vannacht dienst, via een rooster, en de apothekerskamers stellen het op."
+    },
+    {
+      "consulta": ["saude/algo-para"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b17-p03",
+      "promptPt": "Het begon achter uw ogen in de trein en het is niet minder geworden. Zeg waar u iets tegen wilt. Spreek nu.",
+      "audioKey": "de-b17-t03",
+      "es": "Ich brauche etwas gegen Kopfschmerzen.",
+      "pinyin": "ikh BROW-khe ET-vas GAY-gen KOPF-shmer-tsen",
+      "pt": "Ik heb iets tegen hoofdpijn nodig.",
+      "tts": "Ich brauche etwas gegen Kopfschmerzen."
+    },
+    {
+      "consulta": ["saude/algo-para"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b17-p04",
+      "promptPt": "U werd wakker en kon niet goed slikken, en u moet nog twee dagen praten. Zelfde vorm, andere klacht. Spreek nu.",
+      "audioKey": "de-b17-t04",
+      "es": "Ich brauche etwas gegen Halsschmerzen.",
+      "pinyin": "ikh BROW-khe ET-vas GAY-gen HALS-shmer-tsen",
+      "pt": "Ik heb iets tegen keelpijn nodig.",
+      "tts": "Ich brauche etwas gegen Halsschmerzen."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b17-r02",
+      "es": "Haben Sie ein Rezept?",
+      "pinyin": "HAH-ben zee ain re-TSEPT",
+      "pt": "Heeft u een recept?",
+      "tts": "Haben Sie ein Rezept?"
+    },
+    {
+      "consulta": ["saude/receita"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b17-p05",
+      "promptPt": "U heeft geen idee of wat u wilt hier zonder recept te koop is. Maak er een vraag van. Spreek nu.",
+      "audioKey": "de-b17-t05",
+      "es": "Brauche ich ein Rezept?",
+      "pinyin": "BROW-khe ikh ain re-TSEPT",
+      "pt": "Heb ik een recept nodig?",
+      "tts": "Brauche ich ein Rezept?"
+    },
+    {
+      "consulta": ["dieta/dizer", "saude/minha-alergia"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b17-p06",
+      "promptPt": "Voor er iets over de balie komt, zegt u het ene medische feit over uzelf dat verandert wat zij kiezen. Spreek nu.",
+      "audioKey": "de-b17-t06",
+      "es": "Ich bin allergisch gegen Penicillin.",
+      "pinyin": "ikh bin a-LER-gish GAY-gen pe-ni-tsi-LEEN",
+      "pt": "Ik ben allergisch voor penicilline.",
+      "tts": "Ich bin allergisch gegen Penicillin."
+    },
+    {
+      "consulta": ["saude/algo-para", "reparo/apontar"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b17-p07",
+      "promptPt": "U heeft geen woord voor het deel dat pijn doet, dus leg er een hand op en laat de hand het zelfstandig naamwoord doen. Spreek nu.",
+      "audioKey": "de-b17-t07",
+      "es": "Ich habe hier Schmerzen.",
+      "pinyin": "ikh HAH-be heer SHMER-tsen",
+      "pt": "Het doet hier pijn.",
+      "tts": "Ich habe hier Schmerzen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b17-n05",
+      "pt": "Alles tot hier gebeurt aan een balie. Niets tot hier heeft een dokter, kaart of afspraak nodig."
+    },
+    {
+      "consulta": ["reparo/escreve", "saude/receita"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "KONNEN-SIE",
+      "encaixe": "das aufschreiben",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b17-p08",
+      "promptPt": "Ze heeft de dosis twee keer gezegd en u ving geen van beide op. Papier overleeft wat uw oor niet deed. Spreek nu.",
+      "audioKey": "de-b17-t08",
+      "es": "Können Sie das aufschreiben?",
+      "pinyin": "KURN-nen zee dass OWF-shrai-ben",
+      "pt": "Kunt u dat opschrijven?",
+      "tts": "Können Sie das aufschreiben?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b17-r03",
+      "es": "Dreimal täglich, nach dem Essen. Das macht neun Euro fünfzig, mit Notdienstgebühr.",
+      "pinyin": "DRAI-mahl TAYK-likh, nahkh daym ESS-en. das makht noyn OY-ro FEWNF-tsikh, mit NOHT-deenst-ge-bewr",
+      "pt": "Drie keer per dag, na het eten. Dat is negen euro vijftig, met de nachtdiensttoeslag.",
+      "tts": "Dreimal täglich, nach dem Essen. Das macht neun Euro fünfzig, mit Notdienstgebühr.",
+      "receptivo": true,
+      "acao": "Notdienstgebühr is de nachttoeslag en is begrensd op twee vijftig. Betaal en loop door."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b17-n06",
+      "pt": "Die toeslag is bij regeling vastgesteld op twee euro vijftig, 's nachts, op zondag en feestdagen. Meer is het niet."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b17-n07",
+      "bloco": "capsula",
+      "pt": "Twee nummers, geen één. Honderdtwaalf brengt een ambulance. Honderdtien brengt de politie."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b17-n08",
+      "pt": "Honderdzestien honderdzeventien is de huisartsenlijn buiten kantooruren, en die antwoordt alleen in het Duits."
+    },
+    {
+      "consulta": ["reparo/ingles", "saude/112"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b17-p09",
+      "promptPt": "Voor u uw vijf woorden aan het symptoom besteedt, weet u eerst of u ze in uw eigen taal kunt besteden. Spreek nu.",
+      "audioKey": "de-b17-t09",
+      "es": "Sprechen Sie Englisch?",
+      "pinyin": "SHPREKH-en zee ENG-lish",
+      "pt": "Spreekt u Engels?",
+      "tts": "Sprechen Sie Englisch?"
+    },
+    {
+      "consulta": ["saude/112", "reparo/apontar"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "KONNEN-SIE",
+      "encaixe": "mir helfen",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b17-p10",
+      "promptPt": "Er ligt iemand op het perron en er staan vier mensen niets te doen naast u. Draai u om naar één. Spreek nu.",
+      "audioKey": "de-b17-t10",
+      "es": "Können Sie mir helfen?",
+      "pinyin": "KURN-nen zee meer HEL-fen",
+      "pt": "Kunt u mij helpen?",
+      "tts": "Können Sie mir helfen?"
+    },
+    {
+      "consulta": ["saude/112", "apuro/112"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "KONNEN-SIE",
+      "encaixe": "einen Krankenwagen rufen",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b17-p11",
+      "promptPt": "Uw Duits overleeft geen telefoongesprek, maar de vrouw achter de balie heeft een telefoon en de taal. Spreek nu.",
+      "audioKey": "de-b17-t11",
+      "es": "Können Sie einen Krankenwagen rufen?",
+      "pinyin": "KURN-nen zee AI-nen KRANG-ken-vah-gen ROO-fen",
+      "pt": "Kunt u een ambulance bellen?",
+      "tts": "Können Sie einen Krankenwagen rufen?"
+    },
+    {
+      "consulta": ["saude/112", "chegar/balcao"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WO-IST",
+      "encaixe": "das Krankenhaus",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b17-p12",
+      "promptPt": "Het is geen ambulanceklus, maar het is meer dan een balie kan oplossen, en een taxichauffeur heeft alleen het zelfstandig naamwoord nodig. Spreek nu.",
+      "audioKey": "de-b17-t12",
+      "es": "Wo ist das Krankenhaus?",
+      "pinyin": "voh ist dass KRANG-ken-hows",
+      "pt": "Waar is het ziekenhuis?",
+      "tts": "Wo ist das Krankenhaus?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b17-n09",
+      "pt": "De EHIC koopt Duitse voorwaarden, geen gratis zorg, en vervangt de reisverzekering niet. Neem beide mee."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b17-r04",
+      "es": "Haben Sie eine europäische Krankenversicherungskarte?",
+      "pinyin": "HAH-ben zee AI-ne oy-ro-PAY-i-she KRANG-ken-fair-ZIKH-e-roongs-kar-te",
+      "pt": "Heeft u een Europese ziekteverzekeringskaart?",
+      "tts": "Haben Sie eine europäische Krankenversicherungskarte?",
+      "receptivo": true,
+      "acao": "Dat is de EHIC, achterop uw zorgpas. Zorg dat die in dezelfde zak zit als het paspoort voor u er een nodig heeft."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-b17-s01",
+      "es": "Können Sie mir helfen? Können Sie das aufschreiben? Können Sie einen Krankenwagen rufen?",
+      "pinyin": "KURN-nen zee meer HEL-fen. KURN-nen zee dass OWF-shrai-ben. KURN-nen zee AI-nen KRANG-ken-vah-gen ROO-fen",
+      "pt": "Schaduw één opening door hulp, een blaadje papier en een ambulance.",
+      "tts": "Können Sie mir helfen? Können Sie das aufschreiben? Können Sie einen Krankenwagen rufen?",
+      "molde": "KONNEN-SIE"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b17-n10",
+      "bloco": "recap",
+      "pt": "B17 klaar. Etwas gegen, een hand op de plek, twee nummers, en een blad in een donker raam dat de open deur noemt."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "De balie, het rooster en de twee nummers",
+    "secoes": [
+      {
+        "titulo": "Etwas gegen, en dan de pijn",
+        "corpo": "Ich brauche etwas gegen is de zin waarmee u geholpen wordt aan een Duitse apotheekbalie, en alles erna is een zelfstandig naamwoord dat u desnoods in een telefoon kunt aanwijzen: Kopfschmerzen, Halsschmerzen, Husten, Durchfall, Sonnenbrand, Insektenstiche. De woorden zijn lang, maar transparant zodra u de naden ziet — Kopf is hoofd, Hals is keel en nek, Schmerzen is pijn. Niets in de opening verandert voor welke ook.",
+        "exemplos": [
+          { "es": "Ich brauche etwas gegen Kopfschmerzen.", "pt": "Ik heb iets tegen hoofdpijn nodig." },
+          { "es": "Ich brauche etwas gegen Halsschmerzen.", "pt": "Ik heb iets tegen keelpijn nodig." }
+        ]
+      },
+      {
+        "titulo": "Het blad in het donkere raam",
+        "corpo": "Apotheken hier mogen elke dag op elk uur open, en de compensatie die in dezelfde wet staat, is dat de autoriteit gelast dat ze in wisseldienst sluiten zodat er altijd enkele open zijn. Een apotheek die in het donker staat, heeft dus een wettelijke plicht om zichtbaar te tonen welke apotheken in de buurt dienst hebben — het geprinte blad achter het glas is die plicht die wordt vervuld. Ongeveer één op de tien heeft in een stad op een gegeven nacht dienst, de roosters worden opgesteld door de apothekerskamer in elk Land, en er is een officiële zoekfunctie op aponet.de. Voor u betekent dat: een gesloten apotheek is niet het einde van de avond; het is een routebeschrijving.",
+        "exemplos": [
+          { "es": "Wo ist die nächste Apotheke?", "pt": "Waar is de dichtstbijzijnde apotheek?" }
+        ]
+      },
+      {
+        "titulo": "Twee euro vijftig, en wat het niet is",
+        "corpo": "Koopt u 's nachts, op zondag of op een feestdag, dan mag de apotheek een bij regeling vastgestelde toeslag van twee euro vijftig inclusief btw rekenen. Een bezoeker betaalt hem, omdat een bezoeker als particulier koopt. Het is nuttig het precieze bedrag te weten zodat het totaal niet mysterieus is, en twee verwante dingen: de toeslag staat in paragraaf zes van de prijzenregeling voor geneesmiddelen in plaats van paragraaf zeven, waar gecontroleerde medicijnen op vier zesentwintig staan, en de tienuro kwartaalbijdrage om een dokter te zien die oudere reisgidsen nog noemen, is afgeschaft met ingang van begin 2013.",
+        "exemplos": [
+          { "es": "Brauche ich ein Rezept?", "pt": "Heb ik een recept nodig?" }
+        ]
+      },
+      {
+        "titulo": "112, 110, en de lijn die alleen Duits spreekt",
+        "corpo": "Duitsland hield twee nummers waar Nederland er in de praktijk één heeft. 112 is brand en ambulance; 110 is politie. Bel 112 voor een diefstal, en u wordt niet automatisch doorgezet naar de politie zoals de Nederlandse reflex verwacht — en dat ene feit is het nuttigste in dit deel. Daarnaast staat 116117, de medische lijn buiten kantooruren voor dingen die u naar een huisarts zou brengen als de praktijk open was: 24 uur, niet voor levensbedreigende gevallen, niet voor tandheelkunde. De eigen Engelse pagina zegt dat de dienst alleen in het Duits beschikbaar is — de website is vertaald, de telefoonlijn niet. En hij is alleen gratis verklaard met een Duits telefooncontract, dus wat hij kost vanaf een buitenlandse simkaart is werkelijk onbekend.",
+        "exemplos": [
+          { "es": "Können Sie einen Krankenwagen rufen?", "pt": "Kunt u een ambulance bellen?" },
+          { "es": "Sprechen Sie Englisch?", "pt": "Spreekt u Engels?" }
+        ]
+      },
+      {
+        "titulo": "Wat het kost, met een Nederlandse zorgverzekering",
+        "corpo": "Voor een Nederlandse ingezetene opent de EHIC — de kaart achterop uw zorgpas — het Duitse zorgsysteem, onder dezelfde voorwaarden als een Duitse ingezetene, wat kan betekenen niets te betalen of dezelfde eigen bijdrage die een lokale betaalt. Het officiële advies is duidelijk dat de kaart geen alternatief voor een reisverzekering is: geen dekking voor privébehandeling, repatriëring of bergredding. De Duitse eigen bijdragen zijn tien euro per dag klinische ziekenhuisopname, met een maximum van achtentwintig dagen per kalenderjaar, en tien procent op medicijnen met een ondergrens van vijf euro en een bovengrens van tien. Neem beide mee: de EHIC voor de zorgtoegang, uw eigen reisverzekering voor alles wat de EHIC niet dekt.",
+        "exemplos": [
+          { "es": "Ich bin allergisch gegen Penicillin.", "pt": "Ik ben allergisch voor penicilline." }
+        ]
+      }
+    ]
+  },
+  "slot": "B17",
+  "permissao": "U mag een apotheek binnenlopen met een symptoom en geen diagnose, en het beschrijven met een hand en één zelfstandig naamwoord. Ich brauche etwas gegen, of een handpalm op de pijnlijke plek, is een volledig en normaal verzoek aan die balie — niemand verwacht dat een bezoeker een lichaamsdeel in het Duits benoemt, en niemand geeft een cijfer voor de poging. U mag ook een vreemde vragen het telefoontje voor u te plegen: können Sie einen Krankenwagen rufen is een zin met een correct antwoord, en die gebruiken is geen hulpeloosheid, het is de snelste weg naar de ambulance. En u mag zonder een woord de nachttoeslag betalen: op twee euro vijftig is het het goedkoopste onderdeel.",
+  "permissaoAudioKey": "de-b17-n02",
+  "espelho": "Iedereen die ooit thuis in een drogist heeft gestaan met een doosje dat hij niet kon lezen, doet dit al: wijzen, beschrijven, vragen waar het voor is. Het enige nieuwe is dat hier de apotheek de eerste stop is in plaats van de laatste, en dat de gesloten u vertelt waar de open is.",
+  "fichasCulturais": [
+    {
+      "sinal": "Het is half tien 's avonds, de apotheek is donker, en er hangt een geprint blad achter het raam.",
+      "suaLeitura": "Alles is dicht tot de ochtend en u gaat een slechte nacht hebben met wat er in uw tas zit.",
+      "oQueEAli": "Het rooster is een wettelijke plicht. Apotheken mogen elke dag op elk uur open, en de autoriteit gelast dat in een stad met meerdere apotheken een deel in wisseldienst sluit, zodat er altijd een aantal dienst heeft — ongeveer één op tien in een stad op een gegeven nacht. Een gesloten apotheek moet zichtbaar aangeven welke in de buurt open zijn. Dat blad achter het glas is de wet die wordt nageleefd, en er staat een adres op.",
+      "oQueVoceFaz": "Lees het blad voor u de stoep verlaat, of zoek in het officiële rooster op aponet.de. Als de kleine letters u de baas zijn, vraag het aan wie langsloopt: wo ist die nächste Apotheke. Verwacht een toeslag van twee euro vijftig 's nachts, op zondag of feestdagen, en verwacht dat dat de hele extra is.",
+      "oQueMelhora": "Een donkere winkelpui wordt een routebeschrijving, en de nacht is niet meer iets om te doorstaan tot negen uur 's ochtends.",
+      "ondeNaoVale": "Het is een rooster, geen garantie dat de dichtstbijzijnde apotheek dichtbij is: in een klein dorp kan de dienstdoende in het volgende dorp staan. Het cijfer van één op tien en de organisatie via apothekerskamer zijn samengevat uit een fact sheet van een branchevereniging in plaats van geciteerd uit de wet, en de vrijstellingsvensters in de regeling zijn geparafraseerd. En een apotheek is geen ziekenhuis — voor iets met ademen, bloeden of borst erin is het nummer 112, niet een balie.",
+      "evidencia": "FATO",
+      "audioKeys": ["de-b17-n04", "de-b17-n05", "de-b17-n06"]
+    },
+    {
+      "sinal": "Er is iets gebeurd op straat, u grijpt naar het alarmnummer waarmee u opgroeide, en u moet kiezen welk u indrukt.",
+      "suaLeitura": "Eén nummer dekt alles, zoals thuis 112, en de operator zet u door naar wie u werkelijk nodig heeft.",
+      "oQueEAli": "Duitsland hield de splitsing. 112 bereikt brand en ambulance; 110 bereikt de politie; de twee werden in 1973 nationaal verenigd en 112 werd in 1991 het gemeenschappelijke Europese nummer. Een derde nummer, 116117, behandelt de medische problemen die naar een huisarts zouden gaan als die open was — 24 uur, niet voor levensbedreigende gevallen, niet voor tandheelkunde — en de eigen Engelstalige pagina zegt dat de dienst alleen in het Duits beschikbaar is.",
+      "oQueVoceFaz": "Leer het paar als paar: ambulance en brand, honderdtwaalf; politie, honderdtien. Als uw Duits het gesprek niet overleeft, geef het aan iemand wiens Duits het wel doet — können Sie einen Krankenwagen rufen — en blijf naast hem staan zodat u kunt beantwoorden wat hij doorgeeft.",
+      "oQueMelhora": "U verliest niets aan een fout eerste nummer, en u gaat er niet meer vanuit dat een Engelssprekende operator aan een lijn verschijnt die dat nooit heeft beloofd.",
+      "ondeNaoVale": "Dit zegt niets over hoe waarschijnlijk het is dat u Engels bereikt via 112 zelf — daar is geen bron voor gevonden, en het Nederlandse rijksadvies zegt eenvoudig dat 112 in de EU voor politie, brandweer en ambulance werkt. De 116117-lijn is alleen gratis verklaard met een Duits telefooncontract, dus de kosten vanaf een buitenlandse simkaart of in roaming zijn onbekend en mogen niet als nul worden aangenomen.",
+      "evidencia": "FATO",
+      "audioKeys": ["de-b17-n07", "de-b17-n08"]
+    }
+  ]
+}

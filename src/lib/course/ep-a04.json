@@ -1,0 +1,333 @@
+{
+  "id": "a04",
+  "nivel": "avancado",
+  "numero": 32,
+  "parte": "A04",
+  "titulo": "Ein Riss in der Wand, den man nicht mehr übertüncht",
+  "subtitulo": "Über sechzig Jahre Gasförderung und mehr als eintausendsechshundert Erdstöße, ein Land, das sich erst in den Sechzigern von seinen Kirchtürmen löste, und vier Sätze, die dich aus jedem Streit heraushalten",
+  "slot": "A04",
+  "moldura": "ganha",
+  "cena": "Am Küchentisch in einem Dorf bei Groningen fährt jemand mit dem Finger einen Riss in der Wand nach, der seit Jahren nicht mehr geschlossen wird, und sagt nichts weiter dazu.",
+  "frasePiso": "Nenn den Ort statt des ganzen Landes, sag ehrlich, dass du zu wenig weißt, und du sitzt um Mitternacht noch am selben Tisch.",
+  "permissao": "Du musst zu keinem der beiden Themen hier eine Meinung haben, und das offen zu sagen wird nicht als Ausweichen gehört. «Davon weiß ich zu wenig» ist nach ein paar Tagen im Land schlicht die ehrliche Antwort — niemand erwartet mehr von dir.",
+  "permissaoAudioKey": "hol-a04-n11",
+  "espelho": "Jeder, dessen eigenes Land eine Region hat, die sich vom Rest übersehen fühlt, oder eine alte religiöse Grenze, die durch Dörfer statt durch Familien verläuft, kennt dieses Muster schon von innen. Neu ist hier nur, dass beides in einem so kleinen Land nebeneinander existiert.",
+  "fichasCulturais": [
+    {
+      "sinal": "Jemand zeigt dir kommentarlos einen langen Riss in der Küchenwand, der seit Jahren offen steht.",
+      "suaLeitura": "Das Haus ist einfach alt oder schlecht gebaut, das habe ich in vielen Ländern schon gesehen.",
+      "oQueEAli": "In der Provinz Groningen ist das oft die Folge von Jahrzehnten Erdgasförderung: mehr als eintausendsechshundert Erdstöße seit den Sechzigerjahren beschädigten Zehntausende Häuser, und die Förderung wurde erst 2023/2024 endgültig gestoppt. Der Riss ist hier keine Nachlässigkeit, sondern ein Stück Landesgeschichte an der eigenen Wand.",
+      "oQueVoceFaz": "Eine ruhige, konkrete Frage reicht — «Ist das von den Erdbeben?» — und lass die Person entscheiden, wie viel sie erzählen will. Ein Kommentar über Schuld oder Politik ist hier nicht deine Rolle.",
+      "oQueMelhora": "Du verstehst einen Riss in der Wand nicht mehr als Zufall, sondern als das, was er ist — und die Person am Tisch merkt, dass du zuhörst, statt zu urteilen.",
+      "ondeNaoVale": "Nicht jeder Riss im Land hat diese Ursache, und nicht jeder in Groningen spricht gern darüber — für viele ist es zwölf Jahre nach den schlimmsten Jahren bereits Alltag oder abgeschlossenes Kapitel. Frag einmal, und lass es dabei, wenn keine Antwort kommt.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "hol-a04-n03",
+        "hol-a04-n04"
+      ]
+    },
+    {
+      "sinal": "In einem Dorf mitten im Land sind sonntags alle Läden zu, die Straßen leer, und jemand erklärt kurz: «Hier ist das eben so.»",
+      "suaLeitura": "Das ganze Land ist sonntags so ruhig, das hatte ich schon vermutet.",
+      "oQueEAli": "Du stehst wahrscheinlich in einem Dorf des sogenannten «Bibelgürtels», einem schmalen Streifen streng reformierter Gemeinden, der sich historisch quer durchs Land zieht — ein Überbleibsel der «Versäulung», der jahrzehntelangen Aufteilung der Gesellschaft in katholische, protestantische, sozialistische und liberale Parallelwelten mit je eigenen Schulen und Vereinen. Andernorts im Land ist der Sonntag längst ein ganz normaler Einkaufstag.",
+      "oQueVoceFaz": "Richte dich nach dem, was du vor Ort siehst, statt nach einer Regel fürs ganze Land — frag notfalls kurz nach, was heute offen hat, das gilt hier als sachliche Frage, nicht als Beschwerde.",
+      "oQueMelhora": "Ein leeres Dorf am Sonntag hört auf, verwirrend zu sein, und wird zu einem sichtbaren Stück Geschichte, das du erkennst, statt es zu missverstehen.",
+      "ondeNaoVale": "In den großen Städten und den meisten Regionen ist davon im Alltag nichts mehr zu spüren — die strikte Sonntagsruhe ist heute die Ausnahme in bestimmten Dörfern, nicht die Regel im Land.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "hol-a04-n07",
+        "hol-a04-n08"
+      ]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "hol-a04-groningen",
+      "afirmacao": "Jahrzehntelange Erdgasförderung im Feld bei Groningen löste seit den 1960er-Jahren mehr als eintausendsechshundert Erdbeben aus und beschädigte Zehntausende Häuser. Die Förderung wurde im Oktober 2023 stark gedrosselt und zum Gasjahr 2024/2025 endgültig gestoppt; der niederländische Staat stellte einen zweistelligen Milliardenbetrag für Reparaturen und Entschädigungen bereit.",
+      "fonte": "France 24 / Reuters-Berichterstattung zur Schließung des Groningen-Gasfelds (Oktober 2023, Gesetz April 2024); Holland Times zu Entschädigungszahlungen. Beträge und Fallzahlen variieren je nach Berichtsjahr und Quelle — hier bewusst als Größenordnung, nicht als exakte Endsumme genannt.",
+      "ano": 2024,
+      "revisarAte": "2027-08-20",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "hol-a04-n03",
+        "hol-a04-n04"
+      ]
+    },
+    {
+      "id": "hol-a04-versaeulung",
+      "afirmacao": "Von den 1880er-Jahren bis in die 1960er/70er-Jahre war die niederländische Gesellschaft in katholische, protestantische, sozialistische und liberale «Säulen» aufgeteilt — mit je eigenen Schulen, Zeitungen, Vereinen und Parteien, zwischen denen kaum soziale Berührung stattfand. Die Auflösung dieser Struktur ab den späten 1960ern war ein zentraler gesellschaftlicher Umbruch; Spuren davon sind heute vor allem außerhalb der großen Städte noch sichtbar.",
+      "fonte": "Historische Standarddarstellung der «Verzuiling» (Pillarisation), u. a. Springer/Academic-Journal-Übersichten und Standardnachschlagewerke zur niederländischen Sozialgeschichte.",
+      "ano": 1970,
+      "revisarAte": "2031-08-20",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "hol-a04-n06",
+        "hol-a04-n07"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a04-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "Jedes Land hat den Streit, bei dem ein Gast draußen bleibt. Hier sind es zwei, und keiner will deine Meinung."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a04-n02",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Der erste ist ein Riss in einer Wand. Im Norden, bei Groningen, sitzt er seit Jahren im selben Haus."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-a04-r01",
+      "tom": "ganha",
+      "receptivo": true,
+      "acao": "Er sagt es beiläufig, ohne Vorwurf in der Stimme. Nimm es als Information, nicht als Auftakt zu einer Diskussion.",
+      "es": "Die scheur zit er al jaren, van de aardbevingen.",
+      "pinyin": "die schöör zit er al yaa-ren, fan de AART-bee-ving-en",
+      "pt": "Der Riss ist schon seit Jahren da, von den Erdbeben.",
+      "tts": "Die scheur zit er al jaren, van de aardbevingen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a04-n03",
+      "tom": "ganha",
+      "pt": "Über sechzig Jahre Gasförderung, mehr als eintausendsechshundert Erdstöße, Zehntausende beschädigte Häuser."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a04-n04",
+      "tom": "ganha",
+      "pt": "2023 wurde die Förderung stark gedrosselt, ein Jahr später endgültig gestoppt. Der Riss blieb trotzdem."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-a04-p01",
+      "promptPt": "Er hat gerade den Riss gezeigt und wartet ab, ob du fragst oder das Thema wechselst. Frag ruhig, ohne zu drängen. Sprich jetzt.",
+      "audioKey": "hol-a04-t01",
+      "es": "Is dat van de aardbevingen?",
+      "pinyin": "is dat fan de AART-bee-ving-en",
+      "pt": "Ist das von den Erdbeben?",
+      "tts": "Is dat van de aardbevingen?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-a04-r02",
+      "tom": "ganha",
+      "receptivo": true,
+      "acao": "Manche wollen erzählen, manche nicht. Beides ist hier normal — dräng nicht weiter, wenn die Antwort kurz bleibt.",
+      "es": "Ja, maar het is nu wel klaar. We praten er niet meer zo vaak over.",
+      "pinyin": "yaa, maar het is nü vel klaar. vö PRAA-ten er niet meer zo faak OH-ver",
+      "pt": "Ja, aber jetzt ist es abgeschlossen. Wir reden nicht mehr so oft darüber.",
+      "tts": "Ja, maar het is nu wel klaar. We praten er niet meer zo vaak over."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a04-n05",
+      "tom": "ganha",
+      "pt": "Der zweite ist keine Baustelle, sondern eine alte Grenze durchs ganze Land — zwischen Kirchtürmen statt zwischen Staaten."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a04-n06",
+      "tom": "ganha",
+      "pt": "Bis in die Sechziger war das Land in katholische, protestantische, sozialistische und liberale Säulen geteilt."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a04-n07",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "Eigene Schulen, eigene Zeitungen, eigene Vereine — man traf sich kaum. Reste davon sieht man heute noch in einzelnen Dörfern."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_f",
+      "audioKey": "hol-a04-r03",
+      "tom": "ganha",
+      "receptivo": true,
+      "acao": "Ein Dorf, sonntags leer. Sie erklärt es in einem Satz, ohne weitere Wertung.",
+      "es": "Op zondag is hier alles dicht, dat is hier al eeuwenlang zo.",
+      "pinyin": "op ZON-dach is heer AL-les dicht, dat is heer al ÖÖ-ven-lang zo",
+      "pt": "Sonntags ist hier alles zu, das ist hier schon jahrhundertelang so.",
+      "tts": "Op zondag is hier alles dicht, dat is hier al eeuwenlang zo."
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-a04-p02",
+      "promptPt": "Sonntagmorgen in einem stillen Dorf, du willst wissen, was heute überhaupt offen hat. Frag sachlich, ohne Beschwerde. Sprich jetzt.",
+      "audioKey": "hol-a04-t02",
+      "es": "Wat is er vandaag open?",
+      "pinyin": "vat is er fan-DAACH OH-pen",
+      "pt": "Was hat heute offen?",
+      "tts": "Wat is er vandaag open?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a04-n08",
+      "tom": "ganha",
+      "pt": "Niemand erwartet, dass du zu einem der beiden Themen eine Meinung hast. Vier Sätze reichen, um höflich draußen zu bleiben."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-a04-p03",
+      "promptPt": "Der Tisch wendet sich dir zu und will hören, was du vom Ganzen hältst. Antworte ehrlich, ohne Position zu beziehen. Sprich jetzt.",
+      "audioKey": "hol-a04-t03",
+      "es": "Daar weet ik te weinig van.",
+      "pinyin": "daar veet ik te VAI-nich fan",
+      "pt": "Davon weiß ich zu wenig.",
+      "tts": "Daar weet ik te weinig van."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-a04-p04",
+      "promptPt": "Jemand fragt ein zweites Mal, freundlich, aber bestimmt. Schließ die Tür höflich, statt sie halb offen zu lassen. Sprich jetzt.",
+      "audioKey": "hol-a04-t04",
+      "es": "Daar wil ik liever niet over praten.",
+      "pinyin": "daar vil ik LEE-fer niet OH-fer PRAA-ten",
+      "pt": "Darüber möchte ich lieber nicht sprechen.",
+      "tts": "Daar wil ik liever niet over praten."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-a04-p05",
+      "promptPt": "Am Denkmal für die Erdbebenschäden steht ihr in einer kleinen Gruppe, und jemand fragt, warum du gekommen bist. Sag es in wenigen Worten. Sprich jetzt.",
+      "audioKey": "hol-a04-t05",
+      "es": "Ik ben hier om te luisteren.",
+      "pinyin": "ik ben heer om te LÖÜS-te-ren",
+      "pt": "Ich bin hier, um zuzuhören.",
+      "tts": "Ik ben hier om te luisteren."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "mesa/carta"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-a04-p06",
+      "promptPt": "Der Abend ist an einem Punkt angekommen, an dem alle das Thema lieber loswerden würden. Biete einen Ausweg an, ohne jemandem die Schuld zu geben. Sprich jetzt.",
+      "audioKey": "hol-a04-t06",
+      "es": "Zullen we het over iets anders hebben?",
+      "pinyin": "ZUL-len vö het over its AN-ders HEB-ben",
+      "pt": "Sollen wir über etwas anderes reden?",
+      "tts": "Zullen we het over iets anders hebben?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a04-n09",
+      "bloco": "permissao",
+      "tom": "ganha",
+      "pt": "Nenn den Ort statt des ganzen Landes, wenn du fragst — «wie ist es hier im Dorf» statt «wie ist es in Holland»."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-a04-p07",
+      "promptPt": "Statt einer Meinung willst du wissen, wie sich der Ort seit früher verändert hat — eine Frage, auf die jeder gern antwortet. Sprich jetzt.",
+      "audioKey": "hol-a04-t07",
+      "es": "Hoe is dit dorp de laatste jaren veranderd?",
+      "pinyin": "hoe is dit dorp de LAAT-ste yaa-ren fer-AN-derd",
+      "pt": "Wie hat sich dieses Dorf in den letzten Jahren verändert?",
+      "tts": "Hoe is dit dorp de laatste jaren veranderd?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-a04-s01",
+      "tom": "ganha",
+      "es": "Daar weet ik te weinig van. Ik ben hier om te luisteren. Zullen we het over iets anders hebben?",
+      "pinyin": "daar veet ik te VAI-nich fan · ik ben heer om te LÖÜS-te-ren · ZUL-len vö het over its AN-ders HEB-ben",
+      "pt": "Schatte die drei nach, die das Urteil verweigern und den Abend am Laufen halten.",
+      "tts": "Daar weet ik te weinig van. Ik ben hier om te luisteren. Zullen we het over iets anders hebben?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a04-n10",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "A04 fertig. Ein Riss im Norden, eine alte Grenze durchs Land, und vier Sätze, mit denen du nie Partei ergreifen musst."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a04-n11",
+      "tom": "ganha",
+      "pt": "Du musst zu keinem der beiden Themen eine Meinung haben. Ehrlich zu wenig zu wissen ist hier die richtige Antwort."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Ein Riss, eine alte Grenze, und warum beide keine Meinung von dir brauchen",
+    "secoes": [
+      {
+        "titulo": "Groningen: der Riss, der eine Geschichte hat",
+        "corpo": "Ab den 1960er-Jahren machte das Gasfeld bei Groningen die Niederlande über Jahrzehnte zu einem der größten Erdgasförderer Europas — mit dem Preis von mehr als eintausendsechshundert Erdbeben, die Zehntausende Häuser beschädigten. Die Förderung wurde 2023 drastisch gedrosselt und zum Gasjahr 2024/2025 endgültig beendet, nach jahrelangem öffentlichem Druck und einem parlamentarischen Untersuchungsausschuss. Der niederländische Staat richtete umfangreiche Entschädigungs- und Verstärkungsprogramme ein; wie schnell und vollständig diese abgearbeitet werden, bleibt Gegenstand laufender Berichterstattung, weshalb hier bewusst keine abschließende Endsumme genannt wird.",
+        "exemplos": [
+          { "es": "Is dat van de aardbevingen?", "pt": "Ist das von den Erdbeben?" },
+          { "es": "Daar weet ik te weinig van.", "pt": "Davon weiß ich zu wenig." }
+        ]
+      },
+      {
+        "titulo": "Die Versäulung — eine Grenze, die es offiziell nicht mehr gibt",
+        "corpo": "Von den 1880er-Jahren bis in die späten 1960er/70er-Jahre organisierte sich die niederländische Gesellschaft entlang religiöser und ideologischer «Säulen»: katholisch, (reformiert-)protestantisch, sozialistisch und liberal, jede mit eigenen Schulen, Zeitungen, Sportvereinen und Parteien. Der gesellschaftliche Umbruch der späten Sechziger löste diese strikte Trennung weitgehend auf. Was blieb, ist vor allem außerhalb der großen Städte sichtbar — etwa im sogenannten «Bibelgürtel», einem schmalen Streifen streng reformierter Gemeinden quer durchs Land, wo der Sonntag in manchen Dörfern bis heute anders aussieht als anderswo im Land."
+      },
+      {
+        "titulo": "Vier Sätze, keine Position",
+        "corpo": "Keiner dieser Sätze bewertet, verurteilt oder relativiert irgendetwas — das ist Absicht. Meinungsvokabular in einer Sprache, die du gerade erst lernst, ist genau der Mechanismus, der aus einem höflichen Gespräch ein Missverständnis macht. Daar weet ik te weinig van schließt das Thema ohne jemanden zu beleidigen und ist nach ein paar Tagen im Land schlicht zutreffend. Daar wil ik liever niet over praten ist höflich und endgültig, für den Fall, dass der erste Satz nicht reicht. Ik ben hier om te luisteren passt an einem Gedenkort, wo es sowohl wahr als auch im richtigen Register ist. Und Zullen we het over iets anders hebben bietet allen am Tisch einen Ausweg, ohne jemandem die Schuld zu geben."
+      },
+      {
+        "titulo": "Was du stattdessen fragen kannst",
+        "corpo": "Eine Meinung zu verweigern funktioniert besser, wenn du etwas anderes anbietest. Hoe is dit dorp de laatste jaren veranderd verschiebt das Gespräch vom Land, zu dem du keine Position hast, auf den konkreten Ort, wo die Person dir gegenüber die einzige verfügbare Expertin ist — und meist gern erzählt. Der Ort statt des Landes ist der Unterschied zwischen einer Frage, die neugierig klingt, und einer, die nach einem Urteil über eine ganze Nation fragt."
+      }
+    ]
+  }
+}

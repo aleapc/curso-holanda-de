@@ -1,0 +1,417 @@
+{
+  "id": "a01",
+  "nivel": "avancado",
+  "numero": 29,
+  "parte": "A01",
+  "titulo": "Hoe ze praten als het niet tegen u is",
+  "subtitulo": "De uitgang -er smelt tot een klinker, w komt uit als v, en de uiteinden van woorden verharden zonder dat de spelling het toegeeft",
+  "cena": "Twee mensen naast u op het perron beslechten iets op volle snelheid, en elk woord dat u meende te kennen komt in een ander pak binnen.",
+  "moldura": "ganha",
+  "frasePiso": "Blijft er één ding hangen — dat de uitgang -er een klinker is en geen r — dan wordt de helft van wat u opvangt scherper.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "de-a01-r-vokal",
+      "afirmacao": "Het Duits heeft geen medeklinker aan het einde van een lettergreep waar de spelling r toont. Kohler, «German», Handbook of the International Phonetic Association, Cambridge UP 1999, pp. 87-88: /ʁ/ «postvocalically before a consonant or word-finally it is vocalized to [ɐ], which results in diphthongs (e.g. [haɐt] hart 'hard', [oɐ] Ohr 'ear' …); the ending -er is realized as [ɐ] (e.g. [ˈbʊtɐ] Butter 'butter')». De officiële spelling, Amtliches Regelwerk der deutschen Rechtschreibung 2024 (van kracht sinds 1 juli 2024), § 22(1), erkent drie medeklinkerrealisaties als gelijkwaardig voor de letter r: [r], [ʀ], [ʁ]. De regel met de grootste dekking voor een luisteraar is de onbeklemtoonde uitgang -er, die altijd [ɐ] is: Butter, Vater, Kinder, besser, aber, oder, unter. Eén punt wordt echt betwist en de cursus verbergt het niet: Kohler transcribeert hart als een tweeklank, terwijl Dittrich & Reibisch, «An acoustic study of /r/-vocalization in word-final position», AIPUK 37, Universiteit van Kiel, concluderen dat het na /aː/ een donkerdere monoftong wordt in plaats van een tweeklank — de onenigheid gaat specifiek over /aː/, niet over Uhr, Ohr of -er.",
+      "fonte": "Kohler 1999, pp. 87-88, verbatim (símbolos ʁ, ɐ restaurados do OCR). Regelwerk 2024 §22(1), verbatim: «[r], [ʀ], [ʁ] | r | rauben, Rampe, hören, Zitrone». Contestação: Dittrich & Reibisch, AIPUK 37 (Univ. Kiel, PDF aberto), apoiados em Kohler (1995: 166). Pesquisa §1.2. ⚠ Aviso de OCR: o Handbook só existe como digitalização e o OCR corrompe os símbolos IPA — as citações reproduzem o texto bruto com os símbolos restaurados, sem conserto de conteúdo.",
+      "ano": 1999,
+      "revisarAte": "2031-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-a01-n02",
+        "de-a01-n03"
+      ]
+    },
+    {
+      "id": "de-a01-vokale",
+      "afirmacao": "De twee klinkers geschreven als ö en ü zijn voor een Nederlandse luisteraar geen probleem — u hebt ze in huis en neus. Voor een anglofoon zijn ze wel duur, wat de peer-reviewed literatuur documenteert: Kaucke & Schlechtweg, «English Speakers' Perception of Non-native Vowel Contrasts…», Language and Speech 68(1), 2024/2025, geven eerdere bevindingen weer: «in a perceptual assimilation task, Strange et al. (2005) found that 97% of the German front rounded vowels were categorized as back vowels». Voor u geldt dat probleem niet: het Nederlandse ⟨uu⟩ dekt ⟨ü⟩ (huis → Hüte), en ⟨eu⟩ dekt ⟨ö⟩ (neus → schön), en Gussenhoven registreert die voorste geronde klinkers al in het Nederlandse systeem. Wat u wél moet leren is de Duitse ⟨g⟩ aan het woordbegin: waar u thuis /χ/ zegt voor ⟨g⟩, is de Duitse ⟨g⟩ initiaal een echte /g/ — gut is niet chut. En de ich-Laut /ç/, de dunne, voorste ch die op ich volgt, ontbreekt in uw systeem terwijl de scherpere /χ/ van Bach gewoon uw eigen ⟨g⟩ is.",
+      "fonte": "Kaucke & Schlechtweg, Language and Speech 68(1), 2024/2025 (HTML bruto lido). Gussenhoven, «Dutch», Handbook of the IPA, sistema fonológico do neerlandês do Randstad: /y/ e /ø/ presentes; na coluna dorsal só resta fricativa uvular (não há /ç/). Regelwerk 2024, §1, dá as correspondências ⟨ö⟩ = [œ]/[ø]/[øː] e ⟨ü⟩ = [ʏ]/[y]/[yː]; Kohler 1999, p. 87, dá os pares mínimos hüten/Hütten e Goethe/Götter. ⚠ Ressalva do próprio dossiê: o OCR embaralha yː/ʏ e øː/œ na tabela do Regelwerk.",
+      "ano": 2025,
+      "revisarAte": "2030-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-a01-n11",
+        "de-a01-n12"
+      ]
+    },
+    {
+      "id": "de-a01-auslaut",
+      "afirmacao": "Stemhebbende medeklinkers verstemloosen aan het eind van een lettergreep en de spelling laat het nooit zien. Voor u is dit vertrouwd gebied — Nederlands doet hetzelfde in hond → hont, hand → hant, brood → broot. Het Regelwerk 2024 definieert Auslautverhärtung in het glossarium als «stimmlose Aussprache eines sonst stimmhaften Konsonanten am Wort- oder Silbenende (Wälder (stimmhaft) Wald (stimmlos))», en § 23 zegt dat de verharding van [b], [d], [ɡ], [v] en [z] aan het einde van een lettergreep en vóór andere medeklinkers binnen de lettergreep «wird in der Schreibung nicht wiedergegeben». Twee details die de meeste lesboeken missen en de norm niet: het bereik omvat [v] en [z], en het triggert op het einde van een lettergreep en niet alleen van een woord. Diagnostische paren uit § 23 E1: Rad-Rades tegenover Rat-Rates, Sieg-siegen tegenover Musik-musikalisch. Het verschijnsel geldt in de literatuur als het archetype van fonologische neutralisatie (Röttger, Winter, Grawunder, Kirby & Grice, Journal of Phonetics 43, 2014, met verwijzing naar Fourakis & Iverson 1984); datzelfde artikel meet onvolledige neutralisatie en concludeert dat de resterende verschillen «are audible, but only barely so». Voor een overlevingscursus zijn Rad en Rat één woord voor het oor.",
+      "fonte": "Regelwerk 2024, glossário e §23, verbatim (gesetze e PDF oficial baixado). Röttger, Winter, Grawunder, Kirby & Grice, «Assessing incomplete neutralization of final devoicing in German», Journal of Phonetics 43 (2014), preprint revisado aberto, verbatim. Pesquisa §1.7. ⚠ As duas fontes mais diretamente sobre a produção de anglófonos (Smith & Hayes-Harb; Hayes-Harb, Brown & Smith, Language and Speech 61(4), 2018) NÃO FORAM ACESSADAS e nada é afirmado a partir delas.",
+      "ano": 2024,
+      "revisarAte": "2031-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-a01-n06",
+        "de-a01-n07"
+      ]
+    },
+    {
+      "id": "de-a01-englisch",
+      "afirmacao": "Special Eurobarometer 540, Europeans and their languages, veldwerk september-oktober 2023, gepubliceerd in 2024 voor DG EAC: 65 procent in Duitsland zegt goed genoeg Engels te spreken om een gesprek te voeren, als een extra taal, tegen een EU27-gemiddelde van 47 procent. Het vergelijkbare eerdere cijfer uit Special Eurobarometer 386, veldwerk februari-maart 2012, was 56 procent voor Duitsland tegen 38 procent voor de EU27. Twee kanttekeningen horen bij het getal. Ten eerste, herkomst: de enquêtepagina op europa.eu is een JavaScript-toepassing die de downloadlink niet teruggaf en de publieke API gaf 404, dus het pdf dat werkelijk werd geopend kwam van een mirror buiten het europa.eu-domein, met omslag, ISBN, DOI en opmaak intact en de waarde gekruisd met de lopende tekst. Ten tweede is het niet uitwisselbaar met de Eurostat Adult Education Survey, waar 87,7 procent van de Duitsers van 25 tot 64 in 2022 minstens één vreemde taal aangaf maar slechts ongeveer 28 procent van hen zich gevorderd noemde — andere vragen, en ze mogen niet worden opgeteld of gepresenteerd alsof ze elkaar bevestigen. De EF English Proficiency Index, die Duitsland vierde van 123 zet in 2025, is expliciet zelfselecterend en nooit een bevolkingsschatting.",
+      "fonte": "Special Eurobarometer 540 (Verian para a DG EAC, DOI 10.2766/28257), p. 20, tabela «D48.otherlang.»; média EU27 verbatim do texto corrido: «Nearly half of Europeans (47%) say they speak it, a slight increase (+5) compared to 2012.» SP386 (2012), p. 21: célula DE «English 56%». Eurostat AES, tabelas edat_aes_l21 e edat_aes_l31. EF EPI 2025, Appendix A, «Sampling Biases», verbatim: «The test-taking population represented in this Index is self-selected and not guaranteed to be representative.» Pesquisa §10.1. ⚠ Nunca escrever «X% dos alemães falam inglês» com base no EF EPI. E a quebra leste-oeste do inglês é AUSENTE como dado.",
+      "ano": 2023,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-a01-n13"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a01-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Tot nu toe was het Duits aan u gericht. Nu is het aan iemand anders gericht, en dat is een ander beest."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a01-n02",
+      "bloco": "corpo",
+      "pt": "Regel één, die betaalt het hele deel: de uitgang -er is geen medeklinker. Het is een klinker."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "ear_de_f",
+      "audioKey": "de-a01-r01",
+      "receptivo": true,
+      "acao": "Wacht niet op een r aan het eind. Er komt de zachte uh van sofa, en dat is het juiste geluid.",
+      "es": "Wasser, Butter, Vater, aber, oder.",
+      "pt": "Water, boter, vader, maar, of.",
+      "tts": "Wasser, Butter, Vater, aber, oder."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a01-n03",
+      "pt": "Kinder, besser, unter, wieder. Altijd diezelfde uitgang, en nooit de r die uw mond wil maken."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "ear_de_m",
+      "audioKey": "de-a01-r02",
+      "receptivo": true,
+      "acao": "De Duitse w klonk als uw v, en de Duitse v als /f/ — nooit sonoor. Laat de stem los op de v.",
+      "es": "Wo ist der Wagen? Da vorne, viertel vor vier.",
+      "pt": "Waar is de auto? Recht vooruit, kwart voor vier.",
+      "tts": "Wo ist der Wagen? Da vorne, viertel vor vier."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a01-n04",
+      "pt": "Regel twee, gratis: Wasser is vasser, viel is fiel. Geen nieuwe klanken, twee letters omgeruild."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "ear_de_f",
+      "audioKey": "de-a01-r03",
+      "receptivo": true,
+      "acao": "Zeg de tweede letter en de hele taal leest goed. Nein heeft de ei, Bier heeft de ie — net als bij u.",
+      "es": "Vier Bier, bitte. Nein, sieben!",
+      "pt": "Vier bier, alstublieft. Nee, zeven!",
+      "tts": "Vier Bier, bitte. Nein, sieben!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a01-n05",
+      "pt": "Het Nederlands leest ei en ie al net zo. Cadeau: geen nieuwe regel, geen uitzonderingen om te leren."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "ear_de_m",
+      "audioKey": "de-a01-r04",
+      "receptivo": true,
+      "acao": "Hunt, unt, Tak. De uiteinden verharden hier, precies zoals u het thuis in hont en broot doet.",
+      "es": "Der Hund und der Tag.",
+      "pt": "De hond en de dag.",
+      "tts": "Der Hund und der Tag."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a01-n06",
+      "pt": "Rad en Rat klinken hetzelfde uit een echte mond. De geschreven d doet geschiedenis, geen klank."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a01-n07",
+      "pt": "Het gebeurt ook binnen een lettergreep, niet alleen aan een woordeind. Wald hard, Wälder weer zacht."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "ear_de_f",
+      "audioKey": "de-a01-r05",
+      "receptivo": true,
+      "acao": "S voor een klinker is een z. En z is ts, altijd — zehn is tseen en nooit zeen.",
+      "es": "Sie sagen, es ist zehn vor sieben.",
+      "pt": "Ze zeggen dat het tien voor zeven is.",
+      "tts": "Sie sagen, es ist zehn vor sieben."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a01-n08",
+      "pt": "Nog één omzetting en het alfabet is af: sp en st aan een stambegin komen uit als sj-p en sj-t."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "ear_de_m",
+      "audioKey": "de-a01-r06",
+      "receptivo": true,
+      "acao": "De achterste ch — na ach — is uw eigen ⟨g⟩, gratis. De voorste — na ich — hebt u niet en die kost werk.",
+      "es": "Ich möchte ein Buch. Ach so!",
+      "pt": "Ik wil graag een boek. O, ik snap het!",
+      "tts": "Ich möchte ein Buch. Ach so!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a01-n09",
+      "pt": "Uw ⟨g⟩ dekt Bach zonder oefenen. De ich-Laut ontbreekt in uw systeem — Gussenhoven bevestigt het."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "ear_de_f",
+      "audioKey": "de-a01-r07",
+      "receptivo": true,
+      "acao": "Woorden worden hier niet aan elkaar geplakt. Elke klinker begint schoon, met een kleine hik ervoor.",
+      "es": "Am Abend in Berlin, um acht Uhr.",
+      "pt": "'s Avonds in Berlijn, om acht uur.",
+      "tts": "Am Abend in Berlin, um acht Uhr."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a01-n10",
+      "pt": "Het Nederlands laat am en Abend samenvloeien. Dat kleine sneetje maakt de grenzen vindbaar."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "ear_de_m",
+      "audioKey": "de-a01-r08",
+      "receptivo": true,
+      "acao": "Also is niet 'ook'. Het opent een conclusie — dus, dan, goed. Als 'ook' gehoord draait de zin om.",
+      "es": "Also, dann machen wir das so.",
+      "pt": "Goed, dan doen we het zo.",
+      "tts": "Also, dann machen wir das so."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "ear_de_f",
+      "audioKey": "de-a01-r09",
+      "receptivo": true,
+      "acao": "Duitse ü is uw uu, Duitse ö is uw eu. U hebt ze al in huis en neus — cadeau.",
+      "es": "Über die Brücke, dann die schöne Straße links.",
+      "pt": "Over de brug, dan de mooie straat links.",
+      "tts": "Über die Brücke, dann die schöne Straße links."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a01-n11",
+      "bloco": "capsula",
+      "pt": "Een Nederlandse valstrik: de Duitse ⟨g⟩ aan het begin is een échte /g/, niet uw /χ/. Gut is niet chut."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a01-n12",
+      "pt": "Verkeerd horen kost meer dan verkeerd zeggen. Daarom zijn de volgende zes zinnen goud waard."
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "ear_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-a01-p01",
+      "promptPt": "U ving niets van die zin op. Zeg het één keer, netjes, en verontschuldig u niet twee keer. Spreek nu.",
+      "audioKey": "de-a01-t01",
+      "es": "Entschuldigung, ich habe das nicht verstanden.",
+      "pinyin": "ent-SHOOL-di-goong, ikh HAH-buh dass nikht fair-SHTAN-den",
+      "pt": "Sorry, ik heb dat niet begrepen.",
+      "tts": "Entschuldigung, ich habe das nicht verstanden."
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "ear_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-a01-p02",
+      "promptPt": "U miste alleen het begin, dus het geheel opnieuw op dezelfde snelheid volstaat. Spreek nu.",
+      "audioKey": "de-a01-t02",
+      "es": "Können Sie das bitte wiederholen?",
+      "pinyin": "KUR-nen zee dass BIT-tuh vee-duh-HO-len",
+      "pt": "Kunt u dat alstublieft herhalen?",
+      "tts": "Können Sie das bitte wiederholen?"
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "ear_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-a01-p03",
+      "promptPt": "De tweede keer kwam op precies dezelfde snelheid. Vraag om het ene wat het oplost. Spreek nu.",
+      "audioKey": "de-a01-t03",
+      "es": "Können Sie bitte langsamer sprechen?",
+      "pinyin": "KUR-nen zee BIT-tuh LANG-zah-muh SHPREH-khen",
+      "pt": "Kunt u alstublieft langzamer spreken?",
+      "tts": "Können Sie bitte langsamer sprechen?"
+    },
+    {
+      "consulta": [
+        "reparo/escreve"
+      ],
+      "tipo": "responde",
+      "voz": "ear_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-a01-p04",
+      "promptPt": "Het is een straatnaam waar de spelling meer helpt dan een derde luisterbeurt. Vraag om papier. Spreek nu.",
+      "audioKey": "de-a01-t04",
+      "es": "Können Sie das aufschreiben?",
+      "pinyin": "KUR-nen zee dass OWF-shry-ben",
+      "pt": "Kunt u dat opschrijven?",
+      "tts": "Können Sie das aufschreiben?"
+    },
+    {
+      "consulta": [
+        "reparo/como-se-diz",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "ear_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-a01-p05",
+      "promptPt": "Eén woord in het midden deed al het werk en ging langs u heen. Wijs erop en vraag. Spreek nu.",
+      "audioKey": "de-a01-t05",
+      "es": "Was bedeutet das?",
+      "pinyin": "vass buh-DOY-tet dass",
+      "pt": "Wat betekent dat?",
+      "tts": "Was bedeutet das?"
+    },
+    {
+      "consulta": [
+        "reparo/ingles"
+      ],
+      "tipo": "responde",
+      "voz": "ear_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-a01-p06",
+      "promptPt": "De balie is technisch geworden, zes mensen wachten achter u, en dit moet snel. Spreek nu.",
+      "audioKey": "de-a01-t06",
+      "es": "Sprechen Sie Englisch?",
+      "pinyin": "SHPREH-khen zee ENG-lish",
+      "pt": "Spreekt u Engels?",
+      "tts": "Sprechen Sie Englisch?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a01-n13",
+      "pt": "Vijfenzestig procent zei in 2023 een gesprek in het Engels te kunnen voeren. Verwacht het vaak, niet altijd."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "ear_de_f",
+      "audioKey": "de-a01-s01",
+      "es": "Entschuldigung, ich habe das nicht verstanden. Können Sie bitte langsamer sprechen?",
+      "pinyin": "ent-SHOOL-di-goong ikh HAH-buh dass nikht fair-SHTAN-den · KUR-nen zee BIT-tuh LANG-zah-muh SHPREH-khen",
+      "pt": "Schaduw de twee zinnen die u overal een tweede kans op kopen.",
+      "tts": "Entschuldigung, ich habe das nicht verstanden. Können Sie bitte langsamer sprechen?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a01-n14",
+      "bloco": "recap",
+      "pt": "A01 klaar. De -er is een klinker, w is v, zeg de tweede letter, en uiteinden verharden."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Zes dingen die met het Duits gebeuren voordat het uw oor bereikt",
+    "secoes": [
+      {
+        "titulo": "De r die er niet is",
+        "corpo": "Dit is het duurste item van het hele deel, want het raakt duizenden woorden. Na een klinker, vóór een medeklinker of aan het eind van een woord is de letter r helemaal geen medeklinker: het wordt de klinker [ɐ], de klank aan het eind van sofa. Uhr is oe-uh. Ohr is o-uh. En de onbeklemtoonde uitgang -er is altijd die klinker: Butter, Vater, Kinder, besser, aber, oder, unter. Het Nederlandse oor is hier deels op voorbereid — u hebt zelf een variabele r — maar de reflex is anders: u kunt geneigd zijn de r als [r] terug te laten komen. Laat hem verdwijnen. Eén eerlijke voetnoot: na een lange a, zoals in Haar, twisten fonetici of het resultaat een tweeklank is of een donkerdere enkele klinker. Die discussie raakt Uhr, Ohr en -er niet.",
+        "exemplos": [
+          {
+            "es": "Wasser, Butter, Vater, aber, oder.",
+            "pt": "Water, boter, vader, maar, of."
+          },
+          {
+            "es": "Vier Uhr, das Ohr, die Kinder.",
+            "pt": "Vier uur, het oor, de kinderen."
+          }
+        ]
+      },
+      {
+        "titulo": "De letters die iets anders betekenen",
+        "corpo": "Niets hier is een nieuwe klank, wat het de goedkoopste minuten van de cursus maakt. W is uw v: Wasser, Wagen, wo. V is in eigen woorden meestal uw f — Vater, viel, vier, vor, von — al is de officiële regel voorzichtig door in leenwoorden een v te laten (Vase, privat en Universität), en een handvol woorden wisselt echt, waaronder November. Let vooral op uw eigen v: bij u wisselt hij tussen [v] en [f], in het Duits is hij altijd stemloos. Laat de stem los. S vóór een klinker is een z: sagen, sieben, Seife. Z is ts en nooit een z: zehn, zwei, Zug. Sch is de sj die u al hebt, en sp en st aan een stambegin komen uit als sj-p en sj-t: sprechen, Straße, Stunde. En ß is gewoon een s — nooit een b, hoe hij er ook uitziet."
+      },
+      {
+        "titulo": "Ei en ie: zeg de tweede letter",
+        "corpo": "De cadeauregel bij uitstek. De digrafen werken precies als in het Nederlands: ei is uw ei — nein, eins, Wein, Zeit; ie is een lange ie — vier, Bier, sieben, Liebe. Anders dan Engelstaligen, die tegen believe, height, seize, receive en ceiling aanlopen, hoeft u hier niets af te leren. Eu en äu komen als oi — neun, Häuser."
+      },
+      {
+        "titulo": "Uiteinden verharden — en dat kent u",
+        "corpo": "Een stemhebbende medeklinker aan het eind van een lettergreep wordt stemloos gesproken, en de spelling laat het nooit zien. Hund klinkt als Hunt, Tag als Tak, und als unt, Rad precies als Rat. U doet dit thuis al in hond → hont en brood → broot, dus u hoeft niets aan te leren, alleen de reflex te vertrouwen. De officiële regel voegt twee details toe die veel leerboeken missen: de regel dekt ook de klanken geschreven als v en s, en hij triggert aan het einde van een lettergreep en niet alleen van een woord. Fonetici hebben een restverschil gemeten en concluderen dat het nauwelijks hoorbaar is; behandel Rad en Rat als hetzelfde woord voor het oor en laat de context beslissen."
+      },
+      {
+        "titulo": "De twee ch, en de klinkers die u al hebt",
+        "corpo": "Ch heeft een lichte, voorste versie na voorklinkers en in de uitgang -chen (ich, Chemie, Mädchen), en een schrapende, achterste versie na achterklinkers (ach, Buch). De achterste — /χ/ — is voor u gratis: het is uw eigen ⟨g⟩. De voorste — /ç/, de ich-Laut — ontbreekt in het systeem van de Randstad, zoals Gussenhoven vaststelt, en dat is de klank die werkelijk geoefend moet worden. Ö en ü, die voor Engelstaligen duur zijn — een perceptuele studie in Language and Speech vond dat Engelse luisteraars zevenennegentig procent van deze klinkers als achterklinkers klasseerden — zijn voor u cadeau: uw uu dekt ü, uw eu dekt ö (huis → Hüte, neus → schön). Waar u wél op moet letten is de Duitse ⟨g⟩ aan het woordbegin: die is een echte /g/, geen /χ/. Gut is niet chut."
+      },
+      {
+        "titulo": "Also betekent niet 'ook'",
+        "corpo": "Eén woord dat meer waard is dan honderd op snelheid. Duits also betekent dus, daarom, goed dan — het opent een conclusie, en dat is precies waar de bruikbare helft van een zin woont. Het als 'ook' horen draait de logica van de zin om die u probeert te volgen. Het zit met drie andere valstrikken in gewone spraak: bekommen is krijgen en niet worden; eventuell betekent misschien en niet uiteindelijk, wat stilletjes verandert wat iemand heeft toegezegd; en Gift is gif. Over Engels zelf: vijfenzestig procent in Duitsland zei in 2023 een gesprek in het Engels te kunnen voeren, tegen zevenenveertig procent in de EU, en dat is een zelfrapportage in een enquête en geen belofte over de persoon voor u."
+      }
+    ]
+  },
+  "slot": "A01",
+  "permissao": "U mag ongeveer een derde begrijpen van wat u opvangt en dat als winst tellen. Niemand volgt een snel gesprek in een tweede taal op volle resolutie, en de eigenlijke vaardigheid is veel kleiner dan vloeiendheid: weten of er iets is beslist, of het u aangaat, en welk woord u moet uitzoeken. Vragen of iemand het opschrijft is ook geen falen — bij een straatnaam vol geronde klinkers is het het snelste wat er is.",
+  "permissaoAudioKey": "de-a01-n12",
+  "espelho": "Wie in eigen taal naar twee mensen uit een andere streek van eigen land heeft geluisterd en de helft heeft gemist, weet dat dit geen echt vreemdetalenprobleem is. Snelheid en gedeelde context doen het meeste werk kapot. Wat hier anders is, is dat de schade systematisch is — er gebeuren met elk woord dezelfde vier of vijf dingen — dus valt het één keer te leren in plaats van woord voor woord.",
+  "fichasCulturais": [
+    {
+      "sinal": "U leest een woord hardop precies zoals het staat en degene voor u herkent het niet.",
+      "suaLeitura": "Mijn accent is hopeloos en daar is in een week niets aan te doen.",
+      "oQueEAli": "Bijna zeker was het geen accent. Vier letters doen hier ander werk — w is v, v is meestal f, s vóór een klinker is z, z is ts — en twee digrafen worden op hun tweede letter gelezen, precies zoals in het Nederlands. Bier is bier, nein rijmt op mijn. Geen van die klanken is voor u nieuw. Het is een omzetting van het alfabet, en dat is het goedkoopste onderdeel van deze cursus.",
+      "oQueVoceFaz": "Werp voor u iets zegt een blik op die letters en wissel ze om. Let vooral op uw eigen v — laat de stem los. Als het toch strandt, gebruik de zin over opschrijven — het woord zien lost in twee seconden op wat een derde luisterbeurt niet doet.",
+      "oQueMelhora": "U behandelt niet meer elk misverstand als bewijs over uw kunnen, en u fikst een hele klasse ervan met vijf regels zonder uitzondering.",
+      "ondeNaoVale": "Het is geen bewering dat uitspraak niet uitmaakt en geen volledige lijst: de r, de twee ch (vooral de ich-Laut die u niet hebt) en de Duitse ⟨g⟩ aan het woordbegin zijn wél nieuw en kosten meer tijd. En geen peer-reviewed studie meet hoe verstaanbaar Nederlandstaligen zijn voor Duitse oren, dus welke fouten het duurst zijn is hier lesgeversoordeel, geen meting.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-a01-n04",
+        "de-a01-n05"
+      ]
+    },
+    {
+      "sinal": "Iemand herhaalt drie keer geduldig een woord dat begint met een ⟨g⟩, en u zegt telkens iets terug dat op /χ/ begint.",
+      "suaLeitura": "Ik luister niet goed genoeg, nog één keer en ik heb het.",
+      "oQueEAli": "Het is geen luisterprobleem. De Duitse ⟨g⟩ aan het woordbegin is een echte /g/, precies zoals de Nederlandse ⟨g⟩ in leenwoorden als 'gel' of 'garage'. Uw automatische /χ/ voor de geschreven ⟨g⟩ komt uit uw eigen systeem en is de standaardvertaling. Voor Duits werkt die reflex niet: gut is /guːt/, niet /χuːt/, en Guten Tag begint hard.",
+      "oQueVoceFaz": "Behandel de Duitse ⟨g⟩ aan het woordbegin als een Nederlandse ⟨g⟩ in 'gel'. Voor de achterste ch — Bach, Buch, ach — gebruikt u uw gewone /χ/. Voor de voorste — ich, Milch, München — is er echt werk: dun, vooraan, geen schraping.",
+      "oQueMelhora": "Het grootste struikelblok van het par verdwijnt in één regel, en u stopt met het horen alsof het Duits alleen /χ/ heeft.",
+      "ondeNaoVale": "Regionaal wisselt er van alles: sommige Duitse variëteiten kennen andere realisaties van de ⟨g⟩. Een cursusstem is geen uitspraak over hoe elke stad klinkt, en de ich-Laut zelf wordt in het zuiden vaak anders geproduceerd. Behandel dit als een betrouwbare startregel, niet als een universele wet.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-a01-n09",
+        "de-a01-n11"
+      ]
+    }
+  ]
+}

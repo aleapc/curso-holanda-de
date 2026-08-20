@@ -1,0 +1,269 @@
+{
+  "id": "i05",
+  "nivel": "intermediario",
+  "numero": 23,
+  "parte": "I05",
+  "titulo": "Fünf Fragen, die garantiert kommen",
+  "subtitulo": "Woher, wie lange, was gefällt Ihnen — und ein Baustein, mit dem Sie das Gespräch am Laufen halten oder freundlich beenden",
+  "cena": "Gemeinschaftsküche im Hostel, halb neun abends, jemand reicht Ihnen ein Bier und fragt, woher Sie kommen.",
+  "moldura": "ganha",
+  "decisao": "ob Sie im Gespräch bleiben oder es freundlich beenden — und ob Sie auf die immer gleichen Fragen vorbereitete Antworten haben",
+  "emJogo": "tempo",
+  "moldes": ["ICH-MAG"],
+  "clique": {
+    "contagem": ["die Stadt", "das Bier", "das Radfahren"],
+    "desconto": "Die Stadt, das Bier und das Radfahren bekamen dieselben drei Wörter von Ihnen. Nur das Ding dahinter wechselte, und das kam schon fertig.",
+    "piso": "Das nächste Mal, wenn jemand fragt, was Ihnen hier gefällt, überlegen Sie nicht lange nach dem passenden Satz. Sie sagen Ik hou van und nennen es."
+  },
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-i05-n01",
+      "gesto": 3,
+      "tom": "ganha",
+      "bloco": "aquecimento",
+      "pt": "Der Faustschlag von vorhin trägt auch ein ganzes Gespräch, nicht nur eine Bestellung."
+    },
+    {
+      "consulta": ["simpatia/puxar-conversa"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "bloco": "callback",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "erbij komen zitten",
+      "encaixeGloss": "mich dazusetzen",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i05-p01",
+      "promptPt": "Derselbe Baustein wie gestern beim Bestellen, nur diesmal für einen Platz am Tisch, nicht für ein Getränk. Fragen Sie. Jetzt sprechen.",
+      "audioKey": "hol-i05-t01",
+      "es": "Mag ik erbij komen zitten?",
+      "pinyin": "mach ik er-BAI KOH-men ZIT-ten",
+      "pt": "Darf ich mich dazusetzen?",
+      "tts": "Mag ik erbij komen zitten?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-i05-r01",
+      "tom": "ganha",
+      "es": "Natuurlijk! Waar kom je vandaan?",
+      "pinyin": "na-TÜÜR-lük! vaar kom yuh fan-DAAN",
+      "pt": "Natürlich! Woher kommst du?",
+      "tts": "Natuurlijk! Waar kom je vandaan?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-i05-n02",
+      "tom": "ganha",
+      "bloco": "cena",
+      "pt": "Die erste Frage kommt fast immer zuerst. Drei, vier weitere folgen, fast in derselben Reihenfolge."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i05-p02",
+      "promptPt": "Diese Antwort brauchen Sie an jedem zweiten Abend dieser Reise. Sagen Sie es einfach. Jetzt sprechen.",
+      "audioKey": "hol-i05-t02",
+      "es": "Ik kom uit Duitsland.",
+      "pinyin": "ik kom öüt DÖÜTS-lant",
+      "pt": "Ich komme aus Deutschland.",
+      "tts": "Ik kom uit Duitsland."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-i05-r02",
+      "tom": "ganha",
+      "es": "Wat vind je van Nederland?",
+      "pinyin": "vat fint yuh fan NAY-der-lant",
+      "pt": "Was hältst du von den Niederlanden?",
+      "tts": "Wat vind je van Nederland?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-i05-n03",
+      "tom": "ganha",
+      "bloco": "corpo",
+      "pt": "Hier ist ein neuer Baustein, genau aus dieser Frage geboren: Ik hou van — und dahinter, was Ihnen wirklich gefällt."
+    },
+    {
+      "consulta": ["simpatia/puxar-conversa"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "bloco": "molde",
+      "molde": "ICH-MAG",
+      "encaixe": "deze stad",
+      "encaixeGloss": "die Stadt",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i05-p03",
+      "promptPt": "Er wartet auf eine ehrliche Antwort, kein Kompliment fürs ganze Land. Nennen Sie das eine Ding, das Sie heute wirklich begeistert hat. Jetzt sprechen.",
+      "audioKey": "hol-i05-t03",
+      "es": "Ik hou van deze stad.",
+      "pinyin": "ik how fan DAY-zuh stat",
+      "pt": "Ich mag die Stadt.",
+      "tts": "Ik hou van deze stad."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-i05-r03",
+      "tom": "ganha",
+      "es": "En het bier, hou je daarvan?",
+      "pinyin": "en (h)ut beer, how yuh DAAR-fan",
+      "pt": "Und das Bier, magst du das?",
+      "tts": "En het bier, hou je daarvan?",
+      "receptivo": true,
+      "acao": "Dieselbe Frage kommt oft mit einem neuen Ding zurück. Hören Sie, welches Wort diesmal drinsteckt."
+    },
+    {
+      "consulta": ["simpatia/puxar-conversa"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ICH-MAG",
+      "encaixe": "Nederlands bier",
+      "encaixeGloss": "das Bier",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i05-p04",
+      "promptPt": "Das Glas in Ihrer Hand ist schon halb leer — die ehrliche Antwort liegt auf der Hand. Sagen Sie es. Jetzt sprechen.",
+      "audioKey": "hol-i05-t04",
+      "es": "Ik hou van Nederlands bier.",
+      "pinyin": "ik how fan NAY-der-lants beer",
+      "pt": "Ich mag das Bier.",
+      "tts": "Ik hou van Nederlands bier."
+    },
+    {
+      "consulta": ["simpatia/puxar-conversa"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ICH-MAG",
+      "encaixe": "fietsen",
+      "encaixeGloss": "das Radfahren",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i05-p05",
+      "promptPt": "Jemand fragt, was Sie hier am liebsten machen. Ihre Beine erinnern sich noch an den ganzen Nachmittag auf dem Sattel. Sagen Sie es. Jetzt sprechen.",
+      "audioKey": "hol-i05-t05",
+      "es": "Ik hou van fietsen.",
+      "pinyin": "ik how fan FEET-sen",
+      "pt": "Ich mag das Radfahren.",
+      "tts": "Ik hou van fietsen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-i05-n04",
+      "tom": "ganha",
+      "bloco": "capsula",
+      "pt": "Fragen nach Herkunft oder Meinung kommen hier oft direkt und früh. Das ist Interesse, keine Prüfung."
+    },
+    {
+      "consulta": ["simpatia/agradecer"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "DANKE",
+      "encaixe": "dank je wel",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i05-p06",
+      "promptPt": "Er hat gerade sein Bier mit Ihnen geteilt. Bedanken Sie sich in der Form, die zu diesem Küchentisch passt. Jetzt sprechen.",
+      "audioKey": "hol-i05-t06",
+      "es": "Dank je wel voor het biertje!",
+      "pinyin": "dank yuh wel for (h)ut BEER-tyuh",
+      "pt": "Danke für das Bier!",
+      "tts": "Dank je wel voor het biertje!"
+    },
+    {
+      "consulta": ["reparo/devagar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "kunt u dat herhalen",
+      "encaixeGloss": "können Sie das wiederholen",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i05-p07",
+      "promptPt": "Die Musik ist lauter geworden, und die letzte Frage kam halb im Lärm unter. Bitten Sie freundlich um eine Wiederholung. Jetzt sprechen.",
+      "audioKey": "hol-i05-t07",
+      "es": "Sorry, kunt u dat herhalen?",
+      "pinyin": "SO-rie, kunt ü dat her-HAA-len",
+      "pt": "Entschuldigung, können Sie das wiederholen?",
+      "tts": "Sorry, kunt u dat herhalen?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i05-p08",
+      "promptPt": "Es ist spät geworden, und Sie sind noch nicht bereit für einen langen Abschied. Beenden Sie das Gespräch freundlich und kurz. Jetzt sprechen.",
+      "audioKey": "hol-i05-t08",
+      "es": "Ik moet er weer vandoor, maar leuk je gesproken te hebben!",
+      "pinyin": "ik moot er vayr fan-DOHR, maar löök yuh chuh-SPROH-ken tuh HEB-ben",
+      "pt": "Ich muss wieder los, aber schön, mit dir gesprochen zu haben!",
+      "tts": "Ik moet er weer vandoor, maar leuk je gesproken te hebben!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-i05-n05",
+      "tom": "ganha",
+      "bloco": "permissao",
+      "pt": "Sie dürfen jede Frage mit einem Satz beantworten, und ein Gespräch beenden, ohne unhöflich zu wirken."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-i05-n06",
+      "tom": "ganha",
+      "bloco": "clique",
+      "pt": "Die Stadt, das Bier, das Radfahren: dieselben drei Wörter von Ihnen. Nur das Ding dahinter wechselte."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-i05-s01",
+      "tom": "ganha",
+      "molde": "ICH-MAG",
+      "es": "Ik hou van deze stad. Ik hou van Nederlands bier. Ik hou van fietsen.",
+      "pinyin": "ik how fan DAY-zuh stat. ik how fan NAY-der-lants beer. ik how fan FEET-sen.",
+      "pt": "Schatten Sie drei Gefallensantworten hintereinander, jede mit einem neuen Ding.",
+      "tts": "Ik hou van deze stad. Ik hou van Nederlands bier. Ik hou van fietsen."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "hol-i05-n07",
+      "tom": "ganha",
+      "bloco": "recap",
+      "pt": "I05 fertig. Fünf immer wiederkehrende Fragen, ein Baustein fürs Gefallen, und ein Satz für den Abschied."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Die fünf Fragen und der neue Baustein",
+    "secoes": [
+      {
+        "titulo": "Ik hou van — sagen, was gefällt",
+        "corpo": "Dieser Baustein macht aus jeder Frage nach Ihrer Meinung eine kurze, ehrliche Antwort. Er funktioniert für einen Ort, ein Getränk, eine Aktivität — alles, was Sie an diesem Tag begeistert hat.",
+        "exemplos": [
+          { "es": "Ik hou van deze stad.", "pt": "Ich mag die Stadt." },
+          { "es": "Ik hou van fietsen.", "pt": "Ich mag das Radfahren." }
+        ]
+      },
+      {
+        "titulo": "Die fünf Fragen, Abend für Abend",
+        "corpo": "Woher kommen Sie, wie lange bleiben Sie, was gefällt Ihnen, was machen Sie beruflich, sind Sie zum ersten Mal hier — diese Fragen wiederholen sich in fast jedem Gespräch mit Fremden. Wer für alle fünf einen fertigen Satz hat, verbringt das Gespräch mit Zuhören statt mit Übersetzen."
+      }
+    ]
+  },
+  "slot": "I05",
+  "permissao": "Sie dürfen jede Frage mit einem Satz beantworten, und ein Gespräch beenden, ohne unhöflich zu wirken.",
+  "permissaoAudioKey": "hol-i05-n05"
+}

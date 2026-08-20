@@ -1,0 +1,410 @@
+{
+  "id": "b09",
+  "nivel": "basico",
+  "numero": 9,
+  "parte": "B09",
+  "slot": "B09",
+  "titulo": "De stempel die papier in een ticket verandert",
+  "subtitulo": "Een automaat, een klein doosje op het perron, en één nummer dat aan het eind van een zin uit een luidspreker komt",
+  "cena": "Een regionaal perron vier minuten voor vertrek: papier in de ene hand, een klein doosje op een paal, en een omroep die het nummer als laatste zet.",
+  "moldura": "ganha",
+  "frasePiso": "Papier uit de automaat, stempel in het doosje, nummer in uw oor. Drie zetten en de rit is van u.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "de-b09-entwertung",
+      "afirmacao": "Een papieren ticket valideren is een plicht die in federale regelgeving staat, geen hoffelijkheid van een vervoerder. § 9 BefBedV noemt, onder de gevallen waarin een reiziger een verhoogd tarief verschuldigd is, de reiziger die «den Fahrausweis nicht oder nicht unverzüglich im Sinne des § 6 Abs. 3 entwertet hat oder entwerten ließ» — dat wil zeggen: naast helemaal geen geldig ticket bezitten en het niet kunnen tonen. Aan spoorwegzijde stellen de Beförderungsbedingungen der Deutschen Bahn AG (Stand 1/1/2026) dat een ticket ongeldig is «wenn … sie vorgeschriebene Entwertungen nicht aufweist». Een digitaal ticket valideert zichzelf: «Durch die Nutzung des Komfort Check-ins wird die gebuchte Fahrkarte elektronisch entwertet.»",
+      "fonte": "§ 9 BefBedV, texto consolidado em gesetze-im-internet.de, aberto em 5/8/2026, verbatim; Beförderungsbedingungen der Deutschen Bahn AG, Stand 01.01.2026, verbatim. ⚠ Que bilhetes exigem carimbo em que rede varia por operadora e NÃO foi verificado; e a afirmação corrente de que «não há catracas, é sistema de honra com controle aleatório» é inferência sem confirmação de operadora e está na lista de exclusão do dossiê (item 56).",
+      "ano": 2026,
+      "revisarAte": "2027-08-01",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": [
+        "de-b09-n02",
+        "de-b09-n04"
+      ]
+    },
+    {
+      "id": "de-b09-ebe",
+      "afirmacao": "Het verhoogde tarief heeft twee verschillende juridische vormen. In stedelijk vervoer zegt § 9 lid 2 BefBedV dat de vervoerder een verhoogd tarief mag heffen «bis zu 60 Euro» — een plafond — of tweemaal het enkele tarief voor de afgelegde afstand als dat meer wordt. Bij de spoorwegen zegt § 6 lid 2 EVO dat het verhoogde tarief tweemaal het gewone tarief voor de afgelegde afstand is, «mindestens jedoch 60 Euro» — een bodem, die op een lange reis kan stijgen. Beide regels verlagen het bedrag tot 7 euro als de reiziger binnen een week na de dag van de controle aantoont dat hij op dat moment een geldig ticket had. En § 6 lid 4 EVO laat de verplichting geheel vervallen wanneer er op het vertrekstation noch een open loket noch een werkende automaat was.",
+      "fonte": "§ 9 BefBedV e § 6 EVO (Eisenbahnverkehrs-Verordnung, versão consolidada de 2023), ambos em gesetze-im-internet.de, abertos em 5/8/2026, verbatim. ⚠ CORREÇÃO DE PREMISSA: os dispositivos habitualmente citados — «§ 9 Abs. 3 EVO» e «§ 12 Abs. 1 VO-ABB» — NÃO são os corretos, e a citação errada é conferível por qualquer leitor. ⚠ A data da elevação de 40 € para 60 € (1/8/2015) é só [RESUMO]; o valor vigente de 60 € está verbatim no texto legal lido em 5/8/2026.",
+      "ano": 2026,
+      "revisarAte": "2027-08-01",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": [
+        "de-b09-n05",
+        "de-b09-n06"
+      ]
+    },
+    {
+      "id": "de-b09-265a",
+      "afirmacao": "Reizen zonder ticket is ook een strafrechtelijke zaak. § 265a StGB, «Erschleichen von Leistungen», betreft wie «die Beförderung durch ein Verkehrsmittel» verkrijgt met de bedoeling het tarief niet te betalen, en voorziet «Freiheitsstrafe bis zu einem Jahr oder … Geldstrafe»; lid 2 voegt eraan toe dat de poging strafbaar is. Op donderdag 16 april 2026 wees de Bundestag twee wetsvoorstellen af die het artikel zouden hebben afgeschaft, Drucksache 21/2722 (Bündnis 90/Die Grünen) en 21/1757 (Die Linke). Per 5 augustus 2026 is het artikel volledig van kracht.",
+      "fonte": "§ 265a StGB, gesetze-im-internet.de, aberto em 5/8/2026, verbatim; página do Deutscher Bundestag sobre a votação de 16/4/2026. O curso registra o resultado da votação e NÃO toma lado no debate — os proponentes argumentaram desproporcionalidade e impacto sobre pessoas pobres ou sem-teto; a favor votaram Grünen e Die Linke, contra CDU/CSU, AfD e SPD.",
+      "ano": 2026,
+      "revisarAte": "2027-04-30",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": [
+        "de-b09-n07"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b09-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "Automaat, papier, stempel, perron. Vier zetten, en maar twee ervan vragen een zin van u."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b09-n02",
+      "tom": "ganha",
+      "pt": "Het doosje op de paal is de Entwerter. Papier erin, een tijd wordt erop gedrukt, en de rit is van u."
+    },
+    {
+      "consulta": [
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WO-IST",
+      "encaixe": "der Fahrkartenautomat",
+      "encaixeGloss": "de kaartautomaat",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b09-p01",
+      "promptPt": "U staat in de hal en het ding dat u een reis verkoopt zit achter een van deze pilaren. Vraag. Spreek nu.",
+      "audioKey": "de-b09-t01",
+      "es": "Wo ist der Fahrkartenautomat?",
+      "pinyin": "voh ist dair FAR-kar-ten-ow-toh-maht",
+      "pt": "Waar is de kaartautomaat?",
+      "tts": "Wo ist der Fahrkartenautomat?"
+    },
+    {
+      "consulta": [
+        "transporte/bilhete",
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b09-p02",
+      "promptPt": "Er staat een mens aan het loket en een rij achter u. Eén reis, één persoon, één stad. Spreek nu.",
+      "audioKey": "de-b09-t02",
+      "es": "Einmal nach Hamburg, bitte.",
+      "pinyin": "EYN-mahl nakh HAHM-boork, BIT-uh",
+      "pt": "Eén keer naar Hamburg, alstublieft.",
+      "tts": "Einmal nach Hamburg, bitte."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b09-r01",
+      "es": "Einfach oder hin und zurück?",
+      "pt": "Enkele reis of heen en terug?",
+      "tts": "Einfach oder hin und zurück?",
+      "receptivo": true,
+      "acao": "Twee woorden om te herkennen: einfach is enkele reis, hin und zurück is heen en terug. Antwoord alleen met wat u wilt."
+    },
+    {
+      "consulta": [
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WO-IST",
+      "encaixe": "der Entwerter",
+      "encaixeGloss": "de validator",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b09-p02b",
+      "promptPt": "Papier in uw hand, en ergens op dit perron staat een klein doosje op een paal dat een tijd drukt. Vraag. Spreek nu.",
+      "audioKey": "de-b09-t03",
+      "es": "Wo ist der Entwerter?",
+      "pinyin": "voh ist dair ent-VAIR-ter",
+      "pt": "Waar is de validator?",
+      "tts": "Wo ist der Entwerter?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b09-n03",
+      "tom": "ganha",
+      "pt": "Wel in de app gekocht? Dan heeft het inchecken hem gevalideerd, en is er geen doosje om te zoeken."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b09-n04",
+      "tom": "protege",
+      "pt": "Papier zonder die stempel telt hetzelfde als geen papier. De regel is federaal, geen huisregel van een vervoerder."
+    },
+    {
+      "consulta": [
+        "transporte/bilhete",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b09-p03",
+      "promptPt": "U hebt gestempeld, en de afdruk kwam er vaag en scheef uit. Drie woorden tegen iemand in uniform. Spreek nu.",
+      "audioKey": "de-b09-t04",
+      "es": "Ist das gültig?",
+      "pinyin": "ist dass GEWL-tikh",
+      "pt": "Is dit geldig?",
+      "tts": "Ist das gültig?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b09-r02",
+      "es": "Der Zug nach Hamburg fährt heute von Gleis sieben.",
+      "pt": "De trein naar Hamburg vertrekt vandaag van spoor zeven.",
+      "tts": "Der Zug nach Hamburg fährt heute von Gleis sieben.",
+      "receptivo": true,
+      "acao": "Gleis is spoor, en het nummer valt helemaal aan het eind. Wacht op het laatste woord en loop dan."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b09-n08",
+      "tom": "ganha",
+      "pt": "Nummers komen hier laatst: Gleis sieben, zehn Uhr zwölf. Luister voorbij de zin naar het laatste woord."
+    },
+    {
+      "consulta": [
+        "transporte/plataforma"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b09-p04",
+      "promptPt": "U ving het laatste woord van de omroep en de borden gaan maar tot vijf. Vraag naar het spoor dat u hoorde. Spreek nu.",
+      "audioKey": "de-b09-t05",
+      "es": "Wo ist Gleis sieben?",
+      "pinyin": "voh ist glyce ZEE-ben",
+      "pt": "Waar is spoor zeven?",
+      "tts": "Wo ist Gleis sieben?"
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "KONNEN-SIE",
+      "encaixe": "das wiederholen",
+      "encaixeGloss": "dat herhalen",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b09-p05",
+      "promptPt": "De luidspreker veranderde iets en het hele perron kwam in beweging. Vier woorden tegen de persoon naast u. Spreek nu.",
+      "audioKey": "de-b09-t06",
+      "es": "Können Sie das wiederholen?",
+      "pinyin": "KUR-nen zee dass VEE-der-hoh-len",
+      "pt": "Kunt u dat herhalen?",
+      "tts": "Können Sie das wiederholen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b09-n05",
+      "tom": "protege",
+      "pt": "In de stad is zestig euro het plafond, tenzij het dubbele meer is. Bij de spoorwegen is zestig juist de bodem."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b09-n06",
+      "tom": "ganha",
+      "pt": "Toon binnen een week aan dat u wel een geldig ticket had, en beide regels brengen het bedrag terug naar zeven euro."
+    },
+    {
+      "consulta": [
+        "transporte/bilhete",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "KONNEN-SIE",
+      "encaixe": "mir beim Automaten helfen",
+      "encaixeGloss": "mij bij de automaat helpen",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b09-p06",
+      "promptPt": "Derde scherm en uw kaart kwam er weer uit, met iemand die achter u wacht. Vraag het aan hen. Spreek nu.",
+      "audioKey": "de-b09-t07",
+      "es": "Können Sie mir beim Automaten helfen?",
+      "pinyin": "KUR-nen zee meer byme ow-toh-MAH-ten HELL-fen",
+      "pt": "Kunt u mij bij de automaat helpen?",
+      "tts": "Können Sie mir beim Automaten helfen?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b09-r03",
+      "es": "Die Fahrkarten, bitte.",
+      "pt": "De kaartjes, alstublieft.",
+      "tts": "Die Fahrkarten, bitte.",
+      "receptivo": true,
+      "acao": "Dat is de controle. Geef het papier met de bedrukte kant boven, stempel en al, en laat ze het lezen."
+    },
+    {
+      "consulta": [
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b09-p07",
+      "promptPt": "Het uniform komt bij uw rij aan en uw handen zitten vol koffie en jas. Zeg de zin terwijl u het opdiept. Spreek nu.",
+      "audioKey": "de-b09-t08",
+      "es": "Ich habe eine Fahrkarte.",
+      "pinyin": "ikh HAH-buh EYE-nuh FAR-kar-tuh",
+      "pt": "Ik heb een kaartje.",
+      "tts": "Ich habe eine Fahrkarte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b09-n07",
+      "tom": "protege",
+      "pt": "Opzettelijk niet betalen is hier ook strafbaar, tot een jaar. Het parlement hield dat artikel in april 2026."
+    },
+    {
+      "consulta": [
+        "pagar/pedir",
+        "compras/pagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "KONNEN-SIE",
+      "encaixe": "mir eine Quittung geben",
+      "encaixeGloss": "mij een bonnetje geven",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b09-p08",
+      "promptPt": "U betaalde aan het loket en uw werkgever wil het papier achteraf. Vraag ernaar voordat u wegloopt. Spreek nu.",
+      "audioKey": "de-b09-t09",
+      "es": "Können Sie mir eine Quittung geben?",
+      "pinyin": "KUR-nen zee meer EYE-nuh KVIT-oong GAY-ben",
+      "pt": "Kunt u mij een bonnetje geven?",
+      "tts": "Können Sie mir eine Quittung geben?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b09-r04",
+      "es": "Nächster Halt: Hauptbahnhof.",
+      "pt": "Volgende halte: hoofdstation.",
+      "tts": "Nächster Halt: Hauptbahnhof.",
+      "receptivo": true,
+      "acao": "Halt is halte en Hauptbahnhof is het hoofdstation. Als u uw naam in dat vak hoort, sta op."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b09-p09",
+      "promptPt": "Papier gecontroleerd, stoel behouden, en het uniform loopt door het gangpad verder. Sluit af. Spreek nu.",
+      "audioKey": "de-b09-t10",
+      "es": "Danke schön!",
+      "pinyin": "DAHN-kuh shurn",
+      "pt": "Dank u wel!",
+      "tts": "Danke schön!"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-b09-s01",
+      "es": "Wo ist der Entwerter? Ist das gültig? Ich habe eine Fahrkarte.",
+      "pinyin": "voh ist dair ent-VAIR-ter. ist dass GEWL-tikh. ikh HAH-buh EYE-nuh FAR-kar-tuh",
+      "pt": "Herhaal de drie zinnen die de hele rit dekken, van de automaat tot de controle in de trein.",
+      "tts": "Wo ist der Entwerter? Ist das gültig? Ich habe eine Fahrkarte."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b09-n09",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "B09 klaar. Stempel het papier, vang het laatste woord van de omroep, en loop naar het nummer dat u hoorde."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Papier, stempel, nummer",
+    "secoes": [
+      {
+        "titulo": "Het doosje op de paal",
+        "corpo": "Een papieren ticket uit de automaat is meestal nog geen ticket. De Entwerter — een klein doosje op een paal op het perron of net binnen in het voertuig — drukt er een datum en tijd op, en die afdruk is wat het start. De verplichting is in federale vervoersregelgeving vastgelegd, die het niet onmiddellijk valideren in één adem noemt met helemaal geen geldig ticket hebben en het niet kunnen tonen. Drie situaties, één gevolg.",
+        "exemplos": [
+          {
+            "es": "Wo ist der Entwerter?",
+            "pt": "Waar is de validator?"
+          },
+          {
+            "es": "Ist das gültig?",
+            "pt": "Is dit geldig?"
+          }
+        ]
+      },
+      {
+        "titulo": "Wel in de app gekocht",
+        "corpo": "Een ticket dat via de app van de vervoerder is gekocht en ingecheckt, valideert zichzelf — de voorwaarden zeggen het met zoveel woorden: met de check-in wordt het geboekte ticket elektronisch gevalideerd. Er is niets op het perron om te zoeken en niets om af te drukken. De regel is simpel: papier heeft een stempel nodig, een telefoon niet."
+      },
+      {
+        "titulo": "Twee vormen van dezelfde toeslag",
+        "corpo": "Het verhoogde tarief heeft twee juridische vormen en die zijn niet hetzelfde getal. In stedelijk vervoer mag de vervoerder tot zestig euro rekenen — dat is een plafond — of tweemaal het enkeltarief als dat meer is. Bij de spoorwegen tweemaal het gewone tarief met een minimum van zestig euro — dat is een bodem, en op een lange reis loopt hij op. Beide regels hebben dezelfde ontsnapping: bezat u wel een geldig ticket en kon u het niet tonen, dan verlaagt bewijs binnen een week na de controle het bedrag tot zeven euro. Bij de spoorwegen is er nog één: had het vertrekstation noch een open loket noch een werkende automaat, dan is helemaal geen toeslag verschuldigd."
+      },
+      {
+        "titulo": "En het deel dat bezoekers verrast",
+        "corpo": "Zonder ticket reizen is niet alleen een kwestie van toeslag. Het strafwetboek dekt het verkrijgen van vervoer met de bedoeling niet te betalen, met tot een jaar of een geldboete, en de poging is op zichzelf strafbaar. Twee wetsvoorstellen om dat artikel te schrappen zijn op 16 april 2026 in het parlement weggestemd, dus het blijft staan. Meer heeft een bezoeker niet nodig: geen standpunt in het debat, dat hier levendig is, maar de wetenschap dat het artikel bestaat en dat een ticket dat u niet stempelde juridisch een ticket is dat u niet hebt."
+      },
+      {
+        "titulo": "Nummers, en waar ze zich verbergen",
+        "corpo": "Dit is het deel van de reis waarin nummers komen zonder dat u erom vraagt, en het Duits zet ze aan het eind: der Zug nach Hamburg fährt heute von Gleis sieben. De zin is lang en het bruikbare woord is het laatste. Twee gewoonten dragen u erdoorheen: wacht op het eind in plaats van het begin te vertalen, en als de luidspreker iets verandert, laat u het met vier woorden herhalen. Kloktijden werken hetzelfde — zehn Uhr zwölf is tien twaalf, uur eerst, minuten daarna."
+      },
+      {
+        "titulo": "Wat hier niet wordt beweerd",
+        "corpo": "Niets hierboven vertelt u welke tickets in welk netwerk gestempeld moeten worden — dat verschilt per vervoerder en stad, en het eerlijke antwoord is het doosje zoeken en vragen. Niets hierboven citeert een lokaal tarief: stedelijke zones en prijzen veranderen elke januari en verschillen per stad. Als u die twee feiten nodig hebt, staan ze op de automaat voor u, en de persoon ernaast is met vier woorden te vragen."
+      }
+    ]
+  },
+  "permissao": "U mag een ticket stempelen waarvan u niet zeker weet of het gestempeld moet worden — een overbodige afdruk kost niets. U mag een vreemde vragen waar het doosje staat, vragen of de vage afdruk telt, en het papier omhoog houden in plaats van het uit te leggen. En wordt u gecontroleerd met een ticket dat u niet kunt tonen, dan mag u het formulier rustig aannemen en binnen de week het bewijs brengen in plaats van het bedrag als definitief te lezen.",
+  "permissaoAudioKey": "de-b09-n06",
+  "espelho": "Iedereen die thuis ooit een parkeerkaartje kocht en op het dashboard met de gedrukte kant naar beneden liet liggen kent dit gevoel al: het papier bestond, het bewijs was niet zichtbaar. De stempel is de zichtbare helft.",
+  "fichasCulturais": [
+    {
+      "sinal": "De automaat geeft u een papieren ticket met de datum van vandaag er al op, en er staat een klein doosje op een paal op enkele stappen.",
+      "suaLeitura": "De datum staat er, dus het ticket leeft duidelijk al — dat doosje is vast voor abonnementen of voor mensen die van machines houden.",
+      "oQueEAli": "Federale vervoersregelgeving noemt de reiziger die niet, of niet onmiddellijk, heeft gevalideerd in dezelfde zin als de reiziger die nooit een ticket kocht en die het niet kan tonen. De spoorwegvoorwaarden zeggen het nog duidelijker: een ticket is ongeldig als het de voorgeschreven validatie mist.",
+      "oQueVoceFaz": "Stempel voor u instapt, niet erna. Kunt u het doosje niet vinden, vraag dan waar het is — het woord is Entwerter — en komt de afdruk vaag, toon het dan aan de eerste persoon in uniform en vraag of het telt.",
+      "oQueMelhora": "Het papier wordt een ticket, de controle in de trein duurt tien seconden, en u draagt niet meer de hele rit een laag gebrom van twijfel mee.",
+      "ondeNaoVale": "Het vertelt u niet welke tickets op welk netwerk gestempeld moeten worden — dat verschilt per vervoerder en is hier niet geverifieerd. Een ticket dat via de app is gekocht en ingecheckt, wordt elektronisch gevalideerd en heeft geen doosje om te zoeken. En niets hierin beschrijft stedelijke zones of tarieven, die elke januari veranderen en per stad verschillen.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-b09-n02",
+        "de-b09-n04"
+      ]
+    },
+    {
+      "sinal": "Een controleur vraagt om kaartjes en het geldige ticket dat u bezit ligt in de andere jas, in het hotel.",
+      "suaLeitura": "Dat is zestig euro weg en daar is niets meer aan te doen.",
+      "oQueEAli": "Beide regelsets — de stedelijke en de spoorse — verlagen het verhoogde tarief tot zeven euro als u binnen een week na de dag van de controle aantoont dat u op dat moment een geldig ticket had. De spoorregel voegt een tweede ontsnapping toe: had het vertrekstation noch een open loket noch een werkende automaat, dan is het verhoogde tarief niet verschuldigd. En de twee bedragen zijn niet symmetrisch: zestig is een plafond in de stad en een minimum bij de spoorwegen.",
+      "oQueVoceFaz": "Neem het formulier mee, bewaar het, en ga binnen de week terug met het ticket of het app-bewijs. Vraag ze op te schrijven waar het bewijs moet worden getoond — met vier woorden lukt dat.",
+      "oQueMelhora": "Zeven in plaats van zestig, en een ontmoeting die definitief aanvoelde wordt een boodschap met een deadline.",
+      "ondeNaoVale": "De verlaging is voor het geval dat u een geldig ticket bezat dat u niet kon tonen — ze dekt niet het geval van geen ticket hebben, en aan de stedelijke kant is de formulering opgebouwd rond de houder van een persoonlijk abonnement. Het strafartikel is nauwer dan de toeslag: het draait om de bedoeling niet te betalen, dus het gaat niet over een vergeten stempel op een ticket dat u wel kocht. Het draagt tot een jaar, met strafbare poging; twee wetsvoorstellen om het te schrappen zijn op 16 april 2026 in het parlement afgewezen, en deze cursus registreert de stemming zonder in een debat te stappen dat bij de mensen daar hoort.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-b09-n05",
+        "de-b09-n06",
+        "de-b09-n07"
+      ]
+    }
+  ]
+}

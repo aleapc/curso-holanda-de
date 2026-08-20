@@ -1,0 +1,402 @@
+{
+  "id": "b03",
+  "nivel": "basico",
+  "numero": 3,
+  "parte": "B03",
+  "titulo": "Entschuldigung, en dan wat u nodig hebt",
+  "subtitulo": "Eén opener voor elke onbekende in het land — het langste woord van dag één, dat nu meer werk doet dan enig ander woord dat u bezit",
+  "cena": "Het antwoord kwam op volle snelheid terug, u ving één woord op, de prijs zat ergens in het midden, en de persoon kijkt al naar wie er volgende in de rij is.",
+  "moldura": "ganha",
+  "frasePiso": "Entschuldigung, en dan wat u nodig hebt. Eén opener, en elke onbekende aan elke toonbank wordt iemand aan wie u iets kunt vragen.",
+  "moldes": [
+    "ENTSCHULDIGUNG"
+  ],
+  "clique": {
+    "contagem": [
+      "het loket",
+      "de hotelreceptie",
+      "de bushalte",
+      "de winkeltoonbank"
+    ],
+    "desconto": "Niemand gaf u een andere opening voor de bediende, de receptioniste, de chauffeur en de vrouw aan de kassa. U hield één woord aan en veranderde alleen de helft die erna kwam.",
+    "piso": "De volgende keer dat een zin langs u glijdt, glimlacht en knikt u niet. U opent met één woord en vraagt om de helft die u miste."
+  },
+  "fatosDatados": [
+    {
+      "id": "de-b03-englisch",
+      "afirmacao": "Asking whether the person speaks English is a fair bet in Germany rather than a certainty, and the numbers say so carefully. In Special Eurobarometer 540, Europeans and their languages (fieldwork September–October 2023, published 2024, Verian for DG EAC), 65 per cent in Germany reported speaking English well enough to hold a conversation as an additional language, against an EU27 average of 47 per cent. The comparable earlier reading, Special Eurobarometer 386 (fieldwork February–March 2012), gave Germany 56 per cent and the EU27 38 per cent. A different instrument gives a much smaller picture and must not be added to it: in the Eurostat Adult Education Survey for 2022, 87.7 per cent of people in Germany aged 25–64 reported at least one foreign language, but only about 28 per cent of those rated themselves proficient in their best one — roughly a quarter of the age band. The two questions are not interchangeable.",
+      "fonte": "Special Eurobarometer 540, «Europeans and their languages», campo set–out 2023, publicado 2024, Verian para a DG EAC, DOI 10.2766/28257, p. 20, tabela «D48.otherlang.»: Alemanha 65%, média EU27 47% («Nearly half of Europeans (47%) say they speak it, a slight increase (+5) compared to 2012»). Special Eurobarometer 386, campo fev–mar 2012, p. 21, tabela D48T: Alemanha «English 56%», média EU27 38%. Eurostat, Adult Education Survey, tabelas edat_aes_l21/l31, Alemanha 25–64 anos, 2022: 87,7% com ≥1 língua estrangeira, 28,0% proficientes na melhor LE entre quem conhece ≥1. Pesquisa §10.1. RESSALVA DE PROVENIÊNCIA declarada na pesquisa: o PDF do SP540 foi aberto num espelho fora do domínio europa.eu (capa, ISBN, DOI e layout íntegros, valor validado contra o texto corrido da p. 19); se o produto exigir link em domínio europeu, rebaixar para MODERADA. NÃO SOMAR os dois instrumentos e não apresentá-los como confirmação mútua.",
+      "ano": 2024,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-b03-n06",
+        "de-b03-n07"
+      ]
+    },
+    {
+      "id": "de-b03-quebras",
+      "afirmacao": "Where English is more likely to come back at you follows a European pattern rather than a German one, and it is worth knowing because it explains why the airport desk and the village counter behave differently. In Special Eurobarometer 386 the European breakdowns record self-rated very good English as more frequent among 15–24 year olds (27 per cent) than among people aged 55 and over (15 per cent), among those who finished full-time education at 20 or later (26 per cent), and among people living in large towns (29 per cent) compared with rural villages (15 per cent). The same report notes that people in Germany who speak English are among those who report using it only occasionally (58 per cent).",
+      "fonte": "Special Eurobarometer 386, «Europeans and their Languages», campo fev–mar 2012, TNS Opinion & Social para a DG EAC, quebras EUROPEIAS (não alemãs), verbatim: inglês «very good» mais frequente entre «younger people, particularly 15-24 year olds (27%), compared with those aged 55+ (15%)»; entre «those who finished their full time education aged 20+ (26%)»; e entre «people who live in large towns (29%), particularly when compared with those who live in rural villages (15%)». Sobre a Alemanha, o mesmo relatório registra o uso apenas ocasional (58%). Pesquisa §10.1. RESSALVA OBRIGATÓRIA: as quebras são AGREGADOS EUROPEUS, não alemães; e a diferença leste-oeste no inglês está AUSENTE como dado (item 38 da lista de exclusão) — Eurobarómetro e Eurostat nunca quebram por Bundesland. O EF EPI não é estimativa populacional e não sustenta nenhuma frase do tipo «X% dos alemães falam inglês».",
+      "ano": 2012,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-b03-n05"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b03-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "U verliest op dag één een zin. Dat is niets om te ontwijken; het is iets om een zet voor klaar te hebben.",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b03-n02",
+      "bloco": "molde",
+      "pt": "Hier de bouwsteen: Entschuldigung, en dan wat u nodig hebt. Eén opener voor elke onbekende in het land.",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b03-n03",
+      "pt": "U leerde het woord in deel twee als excuus. Geef het een tweede helft en het wordt een manier naar binnen.",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-b03-t01",
+      "es": "Entschuldigung, ich habe das nicht verstanden.",
+      "pinyin": "ent-SHOOL-di-goong, ikh HAH-buh dahs nikht fehr-SHTAHN-den",
+      "pt": "Pardon, ik heb dat niet verstaan. De opener, dan een blok dat u nooit uit elkaar haalt.",
+      "tts": "Entschuldigung, ich habe das nicht verstanden."
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "ich habe das nicht verstanden",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b03-p01",
+      "promptPt": "Aan de winkeltoonbank is een hele zin langs u gegaan en er zit ergens een getal in. Zeg het. Spreek nu.",
+      "audioKey": "de-b03-t01",
+      "es": "Entschuldigung, ich habe das nicht verstanden.",
+      "pinyin": "ent-SHOOL-di-goong, ikh HAH-buh dahs nikht fehr-SHTAHN-den",
+      "pt": "Pardon, ik heb dat niet verstaan.",
+      "tts": "Entschuldigung, ich habe das nicht verstanden."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b03-r01",
+      "receptivo": true,
+      "es": "Ach so — das macht sechs Euro fünfzig.",
+      "pinyin": "akh zo — dahs makht zeks OY-ro FUENF-tsikh",
+      "pt": "Aha — dat wordt zes euro vijftig. De herhaling komt trager, en het getal staat aan het eind.",
+      "tts": "Ach so, das macht sechs Euro fünfzig.",
+      "acao": "Luister naar het getal en laat de zin eromheen los. Steek vingers op voor de euro's als u het bevestigd wilt."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b03-n04",
+      "pt": "Zeg de opener en laat dan een halve tel stilte. Die pauze draait een onbekende naar u toe.",
+      "tom": "ganha"
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "noch einmal, bitte",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b03-p02",
+      "promptPt": "Aan de hotelreceptie heeft hij u de deurcode in één adem gegeven en u ving er niets van op. Spreek nu.",
+      "audioKey": "de-b03-t02",
+      "es": "Entschuldigung, noch einmal, bitte.",
+      "pinyin": "ent-SHOOL-di-goong, nokh INE-mahl, BIT-tuh",
+      "pt": "Pardon, nog een keer, alstublieft.",
+      "tts": "Entschuldigung, noch einmal, bitte."
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "langsamer, bitte",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b03-p03",
+      "promptPt": "Hij heeft het op precies dezelfde snelheid herhaald. Vraag deze keer om het andere, wat wél helpt. Spreek nu.",
+      "audioKey": "de-b03-t03",
+      "es": "Entschuldigung, langsamer, bitte.",
+      "pinyin": "ent-SHOOL-di-goong, LAHNG-zah-muh, BIT-tuh",
+      "pt": "Pardon, langzamer, alstublieft.",
+      "tts": "Entschuldigung, langsamer, bitte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b03-n09",
+      "pt": "Langzamer is een kleinere vraag dan opnieuw, en werkt beter. Mensen herhalen op snelheid; ze vertragen op verzoek.",
+      "tom": "ganha"
+    },
+    {
+      "consulta": [
+        "reparo/ingles"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "sprechen Sie Englisch",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b03-p04",
+      "promptPt": "Het loket, een aansluiting met twee overstappen, en de plaatselijke taal is op. Vraag eerst, ga er niet vanuit. Spreek nu.",
+      "audioKey": "de-b03-t04",
+      "es": "Entschuldigung, sprechen Sie Englisch?",
+      "pinyin": "ent-SHOOL-di-goong, SHPREH-hyen zee ENG-lish",
+      "pt": "Pardon, spreekt u Engels?",
+      "tts": "Entschuldigung, sprechen Sie Englisch?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b03-r02",
+      "receptivo": true,
+      "es": "Ein bisschen. Was suchen Sie?",
+      "pinyin": "ine BIS-hyen. vahs ZOO-khen zee",
+      "pt": "Een beetje. Wat zoekt u? Een ja die eerlijk is over zijn maat, en die brengt u toch waar u wilt.",
+      "tts": "Ein bisschen. Was suchen Sie?",
+      "acao": "Neem de kleine ja en antwoord met één zelfstandig naamwoord in plaats van een zin. Een beetje Engels plus één naamwoord is een heel gesprek."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b03-n05",
+      "pt": "Waar Engels terugkomt volgt een Europees patroon: jonger, meer scholing, grotere steden boven dorpen.",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b03-n06",
+      "pt": "In de Europese enquête van 2023 zei vijfenzestig procent in Duitsland een gesprek in het Engels te kunnen voeren.",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b03-n07",
+      "pt": "Diezelfde enquête zet het Europese gemiddelde op zevenenveertig, en velen die ja zeggen gebruiken het maar af en toe.",
+      "tom": "ganha"
+    },
+    {
+      "consulta": [
+        "reparo/escreve"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "schreiben Sie es bitte auf",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b03-p05",
+      "promptPt": "Derde poging op hetzelfde spoornummer, trein over twaalf minuten, en er ligt een pen op de balie. Spreek nu.",
+      "audioKey": "de-b03-t05",
+      "es": "Entschuldigung, schreiben Sie es bitte auf.",
+      "pinyin": "ent-SHOOL-di-goong, SHRY-ben zee es BIT-tuh owf",
+      "pt": "Pardon, schrijft u het alstublieft op.",
+      "tts": "Entschuldigung, schreiben Sie es bitte auf."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b03-n08",
+      "pt": "Getallen kosten u geld. Krijg de prijs, het spoor en de tijd op papier of op een scherm.",
+      "tom": "ganha"
+    },
+    {
+      "consulta": [
+        "reparo/como-se-diz"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "was bedeutet das",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b03-p06",
+      "promptPt": "Eén woord op de kaart stopt u, uw vinger ligt er al op, en zij kijkt naar uw vinger. Spreek nu.",
+      "audioKey": "de-b03-t06",
+      "es": "Entschuldigung, was bedeutet das?",
+      "pinyin": "ent-SHOOL-di-goong, vahs buh-DOY-tet dahs",
+      "pt": "Pardon, wat betekent dat?",
+      "tts": "Entschuldigung, was bedeutet das?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b03-n10",
+      "pt": "Twee laatste helften voor de bouwsteen: een minuut van iemands tijd, en een eerlijke regel over uw Duits.",
+      "tom": "ganha"
+    },
+    {
+      "consulta": [
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "einen Moment, bitte",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b03-p07",
+      "promptPt": "Bij de bushalte wacht de chauffeur en uw kaartje zit in de verkeerde zak. Koop tien seconden. Spreek nu.",
+      "audioKey": "de-b03-t07",
+      "es": "Entschuldigung, einen Moment, bitte.",
+      "pinyin": "ent-SHOOL-di-goong, INE-en mo-MENT, BIT-tuh",
+      "pt": "Pardon, een momentje, alstublieft.",
+      "tts": "Entschuldigung, einen Moment, bitte."
+    },
+    {
+      "consulta": [
+        "reparo/ingles"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "ich spreche nur ein bisschen Deutsch",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b03-p08",
+      "promptPt": "Ze heeft uw drie goede woorden voor veel meer aangezien en gaat nu op volle snelheid door. Zet het niveau eerlijk. Spreek nu.",
+      "audioKey": "de-b03-t08",
+      "es": "Entschuldigung, ich spreche nur ein bisschen Deutsch.",
+      "pinyin": "ent-SHOOL-di-goong, ikh SHPREH-hyuh noor ine BIS-hyen doytsh",
+      "pt": "Pardon, ik spreek maar een beetje Duits.",
+      "tts": "Entschuldigung, ich spreche nur ein bisschen Deutsch."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b03-n11",
+      "pt": "En de afsluiting. Zodra u het hebt, zegt u het en bedankt u. Dat sluit de uitwisseling en u loopt door.",
+      "tom": "ganha"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b03-p09",
+      "promptPt": "U hebt het nummer, het staat op de achterkant van een bonnetje, en hij besteedde er een minuut aan met een rij achter. Sluit groot af. Spreek nu.",
+      "audioKey": "de-b03-t09",
+      "es": "Alles klar. Vielen Dank!",
+      "pinyin": "AH-les klahr. FEE-len dahnk",
+      "pt": "Duidelijk. Hartelijk dank!",
+      "tts": "Alles klar. Vielen Dank!"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-b03-s01",
+      "molde": "ENTSCHULDIGUNG",
+      "es": "Entschuldigung, noch einmal, bitte. Entschuldigung, langsamer, bitte. Entschuldigung, sprechen Sie Englisch?",
+      "pinyin": "ent-SHOOL-di-goong, nokh INE-mahl · ent-SHOOL-di-goong, LAHNG-zah-muh · ent-SHOOL-di-goong, SHPREH-hyen zee ENG-lish",
+      "pt": "Schaduw dezelfde opener over drie behoeften, en laat de opener elke keer precies gelijk blijven.",
+      "tts": "Entschuldigung, noch einmal, bitte. Entschuldigung, langsamer, bitte. Entschuldigung, sprechen Sie Englisch?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b03-n12",
+      "bloco": "recap",
+      "pt": "B03 klaar. Eén opener, zeven tweede helften, en de reparatie gebeurt in het Duits in plaats van in een schouderophaal.",
+      "tom": "ganha"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Eén opener, zeven tweede helften",
+    "secoes": [
+      {
+        "titulo": "Waarom de opener één woord is",
+        "corpo": "Entschuldigung is het langste woord van de startkit en dat is met opzet. Het is onmogelijk te verwarren met iets anders, elke klank erin is er een die het Nederlands al kent, en het koopt u de aandacht van een onbekende zonder verdere beleefdheid eromheen. Entschuldigen Sie is de vollere versie en u hoort die zeker; de korte is wat er onder druk uitkomt, en die is de moeite waard om te bezitten.",
+        "exemplos": [
+          {
+            "es": "Entschuldigung, noch einmal, bitte.",
+            "pt": "Pardon, nog een keer, alstublieft."
+          },
+          {
+            "es": "Entschuldigung, langsamer, bitte.",
+            "pt": "Pardon, langzamer, alstublieft."
+          }
+        ]
+      },
+      {
+        "titulo": "De tweede helft komt heel binnen",
+        "corpo": "Elk van de zeven tweede helften wordt als één stuk geleerd en nooit uit elkaar gehaald. Dat is geen luiheid — het is het ontwerp. Het Duits markeert het werk van een zelfstandig naamwoord op het lidwoord ervoor, en het lidwoord is het eerste woord van de opening; elke bouwsteen die u de tweede helft zelf zou laten bouwen, zou u een verbuigingstabel aan de kassa in de hand duwen. U kiest hier een behoefte, geen vorm: nog een keer, langzamer, opschrijven, wat betekent dat, een momentje, spreekt u Engels, ik spreek maar een beetje. De bouwsteen verandert nooit."
+      },
+      {
+        "titulo": "Langzamer verslaat opnieuw",
+        "corpo": "Vragen om een herhaling levert dezelfde zin op dezelfde snelheid op, omdat de persoon geen reden heeft aan te nemen dat snelheid het probleem was. Vragen om langzamer benoemt de daadwerkelijke moeilijkheid en is een kleinere gunst. Gebruik noch einmal wanneer u de zin volledig miste, en langsamer wanneer u hem hoorde en niet kon bijhouden — en zit er een getal in, sla dan beide over en ga direct naar papier."
+      },
+      {
+        "titulo": "Getallen gaan op papier",
+        "corpo": "Prijzen, spoornummers, tijden en deurcodes zijn waar een gemiste zin uitmondt in geld of een gemiste trein, en het zijn ook de woorden die herhaling het slechtst overleven. Schreiben Sie es bitte auf zet het op een bon, een blocnote of een telefoonscherm. Het is het enige verzoek in dit hoofdstuk dat eindigt met het kleine woordje auf alleen aan het eind van de zin — het Duits doet dat met een familie van werkwoorden, en binnen deze bouwsteen gebeurt het voor u in plaats van u overkomt het."
+      },
+      {
+        "titulo": "Vragen naar Engels, en wat de cijfers echt zeggen",
+        "corpo": "Sprechen Sie Englisch is een goede gok, geen veilige aanname. In de Europese talenenquête van 2023 zei 65 procent van de respondenten in Duitsland Engels te spreken op een niveau waarop ze een gesprek konden voeren, tegen een Europees gemiddelde van 47 — omhoog van 56 en 38 in dezelfde enquête in 2012. Twee eerlijke grenzen horen erbij. Ten eerste geeft een ander Europees instrument dat naar taalvaardigheid vraagt in plaats van naar conversatie een veel kleiner cijfer voor Duitsland, en de twee kunnen niet worden opgeteld of als elkaars bevestiging worden gepresenteerd. Ten tweede tonen de Europese uitsplitsingen sterk zelfgerapporteerd Engels geconcentreerd bij jongere mensen, mensen die langer studeerden en mensen in grote steden in plaats van dorpen — daarom gedragen de luchthavenbalie en de dorpsbakker zich anders, en het heeft niets met bereidwilligheid te maken."
+      },
+      {
+        "titulo": "De pauze, en de afsluiting",
+        "corpo": "Zeg de opener en houd dan op. Een halve tel stilte verandert de houding van de ander: hij draait zich naar u toe, en wat er daarna komt, komt trager dan het anders zou zijn. En sluit de uitwisseling hardop af — alles klar plus een dank. De maat van de dank kiest u zelf, en iemand die net een minuut aan u besteedde met een rij achter zich heeft de grote verdiend."
+      }
+    ]
+  },
+  "slot": "B03",
+  "permissao": "U mag het gesprek stoppen. Om langzamer, om een herhaling of om iets op papier vragen is normaal aan een toonbank, geen bekentenis — en de persoon voor u zet veel liever een spoornummer op papier dan u de verkeerde trein te zien nemen. U mag ook hardop zeggen dat u maar een beetje Duits hebt. Het is waar, het is kort, en het maakt alles daarna makkelijker.",
+  "permissaoAudioKey": "de-b03-n04",
+  "espelho": "U doet dit hele stuk thuis al op snelheid, zonder het te merken: sorry, wat zei u, kunt u dat herhalen, mag ik het opschrijven. Niemand heeft ooit minder van u gedacht om die vragen. Het enige nieuwe is dat de opener vier lettergrepen lang is en de tweede helft in één stuk komt.",
+  "fichasCulturais": [
+    {
+      "sinal": "U vraagt iets in zorgvuldig Duits en het antwoord komt regelrecht in het Engels terug.",
+      "suaLeitura": "Mijn Duits was zo slecht dat ze het opgaven, dus ik moet stoppen met proberen.",
+      "oQueEAli": "In de Europese talenenquête van 2023 rapporteerde 65 procent van de respondenten in Duitsland genoeg Engels voor een gesprek, ruim boven het Europese gemiddelde van 47 — en diezelfde enquête noteert dat velen het slechts af en toe gebruiken. Overschakelen is de snelste route voor iemand met een rij achter u, en het is ook een kans om een taal te oefenen die ze niet vaak hoeven te gebruiken.",
+      "oQueVoceFaz": "Neem het Engelse antwoord, rond de transactie af, en open de volgende toch weer in het Duits. Wilt u de uitwisseling in het Duits houden, gebruik dan de reparatieregel in plaats van in het Engels opnieuw te beginnen.",
+      "oQueMelhora": "U stopt met een overstap als oordeel te lezen, en uw openers blijven beter worden omdat u ze blijft gebruiken.",
+      "ondeNaoVale": "Het enquêtecijfer is zelfgerapporteerd vermogen om een gesprek te voeren. Een andere Europese enquête die naar taalvaardigheid vraagt geeft een veel kleiner cijfer voor Duitsland, en de twee vragen zijn niet uitwisselbaar — tel ze niet op en citeer ze niet als elkaars bevestiging. En geen open data splitst het Engels binnen Duitsland naar regio.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-b03-n06"
+      ]
+    },
+    {
+      "sinal": "Aan de luchthavenbalie komt de overstap naar Engels meteen, en aan een balie in een klein stadje twee uur later blijft hij helemaal uit.",
+      "suaLeitura": "De tweede persoon had in het Engels kunnen helpen en koos ervoor dat niet te doen.",
+      "oQueEAli": "De Europese uitsplitsingen in de talenenquête noteren zelfgerapporteerd zeer goed Engels vaker bij 15–24-jarigen dan bij mensen van 55 en ouder, bij mensen die tot 20 of later voltijd studeerden, en bij mensen in grote steden dan in dorpen. Het is een verdeling, geen instelling, en niets in de data meet bereidwilligheid.",
+      "oQueVoceFaz": "Neem de reparatiekit mee naar kleine plaatsen in plaats van van taal te wisselen. Opener, dan langzamer, dan op papier — die ladder werkt waar Engels niet wordt aangeboden, precies waar u hem nodig hebt.",
+      "oQueMelhora": "De uitwisselingen die vast zouden lopen, komen af, en de plekken waar niemand omschakelt, worden geen plekken meer die u vermijdt.",
+      "ondeNaoVale": "Die uitsplitsingen zijn Europese gemiddelden, geen Duitse, en ze voorspellen niets over de persoon voor u — genoeg dorpsbewoners spreken vloeiend Engels en genoeg mensen aan luchthavenbalies niet. Er is ook geen open data die dit binnen Duitsland naar regio uitsplitst — de Europese enquêtes splitsen naar leeftijd, scholing en stadsgrootte, nooit naar regio — dus elke regionale versie van deze bewering is gevolgtrekking, geen meting.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-b03-n05"
+      ]
+    }
+  ]
+}

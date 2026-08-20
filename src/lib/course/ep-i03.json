@@ -1,0 +1,264 @@
+{
+  "id": "i03",
+  "nivel": "intermediario",
+  "numero": 21,
+  "parte": "I03",
+  "titulo": "Der Teller, den Sie nie bestellt hätten",
+  "subtitulo": "Fünf Namen auf einer Kreidetafel, die Sie nie gehört haben — und ein Baustein, der die Wahl auf zwei reduziert",
+  "cena": "Kleines Café am Werktag, kurz nach zwölf. Die Kreidetafel listet fünf Gerichte, die Sie nie gehört haben, und die Bedienung wartet mit dem Block in der Hand.",
+  "moldura": "ganha",
+  "decisao": "welches Gericht — die Empfehlung des Hauses gegen das eine Wort auf der Tafel, das Sie schon aussprechen können",
+  "emJogo": "ambos",
+  "moldes": ["WAS-EMPFEHLEN-SIE"],
+  "clique": {
+    "contagem": ["Theke", "Weinkarte", "Dessert"],
+    "desconto": "An der Theke, bei der Weinkarte und beim Dessert haben Sie dieselben vier Wörter benutzt. Nur die zwei Dinge dazwischen wechselten, und die kamen schon fertig.",
+    "piso": "Das nächste Mal, wenn eine Tafel fünf Namen zeigt, die Sie nie gehört haben, lesen Sie sie nicht mehr alle durch. Sie fragen Wat raadt u aan und nennen zwei."
+  },
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-i03-n01",
+      "gesto": 3,
+      "tom": "ganha",
+      "bloco": "aquecimento",
+      "pt": "Warm-up: der Faustschlag. Eine Silbe pro Wort trägt ihn — VIS. VLEES. RAADT-aan."
+    },
+    {
+      "consulta": ["reparo/devagar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "bloco": "callback",
+      "molde": "KONNEN-SIE",
+      "encaixe": "dat herhalen",
+      "encaixeGloss": "das wiederholen",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i03-p01",
+      "promptPt": "Derselbe Baustein wie an der Bäckertheke, nur jetzt für eine ganze Tafel voller Namen. Bitten Sie höflich um eine Wiederholung. Jetzt sprechen.",
+      "audioKey": "hol-i03-t01",
+      "es": "Kunt u dat herhalen?",
+      "pinyin": "kunt ü dat her-HAA-len",
+      "pt": "Können Sie das wiederholen?",
+      "tts": "Kunt u dat herhalen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-i03-n02",
+      "tom": "ganha",
+      "bloco": "cena",
+      "pt": "Die Bedienung nennt fünf Gerichte in einem Atemzug und schaut Sie an — Block offen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-i03-n03",
+      "tom": "ganha",
+      "bloco": "corpo",
+      "pt": "Ein neuer Baustein, geboren mitten in APROVEITO: Wat raadt u aan — zwei Dinge, nie eine offene Liste."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-i03-r01",
+      "tom": "ganha",
+      "es": "Wat raadt u aan: de vis of het vlees?",
+      "pinyin": "vat raat ü aan: duh fis of (h)ut fleys",
+      "pt": "Was empfehlen Sie: den Fisch oder das Fleisch?",
+      "tts": "Wat raadt u aan: de vis of het vlees?"
+    },
+    {
+      "consulta": ["mesa/comida"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "bloco": "molde",
+      "molde": "WAS-EMPFEHLEN-SIE",
+      "encaixe": "de vis of het vlees",
+      "encaixeGloss": "der Fisch oder das Fleisch",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i03-p02",
+      "promptPt": "An der Theke, mit zwei Namen von der Tafel, die Sie erkannt haben, und keiner Ahnung, welcher der bessere ist. Fragen Sie sie zurück. Jetzt sprechen.",
+      "audioKey": "hol-i03-t02",
+      "es": "Wat raadt u aan: de vis of het vlees?",
+      "pinyin": "vat raat ü aan: duh fis of (h)ut fleys",
+      "pt": "Was empfehlen Sie: den Fisch oder das Fleisch?",
+      "tts": "Wat raadt u aan: de vis of het vlees?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-i03-r02",
+      "tom": "ganha",
+      "es": "De vis, die is vandaag heel vers.",
+      "pinyin": "duh fis, dee is fan-DAACH heyl fers",
+      "pt": "Den Fisch, der ist heute besonders frisch.",
+      "tts": "De vis, die is vandaag heel vers.",
+      "receptivo": true,
+      "acao": "Er nennt einfach eins der beiden. Nehmen Sie es — das ist die ganze Antwort, kein Test."
+    },
+    {
+      "consulta": ["mesa/bebida"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "WAS-EMPFEHLEN-SIE",
+      "encaixe": "de rode of de witte wijn",
+      "encaixeGloss": "der Rote oder der Weiße",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i03-p03",
+      "promptPt": "Bei der Weinkarte jetzt, zum Fisch, und zwei Farben stehen ohne weitere Erklärung nebeneinander. Fragen Sie. Jetzt sprechen.",
+      "audioKey": "hol-i03-t03",
+      "es": "Wat raadt u aan: de rode of de witte wijn?",
+      "pinyin": "vat raat ü aan: duh ROH-duh of duh WIT-tuh vayn",
+      "pt": "Was empfehlen Sie: den Roten oder den Weißen?",
+      "tts": "Wat raadt u aan: de rode of de witte wijn?"
+    },
+    {
+      "consulta": ["mesa/comida"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "WAS-EMPFEHLEN-SIE",
+      "encaixe": "de appeltaart of de pannenkoek",
+      "encaixeGloss": "der Apfelkuchen oder der Pfannkuchen",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i03-p04",
+      "promptPt": "Beim Dessert am Ende, satt und trotzdem neugierig, mit zwei Namen, die Sie beide zum ersten Mal hören. Fragen Sie sie zurück. Jetzt sprechen.",
+      "audioKey": "hol-i03-t04",
+      "es": "Wat raadt u aan: de appeltaart of de pannenkoek?",
+      "pinyin": "vat raat ü aan: duh AH-pel-taart of duh PAN-nen-kook",
+      "pt": "Was empfehlen Sie: den Apfelkuchen oder den Pfannkuchen?",
+      "tts": "Wat raadt u aan: de appeltaart of de pannenkoek?"
+    },
+    {
+      "consulta": ["compras/balcao"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "HABEN-SIE",
+      "encaixe": "iets zonder gluten",
+      "encaixeGloss": "etwas ohne Gluten",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i03-p05",
+      "promptPt": "Bevor die Bestellung raus ist, noch eine Frage für die Person neben Ihnen am Tisch, die kein Weizen verträgt. Fragen Sie an der Theke. Jetzt sprechen.",
+      "audioKey": "hol-i03-t05",
+      "es": "Heeft u iets zonder gluten?",
+      "pinyin": "HÉÉFT ü eets ZON-der CHLÜ-ten",
+      "pt": "Haben Sie etwas ohne Gluten?",
+      "tts": "Heeft u iets zonder gluten?"
+    },
+    {
+      "consulta": ["mesa/mesa"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "WANN-IST",
+      "encaixe": "de keuken",
+      "encaixeGloss": "die Küche",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i03-p06",
+      "promptPt": "Sie sind mitten im zweiten Gang und ein Blick auf die Uhr macht Sie nervös. Fragen Sie, wie lange noch bestellt werden kann. Jetzt sprechen.",
+      "audioKey": "hol-i03-t06",
+      "es": "Hoe laat sluit de keuken?",
+      "pinyin": "hoo laat sloöyt duh KÖÖ-ken",
+      "pt": "Wann schließt die Küche?",
+      "tts": "Hoe laat sluit de keuken?"
+    },
+    {
+      "consulta": ["mesa/comida"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "het dagmenu",
+      "encaixeGloss": "das Tagesmenü",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i03-p07",
+      "promptPt": "Alle Fragen sind beantwortet, und jetzt bestellen Sie tatsächlich. Nehmen Sie das, was heute auf der Tafel stand. Jetzt sprechen.",
+      "audioKey": "hol-i03-t07",
+      "es": "Mag ik het dagmenu?",
+      "pinyin": "mach ik (h)ut DACH-me-nü",
+      "pt": "Darf ich das Tagesmenü haben?",
+      "tts": "Mag ik het dagmenu?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-i03-n04",
+      "tom": "ganha",
+      "bloco": "capsula",
+      "pt": "Nennt sie ein Gericht und wartet, ist das keine Prüfung — nur die Empfehlung des Hauses."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-i03-n05",
+      "tom": "ganha",
+      "bloco": "permissao",
+      "pt": "Sie müssen die Tafel nicht ganz verstehen. Ein erkanntes Wort reicht für die Wahl."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-i03-n06",
+      "tom": "ganha",
+      "bloco": "clique",
+      "pt": "Theke, Weinkarte, Dessert: dieselben vier Wörter, nur das Ding dazwischen wechselte."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-i03-s01",
+      "tom": "ganha",
+      "molde": "WAS-EMPFEHLEN-SIE",
+      "es": "Wat raadt u aan: de vis of het vlees? De rode of de witte wijn? De appeltaart of de pannenkoek?",
+      "pinyin": "vat raat ü aan: duh fis of (h)ut fleys? duh ROH-duh of duh WIT-tuh vayn? duh AH-pel-taart of duh PAN-nen-kook?",
+      "pt": "Schatten Sie drei Wahlfragen hintereinander, jede mit einer neuen Tafel im Kopf.",
+      "tts": "Wat raadt u aan: de vis of het vlees? De rode of de witte wijn? De appeltaart of de pannenkoek?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "hol-i03-n07",
+      "tom": "ganha",
+      "bloco": "recap",
+      "pt": "I03 fertig. Ein Baustein macht aus fünf Namen zwei — die Wahl bleibt bei der Bedienung."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Zwei statt fünf",
+    "secoes": [
+      {
+        "titulo": "Wat raadt u aan — die Wahl zurückgeben",
+        "corpo": "Der neue Baustein dieser Lektion nimmt eine offene, unlesbare Liste und macht daraus eine geschlossene Wahl zwischen zwei Dingen, die Sie schon aussprechen können. Er funktioniert überall, wo jemand die Auswahl besser kennt als Sie: am Käsestand, an der Bar, im Museum.",
+        "exemplos": [
+          { "es": "Wat raadt u aan: de vis of het vlees?", "pt": "Was empfehlen Sie: den Fisch oder das Fleisch?" },
+          { "es": "Wat raadt u aan: dit kaasje of dat kaasje?", "pt": "Was empfehlen Sie: diesen Käse oder jenen?" }
+        ]
+      },
+      {
+        "titulo": "Ein genannter Name ist keine Prüfung",
+        "corpo": "Wenn die Bedienung ein Gericht nennt und wartet, testet sie nicht Ihr Verständnis. In einem Haus, das an diesem Tag eine Sache richtig gut kocht, ist der Name selbst schon die Empfehlung — sagen Sie einfach ja, oder zeigen Sie auf den Nachbartisch."
+      }
+    ]
+  },
+  "slot": "I03",
+  "permissao": "Sie müssen die Tafel nicht ganz verstehen. Ein erkanntes Wort reicht, um die Bedienung zwischen zwei Dingen wählen zu lassen.",
+  "permissaoAudioKey": "hol-i03-n05",
+  "espelho": "Wer die ganze Tafel laut zurückliest, um sicherzugehen, dass er sie richtig verstanden hat, wirkt hier seltsam. Niemand prüft nach — man bestellt einfach.",
+  "fichasCulturais": [
+    {
+      "sinal": "Die Bedienung nennt ein einziges Gericht beim Namen, schließt gedanklich die Tafel und wartet auf Ihr Ja.",
+      "suaLeitura": "Sie testet, ob ich verstanden habe. Wenn ich ja sage und mich irre, kommt etwas Schreckliches auf den Tisch.",
+      "oQueEAli": "In einem Haus, das an diesem Tag eine Sache richtig gut kocht, ist das Nennen des Namens die Empfehlung, keine Frage. Die Küche hat schon entschieden.",
+      "oQueVoceFaz": "Sagen Sie ja. Oder zeigen Sie auf den Nachbartisch und fragen Sie einfach nach demselben.",
+      "oQueMelhora": "Sie essen, was das Haus wirklich gut kann, statt nur das, was Sie schon aussprechen können.",
+      "ondeNaoVale": "Nicht in einem touristischen Lokal mit übersetzter Karte — dort ist die Liste jeden Tag dieselbe, und eine Empfehlung bedeutet dort wenig.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["hol-i03-n04"]
+    }
+  ]
+}

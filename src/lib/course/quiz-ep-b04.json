@@ -1,0 +1,71 @@
+{
+  "id": "q-b04",
+  "nivel": "basico",
+  "titulo": "Quiz — Vier Dinge am Küchentisch",
+  "subtitulo": "Ausweis, Handytarif, Debitkarte und das Museumsticket",
+  "introAudioKey": "hol-b04-q-i",
+  "introPt": "Zehn Tage vor dem Flug, vier Häkchen, keine Prüfung.",
+  "cenario": "Der Küchentisch, zehn Tage vor dem Abflug.",
+  "dialogo": [
+    {
+      "audioKey": "hol-b04-q01",
+      "voz": "target_nl_f",
+      "es": "Goedendag!",
+      "pt": "Guten Tag!",
+      "tts": "Goedendag!"
+    },
+    {
+      "audioKey": "hol-b04-q02",
+      "voz": "target_nl_f",
+      "es": "Sorry, ik versta u niet.",
+      "pt": "Entschuldigung, ich verstehe Sie nicht.",
+      "tts": "Sorry, ik versta u niet."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Brauchen Sie für die Reise nach Niederlanden einen Reisepass?",
+      "opcoes": [
+        "Ja, immer",
+        "Nein, der gültige Personalausweis reicht — beide Länder sind EU und Schengen",
+        "Nur am Flughafen, nicht mit dem Auto",
+        "Nur wenn Sie länger als eine Woche bleiben"
+      ],
+      "correta": 1,
+      "explica": "Deutschland und die Niederlande gehören beide zur EU und zum Schengen-Raum. Der Personalausweis reicht, solange er über die Reise hinaus gültig ist."
+    },
+    {
+      "pergunta": "Müssen Sie vor dem Flug eine eSIM für die Niederlande kaufen?",
+      "opcoes": [
+        "Ja, sonst funktioniert das Handy nicht",
+        "Nein — Ihr deutscher Tarif gilt zu denselben Konditionen wie zu Hause, dank der EU-Roaming-Regel",
+        "Nur für Anrufe, nicht für Daten",
+        "Nur wenn Sie kein WLAN im Hotel haben"
+      ],
+      "correta": 1,
+      "explica": "«Roam like at Home» sorgt EU-weit dafür, dass Ihr Inlandstarif ohne Zusatzgebühr gilt. Eine eSIM lohnt sich nur bei wenig Datenvolumen oder sehr langem Aufenthalt."
+    },
+    {
+      "pergunta": "Warum eine Debitkarte statt nur einer Kreditkarte?",
+      "opcoes": [
+        "Weil Kreditkarten in den Niederlanden verboten sind",
+        "Weil dort Debitzahlung («pinnen») der Normalfall ist und viele Kassen ausländische Kreditkarten gar nicht annehmen",
+        "Weil Debitkarten günstiger sind",
+        "Weil nur Debitkarten Bargeld abheben können"
+      ],
+      "correta": 1,
+      "explica": "Rund vier von fünf Zahlungen am Ladentisch laufen über Karte, fast alles davon Debit. Eine Debitkarte plus etwas Bargeld ist die sichere Kombination — mehr dazu in B06."
+    },
+    {
+      "pergunta": "Sie wollen das Anne-Frank-Haus besuchen. Wann kaufen Sie das Ticket?",
+      "opcoes": [
+        "An der Tür, am Tag selbst",
+        "Online, mit Zeitfenster, bevor Sie fliegen",
+        "Gar nicht, der Eintritt ist immer frei",
+        "Erst wenn Sie schon in der Schlange stehen"
+      ],
+      "correta": 1,
+      "explica": "Die großen Amsterdamer Häuser verkaufen an der Tür oft nichts mehr — der Einlass läuft über vorab gebuchte Zeitfenster, die regelmäßig ausverkauft sind."
+    }
+  ]
+}

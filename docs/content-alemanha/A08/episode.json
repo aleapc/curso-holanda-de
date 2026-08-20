@@ -1,0 +1,378 @@
+{
+  "id": "a08",
+  "nivel": "avancado",
+  "numero": 36,
+  "parte": "A08",
+  "titulo": "De laatste ochtend, en tien openers die in een broekzak passen",
+  "subtitulo": "Auf Wiedersehen aan de toonbank en Tschüss overal elders, plus de hele cursus op één kaart: tien bouwstenen, vijf mondbewegingen en de twee nummers die u draait",
+  "cena": "Laatste ochtend, en de drie mensen die de week gemaakt hebben zijn binnen tweehonderd meter van elkaar: de bakker die uw bestelling kent, de balie die dinsdag uw tas vasthield, en de keukendeur van de zaak waar u drie avonden op rij terugkwam.",
+  "moldura": "ganha",
+  "frasePiso": "Tien bouwstenen, vijf mondbewegingen en twee nummers. Dat is de hele kaart, en hij past in één zak.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "de-a08-notruf",
+      "afirmacao": "Duitsland heeft twee alarmnummers in plaats van één, en dat is wat een bezoeker uit een land met één nummer verkeerd doet. 112 bereikt de brandweer en de ambulance; 110 bereikt de politie. Beide eenmalige nummers werden op 20 september 1973 tussen federatie en deelstaten afgesproken, en 112 werd in 1991 door de EU-Raad van Ministers als het enige Europese alarmnummer aangenomen. Het Britse Foreign Office zegt het in één regel in zijn reisadvies voor Duitsland: bel 112 en vraag om een ambulance. Een derde nummer, 116117, dekt de huisartsenspoedpost voor dingen die u naar een spreekkamer zou brengen, dag en nacht, zeven dagen per week — en de eigen Engelse pagina van die dienst meldt dat de dienst alleen in het Duits beschikbaar is, zodat de website een Engelse versie heeft en de telefoonlijn niet.",
+      "fonte": "112 (bombeiros + Rettungsdienst) e 110 (polícia): [RESUMO de bbk.bund.de, bundesregierung.de e polizei-beratung.de]; decisão de Bund e Länder em 20/9/1973 e adoção europeia do 112 em 1991, do comunicado do BMI de setembro/2023. FCDO britânico, «Germany travel advice — Health» (gov.uk), aberto em 5/8/2026, verbatim: «Dial 112 and ask for an ambulance.» 116117.de (Kassenärztliche Bundesvereinigung), aberta em 5/8/2026, e a página 116117.de/de/englisch.php, verbatim: «This service is only available in German». AUSENTE: o custo da chamada para quem liga em roaming ou com chip estrangeiro — a gratuidade é declarada apenas «mit deutschem Telefonvertrag» e não se afirma que é grátis para o turista.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-a08-n10"
+      ]
+    },
+    {
+      "id": "de-a08-preis",
+      "afirmacao": "Het getal op het etiket is het getal dat u betaalt, en dat is wet, geen gewoonte. De Preisangabenverordnung verplicht een handelaar die aan consumenten aanbiedt om totaalprijzen te noemen, en definieert de totaalprijs als de te betalen prijs inclusief btw en alle andere prijscomponenten. Het praktische gevolg is onzichtbaar en de moeite waard om te benoemen: toen het verlaagde tarief van 7 procent voor restauranteten terugkwam op 1 januari 2026 — de circulaire van het ministerie van Financiën van 22 december 2025 past het toe op alle omzet vanaf die datum, met dranken uitdrukkelijk op 19 — was er niets van te zien op wiens rekening dan ook, omdat de klant nooit een tarief ziet, alleen één getal. De enige uitzondering die in dezelfde regeling is opgeschreven is het statiegeld op een drankverpakking: de handelaar moet dat naast de totaalprijs vermelden en uitdrukkelijk níét meetellen, en daarom staat er op het schap 0,99 € en vraagt de kassa 1,24 €.",
+      "fonte": "PAngV 2022, § 3 Abs. 1 («hat die Gesamtpreise anzugeben») e § 2 (Gesamtpreis «einschließlich der Umsatzsteuer»), abertos em gesetze-im-internet.de; § 12 UStG para 19% e 7%; BMF-Schreiben de 22/12/2025, GZ III C 2 - S 7220/00023/014/027, verbatim: «Die Grundsätze dieses Schreibens sind auf alle Umsätze ab dem 1. Januar 2026 anzuwenden», com «mit Ausnahme der Abgabe von Getränken». Exceção do Pfand: § 7 PAngV, verbatim «hat deren Höhe neben dem Gesamtpreis anzugeben und nicht in diesen einzubeziehen». Ressalva: o carimbo de vigência do dispositivo consolidado não foi verificado; a conclusão está confirmada por duas outras vias.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-a08-n11"
+      ]
+    },
+    {
+      "id": "de-a08-abschied",
+      "afirmacao": "Deze cursus leert twee afscheiden en stopt daar, en de reden is de moeite waard om hardop te zeggen. Tschüss is het neutrale en Auf Wiedersehen het formele, en beide werken overal in het land. De regionale afscheiden die in gidsen circuleren — Ade in Baden en Zwaben, Pfiat di en Servus in Beieren en Oostenrijk — werden niet geverifieerd: de enquête-atlas van alledaags Duits heeft wel de betreffende kaarten uit zijn tiende ronde en heeft de vraag voor klanten van die voor vrienden gescheiden, maar de pagina toont alleen de twee beelden en de regel dat de tekst nog komt. Geen bijschrift, geen commentaar, geen cijfers. Dus de etymologie van Ade is in woordenboeken vastgelegd en de verspreiding niet, en er wordt hier niets beweerd over de geografie van Duitse afscheiden.",
+      "fonte": "Atlas zur deutschen Alltagssprache, Rodada 10, questões 17a «Verabschiedung unter Freunden» e 17b «Verabschiedung gegenüber KundInnen» — a página contém apenas as duas imagens e a frase «Text folgt in Kürze»; os mapas não foram lidos. A geografia que circula (Pfiat di / Servus na Baviera e Áustria; Ade/Adee em Baden, Suábia e Suíça, do francês adieu) vem de imprensa regional e dicionário: a etimologia é pacífica, a DISTRIBUIÇÃO não foi verificada em fonte de inquérito. Ensinar com segurança apenas Tschüss (neutro) e Auf Wiedersehen (formal).",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-a08-n02"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a08-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Laatste ochtend. Drie deuren binnen tweehonderd meter, en zo'n minuut die u aan elke deur nog verschuldigd bent."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a08-n02",
+      "bloco": "corpo",
+      "pt": "Auf Wiedersehen aan een toonbank, Tschüss overal elders. Die twee zijn overal in het land veilig."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a08-n03",
+      "pt": "W is uw eigen w van water en ie zegt zijn tweede letter, dus Wiedersehen klinkt als WEE-der-zayn. Bijna gratis."
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar-comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-a08-p01",
+      "promptPt": "U rekent af bij de zaak waar u drie avonden op rij terugkwam, en de kok kan het zaaltje horen. Spreek nu.",
+      "audioKey": "de-a08-t01",
+      "es": "Es hat sehr gut geschmeckt.",
+      "pinyin": "es hat zair goot guh-SHMEKT",
+      "pt": "Het smaakte heel goed.",
+      "tts": "Es hat sehr gut geschmeckt."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-a08-r01",
+      "receptivo": true,
+      "es": "Das freut mich sehr! Kommen Sie wieder.",
+      "pinyin": "das froyt mikh zair! KOM-en zee VEE-der",
+      "pt": "Dat verheugt me zeer! Komt u terug.",
+      "tts": "Das freut mich sehr! Kommen Sie wieder.",
+      "acao": "Kommen Sie wieder is als uitnodiging bedoeld. Antwoord met een zin en niet met een glimlach."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a08-n04",
+      "pt": "Wees specifiek. Bedankt is beleefd; benoemen wat ze deden is wat de persoon voor u hoort."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "quarto/checkout"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-a08-p02",
+      "promptPt": "Ze hebben net gevraagd, en een schouderophaal verspilt het enige moment waarop het antwoord u niets kost. Spreek nu.",
+      "audioKey": "de-a08-t02",
+      "es": "Ich komme wieder.",
+      "pinyin": "ikh KOM-uh VEE-der",
+      "pt": "Ik kom terug.",
+      "tts": "Ich komme wieder."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a08-n05",
+      "pt": "Een kaartje maakt van een plek die u beviel een plek die u kunt bereiken — en zegt hardop dat u het meent."
+    },
+    {
+      "consulta": [
+        "quarto/checkout",
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "HABEN-SIE",
+      "encaixe": "eine Visitenkarte",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-a08-p03",
+      "promptPt": "U wilt deze familie volgend jaar rechtstreeks bereiken en niet via een boekingssite. Vraag het aan de balie. Spreek nu.",
+      "audioKey": "de-a08-t03",
+      "es": "Haben Sie eine Visitenkarte?",
+      "pinyin": "HAH-ben zee INE-uh vi-zee-TEN-kar-tuh",
+      "pt": "Heeft u een visitekaartje?",
+      "tts": "Haben Sie eine Visitenkarte?"
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar-lugar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-a08-p04",
+      "promptPt": "Vier kamers, geen keten erachter, en de vrouw die het runt heeft u nooit als een boeking laten voelen. Spreek nu.",
+      "audioKey": "de-a08-t04",
+      "es": "Ich empfehle Sie gern weiter.",
+      "pinyin": "ikh emp-FAY-luh zee gairn VY-ter",
+      "pt": "Ik beveel u graag aan bij anderen.",
+      "tts": "Ich empfehle Sie gern weiter."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-a08-r02",
+      "receptivo": true,
+      "es": "Das ist sehr nett von Ihnen. Gute Reise!",
+      "pinyin": "das ist zair net fon EE-nen. GOO-tuh RY-zuh",
+      "pt": "Dat is heel aardig van u. Goede reis!",
+      "tts": "Das ist sehr nett von Ihnen. Gute Reise!",
+      "acao": "Gute Reise is het uitgeleide. Danke en één van uw twee afscheiden sluit het netjes af."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "DANKE",
+      "encaixe": "vielen Dank",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-a08-p05",
+      "promptPt": "Zeven dagen kleine gunsten waar niemand toe verplicht was, en één regel aan de deur om alles te dekken. Spreek nu.",
+      "audioKey": "de-a08-t05",
+      "es": "Vielen Dank für die Woche!",
+      "pinyin": "FEE-len dahnk fuer dee VO-khuh",
+      "pt": "Hartelijk dank voor de week!",
+      "tts": "Vielen Dank für die Woche!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a08-n06",
+      "bloco": "capsula",
+      "pt": "Tien bouwstenen droegen deze hele reis, en ze passen op één kaart. Hier ze zijn, in de volgorde van kennismaken."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a08-n07",
+      "pt": "Haben Sie, wo ist, ich möchte, können Sie. Dan ohne, ich suche, was kostet en wann ist."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a08-n08",
+      "pt": "En de twee sociale: Entschuldigung vóór elk daarvan, en danke in drie maten aan het eind."
+    },
+    {
+      "consulta": [
+        "chegar/sair",
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-a08-p06",
+      "promptPt": "Aan de hotelbalie, tas over de schouder, tegen iemand met wie u de hele week aan een balie zaken deed. Spreek nu.",
+      "audioKey": "de-a08-t06",
+      "es": "Auf Wiedersehen!",
+      "pinyin": "owf VEE-der-zayn",
+      "pt": "Tot ziens!",
+      "tts": "Auf Wiedersehen!"
+    },
+    {
+      "consulta": [
+        "chegar/sair",
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-a08-p07",
+      "promptPt": "Twee deuren verderop, tegen de bakker die u elke ochtend zonder vraag hetzelfde aanreikte. Spreek nu.",
+      "audioKey": "de-a08-t07",
+      "es": "Tschüss, schönen Tag noch!",
+      "pinyin": "chuess, SHUR-nen tahk nokh",
+      "pt": "Doei, nog een fijne dag!",
+      "tts": "Tschüss, schönen Tag noch!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a08-n09",
+      "pt": "Vijf mondbewegingen: de w-v-wissel, de tweede letter, de tap, ⟨v⟩ als /f/, en de r die zakt tot een kleine uh."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a08-n10",
+      "pt": "Twee nummers, en hier zijn het echt twee. Één-één-twee is brand en ambulance; één-één-nul is de politie."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a08-n11",
+      "pt": "En de geldregel: het getal op het etiket is het getal dat u betaalt. Statiegeld is de enige uitzondering."
+    },
+    {
+      "consulta": [
+        "chegar/sair",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-a08-p08",
+      "promptPt": "Laatste zin van de reis, aan de deur, tegen iemand die u echt van plan bent weer te zien. Spreek nu.",
+      "audioKey": "de-a08-t08",
+      "es": "Bis zum nächsten Mal!",
+      "pinyin": "bis tsoom NEKH-sten mahl",
+      "pt": "Tot de volgende keer!",
+      "tts": "Bis zum nächsten Mal!"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-a08-r03",
+      "receptivo": true,
+      "es": "Kommen Sie gut nach Hause! Bis zum nächsten Mal.",
+      "pinyin": "KOM-en zee goot nakh HOW-zuh! bis tsoom NEKH-sten mahl",
+      "pt": "Kom veilig thuis! Tot de volgende keer.",
+      "tts": "Kommen Sie gut nach Hause! Bis zum nächsten Mal.",
+      "acao": "Verder wordt hier niets van u verlangd, behalve naar buiten lopen na één van uw twee afscheiden."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-a08-s01",
+      "molde": "DANKE",
+      "es": "Vielen Dank für die Woche! Ich komme wieder. Auf Wiedersehen! Bis zum nächsten Mal!",
+      "pinyin": "FEE-len dahnk fuer dee VO-khuh. ikh KOM-uh VEE-der. owf VEE-der-zayn. bis tsoom NEKH-sten mahl",
+      "pt": "Schaduw de vier die u weer laten uitnodigen: het bedanken, de belofte, het afscheid, de volgende keer.",
+      "tts": "Vielen Dank für die Woche! Ich komme wieder. Auf Wiedersehen! Bis zum nächsten Mal!"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a08-n12",
+      "bloco": "recap",
+      "pt": "A08 klaar, en de cursus ook. Tien openers, vijf mondbewegingen, twee nummers — en Sie de hele weg."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "De laatste minuut, en de kaart in uw zak",
+    "secoes": [
+      {
+        "titulo": "Twee afscheiden, en waarom slechts twee",
+        "corpo": "Auf Wiedersehen is het formele en hoort aan een toonbank, een balie, een praktijk, overal waar de relatie een beleefd afgewikkelde transactie is. Tschüss is het neutrale en dekt bijna al het andere. Beide werken overal in het land, en de cursus stopt daar met opzet. De regionale afscheiden die gidsen vullen — Ade in Baden en Zwaben, Pfiat di en Servus verder zuidelijk — konden niet worden geverifieerd: de enquête-atlas die hun verdeling zou vaststellen heeft de kaarten en heeft de vraag voor klanten van die voor vrienden gescheiden, maar publiceerde ze zonder bijschrift en met een regel dat de tekst nog komt. De etymologie van Ade is in woordenboeken vastgelegd; de geografie niet, dus er wordt hier niets over beweerd. Twee afscheiden is geen beperking. Het is de hele set die u nodig heeft.",
+        "exemplos": [
+          {
+            "es": "Auf Wiedersehen!",
+            "pt": "Tot ziens!"
+          },
+          {
+            "es": "Tschüss, schönen Tag noch!",
+            "pt": "Doei, nog een fijne dag!"
+          }
+        ]
+      },
+      {
+        "titulo": "Het ding benoemen, en de zin die een recensie verslaat",
+        "corpo": "Vielen Dank für alles is beleefd en verdampt op weg naar de deur. Es hat sehr gut geschmeckt bereikt de keuken, omdat het gaat over iets wat gebeurd is en niet over uw gevoelens in het algemeen. Datzelfde principe loopt door de rest van de laatste ochtend: ich komme wieder is een kleine belofte die te goeder trouw gedaan wordt en zo onthouden, haben Sie eine Visitenkarte maakt van een plek die u beviel een plek die u volgend jaar kunt bellen, en ich empfehle Sie gern weiter is het waardevolste dat een bezoeker tegen een familie met vier kamers kan zeggen — en het kost helemaal niets om het te menen. Reken voor de laatste ochtend vijftien minuten in plaats van vijf.",
+        "exemplos": [
+          {
+            "es": "Es hat sehr gut geschmeckt.",
+            "pt": "Het smaakte heel goed."
+          },
+          {
+            "es": "Ich empfehle Sie gern weiter.",
+            "pt": "Ik beveel u graag aan bij anderen."
+          }
+        ]
+      },
+      {
+        "titulo": "De kaart: tien openers",
+        "corpo": "Alles operationeels in deze cursus rust op tien bouwstenen, en geen ervan verandert van vorm als u die gebruikt. Haben Sie plus het ding, voor wat de persoon voor u eventueel heeft. Wo ist plus de plek, in de vorm die op het bord staat. Ich möchte plus het ding plus bitte, waarmee u bestelt zonder bot te klinken. Können Sie plus de handeling, wat hulp, reparatie en noodgeval in één zit. Ohne plus het ingrediënt, om af te trekken in plaats van uit te leggen. Ich suche plus wat u zoekt, als u nog niet weet of het er in de buurt is. Was kostet plus één ding tegelijk, voordat u zich vastlegt. Wann ist plus het ding met een uur eraan. Entschuldigung vóór elk daarvan, waarmee u de aandacht van een vreemde koopt. En danke in drie maten — danke, danke schön, vielen Dank — aan het eind van elk. Tien openers, één kaart, en de rest zijn zelfstandige naamwoorden die u kunt aanwijzen."
+      },
+      {
+        "titulo": "De kaart: vijf mondbewegingen, en één grammaticafeit dat u mag negeren",
+        "corpo": "De leesregels passen op de achterkant van dezelfde kaart. De w-v-wissel: w is uw eigen w van water — dus Wasser klinkt als vasser — terwijl ⟨v⟩ hier de f is van Vater, viel, vier, von en vor en van het voorvoegsel ver-, behalve in woorden die van elders komen, Vase, privat, Universität, waar het weer een v is. Precies daar zit uw duurste fout: uw eigen ⟨v⟩ mag u niet meenemen, want in Duitsland is die aan het woordbegin altijd /f/. De tweede letter: ei en ie zegt u door de tweede te noemen, dus nein klinkt als uw eigen ⟨ei⟩ en vier klinkt als fier met een f — en die regel deelt u met het Nederlands. De tap: z is altijd ts en nooit een bromklank, terwijl s vóór een klinker de zoem is — sagen begint als zebra. En dan de twee die het Nederlands u cadeau geeft: ü is uw uu van huis, ö is uw eu van neus — geen apart huiswerk. De r-drop: aan het einde van een lettergreep is r geen medeklinker maar een klein uh, en de uitgang -er is altijd zo. En de ch heeft twee levens — geschraapt achter in de keel na a, o en u (dat is uw eigen g van gat), en dun en vooraan elders (die tweede is nieuw). En het grammaticafeit dat u de hele reis mag negeren: het lidwoord voor een zelfstandig naamwoord verandert met het werk dat het naamwoord doet in de zin, en juist daarom overhandigt elke bouwsteen in deze cursus u het naamwoord met zijn lidwoord er al aan. U leerde einen Tisch en ein Zimmer als geheel, zoals u een telefoonnummer leert, en hoefde er aan een toonbank nooit eentje uit te rekenen."
+      },
+      {
+        "titulo": "De kaart: twee nummers en één regel over geld",
+        "corpo": "De alarmnummers zijn er twee, geen één, en dat is het detail dat een bezoeker uit een land met één nummer zonder aankomt. 112 is brand en ambulance; 110 is de politie, en 112 verbindt u niet met hen door. Beide bestaan sinds 1973 en 112 werd in 1991 het enige Europese nummer; het Britse Foreign Office zegt eenvoudig: bel 112 en vraag om een ambulance. Er is een derde, 116117, voor de dingen die u naar een spreekkamer zou brengen wanneer die dicht is — en de eigen Engelse pagina zegt dat de dienst alleen in het Duits beschikbaar is, dus de site heeft een Engelse versie en de telefoonlijn niet. De geldregel is nog korter: het getal op het etiket is het getal dat u betaalt, omdat de prijsregels de totaalprijs vereisen, inclusief btw. Toen het verlaagde restauranttarief op 1 januari 2026 terugkwam, was er op wiens rekening dan ook niets van te zien. De ene opgeschreven uitzondering is het statiegeld op een drankverpakking, dat volgens dezelfde regels naast de prijs vermeld moet worden en er uitdrukkelijk níét bij mag worden opgeteld — het schap leest 0,99 € en de kassa leest 1,24 €, en beide zijn correct."
+      }
+    ]
+  },
+  "slot": "A08",
+  "permissao": "U mag slecht afscheid nemen en het toch doen. Een houterig es hat sehr gut geschmeckt, tegen een specifiek iemand over iets specifieks gezegd, verslaat een perfecte zin die u repeteerde en nooit gebruikte, en niemand aan die deur kijkt naar uw grammatica. U mag ook met slechts twee afscheiden in uw zak vertrekken en die overal inzetten — Auf Wiedersehen aan een toonbank, Tschüss voor de rest — in plaats van te jagen op de regionale variant die zogenaamd locaal zou klinken. En u mag deze cursus afsluiten met tien openers en een handvol zelfstandige naamwoorden, want dat is waar het hele ding voor was.",
+  "permissaoAudioKey": "de-a08-n02",
+  "espelho": "Wie thuis ooit een plek verliet met de bedoeling iemand goed te bedanken en toen alleen vanuit de auto zwaaide, weet al waar dit deel voor is. De duurste reizigersfout is de vage — zeggen dat we contact moeten houden in plaats van de week, het gerecht en het feit dat u terugkomt te benoemen — en die kost thuis in het Engels precies evenveel als hier.",
+  "fichasCulturais": [
+    {
+      "sinal": "U zegt dat u vertrekt en iemand antwoordt kommen Sie wieder, en wacht, alsof er nog iets van u verwacht wordt.",
+      "suaLeitura": "Dat is de lokale versie van tot ziens, en een glimlach en een knik dekken het.",
+      "oQueEAli": "Het is meestal letterlijk bedoeld, en een antwoord met iets concreets erin — ich komme wieder, plus een seizoen als u er een heeft — geldt als een te goeder trouw gemaakte kleine belofte en niet als een formule. Op hetzelfde moment naar een kaartje vragen, geeft dat antwoord ergens om te landen.",
+      "oQueVoceFaz": "Antwoord in een zin en niet met een gebaar, voeg haben Sie eine Visitenkarte toe, en als u het meent, zeg ich empfehle Sie gern weiter.",
+      "oQueMelhora": "U vertrekt als iemand die terugverwacht wordt en niet als een afgeronde transactie, en volgend jaar is de kamer die u beviel een telefoontje in plaats van een zoekopdracht.",
+      "ondeNaoVale": "Verzin geen datum die u niet gaat halen — dezelfde directheid die het antwoord doet landen, laat ook een gebroken belofte landen. En dit is de vorm van vertrek van een tafel, een klein pension of een keukendeur; een toonbank met drie mensen in de rij achter u wil de korte versie, en dat is Auf Wiedersehen en verder niets.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "de-a08-n04",
+        "de-a08-n05"
+      ]
+    },
+    {
+      "sinal": "U grijpt naar een warmer, locaal klinkend afscheid dan Tschüss, omdat Tschüss aanvoelt als uit het lesboek.",
+      "suaLeitura": "Iedereen hier heeft een regionaal afscheid en het neutrale gebruiken bestempelt me als een toerist die van een lijst voorleest.",
+      "oQueEAli": "Tschüss is het neutrale en Auf Wiedersehen het formele, en beide zijn overal veilig. Regionale afscheiden bestaan wel, maar het enige enquêteproject dat had kunnen vaststellen waar elk gebruikt wordt, publiceerde zijn kaarten helemaal zonder tekst, dus hun verspreiding is echt ongeverifieerd — en een regionaal afscheid in de verkeerde regio uitgesproken is juist wat u aanwijst, niet het neutrale.",
+      "oQueVoceFaz": "Gebruik de twee die u heeft, en laat de warmte uit de zin erdvoor komen en niet uit het woord zelf: benoem de week, het gerecht of de gunst, en dan Tschüss.",
+      "oQueMelhora": "U besteedt geen aandacht meer aan een keuze die bijna geen informatie bevat, en steekt die in het deel dat dat wel doet — het specifieke waarvoor u iemand bedankt.",
+      "ondeNaoVale": "Dit is geen bewering dat regionale vormen ongewenst of ongebruikt zijn; het is een bewering over wat kon worden geverifieerd. Als iemand er een tegen u zegt, is het horen en teruggeven prima. Wat de cursus niet doet, is u een kaart van die vormen aanreiken die hij niet kan onderbouwen.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "de-a08-n02",
+        "de-a08-n03"
+      ]
+    }
+  ]
+}

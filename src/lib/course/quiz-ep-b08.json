@@ -1,0 +1,84 @@
+{
+  "id": "q-b08",
+  "nivel": "basico",
+  "titulo": "Quiz — Waar is, und der Radweg, der nicht Ihnen gehört",
+  "subtitulo": "Drei Wörter, ein Arm, und eine rote Spur, die Sie ab jetzt anders lesen",
+  "introAudioKey": "hol-b08-q-i",
+  "introPt": "Ein Reisender sucht dreimal einen Ort und lernt einmal, wo er nicht stehen bleiben darf.",
+  "cenario": "Ein Kaufhaus, eine Straße und eine Bahnhofshalle.",
+  "dialogo": [
+    {
+      "audioKey": "hol-b08-q01",
+      "voz": "target_nl_f",
+      "es": "Waar is het toilet?",
+      "pt": "Wo ist die Toilette?",
+      "tts": "Waar is het toilet?"
+    },
+    {
+      "audioKey": "hol-b08-q02",
+      "voz": "target_nl_m",
+      "es": "Achterin, naast de kassa's.",
+      "pt": "Hinten, neben den Kassen.",
+      "tts": "Achterin, naast de kassa's."
+    },
+    {
+      "audioKey": "hol-b08-q03",
+      "voz": "target_nl_m",
+      "es": "Die rode strook daar, tussen de stoep en de weg.",
+      "pt": "Der rote Streifen dort, zwischen Gehweg und Straße.",
+      "tts": "Die rode strook daar, tussen de stoep en de weg."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Was ist der Baustein dieses Kapitels?",
+      "opcoes": ["Waar is ___?", "Heeft u ___?", "Kunt u ___?", "Mag ik ___?"],
+      "correta": 0,
+      "explica": "Waar is, plus der Ort — drei Wörter, die sich nie ändern, für jeden festen Ort in der Nähe."
+    },
+    {
+      "pergunta": "Die Verkäuferin antwortet «Achterin, naast de kassa's», ohne dass Sie jedes Wort verstehen. Was tun Sie?",
+      "opcoes": [
+        "Nochmal fragen, bis Sie alles verstehen",
+        "Der Richtung und dem einen erkannten Wort folgen",
+        "Auf Deutsch nachfragen",
+        "Aufgeben"
+      ],
+      "correta": 1,
+      "explica": "Die Antwort auf Waar is ist meistens ein Arm, kein Satz — folgen reicht, übersetzen nicht nötig."
+    },
+    {
+      "pergunta": "Was bedeutet die rote Spur zwischen Gehweg und Straße?",
+      "opcoes": [
+        "Ein Parkstreifen für Autos",
+        "Das Fietspad — der Radweg, mit uneingeschränktem Vorrang fürs Fahrrad",
+        "Ein zweiter Gehweg für Fußgänger",
+        "Eine reine Dekoration"
+      ],
+      "correta": 1,
+      "explica": "Rot heißt Radweg, im ganzen Land. Behandeln Sie ihn wie eine Autospur: hinschauen, nicht darauf stehen bleiben."
+    },
+    {
+      "pergunta": "Sie sind mit einem geliehenen Rad unterwegs und finden am Kaufhaus keinen freien Ständer. Was fragen Sie den Türsteher?",
+      "opcoes": [
+        "Waar is het fietspad?",
+        "Heeft u een fietsenstalling?",
+        "Kunt u dat opschrijven?",
+        "Bedankt!"
+      ],
+      "correta": 1,
+      "explica": "Derselbe Baustein aus B06 — Heeft u ___? — fragt, was diese eine Person oder dieses eine Haus gerade hat, hier: eine bewachte Fahrradgarage."
+    },
+    {
+      "pergunta": "Drei Straßen sehen gleich aus, Ihr Handy hat keinen Empfang. Was fragen Sie eine Passantin?",
+      "opcoes": [
+        "Sorry, ik versta u niet.",
+        "Pardon, is dit de goede kant voor het centrum?",
+        "Dank u wel!",
+        "Een week."
+      ],
+      "correta": 1,
+      "explica": "Der Baustein aus B03 trägt auch diese neue Frage: Sorry oder Pardon, plus was Sie brauchen — hier die Bestätigung der Richtung."
+    }
+  ]
+}

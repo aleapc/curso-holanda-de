@@ -1,0 +1,442 @@
+{
+  "id": "i09",
+  "nivel": "intermediario",
+  "numero": 27,
+  "parte": "I09",
+  "titulo": "Marktochtend, de statiegeldautomaat en welk feest deze week aan is",
+  "subtitulo": "Briefjes op de kramen, vijfentwintig cent terug per blikje, en één vraag met een uur erin",
+  "cena": "Zaterdag, half tien: een Wochenmarkt die tot twee uur loopt, een supermarkthal met een statiegeldautomaat in de hoek, en een affiche voor iets dat later deze maand begint.",
+  "moldura": "ganha",
+  "frasePiso": "Eén vraag met een uur erin, en een middag die uit een affiche kwam in plaats van uit een zoekmachine.",
+  "decisao": "de middag doorbrengen waar zij die doorbrengen — markt, plein, het feest van de week — wetend hoe laat het is voor u uitgaat en met contant geld op zak voor de kramen",
+  "emJogo": "ambos",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "de-i09-bargeld-markt",
+      "afirmacao": "Contant geld is geen noodoplossing aan een Duitse marktkraam, het is de norm. Het betalingsgedragsonderzoek van de Bundesbank voor 2025, gepubliceerd op 17 juni 2026, meldt dat voor het eerst meer dan de helft van de dagelijkse betalingen giraal was (55 procent, tegen 49 procent in 2023), terwijl contant qua aantal transacties met 45 procent het meest gebruikte middel blijft. Op markten en straatverkopen zijn echter negen op de tien betalingen en bijna 80 procent van de omzet contant, en slechts 43 procent van die verkopers accepteert iets anders. Daaronder: eurobankbiljetten zijn het enige onbeperkte wettige betaalmiddel, en geen enkele handelaar is verplicht een kaart te aanvaarden.",
+      "fonte": "Deutsche Bundesbank, Zahlungsverhalten in Deutschland 2025 (gepubliceerd 17/6/2026; forsa-veldwerk 8/9 tot 2/12/2025, 6.070 interviews, 10.394 POS-transacties); §14 Abs. 1 BBankG voor het onbeperkte wettige betaalmiddel. Volgende editie voorzien voor 2028.",
+      "ano": 2026,
+      "revisarAte": "2028-06-30",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-i09-n04",
+        "de-i09-n05"
+      ]
+    },
+    {
+      "id": "de-i09-pfand",
+      "afirmacao": "De verpakkingswet zet een statiegeld van ten minste 25 cent inclusief btw op elke eenmalige drankverpakking, en de prijsregeling vereist dat het statiegeld náást de totaalprijs staat en er uitdrukkelijk niet in wordt opgenomen — precies daarom staat op het schap 0,99 € en vraagt de kassa 1,24 €. De distributeur moet de lege verpakking op of nabij het verkooppunt tijdens openingsuren terugnemen en het statiegeld kosteloos terugbetalen; een winkel met een verkoopoppervlak onder 200 vierkante meter mag zich beperken tot de materialen die hij zelf verkoopt in plaats van vrijgesteld te zijn. Herbruikbaar glas werkt op een andere basis: die statiegelden (meestal 8 cent op een bierflesje, 15 op een literfles, 1,50 € op een krat) zijn civielrechtelijke afspraken tussen bottelaar en koper, geen wettelijk systeem, en er is geen wettelijke plicht om ze terug te nemen.",
+      "fonte": "VerpackG §31 Abs. 1 (minimum 0,25 € «einschließlich Umsatzsteuer»), §31 Abs. 2 (Rücknahmepflicht, grens van 200 m²); PAngV 2022 §7 (Pfand wordt náást de totaalprijs vermeld en «nicht in diesen einzubeziehen»); Verbraucherzentrale voor het civiele karakter van het Mehrwegpfand — marktwaarden, geen norm.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-i09-n06",
+        "de-i09-n07"
+      ]
+    },
+    {
+      "id": "de-i09-oktoberfest",
+      "afirmacao": "Het Oktoberfest begint in september: de stad München geeft 2026 als 19 september tot 4 oktober, zestien dagen op de Theresienwiese. De Maß kost tussen 14,80 € en 15,90 € in 2026, tegen 14,50 € tot 15,80 € in 2025, een gemiddelde stijging van 2,38 procent — en die prijs stelt de stad niet vast. De tapbedrijven doen dat en de stad toetst enkel of hij redelijk is door te vergelijken met de gastronomie in centraal München.",
+      "fonte": "muenchen.de (portaal van de Landeshauptstadt München) voor de data; prijsbandbreedte gepubliceerd door het Referat für Arbeit und Wirtschaft (PDF «Bierpreis_Oktoberfest2026» op stadt.muenchen.de) — voorbehoud: de officiële PDF ging niet leesbaar open en de waarden werden secundair overgenomen. Data van 2027: niet verkregen.",
+      "ano": 2026,
+      "revisarAte": "2027-06-30",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": [
+        "de-i09-n09"
+      ]
+    },
+    {
+      "id": "de-i09-weihnachtsmarkt",
+      "afirmacao": "De nette regel dat kerstmarkten van de eerste adventszondag tot 23 december lopen faalt op beide gevallen die konden worden nagekeken. Dresden's Striezelmarkt staat in 2026 vermeld van 26 november tot 24 december, terwijl de eerste advent op 29 november valt; Keulen opent rond 16 november. Wat overblijft is de waargenomen bandbreedte — half tot eind november tot 23 of 24 december, per stad vastgesteld.",
+      "fonte": "Aggregatoren van openingsuren voor Dresden 2026 (26/11 tot 24/12, 10h–21h, 24/12 tot 14h) en Keulen (opening rond 16/11) — geen enkele officiële pagina van een grote stad ging open; dresden.de gaf HTTP 503. Dus: waargenomen bandbreedte, geen regel.",
+      "ano": 2026,
+      "revisarAte": "2026-11-15",
+      "evidencia": "CONSENSO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-i09-n08"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i09-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Zaterdag, marktochtend. Twee dingen bepalen hoe het gaat: briefjes op zak en één vraag."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i09-n02",
+      "bloco": "corpo",
+      "pt": "Wann ist — de bouwsteen van eerder deze module, nu gericht op alles met een uur eraan."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-i09-t01",
+      "es": "Wann ist der Markt?",
+      "pinyin": "van ist dair markt",
+      "pt": "Wanneer is de markt?",
+      "tts": "Wann ist der Markt?"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WANN-IST",
+      "encaixe": "der Markt",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i09-p01",
+      "promptPt": "Aan de hotelbalie, voor u de dag plant rond een plein dat u alleen op een affiche hebt gezien. Spreek nu.",
+      "audioKey": "de-i09-t01",
+      "es": "Wann ist der Markt?",
+      "pinyin": "van ist dair markt",
+      "pt": "Wanneer is de markt?",
+      "tts": "Wann ist der Markt?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i09-r01",
+      "receptivo": true,
+      "es": "Dienstags und samstags, bis vierzehn Uhr.",
+      "pt": "Dinsdags en zaterdags, tot twee uur 's middags.",
+      "tts": "Dienstags und samstags, bis vierzehn Uhr.",
+      "acao": "Tijden komen op de 24-uursklok. Vierzehn Uhr is twee, en betekent dat de kramen dan inpakken."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i09-n03",
+      "pt": "'ei' klinkt als in uw 'ei', dus nein rijmt op 'ei'-nen. En 'ie' is een lange ie: vier klinkt als 'fier'."
+    },
+    {
+      "consulta": [
+        "chegar/balcao",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-SUCHE",
+      "encaixe": "den Wochenmarkt",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i09-p02",
+      "promptPt": "U bent drie straten weg en het plein staat niet op de borden. Open de zoektocht met een voorbijganger. Spreek nu.",
+      "audioKey": "de-i09-t02",
+      "es": "Ich suche den Wochenmarkt.",
+      "pinyin": "ikh ZOO-khuh dayn VO-khen-markt",
+      "pt": "Ik zoek de weekmarkt.",
+      "tts": "Ich suche den Wochenmarkt."
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "HABEN-SIE",
+      "encaixe": "eine Tüte",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i09-p03",
+      "promptPt": "U hebt beide handen vol losse appels en niets om ze in te doen. Vraag het de standhouder. Spreek nu.",
+      "audioKey": "de-i09-t03",
+      "es": "Haben Sie eine Tüte?",
+      "pinyin": "HAH-ben zee INE-uh TUE-tuh",
+      "pt": "Hebt u een tasje?",
+      "tts": "Haben Sie eine Tüte?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i09-n04",
+      "pt": "Kramen hier draaien op briefjes en munten: negen op tien betalingen op markten zijn contant."
+    },
+    {
+      "consulta": [
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WAS-KOSTET",
+      "encaixe": "das Stück",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i09-p04",
+      "promptPt": "De kaas ligt in wielen zonder bordje ervoor en u wilt één punt. Vraag voor u wijst. Spreek nu.",
+      "audioKey": "de-i09-t04",
+      "es": "Was kostet das Stück?",
+      "pinyin": "vas KOS-tet das shtuek",
+      "pt": "Wat kost een stuk?",
+      "tts": "Was kostet das Stück?"
+    },
+    {
+      "consulta": [
+        "compras/balcao",
+        "compras/pagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "ein Kilo Kartoffeln",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i09-p05",
+      "promptPt": "De kraam houdt de kratten achter de toonbank en wacht op een hoeveelheid. Geef die. Spreek nu.",
+      "audioKey": "de-i09-t05",
+      "es": "Ich möchte ein Kilo Kartoffeln, bitte.",
+      "pinyin": "ikh MURKH-tuh ine KEE-lo kar-TOF-eln, BIT-tuh",
+      "pt": "Ik wil graag een kilo aardappelen, alstublieft.",
+      "tts": "Ich möchte ein Kilo Kartoffeln, bitte."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i09-r02",
+      "receptivo": true,
+      "es": "Zusammen sieben Euro achtzig. Nur Bargeld, bitte.",
+      "pt": "Samen zeven tachtig. Alleen contant, alstublieft.",
+      "tts": "Zusammen sieben Euro achtzig. Nur Bargeld, bitte.",
+      "acao": "'Nur Bargeld' is wettig en gewoon op een kraam. Zorg dat u briefjes op zak hebt voor u in de rij gaat."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i09-n05",
+      "bloco": "capsula",
+      "pt": "Bankbiljetten zijn het enige onbeperkte wettige betaalmiddel, en geen verkoper hoeft uw kaart te nemen."
+    },
+    {
+      "consulta": [
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i09-p06",
+      "promptPt": "Bij de volgende kraam wilt u, voor er iets gewogen wordt, weten naar welke zak u tast. Spreek nu.",
+      "audioKey": "de-i09-t06",
+      "es": "Nehmen Sie Karte?",
+      "pinyin": "NAY-men zee KAR-tuh",
+      "pt": "Neemt u pin aan?",
+      "tts": "Nehmen Sie Karte?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i09-n06",
+      "pt": "In de supermarkt staat op het schap 0,99 en vraagt de kassa 1,24. Dat verschil is de wet, geen verrassing."
+    },
+    {
+      "consulta": [
+        "compras/devolver",
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "wo ist der Pfandautomat",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i09-p07",
+      "promptPt": "U draagt zes lege flessen in een tas en de hal heeft drie deuren zonder bordje. Vraag het personeel. Spreek nu.",
+      "audioKey": "de-i09-t07",
+      "es": "Entschuldigung, wo ist der Pfandautomat?",
+      "pinyin": "ent-SHOOL-di-goong, vo ist dair PFANT-ow-to-maht",
+      "pt": "Pardon, waar is de statiegeldautomaat?",
+      "tts": "Entschuldigung, wo ist der Pfandautomat?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-i09-r03",
+      "receptivo": true,
+      "es": "Hinten links, neben dem Eingang. Den Bon bitte an der Kasse abgeben.",
+      "pt": "Achter links, naast de ingang. Lever het bonnetje graag in aan de kassa.",
+      "tts": "Hinten links, neben dem Eingang. Den Bon bitte an der Kasse abgeben.",
+      "acao": "De automaat drukt een bon. Lever die in aan de kassa en het statiegeld gaat af van wat u betaalt."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i09-n07",
+      "pt": "Het statiegeld is minstens vijfentwintig cent, en de regel is het naast de prijs te tonen, nooit erin."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WANN-IST",
+      "encaixe": "der Weihnachtsmarkt",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i09-p08",
+      "promptPt": "Het affiche in de hal heeft een datum die u van hier niet leest, en de vrouw aan de kassa is vrij. Spreek nu.",
+      "audioKey": "de-i09-t08",
+      "es": "Wann ist der Weihnachtsmarkt?",
+      "pinyin": "van ist dair VY-nakhts-markt",
+      "pt": "Wanneer is de kerstmarkt?",
+      "tts": "Wann ist der Weihnachtsmarkt?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i09-r04",
+      "receptivo": true,
+      "es": "Der macht Ende November auf, bis zum vierundzwanzigsten.",
+      "pt": "Die gaat eind november open, tot de vierentwintigste.",
+      "tts": "Der macht Ende November auf, bis zum vierundzwanzigsten.",
+      "acao": "Half tot eind november tot de 23e of 24e, en elke stad stelt zijn eigen data in. Vraag in de stad waar u bent."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i09-n08",
+      "pt": "Weihnachten: de w klinkt als een scherpe v, en de ch na 'a' is uw eigen g van 'gat'. Dat krijgt u cadeau."
+    },
+    {
+      "consulta": [
+        "compras/quanto",
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WAS-KOSTET",
+      "encaixe": "eine Maß",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i09-p09",
+      "promptPt": "In de tent in München, voor u zich vastlegt op de liter die iedereen om u heen vasthoudt. Spreek nu.",
+      "audioKey": "de-i09-t09",
+      "es": "Was kostet eine Maß?",
+      "pinyin": "vas KOS-tet INE-uh mahss",
+      "pt": "Wat kost een liter?",
+      "tts": "Was kostet eine Maß?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i09-n09",
+      "pt": "Tussen veertien tachtig en vijftien negentig dit jaar, en de tenten stellen dat cijfer in, niet de stad."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "DANKE",
+      "encaixe": "vielen Dank",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i09-p10",
+      "promptPt": "Tas vol, munten geteld, en de standhouder kijkt al voorbij u. Sluit het af op weg naar buiten. Spreek nu.",
+      "audioKey": "de-i09-t10",
+      "es": "Vielen Dank, schönen Tag noch!",
+      "pinyin": "FEE-len dahnk, SHUR-nen tahk nokh",
+      "pt": "Heel hartelijk dank, nog een fijne dag!",
+      "tts": "Vielen Dank, schönen Tag noch!"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-i09-s01",
+      "molde": "WANN-IST",
+      "es": "Wann ist der Markt? Was kostet das Stück? Vielen Dank, schönen Tag noch!",
+      "pinyin": "van ist dair markt. vas KOS-tet das shtuek. FEE-len dahnk, SHUR-nen tahk nokh",
+      "pt": "Herhaal de hele ochtend: het uur, de prijs, het afscheid.",
+      "tts": "Wann ist der Markt? Was kostet das Stück? Vielen Dank, schönen Tag noch!"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i09-n10",
+      "bloco": "recap",
+      "pt": "I09 klaar. Eén vraag met een uur erin, briefjes op zak, en de lege flessen die u terugbetalen."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Een middag doorbrengen waar zij hem doorbrengen",
+    "secoes": [
+      {
+        "titulo": "Vraag het uur voor u de dag plant",
+        "corpo": "Wann ist der Markt, wann ist der Weihnachtsmarkt, wann ist die Führung. Het werkwoord zit al in de bouwsteen, dus er hoeft ter plekke niets opgebouwd te worden, en het antwoord komt terug op de 24-uursklok: vierzehn Uhr is twee 's middags, achtzehn Uhr is zes. Een weekmarkt die bis vierzehn Uhr loopt, wordt vanaf ongeveer half twee opgeruimd.",
+        "exemplos": [
+          {
+            "es": "Wann ist der Markt?",
+            "pt": "Wanneer is de markt?"
+          },
+          {
+            "es": "Wann ist der Weihnachtsmarkt?",
+            "pt": "Wanneer is de kerstmarkt?"
+          }
+        ]
+      },
+      {
+        "titulo": "Briefjes, geen kaarten, op de kramen",
+        "corpo": "Nationaal is het beeld gekanteld: voor het eerst was meer dan de helft van de dagelijkse betalingen giraal in 2025, en contant is nu 45 procent van de transacties. Markten en straatverkopen zijn de zak waarin dat nog niet is gebeurd — negen op tien betalingen zijn daar contant, bijna 80 procent van de omzet, en slechts 43 procent van die verkopers neemt iets anders aan. Daaronder ligt een wettelijk feit dat de meeste bezoekers verrast: bankbiljetten zijn het enige onbeperkte wettige betaalmiddel, en niemand is verplicht een kaart te aanvaarden. Nur Bargeld op een handgeschreven bordje is geen zaak die achterloopt, het is een zaak binnen de wet."
+      },
+      {
+        "titulo": "Waarom de kassa meer vraagt dan het schap zei",
+        "corpo": "Het statiegeld op een eenmalige fles of blikje is minstens 25 cent inclusief btw, en de prijsregels vereisen dat het naast het totaal wordt getoond en uitdrukkelijk niet erin opgenomen. Dus staat op het schap 0,99 € en op de kassa 1,24 €, en beide getallen kloppen. Voer de leegverpakkingen in de automaat van elke supermarkt die dat materiaal verkoopt, lever de bon in aan de kassa, en het geld gaat af van uw boodschappen.",
+        "exemplos": [
+          {
+            "es": "Entschuldigung, wo ist der Pfandautomat?",
+            "pt": "Pardon, waar is de statiegeldautomaat?"
+          },
+          {
+            "es": "Haben Sie eine Tüte?",
+            "pt": "Hebt u een tasje?"
+          }
+        ]
+      },
+      {
+        "titulo": "Welk feest er echt is",
+        "corpo": "Het Oktoberfest begint in september — 19 september tot 4 oktober in 2026, zestien dagen — en de Maß loopt dit jaar van 14,80 € tot 15,90 €, een cijfer dat de tapbedrijven vaststellen en dat de stad enkel op redelijkheid toetst. Kerstmarkten volgen niet de nette adventsregel: die van Dresden loopt in 2026 van 26 november tot 24 december terwijl de eerste advent op de 29e valt, en Keulen opent rond 16 november. De eerlijke versie is een bandbreedte — half tot eind november tot 23 of 24 december — per stad beslist, en precies daarom is het de moeite waard de vraag hardop te stellen waar u staat."
+      },
+      {
+        "titulo": "Drie letters die de helft van wat u leest bepalen",
+        "corpo": "Weihnachtsmarkt is de hele leesles in één woord: w is een scherpe versie van uw v, ei wordt uitgesproken als in uw 'ei', en ch na een achterklinker wordt achter in de mond gemaakt — dat is uw eigen g van 'gat', die krijgt u cadeau. Wochenmarkt heeft dezelfde ch. Stück en Tüte hebben de ü, die u al kent uit 'fuut' — dezelfde klank."
+      }
+    ]
+  },
+  "slot": "I09",
+  "permissao": "U mag een voorbijganger vragen wanneer de markt is, en u mag op een kraam aankomen met briefjes en zonder kaart. Contant is daar de gewone manier van betalen in plaats van een noodoplossing, en een handgeschreven nur Bargeld-bordje is geen belediging en geen onregelmatigheid — het is een zaak die iets doet wat de wet uitdrukkelijk toestaat.",
+  "permissaoAudioKey": "de-i09-n05",
+  "espelho": "Wie thuis wel eens op een boerenmarkt heeft gestaan, kent de twee bewegingen die het bepalen: heb contant op zak vóór u er bent, en zeg de hoeveelheid hardop in plaats van te wijzen. Wijzen plus een hoeveelheid is de hele transactie, en dat is dezelfde transactie in beide talen.",
+  "fichasCulturais": [
+    {
+      "sinal": "Het schapetiket zegt 0,99 € en de kassa vraagt 1,24 €, zonder dat er iets over het verschil wordt gezegd.",
+      "suaLeitura": "Er is op het laatste moment vijfentwintig cent bij gedaan en niemand gaat het uitleggen.",
+      "oQueEAli": "De verpakkingswet zet een statiegeld van minstens 25 cent inclusief btw op de verpakking, en de prijsregels vereisen dat het statiegeld naast de totaalprijs wordt getoond en er uitdrukkelijk niet in wordt opgenomen. De ondernemer is verplicht het niet toe te voegen. Het verschil tussen beide getallen is de regel die wordt nageleefd.",
+      "oQueVoceFaz": "Bewaar de lege verpakkingen. Neem alles met het statiegeldlogo mee naar een supermarkt die dat materiaal verkoopt, voer het in de automaat, en lever de gedrukte bon in aan de kassa.",
+      "oQueMelhora": "Wat leek op handigheid wordt een kleine drijver die u terugkrijgt, en een krat van twintig biertjes blijkt drie euro tien van uw eigen geld te dragen.",
+      "ondeNaoVale": "Herbruikbaar glas is een ander systeem: die statiegelden zijn civielrechtelijke afspraken tussen bottelaar en koper, de gebruikelijke 8 cent, 15 cent en 1,50 € op een krat zijn marktgebruik en geen wet, en er is geen wettelijke plicht ze terug te nemen — de meeste zaken doen het uit hoffelijkheid voor eigen merken. Kartons, wijnflessen en alles onder 0,1 liter of boven 3 liter dragen geen statiegeld.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-i09-n06",
+        "de-i09-n07"
+      ]
+    },
+    {
+      "sinal": "De kraam heeft helemaal geen terminal, en die ernaast heeft nur Bargeld op een stukje karton geschreven.",
+      "suaLeitura": "Deze zaak loopt achter, en ergens hier moet toch een kaart worden aangenomen.",
+      "oQueEAli": "Eurobankbiljetten zijn het enige onbeperkte wettige betaalmiddel en er bestaat geen verplichting een kaart te accepteren. Het Bundesbank-onderzoek van 2025 zet negen op tien betalingen op markten en straatverkopen op contant, bijna 80 procent van de omzet, en slechts 43 procent van die verkopers neemt iets anders aan — dit is de ene zak van de economie waar het girale kantelpunt nog niet is aangekomen.",
+      "oQueVoceFaz": "Neem contant op voor de markt in plaats van erop, houd munten achter voor losse stuks, en vraag Nehmen Sie Karte voor er iets wordt gewogen in plaats van erna.",
+      "oQueMelhora": "U koopt bij de kraam die u wou, in plaats van bij die met een terminal, en u houdt aan het einde nooit de rij op.",
+      "ondeNaoVale": "Dit is een marktfeit, geen landfeit: nationaal was meer dan de helft van de dagelijkse betalingen in 2025 giraal. En de vrijheid werkt beide kanten op — een winkel mag ook alleen kaarten aannemen, mits vooraf vermeld, dus nur Karte op een deur is even wettig en even weinig het argument waard.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-i09-n04",
+        "de-i09-n05"
+      ]
+    }
+  ]
+}

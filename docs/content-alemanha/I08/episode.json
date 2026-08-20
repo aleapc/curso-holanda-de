@@ -1,0 +1,454 @@
+{
+  "id": "i08",
+  "nivel": "intermediario",
+  "numero": 26,
+  "parte": "I08",
+  "titulo": "Uitgenodigd: wat u de deur binnenbrengt, en wanneer u opstaat",
+  "subtitulo": "De wet sluit de winkels op zondag, dus de bloemen worden op zaterdag gekocht — en de du komt als aanbod",
+  "cena": "Iemand op kantoor heeft «kommen Sie doch am Sonntag zu uns» gezegd en het is nu zaterdagmiddag, met een bloemenzaak twee straten verderop en de hele zondag dicht daarachter.",
+  "moldura": "ganha",
+  "frasePiso": "U komt aan met iets in uw hand op de enige middag van de week waarop het niet te koop is.",
+  "decisao": "op zaterdag kopen wat u op zondag meeneemt, en het aanbod om te du-en herkennen wanneer het komt — in plaats van zondagmiddag op zoek te gaan naar een open winkel",
+  "emJogo": "tempo",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "de-i08-ladenschluss",
+      "afirmacao": "Winkels sluiten op zondagen en feestdagen, en op werkdagen vanaf 20 uur — dat is de federale winkelsluitingswet, §3 LadSchlG, die bakkerijen ook vanaf 5.30 uur laat openen en klanten die bij sluitingstijd al binnen zijn nog laat bedienen. §12 houdt een kort zondagvenster open voor melk, bakkerswaren, vers fruit, bloemen en kranten, met de uren door elke deelstaat vastgesteld rond de tijd van de hoofddienst. Sinds de federalismehervorming van 2006 hoort het onderwerp bij de deelstaten — de tekst van de Grondwet sluit Ladenschluss uit van federale economische bevoegdheid — en Beieren nam zijn eigen wet aan, de BayLadSchlG van 25 juli 2025, van kracht sinds 1 augustus 2025, die de 20-uurgrens handhaaft maar onbemande winkels tot 150 m² 24 uur per dag laat openen, ook op zondag.",
+      "fonte": "LadSchlG §3 e §12; Art. 74 Abs. 1 Nr. 11 GG («ohne das Recht des Ladenschlusses»); Bayerisches Ladenschlussgesetz van 25/7/2025 (GVBl. S. 246), Art. 2, geverifieerd op gesetze-bayern.de. Voorbehoud van het dossier: de wet werd in slechts 3 van de 16 Länder geverifieerd.",
+      "ano": 2025,
+      "revisarAte": "2027-01-31",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": [
+        "de-i08-n02"
+      ]
+    },
+    {
+      "id": "de-i08-du-angebot",
+      "afirmacao": "De overstap van Sie naar du wordt aangeboden, niet gekozen door de bezoeker. Het Duitse standaardwerk stelt dat Sie de juiste aanspreekvorm is in het zakelijk verkeer en bij nieuwe contacten, en dat du naar beneden wordt aangeboden — een werkgever aan een werknemer, een oudere collega aan een jongere — waarbij het omgekeerde als slechte manieren geldt. Een genoemde linguïst, Horst Simon van de Freie Universität Berlin, voegt in een interview van 2023 twee dingen toe: iedereen mag het aanbod doen, en wie het ontvangt kan het bijna niet weigeren. De overstap wordt in de literatuur ook als praktisch onomkeerbaar behandeld. Beweringen dat Sie op zijn retour is, zijn niet aangetoond; één commercieel onderzoek van januari 2026 vond in elke leeftijdsgroep minder dan één op tien voorstanders van afschaffing.",
+      "fonte": "Duden, Sprachratgeber «Duzen oder Siezen?»; Horst Simon (FU Berlin), interview met Spektrum der Wissenschaft, 27/3/2023 [SAMENVATTING]; Appinio, «Siezen oder Duzen», 7/1/2026, N=4.877, 16–54 jaar — commercieel instituut, representativiteit niet aangegeven.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-i08-n06"
+      ]
+    },
+    {
+      "id": "de-i08-ruhezeit",
+      "afirmacao": "Rusturen bestaan, maar het is niet één nationale regel. De enige federale norm die hier is bereikt is §7 van de 32e federale immissiebeschermingsverordening, die het gebruik verbiedt van de opgesomde machines — grasmaaiers, bladblazers en dergelijke — in woongebieden op zondagen en feestdagen de hele dag, en op werkdagen tussen 20 uur en 7 uur. De algemene nachtrust vanaf 22 uur en de volledige zondagsrust komen uit de deelstaatwet, gemeentelijke verordeningen en het huisreglement van het gebouw, niet uit die verordening.",
+      "fonte": "32. BImSchV §7 (gesetze-im-internet.de, gelezen op 5/8/2026). De algemene Nachtruhe (22h–6h) en de volledige Sonntagsruhe komen uit deelstaatwet, gemeentelijke verordening en Hausordnung — niet uit deze federale norm.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-i08-n10"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i08-n01",
+      "gesto": 4,
+      "bloco": "aquecimento",
+      "pt": "U bent voor zondagmiddag uitgenodigd bij iemand thuis. Dus de boodschappen gebeuren vandaag."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i08-n02",
+      "bloco": "corpo",
+      "pt": "De wet sluit de winkels op zon- en feestdagen, en om acht uur 's avonds de rest van de week."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-i08-t01",
+      "es": "Ich suche einen Blumenladen.",
+      "pinyin": "ikh ZOO-khuh INE-en BLOO-men-lah-den",
+      "pt": "Ik zoek een bloemenzaak.",
+      "tts": "Ich suche einen Blumenladen."
+    },
+    {
+      "consulta": [
+        "compras/balcao",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-SUCHE",
+      "encaixe": "einen Blumenladen",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i08-p01",
+      "promptPt": "U staat bij een kiosk op de hoek en wilt morgen met iets in uw hand aankomen. Open de zoektocht. Spreek nu.",
+      "audioKey": "de-i08-t01",
+      "es": "Ich suche einen Blumenladen.",
+      "pinyin": "ikh ZOO-khuh INE-en BLOO-men-lah-den",
+      "pt": "Ik zoek een bloemenzaak.",
+      "tts": "Ich suche einen Blumenladen."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i08-r01",
+      "receptivo": true,
+      "es": "Gleich um die Ecke, neben der Bäckerei.",
+      "pt": "Meteen om de hoek, naast de bakker.",
+      "tts": "Gleich um die Ecke, neben der Bäckerei.",
+      "acao": "'Gleich um die Ecke' is loopafstand. Berg de telefoon op en neem de hoek."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i08-n03",
+      "pt": "'Suche' begint met een z-klank: zoo-khuh. Een Duitse s vóór een klinker is stemhebbend, altijd."
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "HABEN-SIE",
+      "encaixe": "einen Blumenstrauß",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i08-p02",
+      "promptPt": "In de zaak zijn de emmers vol en niemand heeft opgekeken. Vraag naar het ding zelf. Spreek nu.",
+      "audioKey": "de-i08-t02",
+      "es": "Haben Sie einen Blumenstrauß?",
+      "pinyin": "HAH-ben zee INE-en BLOO-men-shtrowss",
+      "pt": "Hebt u een boeket?",
+      "tts": "Haben Sie einen Blumenstrauß?"
+    },
+    {
+      "consulta": [
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WAS-KOSTET",
+      "encaixe": "der Strauß",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i08-p03",
+      "promptPt": "Ze haalt er één uit het water en houdt hem omhoog zonder een bedrag te noemen. Vraag voor u knikt. Spreek nu.",
+      "audioKey": "de-i08-t03",
+      "es": "Was kostet der Strauß?",
+      "pinyin": "vas KOS-tet dair shtrowss",
+      "pt": "Wat kost het boeket?",
+      "tts": "Was kostet der Strauß?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i08-n04",
+      "pt": "De ß is alleen een letter, nooit een eigen klank. Lees hem als een gewone s en loop door."
+    },
+    {
+      "consulta": [
+        "compras/pagar",
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "eine Flasche Wein",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i08-p04",
+      "promptPt": "Twee deuren verder heeft een zaak schappen ervan, en u wilt er één bij de bloemen. Spreek nu.",
+      "audioKey": "de-i08-t04",
+      "es": "Ich möchte eine Flasche Wein, bitte.",
+      "pinyin": "ikh MURKH-tuh INE-uh FLA-shuh vine, BIT-tuh",
+      "pt": "Ik wil graag een fles wijn, alstublieft.",
+      "tts": "Ich möchte eine Flasche Wein, bitte."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i08-r02",
+      "receptivo": true,
+      "es": "Möchten Sie das als Geschenk?",
+      "pt": "Wilt u dat als cadeau?",
+      "tts": "Möchten Sie das als Geschenk?",
+      "acao": "'Als Geschenk' is het aanbod om het aan de balie in te pakken. 'Ja, bitte' is het hele antwoord."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i08-n05",
+      "bloco": "capsula",
+      "pt": "Aan de deur morgen doet één zin het meeste werk: die over de uitnodiging zelf."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer",
+        "simpatia/convite"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "DANKE",
+      "encaixe": "vielen Dank",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i08-p05",
+      "promptPt": "De deur gaat open, beide handen vol, en dit is het eerste uit uw mond. Spreek nu.",
+      "audioKey": "de-i08-t05",
+      "es": "Vielen Dank für die Einladung.",
+      "pinyin": "FEE-len dahnk fuer dee INE-lah-doong",
+      "pt": "Heel hartelijk dank voor de uitnodiging.",
+      "tts": "Vielen Dank für die Einladung."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-i08-r03",
+      "receptivo": true,
+      "es": "Schön, dass Sie da sind. Kommen Sie rein!",
+      "pt": "Fijn dat u er bent. Komt u binnen!",
+      "tts": "Schön, dass Sie da sind. Kommen Sie rein!",
+      "acao": "'Kommen Sie rein' is de deur die opengaat. Volg ze naar binnen en laat hen beslissen waar u zit."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i08-n06",
+      "pt": "Ergens op de avond kan het du worden aangeboden. Het is een aanbod, en het komt van hun kant."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i08-r04",
+      "receptivo": true,
+      "es": "Wir können uns gern duzen. Ich bin Thomas.",
+      "pt": "We kunnen elkaar gerust tutoyeren. Ik ben Thomas.",
+      "tts": "Wir können uns gern duzen. Ich bin Thomas.",
+      "acao": "Dat is het aanbod dat aankomt, met een voornaam erbij. Antwoord met de uwe; u doet het aanbod nooit zelf."
+    },
+    {
+      "consulta": [
+        "chegar/tu-usted",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i08-p06",
+      "promptPt": "Uw gastheer heeft u zojuist een voornaam gegeven en wacht. Geef de uwe terug en neem het aanbod. Spreek nu.",
+      "audioKey": "de-i08-t06",
+      "es": "Gern! Ich bin Sarah.",
+      "pinyin": "gairn! ikh bin SAH-rah",
+      "pt": "Graag! Ik ben Sarah.",
+      "tts": "Gern! Ich bin Sarah."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i08-n07",
+      "pt": "Sie blijft in elke bouwsteen die u kent, en niemand telt mee. Warmte en Sie reizen prima samen."
+    },
+    {
+      "consulta": [
+        "simpatia/brindar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i08-p07",
+      "promptPt": "Glazen gaan omhoog rond de tafel en het praten stopt even. Eén woord, en het is aan u. Spreek nu.",
+      "audioKey": "de-i08-t07",
+      "es": "Prost!",
+      "pinyin": "prohst",
+      "pt": "Proost!",
+      "tts": "Prost!"
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar-comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i08-p08",
+      "promptPt": "Iemand heeft de middag besteed aan wat voor u ligt. Zeg dat tussen de eerste en tweede hap. Spreek nu.",
+      "audioKey": "de-i08-t08",
+      "es": "Das schmeckt wirklich gut.",
+      "pinyin": "das shmekt VEER-likh goot",
+      "pt": "Dit smaakt echt goed.",
+      "tts": "Das schmeckt wirklich gut."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-i08-r05",
+      "receptivo": true,
+      "es": "Möchten Sie noch etwas? Greifen Sie zu!",
+      "pt": "Wilt u nog wat? Tast toe!",
+      "tts": "Möchten Sie noch etwas? Greifen Sie zu!",
+      "acao": "'Greifen Sie zu' betekent: pak het zelf. Reiken is het aanvaarde antwoord, geen tweede vraag."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i08-n08",
+      "pt": "'Wirklich' heeft de zachte ch, die na i en e woont. Dit is de dure klank: geen g van 'gat', maar hoger vooraan."
+    },
+    {
+      "consulta": [
+        "mesa/agua-pao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "noch ein Glas Wasser",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i08-p09",
+      "promptPt": "Uw glas is al even leeg en de karaf staat aan het andere eind van de tafel. Spreek nu.",
+      "audioKey": "de-i08-t09",
+      "es": "Ich möchte noch ein Glas Wasser, bitte.",
+      "pinyin": "ikh MURKH-tuh nokh ine glahs VA-ser, BIT-tuh",
+      "pt": "Ik wil graag nog een glas water, alstublieft.",
+      "tts": "Ich möchte noch ein Glas Wasser, bitte."
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar-lugar",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i08-p10",
+      "promptPt": "U staat met uw jas over uw arm en u meent het. Zeg het voor u de deur bereikt. Spreek nu.",
+      "audioKey": "de-i08-t10",
+      "es": "Es war ein sehr schöner Abend.",
+      "pinyin": "es var ine zair SHUR-ner AH-bent",
+      "pt": "Het was een heel mooie avond.",
+      "tts": "Es war ein sehr schöner Abend."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i08-n09",
+      "pt": "Abend eindigt op een t. Uw eigen 'hond' klinkt al als 'hont' — Duits doet hetzelfde, vanzelf."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i08-n10",
+      "pt": "Rusturen bestaan en zijn lokaal: huisreglement en deelstaatwet stellen ze in, geen nationale regel."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "DANKE",
+      "encaixe": "vielen Dank für alles",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i08-p11",
+      "promptPt": "U staat in de deuropening, het trappenhuis draagt geluid, en dit is het laatste dat u zegt. Spreek nu.",
+      "audioKey": "de-i08-t11",
+      "es": "Vielen Dank für alles. Auf Wiedersehen!",
+      "pinyin": "FEE-len dahnk fuer A-les. owf VEE-der-zayn",
+      "pt": "Heel hartelijk dank voor alles. Tot ziens!",
+      "tts": "Vielen Dank für alles. Auf Wiedersehen!"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-i08-s01",
+      "molde": "DANKE",
+      "es": "Vielen Dank für die Einladung. Das schmeckt wirklich gut. Es war ein sehr schöner Abend.",
+      "pinyin": "FEE-len dahnk fuer dee INE-lah-doong. das shmekt VEER-likh goot. es var ine zair SHUR-ner AH-bent",
+      "pt": "Herhaal de drie zinnen die het hele bezoek dragen: de deur, de tafel, de jas.",
+      "tts": "Vielen Dank für die Einladung. Das schmeckt wirklich gut. Es war ein sehr schöner Abend."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i08-n11",
+      "bloco": "recap",
+      "pt": "I08 klaar. Op zaterdag gekocht, aan de deur bedankt, en u hoort de du wanneer die komt."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "De deur, de tafel en de jas",
+    "secoes": [
+      {
+        "titulo": "Zaterdag is de winkeldag",
+        "corpo": "De federale winkelsluitingswet houdt verkooppunten dicht op zondagen en feestdagen en vanaf 20 uur op werkdagen, met bakkerijen die vanaf half zes 's ochtends open mogen. Een kort zondagvenster blijft over voor melk, bakkerswaren, vers fruit, bloemen en kranten, en elke deelstaat stelt die uren vast rond de tijd van de hoofddienst — precies daarom is het venster vroeg en kort. Koop de dag ervoor en de vraag verdwijnt.",
+        "exemplos": [
+          {
+            "es": "Ich suche einen Blumenladen.",
+            "pt": "Ik zoek een bloemenzaak."
+          },
+          {
+            "es": "Haben Sie einen Blumenstrauß?",
+            "pt": "Hebt u een boeket?"
+          }
+        ]
+      },
+      {
+        "titulo": "Wat open is, en wat het mag verkopen",
+        "corpo": "Een tankstation mag altijd open zijn, maar tijdens winkelsluitingstijden is het wettelijk beperkt tot brandstof, voertuigonderdelen en Reisebedarf — reisbenodigdheden. Een station- of luchthavenwinkel valt onder dezelfde beperking: open, maar wettelijk beperkt tot Reisebedarf voor reizigers. Een zondagse boodschappenronde in een Hauptbahnhof is dus niet het juridische plaatje, wat u ook mag zien. Beieren is de uitzondering die u moet kennen: sinds 1 augustus 2025 mogen onbemande winkels tot 150 vierkante meter er 24 uur per dag open zijn, ook op zondag."
+      },
+      {
+        "titulo": "De du wordt aangeboden, niet gevraagd",
+        "corpo": "Wir können uns gern duzen, of eenvoudig een voornaam die wordt overhandigd, is het aanbod. Het standaardwerk stelt dat Sie juist is bij nieuwe contacten en in het zakelijk verkeer en dat de du naar beneden reist — werkgever aan werknemer, oudere collega aan jongere. Een genoemde linguïst voegt het deel toe dat voor een bezoeker telt: iedereen mag het aanbod doen, en wie het krijgt kan het bijna niet weigeren. Daarom hoeft u het nooit te doen. Neem het aan, geef uw voornaam, en blijf de Sie-bouwstenen gebruiken die u al hebt; niemand controleert u. En voor u is dit vertrouwde grond: u kent thuis al de U-vorm, en Sie doet in Duitsland precies dat werk.",
+        "exemplos": [
+          {
+            "es": "Wir können uns gern duzen. Ich bin Thomas.",
+            "pt": "We kunnen elkaar gerust tutoyeren. Ik ben Thomas."
+          },
+          {
+            "es": "Gern! Ich bin Sarah.",
+            "pt": "Graag! Ik ben Sarah."
+          }
+        ]
+      },
+      {
+        "titulo": "Drie zinnen dragen het hele bezoek",
+        "corpo": "Vielen Dank für die Einladung aan de deur. Das schmeckt wirklich gut aan tafel. Es war ein sehr schöner Abend met de jas over uw arm. Elk kort, elk met een zelfstandig naamwoord erin, en geen ervan vraagt u ter plekke iets op te bouwen. Prost dekt de glazen die omhoog gaan, en heeft geen zin eromheen nodig."
+      },
+      {
+        "titulo": "Weggaan, en het geluid van het trappenhuis",
+        "corpo": "Rusturen bestaan en het is niet één nationale regel. De federale verordening die hier echt is nagekeken dekt opgesomde machines — maaiers, blazers — verboden op zondagen en feestdagen de hele dag en van 20 uur tot 7 uur op werkdagen in woongebieden. De bekende nachtrust vanaf 22 uur en de volledige zondagsrust komen uit deelstaatwet, gemeentelijke verordeningen en het huisreglement van het gebouw. De praktische versie is kleiner dan de legende: neem het afscheid ín de woning, en laat het trappenhuis de stille versie krijgen."
+      }
+    ]
+  },
+  "slot": "I08",
+  "permissao": "U mag aankomen met bloemen uit een winkel en een fles van een schap, en u mag vragen wat het boeket kost voordat u knikt. Niemand geeft cijfers voor het cadeau. En wanneer de du wordt aangeboden, mag u die gewoon aannemen en uw voornaam geven — u hoeft het aanbod nooit zelf te doen.",
+  "permissaoAudioKey": "de-i08-n06",
+  "espelho": "De bezoekersgewoonte die hier vreemd overkomt is wat u thuis beleefdheid noemt: de tweede portie twee keer weigeren voordat u aanneemt, en twintig minuten in de deuropening staan afscheid nemen. Greifen Sie zu betekent reiken, en het afscheid is de moeite waard om ín de woning af te ronden.",
+  "fichasCulturais": [
+    {
+      "sinal": "Het is zondag om twee uur 's middags en de supermarkt, de boekhandel en de wijnwinkel in uw straat zijn allemaal donker.",
+      "suaLeitura": "Er moet een feestdag zijn die ik niet ken, of dit is een heel rustige buurt.",
+      "oQueEAli": "De winkelsluitingswet houdt verkooppunten dicht op zondagen en feestdagen en vanaf 20 uur op werkdagen. Dat is de gewone toestand van een Duitse zondag, geen incident. Een kort ochtendvenster blijft over voor bakkerswaren, melk, vers fruit, bloemen en kranten, per deelstaat getimed rond de hoofddienst.",
+      "oQueVoceFaz": "Doe de boodschappen op zaterdag. Blijft er alleen zondagochtend over, mik dan vroeg op bakker en bloemist en verwacht dat het venster voor de lunch dichtgaat.",
+      "oQueMelhora": "Uw zondag wordt een wandeling, een markt die toch al dicht zou zijn, en een aankomst met iets in uw hand in plaats van een uur zoeken.",
+      "ondeNaoVale": "Winkelsluiting valt onder de deelstaten en slechts drie van de zestien werden voor deze cursus nagekeken; loop dus niet met één nationaal rooster rond. Beieren nam in 2025 een eigen wet aan die onbemande winkels tot 150 vierkante meter 24 uur per dag laat openen. En een open winkel in een station of op een luchthaven is wettelijk beperkt tot reisbenodigdheden voor reizigers, wat de schappen er ook uitzien.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-i08-n02"
+      ]
+    },
+    {
+      "sinal": "Halverwege de avond zegt uw gastheer «wir können uns gern duzen» en geeft u een voornaam.",
+      "suaLeitura": "Dit is een test of ik de regel ken, en ik moet uitzoeken of ik het teruggeef of afwacht.",
+      "oQueEAli": "Het is een aanbod, en het aanbod is aan de andere kant. De referentiegrammatica laat du naar beneden reizen — werkgever aan werknemer, oudere collega aan jongere — en een genoemde linguïst voegt toe dat iedereen het mag uitreiken en dat wie het krijgt het bijna niet kan weigeren. Het geldt ook als eenrichtingsverkeer: eenmaal gegeven, gaat het niet terug naar Sie.",
+      "oQueVoceFaz": "Neem het aan, antwoord met uw voornaam, en blijf de Sie-bouwstenen gebruiken die u al kent. U bent niet verplicht du te produceren om het gebaar te aanvaarden.",
+      "oQueMelhora": "U leest het moment als het stukje gastvrijheid dat het is, in plaats van als een grammatica-examen waarvoor u misschien zakt.",
+      "ondeNaoVale": "Dit is niet de bewering dat Sie verdwijnt — dat is niet aangetoond, en het enige gevonden onderzoek is van een commercieel instituut in januari 2026 met in elke leeftijdsgroep minder dan één op tien die Sie afgeschaft wil zien. En er is geen regel over wie eerst aanbiedt op basis van geslacht: die lijn komt van etiquettesites, en de bereikbare literatuur wijst de andere kant op.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "de-i08-n06"
+      ]
+    }
+  ]
+}

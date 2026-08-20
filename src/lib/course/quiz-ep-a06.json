@@ -1,0 +1,89 @@
+{
+  "id": "q-a06",
+  "nivel": "avancado",
+  "titulo": "Quiz — Ein Land, das für einen Tag komplett orange wird",
+  "subtitulo": "Fünf Fragen zu Königstag, zwei Minuten Stille und einem Schuh am Kamin",
+  "introAudioKey": "hol-a06-q-i",
+  "introPt": "Ein Flohmarkt vor jeder Tür, eine stille Straße um acht Uhr abends, und ein Berg Gewürzkekse an der Kasse.",
+  "cenario": "Am 27. April auf der Straße, dann am Abend des 4. Mai, dann Anfang Dezember an der Kasse.",
+  "dialogo": [
+    {
+      "audioKey": "hol-a06-q01",
+      "voz": "target_nl_f",
+      "es": "Kijk gerust, alles moet weg vandaag!",
+      "pt": "Schau ruhig, heute muss alles weg!",
+      "tts": "Kijk gerust, alles moet weg vandaag!"
+    },
+    {
+      "audioKey": "hol-a06-q02",
+      "voz": "target_nl_m",
+      "es": "Om acht uur is het stil, twee minuten lang, in het hele land.",
+      "pt": "Um acht Uhr ist es still, zwei Minuten lang, im ganzen Land.",
+      "tts": "Om acht uur is het stil, twee minuten lang, in het hele land."
+    },
+    {
+      "audioKey": "hol-a06-q03",
+      "voz": "target_nl_f",
+      "es": "Vijf december is Sinterklaas, dat is echt iets anders dan kerst.",
+      "pt": "Der fünfte Dezember ist Sinterklaas, das ist wirklich etwas anderes als Weihnachten.",
+      "tts": "Vijf december is Sinterklaas, dat is echt iets anders dan kerst."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Am 27. April ist die ganze Straße orange, und vor jeder Tür liegt ein kleiner Flohmarkt. Was ist heute?",
+      "opcoes": [
+        "Ein normaler Wochenmarkt",
+        "Koningsdag — der Königstag, der einzige Tag im Jahr mit erlaubtem freiem Straßenverkauf",
+        "Ein Fußballfest",
+        "Der niederländische Nationalfeiertag der Unabhängigkeit"
+      ],
+      "correta": 1,
+      "explica": "Koningsdag fällt auf den Geburtstag des Königs, den 27. April, und ist der einzige Tag, an dem private Straßenverkäufe ohne Genehmigung erlaubt sind — daher die Flohmärkte überall."
+    },
+    {
+      "pergunta": "Am Abend des 4. Mai bleibt um 20 Uhr plötzlich alles zwei Minuten still. Was machst du?",
+      "opcoes": [
+        "Weitergehen, das betrifft dich nicht",
+        "Fragen, was los ist",
+        "Einfach stehen bleiben, wo du bist — mehr wird nicht erwartet",
+        "Applaudieren"
+      ],
+      "correta": 2,
+      "explica": "Das ist der Dodenherdenking, die landesweite Gedenkminute für die Toten des Zweiten Weltkriegs und späterer Konflikte. Stehen bleiben und still sein reicht völlig."
+    },
+    {
+      "pergunta": "Was folgt auf den 4. Mai, und wie oft ist er voller Feiertag?",
+      "opcoes": [
+        "Der 5. Mai, Bevrijdingsdag — jährlich begangen, aber nur alle fünf Jahre voller arbeitsfreier Feiertag",
+        "Sofort Sinterklaas",
+        "Ein zweiter Gedenktag am 6. Mai",
+        "Der Königstag"
+      ],
+      "correta": 0,
+      "explica": "Der Bevrijdingsdag am 5. Mai feiert die Befreiung von 1945, mit Konzerten und Festen — als voller Feiertag mit arbeitsfreiem Tag jedoch nur alle fünf Jahre."
+    },
+    {
+      "pergunta": "Anfang Dezember stellt ein Kind einen Schuh mit einer Karotte an den Kamin. Um welches Fest geht es?",
+      "opcoes": [
+        "Eine frühe Weihnachtsfeier",
+        "Sinterklaas am Abend des 5. Dezember — ein eigenständiges Fest, unabhängig von Weihnachten",
+        "Ein Erntedankfest",
+        "Karneval"
+      ],
+      "correta": 1,
+      "explica": "Sinterklaas ist ein eigenes Fest mit eigenem Datum, Liedern und kleinen Geschenken im Schuh. Weihnachten wird in den Niederlanden separat und ruhiger gefeiert."
+    },
+    {
+      "pergunta": "Im Süden, in Limburg und Brabant, gibt es im Februar ein Fest, das anderswo im Land kaum eine Rolle spielt. Welches?",
+      "opcoes": [
+        "Karneval, mit Umzügen und tagelangen Feiern in den traditionell katholisch geprägten Provinzen",
+        "Ein zweiter Königstag",
+        "Eine Wiederholung von Sinterklaas",
+        "Der Bevrijdingsdag"
+      ],
+      "correta": 0,
+      "explica": "Karneval hat in Limburg und Noord-Brabant eine lange, lebendige Tradition — ein sichtbarer Kontrast zum ruhigeren Kalender in großen Teilen des restlichen Landes."
+    }
+  ]
+}

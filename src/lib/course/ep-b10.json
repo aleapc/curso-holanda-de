@@ -1,0 +1,436 @@
+{
+  "id": "b10",
+  "nivel": "basico",
+  "numero": 10,
+  "parte": "B10",
+  "slot": "B10",
+  "titulo": "Lies das Schild, bevor du fragst — und ein Wort, das nicht bellt",
+  "subtitulo": "Vier falsche Freunde auf Augenhöhe, und der Baustein, der alles findet, was du noch nicht siehst",
+  "cena": "Sonntag, halb zehn, eine Straße voller Rollläden in einer Stadt, in der du gestern Abend gelandet bist, und ein einziges Schild leuchtet: ein Geldautomat, zwei Häuser weiter.",
+  "moldura": "ganha",
+  "frasePiso": "Ik zoek, plus das Ding — fünf Orte in einer fremden Straße finden, ohne ein einziges Mal zu raten oder zu zeigen.",
+  "moldes": [
+    "ICH-SUCHE"
+  ],
+  "clique": {
+    "contagem": [
+      "der Geldautomat an der Bank",
+      "das Schaufenster der Apotheke",
+      "der Eingang des Supermarkts",
+      "der Fahrradständer am Bahnhof"
+    ],
+    "desconto": "Niemand gab dir vier Sätze für vier Orte. Du hast zwei Wörter festgehalten und nur das Ding am Ende gewechselt, und die Straße hat jedes Mal geantwortet.",
+    "piso": "Das nächste Mal, wenn eine fremde Straße dir nichts zum Zeigen bietet, hast du trotzdem eine Öffnung — und du liest das Schild, bevor du überhaupt fragst."
+  },
+  "fatosDatados": [
+    {
+      "id": "hol-b10-fietspad",
+      "afirmacao": "Der Radweg (fietspad) gehört dem Radfahrer, nicht dem Fußgänger — das ist keine Höflichkeitsregel, sondern die Vorrangordnung der Straße. Ein rotes oder abgesetztes Pflasterband neben dem Gehweg ist eine eigene Fahrspur mit eigenem Verkehr, meist ohne Ampel und oft schneller, als der Blick verrät. Wer dort steht, anhält oder ihn als breiten Gehweg benutzt, steht am gefährlichsten Punkt der Straße — behandle das Band wie eine Autospur: schauen, nicht draufbleiben, nicht als Bürgersteig benutzen.",
+      "fonte": "Holland2Stay und Holland-Cycling, Reise- und Verkehrsratgeber 2024/25",
+      "ano": 2024,
+      "revisarAte": "2027-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "medio",
+      "audioKeys": [
+        "hol-b10-n10",
+        "hol-b10-n11"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b10-n01",
+      "gesto": 2,
+      "tom": "ganha",
+      "bloco": "aquecimento",
+      "pt": "Bevor dich hier jemand anspricht, sprechen die Wände. Übe die reinen Vokale: ie klingt wie in Bier, oe klingt wie ein langes uu."
+    },
+    {
+      "consulta": [
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "WO-IST",
+      "encaixe": "de uitgang",
+      "encaixeGloss": "der Ausgang",
+      "bloco": "callback",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b10-p01",
+      "promptPt": "Gestern an der Rezeption hast du nach der Toilette gefragt. Jetzt stehst du in einer Tiefgarage vor drei Schildern ohne ein Wort Text. Frag. Sprich jetzt.",
+      "audioKey": "hol-b10-t01",
+      "es": "Waar is de uitgang?",
+      "pinyin": "vaar is de ÖÜT-chang?",
+      "pt": "Wo ist der Ausgang?",
+      "tts": "Waar is de uitgang?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b10-n02",
+      "tom": "ganha",
+      "bloco": "cena",
+      "pt": "Sonntag, halb zehn, eine Straße voller Rollläden. Ein Fenster ist erleuchtet, ein Schild zeigt auf einen Geldautomaten."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b10-n03",
+      "bloco": "corpo",
+      "pt": "Eine Leseregel bezahlt sich sofort aus: ⟨ui⟩ wird zu öü, ⟨g⟩ und ⟨ch⟩ werden zu einem harten ch wie in Bach."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b10-r01",
+      "es": "Let op: fietspad. Niet lopen.",
+      "pinyin": "let op: FEETS-pat. neet LOH-pen",
+      "pt": "Achtung: Radweg. Nicht darauf gehen.",
+      "tts": "Let op: fietspad. Niet lopen.",
+      "receptivo": true,
+      "acao": "Tritt vom farbigen Band herunter, sofort, auch wenn kein Fahrrad in Sicht ist. Es ist eine Fahrspur, keine breite Gehwegkante."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b10-n04",
+      "bloco": "molde",
+      "pt": "Hier ist der Baustein, mit dem du hier alles findest: Ik zoek, und dahinter das Ding, nach dem du suchst."
+    },
+    {
+      "consulta": [
+        "pagar/dinheiro"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ICH-SUCHE",
+      "encaixe": "een pinautomaat",
+      "encaixeGloss": "ein Geldautomat",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b10-p02",
+      "promptPt": "Der Bäcker nimmt nur pinnen, und dein Bargeld ging gestern zur Neige. Frag die Frau, die ihren Hund ausführt. Sprich jetzt.",
+      "audioKey": "hol-b10-t02",
+      "es": "Ik zoek een pinautomaat.",
+      "pinyin": "ik ZUUK un PIN-au-toh-MAAT",
+      "pt": "Ich suche einen Geldautomaten.",
+      "tts": "Ik zoek een pinautomaat."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b10-r02",
+      "es": "Op de hoek, bij de bank, rechts van de bakker.",
+      "pinyin": "op de huuk, bäi de bank, rechts van de BAK-ker",
+      "pt": "An der Ecke, bei der Bank, rechts vom Bäcker.",
+      "tts": "Op de hoek, bij de bank, rechts van de bakker.",
+      "receptivo": true,
+      "acao": "Bleib für die Ortsangabe stehen. Sie kommt fast immer als zweiter Teil, nach der Bestätigung."
+    },
+    {
+      "consulta": [
+        "saude/algo-para"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ICH-SUCHE",
+      "encaixe": "een apotheek",
+      "encaixeGloss": "eine Apotheke",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b10-p03",
+      "promptPt": "Kopfschmerzen seit dem Flug, und im Schaufenster hier steht nur ein grünes Kreuz, kein Wort Text. Frag den Mann am Kiosk. Sprich jetzt.",
+      "audioKey": "hol-b10-t03",
+      "es": "Ik zoek een apotheek.",
+      "pinyin": "ik ZUUK un ah-poh-TEEK",
+      "pt": "Ich suche eine Apotheke.",
+      "tts": "Ik zoek een apotheek."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b10-n05",
+      "pt": "Das grüne Kreuz ist überall dieselbe Marke. Ob ein Rezept nötig ist, lernst du in B17 — heute reicht: es existiert, und du findest es."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b10-r03",
+      "es": "Hier bellen voor de conciërge.",
+      "pinyin": "hier BEL-len fohr de kon-see-ERZH-uh",
+      "pt": "Hier klingeln für den Hausmeister.",
+      "tts": "Hier bellen voor de conciërge.",
+      "receptivo": true,
+      "acao": "Drück den Knopf. Bellen ist hier telefonieren oder klingeln — nichts Vierbeiniges, so nah es auch klingt."
+    },
+    {
+      "consulta": [
+        "chegar/entrar",
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ICH-SUCHE",
+      "encaixe": "het centraal station",
+      "encaixeGloss": "der Hauptbahnhof",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b10-p04",
+      "promptPt": "Dein Zug fährt in vierzig Minuten, und die Karte auf deinem Handy lädt eine leere graue Fläche. Frag den Jogger. Sprich jetzt.",
+      "audioKey": "hol-b10-t04",
+      "es": "Ik zoek het centraal station.",
+      "pinyin": "ik ZUUK het sen-TRAAL sta-SJON",
+      "pt": "Ich suche den Hauptbahnhof.",
+      "tts": "Ik zoek het centraal station."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b10-n06",
+      "tom": "protege",
+      "pt": "Ein Wort, das du langsam liest: Naar het Meer auf einem Wegweiser meint einen See, nicht das Meer — und manchmal auch einfach mehr."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b10-r04",
+      "es": "Naar het Meer, 2 kilometer.",
+      "pinyin": "naar het meer, tvee kee-loh-MAY-ter",
+      "pt": "Zum See, 2 Kilometer.",
+      "tts": "Naar het Meer, 2 kilometer.",
+      "receptivo": true,
+      "acao": "Erwarte Wasser zum Stehenbleiben, kein Meer mit Wellen. Dasselbe Wort trägt auch die Bedeutung mehr."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b10-n07",
+      "tom": "ganha",
+      "pt": "Und noch eins, freundlicher: Slim Parkeren auf einem Parkschild heißt clever parken, nicht schlank parken."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_f",
+      "audioKey": "hol-b10-r05",
+      "es": "Slim Parkeren: eerste uur gratis.",
+      "pinyin": "slim par-KEE-ren: AYR-ste uur chra-TIS",
+      "pt": "Clever parken: erste Stunde gratis.",
+      "tts": "Slim Parkeren: eerste uur gratis.",
+      "receptivo": true,
+      "acao": "Lies slim als klug, nicht als mager. Das Schild verspricht eine Belohnung, keine Diät."
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ICH-SUCHE",
+      "encaixe": "een supermarkt",
+      "encaixeGloss": "ein Supermarkt",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b10-p05",
+      "promptPt": "Montag, halb sieben, und der Kühlschrank in der Ferienwohnung ist leer. Frag den Nachbarn im Treppenhaus. Sprich jetzt.",
+      "audioKey": "hol-b10-t05",
+      "es": "Ik zoek een supermarkt.",
+      "pinyin": "ik ZUUK un ZÜ-per-markt",
+      "pt": "Ich suche einen Supermarkt.",
+      "tts": "Ik zoek een supermarkt."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b10-r06",
+      "es": "Wat een eng steegje, zeg.",
+      "pinyin": "vat un ENG STEECH-yuh, zech",
+      "pt": "Was für eine unheimliche Gasse, sag mal.",
+      "tts": "Wat een eng steegje, zeg.",
+      "receptivo": true,
+      "acao": "Eng heißt hier unheimlich, nicht schmal — der Nachbar warnt, er beschreibt nicht die Breite der Gasse."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b10-n09",
+      "pt": "Vier Wörter, die vertraut aussehen und woanders hinzeigen. Das ist der eigentliche Preis dieser Sprache, nicht die Grammatik."
+    },
+    {
+      "consulta": [
+        "transporte/bagagem",
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ICH-SUCHE",
+      "encaixe": "een fietsenstalling",
+      "encaixeGloss": "ein Fahrradständer",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b10-p06",
+      "promptPt": "Ein Leihrad ohne Schloss steht die ganze Nacht schutzlos vor dem Bahnhof. Frag den Beamten am Schalter. Sprich jetzt.",
+      "audioKey": "hol-b10-t06",
+      "es": "Ik zoek een fietsenstalling.",
+      "pinyin": "ik ZUUK un FIETS-en-stal-ling",
+      "pt": "Ich suche einen Fahrradständer.",
+      "tts": "Ik zoek een fietsenstalling."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b10-n10",
+      "tom": "protege",
+      "bloco": "capsula",
+      "pt": "Das farbige Band neben dem Gehweg ist eine echte Fahrspur, meist ohne Ampel, und der Radfahrer hat dort Vorrang, nicht du."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b10-n11",
+      "tom": "ganha",
+      "pt": "Behandle es wie eine Autospur: schauen, nicht draufbleiben, nicht als breiten Bürgersteig benutzen."
+    },
+    {
+      "consulta": [
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "WO-IST",
+      "encaixe": "het fietspad",
+      "encaixeGloss": "der Radweg",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b10-p07",
+      "promptPt": "Du stehst mit dem Koffer auf einem roten Pflasterband, und eine Klingel läutet zweimal hinter dir. Frag, wo es eigentlich verläuft. Sprich jetzt.",
+      "audioKey": "hol-b10-t07",
+      "es": "Waar is het fietspad?",
+      "pinyin": "vaar is het FIETS-pat?",
+      "pt": "Wo ist der Radweg?",
+      "tts": "Waar is het fietspad?"
+    },
+    {
+      "consulta": [
+        "chegar/entrar",
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ICH-SUCHE",
+      "encaixe": "een openbaar toilet",
+      "encaixeGloss": "eine öffentliche Toilette",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b10-p08",
+      "promptPt": "Der Kaffee vom Bahnhof rächt sich, und der einzige Laden weit und breit hat die Rollläden noch unten. Frag den Zeitungsverkäufer. Sprich jetzt.",
+      "audioKey": "hol-b10-t08",
+      "es": "Ik zoek een openbaar toilet.",
+      "pinyin": "ik ZUUK un OH-pen-BAAR twa-LET",
+      "pt": "Ich suche eine öffentliche Toilette.",
+      "tts": "Ik zoek een openbaar toilet."
+    },
+    {
+      "consulta": [
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "WO-IST",
+      "encaixe": "de brug",
+      "encaixeGloss": "die Brücke",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b10-p09",
+      "promptPt": "Auf der Karte führt die Straße geradewegs ins Wasser, und ein Bauzaun blockiert die Sicht. Frag die Passantin. Sprich jetzt.",
+      "audioKey": "hol-b10-t09",
+      "es": "Waar is de brug?",
+      "pinyin": "vaar is de BRÜCH?",
+      "pt": "Wo ist die Brücke?",
+      "tts": "Waar is de brug?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-b10-s01",
+      "tom": "ganha",
+      "es": "Ik zoek een apotheek. Ik zoek een supermarkt. Ik zoek het centraal station.",
+      "pinyin": "ik ZUUK un ah-poh-TEEK. ik ZUUK un ZÜ-per-markt. ik ZUUK het sen-TRAAL sta-SJON",
+      "pt": "Schatte denselben Öffner über drei völlig verschiedene Ziele.",
+      "tts": "Ik zoek een apotheek. Ik zoek een supermarkt. Ik zoek het centraal station.",
+      "molde": "ICH-SUCHE"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b10-n12",
+      "bloco": "clique",
+      "pt": "Zähl die Orte: der Geldautomat an der Bank, das Schaufenster der Apotheke, der Eingang des Supermarkts, der Fahrradständer am Bahnhof."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b10-n13",
+      "bloco": "recap",
+      "pt": "B10 fertig. Lies das Schild, bevor du fragst, und stell Ik zoek vor alles, was du in dieser Straße noch nicht siehst."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Ein Öffner, und vier Wörter, die woanders hinzeigen",
+    "secoes": [
+      {
+        "titulo": "Ik zoek, plus das Ding",
+        "corpo": "Ik zoek unterscheidet sich vom Baustein aus B06: Heeft u fragt, was eine Person hinter einem Tresen hat; Ik zoek eröffnet die Suche, wenn du selbst nicht weißt, wo du bist. Beide teilen sich denselben Trick — das Ding kommt fertig, ohne Fall, ohne Geschlechtsentscheidung beim unbestimmten Artikel — und beide bekommst du in der Antwort meist eine Ortsangabe zurück, keine Ja/Nein-Antwort allein.",
+        "exemplos": [
+          {
+            "es": "Ik zoek een apotheek.",
+            "pt": "Ich suche eine Apotheke."
+          },
+          {
+            "es": "Ik zoek een pinautomaat.",
+            "pt": "Ich suche einen Geldautomaten."
+          }
+        ]
+      },
+      {
+        "titulo": "Vier Wörter, die dich woanders hinschicken",
+        "corpo": "Bellen ist telefonieren oder klingeln, nie bellen im Sinn eines Hundes. Eng ist unheimlich oder beklemmend, nicht schmal. Meer ist ein See — und manchmal einfach mehr — nie das Meer mit Wellen. Slim ist klug, nicht schlank. Keines davon ist Grammatik: es ist der Moment, in dem ein Wort vertraut aussieht und dein Deutsch die Bedeutung liefert, bevor dein Niederländisch es kann. Der einzige Schutz ist, das Wort zu kennen, bevor die Straße es dir zeigt."
+      },
+      {
+        "titulo": "Der Radweg ist eine Fahrspur",
+        "corpo": "Das farbige Pflasterband neben dem Gehweg trägt echten Verkehr, oft ohne Ampel und schneller, als der erste Blick verrät. Es als breiten Bürgersteig zu behandeln ist der zuverlässigste Weg, in den ersten Tagen erschrocken zu werden — schau, bevor du querst, und bleib nie darauf stehen, egal wie leer er gerade aussieht."
+      }
+    ]
+  },
+  "permissao": "Du darfst vor einem Schild stehenbleiben und es zweimal lesen; niemand auf dieser Straße stoppt die Uhr. Und Ik zoek plus ein Ding ist überall in der Stadt eine vollständige Bitte — du musst keinen Satz drumherum bauen, um höflich zu klingen.",
+  "permissaoAudioKey": "hol-b10-n04",
+  "fichasCulturais": [
+    {
+      "sinal": "Ein farbiges, oft rötliches Pflasterband läuft neben dem normalen Gehweg, meist ohne eigene Ampel, und Fahrräder kommen dort schneller als erwartet.",
+      "suaLeitura": "Das sieht aus wie ein breiterer Bürgersteig — ich kann kurz draufstehen, um auf mein Handy zu schauen.",
+      "oQueEAli": "Es ist eine eigene Fahrspur mit eigenem Vorrang, der fietspad. Reiseführer zu den Niederlanden nennen ihn einhellig den gefährlichsten Ort für einen Fußgänger in der Stadt, gerade weil er wie ein Teil des Gehwegs aussieht.",
+      "oQueVoceFaz": "Behandle das Band wie eine Autospur: schau, bevor du querst, bleib nie darauf stehen, benutze es nie als Abkürzung.",
+      "oQueMelhora": "Du liest die Straße wie jemand, der sie schon kennt, und der kurze Schreckmoment eines vorbeischießenden Fahrrads passiert dir nicht.",
+      "ondeNaoVale": "Die genaue Höhe eines möglichen Bußgelds variiert je nach Quelle und Gemeinde — das ist hier nicht der Punkt. Die Regel ist die Vorrangordnung selbst, nicht eine Zahl, die du dir merken müsstest.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "hol-b10-n10",
+        "hol-b10-n11"
+      ]
+    },
+    {
+      "sinal": "Ein Schild am Eingang zeigt „Hier bellen voor de conciërge”, und dein erster Impuls ist, nach einem Hund Ausschau zu halten.",
+      "suaLeitura": "Bellen — das kenne ich, das ist doch das, was Hunde tun.",
+      "oQueEAli": "Bellen ist eines der häufigsten falschen Freunde des Sprachpaars: im Niederländischen heißt es schlicht telefonieren oder klingeln, ohne jede Verbindung zu einem Tier. Das Schild bittet dich, den Knopf zu drücken.",
+      "oQueVoceFaz": "Drück den Klingelknopf, ohne zu zögern — und merk dir das Wort für den Rest der Reise, denn es taucht an jeder Gegensprechanlage wieder auf.",
+      "oQueMelhora": "Du hörst auf, gegen ein vertraut aussehendes Wort anzukämpfen, und liest Schilder ab jetzt schneller als am ersten Tag.",
+      "ondeNaoVale": "Nicht jede Ähnlichkeit ist eine Falle — water, brood, bier und huis heißen genau das, was du denkst. Die Vorsicht gilt einer kleinen, lernbaren Liste, nicht der ganzen Sprache.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "hol-b10-r03"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "q-i10",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Rechnung, Rundung, Rachen: Geld ohne Drama",
+  "subtitulo": "Aufrunden, ein Tikkie statt Bargeld, und der erste Satz auf Englisch oder Niederländisch",
+  "introAudioKey": "hol-i10-q-i",
+  "introPt": "Ein Reisender zahlt eine Restaurantrechnung, teilt die Kosten mit Freunden und handelt auf dem Flohmarkt.",
+  "cenario": "Ein Restauranttisch, und später ein Flohmarktstand.",
+  "dialogo": [
+    {
+      "audioKey": "hol-i10-q01",
+      "voz": "target_nl_m",
+      "es": "Dat is dan achttien euro vijftig.",
+      "pt": "Das macht dann achtzehn Euro fünfzig.",
+      "tts": "Dat is dan achttien euro vijftig."
+    },
+    {
+      "audioKey": "hol-i10-q02",
+      "voz": "target_nl_f",
+      "es": "Doe er twintig euro van, alstublieft.",
+      "pt": "Runden Sie es bitte auf zwanzig Euro auf.",
+      "tts": "Doe er twintig euro van, alstublieft."
+    },
+    {
+      "audioKey": "hol-i10-q03",
+      "voz": "target_nl_f",
+      "es": "Hoeveel kost deze sjaal?",
+      "pt": "Wie viel kostet dieser Schal?",
+      "tts": "Hoeveel kost deze sjaal?"
+    },
+    {
+      "audioKey": "hol-i10-q04",
+      "voz": "target_nl_m",
+      "es": "Tien euro, of twee voor achttien.",
+      "pt": "Zehn Euro, oder zwei für achtzehn.",
+      "tts": "Tien euro, of twee voor achttien."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Die Rechnung hat kein Feld für Trinkgeld. Was bedeutet das?",
+      "opcoes": [
+        "Trinkgeld ist hier verboten",
+        "Der Service ist gesetzlich schon im Preis enthalten — Trinkgeld ist freiwillig",
+        "Man hat vergessen, das Feld einzurichten",
+        "Man muss nach der Rechnung getrennt danach fragen"
+      ],
+      "correta": 1,
+      "explica": "Der Service steckt hier gesetzlich schon im ausgewiesenen Preis. Aufrunden oder fünf bis zehn Prozent gelten schon als großzügig."
+    },
+    {
+      "pergunta": "Wie geben Sie beim Kartenzahlen ein Trinkgeld, wenn es kein Prozentfeld gibt?",
+      "opcoes": [
+        "Gar nicht — Kartenzahlung schließt Trinkgeld aus",
+        "Sie nennen laut die Zahl, auf die aufgerundet werden soll",
+        "Sie zahlen den exakten Betrag und legen zusätzlich Bargeld hin",
+        "Sie fragen ausdrücklich nach einem Prozentsatz"
+      ],
+      "correta": 1,
+      "explica": "Doe er twintig euro van reicht als ganze Trinkgeldentscheidung — eine Zahl statt einer Prozentrechnung im Kopf."
+    },
+    {
+      "pergunta": "Jemand hat für Sie mitbezahlt. Was passiert am wahrscheinlichsten als Nächstes?",
+      "opcoes": [
+        "Nichts, man teilt hier nie",
+        "Eine kurze Zahlungsanfrage per App, ein Tikkie",
+        "Eine förmliche Rechnung per Post",
+        "Ein langes Gespräch darüber, wer wie viel schuldet"
+      ],
+      "correta": 1,
+      "explica": "Rechnungen zu teilen ist Normalfall, und die App Tikkie macht daraus eine kurze, unkomplizierte Zahlungsanfrage."
+    },
+    {
+      "pergunta": "«Tien euro, of twee voor achttien.» Was bedeutet dieser zweite Preis?",
+      "opcoes": [
+        "Eine Aufforderung zum Feilschen",
+        "Normale Verkaufslogik für zwei Stück, kein Signal zum Handeln",
+        "Ein Rechenfehler des Verkäufers",
+        "Ein Sonderpreis nur für Einheimische"
+      ],
+      "correta": 1,
+      "explica": "Ein zweiter Preis für zwei Stück ist übliche Verkaufslogik. Handeln passiert, ist aber nicht die Erwartung an jedem Stand."
+    },
+    {
+      "pergunta": "Warum ist Englisch oder ein Versuch auf Niederländisch der sicherere erste Satz gegenüber einem Fremden als Deutsch?",
+      "opcoes": [
+        "Weil kaum jemand hier Deutsch versteht",
+        "Weil Deutsch als Einstieg unbeabsichtigt wie eine Annahme wirken kann, während ein echter niederländischer Versuch honoriert wird",
+        "Weil Deutsch offiziell verboten ist",
+        "Weil Englisch grammatisch einfacher ist"
+      ],
+      "correta": 1,
+      "explica": "Viele verstehen zumindest etwas Deutsch, aber ein Fremder, der sofort Deutsch spricht, kann wie eine stille Annahme wirken. Englisch oder ein Wort Niederländisch — selbst nur dank u wel — kommt besser an."
+    }
+  ]
+}

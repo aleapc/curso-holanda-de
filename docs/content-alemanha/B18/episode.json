@@ -1,0 +1,455 @@
+{
+  "id": "b18",
+  "nivel": "basico",
+  "numero": 18,
+  "parte": "B18",
+  "titulo": "Der letzte Morgen — was kostet, de tassen, en het afscheid dat u terug laat vragen",
+  "subtitulo": "Uitchecken is om elf en de vlucht om negen, en elk uur ertussen is nog van u",
+  "cena": "Een hotellobby om tien uur 's ochtends op de laatste dag, twee tassen bij de lift, een supermarkttas met lege flessen in één hand, en een trein naar het vliegveld die vertrekt wanneer u besluit.",
+  "moldura": "ganha",
+  "frasePiso": "Was kostet, plus het ding. Elk cijfer op uw laatste dag komt binnen voor u het toegezegd hebt.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "de-b18-entwertung",
+      "afirmacao": "Een papieren kaartje wordt pas een geldig kaartje als het gestempeld is. § 9 Abs. 1 BefBedV noemt onder de gronden voor een verhoogd tarief dat de reiziger «den Fahrausweis nicht oder nicht unverzüglich im Sinne des § 6 Abs. 3 entwertet hat oder entwerten ließ», en de Beförderungsbedingungen van Deutsche Bahn, Stand 1/1/2026, bepalen dat een kaartje ongeldig is als «sie vorgeschriebene Entwertungen nicht aufweist». Een in de app gekocht kaartje is al gestempeld: het Komfort Check-in valideert het elektronisch. De twee bedragen werken in tegengestelde richting en het verschil is de moeite waard om te onthouden: in het stadsvervoer laat § 9 Abs. 2 BefBedV een verhoogd tarief «bis zu 60 Euro» toe — een plafond — terwijl op het spoor § 6 Abs. 2 EVO twee keer het gewone tarief stelt, «mindestens jedoch 60 Euro» — een ondergrens die stijgt op een lange reis. Beide zakken tot 7 € als de reiziger binnen een week aantoont dat er een geldig kaartje was. § 6 Abs. 4 EVO laat het bedrag helemaal vervallen als het vertrekstation noch een open loket noch een werkende automaat had.",
+      "fonte": "gesetze-im-internet.de (§ 9 BefBedV e § 6 EVO, versão consolidada de 2023, abertos em 5/8/2026, verbatim); Beförderungsbedingungen der Deutschen Bahn AG, Neuausgabe de 14/12/2025, Stand 1/1/2026, Tarifbekanntmachung 1/2026, PDF extraído — pesquisa § 5.4 e § 5.6. Os dispositivos «§ 9 Abs. 3 EVO» e «§ 12 Abs. 1 VO-ABB», que circulam como base legal, estão errados e não são usados aqui. Existe versão «Stand 31.07.2026» das Beförderungsbedingungen que não foi verificada.",
+      "ano": 2026,
+      "revisarAte": "2027-01-31",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": ["de-b18-n08"]
+    },
+    {
+      "id": "de-b18-puenktlichkeit",
+      "afirmacao": "De eigen cijfers van het spoor zijn het eerlijke antwoord op hoeveel tijd u voor een vlucht moet uittrekken. Het Geschäftsbericht 2025 van Deutsche Bahn definieert de maat verbatim: «Pünktlich sind Ankünfte mit einer Abweichung kleiner + 6 Minuten», gemeten bij elke stop in plaats van alleen bij de eindbestemming. Op die definitie meldt de Presseinformation van 27/3/2026 dat «60,1 Prozent der DB-Fernverkehrszüge erreichten 2025 pünktlich das Ziel (Vorjahr: 62,5 Prozent)». De reizigersmaat, Reisendenpünktlichkeit, die gemiste aansluitingen en uitval telt bij een drempel van 14:59 minuten, was 65,5% voor lange afstand in 2025; DB Regio Schiene draaide op 89,2%. Deelmetingen in 2026 zijn erger in de zomer: de operationele punctualiteit op de lange afstand was 52,6% in juni en juli 2026. Het bedrijf heeft zichzelf een doel van 60% voor 2026 gesteld en noemt het jaar een Superbaujahr. Dit is het feitelijke tegengewicht op het punctualiteitsstereotype, en het komt van de vervoerder.",
+      "fonte": "Deutsche Bahn, Geschäftsbericht 2025 (PDF oficial publicado 27/3/2026) e Presseinformation «Bilanz 2025», ambos baixados e extraídos, verbatim; página oficial de Pünktlichkeitswerte em deutschebahn.com, tabela mensal com referência julho/2026, acessada 5/8/2026 — pesquisa § 5.1.",
+      "ano": 2026,
+      "revisarAte": "2027-04-30",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": ["de-b18-n05", "de-b18-n06"]
+    },
+    {
+      "id": "de-b18-reservierung",
+      "afirmacao": "Een stoelreservering op een Duitse lange-afstandstrein is optioneel. De Beförderungsbedingungen van Deutsche Bahn titelen de clausule «Reservierungsmöglichkeit» — mogelijkheid, geen verplichting — en bepalen dat stoelen in ICE en IC/EC tot 12 maanden vooruit gereserveerd kunnen worden mits beschikbaar, dat de vervoerder verplichte reservering op bepaalde treinen kan opleggen, en dat «Die reservierungspflichtigen Züge sind im Fahrplan mit R gekennzeichnet». De aanspraak op een gereserveerde stoel vervalt als hij niet binnen 15 minuten na vertrek uit het station waar de reservering begint is ingenomen. Het tarief, Stand 1/1/2026, is 5,50 € per persoon per richting in de tweede klas en 6,90 € in de eerste. Bevestigde uitzonderingen: de ÖBB Nightjet vereist een reservering en heeft die in de boeking inbegrepen, terwijl nacht-IC en -ICE-treinen dat niet doen.",
+      "fonte": "Beförderungsbedingungen der Deutschen Bahn AG, cláusula A.5 / 5.1 a 5.3, Neuausgabe de 14/12/2025, Stand 1/1/2026, PDF baixado e extraído, verbatim; FAQ do bahn.de aberto em 5/8/2026 — pesquisa § 5.2.",
+      "ano": 2026,
+      "revisarAte": "2027-01-31",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": ["de-b18-n07"]
+    },
+    {
+      "id": "de-b18-taxfree",
+      "afirmacao": "Belastingvrij winkelen bij het verlaten van de EU heeft drie voorwaarden — en voor een Nederlandse reiziger geldt geen enkele daarvan. Het BMF Merkblatt, verspreid door zoll.de, Stand März 2025, geeft de voorwaarden verbatim: de koper moet in een derde land wonen, de goederen moeten binnen drie maanden dat derde land bereiken, en het totaal inclusief btw moet meer dan 50 euro zijn. De woonplaats beslist, niet de nationaliteit — de eigen voorbeelden in het Merkblatt maken een Britse burger wonend in Engeland tot Drittlandskäufer en een Britse burger wonend in Noord-Ierland niet. Voor een reiziger die in Nederland woont geldt het niet: Duitsland en Nederland zijn beide EU-lidstaten, dus reist u binnen dezelfde btw-zone en betaalt u de Duitse btw definitief, zoals u thuis de Nederlandse btw betaalt. Alleen als u vanuit Duitsland via een tussenstop doorreist naar buiten de EU en de eindbestemming een derde land is, kan de vrijstelling in beeld komen — dat is een randgeval, geen weekregel.",
+      "fonte": "BMF, «Merkblatt zur Umsatzsteuerbefreiung für Ausfuhrlieferungen im nichtkommerziellen Reiseverkehr», Stand März 2025, distribuído por zoll.de, PDF de 15 páginas aberto, verbatim — pesquisa § 4.7. Aplicação a residente NL derivada da definição de «Drittland» no próprio Merkblatt (NL não é Drittland).",
+      "ano": 2025,
+      "revisarAte": "2027-03-31",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": ["de-b18-n10", "de-b18-n11"]
+    },
+    {
+      "id": "de-b18-pfandrueckgabe",
+      "afirmacao": "Het statiegeld komt terug, en er is een plicht om lege verpakkingen aan te nemen. § 31 Abs. 2 VerpackG legt een Rücknahmepflicht op: de distributeur moet de lege verpakking op of nabij het verkooppunt tijdens openingstijden aannemen en het statiegeld gratis terugbetalen. Een winkel met een verkoopruimte onder 200 vierkante meter mag zich beperken tot de merken die hij verkoopt, en het wettelijke criterium is het materiaal in plaats van het merk — een handelaar moet wegwerpverpakking van hetzelfde materiaal aanvaarden dat hij verkoopt, ongeacht waar het gekocht is. Retourglas werkt andersom en is de verwarring die bezoekers verrast: er is geen wettelijke plicht om het aan te nemen, en de Verbraucherzentrale meldt dat de meeste winkels het toch terugbetalen «für Mehrwegflaschen ihrer Marken», als commerciële beleefdheid. Vuistregel: een plastic fles of blikje met het statiegeldlogo gaat naar praktisch elke supermarkt; retourglas gaat terug naar de winkel die het verkocht.",
+      "fonte": "gesetze-im-internet.de (§ 31 Abs. 2 VerpackG, com o trecho dos 200 m² verbatim); Verbraucherzentrale, página aberta, verbatim; dpg-pfandsystem.de, aberta — pesquisa § 9.4 e § 9.6.",
+      "ano": 2026,
+      "revisarAte": "2027-06-30",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": ["de-b18-n09"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b18-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "De laatste ochtend heeft twee klokken: die van hen om elf, de uwe om negen vanavond. Beide zijn te doen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b18-n02",
+      "bloco": "molde",
+      "pt": "Was kostet, en dan het ding. Eén opening, en geen cijfer op deze dag komt binnen na uw toezegging."
+    },
+    {
+      "consulta": ["quarto/checkout"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b18-p01",
+      "promptPt": "U staat bij de balie met de sleutelkaart in uw hand en een rij in uw rug. Groet, en zeg dan wat u komt doen. Spreek nu.",
+      "audioKey": "de-b18-t01",
+      "es": "Guten Morgen, ich möchte auschecken.",
+      "pinyin": "GOO-ten MOR-gen, ikh MURKH-te OWS-chek-en",
+      "pt": "Goedemorgen, ik wil uitchecken.",
+      "tts": "Guten Morgen, ich möchte auschecken."
+    },
+    {
+      "consulta": ["quarto/mala"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "HABEN-SIE",
+      "encaixe": "Gepäckaufbewahrung",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b18-p02",
+      "promptPt": "De kamer is weg om elf en het vliegtuig gaat om negen; u wilt niet tien uur als pakezel doorbrengen. Spreek nu.",
+      "audioKey": "de-b18-t02",
+      "es": "Haben Sie Gepäckaufbewahrung?",
+      "pinyin": "HAH-ben zee ge-PECK-owf-be-VAH-roong",
+      "pt": "Heeft u bagageopslag?",
+      "tts": "Haben Sie Gepäckaufbewahrung?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b18-n03",
+      "bloco": "corpo",
+      "pt": "Uw tassen hoeven niet de hele dag met u mee. De balie houdt ze, en vragen is één zin."
+    },
+    {
+      "consulta": ["quarto/mala"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b18-p03",
+      "promptPt": "Er is geen bagageruimte, maar er is een hoek achter de balie en een vrouw die dit vaker heeft gedaan. Spreek nu.",
+      "audioKey": "de-b18-t03",
+      "es": "Kann ich mein Gepäck hier lassen?",
+      "pinyin": "kan ikh main ge-PECK heer LASS-en",
+      "pt": "Kan ik mijn bagage hier laten?",
+      "tts": "Kann ich mein Gepäck hier lassen?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b18-r01",
+      "es": "Klar. Sie können das Gepäck bis achtzehn Uhr hierlassen.",
+      "pinyin": "klahr. zee KURN-nen dass ge-PECK biss AKHT-tsayn OO-ah HEER-lass-en",
+      "pt": "Prima. U kunt de bagage tot zes uur hier laten.",
+      "tts": "Klar. Sie können das Gepäck bis achtzehn Uhr hierlassen.",
+      "receptivo": true,
+      "acao": "Er zit een uur in het ja. Schrijf het op uw hand en plan de middag er van achteruit."
+    },
+    {
+      "consulta": ["pagar/pedir", "quarto/checkout"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b18-p04",
+      "promptPt": "Iemand thuis wil papier met de hotelnaam erop voor er geld teruggaat. Spreek nu.",
+      "audioKey": "de-b18-t04",
+      "es": "Ich brauche eine Rechnung, bitte.",
+      "pinyin": "ikh BROW-khe AI-ne REKH-noong, BIT-te",
+      "pt": "Ik heb een factuur nodig, alstublieft.",
+      "tts": "Ich brauche eine Rechnung, bitte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b18-n04",
+      "pt": "Vraag voor u toezegt. Het antwoord komt terug als een getal, en een getal is het makkelijkst om te vangen."
+    },
+    {
+      "consulta": ["transporte/bilhete", "compras/quanto"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WAS-KOSTET",
+      "encaixe": "die Fahrkarte",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b18-p05",
+      "promptPt": "U staat aan het loket in de stationshal en het scherm achter haar heeft vier opties. Krijg eerst het getal. Spreek nu.",
+      "audioKey": "de-b18-t05",
+      "es": "Was kostet die Fahrkarte?",
+      "pinyin": "vass KOS-tet dee FAHR-kar-te",
+      "pt": "Hoeveel kost het kaartje?",
+      "tts": "Was kostet die Fahrkarte?"
+    },
+    {
+      "consulta": ["transporte/qual-trem", "compras/quanto"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WAS-KOSTET",
+      "encaixe": "die Reservierung",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b18-p06",
+      "promptPt": "Zij heeft u een stoel met een nummer aangeboden en u weet niet of dat inbegrepen of extra is. Spreek nu.",
+      "audioKey": "de-b18-t06",
+      "es": "Was kostet die Reservierung?",
+      "pinyin": "vass KOS-tet dee re-zer-VEE-roong",
+      "pt": "Hoeveel kost de stoelreservering?",
+      "tts": "Was kostet die Reservierung?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b18-n05",
+      "pt": "Lange-afstandstreinen reden vorig jaar zes van de tien op tijd, en op tijd betekent hier onder zes minuten."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b18-n06",
+      "pt": "Het woord voor punctueel is hier ruim, en de vervoerder zegt het zelf. Reken een uur, geen minuut."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b18-n07",
+      "pt": "Een gereserveerde stoel is een mogelijkheid, geen regel. Alleen treinen met R in de dienstregeling vragen erom."
+    },
+    {
+      "consulta": ["taxi/destino", "compras/quanto"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WAS-KOSTET",
+      "encaixe": "die Fahrt zum Flughafen",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b18-p07",
+      "promptPt": "De chauffeur houdt de kofferbak open en u heeft dit ritje nooit eerder gedaan. Regel het bedrag op de stoep. Spreek nu.",
+      "audioKey": "de-b18-t07",
+      "es": "Was kostet die Fahrt zum Flughafen?",
+      "pinyin": "vass KOS-tet dee fahrt tsoom FLOOK-hah-fen",
+      "pt": "Hoeveel kost de rit naar het vliegveld?",
+      "tts": "Was kostet die Fahrt zum Flughafen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b18-n08",
+      "bloco": "capsula",
+      "pt": "Stempel een papieren kaartje in het kastje voor u instapt. Het app-soort is gestempeld op moment van check-in."
+    },
+    {
+      "consulta": ["transporte/bilhete", "transporte/placas"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WO-IST",
+      "encaixe": "der Entwerter",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b18-p08",
+      "promptPt": "U heeft een strookje karton uit de automaat en het perron heeft drie kleine kastjes op palen. Vraag welke. Spreek nu.",
+      "audioKey": "de-b18-t08",
+      "es": "Wo ist der Entwerter?",
+      "pinyin": "voh ist dair ent-VAIR-tah",
+      "pt": "Waar is het stempelapparaat?",
+      "tts": "Wo ist der Entwerter?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b18-r02",
+      "es": "Bitte den Fahrschein vor der Fahrt entwerten.",
+      "pinyin": "BIT-te dayn FAHR-shain fohr dair fahrt ent-VAIR-ten",
+      "pt": "Stempel het kaartje voor de reis, alstublieft.",
+      "tts": "Bitte den Fahrschein vor der Fahrt entwerten.",
+      "receptivo": true,
+      "acao": "Doe het op het perron, niet in de trein. Een papieren kaartje zonder stempel is nog geen kaartje."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b18-n09",
+      "pt": "De flessen in uw kamer zijn geld dat u al betaalde. De automaat bij de supermarktdeur geeft het terug."
+    },
+    {
+      "consulta": ["compras/devolver", "compras/balcao"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b18-p09",
+      "promptPt": "U komt met een tas leeggoed de winkel binnen en er zijn drie ongemerkte deuren achterin. Vraag. Spreek nu.",
+      "audioKey": "de-b18-t09",
+      "es": "Wo kann ich die Flaschen zurückgeben?",
+      "pinyin": "voh kan ikh dee FLA-shen tsoo-REWK-gay-ben",
+      "pt": "Waar kan ik de flessen terugbrengen?",
+      "tts": "Wo kann ich die Flaschen zurückgeben?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b18-n10",
+      "pt": "De belastingteruggave aan de grens is voor wonen buiten de EU. Voor u, wonend in Nederland, niet."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b18-n11",
+      "pt": "Duitse btw betaalt u definitief, net als thuis Nederlandse btw. Sla het Tax-Free-loket over, u wint tijd."
+    },
+    {
+      "consulta": ["taxi/destino", "chegar/sair"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "KONNEN-SIE",
+      "encaixe": "mir ein Taxi rufen",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b18-p10",
+      "promptPt": "Het regent, de tassen hebben wieltjes die kasseien haten, en de vrouw aan de balie heeft een telefoon. Spreek nu.",
+      "audioKey": "de-b18-t10",
+      "es": "Können Sie mir ein Taxi rufen?",
+      "pinyin": "KURN-nen zee meer ain TAK-see ROO-fen",
+      "pt": "Kunt u een taxi voor mij bellen?",
+      "tts": "Können Sie mir ein Taxi rufen?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b18-r03",
+      "es": "Der ICE nach Frankfurt hat heute etwa zwanzig Minuten Verspätung.",
+      "pinyin": "dair ee-tsay-AY nahkh FRANK-foort hat HOY-te ET-va TSVAN-tsikh mi-NOO-ten fair-SHPAY-toong",
+      "pt": "De ICE naar Frankfurt heeft vandaag ongeveer twintig minuten vertraging.",
+      "tts": "Der ICE nach Frankfurt hat heute etwa zwanzig Minuten Verspätung.",
+      "receptivo": true,
+      "acao": "Verspätung is het woord om te vangen. Neem de eerdere trein op een vluchtdag en lees een boek aan de gate."
+    },
+    {
+      "consulta": ["simpatia/agradecer", "chegar/sair"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "DANKE",
+      "encaixe": "Vielen Dank",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b18-p11",
+      "promptPt": "Zij hielden uw tassen, belden de auto en tekenden een kaartje op de achterkant van een visitekaartje. Sluit de week af. Spreek nu.",
+      "audioKey": "de-b18-t11",
+      "es": "Vielen Dank für alles!",
+      "pinyin": "FEE-len dank fewr AL-les",
+      "pt": "Heel erg bedankt voor alles!",
+      "tts": "Vielen Dank für alles!"
+    },
+    {
+      "consulta": ["simpatia/elogiar-lugar"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b18-p12",
+      "promptPt": "Eén zin over de week, niet over de kamer. Die zin wordt onthouden als u volgend jaar schrijft. Spreek nu.",
+      "audioKey": "de-b18-t12",
+      "es": "Es war sehr schön hier.",
+      "pinyin": "es vahr zair shurn heer",
+      "pt": "Het was hier heel fijn.",
+      "tts": "Es war sehr schön hier."
+    },
+    {
+      "consulta": ["chegar/sair", "simpatia/agradecer"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b18-p13",
+      "promptPt": "De auto staat aan de stoep en de chauffeur heeft de kofferbak open. Verlaat de kamer met de formele. Spreek nu.",
+      "audioKey": "de-b18-t13",
+      "es": "Auf Wiedersehen!",
+      "pinyin": "owf VEE-dah-zay-en",
+      "pt": "Tot ziens!",
+      "tts": "Auf Wiedersehen!"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b18-r04",
+      "es": "Kommen Sie gut nach Hause! Und schönen Urlaub im nächsten Jahr.",
+      "pinyin": "KOM-men zee goot nahkh HOW-ze! oont SHUR-nen OOR-lowp im NEKH-sten yahr",
+      "pt": "Kom goed thuis! En een fijne vakantie volgend jaar.",
+      "tts": "Kommen Sie gut nach Hause! Und schönen Urlaub im nächsten Jahr."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-b18-s01",
+      "es": "Was kostet die Fahrkarte? Was kostet die Reservierung? Was kostet die Fahrt zum Flughafen?",
+      "pinyin": "vass KOS-tet dee FAHR-kar-te. vass KOS-tet dee re-zer-VEE-roong. vass KOS-tet dee fahrt tsoom FLOOK-hah-fen",
+      "pt": "Schaduw dezelfde drie woorden bij een loket, een stoel en een auto.",
+      "tts": "Was kostet die Fahrkarte? Was kostet die Reservierung? Was kostet die Fahrt zum Flughafen?",
+      "molde": "WAS-KOSTET"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b18-n12",
+      "bloco": "recap",
+      "pt": "B18 klaar. Was kostet voor het getal, één zin voor de tassen, en een afscheid dat u terug laat vragen."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "De laatste ochtend, vooraf geprijsd",
+    "secoes": [
+      {
+        "titulo": "Was kostet, en één ding tegelijk",
+        "corpo": "De opening verandert nooit en het ding erna komt als een blok: die Fahrkarte, die Reservierung, die Fahrt zum Flughafen. Bewuste grens, en het is een ontwerpkeuze in plaats van een gat: alles wat u na was kostet zet is enkelvoud, want naar meerdere dingen tegelijk vragen zou u midden in een stationshal over vervoegingen laten beslissen. Eén stuk per vraag is de hele methode hier, en het antwoord komt altijd terug als een getal.",
+        "exemplos": [
+          { "es": "Was kostet die Fahrkarte?", "pt": "Hoeveel kost het kaartje?" },
+          { "es": "Was kostet die Fahrt zum Flughafen?", "pt": "Hoeveel kost de rit naar het vliegveld?" }
+        ]
+      },
+      {
+        "titulo": "De tassen zijn de hele laatste dag",
+        "corpo": "Twee zinnen kopen acht uur terug: haben Sie Gepäckaufbewahrung in een hotel met een bagageruimte, kann ich mein Gepäck hier lassen in een hotel met een hoek achter de balie. Het antwoord bevat meestal een uur — bis achtzehn Uhr — en dat uur is de enige echte beperking op de rest van de dag. Vang het en plan er van achteruit.",
+        "exemplos": [
+          { "es": "Haben Sie Gepäckaufbewahrung?", "pt": "Heeft u bagageopslag?" },
+          { "es": "Kann ich mein Gepäck hier lassen?", "pt": "Kan ik mijn bagage hier laten?" }
+        ]
+      },
+      {
+        "titulo": "Hoeveel tijd u moet nemen voor het vliegveld",
+        "corpo": "Gebruik de eigen cijfers van de vervoerder in plaats van welke reputatie ook. Lange-afstandstreinen bereikten hun eindbestemming in 2025 60,1% van de tijd op tijd, tegen 62,5% het jaar ervoor, en op tijd betekent in die maat minder dan zes minuten te laat, gemeten bij elke stop. De reizigersmaat, die gemiste aansluitingen bij een drempel van bijna vijftien minuten telt, was 65,5%. Regionale diensten zijn veel beter, rond 89%. In de zomer van 2026 zakte het lange-afstandscijfer naar 52,6% in juni en juli, en het bedrijf noemt 2026 zelf een record-bouwjaar en verwacht aanhoudende druk. De praktische conclusie is niet dat het spoor slecht is, maar dat de marge die u thuis zou nemen niet volstaat: neem de trein vóór die u nodig heeft, vooral op een vluchtdag, en gebruik een regionale dienst naar het vliegveld waar die bestaat.",
+        "exemplos": [
+          { "es": "Was kostet die Reservierung?", "pt": "Hoeveel kost de stoelreservering?" }
+        ]
+      },
+      {
+        "titulo": "De stoel, en de stempel",
+        "corpo": "Een stoel reserveren op een Duitse lange-afstandstrein is een mogelijkheid, geen plicht: de clausule in de vervoersvoorwaarden heet letterlijk Reservierungsmöglichkeit, verplichte treinen zijn met een R in de dienstregeling gemarkeerd, en het tarief is 5,50 € in de tweede en 6,90 € in de eerste klas, per persoon en richting. Uw aanspraak op de stoel vervalt als u hem vijftien minuten na vertrek niet heeft ingenomen. De stempel is de andere helft. Een papieren kaartje uit de automaat moet in de Entwerter voor u instapt; een kaartje in de app wordt elektronisch gevalideerd bij check-in. Reizen op een niet-gestempeld papieren kaartje geldt als reizen zonder kaartje, en de bedragen lopen in tegengestelde richting — in het stadsvervoer is het verhoogd tarief begrensd op 60 €, op het spoor is 60 € de ondergrens die stijgt met de afstand. Beide zakken naar 7 € als u binnen een week aantoont dat u een geldig kaartje had, en op het spoor vervalt het bedrag helemaal als het vertrekstation noch een open loket noch een werkende automaat had.",
+        "exemplos": [
+          { "es": "Wo ist der Entwerter?", "pt": "Waar is het stempelapparaat?" }
+        ]
+      },
+      {
+        "titulo": "Geld dat met u mee naar huis gaat",
+        "corpo": "Eén teruggave is de moeite waard, de andere niet voor u. De flessen eerst: de winkel heeft een wettelijke plicht om de lege verpakking op of nabij het verkooppunt aan te nemen en het statiegeld gratis terug te betalen; een kleine winkel onder tweehonderd vierkante meter mag zich beperken tot de merken die hij verkoopt, en de wettelijke test is het materiaal in plaats van het merk. Retourglas is de uitzondering — niemand is verplicht het aan te nemen, de meeste winkels doen het uit beleefdheid, dus breng glas terug naar de winkel die het verkocht. De btw-teruggave dan: die geldt voor woonplaats buiten de EU, aankoop boven 50 euro inclusief btw, uitvoer binnen drie maanden, en de goederen in de hand aan de douanebalie. Voor u, wonend in Nederland, geldt dit niet: Nederland zit in dezelfde EU en dezelfde btw-zone als Duitsland, dus u betaalt Duitse btw definitief en gaat het Tax-Free-loket voorbij zonder te stoppen.",
+        "exemplos": [
+          { "es": "Wo kann ich die Flaschen zurückgeben?", "pt": "Waar kan ik de flessen terugbrengen?" }
+        ]
+      },
+      {
+        "titulo": "Twee afscheiden en verder niets",
+        "corpo": "Tschüss is de neutrale en werkt met iedereen met wie u meer dan één keer heeft gesproken. Auf Wiedersehen is de formele en is wat u zegt bij het verlaten van een balie, winkel of restaurant. Regionale afscheiden bestaan en zijn mooi, maar de kaarten die u zouden vertellen waar welke leeft, hebben geen gepubliceerde tekst, dus deze cursus leert de twee die overal werken en laat de rest aan uw oor. Vielen Dank für alles is de zin die van een transactie een week maakt die iemand onthoudt.",
+        "exemplos": [
+          { "es": "Vielen Dank für alles!", "pt": "Heel erg bedankt voor alles!" },
+          { "es": "Auf Wiedersehen!", "pt": "Tot ziens!" }
+        ]
+      }
+    ]
+  },
+  "slot": "B18",
+  "permissao": "U mag op uw laatste dag hardop naar de prijs van alles vragen voor u iets toezegt — was kostet plus één zelfstandig naamwoord is een volledige en gewone vraag aan een loket, een taxideur en een hotelbalie, en vragen is niet afdingen en geen onbeleefdheid. U mag uw tassen achterlaten in een hotel waar u al bent uitgecheckt, en om zes uur terugkomen. En u mag een plek verlaten met twee woorden: Tschüss voor iedereen met wie u kennis heeft gemaakt, Auf Wiedersehen wanneer het af moet klinken. Niemand verwacht van een bezoeker een regionaal afscheid, en niemand geeft het afscheid een cijfer.",
+  "permissaoAudioKey": "de-b18-n02",
+  "espelho": "Iedereen die ooit een late vlucht had uit een stad die hij mooi vond, kent deze vorm al: dump de tassen, koop het kaartje vroeg, breng de gevonden uren door ergens met een stoel. Het enige nieuwe is dat u het vragen doet in drie woorden die nooit veranderen.",
+  "fichasCulturais": [
+    {
+      "sinal": "Uw trein naar het vliegveld is een lange-afstandstrein, het bord zegt op tijd, en hij komt vier minuten te laat — en later heeft een waar u op rekende twintig minuten vertraging.",
+      "suaLeitura": "Er is vandaag iets ongewoons misgegaan, of de reputatie waarmee u aankwam was gewoon valse reclame.",
+      "oQueEAli": "Geen van beide. De maat is ruim genomen en de vervoerder publiceert het: een aankomst geldt als op tijd als hij minder dan zes minuten te laat is, en hij wordt geteld bij elke stop in plaats van uw eindbestemming. Op die definitie was 60,1% van de lange-afstandstreinen in 2025 op tijd, tegen 62,5% in 2024, en de reizigersmaat die gemiste aansluitingen telt bij bijna vijftien minuten was 65,5%. Regionale treinen draaiden rond 89%. In juni en juli 2026 was het lange-afstandscijfer 52,6%, en het bedrijf noemt 2026 een record-bouwjaar met aanhoudende druk op punctualiteit.",
+      "oQueVoceFaz": "Neem op een vluchtdag de trein vóór die u nodig heeft, en verkies een regionale dienst naar het vliegveld waar die bestaat. Leer het woord Verspätung en luister ernaar in de perronomroep in plaats van naar het bord te kijken.",
+      "oQueMelhora": "U begroot niet meer op een reputatie maar op het eigen cijfer van de vervoerder, wat betekent dat de vertraging die wél optreedt u een hoofdstuk uit een boek kost in plaats van een vlucht.",
+      "ondeNaoVale": "Dit is een uitspraak over een spoorwegmaatschappij, niet over een land of iemands karakter — en het punctualiteitsstereotype wordt hier expliciet niet onderwezen. De cijfers gelden evenmin voor het stadsvervoer: stedelijke zones, prijzen en vliegveldverbindingen zijn in dit onderzoek voor geen Duitse stad geverifieerd.",
+      "evidencia": "FATO",
+      "audioKeys": ["de-b18-n05", "de-b18-n06"]
+    },
+    {
+      "sinal": "Bij een winkel biedt men u een tax-free-formulier aan voor de jas die u kocht, en online leest u dat u de btw terugkrijgt op het vliegveld.",
+      "suaLeitura": "Dat scheelt bij vertrek naar Amsterdam mooi 19% op een grote aankoop.",
+      "oQueEAli": "Niet voor u. De vrijstelling geldt alleen als de koper buiten de EU woont, met totaal boven vijftig euro inclusief btw en uitvoer binnen drie maanden — de woonplaats beslist, niet de nationaliteit. Nederland zit in dezelfde EU en dezelfde btw-zone als Duitsland; de reis is intern, niet naar een derde land. De Duitse btw die u aan de kassa betaalt is definitief, zoals u thuis Nederlandse btw definitief betaalt. Alleen als u vanuit Duitsland via een tussenstop doorreist naar buiten de EU en de eindbestemming een derde land is, komt de vrijstelling in beeld — dat is een randgeval, geen weekregel.",
+      "oQueVoceFaz": "Sla het formulier bij de kassa af of aanvaard het en gooi het bij thuiskomst weg — het levert u niets op. Bewaar bij een vlucht naar Nederland de aankoop gewoon in uw handbagage en loop het Tax-Free-loket voorbij; de rij daar is niet voor u bedoeld.",
+      "oQueMelhora": "U besteedt geen tijd aan een procedure die op u niet van toepassing is, en u wordt niet teleurgesteld door een teruggave die nooit ging komen.",
+      "ondeNaoVale": "Dit geldt zolang u in Nederland woont. Een Nederlands paspoort met woonplaats in bijvoorbeeld het Verenigd Koninkrijk maakt u wel Drittlandskäufer — dan gelden de drie voorwaarden en het gebruikelijke handling-fee-verhaal. En binnen de EU zelf zijn er geen douanestempels: dat is niet iets wat u vergeet, het bestaat niet.",
+      "evidencia": "FATO",
+      "audioKeys": ["de-b18-n10", "de-b18-n11"]
+    }
+  ]
+}

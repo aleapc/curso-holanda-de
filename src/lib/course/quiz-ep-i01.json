@@ -1,0 +1,96 @@
+{
+  "id": "q-i01",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Halb sechs, und die Küche schließt schon",
+  "subtitulo": "Ein Baustein aus ME VIRO kommt mit einer neuen Uhrzeit zurück",
+  "introAudioKey": "hol-i01-q-i",
+  "introPt": "Ein Reisender plant den Abend um vier verschiedene Uhrzeiten herum, mit demselben kurzen Öffner.",
+  "cenario": "Der erste Abend, zwischen Zimmer und Restaurant.",
+  "dialogo": [
+    {
+      "audioKey": "hol-i01-q01",
+      "voz": "target_nl_f",
+      "es": "Hoe laat is het avondeten?",
+      "pt": "Wie spät ist das Abendessen?",
+      "tts": "Hoe laat is het avondeten?"
+    },
+    {
+      "audioKey": "hol-i01-q02",
+      "voz": "target_nl_m",
+      "es": "We serveren vanaf zes, warm tot negen.",
+      "pt": "Wir servieren ab sechs, warm bis neun.",
+      "tts": "We serveren vanaf zes, warm tot negen."
+    },
+    {
+      "audioKey": "hol-i01-q03",
+      "voz": "target_nl_f",
+      "es": "Mag ik een tafel om zes uur?",
+      "pt": "Darf ich einen Tisch um sechs Uhr haben?",
+      "tts": "Mag ik een tafel om zes uur?"
+    },
+    {
+      "audioKey": "hol-i01-q04",
+      "voz": "target_nl_m",
+      "es": "De laatste trein gaat om kwart voor een.",
+      "pt": "Der letzte Zug fährt um viertel vor eins.",
+      "tts": "De laatste trein gaat om kwart voor een."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Welcher Baustein steckt in «Hoe laat is het avondeten?»?",
+      "opcoes": [
+        "Ein neuer Baustein nur für Essenszeiten",
+        "Derselbe Baustein, den Sie beim Check-out benutzt haben",
+        "Eine feste Redewendung ohne Baustein",
+        "Eine Frage, die nur der Kellner stellen darf"
+      ],
+      "correta": 1,
+      "explica": "Hoe laat is ___? ist derselbe Baustein aus ME VIRO. Nur das Ding dahinter ändert sich: erst der Check-out, jetzt das Frühstück, das Abendessen, der Markt, der letzte Zug."
+    },
+    {
+      "pergunta": "«We serveren vanaf zes, warm tot negen.» Was tun Sie mit den zwei Uhrzeiten?",
+      "opcoes": [
+        "Nur die erste merken",
+        "Beide merken — die eine öffnet die Küche, die andere schließt sie",
+        "Fragen, ob es eine dritte gibt",
+        "Sofort auf Englisch nachfragen"
+      ],
+      "correta": 1,
+      "explica": "Zwei Zahlen, ein Fenster. Wer nur die erste hört, plant den Abend falsch und kommt zu spät zur warmen Küche."
+    },
+    {
+      "pergunta": "Warum reservieren Sie den Tisch mit «Mag ik ___?» statt mit einem neuen Satz?",
+      "opcoes": [
+        "Weil es der einzige höfliche Satz im Niederländischen ist",
+        "Weil derselbe Baustein von B11 auch eine Uhrzeit als Ding aufnimmt",
+        "Weil «Mag ik» nur für Essen gilt",
+        "Weil man in den Niederlanden nie reservieren muss"
+      ],
+      "correta": 1,
+      "explica": "Mag ik ___? nimmt jedes Ding auf, das Sie brauchen — auch «een tafel om zes uur». Ein Baustein, zwei völlig verschiedene Situationen."
+    },
+    {
+      "pergunta": "«De laatste trein gaat om kwart voor een.» Was machen Sie mit dieser Zahl?",
+      "opcoes": [
+        "Ignorieren — es findet sich schon ein Weg",
+        "Vom Zug rückwärts rechnen, nicht vom letzten Getränk vorwärts",
+        "Fragen, ob es einen noch späteren gibt",
+        "Sofort losgehen"
+      ],
+      "correta": 1,
+      "explica": "Wer vom Getränk aus vorwärts plant, verpasst den Zug. Wer von der Zugzeit aus rückwärts plant, kommt an."
+    },
+    {
+      "pergunta": "Öffnungszeiten in den Niederlanden — was gilt?",
+      "opcoes": [
+        "Überall dieselbe Uhrzeit, das ganze Land",
+        "Sie schwanken stark — fragen ist billiger als raten",
+        "Nur an Sonntagen anders",
+        "Läden haben nie feste Zeiten"
+      ],
+      "correta": 1,
+      "explica": "Es gibt keine einzelne Zahl, die für jeden Laden, jede Küche und jeden Ort gilt. Deshalb ist der Baustein wertvoller als jede auswendig gelernte Uhrzeit."
+    }
+  ]
+}

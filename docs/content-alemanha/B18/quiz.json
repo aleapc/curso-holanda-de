@@ -1,0 +1,111 @@
+{
+  "id": "q-b18",
+  "nivel": "basico",
+  "titulo": "Quiz — de laatste ochtend",
+  "subtitulo": "Was kostet voor het getal, één zin voor de tassen, twee woorden voor het afscheid",
+  "introAudioKey": "de-b18-q-i",
+  "introPt": "Een reiziger checkt om elf uur uit met een vlucht om negen, parkeert de tassen, prijst de trein en vertrekt goed.",
+  "cenario": "Hotellobby en daarna een stationshal, laatste dag, tien uur te vullen en twee tassen niet te dragen.",
+  "dialogo": [
+    {
+      "audioKey": "de-b18-q01",
+      "voz": "target_de_f",
+      "es": "Guten Morgen, ich möchte auschecken. Haben Sie Gepäckaufbewahrung?",
+      "pinyin": "GOO-ten MOR-gen, ikh MURKH-te OWS-chek-en. HAH-ben zee ge-PECK-owf-be-VAH-roong",
+      "pt": "Goedemorgen, ik wil uitchecken. Heeft u bagageopslag?",
+      "tts": "Guten Morgen, ich möchte auschecken. Haben Sie Gepäckaufbewahrung?"
+    },
+    {
+      "audioKey": "de-b18-q02",
+      "voz": "target_de_m",
+      "es": "Klar. Sie können das Gepäck bis achtzehn Uhr hierlassen.",
+      "pinyin": "klahr. zee KURN-nen dass ge-PECK biss AKHT-tsayn OO-ah HEER-lass-en",
+      "pt": "Prima. U kunt de bagage tot zes uur hier laten.",
+      "tts": "Klar. Sie können das Gepäck bis achtzehn Uhr hierlassen."
+    },
+    {
+      "audioKey": "de-b18-q03",
+      "voz": "target_de_f",
+      "es": "Was kostet die Fahrkarte zum Flughafen? Und was kostet die Reservierung?",
+      "pinyin": "vass KOS-tet dee FAHR-kar-te tsoom FLOOK-hah-fen? oont vass KOS-tet dee re-zer-VEE-roong",
+      "pt": "Hoeveel kost het kaartje naar het vliegveld? En hoeveel kost de stoelreservering?",
+      "tts": "Was kostet die Fahrkarte zum Flughafen? Und was kostet die Reservierung?"
+    },
+    {
+      "audioKey": "de-b18-q04",
+      "voz": "target_de_m",
+      "es": "Die Reservierung ist freiwillig. Bitte den Fahrschein vor der Fahrt entwerten.",
+      "pinyin": "dee re-zer-VEE-roong ist FRAI-vil-likh. BIT-te dayn FAHR-shain fohr dair fahrt ent-VAIR-ten",
+      "pt": "De reservering is vrijwillig. Stempel het kaartje voor de reis, alstublieft.",
+      "tts": "Die Reservierung ist freiwillig. Bitte den Fahrschein vor der Fahrt entwerten."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "De balie antwoordt op uw bagagevraag. Wat is het deel dat u moet vangen?",
+      "opcoes": [
+        "De prijs",
+        "Het uur waarop het opgehaald moet zijn",
+        "De verdieping",
+        "De naam van de dienstdoende"
+      ],
+      "correta": 1,
+      "explica": "Bis achtzehn Uhr. Het ja komt altijd met een deadline eraan vast, en die deadline is de enige echte beperking op de hele middag."
+    },
+    {
+      "pergunta": "Welke opening levert u een getal voor u iets heeft toegezegd?",
+      "opcoes": [
+        "Haben Sie",
+        "Ich suche",
+        "Was kostet",
+        "Können Sie"
+      ],
+      "correta": 2,
+      "explica": "Was kostet die Fahrkarte, was kostet die Reservierung, was kostet die Fahrt zum Flughafen. Eén stuk per keer, altijd enkelvoud — dat is het ontwerp, geen gat."
+    },
+    {
+      "pergunta": "Is een stoelreservering op een Duitse lange-afstandstrein verplicht?",
+      "opcoes": [
+        "Ja, op elke ICE",
+        "Nee — de clausule heet mogelijkheid, en alleen treinen met R vragen er een",
+        "Ja, in de eerste klas",
+        "Alleen in het weekend"
+      ],
+      "correta": 1,
+      "explica": "Vijf vijftig in de tweede klas, zes negentig in de eerste, per persoon en richting, en uw aanspraak op de stoel vervalt vijftien minuten na vertrek als u hem niet heeft ingenomen. De nachttrein van ÖBB is een bevestigde uitzondering en heeft de reservering inbegrepen."
+    },
+    {
+      "pergunta": "U kocht een papieren kaartje bij de automaat. Wat moet er gebeuren voor u instapt?",
+      "opcoes": [
+        "Niets, het is geldig vanaf de aankoop",
+        "Het gaat in de Entwerter om gestempeld te worden",
+        "De conducteur ondertekent het",
+        "U registreert het in de app"
+      ],
+      "correta": 1,
+      "explica": "Een niet-gestempeld papieren kaartje geldt als geen kaartje. Een kaartje uit de app wordt elektronisch gevalideerd bij check-in. En de twee bedragen lopen tegengesteld: in het stadsvervoer is het verhoogd tarief begrensd op zestig euro, op het spoor is zestig de ondergrens — beide zakken naar zeven als u binnen een week aantoont dat u een geldig kaartje had."
+    },
+    {
+      "pergunta": "Hoeveel tijd moet u nemen voor een lange-afstandstrein op een vluchtdag?",
+      "opcoes": [
+        "De dienstregeling is betrouwbaar genoeg",
+        "Meer dan u thuis zou nemen — 60,1% reed op tijd in 2025, en op tijd betekent onder zes minuten",
+        "Een half uur marge dekt het",
+        "Het spoor garandeert aansluitingen"
+      ],
+      "correta": 1,
+      "explica": "De maat is ruim en wordt geteld bij elke stop; de reizigersmaat, die gemiste aansluitingen telt, was 65,5%. Regionale diensten draaien rond 89%. In juni en juli 2026 was lange afstand 52,6%. Neem de trein vóór die u nodig heeft."
+    },
+    {
+      "pergunta": "U kocht een jas en vulde een tax-free-formulier in. Wat krijgt u terug bij vertrek naar Amsterdam?",
+      "opcoes": [
+        "De volle 19%, wettelijk",
+        "Niets — Nederland zit in dezelfde EU en dezelfde btw-zone als Duitsland, dus de vrijstelling geldt niet",
+        "Een prijskorting van de winkel min een handelingsvergoeding",
+        "De belastingdienst betaalt u rechtstreeks"
+      ],
+      "correta": 1,
+      "explica": "De vrijstelling geldt alleen voor woonplaats buiten de EU. Nederland is EU, dus u betaalt Duitse btw definitief en gaat het Tax-Free-loket voorbij. Alleen wie via Duitsland doorreist naar buiten de EU met eindbestemming in een derde land, komt in het beeld — dat is een randgeval."
+    }
+  ]
+}

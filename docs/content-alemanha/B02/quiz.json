@@ -1,0 +1,96 @@
+{
+  "id": "q-b02",
+  "nivel": "basico",
+  "titulo": "Quiz — Groet bij binnenkomst, en negen andere woorden",
+  "subtitulo": "De groet die het bezoek opent, de drie maten dank, de aanspreekvorm die niet verandert, en de twee afscheiden",
+  "introAudioKey": "de-b02-q-i",
+  "introPt": "Een reiziger loopt 's middags een winkeltje binnen, koopt één ding, slaat een zak af en vertrekt.",
+  "cenario": "Een winkeltje midden op de middag, twee andere klanten binnen, de eigenaar achter de toonbank.",
+  "dialogo": [
+    {
+      "audioKey": "de-b02-q01",
+      "voz": "target_de_f",
+      "es": "Guten Tag.",
+      "pt": "Goedendag.",
+      "tts": "Guten Tag."
+    },
+    {
+      "audioKey": "de-b02-q02",
+      "voz": "target_de_m",
+      "es": "Hallo! Möchten Sie eine Tüte?",
+      "pt": "Hallo! Wilt u een zakje?",
+      "tts": "Hallo! Möchten Sie eine Tüte?"
+    },
+    {
+      "audioKey": "de-b02-q03",
+      "voz": "target_de_f",
+      "es": "Nein, danke.",
+      "pt": "Nee, dank.",
+      "tts": "Nein, danke."
+    },
+    {
+      "audioKey": "de-b02-q04",
+      "voz": "target_de_m",
+      "es": "Bitte schön. Tschüss, schönen Tag noch!",
+      "pt": "Graag gedaan. Doei, nog een fijne dag!",
+      "tts": "Bitte schön. Tschüss, schönen Tag noch!"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "U loopt een winkeltje binnen en hebt geen idee in welke regio u bent. Welke groet is veilig?",
+      "opcoes": [
+        "Moin, overal",
+        "Hallo — geregistreerd als algemeen door het hele land",
+        "Grüß Gott, overal",
+        "Niets tot aan de kassa"
+      ],
+      "correta": 1,
+      "explica": "Hallo is algemeen en is de grootste verschuiving in groetgebruik sinds de jaren zeventig. Moin hoort bij Sleeswijk-Holstein en het noorden van Nedersaksen, Grüß Gott en Servus bij het zuiden."
+    },
+    {
+      "pergunta": "Waar komt Moin vandaan?",
+      "opcoes": [
+        "Van Morgen, dus het betekent goedemorgen",
+        "Van moien Dag, een Nederduits woord voor aangenaam — wat overbleef is het bijvoeglijk naamwoord",
+        "Van een Deense groet",
+        "Van een verkorting van Guten Tag"
+      ],
+      "correta": 1,
+      "explica": "De atlas die het in kaart brengt registreert de etymologie, en die is het omgekeerde van wat reisgidsen zeggen: wat overbleef is het bijvoeglijk naamwoord, niet het tijdstip van de dag."
+    },
+    {
+      "pergunta": "Iemand van uw leeftijd spreekt u aan met du. Wat doet u?",
+      "opcoes": [
+        "Meteen du terug zeggen — weigeren zou koel zijn",
+        "Blijf zelf bij Sie; de overstap wordt aangeboden, niet genomen, en hij is nooit aan u om aan te bieden",
+        "Vraag hem formeel Sie te gebruiken",
+        "Schakel over op Engels"
+      ],
+      "correta": 1,
+      "explica": "Sie is de correcte aanspreekvorm bij nieuwe contacten. De overstap naar du wordt naar beneden aangeboden, en de gedocumenteerde asymmetrie is dat degene aan wie het wordt aangeboden het nauwelijks kan weigeren — het risico ligt dus bij de aanbieder, en dat bent u nooit."
+    },
+    {
+      "pergunta": "Een onbekende heeft u net twee straten naar het juiste gebouw gelopen. Welke maat dank?",
+      "opcoes": [
+        "Danke",
+        "Vielen Dank",
+        "Bitte",
+        "Tschüss"
+      ],
+      "correta": 1,
+      "explica": "Danke is transactioneel, danke schön is een trap hoger, en vielen Dank hoort waar iemand daadwerkelijk iets voor u deed. De bouwsteen verandert niet van vorm — alleen de maat."
+    },
+    {
+      "pergunta": "Welk afscheid hoort bij een bankbalie of een dokterspraktijk?",
+      "opcoes": [
+        "Tschüss",
+        "Auf Wiedersehen",
+        "Servus",
+        "Moin"
+      ],
+      "correta": 1,
+      "explica": "Tschüss is neutraal en werkt in een winkel of een café. Auf Wiedersehen is de formele, voor ruimtes die formeel met u zijn. Die twee zijn overal veilig, en daarom leert deze cursus juist ze."
+    }
+  ]
+}

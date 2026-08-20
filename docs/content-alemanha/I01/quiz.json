@@ -1,0 +1,96 @@
+{
+  "id": "q-i01",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Hun klok",
+  "subtitulo": "Drie woorden, en elk uur in het land",
+  "introAudioKey": "de-i01-q-i",
+  "introPt": "Een reiziger stopt met het uur te raden, vraagt het hardop in drie woorden en krijgt een getal terug met een spoor eraan vast.",
+  "cenario": "Op een perron tien over tien, met een papieren dienstregeling en een trein die wel of niet de volgende kan zijn.",
+  "dialogo": [
+    {
+      "audioKey": "de-i01-q01",
+      "voz": "target_de_f",
+      "es": "Wann ist der nächste Zug?",
+      "pt": "Hoe laat is de volgende trein?",
+      "tts": "Wann ist der nächste Zug?"
+    },
+    {
+      "audioKey": "de-i01-q02",
+      "voz": "target_de_m",
+      "es": "In zwölf Minuten, Gleis vier.",
+      "pt": "Over twaalf minuten, spoor vier.",
+      "tts": "In zwölf Minuten, Gleis vier."
+    },
+    {
+      "audioKey": "de-i01-q03",
+      "voz": "target_de_f",
+      "es": "Und wann ist das Abendessen?",
+      "pt": "En hoe laat is het avondeten?",
+      "tts": "Und wann ist das Abendessen?"
+    },
+    {
+      "audioKey": "de-i01-q04",
+      "voz": "target_de_m",
+      "es": "Wir servieren ab halb sieben. Warm gibt es bis neun.",
+      "pt": "Wij serveren vanaf half zeven. Warm is er tot negen.",
+      "tts": "Wir servieren ab halb sieben. Warm gibt es bis neun."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Iemand zegt dat de keuken «ab halb sieben» begint. Hoe laat is dat?",
+      "opcoes": [
+        "Half acht",
+        "Half zeven, oftewel 18:30",
+        "Een half uur na opening, wanneer dan ook",
+        "Klokslag zeven uur"
+      ],
+      "correta": 1,
+      "explica": "Halb telt af naar het komende hele uur, niet omhoog vanaf het vorige — precies zoals half zeven in het Nederlands. Halb sieben is 18:30, halb acht is 19:30."
+    },
+    {
+      "pergunta": "Waarom sluiten de winkels om acht op een gewone woensdag?",
+      "opcoes": [
+        "Een lokale handelsafspraak die per straat verschilt",
+        "Een gewoonte die de meeste winkels toevallig delen",
+        "Een belastingregel die avondopening duur maakt",
+        "Een wet — de Ladenschlussgesetz beveelt verkooppunten dicht vanaf 20 uur van maandag tot en met zaterdag"
+      ],
+      "correta": 3,
+      "explica": "§ 3 van de federale sluitingswet sluit verkooppunten vóór 6 uur, vanaf 20 uur op werkdagen en de hele zondag. Sinds 2006 stelt elk Land zijn eigen versie vast — Berlijn staat 24-uursopening toe van maandag tot en met zaterdag, en Beieren heeft in 2025 zijn eigen wet aangenomen."
+    },
+    {
+      "pergunta": "Welke van deze is op zondag wettig open volgens de federale wet?",
+      "opcoes": [
+        "Een apotheek bij toerbeurt, en een bakker in een kort ochtendvenster",
+        "Elke supermarkt die daarvoor kiest",
+        "Elke winkel in een winkelcentrum",
+        "Niets, zonder uitzondering"
+      ],
+      "correta": 0,
+      "explica": "De genoemde uitzonderingen zijn smal: apotheken bij toerbeurt, tankstations en stationswinkels beperkt tot reisartikelen, kuuroorden, en een kort venster voor melk, bakkerswaren, vers fruit, bloemen en kranten, getimed rond de hoofdkerkdienst."
+    },
+    {
+      "pergunta": "Deutsche Bahn rapporteerde 60,1 procent langeafstandsstiptheid voor 2025. Wat betekent daar «op tijd»?",
+      "opcoes": [
+        "Aankomst op de exact geplande minuut",
+        "Aankomst binnen een half uur",
+        "Minder dan zes minuten te laat, gemeten bij elke stop",
+        "Aankomst voor de volgende dienst"
+      ],
+      "correta": 2,
+      "explica": "Onder zes minuten, gemeten bij elke stop en niet alleen op de eindbestemming. Het reizigersgerichte cijfer, dat gemiste aansluitingen met een drempel van vijftien minuten meetelt, was 65,5 procent; regionaal spoor liep op 89,2 procent."
+    },
+    {
+      "pergunta": "U wilt het uur weten van de rondleiding, de volgende trein en het avondeten. Hoeveel zinnen heeft u nodig?",
+      "opcoes": [
+        "Drie verschillende, één per situatie",
+        "Eén opening — Wann ist — met een ander ding erna",
+        "Geen; de uren staan altijd aangeplakt",
+        "Eén, maar alleen als u het lidwoord al kent"
+      ],
+      "correta": 1,
+      "explica": "Wann ist plus het ding, en het ding komt met zijn lidwoord er al vast: die Führung, der nächste Zug, das Abendessen. U hoeft het lidwoord nooit onder druk uit te werken."
+    }
+  ]
+}

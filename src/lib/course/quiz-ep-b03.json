@@ -1,0 +1,79 @@
+{
+  "id": "q-b03",
+  "nivel": "basico",
+  "titulo": "Quiz — Sorry, und was Sie nicht zuerst sagen",
+  "subtitulo": "Ein Bahnsteig, ein Café und drei Werkzeuge gegen den Panikmoment",
+  "introAudioKey": "hol-b03-q-i",
+  "introPt": "Ein Reisender verliert den Bahnsteig, das Verständnis und beinahe den Bus — und kommt mit drei Sätzen durch.",
+  "cenario": "Bahnsteig, Café und Bushaltestelle, alles am selben Nachmittag.",
+  "dialogo": [
+    {
+      "audioKey": "hol-b03-q01",
+      "voz": "target_nl_f",
+      "es": "Sorry, spreekt u Engels?",
+      "pt": "Entschuldigung, sprechen Sie Englisch?",
+      "tts": "Sorry, spreekt u Engels?"
+    },
+    {
+      "audioKey": "hol-b03-q02",
+      "voz": "target_nl_m",
+      "es": "Ja hoor, wat kan ik voor u doen?",
+      "pt": "Ja klar, was kann ich für Sie tun?",
+      "tts": "Ja hoor, wat kan ik voor u doen?"
+    },
+    {
+      "audioKey": "hol-b03-q03",
+      "voz": "target_nl_m",
+      "es": "Oh, sorry hoor. U moet bij spoor twee zijn.",
+      "pt": "Oh, entschuldigen Sie. Sie müssen zu Gleis zwei.",
+      "tts": "Oh, sorry hoor. U moet bij spoor twee zijn."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Ihr Handy hat kein Netz, die Anzeigetafel zeigt die falsche Nummer, und jemand geht an Ihnen vorbei. Was sagen Sie zuerst?",
+      "opcoes": ["Ein deutscher Satz", "Sorry, plus was Sie brauchen", "Gar nichts, nur zeigen", "Dank u wel"],
+      "correta": 1,
+      "explica": "Sorry oder Pardon zieht die Aufmerksamkeit eines Fremden, ohne dass Sie schon wissen, wie der Rest des Satzes klingt."
+    },
+    {
+      "pergunta": "Warum ist es hier klüger, ein Gespräch nicht direkt auf Deutsch zu eröffnen?",
+      "opcoes": [
+        "Weil kaum jemand Deutsch versteht",
+        "Weil es wie eine Annahme klingen kann, die niemand hören will — Sorry, dann Englisch oder Niederländisch, ist sicherer",
+        "Weil Deutsch dort gesetzlich verboten ist",
+        "Weil Englisch die einzige erlaubte Fremdsprache ist"
+      ],
+      "correta": 1,
+      "explica": "Die Niederlande verstehen Deutsch oft gut, aber die direkte Eröffnung auf Deutsch kann unbeabsichtigt eine historisch heikle Annahme mitschwingen lassen. Ein Versuch auf Niederländisch wird dagegen ausdrücklich positiv aufgenommen."
+    },
+    {
+      "pergunta": "Der Schaffner spricht einen ganzen Satz, viel zu schnell für Ihr erstes Wort Niederländisch. Was sagen Sie?",
+      "opcoes": ["Bedankt", "Sorry, ik versta u niet", "Pardon, waar is de uitgang", "Goedendag"],
+      "correta": 1,
+      "explica": "«Sorry, ik versta u niet» ist das zweite Werkzeug des Notfallkits — niemand erwartet, dass Sie am dritten Tag schon alles verstehen."
+    },
+    {
+      "pergunta": "Er wiederholt den Satz im exakt gleichen Tempo, und die wichtige Zahl geht wieder unter. Was jetzt?",
+      "opcoes": [
+        "Pardon, langzamer, alstublieft?",
+        "Nochmals Sorry, ik versta u niet sagen",
+        "Aufgeben und weitergehen",
+        "Auf Deutsch nachfragen"
+      ],
+      "correta": 0,
+      "explica": "Derselbe Baustein trägt auch diese Bitte: Pardon, plus langzamer, alstublieft. Ein drittes Werkzeug für denselben Moment."
+    },
+    {
+      "pergunta": "Was ist das vierte Werkzeug, das erst in B07 seinen eigenen Namen bekommt?",
+      "opcoes": [
+        "Kunt u dat opschrijven? — bitten, es aufzuschreiben",
+        "Mag ik een koffie? — etwas bestellen",
+        "Waar is het toilet? — nach einem Ort fragen",
+        "Heeft u wifi? — nach etwas fragen, das vorhanden sein muss"
+      ],
+      "correta": 0,
+      "explica": "Wenn selbst langsames Sprechen nicht reicht, hilft nur noch Papier. Diese Frage trägt eine eigene Form (Kunt u …?) und wird in B07 zum eigenen Baustein."
+    }
+  ]
+}

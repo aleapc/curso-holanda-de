@@ -1,0 +1,96 @@
+{
+  "id": "q-b10",
+  "nivel": "basico",
+  "titulo": "Quiz — Zeg de tweede letter, en het bord leest zichzelf",
+  "subtitulo": "Deuren, uren en één etiket dat het tegenovergestelde doet van wat het lijkt",
+  "introAudioKey": "de-b10-q-i",
+  "introPt": "Een zondagochtendstraat, vier boodschappen, en elk antwoord al op een muur geschreven voordat iemand spreekt.",
+  "cenario": "Zondag, twintig over negen, een straat vol rolluiken.",
+  "dialogo": [
+    {
+      "audioKey": "de-b10-q01",
+      "voz": "target_de_f",
+      "es": "Ich suche eine Apotheke.",
+      "pt": "Ik zoek een apotheek.",
+      "tts": "Ich suche eine Apotheke."
+    },
+    {
+      "audioKey": "de-b10-q02",
+      "voz": "target_de_m",
+      "es": "Am Marktplatz, gleich neben der Kirche.",
+      "pt": "Op het marktplein, direct naast de kerk.",
+      "tts": "Am Marktplatz, gleich neben der Kirche."
+    },
+    {
+      "audioKey": "de-b10-q03",
+      "voz": "target_de_f",
+      "es": "Geöffnet: Montag bis Samstag, 8 bis 20 Uhr. Sonntag Ruhetag.",
+      "pt": "Open van maandag tot en met zaterdag, 8 tot 20. Zondag is een rustdag.",
+      "tts": "Geöffnet: Montag bis Samstag, acht bis zwanzig Uhr. Sonntag Ruhetag."
+    },
+    {
+      "audioKey": "de-b10-q04",
+      "voz": "target_de_m",
+      "es": "0,99 Euro, zuzüglich 25 Cent Pfand.",
+      "pt": "0,99 euro, plus 25 cent statiegeld.",
+      "tts": "Null Komma neunundneunzig Euro, zuzüglich fünfundzwanzig Cent Pfand."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Hoe leest u het paar ⟨ei⟩ en ⟨ie⟩?",
+      "opcoes": [
+        "Beide als een lange /i/",
+        "Zeg de tweede letter: ei rijmt op mijn, ie is een lange /i/",
+        "Zeg in beide gevallen de eerste letter",
+        "Het hangt van het woord af en moet één voor één geleerd worden"
+      ],
+      "correta": 1,
+      "explica": "Bier is bier, nein rijmt op mijn, Eingang begint als uw ⟨ij⟩. De officiële spellingregels noemen het precies zo, en er is geen inheemse uitzondering."
+    },
+    {
+      "pergunta": "Op een winkelbord staat «8 bis 20 Uhr». Wat is het tweede getal?",
+      "opcoes": [
+        "Acht uur 's avonds — het uur waarop deze deur op slot gaat",
+        "Twintig over acht",
+        "Twintig minuten opening",
+        "Het nummer van de winkel in de straat"
+      ],
+      "correta": 0,
+      "explica": "Twintig is 20 uur. De federale wet houdt winkels dicht vóór 6 uur 's ochtends en vanaf 20 uur, en helemaal dicht op zondagen en feestdagen — maar elke deelstaat schrijft nu zijn eigen avondgrens, dus lees het bord in plaats van de regel."
+    },
+    {
+      "pergunta": "Het is zondag en u hebt iets nodig. Wat is er volgens de wet echt open?",
+      "opcoes": [
+        "Helemaal niets tot maandag",
+        "Alles, zolang het in een stadscentrum ligt",
+        "De dienstapotheek, de bakkerij in een kort ochtendraam, tankstations voor reisbehoeften, en winkels in stations en luchthavens",
+        "Elke supermarkt onder de 150 vierkante meter, waar dan ook in het land"
+      ],
+      "correta": 2,
+      "explica": "Die korte lijst staat in de Ladenschlussgesetz. De onbemande minisupermarkt die dag en nacht open is, is een Beierse regel, daar van kracht sinds augustus 2025 — geen landelijke."
+    },
+    {
+      "pergunta": "De plank zegt 0,99 € en de kassa vraagt 1,24 €. Wat is er gebeurd?",
+      "opcoes": [
+        "Er is bij de kassa btw opgeteld, zoals het thuis zou gebeuren",
+        "Het etiket was verouderd",
+        "Het statiegeld op de fles: de wet verplicht de winkel het ernaast te tonen en het er niet in op te tellen",
+        "Een servicekosten voor de kassa"
+      ],
+      "correta": 2,
+      "explica": "De prijsregels maken van de weergegeven prijs de totaalprijs met btw al erin, en de eerstvolgende paragraaf verbiedt om het statiegeld erin te verwerken. Het statiegeld is minstens 25 cent, en het komt terug met het leeggoed."
+    },
+    {
+      "pergunta": "U ziet «Gift» op een fles in een kast. Wat zit erin?",
+      "opcoes": [
+        "Een cadeau dat iemand achterliet",
+        "Gif",
+        "Iets gratis",
+        "Een navulling"
+      ],
+      "correta": 1,
+      "explica": "Das Gift is gif. De twee woorden delen een wortel — het Duitse zelfstandig naamwoord is gebouwd op geben, geven — maar de oude betekenis overleeft alleen in Mitgift, een bruidsschat. Op een etiket leest u het als gif."
+    }
+  ]
+}

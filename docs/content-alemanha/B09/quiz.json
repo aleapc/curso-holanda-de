@@ -1,0 +1,96 @@
+{
+  "id": "q-b09",
+  "nivel": "basico",
+  "titulo": "Quiz — De stempel, het doosje en het nummer aan het eind",
+  "subtitulo": "Kopen, starten, en het perron horen",
+  "introAudioKey": "de-b09-q-i",
+  "introPt": "Vier minuten voor vertrek: papier in de ene hand, een doosje op een paal, en een nummer aan het eind van een zin.",
+  "cenario": "Een regionaal perron, laat in de ochtend.",
+  "dialogo": [
+    {
+      "audioKey": "de-b09-q01",
+      "voz": "target_de_f",
+      "es": "Einmal nach Hamburg, bitte.",
+      "pt": "Eén keer naar Hamburg, alstublieft.",
+      "tts": "Einmal nach Hamburg, bitte."
+    },
+    {
+      "audioKey": "de-b09-q02",
+      "voz": "target_de_m",
+      "es": "Einfach oder hin und zurück?",
+      "pt": "Enkele reis of heen en terug?",
+      "tts": "Einfach oder hin und zurück?"
+    },
+    {
+      "audioKey": "de-b09-q03",
+      "voz": "target_de_f",
+      "es": "Einfach, bitte. Wo ist der Entwerter?",
+      "pt": "Enkele reis, alstublieft. Waar is de validator?",
+      "tts": "Einfach, bitte. Wo ist der Entwerter?"
+    },
+    {
+      "audioKey": "de-b09-q04",
+      "voz": "target_de_m",
+      "es": "Dort drüben. Der Zug fährt heute von Gleis sieben.",
+      "pt": "Daar aan de overkant. De trein vertrekt vandaag van spoor zeven.",
+      "tts": "Dort drüben. Der Zug fährt heute von Gleis sieben."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "U kocht een papieren ticket bij de automaat. Wat doet het doosje op de paal?",
+      "opcoes": [
+        "Niets wat u nodig hebt — de datum staat er al op",
+        "Het drukt een tijd, en dat is wat het ticket start",
+        "Het is alleen voor abonnementen",
+        "Het opent het toegangshek"
+      ],
+      "correta": 1,
+      "explica": "Federale vervoersregelgeving noemt niet-valideren, of niet onmiddellijk valideren, in dezelfde adem als helemaal geen geldig ticket hebben. Papier zonder stempel is juridisch papier zonder ticket."
+    },
+    {
+      "pergunta": "U kocht het ticket in de app van de vervoerder en checkte in. Wat nu?",
+      "opcoes": [
+        "Vind het doosje en stempel het scherm",
+        "Niets — het inchecken heeft het elektronisch gevalideerd",
+        "Druk het ticket eerst af aan de automaat",
+        "Vraag de controleur het te valideren"
+      ],
+      "correta": 1,
+      "explica": "De voorwaarden zeggen het klip en klaar: door de check-in wordt het geboekte ticket elektronisch gevalideerd. Papier heeft een stempel nodig, een telefoon niet."
+    },
+    {
+      "pergunta": "Zestig euro komt in beide regelsets voor. Wat is het verschil?",
+      "opcoes": [
+        "Overal hetzelfde vaste bedrag",
+        "In de stad is het een plafond; bij de spoorwegen een minimum dat op een lange reis kan stijgen",
+        "In de stad is het een minimum; bij de spoorwegen een plafond",
+        "Het geldt alleen voor abonnementen"
+      ],
+      "correta": 1,
+      "explica": "De stadsregel zegt tot zestig euro; de spoorregel zegt tweemaal het tarief, maar minstens zestig. Zelfde getal, tegenovergestelde richting."
+    },
+    {
+      "pergunta": "U had een geldig ticket en het lag in uw andere jas. Wat is de ontsnapping?",
+      "opcoes": [
+        "Niets — het bedrag is definitief zodra het genoteerd is",
+        "Toon binnen een week aan dat u een geldig ticket had, en beide regels brengen het terug naar zeven euro",
+        "Betaal ter plekke voor een korting",
+        "Koop een nieuw ticket aan boord"
+      ],
+      "correta": 1,
+      "explica": "Beide regels verlagen het naar zeven euro op bewijs binnen een week na de controle. Bij de spoorwegen is er een tweede ontsnapping: geen open loket en geen werkende automaat op het vertrekstation betekent dat er niets verschuldigd is."
+    },
+    {
+      "pergunta": "«Der Zug fährt heute von Gleis sieben.» Waar zit de bruikbare informatie?",
+      "opcoes": [
+        "Aan het begin van de zin",
+        "In het midden",
+        "Helemaal aan het eind — het nummer valt als laatste",
+        "Wordt nooit omgeroepen, alleen weergegeven"
+      ],
+      "correta": 2,
+      "explica": "Gleis is spoor en het nummer komt aan het eind. Wacht voorbij de zin op het laatste woord, en als de luidspreker iets verandert, laat u het met vier woorden herhalen."
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "q-i05",
+  "nivel": "intermediario",
+  "titulo": "Quiz — De vijf vragen, en de zesde",
+  "subtitulo": "Waarvandaan, hoelang, hoe is uw Duits, hoe bevalt het — en het onderwerp dat u afwijst",
+  "introAudioKey": "de-i05-q-i",
+  "introPt": "Een gedeelde tafel, een echtpaar tegenover u, en dezelfde vijf vragen die aan elke tafel in het land komen. Dan een zesde, en die is de moeite waard om te oefenen.",
+  "cenario": "Een Biergarten in Neurenberg op donderdag, een gedeelde tafel, het eerste Guten Abend al gezegd.",
+  "dialogo": [
+    {
+      "audioKey": "de-i05-q01",
+      "voz": "target_de_m",
+      "es": "Guten Abend! Und woher kommen Sie?",
+      "pt": "Goedenavond! En waar komt u vandaan?",
+      "tts": "Guten Abend! Und woher kommen Sie?"
+    },
+    {
+      "audioKey": "de-i05-q02",
+      "voz": "target_de_f",
+      "es": "Ich komme aus Manchester. Ich bin zehn Tage hier.",
+      "pt": "Ik kom uit Manchester. Ik ben hier tien dagen.",
+      "tts": "Ich komme aus Manchester. Ich bin zehn Tage hier."
+    },
+    {
+      "audioKey": "de-i05-q03",
+      "voz": "target_de_m",
+      "es": "Sie sprechen aber gut Deutsch! Wir können auch Englisch sprechen.",
+      "pt": "U spreekt anders best goed Duits! We kunnen ook Engels spreken.",
+      "tts": "Sie sprechen aber gut Deutsch! Wir können auch Englisch sprechen."
+    },
+    {
+      "audioKey": "de-i05-q04",
+      "voz": "target_de_f",
+      "es": "Danke, nur ein bisschen. Es gefällt mir sehr. Haben Sie einen Tipp für morgen?",
+      "pt": "Dank u, maar een beetje. Het bevalt me erg. Heeft u een tip voor morgen?",
+      "tts": "Danke, nur ein bisschen. Es gefällt mir sehr. Haben Sie einen Tipp für morgen?"
+    },
+    {
+      "audioKey": "de-i05-q05",
+      "voz": "target_de_m",
+      "es": "Gehen Sie auf den Flohmarkt. Und was denken Sie über unsere Geschichte?",
+      "pt": "Ga naar de vlooienmarkt. En wat denkt u over onze geschiedenis?",
+      "tts": "Gehen Sie auf den Flohmarkt. Und was denken Sie über unsere Geschichte?"
+    },
+    {
+      "audioKey": "de-i05-q06",
+      "voz": "target_de_f",
+      "es": "Davon weiß ich zu wenig. Können wir über etwas anderes sprechen? Wo ist der Flohmarkt?",
+      "pt": "Daarvan weet ik te weinig. Kunnen we het over iets anders hebben? Waar is de vlooienmarkt?",
+      "tts": "Davon weiß ich zu wenig. Können wir über etwas anderes sprechen? Wo ist der Flohmarkt?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "«Woher kommen Sie?» — welk antwoord doet meer werk?",
+      "opcoes": [
+        "Het land, omdat het makkelijker is te zeggen",
+        "De stad, omdat het de ander iets geeft om zich aan vast te houden",
+        "Geen van beide; verander van onderwerp",
+        "Het continent, om het simpel te houden"
+      ],
+      "correta": 1,
+      "explica": "Een landnaam sluit het gesprek. Een stadsnaam opent het: ze zijn er geweest, of een neef, of ze hebben een mening over de club. Dezelfde beweging maakt uw eigen reisverhaal in het volgende deel werkzaam."
+    },
+    {
+      "pergunta": "«Sie sprechen aber gut Deutsch!» Wat is het volledige antwoord?",
+      "opcoes": [
+        "Een uitleg hoe lang u al studeert",
+        "Excuus voor uw accent",
+        "Danke — en nur ein bisschen als ze aandringen",
+        "Onmiddellijk overschakelen naar Engels"
+      ],
+      "correta": 2,
+      "explica": "De aber is verbazing, geen correctie. Danke aanvaardt de vriendelijkheid; nur ein bisschen zet het tempo voor alles wat volgt, zodat de persoon tegenover u langzamer praat zonder dat u erom hoefde te vragen."
+    },
+    {
+      "pergunta": "Zij antwoorden uw Duits in het Engels. Wat is er net gebeurd?",
+      "opcoes": [
+        "U bent afgewezen en zou moeten stoppen",
+        "Er wordt een snelweg aangeboden — 65% van de volwassenen hier zegt een gesprek in het Engels te kunnen voeren",
+        "Ze zijn onbeleefd",
+        "Uw accent is onverstaanbaar"
+      ],
+      "correta": 1,
+      "explica": "In de Europese enquête van 2023 zei 65% in Duitsland een gesprek in het Engels te kunnen voeren, tegen een EU-gemiddelde van 47%. Neem de overschakeling, blijf in het Duits openen. Voorzichtig met het getal: een andere enquête vond 87,7% van de 25-64-jarigen die een vreemde taal claimen maar maar 28% daarvan die zich vaardig noemt — de twee zijn niet uitwisselbaar."
+    },
+    {
+      "pergunta": "Is Engels sterker in het oosten of het westen van Duitsland?",
+      "opcoes": [
+        "Het westen, en daar zijn cijfers over",
+        "Het oosten, en daar zijn cijfers over",
+        "Niemand weet het: geen enquête breekt Engels in Duitsland naar regio of naar voormalig oost en west",
+        "Ze zijn identiek, en dat is gemeten"
+      ],
+      "correta": 2,
+      "explica": "Eurobarometer en Eurostat breken de gegevens naar land, leeftijd, opleiding en stadsgrootte — nooit naar Bundesland of de voormalige DDR. De Europese uitsplitsingen bevoordelen wel jonger, hoger opgeleid en grote stad. Iets specifiekers is gevolgtrekking, geen data."
+    },
+    {
+      "pergunta": "De tafel wendt zich tot de twintigste eeuw en er wordt naar uw mening gevraagd. Beste beweging?",
+      "opcoes": [
+        "Zeg iets stevigs om te tonen dat u aan de goede kant staat",
+        "Maak een lichte grap om het te ontladen",
+        "«Davon weiß ich zu wenig», en komt het terug, «Da möchte ich lieber nichts zu sagen»",
+        "Verlaat de tafel"
+      ],
+      "correta": 2,
+      "explica": "Deze cursus geeft u hier met opzet geen meningswoordenschat — niet om te veroordelen, niet om te relativeren. Geïmproviseerde standpunten in een taal die u tien dagen kent zijn het mechanisme van het ongeluk. Twee neutrale uitgangen en een verandering van onderwerp sluiten het af zonder de avond af te sluiten."
+    },
+    {
+      "pergunta": "Iemand stelt een foto voor met de groet, als grap. Wat is de juridische positie?",
+      "opcoes": [
+        "Slechte smaak maar niet illegaal",
+        "§ 86a StGB dekt leuzen en groeten, met tot drie jaar of een geldboete, en geen uitzondering dekt een bezoeker",
+        "Alleen strafbaar als de foto gepubliceerd wordt",
+        "Toeristen zijn vrijgesteld onder § 86 Abs. 4"
+      ],
+      "correta": 1,
+      "explica": "Abs. 2 van § 86a noemt vlaggen, insignes, uniformdelen, leuzen en Grußformen — groetvormen. De uitzonderingen in § 86 Abs. 4 zijn burgerschapsonderwijs, kunst, wetenschap, onderzoek, onderwijs en verslaggeving; geen ervan dekt een bezoeker met een camera. Twee toeristen werden in 2017 in Berlijn aangehouden en één in Dresden; tussen 2023 en 2026 werd geen zaak met een buitenlandse bezoeker gevonden."
+    }
+  ]
+}

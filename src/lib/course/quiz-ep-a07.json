@@ -1,0 +1,89 @@
+{
+  "id": "q-a07",
+  "nivel": "avancado",
+  "titulo": "Quiz — Ein Wohnzimmer ohne Vorhänge, mitten auf der Straße",
+  "subtitulo": "Fünf Fragen zum offenen Fenster, zum knappen Nein und zum Zettel an der Theke",
+  "introAudioKey": "hol-a07-q-i",
+  "introPt": "Ein erleuchtetes Wohnzimmer, ein knapp beantwortetes Nein, und ein kleiner Automat neben der Bäckereitür.",
+  "cenario": "Ein Abendspaziergang, dann eine Terminfrage, dann die Theke beim Metzger.",
+  "dialogo": [
+    {
+      "audioKey": "hol-a07-q01",
+      "voz": "target_nl_m",
+      "es": "Onze gordijnen zijn altijd open, dat is heel gewoon hier.",
+      "pt": "Unsere Vorhänge sind immer offen, das ist hier ganz normal.",
+      "tts": "Onze gordijnen zijn altijd open, dat is heel gewoon hier."
+    },
+    {
+      "audioKey": "hol-a07-q02",
+      "voz": "target_nl_f",
+      "es": "Nee, dat lukt vandaag niet.",
+      "pt": "Nein, das klappt heute nicht.",
+      "tts": "Nee, dat lukt vandaag niet."
+    },
+    {
+      "audioKey": "hol-a07-q03",
+      "voz": "target_nl_m",
+      "es": "Trek maar een nummertje, dan bent u zo aan de beurt.",
+      "pt": "Ziehen Sie ruhig eine Nummer, dann sind Sie gleich dran.",
+      "tts": "Trek maar een nummertje, dan bent u zo aan de beurt."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Beim Abendspaziergang siehst du direkt in ein erleuchtetes Wohnzimmer ohne Vorhang. Was ist die passende Reaktion?",
+      "opcoes": [
+        "Sofort wegschauen, das ist verboten",
+        "Kurz hinschauen ist normal, langes Stehenbleiben und Starren nicht",
+        "Klingeln und dich entschuldigen",
+        "Ein Foto machen"
+      ],
+      "correta": 1,
+      "explica": "Offene Vorhänge gelten vielerorts als Zeichen von Ehrlichkeit — «nichts zu verbergen». Ein kurzer Blick im Vorbeigehen ist üblich, Anstarren dagegen nicht."
+    },
+    {
+      "pergunta": "Du fragst nach einem Treffen und bekommst ein knappes «Nee, dat lukt niet» ohne weitere Erklärung. Was bedeutet das?",
+      "opcoes": [
+        "Die Person ist dir gegenüber unfreundlich",
+        "Ein klares Nein ohne Umweg gilt hier als höflich und respektvoll gegenüber deiner Zeit",
+        "Du hast etwas falsch gefragt",
+        "Es ist eine versteckte Beleidigung"
+      ],
+      "correta": 1,
+      "explica": "Direktheit gilt als Wert, nicht als Unhöflichkeit — ein knappes Nein spart beiden Seiten Zeit. Die passende Reaktion ist eine ebenso direkte Rückfrage."
+    },
+    {
+      "pergunta": "Beim Metzger stehen mehrere Leute ohne erkennbare Reihe herum. Wie funktioniert das System?",
+      "opcoes": [
+        "Wer am lautesten ruft, kommt zuerst dran",
+        "Man zieht eine Nummer an einem kleinen Automaten und wartet, bis sie aufgerufen wird",
+        "Man muss sich in einer sichtbaren Schlange anstellen",
+        "Es gibt kein System, jeder drängelt sich vor"
+      ],
+      "correta": 1,
+      "explica": "Das Zahlensystem («nummertje trekken») sorgt für Fairness ohne sichtbare Reihe und vermeidet Streit darüber, wer zuerst da war."
+    },
+    {
+      "pergunta": "Das Nein kam sehr knapp. Was ist die beste direkte Reaktion?",
+      "opcoes": [
+        "Beleidigt schweigen",
+        "Wanneer past het dan beter? fragen — ebenso direkt, ohne gekränkt zu wirken",
+        "Das Thema sofort fallen lassen",
+        "Mehrfach nachfragen, warum"
+      ],
+      "correta": 1,
+      "explica": "Eine direkte Rückfrage passt zum Register und wird genauso direkt beantwortet — das ist hier der normale Gesprächsrhythmus, kein Nachbohren."
+    },
+    {
+      "pergunta": "Du willst wissen, wo du eine Wartenummer ziehen kannst. Was sagst du?",
+      "opcoes": [
+        "Wie is er aan de beurt?",
+        "Waar trek ik een nummertje?",
+        "Hoeveel kost dat?",
+        "Spreekt u Engels?"
+      ],
+      "correta": 1,
+      "explica": "Waar trek ik een nummertje? fragt gezielt nach dem Automaten selbst — die praktische erste Frage in jedem Laden mit diesem System."
+    }
+  ]
+}

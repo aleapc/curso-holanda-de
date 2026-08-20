@@ -1,0 +1,96 @@
+{
+  "id": "q-b07",
+  "nivel": "basico",
+  "titulo": "Quiz — Können Sie, en de rit naar de stad",
+  "subtitulo": "Eén opening, vier vreemden, één bed",
+  "introAudioKey": "de-b07-q-i",
+  "introPt": "Een reiziger landt laat en passeert vier balies met dezelfde vier woorden.",
+  "cenario": "Het station onder het vliegveld, tegen middernacht.",
+  "dialogo": [
+    {
+      "audioKey": "de-b07-q01",
+      "voz": "target_de_f",
+      "es": "Entschuldigung, können Sie mir helfen?",
+      "pt": "Neem me niet kwalijk, kunt u mij helpen?",
+      "tts": "Entschuldigung, können Sie mir helfen?"
+    },
+    {
+      "audioKey": "de-b07-q02",
+      "voz": "target_de_m",
+      "es": "Ja, natürlich. Sie müssen einmal umsteigen.",
+      "pt": "Ja, natuurlijk. U moet één keer overstappen.",
+      "tts": "Ja, natürlich. Sie müssen einmal umsteigen."
+    },
+    {
+      "audioKey": "de-b07-q03",
+      "voz": "target_de_f",
+      "es": "Können Sie das aufschreiben?",
+      "pt": "Kunt u dat opschrijven?",
+      "tts": "Können Sie das aufschreiben?"
+    },
+    {
+      "audioKey": "de-b07-q04",
+      "voz": "target_de_m",
+      "es": "Klar. Der Zug hat heute zehn Minuten Verspätung.",
+      "pt": "Zeker. De trein heeft vandaag tien minuten vertraging.",
+      "tts": "Klar. Der Zug hat heute zehn Minuten Verspätung."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Wat komt er na «Können Sie»?",
+      "opcoes": [
+        "Uw naam",
+        "Wat u de ander wilt laten doen",
+        "Een plaats",
+        "Een getal"
+      ],
+      "correta": 1,
+      "explica": "De bouwsteen is Können Sie plus een blok handeling dat op een infinitief eindigt: das wiederholen, mir helfen, ein Taxi rufen. Het werkwoord staat al waar het Duits het wil, aan het eind."
+    },
+    {
+      "pergunta": "U hoort «umsteigen» in het antwoord. Wat zegt dat u te doen?",
+      "opcoes": [
+        "Doorreizen tot het eindpunt",
+        "Uitstappen en op een andere trein stappen",
+        "Een tweede ticket kopen",
+        "Op het perron wachten"
+      ],
+      "correta": 1,
+      "explica": "Umsteigen betekent van trein wisselen. Het reist meestal met een getal — einmal, zweimal — en een stationsnaam, en dat is precies het moment voor Können Sie das aufschreiben."
+    },
+    {
+      "pergunta": "Uw langeafstandsticket heeft geen stoelnummer. Wat betekent dat hier?",
+      "opcoes": [
+        "De boeking is mislukt en het ticket is ongeldig",
+        "Niets — reserveren is optioneel, behalve op treinen met R in de dienstregeling",
+        "U moet aan boord een reservering kopen",
+        "U moet staand reizen"
+      ],
+      "correta": 1,
+      "explica": "De regel heet «reserveringsmogelijkheid». Verplichte treinen krijgen een R en hebben de reservering al in de boeking — nachttreinen, Parijs en Marseille, Milaan via Bazel, en alle langeafstand naar Polen."
+    },
+    {
+      "pergunta": "Het bord zegt dat de trein «pünktlich» is. Wat is er precies gemeten?",
+      "opcoes": [
+        "Hij komt op de minuut aan",
+        "Hij vertrok op tijd",
+        "Hij wordt verwacht onder zes minuten te laat, gemeten bij elke stop",
+        "Hij is deze maand nog niet te laat geweest"
+      ],
+      "correta": 2,
+      "explica": "Onder zes minuten telt als op tijd, en dat wordt bij elke stop gemeten, niet alleen bij uw eindbestemming. Daarom leest het officiële cijfer altijd beter dan een middag aanvoelt."
+    },
+    {
+      "pergunta": "Hoe klinkt de ö in «können»?",
+      "opcoes": [
+        "Als de o in «top»",
+        "Als de oe in «boek»",
+        "Precies als uw eigen ⟨eu⟩ in «neus»",
+        "Als de o in «boot»"
+      ],
+      "correta": 2,
+      "explica": "De Duitse ö is dezelfde klank die u zelf al maakt in «neus» — geen nieuwe klank om te leren, alleen een nieuwe spelling om te herkennen."
+    }
+  ]
+}

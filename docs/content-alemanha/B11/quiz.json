@@ -1,0 +1,96 @@
+{
+  "id": "q-b11",
+  "nivel": "basico",
+  "titulo": "Quiz — Ich möchte, en de eerste ronde komt binnen",
+  "subtitulo": "Eén opening, vier dingen erachter",
+  "introAudioKey": "de-b11-q-i",
+  "introPt": "Een reiziger gaat om halfzeven zitten en bestelt de hele avond met twee woorden en een bitte.",
+  "cenario": "München, het tafeltje bij het raam, halfzeven.",
+  "dialogo": [
+    {
+      "audioKey": "de-b11-q01",
+      "voz": "target_de_f",
+      "es": "Hallo! Haben Sie einen Tisch für zwei?",
+      "pt": "Hallo! Hebt u een tafel voor twee?",
+      "tts": "Hallo! Haben Sie einen Tisch für zwei?"
+    },
+    {
+      "audioKey": "de-b11-q02",
+      "voz": "target_de_m",
+      "es": "Ja, gerne. Am Fenster ist noch frei.",
+      "pt": "Ja, graag. Die bij het raam is nog vrij.",
+      "tts": "Ja, gerne. Am Fenster ist noch frei."
+    },
+    {
+      "audioKey": "de-b11-q03",
+      "voz": "target_de_f",
+      "es": "Ich möchte die Karte, bitte.",
+      "pt": "Ik wil graag de kaart, alstublieft.",
+      "tts": "Ich möchte die Karte, bitte."
+    },
+    {
+      "audioKey": "de-b11-q04",
+      "voz": "target_de_m",
+      "es": "Sofort. Möchten Sie schon etwas trinken?",
+      "pt": "Meteen. Wilt u alvast iets drinken?",
+      "tts": "Sofort. Möchten Sie schon etwas trinken?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Wat komt er in het midden van «Ich möchte ___, bitte»?",
+      "opcoes": [
+        "Een werkwoord",
+        "Het ding dat u wilt, met zijn kleine woord er al aan",
+        "De naam van de persoon die u bedient",
+        "Een getal"
+      ],
+      "correta": 1,
+      "explica": "Einen Kaffee, ein Bier, ein Wasser, die Karte. Elk wordt als een blok geleerd, en u haalt het kleine woord er nooit af."
+    },
+    {
+      "pergunta": "Waarom staat «bitte» aan het eind en is het niet optioneel?",
+      "opcoes": [
+        "Het betekent hetzelfde als bedankt",
+        "Het markeert grammaticaal het einde van de zin",
+        "Daar zit de beleefdheid, en dáárom mag het verzoek zelf kort zijn",
+        "Zonder wordt de zin niet begrepen"
+      ],
+      "correta": 2,
+      "explica": "Ich möchte pakt het verzoek van voren in en bitte sluit het van achteren af. Dát is wat drie woorden een volledige, beleefde bestelling laat zijn."
+    },
+    {
+      "pergunta": "Welke groet werkt wanneer u een willekeurige kleine zaak in het land binnenloopt?",
+      "opcoes": [
+        "Moin",
+        "Grüß Gott",
+        "Servus",
+        "Hallo"
+      ],
+      "correta": 3,
+      "explica": "Hallo is op ongeveer 150 enquêtepunten opgetekend. Moin hoort bij Sleeswijk-Holstein en het noorden van Nedersaksen, Grüß Gott bij het zuiden, Servus bij het oostelijke deel van Beieren — allemaal het herkennen waard, geen van alle van u vereist."
+    },
+    {
+      "pergunta": "De kaart zegt 4,90 € naast wat u besteld hebt. Wat betaalt u ervoor?",
+      "opcoes": [
+        "4,90 € — de weergegeven prijs moet de btw al bevatten",
+        "4,90 € plus btw aan de kassa",
+        "4,90 € plus servicekosten",
+        "Hangt ervan af of u zit of staat"
+      ],
+      "correta": 0,
+      "explica": "De prijzenregeling verplicht een totaalprijs met btw erin. Toen het tarief op restauranteten in januari 2026 zakte naar 7% terwijl drank op 19% bleef, verscheen geen van beide cijfers op enige rekening in het land."
+    },
+    {
+      "pergunta": "Welke vorm van «u» gebruikt u de hele avond?",
+      "opcoes": [
+        "Wat de ander als eerste gebruikte",
+        "De formele — hij zit al in «Haben Sie», dus er valt niets te kiezen",
+        "De familiaire, omdat de zaak informeel is",
+        "U moet na de eerste drank overstappen"
+      ],
+      "correta": 1,
+      "explica": "De beleefdheidsvorm zit ingebakken in de openingen die u leert. U hoeft nooit te beslissen, en overgaan op de familiaire vorm is een aanbod dat de ander doet, geen stap die u alleen zet."
+    }
+  ]
+}

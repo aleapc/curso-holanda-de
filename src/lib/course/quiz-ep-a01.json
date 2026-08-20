@@ -1,0 +1,96 @@
+{
+  "id": "q-a01",
+  "nivel": "avancado",
+  "titulo": "Quiz — Wie es klingt, wenn es nicht an dich gerichtet ist",
+  "subtitulo": "Fünf Fragen zum verschwindenden Kasus im Ohr: ui, ch, -tje und die Falle namens mag",
+  "introAudioKey": "hol-a01-q-i",
+  "introPt": "Vier Sätze auf voller Geschwindigkeit, an eine andere Person gerichtet, mit allen Klängen dieses Teils auf einmal.",
+  "cenario": "Ein Bahnsteig, eine Tür, ein Tresen — alles aufgeschnappt, nicht an dich gerichtet.",
+  "dialogo": [
+    {
+      "audioKey": "hol-a01-q01",
+      "voz": "target_nl_m",
+      "es": "Ik ga even naar buiten, ik ben zo terug.",
+      "pt": "Ich gehe kurz raus, bin sofort zurück.",
+      "tts": "Ik ga even naar buiten, ik ben zo terug."
+    },
+    {
+      "audioKey": "hol-a01-q02",
+      "voz": "target_nl_f",
+      "es": "Mag ik hier even zitten? Het is nogal druk vandaag.",
+      "pt": "Darf ich mich kurz hier hinsetzen? Es ist heute ziemlich voll.",
+      "tts": "Mag ik hier even zitten? Het is nogal druk vandaag."
+    },
+    {
+      "audioKey": "hol-a01-q03",
+      "voz": "target_nl_m",
+      "es": "Ga je nog naar Scheveningen, of blijf je in Den Haag?",
+      "pt": "Fährst du noch nach Scheveningen, oder bleibst du in Den Haag?",
+      "tts": "Ga je nog naar Scheveningen, of blijf je in Den Haag?"
+    },
+    {
+      "audioKey": "hol-a01-q04",
+      "voz": "target_nl_f",
+      "es": "Wil je een kopje koffie en een koekje erbij?",
+      "pt": "Möchtest du ein Tässchen Kaffee und ein Keksje dazu?",
+      "tts": "Wil je een kopje koffie en een koekje erbij?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Du hörst «buiten». Welcher Laut ist neu für dein Ohr?",
+      "opcoes": [
+        "Ein t, das wie ein d klingt",
+        "Der Diphthong ui — eine Mischung, die dein Deutsch nicht kennt",
+        "Ein stummes b",
+        "Nichts, das Wort klingt wie im Deutschen"
+      ],
+      "correta": 1,
+      "explica": "ui, wie in huis, uit und buiten, existiert in keinem deutschen Wort. Er lohnt sich, weil er in der ersten Reisewoche mehrfach täglich vorkommt."
+    },
+    {
+      "pergunta": "«Mag ik hier zitten?» — was wurde da eigentlich gesagt?",
+      "opcoes": [
+        "Ich mag es, hier zu sitzen",
+        "Darf ich hier sitzen? — mag kommt von mogen, dürfen, nicht von mögen",
+        "Ich muss hier sitzen",
+        "Haben Sie hier einen Platz?"
+      ],
+      "correta": 1,
+      "explica": "Der berühmteste falsche Freund des Paars. Weil das Ergebnis am Tresen dasselbe ist, bleibt der Irrtum meist unsichtbar — genau das macht ihn so hartnäckig."
+    },
+    {
+      "pergunta": "«Scheveningen» wird genannt als:",
+      "opcoes": [
+        "Ein leichtes Übungswort für Anfänger",
+        "Ein Testfall für die raue g/ch-Reibung im Rachen, historisch als Erkennungswort genutzt",
+        "Ein Wort ohne g-Laut",
+        "Der Name einer Zugstrecke"
+      ],
+      "correta": 1,
+      "explica": "g und ch sind hier eine raue Reibung, härter als der deutsche Ach-Laut. Niemand erwartet, dass du das Wort beim ersten Versuch triffst — es zu erkennen reicht."
+    },
+    {
+      "pergunta": "«Kopje, koekje, momentje» — was macht die Endung -tje?",
+      "opcoes": [
+        "Sie zeigt die Mehrzahl an",
+        "Sie macht ein Wort klein oder beiläufig, ohne die Grundbedeutung zu ändern",
+        "Sie zeigt Höflichkeit gegenüber Fremden an",
+        "Sie kommt nur bei Speisen vor"
+      ],
+      "correta": 1,
+      "explica": "Das Diminutiv ist im Alltagsniederländisch sehr produktiv und klebt an fast jedem Wort — oft ohne dass wirklich etwas Kleines gemeint ist, wie bei een momentje für «kurz»."
+    },
+    {
+      "pergunta": "Wie viel solltest du bei diesem Tempo realistisch verstehen?",
+      "opcoes": [
+        "Alles, sonst hat der Kurs versagt",
+        "Ein Drittel ist schon ein gutes Ergebnis, auch für Muttersprachler einer Nachbarsprache",
+        "Nichts — dieser Teil ist reine Deko",
+        "Genau die Hälfte, nicht mehr und nicht weniger"
+      ],
+      "correta": 1,
+      "explica": "Niemand folgt echtem Sprechtempo in einer zweiten Sprache vollständig, und das ist auch nicht das Ziel dieses Teils — das Ziel ist, die vier, fünf wiederkehrenden Klänge zu erkennen."
+    }
+  ]
+}

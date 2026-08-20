@@ -1,0 +1,397 @@
+{
+  "id": "a04",
+  "nivel": "avancado",
+  "numero": 32,
+  "parte": "A04",
+  "titulo": "Het oude debat",
+  "subtitulo": "Eén lijn loopt van oost naar west en gaat over lonen; de andere is een paragraaf van het wetboek van strafrecht, en geen van beide wil uw mening",
+  "cena": "Een tafel in een stad die vroeger aan de andere kant van een grens lag, en iemand heeft net gezegd waar hij opgroeide en is opgehouden met praten.",
+  "moldura": "ganha",
+  "frasePiso": "Noem de stad, vraag wat er veranderd is, en zeg dat u er te weinig van weet. Drie zetten, en u zit om middernacht nog aan tafel.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "de-a04-ost-west",
+      "afirmacao": "De data staan vast en de kloof is gemeten. De Berlijnse Muur ging op 13 augustus 1961 omhoog en opende op 9 november 1989 (stiftung-berliner-mauer.de, verbatim: «Am 13. August 1961 entschied die Regierung im Osten…» en «Am 9. November 1989 kamen sehr viele Menschen zur Berliner Mauer»); de hereniging trad in werking op 3 oktober 1990 (bpb.de). Voor de economische kloof komen de cijfers uit het dossier van het Statistisches Bundesamt «35 Jahre Deutsche Einheit», referentiejaar 2024: gemiddelde bruto maandelijkse voltijdinkomens waren 4.810 euro in het westen inclusief Berlijn en 3.973 euro in het oosten, met de eigen zin van het bureau verbatim: «Damit lag der Verdienst im Westen im Jahr 2024 immer noch um gut ein Fünftel höher als im Osten»; in 1991 was hetzelfde paar 924 euro in het oosten tegen 1.987 euro in het westen. BBP per hoofd in Duitsland in 2024 was 50.819 euro, verbatim: «Im Jahr 2024 betrug das BIP je Einwohnerin und Einwohner in Deutschland 50 819 Euro», met de laagste waarden in Sachsen-Anhalt op 36.517 euro, Thüringen op 36.942 en Mecklenburg-Vorpommern op 37.656, en de hoogste in Hamburg op 84.486. Een negatieve bevinding hoort erbij: de jaarberichten van de bondsregering over de stand van de Duitse eenheid voor 2024 (176 pp.) en 2025 (138 pp., verschenen op 30 september 2025) zijn gedownload en integraal uit tekst gehaald, en geen van beide bevat het klassieke cijfer «BBP per hoofd oost als percentage van west». De afwezigheid is echt en geen toegangsprobleem, en de circulerende percentages — 72, 78, 71 — zijn niet-institutioneel of dateren uit 2015 en worden niet gebruikt.",
+      "fonte": "stiftung-berliner-mauer.de e bpb.de, verbatim, para as datas; Destatis, dossiê «35 Jahre Deutsche Einheit», ano de referência 2024, verbatim para o par salarial e para o PIB per capita. Jahresberichte der Bundesregierung zum Stand der Deutschen Einheit 2024 e 2025, PDFs baixados e extraídos integralmente — achado negativo confirmado. Pesquisa §10.3 e item 40 da lista de exclusão.",
+      "ano": 2024,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-a04-n02",
+        "de-a04-n03",
+        "de-a04-n04"
+      ]
+    },
+    {
+      "id": "de-a04-ossi-wessi",
+      "afirmacao": "De cursus legt de twee bijnamen niet in de mond van een bezoeker, en de reden is gedocumenteerd in plaats van beweerd. Het Duden-lemma voor «Ossi» draagt de labels «umgangssprachlich» en, in de eerste betekenis, «oft abwertend»; het DWDS-lemma, uit 2018, markeert het slechts als «salopp» — de twee woordenboeken zijn het oneens over het label en die onenigheid wordt vastgelegd in plaats van opgelost. Eén rechtszaak is bevestigd: Arbeitsgericht Stuttgart, 15 april 2010, zaak 17 Ca 8907/09, de «Minus-Ossi-Fall», waarin een sollicitante haar cv teruggestuurd kreeg met de handgeschreven notitie «(-) Ossi» en «DDR» en op grond van de algemene wet gelijke behandeling minstens 5.000 euro eiste; de eis werd afgewezen, met de motivering dat oost-Duitsers geen «ethnische Herkunft» vormen in de zin van § 1 AGG. Voorbehoud: de zaak werd gelezen op een privaat juridisch portaal, het eigen persbericht van de rechtbank gaf 404 terug, en een eventueel hoger beroep werd niet geverifieerd. Cruciaal: er is geen Duitse institutionele verklaring die deze woorden aanmerkt als beledigend of ertegen adviseert. De regel die de cursus toepast wordt daarom gesteld als wat hij is: één woordenboek markeert het woord als vaak denigrerend en één gedocumenteerde zaak toont het gebruikt als negatieve markering bij een sollicitatie, en dat is genoeg om het uit de woordenschat van een buitenlandse bezoeker te houden — meer wordt niet beweerd.",
+      "fonte": "Duden, verbete «Ossi» (marcações «umgangssprachlich» e «oft abwertend»); DWDS, verbete de 2018 («salopp»); Arbeitsgericht Stuttgart, 15/4/2010, autos 17 Ca 8907/09. Pesquisa §10.3. ⚠ Ressalva registrada: caso lido em portal jurídico privado, comunicado do próprio tribunal devolveu 404, recurso não verificado. NÃO existe declaração institucional alemã dizendo que os termos são ofensivos.",
+      "ano": 2010,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-a04-n06",
+        "de-a04-n07",
+        "de-a04-n08"
+      ]
+    },
+    {
+      "id": "de-a04-86a",
+      "afirmacao": "De groet is strafrecht, en de operationele bepaling is § 86a StGB, «Verwenden von Kennzeichen verfassungswidriger und terroristischer Organisationen», niet § 130. Abs. 1, verbatim: «Mit Freiheitsstrafe bis zu drei Jahren oder mit Geldstrafe wird bestraft, wer 1. im Inland Kennzeichen einer der in § 86 Abs. 1 Nr. 1, 2 und 4 oder Absatz 2 bezeichneten Parteien oder Vereinigungen verbreitet oder öffentlich, in einer Versammlung oder in einem von ihm verbreiteten Inhalt (§ 11 Absatz 3) verwendet…» Abs. 2, verbatim, is wat het gebaar eronder brengt: «Kennzeichen im Sinne des Absatzes 1 sind namentlich Fahnen, Abzeichen, Uniformstücke, Parolen und Grußformen. Den in Satz 1 genannten Kennzeichen stehen solche gleich, die ihnen zum Verwechseln ähnlich sind.» De uitzonderingen staan in § 86 Abs. 4, verbatim: «Die Absätze 1 und 2 gelten nicht, wenn die Handlung der staatsbürgerlichen Aufklärung, der Abwehr verfassungswidriger Bestrebungen, der Kunst oder der Wissenschaft, der Forschung oder der Lehre, der Berichterstattung über Vorgänge des Zeitgeschehens oder der Geschichte oder ähnlichen Zwecken dient.» Noch een grap noch een foto komt op die lijst voor. Een aparte bepaling, § 130 Abs. 3, straft met tot vijf jaar wie openbaar of in een vergadering, op een manier die de openbare vrede kan verstoren, een daad zoals beschreven in § 6 Abs. 1 van het internationale strafwetboek gepleegd onder het nationaalsocialisme goedkeurt, ontkent of bagatelliseert — de werkwoorden zijn billigen, leugnen en verharmlosen, dus bagatelliseren alleen volstaat; Abs. 4 straft goedkeuring, verheerlijking of rechtvaardiging van het nationaalsocialistische regime van geweld en willekeur, en vereist geen Holocaust-ontkenning. Twee afwezigheden die de cursus hardop noemt: de procedurele uitkomst van de gemelde detenties van toeristen in Berlijn in 2017, op 5 augustus, waar twee Chinese bezoekers werden vrijgelaten op een borg van 500 euro elk, en in Dresden op 12-13 augustus, is niet in de berichtgeving; en er werd tussen 2023 en 2026 geen zaak van een buitenlandse toerist onder § 86a gevonden. De cursus zegt dus dat het een misdrijf is, geeft de straf op, en stopt daar in plaats van te suggereren dat het vaak voorkomt.",
+      "fonte": "§ 86a StGB e § 86 Abs. 4 StGB, gesetze-im-internet.de, verbatim. § 130 Abs. 3 e Abs. 4 StGB — ⚠ nota de proveniência honesta: a extração verbatim da página oficial foi bloqueada pelo limite de citação da ferramenta e o texto foi lido na mesma página oficial por outra via; conferir uma vez antes de imprimir. Casos de 2017: BBC, NPR, TIME, LA Times, 6-7/8/2017 e CNN — COBERTURA JORNALÍSTICA, MODERADA, veículos bloquearam o fetch. Pesquisa §10.2 e §10.6, itens 42 e 43 da lista de exclusão.",
+      "ano": 2026,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": [
+        "de-a04-n09",
+        "de-a04-n10",
+        "de-a04-n11",
+        "de-a04-n12"
+      ]
+    },
+    {
+      "id": "de-a04-gedenken",
+      "afirmacao": "Het tweede van de twee feiten die de cursus vastlegt — dat het onderwerp voorwerp is van officiële staatsherdenking — heeft een adres en een datum. Het Denkmal für die ermordeten Juden Europas in Berlijn, het veld van 2.711 stèles van Peter Eisenman, werd op 10 mei 2005 ingewijd en op 12 mei 2005 opengesteld (stiftung-denkmal.de). Naast het nationale monument loopt een gedecentraliseerde laag van Gedenkstätten en de Stolpersteine, waarvan de eigen projectpagina meldt «Bislang liegen 116.000 STOLPERSTEINE in über 1860 Kommunen in 31 europäischen Ländern» zonder datumstempel op de telling. Twee data zijn hier daarom bewust afwezig: het jaar waarin de Stolpersteine begonnen, waar bronnen uiteenlopen tussen 1992 en 1993 en de institutionele projectpagina alleen «Vor über 30 Jahren» zegt, en de datum van het cijfer 116.000, dat nooit werd vastgesteld. Alleen de eigen data van het monument worden als gedateerd feit vermeld.",
+      "fonte": "stiftung-denkmal.de, tabela de datas neutras confirmadas em fonte institucional (inauguração 10/5/2005, abertura 12/5/2005, 2.711 estelas, Peter Eisenman). Pesquisa §10.2 (quadro «Datas neutras») e §10.6, que fixa a regra editorial dos dois fatos e nenhuma opinião. ⚠ Item 44 da lista de exclusão: o ano de início dos Stolpersteine e a data da cifra de 116.000 pedras NÃO entram.",
+      "ano": 2005,
+      "revisarAte": "2031-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-a04-n09"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a04-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Elk land heeft het debat waar een bezoeker buiten blijft. Hier zijn er twee, en ze werken anders."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a04-n02",
+      "bloco": "corpo",
+      "pt": "Het eerste is een lijn op de kaart. De muur ging omhoog in 1961, opende in 1989, en het land verenigde zich in 1990."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-a04-r01",
+      "receptivo": true,
+      "acao": "Daar groeide hij op, gewoon gezegd. Neem het als geografie, en laat hem beslissen of er meer volgt.",
+      "es": "Ich komme aus Leipzig. Das war früher die DDR.",
+      "pt": "Ik kom uit Leipzig. Dat was vroeger de DDR.",
+      "tts": "Ich komme aus Leipzig. Das war früher die DDR."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a04-n03",
+      "pt": "Wat gemeten wordt, zijn lonen. In 2024 was het gemiddelde voltijdloon in het westen vierduizend achthonderd en tien euro."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a04-n04",
+      "pt": "In het oosten drieduizend negenhonderd drieënzeventig. Het bureau: nog een goede vijfde hoger."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a04-n05",
+      "pt": "In 1991 was het negenhonderd tegen bijna tweeduizend. De richting is afgesproken; het tempo wordt betwist."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-a04-p01",
+      "promptPt": "Hij heeft net verteld aan welke kant van de oude grens deze straat lag, en een gat gelaten. Vraag naar de straat, niet naar het land. Spreek nu.",
+      "audioKey": "de-a04-t01",
+      "es": "Wie hat sich die Stadt verändert?",
+      "pinyin": "vee hatt zikh dee SHTATT fair-EN-dert",
+      "pt": "Hoe is de stad veranderd?",
+      "tts": "Wie hat sich die Stadt verändert?"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-a04-p02",
+      "promptPt": "U wilt weten of hij alles heeft zien gebeuren of pas erna kwam, en er is een beleefde manier om dat uit te vinden. Spreek nu.",
+      "audioKey": "de-a04-t02",
+      "es": "Wie lange wohnen Sie schon hier?",
+      "pinyin": "vee LANG-uh VOH-nen zee shone heer",
+      "pt": "Hoe lang woont u hier al?",
+      "tts": "Wie lange wohnen Sie schon hier?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a04-n06",
+      "pt": "Er bestaan twee bijnamen voor de twee helften. U zult ze horen. Ze blijven uit uw mond, en dit is waarom."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-a04-r02",
+      "receptivo": true,
+      "acao": "Gezegd tussen twee mensen die beiden die geschiedenis dragen. Het is aan hen om te gebruiken, en het gaat niet over op u.",
+      "es": "Ossi, Wessi — das sagen wir schon untereinander.",
+      "pt": "Ossi, Wessi — dat zeggen we onderling wel.",
+      "tts": "Ossi, Wessi — das sagen wir schon untereinander."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a04-n07",
+      "pt": "Eén woordenboek markeert de oostelijke als vaak denigrerend. Een tweede markeert hem slechts als gewoon. Ze zijn het oneens."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a04-n08",
+      "pt": "En in 2010 behandelde een rechtbank een zaak over een cv dat teruggegeven werd met dat woord erop gekrabbeld. Reden genoeg."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a04-n09",
+      "bloco": "capsula",
+      "pt": "De tweede is helemaal geen debat. Het is een paragraaf van het wetboek van strafrecht, en hij is kort."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a04-n10",
+      "pt": "Paragraaf zesentachtig a noemt vlaggen, insignes, uniformstukken, leuzen en groetvormen. Tot drie jaar."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a04-n11",
+      "pt": "De geschreven uitzonderingen zijn burgerschapsvorming, kunst, wetenschap, onderwijs en journalistiek. Een foto staat op geen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a04-n12",
+      "pt": "Een tweede paragraaf dekt goedkeuren, ontkennen en bagatelliseren. Bagatelliseren alleen is al genoeg."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-a04-r03",
+      "receptivo": true,
+      "acao": "Het onderwerp is zojuist gesloten door de persoon die het bezit. Laat het gesloten en verplaats de grond.",
+      "es": "Darüber reden wir hier nicht so gern.",
+      "pt": "Daar praten we hier niet zo graag over.",
+      "tts": "Darüber reden wir hier nicht so gern."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-a04-p03",
+      "promptPt": "De tafel heeft zich naar u gedraaid voor een oordeel over iets waar al voor uw geboorte over gestreden werd. Antwoord eerlijk over uw eigen positie. Spreek nu.",
+      "audioKey": "de-a04-t03",
+      "es": "Davon weiß ich zu wenig.",
+      "pinyin": "dah-FON vice ikh tsoo VAY-nikh",
+      "pt": "Daar weet ik te weinig van.",
+      "tts": "Davon weiß ich zu wenig."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-a04-p04",
+      "promptPt": "Ze dringen opnieuw aan, opgewekt, met glas in de hand. Sluit de deur beleefd in plaats van hem half open te laten. Spreek nu.",
+      "audioKey": "de-a04-t04",
+      "es": "Dazu möchte ich lieber nichts sagen.",
+      "pinyin": "DAH-tsoo MURKH-tuh ikh LEE-ber nikhts ZAH-gen",
+      "pt": "Daar wil ik liever niets over zeggen.",
+      "tts": "Dazu möchte ich lieber nichts sagen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a04-n13",
+      "pt": "Niemand vraagt u om een standpunt. Zeggen dat u er te weinig van weet, wordt gehoord als respect en sluit het onderwerp."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-a04-p05",
+      "promptPt": "U staat bij een gedenkplaats met een groep en iemand vraagt wat u brengt. Zeg waarom u kwam, in vijf woorden. Spreek nu.",
+      "audioKey": "de-a04-t05",
+      "es": "Ich bin hier, um zuzuhören.",
+      "pinyin": "ikh bin heer, oom TSOO-tsoo-hur-en",
+      "pt": "Ik ben hier om te luisteren.",
+      "tts": "Ich bin hier, um zuzuhören."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-a04-p06",
+      "promptPt": "De avond is beland waar niemand het wilde en iedereen zou een uitweg nemen. Bied er een, zonder iemand de schuld te geven. Spreek nu.",
+      "audioKey": "de-a04-t06",
+      "es": "Können wir über etwas anderes sprechen?",
+      "pinyin": "KUR-nen veer UE-ber ET-vass AN-der-ess SHPREH-khen",
+      "pt": "Kunnen we het over iets anders hebben?",
+      "tts": "Können wir über etwas anderes sprechen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a04-n14",
+      "pt": "Geef ze dan iets waar ze graag op antwoorden. Wat u gisteren deed werkt, en waar ze eten ook."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "simpatia/elogiar-lugar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-a04-p07",
+      "promptPt": "Geef ze uw eigen dag in plaats van een mening — u bracht de ochtend ergens door en het beviel. Spreek nu.",
+      "audioKey": "de-a04-t07",
+      "es": "Ich war gestern im Museum.",
+      "pinyin": "ikh var GESS-tern im moo-ZAY-oom",
+      "pt": "Ik was gisteren in het museum.",
+      "tts": "Ich war gestern im Museum."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "mesa/carta"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-a04-p08",
+      "promptPt": "Vier mensen aan tafel kennen deze stad beter dan welke kaart ook, en de avond heeft nog twee uur in zich. Gebruik ze. Spreek nu.",
+      "audioKey": "de-a04-t08",
+      "es": "Wo essen Sie hier gern?",
+      "pinyin": "vo ESS-en zee heer gairn",
+      "pt": "Waar eet u hier graag?",
+      "tts": "Wo essen Sie hier gern?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-a04-s01",
+      "es": "Davon weiß ich zu wenig. Können wir über etwas anderes sprechen? Wo essen Sie hier gern?",
+      "pinyin": "dah-FON vice ikh tsoo VAY-nikh · KUR-nen veer UE-ber ET-vass AN-der-ess SHPREH-khen · vo ESS-en zee heer gairn",
+      "pt": "Schaduw de drie die het oordeel weigeren en de avond gaande houden.",
+      "tts": "Davon weiß ich zu wenig. Können wir über etwas anderes sprechen? Wo essen Sie hier gern?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a04-n15",
+      "bloco": "recap",
+      "pt": "A04 klaar. Noem de stad, vraag wat veranderde, hou twee bijnamen uit uw mond, en maak nooit het gebaar."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Eén lijn over lonen, één paragraaf recht, en de zinnen die u aan tafel houden",
+    "secoes": [
+      {
+        "titulo": "De lijn op de kaart, en het cijfer dat echt is",
+        "corpo": "De data worden door niemand betwist: de muur ging op 13 augustus 1961 omhoog, opende op 9 november 1989, en het land werd op 3 oktober 1990 herenigd. Het gemeten verschil dat nog bestaat, zijn lonen. In 2024 waren de gemiddelde bruto maandelijkse voltijdinkomens 4.810 euro in het westen, Berlijn meegerekend, tegen 3.973 in het oosten, en het federale statistiekbureau vat het in één zin: het westen verdiende nog een goede vijfde meer. De schaal van de verandering zit in het oudere paar: in 1991 waren dezelfde cijfers 924 euro in het oosten en 1.987 in het westen. BBP per hoofd vertelt hetzelfde verhaal per deelstaat, met het nationale cijfer op 50.819 euro, de laagste waarden in Sachsen-Anhalt, Thüringen en Mecklenburg-Vorpommern tussen zesendertig en achtendertigduizend, en Hamburg op 84.486. Eén ding is de moeite waard over de getallen die iedereen aanhaalt: het vertrouwde cijfer «het oosten zit op zoveel procent van het westen» komt niet voor in de eigen jaarberichten van de bondsregering over de Duitse eenheid voor 2024 of 2025 — beide werden integraal gelezen — en de circulerende versies zijn ofwel niet-institutioneel ofwel tien jaar oud. Het loonpaar is het eerlijke cijfer.",
+        "exemplos": [
+          {
+            "es": "Wie hat sich die Stadt verändert?",
+            "pt": "Hoe is de stad veranderd?"
+          },
+          {
+            "es": "Wie lange wohnen Sie schon hier?",
+            "pt": "Hoe lang woont u hier al?"
+          }
+        ]
+      },
+      {
+        "titulo": "Twee bijnamen, en de reden om ze met rust te laten",
+        "corpo": "U zult de twee woorden horen, vaak liefdevol, tussen mensen die beiden die geschiedenis dragen. De reden dat een bezoeker ze niet leent, is gedocumenteerd in plaats van gemoraliseerd. Eén groot woordenboek labelt de oostelijke bijnaam als informeel en, in de eerste betekenis, vaak denigrerend; een tweede markeert hem slechts als gewoon, en de twee zijn het oneens — wat de cursus vastlegt in plaats van oplost. Daarnaast staat één bevestigde zaak: in april 2010 behandelde een arbeidsrechtbank in Stuttgart een claim van een sollicitante wier cv terugkwam met het woord naast een minteken gekrabbeld, samen met de letters van de oude staat. De eis werd afgewezen, op de grond dat oost-Duitsers geen etnische afkomst vormen in de zin van de gelijkebehandelingswet, en een hoger beroep werd niet geverifieerd. Wat niet bestaat, is een Duitse instelling die zegt dat de woorden beledigend zijn en niet gebruikt moeten worden. Dus de regel wordt gesteld als wat hij is: één woordenboeklabel en één gedocumenteerd geval van het woord gebruikt als negatieve markering, wat genoeg is om het uit de woordenschat te houden van iemand die een week in het land is."
+      },
+      {
+        "titulo": "De paragraaf, en waarom hij de gemakkelijkste regel in de cursus is",
+        "corpo": "Deze is geen mening, geen gevoeligheid en geen kwestie van smaak, en dat maakt hem eenvoudig. Paragraaf 86a van het wetboek van strafrecht straft het verspreiden of openbaar gebruiken van de symbolen van verboden organisaties met tot drie jaar gevangenisstraf of een geldboete, en het tweede lid spelt uit wat als symbool telt: vlaggen, insignes, uniformstukken, leuzen — en groetvormen. Die laatste term plaatst de opgeheven-armgroet binnen de paragraaf, inclusief wat er verwarrend op lijkt. De geschreven uitzonderingen staan in paragraaf 86, lid 4, en zijn burgerschapsvorming, het weren van ongrondwettelijke doelen, kunst, wetenschap, onderzoek, onderwijs en verslaggeving over lopende gebeurtenissen of geschiedenis. Een grap staat er niet. Een foto staat er niet. Een aparte paragraaf, 130, straft met tot vijf jaar het goedkeuren, ontkennen of bagatelliseren van daden gepleegd onder het nationaalsocialistische regime, op een manier die de openbare vrede kan verstoren — en bagatelliseren alleen is de drempel. Twee dingen die de cursus hardop zegt omdat ze waar zijn: wat er gebeurde met de toeristen die in augustus 2017 in Berlijn en Dresden werden vastgehouden nadat de rechtbanken erbij betrokken waren, staat niet in de berichtgeving, en tussen 2023 en 2026 werd geen zaak met een buitenlandse toerist gevonden. Dit is geen gewone gebeurtenis. Het is gewoon een wet met een straf eraan verbonden, en het gedrag dat gevraagd wordt kost u niets."
+      },
+      {
+        "titulo": "De zinnen die weigeren zonder te beledigen",
+        "corpo": "U krijgt hier geen woordenschat van meningen, in welke richting dan ook — niet om te veroordelen, niet om te relativeren, en niet om te laten zien aan welke kant u staat. Meningswoordenschat in een taal die u niet beheerst, is precies het mechanisme van het ongeluk. Wat u krijgt zijn vier uitwegen, allemaal neutraal en kort. Davon weiß ich zu wenig sluit het onderwerp zonder iemand te beledigen en is, na een week in een land, gewoon accuraat. Dazu möchte ich lieber nichts sagen is beleefd en definitief, voor als de eerste niet wordt aangenomen. Ich bin hier, um zuzuhören hoort bij een gedenkplaats, waar het zowel waar als in het juiste register is. Können wir über etwas anderes sprechen is direct, en directheid is hier niet onbeleefd. En als iemand de grap maakt, is de zet zwijgen en van onderwerp veranderen — nooit meedoen, en nooit iemand corrigeren in een taal die u nog leert."
+      },
+      {
+        "titulo": "Wat u ze in de plaats geeft",
+        "corpo": "Een oordeel weigeren werkt veel beter wanneer er iets anders in de plaats komt. Ich war gestern im Museum antwoordt met uw eigen dag in plaats van met een positie, wat overal dezelfde truc is die op elk nationaal debat werkt. Wie hat sich die Stadt verändert verplaatst het gesprek van het land, waar u geen positie hebt, naar de straat buiten, waar de persoon tegenover u de enige beschikbare expert is en meestal blij is dat u vraagt. Wo essen Sie hier gern verandert vier mensen midden in een debat in vier mensen die uw avond plannen. Alle drie zijn vragen, geen enkele is een oordeel, en elk laat u beter geïnformeerd achter dan de mening die u niet gaf."
+      }
+    ]
+  },
+  "slot": "A04",
+  "permissao": "U mag geen mening hebben en dat in één korte zin zeggen. Davon weiß ich zu wenig is na een week in een land geen ontwijking — het is het accurate antwoord, en het wordt gehoord als respect in plaats van als terughoudendheid. U mag ook hardop nieuwsgierig zijn: vragen hoe een stad is veranderd, of hoe lang iemand er woont, is welkom op een manier die een oordeel nooit is. En u mag ergens ingelopen zijn zonder te weten dat het er was. Dat benoemen en van onderwerp veranderen sluit het, en een gast die dat doet wordt niet op een eerste fout vastgepind.",
+  "permissaoAudioKey": "de-a04-n13",
+  "espelho": "Elk land heeft het debat waar buitenstaanders buiten moeten blijven, en iedereen heeft aan tafel een bezoeker dat zelfverzekerd in twintig minuten zien beslechten. U weet precies hoe dat er van binnen uitziet — de beleefde stilte, het veranderde onderwerp, het iets kleinere welkom daarna. Die herinnering is de hele kwalificatie die dit deel vereist, en zij is precies overdraagbaar.",
+  "fichasCulturais": [
+    {
+      "sinal": "Iemand noemt aan welke kant van de oude grens hij opgroeide, houdt dan op, en de pauze wordt aan u overgelaten om te vullen.",
+      "suaLeitura": "Ik word uitgenodigd iets sympathieks te zeggen over de hereniging, of te laten zien dat ik wat geschiedenis ken.",
+      "oQueEAli": "Bijna altijd is het een stuk geografie dat u wordt aangereikt, meer niet. Wat gemeten en onbetwist is, is de loonkloof: 4.810 euro per maand in het westen tegen 3.973 in het oosten in 2024, met het bureau dat zegt dat het westen nog een goede vijfde meer verdient, tegen 1.987 en 924 in 1991. Of die kloof snel genoeg sluit, en wiens schuld het tempo is, wordt binnen het land betwist en is een positie in plaats van een feit.",
+      "oQueVoceFaz": "Neem de geografie en vraag naar de plek in plaats van de natie: hoe de stad is veranderd, hoe lang ze er wonen. Noem steden in plaats van helften van een land wanneer u zegt waar u naartoe gaat.",
+      "oQueMelhora": "U krijgt de lokale versie van een nationaal verhaal van iemand die het beleefde, wat veel interessanter is dan de samenvatting die u anders geboden zou hebben.",
+      "ondeNaoVale": "Het is geen regel dat het onderwerp delicaat is of omzichtig behandeld moet worden — velen praten er graag en lang over, en helemaal weigeren om in te gaan leest vreemder dan meedoen. En het is geen bewering dat de twee helften twee culturen zijn: de data zijn regionaal en economisch, en de persoon voor u is geen regio.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-a04-n03",
+        "de-a04-n04",
+        "de-a04-n05"
+      ]
+    },
+    {
+      "sinal": "Het gesprek wendt zich naar de twintigste eeuw, de tafel wordt stiller dan hij was, en iemand kijkt naar u.",
+      "suaLeitura": "Ik moet iets respectvols zeggen om te tonen aan welke kant ik sta, of een luchtige opmerking maken om de sfeer te tillen.",
+      "oQueEAli": "Twee feiten en geen mening. Het onderwerp is voorwerp van officiële staatsherdenking, met een nationaal monument in Berlijn dat in mei 2005 werd ingewijd en gedenkplaatsen door het hele land. En het is voorwerp van geldend strafrecht: paragraaf 86a plaatst vlaggen, insignes, leuzen en groetvormen op tot drie jaar of een geldboete, en paragraaf 130 plaatst goedkeuren, ontkennen of bagatelliseren op tot vijf, met bagatelliseren alleen al genoeg. De geschreven uitzonderingen zijn kunst, wetenschap, onderwijs en journalistiek, en geen ervan dekt een bezoeker met een camera.",
+      "oQueVoceFaz": "Gebruik een uitweg in plaats van een eigen zin: Davon weiß ich zu wenig, of Dazu möchte ich lieber nichts sagen als er wordt aangedrongen, of Ich bin hier, um zuzuhören bij een gedenkplaats. Als iemand de grap maakt, blijf stil en verplaats de grond. En maak nooit het gebaar — niet voor een foto, niet in een groep, niet na een lange avond.",
+      "oQueMelhora": "U blijft een gast in plaats van een afgevaardigde voor een positie te worden, het gesprek loopt door zonder kosten, en het ene ding in deze cursus dat uw reis werkelijk kan beëindigen, komt nooit in de buurt.",
+      "ondeNaoVale": "Dit is geen waarschuwing dat bezoekers routinematig worden gearresteerd — er werd tussen 2023 en 2026 geen zaak met een buitenlandse toerist onder paragraaf 86a gevonden, en de uitkomst van de twee gemelde detenties van augustus 2017 staat evenmin in de berichtgeving. Het is ook geen bewering dat een onderwerp verboden is: musea, gedenkplaatsen en geschiedenis zijn open terrein en worden door iedereen bezocht. Wat wordt geweigerd, is het oordeel, niet het onderwerp.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-a04-n09",
+        "de-a04-n10",
+        "de-a04-n11",
+        "de-a04-n12"
+      ]
+    }
+  ]
+}

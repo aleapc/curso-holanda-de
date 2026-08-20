@@ -1,0 +1,371 @@
+{
+  "versao": 1,
+  "sku": "de → Nederland (Holanda)",
+  "_regras": {
+    "vocabulario_molde": {
+      "termo": "Baustein",
+      "porque": "Termo canônico da linha de comprador ALEMÃO — é a palavra alemã do método, o tijolinho de encaixe que casa com a metáfora Lego (invariante do gesto/slots.json). Deliberadamente MANTIDO idêntico ao outro SKU de comprador alemão (curso-espanha-de, que nomeia «Baustein» 16× — ver comentário do G15 em valida-tom.mjs): o comprador que leva Espanha E Países Baixos tem que reencontrar a MESMA palavra de método, senão perde a memória muscular entre destinos, que é ativo de cross-sell. É o cognato direto do «bouwsteen» neerlandês que o curso-espelho (curso-alemanha-nl) usa quando os papéis se invertem. A linha EN usa «the frame», a PT-BR «molde»; a peça é a mesma e o nome muda com o comprador, não com o destino. O G15 lê este termo daqui e confere que a CASA de cada molde nomeia a peça com ele, invariável. PERGUNTA ABERTA registrada no report: o pedido original sugeria «die Formel»/«das Muster»; escolhi «Baustein» por consistência de catálogo — o dono pode vetar.",
+      "porque_nao_flexiona": "Uso «Baustein» sem artigo (bare) de propósito: o portão G15 procura a string literal, e «der/den/dem Baustein» todos contêm «Baustein», então a narração pode declinar à vontade sem furar o portão."
+    },
+    "criterio": "Um molde entra se, e só se: (1) o buraco é uma COISA DO MUNDO que o aluno escolhe sob pressão, nunca uma categoria gramatical que ele teria que calcular; (2) a peça fixa é INVARIÁVEL, ou seja, o aluno nunca conjuga, declina nem concorda nada para usá-la; (3) ela atravessa a jornada — nasce numa casa e volta em pelo menos duas outras partes.",
+    "restricao_do_destino": "O NEERLANDÊS É O DESTINO MORFOLOGICAMENTE MAIS FÁCIL DO CATÁLOGO PARA ESTE COMPRADOR, e é o oposto exato do alemão. Não há CASOS: o substantivo não muda de forma segundo o papel na frase, então «Heeft u ___?» não pede acusativo nenhum e o encaixe entra na FORMA DE DICIONÁRIO. Mais: o artigo indefinido «een» é INVARIÁVEL entre os dois gêneros (de-woord e het-woord), então «een tafel», «een kamer», «een kaart» saem todos com a mesma peça — o aluno alemão, que no espelho tinha de escolher der/den/ein/einen, aqui não escolhe nada. A ordem de palavras é V2 como no alemão do próprio comprador (o verbo em segunda posição, o infinitivo/segundo verbo no fim), então a estrutura da frase CHEGA PRONTA da língua dele — é brinde, não custo. O único resíduo morfológico é o gênero DEFINIDO (de/het), que decide «de tafel» vs «het toilet»; e a saída é a de sempre, barata aqui: o substantivo entra grudado ao artigo como bloco (o aluno aprende «het toilet» inteiro, como aprendeu um número de telefone), nunca nu. Custa pouco e some sob pressão, porque o indefinido «een» — que é o que ele usa 90% do tempo ao pedir — não expõe o gênero.",
+    "o_que_o_destino_dá_de_graça": "O neerlandês devolve ao comprador alemão mais do que qualquer par do catálogo, porque são duas germânicas ocidentais vizinhas. A ESTRUTURA da frase é quase a mesma (V2, verbo no fim, negação com «niet»≈«nicht», «geen»≈«kein»), e o comprador reconhece um estoque enorme de cognatos VERDADEIROS: water/Wasser, brood/Brot, bier/Bier, huis/Haus, koffie/Kaffee, melk/Milch, station/Station. Metade do encaixe de um molde ele adivinha antes de aprender. O TRATAMENTO também é fácil: «u» é o padrão formal seguro no balcão e o aluno usa «u» a viagem inteira, sem decisão social sob pressão (a passagem a «je» é oferecida pelo outro lado, não escolhida por ele). O CUSTO do aluno, portanto, NÃO É montar a frase — migra inteiro para dois lugares novos: (1) NÃO CAIR NO COGNATO, ou seja, a ARMADILHA DO FALSO AMIGO, que é o erro nº1 deste par justamente porque tudo PARECE igual (ver docs/FUNDACAO.md §b); e (2) PRONUNCIAR o que o alemão não tem (o ⟨g/ch⟩ gutural, o ditongo ⟨ui⟩, ⟨ij/ei⟩, ⟨eu⟩). O roster abaixo é barato de MONTAR e o produto gasta o orçamento do aluno onde ele realmente perde: o falso amigo e a boca.",
+    "recusados": [
+      {
+        "candidato": "o GÊNERO de/het como buraco",
+        "porque": "É o único resíduo morfológico do neerlandês, e mesmo ele é fraco: o artigo INDEFINIDO «een» — o que o aluno usa ao pedir — é igual para os dois gêneros, então o gênero só aparece no DEFINIDO (de tafel / het toilet). Deixar o aluno escolher de/het no balcão seria devolver-lhe uma tabela sob pressão, o que o critério (1) proíbe. A saída é a de todos os SKUs: o substantivo entra grudado ao artigo como bloco, aprendido inteiro, nunca nu. Custa quase nada aqui porque o indefinido esconde o gênero na esmagadora maioria dos pedidos."
+      },
+      {
+        "candidato": "je / u (o T/V neerlandês)",
+        "porque": "OITAVA vez que o par T/V é recusado no catálogo — depois de lei/tu (Itália), tu/vous (França), εσύ/εσείς (Grécia), sen/siz (Türkiye), tu/você (Portugal) e du/Sie (Alemanha). Aqui a recusa é fácil e é boa notícia: «u» é o padrão formal seguro no balcão, e a passagem a «je/jij» é oferecida pelo outro lado, não escolhida pelo aluno. Ele usa «u» sempre («Heeft u ___?», «Mag ik ___?», «Kunt u ___?») e aprende a RECONHECER o convite ao «je». Vai para A05/A07 como sinal receptivo."
+      },
+      {
+        "candidato": "a ordem V2 e o verbo no fim",
+        "porque": "O neerlandês manda o verbo para a segunda posição na principal e para o fim na subordinada — EXATAMENTE como o alemão do próprio comprador. Ao contrário de todos os outros pares do catálogo, aqui isso NÃO É CUSTO: a intuição de ordem de palavras chega pronta da língua dele e é BRINDE. Ainda assim, os moldes são frases curtas em que o buraco é o ÚLTIMO elemento, para o aluno nunca precisar mover nada — a disciplina é a mesma do resto do catálogo, mas o motivo aqui é uniformidade, não dificuldade."
+      },
+      {
+        "candidato": "o FALSO AMIGO como se fosse um molde",
+        "porque": "O erro nº1 deste par é o cognato traiçoeiro (bellen=telefonar não latir, mag=ter licença não gostar, eng=assustador não estreito, brutaal=atrevido não brutal, aardig=simpático não comportado, meer=lago e mais, slim=esperto não magro). É tentador transformá-lo em conteúdo produtivo, mas ele NÃO é um molde: é uma camada de VOCABULÁRIO e PRONÚNCIA (PRODUTO §3.4 / dono=par), tratada como drill de shadow/gesto em B01 e como gag recorrente ao longo do SKU — não como casca com buraco. A gag estruturante do SKU é «mag» (o aluno pede «Mag ik een koffie?» achando que diz «eu gosto de um café» e recebe o café mesmo assim — mal-entendido invisível, falsificável no balcão), montada em cima do molde de pedido que ele mais usa."
+      }
+    ]
+  },
+  "moldes": [
+    {
+      "id": "HABEN-SIE",
+      "categoria": "operacional",
+      "forma": "Heeft u [ding]?",
+      "encaixe": "qualquer coisa que ele precisa que exista ali",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "B06",
+      "redisparos": [
+        "B08",
+        "B11",
+        "B12",
+        "B15",
+        "B16",
+        "I03"
+      ],
+      "tiles": [
+        "comprar",
+        "comer",
+        "quarto",
+        "chegar"
+      ],
+      "exemplos": [
+        "een simkaart",
+        "wifi",
+        "wisselgeld",
+        "een plattegrond",
+        "een kamer"
+      ],
+      "nota": "O de maior alcance do SKU, e é onde o neerlandês mostra o quanto é barato: «Heeft u» já traz o tratamento formal («u») dentro da peça fixa, então o aluno acerta o registro sem decidir nada; e o encaixe entra na FORMA DE DICIONÁRIO, porque não há caso — «een simkaart», não uma forma flexionada. É o espelho invertido do alemão, onde este mesmo molde tinha de entrar em acusativo; aqui o custo desapareceu, e o único cuidado é o gênero definido, que o indefinido «een» esconde no pedido. Forma informal «Heb je ___?» existe e é reconhecida, mas o aluno produz só a formal."
+    },
+    {
+      "id": "WO-IST",
+      "categoria": "operacional",
+      "forma": "Waar is [de plek]?",
+      "encaixe": "qualquer lugar que ele precisa alcançar",
+      "tipo": "aberto",
+      "tipoBuraco": "lugar",
+      "casa": "B08",
+      "redisparos": [
+        "B09",
+        "B10",
+        "B17"
+      ],
+      "tiles": [
+        "chegar",
+        "transporte",
+        "cidade"
+      ],
+      "exemplos": [
+        "het toilet",
+        "het station",
+        "de uitgang",
+        "de halte",
+        "de lift"
+      ],
+      "nota": "O que move os pés. Depois de «is» o substantivo está na forma de dicionário — como aliás em todo o neerlandês, que não tem caso —, então a única coisa presa à palavra é o artigo definido de/het, e ele entra grudado por disciplina: o aluno aprende «het station», «de uitgang» inteiros, nunca «station» nu. É o par onde a placa e a boca coincidem: o que ele diz é o que está escrito na placa."
+    },
+    {
+      "id": "ICH-MOCHTE",
+      "categoria": "operacional",
+      "forma": "Mag ik [ding]?",
+      "encaixe": "o que ele quer pedir",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "B11",
+      "redisparos": [
+        "B14",
+        "B15",
+        "I01",
+        "I04"
+      ],
+      "tiles": [
+        "comer",
+        "pagar",
+        "compras"
+      ],
+      "exemplos": [
+        "een koffie",
+        "de rekening",
+        "een kaartje",
+        "een biertje",
+        "afrekenen"
+      ],
+      "nota": "O «I'd like» do balcão neerlandês, e a CASA da gag do SKU. «Mag ik ___?» é literalmente «tenho licença de ___?» — pedido cortês de padrão universal, que serve para pedir uma coisa (Mag ik een koffie?) e para pedir a conta (Mag ik afrekenen?). A ARMADILHA, e é o ouro do par: «mag» é o falso amigo de «mögen» — o alemão lê «mag» como «gosto» e acha que disse «eu gosto de um café», quando disse «posso ter um café?». O mal-entendido é INVISÍVEL (ele recebe o café de qualquer jeito), o que faz dele a gag perfeita: falsificável no balcão, sem custo real. Preferível a «Ik wil graag ___», que é mais longo e não cabe no primeiro dia; «Doe mij maar ___» e «Een ___, alstublieft» ficam como variantes reconhecíveis, não produzidas."
+    },
+    {
+      "id": "KONNEN-SIE",
+      "categoria": "operacional",
+      "forma": "Kunt u [actie]?",
+      "encaixe": "o que ele precisa que a outra pessoa faça",
+      "tipo": "aberto",
+      "tipoBuraco": "acao",
+      "casa": "B07",
+      "redisparos": [
+        "B09",
+        "B13",
+        "B17",
+        "I02"
+      ],
+      "tiles": [
+        "reparo",
+        "chegar",
+        "saude",
+        "conversa"
+      ],
+      "exemplos": [
+        "dat herhalen",
+        "langzamer praten",
+        "mij helpen",
+        "dat opschrijven"
+      ],
+      "nota": "O molde de socorro. O buraco é um bloco de ação que termina em infinitivo, e isso resolve sozinho — sem o aluno perceber — a regra que manda o segundo verbo para o fim da frase, porque a peça fixa já o deixou lá; e essa regra é a MESMA do alemão do comprador, então a intuição chega pronta. Cobre pedido de ajuda, reparo de conversa e emergência com a mesma peça. «Kunt u» é a forma com «u»; «Kun je» é a informal reconhecida."
+    },
+    {
+      "id": "OHNE",
+      "categoria": "operacional",
+      "forma": "Zonder [ding]",
+      "encaixe": "o que não pode entrar no prato",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "B12",
+      "redisparos": [
+        "B13",
+        "B16",
+        "I04"
+      ],
+      "tiles": [
+        "comer",
+        "saude"
+      ],
+      "exemplos": [
+        "vlees",
+        "melk",
+        "gluten",
+        "ui",
+        "ijs"
+      ],
+      "nota": "A peça de segurança do curso: restrição alimentar é onde o mal-entendido custa saúde, não dinheiro. «Zonder» NÃO é cognato de «ohne» (o alemão tem de aprender a palavra nova), mas «geen ___» — a alternativa negativa — é o cognato transparente de «kein», e as duas cobrem a cena. O encaixe entra nu, porque nome de massa e plural genérico dispensam artigo — «zonder vlees», «zonder melk» —, exatamente como no alemão do comprador. ATENÇÃO: «ui» (cebola) é ela mesma um treino de pronúncia — o ditongo [œy] que o alemão não tem."
+    },
+    {
+      "id": "ICH-SUCHE",
+      "categoria": "operacional",
+      "forma": "Ik zoek [ding]",
+      "encaixe": "o que ele procura, quando não sabe onde se acha",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "B10",
+      "redisparos": [
+        "B16",
+        "B17",
+        "I09"
+      ],
+      "tiles": [
+        "compras",
+        "chegar",
+        "cidade"
+      ],
+      "exemplos": [
+        "een apotheek",
+        "een pinautomaat",
+        "het centraal station",
+        "een supermarkt"
+      ],
+      "nota": "Cobre o buraco entre WO-IST e HABEN-SIE: WO-IST pergunta por um lugar conhecido, HABEN-SIE por existência ali, e ICH-SUCHE abre a busca. A casa é B10, a parte de ler o lugar, e é deliberada — a primeira coisa que o viajante procura nos Países Baixos é «een pinautomaat» (um caixa), porque muita casa só aceita débito/PIN e recusa crédito estrangeiro (ver o FATO nº1, PINNEN). «apotheek» carrega a distinção apotheek≠drogist que volta em B17."
+    },
+    {
+      "id": "WAS-KOSTET",
+      "categoria": "operacional",
+      "forma": "Hoeveel kost [ding]?",
+      "encaixe": "qualquer coisa antes de se comprometer com ela",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "B15",
+      "redisparos": [
+        "B18",
+        "I10"
+      ],
+      "tiles": [
+        "pagar",
+        "compras",
+        "transporte"
+      ],
+      "exemplos": [
+        "dat",
+        "het kaartje",
+        "de kamer",
+        "de rit"
+      ],
+      "nota": "Nasce onde o erro custa dinheiro. LIMITE DELIBERADO: as tiles são todas SINGULARES, porque «kost» concorda com o número e «Hoeveel kosten» exigiria do aluno uma decisão de concordância sob pressão. Perguntar por um item de cada vez é o desenho, não uma limitação a corrigir depois. «Wat kost ___?» é a variante reconhecida."
+    },
+    {
+      "id": "ENTSCHULDIGUNG",
+      "categoria": "operacional",
+      "forma": "Sorry / Pardon, + [pedido]",
+      "encaixe": "o que ele precisa de um estranho",
+      "tipo": "aberto",
+      "tipoBuraco": "acao",
+      "casa": "B03",
+      "redisparos": [
+        "B05",
+        "B07",
+        "B08",
+        "I02"
+      ],
+      "tiles": [
+        "reparo",
+        "chegar",
+        "conversa"
+      ],
+      "exemplos": [
+        "ik versta u niet",
+        "spreekt u Engels",
+        "waar is de uitgang"
+      ],
+      "nota": "Abridor universal de reparo. «Sorry» (o empréstimo inglês, onipresente e neutro no neerlandês) e «Pardon» compram a atenção de um estranho sem nenhuma outra cortesia; «Neem me niet kwalijk» é a forma plena. Dar as três e deixar o aluno usar a curta é o que faz a peça sair sob pressão. Nota de produto: começar a interpelação em ALEMÃO de cara pode soar como pressuposto (ver FUNDACAO §a, dinâmica DE↔NL); «Sorry» + inglês ou neerlandês é a aposta segura."
+    },
+    {
+      "id": "WANN-IST",
+      "categoria": "operacional",
+      "forma": "Hoe laat is [het ding]?",
+      "encaixe": "o que tem hora marcada",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "B18",
+      "redisparos": [
+        "I01",
+        "I03",
+        "I07"
+      ],
+      "tiles": [
+        "comer",
+        "transporte",
+        "cidade"
+      ],
+      "exemplos": [
+        "het ontbijt",
+        "de volgende trein",
+        "de rondleiding",
+        "het avondeten"
+      ],
+      "nota": "Entra no intermediário porque é aí que o aluno para de sobreviver e começa a planejar. A forma fixa traz o verbo dentro, e o buraco é a coisa — nunca o verbo — para ele não escolher entre «is», «opent» e «sluit». PENDÊNCIA DE PRODUTO (herdada do curso-espelho e registrada no report): este é um molde OPERACIONAL com casa em I01 (M2), o que contraria a LEI do §5.1 «operacional só nasce em M1». Mantido em I01 para não quebrar o build verde (o andaime da Fase 2 declara WANN-IST em ep-i01). Recomendação: a Fase 2 relocaliza a casa para um slot de M1 — candidato natural B09 («Hoe laat is de volgende trein?», bilhete/transporte). [CORRIGIDO 2026-08-20: casa movida de I01 (M2, viola PRODUTO §5.1 — operacional nasce em M1) para B18 («Hoe laat is de check-out?»). I01 «o relógio deles» vira redisparo/recall, não casa.]"
+    },
+    {
+      "id": "DANKE",
+      "categoria": "operacional",
+      "forma": "Dank je / Dank u wel / Bedankt",
+      "encaixe": "o fecho de qualquer troca",
+      "tipo": "fechado",
+      "tipoBuraco": "acao",
+      "casa": "B02",
+      "redisparos": [
+        "B11",
+        "B14",
+        "B18",
+        "I07"
+      ],
+      "tiles": [
+        "simpatia",
+        "pagar",
+        "comer"
+      ],
+      "exemplos": [
+        "bedankt",
+        "dank je wel",
+        "dank u wel"
+      ],
+      "nota": "Molde FECHADO — o buraco tem opções contadas e não um mundo — porque a escolha entre a forma seca («bedankt»), a com «je» (informal) e a com «u» (formal) é o que carrega o registro, e é o item que o aluno vai dizer dez vezes por dia. Há crédito social real em tentar o neerlandês aqui em vez do inglês: «dank u wel» compra simpatia (ver FUNDACAO §a). Fica no par com «alstublieft» (por favor / aqui está), que é a outra metade da cortesia de balcão e a marca candidata do SKU."
+    },
+    {
+      "id": "WAS-EMPFEHLEN-SIE",
+      "categoria": "social",
+      "forma": "Wat raadt u aan: [A] of [B]?",
+      "encaixe": "as duas coisas entre as quais ele está decidindo",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "I03",
+      "redisparos": [
+        "I09"
+      ],
+      "tiles": [
+        "comer",
+        "compras",
+        "cidade"
+      ],
+      "exemplos": [
+        "de vis of het vlees",
+        "dit kaasje of dat kaasje",
+        "de rondleiding of de fietstocht"
+      ],
+      "nota": "MOLDE SOCIAL — exceção fechada do PRODUTO §5.1 (a família apetitiva não tem cena em M1; nasce aqui, em I03, a casa do prato que o aluno não ia pedir sozinho). Devolve a decisão para quem sabe: em vez de decifrar a carta inteira, o aluno pede a opinião de quem está atrás do balcão e escolhe entre DUAS coisas que ele já ouviu nomear — nunca um «o que você recomenda?» solto, que o obrigaria a entender uma lista aberta de volta. É por isso que a forma trava as duas opções dentro da própria pergunta. Redispara em I09 (fazer o que eles fazem) com encaixe novo e fora de mesa — a mesma pergunta escolhe entre dois queijos na banca do mercado ou entre duas saídas de fim de semana."
+    },
+    {
+      "id": "ICH-MAG",
+      "categoria": "social",
+      "forma": "Ik hou van [ding]",
+      "encaixe": "o que ele gosta, para puxar ou fechar conversa",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "I05",
+      "redisparos": [
+        "I10"
+      ],
+      "tiles": [
+        "simpatia",
+        "comer",
+        "pagar"
+      ],
+      "exemplos": [
+        "deze stad",
+        "Nederlands bier",
+        "fietsen"
+      ],
+      "nota": "MOLDE SOCIAL — exceção fechada do PRODUTO §5.1. Nasce em I05, a casa das perguntas que ELES fazem, porque responder «o que você gosta» é metade de toda pequena conversa de balcão, e sem este molde o curso não tinha nenhuma fala de gosto — só perguntas. A variante fechada «Liever [ding]» (para opor duas coisas, «liever thee dan koffie») fica registrada como forma RECONHECIDA, não produzida: o aluno produz só «Ik hou van ___». Nome do id deliberadamente German «Ich mag»: é o cognato exato da armadilha «mag»/«mögen» que atravessa o SKU (ver FUNDACAO §b e a nota de ICH-MOCHTE) — aqui o aluno diz o que GOSTA em neerlandês de verdade, sem o falso amigo. Redispara em I10 (o dinheiro sem drama) com encaixe novo: dizer o que gostou é parte de decidir a gorjeta e fechar a noite sem constrangimento."
+    },
+    {
+      "id": "WIE-LECKER",
+      "categoria": "social",
+      "forma": "Wat een heerlijke [ding]!",
+      "encaixe": "o prato ou a experiência que ele quer elogiar",
+      "tipo": "aberto",
+      "tipoBuraco": "comida",
+      "casa": "I07",
+      "redisparos": [
+        "I08"
+      ],
+      "tiles": [
+        "simpatia",
+        "comer"
+      ],
+      "exemplos": [
+        "heerlijke soep",
+        "heerlijke appeltaart",
+        "heerlijke avond"
+      ],
+      "nota": "MOLDE SOCIAL — exceção fechada do PRODUTO §5.1. Nasce em I07 («elogiar, agradecer e reclamar sem drama») porque a família apetitiva não tinha cena em M1 e o curso, sem este molde, não tinha UMA ÚNICA fala de elogio (é o achado nomeado no PRODUTO §10, anti-padrão 3: «zero elogio, zero brinde»). A peça fixa convive com a exclamação curta e invariável «Het is heerlijk!» / «Wat lekker!» — reconhecida e também produzível sem buraco nenhum, para quando não há tempo de montar a frase inteira; a forma longa nomeia o que ele está elogiando, a curta puxa o crédito social sozinha. Redispara em I08 (ser convidado) com encaixe novo: o elogio que faz o anfitrião aparecer na cozinha é o mesmo Baustein que fez o garçom se virar em I07."
+    }
+  ]
+}

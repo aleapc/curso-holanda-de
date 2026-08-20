@@ -1,0 +1,332 @@
+{
+  "id": "b17",
+  "nivel": "basico",
+  "numero": 17,
+  "parte": "B17",
+  "slot": "B17",
+  "titulo": "Apotheek — die Theke, die es löst, bevor ein Arzt nötig ist",
+  "subtitulo": "Der Unterschied zwischen dem grünen Kreuz und dem Drogeriemarkt, und die eine Nummer, die man nur anrufen kann",
+  "cena": "Ein Abend in Groningen, Kopfschmerzen seit dem Nachmittag, das grüne Kreuz der Apotheke schon dunkel, ein gedrucktes Blatt hinter der Scheibe.",
+  "moldura": "protege",
+  "frasePiso": "Ik zoek een apotheek. Vier Wörter, und in jeder Stadt in diesem Land führen sie dich zu jemandem, der hilft.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "hol-b17-apotheek-drogist",
+      "afirmacao": "Zwei Läden, zwei Aufgaben. Die apotheek ist die Apotheke mit Rezept — hier werden verschreibungspflichtige Medikamente ausgegeben, und ein EU-Rezept, auch ein deutsches, gilt hier ganz normal. Der drogist (Ketten wie Kruidvat oder Etos) führt nur rezeptfreie Mittel: Schmerztabletten, Erkältungspräparate, Pflaster. Wer mit einem Rezept beim drogist steht, ist am falschen Ort — nicht weil dort etwas falsch läuft, sondern weil die beiden Läden von Grund auf verschiedene Dinge tun.",
+      "fonte": "Gesundheits- und Apothekenordnung der Niederlande; EU-Verordnung zur grenzüberschreitenden Anerkennung ärztlicher Verschreibungen (Richtlinie 2011/24/EU).",
+      "ano": 2024,
+      "revisarAte": "2027-08-20",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "hol-b17-n03",
+        "hol-b17-n04"
+      ]
+    },
+    {
+      "id": "hol-b17-112-stem",
+      "afirmacao": "Der Notruf 112 funktioniert hier ausschließlich über einen Sprachanruf — es gibt keine SMS-Notrufoption für Besucher, anders als in manchen anderen Ländern, wo ein Text-zu-112-Dienst existiert. Wer nicht anrufen kann oder will, muss eine andere Person darum bitten. Am Telefon nennst du zuerst den Ort, dann was passiert ist — in dieser Reihenfolge, weil die Leitstelle den Ort sofort braucht, auch falls das Gespräch abbricht.",
+      "fonte": "112.nl (offizielle niederländische Notrufseite), Informationen zu Erreichbarkeit und Verfahren.",
+      "ano": 2024,
+      "revisarAte": "2027-08-20",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": [
+        "hol-b17-n07",
+        "hol-b17-n08"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b17-n01",
+      "gesto": 1,
+      "tom": "ganha",
+      "bloco": "aquecimento",
+      "pt": "Ein Takt pro Wort, ruhig, auch wenn dir nicht danach ist: ik ZUUK un a-po-TEEK. Ruhe hilft mehr als Tempo."
+    },
+    {
+      "consulta": [
+        "saude/algo-para"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ICH-SUCHE",
+      "encaixe": "een apotheek",
+      "encaixeGloss": "eine Apotheke",
+      "bloco": "callback",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b17-p01",
+      "promptPt": "Denselben Baustein hast du in B10 an einer Sonntagsstraße benutzt. Heute Abend tut dir wirklich der Kopf weh. Sag es. Sprich jetzt.",
+      "audioKey": "hol-b17-t01",
+      "es": "Ik zoek een apotheek.",
+      "pinyin": "ik ZUUK un a-po-TEEK",
+      "pt": "Ich suche eine Apotheke.",
+      "tts": "Ik zoek een apotheek."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b17-n02",
+      "tom": "ganha",
+      "bloco": "cena",
+      "pt": "Das grüne Kreuz ist dunkel, ein gedrucktes Blatt hängt hinter der Scheibe. Irgendwo in der Stadt hat eine andere Apotheke offen."
+    },
+    {
+      "consulta": [
+        "saude/guardia",
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "WO-IST",
+      "encaixe": "de dichtstbijzijnde apotheek",
+      "encaixeGloss": "die nächstgelegene Apotheke",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b17-p02",
+      "promptPt": "Das Blatt hinter der Scheibe nennt einen Namen, den du nicht lesen kannst, keine Karte. Frag einen Passanten. Sprich jetzt.",
+      "audioKey": "hol-b17-t02",
+      "es": "Waar is de dichtstbijzijnde apotheek?",
+      "pinyin": "vaar is de DICHST-bäi-zäi-ende a-po-TEEK?",
+      "pt": "Wo ist die nächstgelegene Apotheke?",
+      "tts": "Waar is de dichtstbijzijnde apotheek?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b17-r01",
+      "tom": "ganha",
+      "es": "Die vindt u op het briefje daar, met het adres.",
+      "pinyin": "dee fint ü op het BREEF-yuh daar, met het a-DRES",
+      "pt": "Die finden Sie auf dem Zettel dort, mit der Adresse.",
+      "tts": "Die vindt u op het briefje daar, met het adres.",
+      "receptivo": true,
+      "acao": "Das Blatt am Schaufenster ist keine Werbung — es ist Pflicht. Lies die Adresse, nicht den Namen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b17-n03",
+      "tom": "ganha",
+      "bloco": "corpo",
+      "pt": "Zwei Läden, zwei Aufgaben. Apotheek gibt Rezeptpflichtiges aus. Drogist — Kruidvat, Etos — führt nur, was rezeptfrei ist."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b17-n04",
+      "tom": "ganha",
+      "pt": "Dein deutsches Rezept gilt hier ganz normal, EU-weit. Kein Drama, kein neuer Arztbesuch nötig."
+    },
+    {
+      "consulta": [
+        "saude/receita"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b17-p03",
+      "promptPt": "Am Schalter der offenen Apotheke legst du dein Rezept aus Deutschland auf den Tresen. Sag, woher es kommt. Sprich jetzt.",
+      "audioKey": "hol-b17-t03",
+      "es": "Ik heb een recept uit Duitsland.",
+      "pinyin": "ik hep un re-SEPT öüt DÖÜTS-lant",
+      "pt": "Ich habe ein Rezept aus Deutschland.",
+      "tts": "Ik heb een recept uit Duitsland."
+    },
+    {
+      "consulta": [
+        "saude/algo-para"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "HABEN-SIE",
+      "encaixe": "iets tegen hoofdpijn",
+      "encaixeGloss": "etwas gegen Kopfschmerzen",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b17-p04",
+      "promptPt": "Kein Rezept nötig für das hier — dein Kopf pocht seit dem Nachmittag. Frag danach. Sprich jetzt.",
+      "audioKey": "hol-b17-t04",
+      "es": "Heeft u iets tegen hoofdpijn?",
+      "pinyin": "héeft ü eets techn HOHFT-päin?",
+      "pt": "Haben Sie etwas gegen Kopfschmerzen?",
+      "tts": "Heeft u iets tegen hoofdpijn?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b17-n05",
+      "tom": "ganha",
+      "pt": "Rezeptfreies wie Kopfschmerztabletten bekommst du auch tagsüber beim drogist — schneller, wenn die Apotheke noch geschlossen ist."
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ICH-SUCHE",
+      "encaixe": "een drogist",
+      "encaixeGloss": "eine Drogerie",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b17-p05",
+      "promptPt": "Vormittags, drei Straßen weiter, ohne dass es sich um etwas Rezeptpflichtiges handelt. Frag nach dem anderen Laden. Sprich jetzt.",
+      "audioKey": "hol-b17-t05",
+      "es": "Ik zoek een drogist.",
+      "pinyin": "ik ZUUK un DROH-chist",
+      "pt": "Ich suche eine Drogerie.",
+      "tts": "Ik zoek een drogist."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b17-n06",
+      "tom": "protege",
+      "bloco": "capsula",
+      "pt": "Wird es ernster — Fieber, das nicht sinkt, ein Sturz, Atemnot — brauchst du keinen Laden mehr. Du brauchst 112."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b17-n07",
+      "tom": "protege",
+      "pt": "112 geht hier nur per Sprachanruf, keine SMS-Option. Kannst du nicht selbst telefonieren, bitte jemanden neben dir darum."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b17-n08",
+      "tom": "protege",
+      "pt": "Nenn zuerst den Ort, dann was passiert ist. Der Ort zuerst, weil die Leitstelle ihn sofort braucht, auch wenn das Gespräch abbricht."
+    },
+    {
+      "consulta": [
+        "saude/112"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "protege",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b17-p06",
+      "promptPt": "Du bist am Telefon mit der Leitstelle, jemand neben dir ist gestürzt und reagiert nicht. Sag zuerst, wo ihr seid. Sprich jetzt.",
+      "audioKey": "hol-b17-t06",
+      "es": "Stuur een ambulance naar de Prinsengracht.",
+      "pinyin": "stür un am-bü-LAN-se naar de PRIN-sen-chracht",
+      "pt": "Schicken Sie einen Krankenwagen zur Prinsengracht.",
+      "tts": "Stuur een ambulance naar de Prinsengracht."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b17-r02",
+      "tom": "protege",
+      "es": "Blijf aan de lijn, de ambulance is onderweg.",
+      "pinyin": "bläif aan de läin, de am-bü-LAN-se is ON-der-vech",
+      "pt": "Bleiben Sie am Apparat, der Krankenwagen ist unterwegs.",
+      "tts": "Blijf aan de lijn, de ambulance is onderweg.",
+      "receptivo": true,
+      "acao": "Blijf aan de lijn heißt: nicht auflegen. Halt das Telefon, auch wenn du nichts mehr sagen musst."
+    },
+    {
+      "consulta": [
+        "saude/algo-para",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "protege",
+      "molde": "KONNEN-SIE",
+      "encaixe": "een dokter bellen",
+      "encaixeGloss": "einen Arzt anrufen",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b17-p07",
+      "promptPt": "Kein Notfall, aber ernster als eine Kopfschmerztablette — an der Rezeption deiner Unterkunft. Bitte um einen Arzt. Sprich jetzt.",
+      "audioKey": "hol-b17-t07",
+      "es": "Kunt u een dokter bellen?",
+      "pinyin": "kunt ü un DOK-ter BEL-len?",
+      "pt": "Können Sie einen Arzt anrufen?",
+      "tts": "Kunt u een dokter bellen?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-b17-s01",
+      "tom": "protege",
+      "es": "Ik zoek een apotheek. Ik zoek een drogist. Kunt u een dokter bellen?",
+      "pinyin": "ik ZUUK un a-po-TEEK. ik ZUUK un DROH-chist. kunt ü un DOK-ter BEL-len?",
+      "pt": "Schatte drei Bausteine, vom leichten bis zum ernsten Fall.",
+      "tts": "Ik zoek een apotheek. Ik zoek een drogist. Kunt u een dokter bellen?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b17-n09",
+      "tom": "ganha",
+      "bloco": "recap",
+      "pt": "B17 fertig. Apotheek für Rezepte, drogist für den Rest, und 112 nur per Anruf, mit dem Ort zuerst."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Zwei Läden, eine Nummer, und was zuerst gesagt wird",
+    "secoes": [
+      {
+        "titulo": "Ik zoek, wieder auf der Suche",
+        "corpo": "Der Baustein aus B10 löst hier den ernsteren Fall: Ik zoek een apotheek. sucht nach dem Rezeptladen, Ik zoek een drogist. nach dem rezeptfreien. Dasselbe Ding kommt fertig, ohne Fall, wie überall im Kurs.",
+        "exemplos": [
+          {
+            "es": "Ik zoek een apotheek.",
+            "pt": "Ich suche eine Apotheke."
+          },
+          {
+            "es": "Ik zoek een drogist.",
+            "pt": "Ich suche eine Drogerie."
+          }
+        ]
+      },
+      {
+        "titulo": "Apotheek gegen drogist, kein Zufall",
+        "corpo": "Die Trennung ist keine Gewohnheit, sondern die Aufgabenverteilung: die apotheek gibt aus, was ein Rezept braucht, der drogist führt nur, was frei verkäuflich ist. Ein EU-Rezept — auch ein deutsches — gilt an der Apotheke ganz normal, ohne neuen Arztbesuch. Wer mit Kopfschmerzen ohne Rezept kommt, ist beim drogist meist schneller bedient, gerade wenn die Apotheke schon geschlossen hat."
+      },
+      {
+        "titulo": "112 — nur die Stimme",
+        "corpo": "Anders als in manchen Ländern gibt es hier keinen SMS-Notruf für Besucher: 112 funktioniert ausschließlich per Sprachanruf. Kannst oder willst du nicht selbst sprechen, bitte jemanden in der Nähe. Am Telefon zuerst den Ort nennen, dann was passiert ist — die Leitstelle braucht den Ort sofort, auch falls das Gespräch abbricht, und blijf aan de lijn bedeutet: nicht auflegen, auch wenn du fertig gesprochen hast."
+      }
+    ]
+  },
+  "permissao": "Du musst dir keine medizinischen Fachwörter merken, um verstanden zu werden. Heeft u iets tegen hoofdpijn? reicht, und zeig auf die Stelle, wenn dir das Wort fehlt — an der Apotheke und beim drogist ist Zeigen ein vollständiger Teil des Satzes. Und bei 112 darfst du weinen, stottern oder auf Deutsch anfangen — sag den Ort, sobald du kannst, den Rest übernimmt die Leitstelle mit dir zusammen.",
+  "permissaoAudioKey": "hol-b17-n07",
+  "espelho": "Wer zu Hause schon einmal die Notrufnummer gewählt hat, kennt das Gefühl, den Ort zuerst zu nennen, bevor der Rest herauskommt — hier ist nur der erste Satz auf Niederländisch, der Ablauf ist derselbe.",
+  "fichasCulturais": [
+    {
+      "sinal": "Du stehst mit einem deutschen Rezept am Tresen der Apotheke, und die Apothekerin nimmt es entgegen, ohne zu zögern oder Rückfragen zu stellen.",
+      "suaLeitura": "Vielleicht wird das Rezept gar nicht richtig geprüft — das kann doch nicht so einfach durchgehen.",
+      "oQueEAli": "Ein Rezept aus einem anderen EU-Land wird hier routinemäßig anerkannt, geregelt durch EU-Recht zur grenzüberschreitenden Gesundheitsversorgung. Für die Apothekerin ist das Alltag, kein Sonderfall, der extra Prüfung verlangt.",
+      "oQueVoceFaz": "Leg das Rezept einfach vor, so wie du es zu Hause tun würdest. Ik heb een recept uit Duitsland. ordnet die Situation sofort ein, falls Rückfragen kommen.",
+      "oQueMelhora": "Du bekommst dein Medikament ohne Umweg über einen neuen Arztbesuch, und die Reise unterbricht deine Behandlung nicht.",
+      "ondeNaoVale": "Manche Medikamente unterliegen besonderen Kontrollvorschriften (etwa bestimmte Betäubungsmittel) und werden auch mit gültigem Rezept genauer geprüft oder abgelehnt — das ist die Ausnahme, keine Regel gegen dich persönlich.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "hol-b17-n04"
+      ]
+    },
+    {
+      "sinal": "Du tippst in einer stressigen Situation eine Notfall-SMS an 112, so wie du es aus einem anderen Land gewohnt bist, und es kommt keine Antwort.",
+      "suaLeitura": "Die Nummer ist falsch, oder der Dienst funktioniert hier gerade nicht.",
+      "oQueEAli": "Es gibt schlicht keine SMS-Option für 112 in den Niederlanden — die Nummer ist ausschließlich für Sprachanrufe eingerichtet. Das ist keine technische Störung, sondern wie der Dienst grundsätzlich aufgebaut ist.",
+      "oQueVoceFaz": "Ruf an, auch wenn du wenig Niederländisch sprichst — sag den Ort so klar wie möglich, notfalls auf Deutsch oder Englisch, oder reich das Telefon an jemanden neben dir weiter, der anrufen kann.",
+      "oQueMelhora": "Du verlierst keine kostbaren Minuten mit einer Nachricht, die nie ankommt, und weißt sofort, dass der Anruf der einzige Weg ist.",
+      "ondeNaoVale": "Für gehörlose und hörgeschädigte Menschen mit vorheriger Registrierung existieren separate offizielle Zugangswege zum Notruf — das betrifft registrierte Nutzer, nicht Besucher ohne Vorregistrierung.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "hol-b17-n07"
+      ]
+    }
+  ]
+}

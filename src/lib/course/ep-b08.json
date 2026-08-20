@@ -1,0 +1,327 @@
+{
+  "id": "b08",
+  "nivel": "basico",
+  "numero": 8,
+  "parte": "B08",
+  "slot": "B08",
+  "titulo": "Waar is — drei Wörter, die sich nie ändern, und ein Radweg, der Ihnen nicht gehört",
+  "subtitulo": "Sie treten aus dem Kaufhaus, wollen nur kurz die Seite wechseln, und ein Klingeln direkt hinter Ihnen sagt: falsche Spur",
+  "cena": "Sie treten aus dem Kaufhaus, wollen nur kurz die Straßenseite wechseln, und ein scharfes Klingeln direkt hinter Ihnen sagt Ihnen, dass Sie gerade auf der falschen Spur stehen.",
+  "moldura": "ganha",
+  "moldes": ["WO-IST"],
+  "clique": {
+    "contagem": ["Kaufhaus", "Fietspad", "Bahnhofshalle"],
+    "desconto": "Im Kaufhaus, auf dem Fietspad und in der Bahnhofshalle sagten Sie dieselben drei Wörter — ein Arm erledigte den Rest."
+  },
+  "fatosDatados": [
+    {
+      "id": "hol-b08-fietspad",
+      "afirmacao": "Auf dem Fietspad — dem eigenen, oft rot asphaltierten Radweg — hat das Fahrrad Vorrang, uneingeschränkt. Ein Fußgänger, der dort geht, steht oder ihn zum Überqueren einer Straße wie einen Gehweg benutzt, steht am gefährlichsten Punkt der Stadt. Die Faustregel: den Radweg wie eine Autospur behandeln — hinschauen, nicht darauf stehen bleiben, nicht als Abkürzung nutzen.",
+      "fonte": "Reisehinweise Holland2Stay und Holland-Cycling zu Radverkehrsregeln in den Niederlanden, 2024/25; die genaue Bußgeldhöhe variiert je nach Quelle und wird hier bewusst nicht beziffert — die Norm zählt, nicht die Zahl.",
+      "ano": 2025,
+      "revisarAte": "2027-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "medio",
+      "audioKeys": ["hol-b08-n05", "hol-b08-n06"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b08-n01",
+      "gesto": 1,
+      "tom": "ganha",
+      "bloco": "aquecimento",
+      "pt": "Eine Frage öffnet heute jeden Ort, an dem Sie sich verlaufen könnten — die Antwort passt in einen zeigenden Arm."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b08-n02",
+      "tom": "ganha",
+      "bloco": "molde",
+      "pt": "Hier ist der Baustein: Waar is, dahinter der Ort. Kein weiteres Wort nötig, um verstanden zu werden."
+    },
+    {
+      "consulta": ["reparo/apontar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "KONNEN-SIE",
+      "encaixe": "mij helpen",
+      "encaixeGloss": "mir helfen",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b08-p00",
+      "promptPt": "Wie gestern in B07 am Bahnschalter: eine fremde Straße, kein Empfang auf dem Handy, und eine Person mit einer Einkaufstasche in der Nähe. Sag es jetzt.",
+      "audioKey": "hol-b08-t00",
+      "es": "Kunt u mij helpen?",
+      "pinyin": "kunt ü mei HEL-pen?",
+      "pt": "Können Sie mir helfen?",
+      "tts": "Kunt u mij helpen?"
+    },
+    {
+      "consulta": ["chegar/entrar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "WO-IST",
+      "encaixe": "het toilet",
+      "encaixeGloss": "die Toilette",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b08-p01",
+      "promptPt": "Im Kaufhaus, drei Stockwerke, kein Schild in Sicht, und es eilt etwas. Fragen Sie die Verkäuferin an der nächsten Kasse. Sag es jetzt.",
+      "audioKey": "hol-b08-t01",
+      "es": "Waar is het toilet?",
+      "pinyin": "waar is et twa-LET?",
+      "pt": "Wo ist die Toilette?",
+      "tts": "Waar is het toilet?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b08-r01",
+      "tom": "ganha",
+      "es": "Achterin, naast de kassa's.",
+      "pinyin": "ACH-ter-in, naast de KAS-saas",
+      "pt": "Hinten, neben den Kassen.",
+      "tts": "Achterin, naast de kassa's.",
+      "receptivo": true,
+      "acao": "Kein ganzer Satz nötig — folgen Sie der Richtung, in die der Finger zeigt, und dem einen Wort, das Sie erkennen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b08-n03",
+      "tom": "ganha",
+      "bloco": "corpo",
+      "pt": "Wie in B06: kein Kasus, das Wort kommt fertig. Die Antwort ist meistens ein Arm, kein Satz zum Übersetzen."
+    },
+    {
+      "consulta": ["transporte/plataforma"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "WO-IST",
+      "encaixe": "de uitgang",
+      "encaixeGloss": "der Ausgang",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b08-p02",
+      "promptPt": "Die Bahnhofshalle ist größer, als der Plan vermuten ließ, und drei Gänge sehen alle gleich aus. Sag es jetzt.",
+      "audioKey": "hol-b08-t02",
+      "es": "Waar is de uitgang?",
+      "pinyin": "waar is de ÖÜT-chang?",
+      "pt": "Wo ist der Ausgang?",
+      "tts": "Waar is de uitgang?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b08-n04",
+      "tom": "ganha",
+      "pt": "Waar is fragt nach einem festen Ort — anders als Heeft u aus B06, das fragt, was diese Person gerade hat."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b08-n05",
+      "tom": "protege",
+      "bloco": "capsula",
+      "pt": "Jetzt die Regel für Ihre eigenen Füße: das rote Fietspad gehört dem Fahrrad — uneingeschränkt, auch wenn es leer aussieht."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b08-n06",
+      "tom": "protege",
+      "pt": "Behandeln Sie ihn wie eine Autospur: hinschauen, nicht stehen bleiben, keine Abkürzung. Das Klingeln ist Warnung, keine Entschuldigung."
+    },
+    {
+      "consulta": ["transporte/placas"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "WO-IST",
+      "encaixe": "het fietspad",
+      "encaixeGloss": "der Radweg",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b08-p03",
+      "promptPt": "Sie stehen an einer breiten Straße mit drei verschiedenfarbigen Spuren und wollen wissen, welche davon Sie meiden sollen. Sag es jetzt.",
+      "audioKey": "hol-b08-t03",
+      "es": "Waar is het fietspad?",
+      "pinyin": "waar is et FEETS-pat?",
+      "pt": "Wo ist der Radweg?",
+      "tts": "Waar is het fietspad?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b08-r02",
+      "tom": "ganha",
+      "es": "Die rode strook daar, tussen de stoep en de weg.",
+      "pinyin": "dee ROH-de strook daar, TUS-sen de stoop en de wech",
+      "pt": "Der rote Streifen dort, zwischen Gehweg und Straße.",
+      "tts": "Die rode strook daar, tussen de stoep en de weg.",
+      "receptivo": true,
+      "acao": "«Rood» ist das Wort, das Sie behalten — rot heißt Radweg, überall im Land."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b08-n07",
+      "tom": "ganha",
+      "pt": "Ein Ort, den man vor jedem Laden sucht: die Fahrradgarage. Fragen Sie wie in B06, mit dem anderen Baustein."
+    },
+    {
+      "consulta": ["compras/balcao"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "HABEN-SIE",
+      "encaixe": "een fietsenstalling",
+      "encaixeGloss": "eine Fahrradgarage",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b08-p04",
+      "promptPt": "Sie sind mit einem geliehenen Rad unterwegs, am Kaufhauseingang ist kein einziger freier Ständer mehr zu sehen, und drinnen wartet noch ein ganzer Nachmittag Einkaufen. Fragen Sie den Türsteher. Sag es jetzt.",
+      "audioKey": "hol-b08-t04",
+      "es": "Heeft u een fietsenstalling?",
+      "pinyin": "HÉÉFT ü un FEET-sen-STAL-ling?",
+      "pt": "Haben Sie eine Fahrradgarage?",
+      "tts": "Heeft u een fietsenstalling?"
+    },
+    {
+      "consulta": ["reparo/apontar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "is dit de goede kant voor het centrum",
+      "encaixeGloss": "ist das die richtige Richtung zum Zentrum",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b08-p05",
+      "promptPt": "Drei Straßen sehen gleich aus, Ihr Handy zeigt keinen Empfang, und eine Passantin mit Einkaufstüten kommt Ihnen entgegen. Sag es jetzt.",
+      "audioKey": "hol-b08-t05",
+      "es": "Pardon, is dit de goede kant voor het centrum?",
+      "pinyin": "par-DON, is dit de CHOO-de kant voor et CEN-trum?",
+      "pt": "Entschuldigung, ist das die richtige Richtung zum Zentrum?",
+      "tts": "Pardon, is dit de goede kant voor het centrum?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b08-r03",
+      "tom": "ganha",
+      "es": "Ja, rechtdoor en dan links.",
+      "pinyin": "yaa, RECHT-door en dan links",
+      "pt": "Ja, geradeaus und dann links.",
+      "tts": "Ja, rechtdoor en dan links.",
+      "receptivo": true,
+      "acao": "Zwei Wörter reichen: rechtdoor (geradeaus) und links — auch ohne den Rest zu verstehen, kommen Sie an."
+    },
+    {
+      "consulta": ["simpatia/agradecer"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "DANKE",
+      "encaixe": "dank u wel",
+      "encaixeGloss": "vielen Dank",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b08-p06",
+      "promptPt": "Die Passantin hat sich extra umgedreht, um Ihnen die Richtung zu zeigen. Sag es jetzt.",
+      "audioKey": "hol-b08-t06",
+      "es": "Dank u wel!",
+      "pinyin": "dank ü WEL!",
+      "pt": "Vielen Dank!",
+      "tts": "Dank u wel!"
+    },
+    {
+      "consulta": ["transporte/plataforma"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "WO-IST",
+      "encaixe": "de tramhalte",
+      "encaixeGloss": "die Straßenbahnhaltestelle",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b08-p07",
+      "promptPt": "Die Beine sind müde, die Einkaufstüten schwer, und auf keiner Straßenecke steht ein bekanntes Schild. Sag es jetzt.",
+      "audioKey": "hol-b08-t07",
+      "es": "Waar is de tramhalte?",
+      "pinyin": "waar is de TRAM-hal-tuh?",
+      "pt": "Wo ist die Straßenbahnhaltestelle?",
+      "tts": "Waar is de tramhalte?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-b08-s01",
+      "tom": "ganha",
+      "es": "Waar is het toilet? Waar is de uitgang? Waar is het fietspad?",
+      "pinyin": "waar is et twa-LET? · waar is de ÖÜT-chang? · waar is et FEETS-pat?",
+      "pt": "Schatten Sie denselben Baustein über drei völlig verschiedene Ziele.",
+      "tts": "Waar is het toilet? Waar is de uitgang? Waar is het fietspad?",
+      "molde": "WO-IST"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b08-n08",
+      "tom": "ganha",
+      "bloco": "permissao",
+      "pt": "Sie müssen die Antwort nicht verstehen. Ein gestreckter Arm ist vollständig — folgen Sie ihm, statt nach einem Satz zu fragen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b08-n09",
+      "tom": "ganha",
+      "bloco": "clique",
+      "pt": "Im Kaufhaus, auf dem Fietspad und in der Bahnhofshalle sagten Sie dieselben drei Wörter — ein Arm erledigte den Rest."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b08-n10",
+      "tom": "ganha",
+      "bloco": "recap",
+      "pt": "B08 fertig. Waar is, plus der Ort — drei Wörter, ein Arm, und das rote Fietspad gehört nicht mehr Ihnen."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Drei Wörter, ein Arm, ein roter Streifen",
+    "secoes": [
+      {
+        "titulo": "Waar is plus der Ort",
+        "corpo": "Genau wie Heeft u kommt der Ort nach Waar is in der Wörterbuchform, ohne Kasus — het toilet, de uitgang, het fietspad. Der Unterschied zu Heeft u: Waar is fragt nach einem festen Ort, der irgendwo in der Nähe existiert, nicht danach, was eine bestimmte Person gerade bei sich hat.",
+        "exemplos": [
+          { "es": "Waar is het toilet?", "pt": "Wo ist die Toilette?" },
+          { "es": "Waar is de uitgang?", "pt": "Wo ist der Ausgang?" }
+        ]
+      },
+      {
+        "titulo": "Die Antwort ist ein Arm, kein Satz",
+        "corpo": "Die meisten Antworten auf Waar is bestehen aus einer Richtung, einem Wort und einer Geste — achterin (hinten), rechtdoor (geradeaus), links, rechts. Sie müssen den ganzen erklärenden Satz drumherum nicht verstehen; der Arm trägt die Information, die zählt."
+      },
+      {
+        "titulo": "Der Radweg gehört dem Fahrrad",
+        "corpo": "Das Fietspad ist eine eigene Spur mit eigenem Vorrang, meist rot asphaltiert und klar vom Gehweg getrennt. Ein Fußgänger, der darauf geht, steht oder ihn als Abkürzung nutzt, steht im Weg eines Verkehrsmittels, das hier Vorfahrt hat wie ein Auto zu Hause. Die Regel ist einfach: rot heißt Radweg, hinschauen, bevor Sie einen Schritt darauf setzen."
+      }
+    ]
+  },
+  "permissao": "Sie müssen den Antwortsatz nicht verstehen, um anzukommen. Ein gestreckter Arm, ein Wort wie links oder rechtdoor ist eine vollständige Antwort — folgen Sie ihr, statt um Wiederholung zu bitten.",
+  "permissaoAudioKey": "hol-b08-n08",
+  "espelho": "Sie zeigen zu Hause selbst ständig mit dem Arm auf eine Toilette oder einen Ausgang, statt eine Wegbeschreibung auszuformulieren — hier ist es nur an Ihnen, dieselbe Geste zu lesen, nicht zu sprechen.",
+  "fichasCulturais": [
+    {
+      "sinal": "Sie treten aus einem Geschäft, wollen nur ein paar Schritte auf die andere Straßenseite gehen, und ein scharfes Fahrradklingeln lässt Sie zusammenzucken.",
+      "suaLeitura": "Der Radfahrer hätte besser aufpassen sollen — ich stand doch nur kurz da.",
+      "oQueEAli": "Der rote Streifen zwischen Gehweg und Straße ist das Fietspad, eine eigene Spur mit uneingeschränktem Vorrang für Fahrräder — vergleichbar mit einer Autospur, nicht mit einem breiteren Gehweg. Wer darauf steht, steht objektiv im Weg, unabhängig davon, wie leer die Spur gerade aussah.",
+      "oQueVoceFaz": "Schauen Sie vor jedem Schritt auf eine rote Spur wie vor dem Überqueren einer Straße, und bleiben Sie nie darauf stehen, auch nicht kurz zum Fotografieren oder Kartelesen.",
+      "oQueMelhora": "Ein Schreckmoment wird zu einer Gewohnheit, die Sie ab dem zweiten Tag automatisch mitdenken — und Sie lesen die Straße hier wie jemand, der es schon oft gemacht hat.",
+      "ondeNaoVale": "Auf gemeinsam genutzten Wegen ohne eigene Markierung, oft außerhalb der Städte, gilt die strikte Trennung nicht in gleicher Form — dort ist gegenseitige Rücksicht die Regel, nicht das feste Vorrecht des Fahrrads.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["hol-b08-n05", "hol-b08-n06"]
+    }
+  ]
+}

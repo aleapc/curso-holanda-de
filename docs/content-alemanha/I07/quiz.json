@@ -1,0 +1,96 @@
+{
+  "id": "q-i07",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Zeg het goede hardop",
+  "subtitulo": "Lof met het gerecht erin, en zes vlakke woorden voor de rest",
+  "introAudioKey": "de-i07-q-i",
+  "introPt": "Een reiziger stuurt lof naar de keuken en krijgt daarna een koud bord in één zin verholpen.",
+  "cenario": "Halverwege de maaltijd in een Gasthaus: één heel goed bord, één dat koud kwam, en daarna een rekening om na te lezen.",
+  "dialogo": [
+    {
+      "audioKey": "de-i07-q01",
+      "voz": "target_de_f",
+      "es": "Das Schnitzel war ausgezeichnet.",
+      "pt": "De schnitzel was uitstekend.",
+      "tts": "Das Schnitzel war ausgezeichnet."
+    },
+    {
+      "audioKey": "de-i07-q02",
+      "voz": "target_de_m",
+      "es": "Das freut mich! Ich sage es der Küche weiter.",
+      "pt": "Wat fijn om te horen! Ik geef het door aan de keuken.",
+      "tts": "Das freut mich! Ich sage es der Küche weiter."
+    },
+    {
+      "audioKey": "de-i07-q03",
+      "voz": "target_de_f",
+      "es": "Entschuldigung, das ist kalt.",
+      "pt": "Pardon, dit is koud.",
+      "tts": "Entschuldigung, das ist kalt."
+    },
+    {
+      "audioKey": "de-i07-q04",
+      "voz": "target_de_m",
+      "es": "Oh, das tut mir leid. Ich bringe Ihnen einen neuen Teller.",
+      "pt": "O, dat spijt me. Ik breng u een nieuw bord.",
+      "tts": "Oh, das tut mir leid. Ich bringe Ihnen einen neuen Teller."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Wat laat een compliment tot in de keuken reizen?",
+      "opcoes": [
+        "Het luid genoeg zeggen dat het door de zaal wordt gehoord",
+        "Het gerecht bij naam noemen",
+        "Extra geld op tafel laten",
+        "Het herhalen bij het weggaan"
+      ],
+      "correta": 1,
+      "explica": "Niemand kan 'alles was heerlijk' de keuken indragen. 'Das Schnitzel' wel."
+    },
+    {
+      "pergunta": "Hoe is de zin over het koude bord opgebouwd?",
+      "opcoes": [
+        "Entschuldigung, dan het feit, dan stop",
+        "Een excuus, het feit, en dan nog een excuus",
+        "Een volledig verslag van hoe de avond loopt",
+        "Niets zeggen en het later online opschrijven"
+      ],
+      "correta": 0,
+      "explica": "De opening draagt de beleefdheid, zodat de inhoud dat niet hoeft. Zes woorden zijn een volledig verzoek."
+    },
+    {
+      "pergunta": "U krijgt een rekening. Waar zit de btw?",
+      "opcoes": [
+        "Wordt aan de kassa opgeteld, zoals sales tax thuis",
+        "Zit al in de gedrukte prijs — de prijswet verplicht het totaal btw inbegrepen weer te geven",
+        "Wordt apart in rekening gebracht op drank, aan de deur",
+        "Wordt bij vertrek aan bezoekers terugbetaald"
+      ],
+      "correta": 1,
+      "explica": "De Duitse prijswet verplicht ondernemers de Gesamtpreis inclusief btw te noemen. Sinds 1 januari 2026 is eten op 7 procent en drank op 19, en u ziet geen van beide cijfers."
+    },
+    {
+      "pergunta": "Vielen Dank begint met welke klank?",
+      "opcoes": [
+        "Een v, zoals in 'vier'",
+        "Een f — de Duitse v is een f in een korte gesloten lijst oude woorden zoals viel, vier, von en vor",
+        "Een w, zoals in 'wat'",
+        "Het verschilt per streek en is niet te voorspellen"
+      ],
+      "correta": 1,
+      "explica": "En het spiegelbeeld: de Duitse w is bijna uw v, iets scherper. Wann is 'van', war is 'var'."
+    },
+    {
+      "pergunta": "De ober die uw bord verving blijft u de hele avond met Sie aanspreken. Dat betekent:",
+      "opcoes": [
+        "U hebt hem beledigd door over het bord te beginnen",
+        "Hij wil dat u de du aanbiedt",
+        "Niets over de temperatuur van het gesprek — Sie is de standaardvorm bij nieuwe contacten, en de du komt als aanbod van hun kant",
+        "U moet naar du overschakelen om beleefd te zijn"
+      ],
+      "correta": 2,
+      "explica": "Warmte en Sie reizen samen. Sie zit al in elke bouwsteen die u kent, dus u hoeft niets te beslissen."
+    }
+  ]
+}

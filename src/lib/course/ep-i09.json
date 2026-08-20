@@ -1,0 +1,248 @@
+{
+  "id": "i09",
+  "nivel": "intermediario",
+  "numero": 27,
+  "parte": "I09",
+  "titulo": "Der Markt, an dem die Nachbarn wirklich einkaufen",
+  "subtitulo": "Kein Foto-Menü, keine Übersetzung — nur Stände, ein Baustein aus dem Vorortmodus, und einer für die Wahl zwischen zwei Käsen",
+  "cena": "Samstagvormittag, ein Wochenmarkt zwei Straßen von der Unterkunft entfernt, mit Ständen, die keine einzige Speisekarte auf Englisch haben.",
+  "moldura": "ganha",
+  "decisao": "wie Sie den Nachmittag verbringen — der Markt, ein Ausflug oder das wöchentliche Ereignis, das gerade jeder hier zu kennen scheint außer Ihnen",
+  "emJogo": "tempo",
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-i09-n01",
+      "gesto": 3,
+      "tom": "ganha",
+      "bloco": "aquecimento",
+      "pt": "Derselbe Faustschlag trägt heute einen ganzen Vormittag auf dem Markt — nicht nur einen Teller."
+    },
+    {
+      "consulta": ["simpatia/elogiar-lugar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "bloco": "callback",
+      "molde": "WIE-LECKER",
+      "encaixe": "ochtend",
+      "encaixeGloss": "Morgen",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i09-p01",
+      "promptPt": "Derselbe Baustein wie gestern Abend am Esstisch, nur heute für die Luft und das Licht auf dem Weg zum Markt. Jetzt sprechen.",
+      "audioKey": "hol-i09-t01",
+      "es": "Wat een heerlijke ochtend!",
+      "pinyin": "vat ayn HAYR-lij-kuh OCH-tent",
+      "pt": "Was für ein herrlicher Morgen!",
+      "tts": "Wat een heerlijke ochtend!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-i09-n02",
+      "tom": "ganha",
+      "bloco": "cena",
+      "pt": "Der Markt ist voller Stände ohne eine einzige übersetzte Karte — und niemand hier erwartet, dass es eine gäbe."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-i09-n03",
+      "tom": "ganha",
+      "bloco": "corpo",
+      "pt": "Derselbe Baustein wie beim Reiseplan sucht heute nicht nach einer Toilette, sondern nach einem bestimmten Stand."
+    },
+    {
+      "consulta": ["compras/balcao"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ICH-SUCHE",
+      "encaixe": "de kaasboer",
+      "encaixeGloss": "den Käsehändler",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i09-p02",
+      "promptPt": "Jemand aus dem Hostel hat einen bestimmten Stand empfohlen, aber der Markt hat vierzig davon. Fragen Sie nach ihm. Jetzt sprechen.",
+      "audioKey": "hol-i09-t02",
+      "es": "Ik zoek de kaasboer.",
+      "pinyin": "ik zook duh KAAS-boor",
+      "pt": "Ich suche den Käsehändler.",
+      "tts": "Ik zoek de kaasboer."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-i09-r01",
+      "tom": "ganha",
+      "es": "Twee kramen verderop, naast de bloemenstal.",
+      "pinyin": "tvay KRAA-men FER-der-op, naast duh BLOO-men-stal",
+      "pt": "Zwei Stände weiter, neben dem Blumenstand.",
+      "tts": "Twee kramen verderop, naast de bloemenstal.",
+      "receptivo": true,
+      "acao": "Eine Zahl plus ein Nachbarstand ist die ganze Wegbeschreibung — zählen Sie die Stände, nicht die Meter."
+    },
+    {
+      "consulta": ["compras/quanto"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "WAS-EMPFEHLEN-SIE",
+      "encaixe": "deze kaas of die kaas",
+      "encaixeGloss": "diesen Käse oder jenen",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i09-p03",
+      "promptPt": "Zwei runde Laibe liegen nebeneinander, ohne ein einziges Etikett. Fragen Sie den Stand, welcher besser ist. Jetzt sprechen.",
+      "audioKey": "hol-i09-t03",
+      "es": "Wat raadt u aan: deze kaas of die kaas?",
+      "pinyin": "vat raat ü aan: DAY-zuh kaas of dee kaas",
+      "pt": "Was empfehlen Sie: diesen Käse oder jenen?",
+      "tts": "Wat raadt u aan: deze kaas of die kaas?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-i09-r02",
+      "tom": "ganha",
+      "es": "Deze, hij is kruidiger.",
+      "pinyin": "DAY-zuh, hai is KRÖÜ-di-cher",
+      "pt": "Diesen, er ist würziger.",
+      "tts": "Deze, hij is kruidiger."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-i09-n04",
+      "tom": "ganha",
+      "bloco": "capsula",
+      "pt": "Derselbe Baustein funktioniert auch abseits vom Tisch — für den Rest des Nachmittags, nicht nur für den Käse."
+    },
+    {
+      "consulta": ["simpatia/puxar-conversa"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "WAS-EMPFEHLEN-SIE",
+      "encaixe": "de rondleiding of de fietstocht",
+      "encaixeGloss": "die Führung oder die Radtour",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i09-p04",
+      "promptPt": "Zwei Zettel hängen am Infostand für den Nachmittag, beide für heute, beide neu für Sie. Fragen Sie, welche sich lohnt. Jetzt sprechen.",
+      "audioKey": "hol-i09-t04",
+      "es": "Wat raadt u aan: de rondleiding of de fietstocht?",
+      "pinyin": "vat raat ü aan: duh RONT-lay-ding of duh FEETS-tocht",
+      "pt": "Was empfehlen Sie: die Führung oder die Radtour?",
+      "tts": "Wat raadt u aan: de rondleiding of de fietstocht?"
+    },
+    {
+      "consulta": ["compras/balcao"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ICH-SUCHE",
+      "encaixe": "een pinautomaat",
+      "encaixeGloss": "einen Geldautomaten",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i09-p05",
+      "promptPt": "Der Käse ist bezahlt, aber Ihr Bargeld ist es jetzt nicht mehr. Fragen Sie nach dem, was fast jeder hier zuerst sucht. Jetzt sprechen.",
+      "audioKey": "hol-i09-t05",
+      "es": "Ik zoek een pinautomaat.",
+      "pinyin": "ik zook ayn PIN-ow-toh-maat",
+      "pt": "Ich suche einen Geldautomaten.",
+      "tts": "Ik zoek een pinautomaat."
+    },
+    {
+      "consulta": ["chegar/entrar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "KONNEN-SIE",
+      "encaixe": "mij de weg wijzen",
+      "encaixeGloss": "mir den Weg zeigen",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i09-p06",
+      "promptPt": "Die Antwort kam zu schnell und in eine Richtung, die Sie nicht sicher lesen konnten. Bitten Sie um mehr als Worte. Jetzt sprechen.",
+      "audioKey": "hol-i09-t06",
+      "es": "Kunt u mij de weg wijzen?",
+      "pinyin": "kunt ü mai duh vech VAI-zen",
+      "pt": "Können Sie mir den Weg zeigen?",
+      "tts": "Kunt u mij de weg wijzen?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i09-p07",
+      "promptPt": "Am Infostand hängt ein Plakat, das Sie noch nicht gelesen haben. Fragen Sie, was diese Woche sonst noch los ist. Jetzt sprechen.",
+      "audioKey": "hol-i09-t07",
+      "es": "Wat is er dit weekend te doen?",
+      "pinyin": "vat is er dit VEEK-ent tuh doon",
+      "pt": "Was ist dieses Wochenende los?",
+      "tts": "Wat is er dit weekend te doen?"
+    },
+    {
+      "consulta": ["simpatia/agradecer"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "DANKE",
+      "encaixe": "dank u wel voor de tip",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i09-p08",
+      "promptPt": "Der Hinweis war genau das, was Sie für den Nachmittag brauchten. Bedanken Sie sich dafür. Jetzt sprechen.",
+      "audioKey": "hol-i09-t08",
+      "es": "Dank u wel voor de tip!",
+      "pinyin": "dank ü wel for duh tip",
+      "pt": "Vielen Dank für den Hinweis!",
+      "tts": "Dank u wel voor de tip!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-i09-n05",
+      "tom": "ganha",
+      "bloco": "permissao",
+      "pt": "Sie müssen nicht jeden Stand kennen, um dazuzugehören. Eine Frage nach dem Weg und eine nach der Empfehlung reichen, um wie jemand zu wirken, der öfter herkommt."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-i09-s01",
+      "tom": "ganha",
+      "molde": "WAS-EMPFEHLEN-SIE",
+      "es": "Ik zoek de kaasboer. Wat raadt u aan: deze kaas of die kaas? Dank u wel voor de tip!",
+      "pinyin": "ik zook duh KAAS-boor. vat raat ü aan: DAY-zuh kaas of dee kaas? dank ü wel for duh tip!",
+      "pt": "Schatten Sie den ganzen Marktbesuch in drei Sätzen: suchen, wählen, danken.",
+      "tts": "Ik zoek de kaasboer. Wat raadt u aan: deze kaas of die kaas? Dank u wel voor de tip!"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_m",
+      "audioKey": "hol-i09-n06",
+      "tom": "ganha",
+      "bloco": "recap",
+      "pt": "I09 fertig. Zwei Bausteine, die einen ganzen Wochenmarkt tragen — einer zum Suchen, einer zum Wählen."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Zwei Bausteine für einen Vormittag ohne Programm",
+    "secoes": [
+      {
+        "titulo": "Ik zoek — abseits vom Reiseplan",
+        "corpo": "Derselbe Baustein, der in den ersten Tagen nach einem Geldautomaten oder einer Apotheke suchte, funktioniert genauso gut auf einem Markt: nach einem bestimmten Stand, einer bestimmten Person, einem bestimmten Geruch, den jemand beschrieben hat.",
+        "exemplos": [
+          { "es": "Ik zoek de kaasboer.", "pt": "Ich suche den Käsehändler." },
+          { "es": "Ik zoek een pinautomaat.", "pt": "Ich suche einen Geldautomaten." }
+        ]
+      },
+      {
+        "titulo": "Wat raadt u aan — auch außerhalb vom Tisch",
+        "corpo": "Der Baustein aus dem Restaurant funktioniert überall dort, wo jemand die Auswahl besser kennt als Sie: an einem Käsestand, an einem Infostand mit zwei Ausflügen für denselben Nachmittag."
+      }
+    ]
+  },
+  "slot": "I09",
+  "permissao": "Sie müssen nicht jeden Stand kennen, um dazuzugehören. Eine Frage nach dem Weg und eine nach der Empfehlung reichen, um wie jemand zu wirken, der öfter herkommt.",
+  "permissaoAudioKey": "hol-i09-n05"
+}

@@ -1,0 +1,434 @@
+{
+  "id": "b04",
+  "nivel": "basico",
+  "numero": 4,
+  "parte": "B04",
+  "titulo": "Vijf beslissingen die uw eigen keukentafel nog mag nemen",
+  "subtitulo": "Hoeveel contant geld, welke zondag, of de stoel geboekt is, wat de kassa moet horen, en de kaart die u een Duitse wachtkamer binnenlaat",
+  "cena": "Uw keukentafel, tien dagen voor vertrek, telefoon in de hand — het laatste stuk waarin elk van deze punten nog een klusje van vijf minuten is.",
+  "moldura": "protege",
+  "frasePiso": "Vanavond aan uw eigen tafel geregeld, en geen van deze punten wordt straks een rij aan een balie in Duitsland.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "de-b04-bargeld",
+      "afirmacao": "Duitsland is wettelijk niet verplicht kaarten te aanvaarden, en de wet gaat de andere kant op: eurobankbiljetten zijn het enige onbeperkte wettige betaalmiddel — § 14 Abs. 1 BBankG, «Auf Euro lautende Banknoten sind das einzige unbeschränkte gesetzliche Zahlungsmittel». Een handelaar mag contant geld toch weigeren wanneer vooraf een ander middel is afgesproken, en daarom zijn «nur Bargeld» en «nur Karte» aan de deur allebei rechtsgeldig. De Bundesbank-studie Zahlungsverhalten in Deutschland 2025 (gepubliceerd 17 juni 2026) stelt vast dat contant geld bij 94 procent van de aankopen ter plaatse gebruikt kon worden, dat 86 procent van de ontvangers ook een girale methode had aanvaard (81 procent in 2023, 61 procent in 2021), en dat een goed kwart van de respondenten in de afgelopen maand minstens één mislukte kaart- of telefoonbetaling had, meestal omdat de ontvanger simpelweg geen girale methode aanbiedt (77 procent). Op markten en straatverkoop is negen op de tien betalingen contant en girale aanvaarding staat op 43 procent.",
+      "fonte": "§ 14 Abs. 1 BBankG (gesetze-im-internet.de, verbatim) + posição do BCE sobre recusa de dinheiro mediante acordo prévio (Vertragsfreiheit) + Deutsche Bundesbank, «Zahlungsverhalten in Deutschland 2025», publicado 17/6/2026, PDF de 82 páginas lido: 94% de uso possível de dinheiro, 86% de aceitação de meios não-monetários, «ein gutes Viertel» com falha de pagamento por cartão no último mês (18% em 2023), mercados e venda de rua com 43% de aceitação. Metodologia: forsa, 6.070 entrevistas, campo 8/9 a 2/12/2025, diário de 3 dias, base POS n=10.394. Dados bienais — próxima edição prevista para 2028.",
+      "ano": 2026,
+      "revisarAte": "2028-06-30",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-b04-n04",
+        "de-b04-n05"
+      ]
+    },
+    {
+      "id": "de-b04-girocard",
+      "afirmacao": "Kaarten aanvaarden in Duitsland is niet hetzelfde als úw kaart aanvaarden. Het binnenlandse pinsysteem girocard, beheerd door EURO Kartensysteme GmbH voor de Duitse banken, omschrijft zichzelf als «das elektronische Bezahlsystem der deutschen Banken und Sparkassen» met «rund 100 Millionen ausgegebenen Karten», en zegt dat internationaal bereik van een co-badge afhangt: «Darüber hinaus verfügt die girocard in der Regel über eine Zusatzfunktion, ein sogenanntes Co-Badge eines internationalen Debitsystems (Maestro, Debit Mastercard, V Pay, Visa Debit oder JCB).» De schaal verklaart waarom het telt: het EHI Retail Institute's Zahlungssysteme im Einzelhandel 2025, dat 495 miljard euro aan Duitse stationaire detailhandel in 2024 dekt, zet girocard op 41,5 procent van de omzet en 28,89 procent van de transacties, tegen 33,8 procent van de omzet contant en 8,3 procent op kredietkaarten.",
+      "fonte": "girocard.eu, operado pela EURO Kartensysteme GmbH (empresa conjunta da Deutsche Kreditwirtschaft), verbatim; EHI Retail Institute, «Zahlungssysteme im Einzelhandel 2025», Colônia, junho/2025, dados de 2024, PDF de amostra aberto. RESSALVA EXPRESSA (item 24 da lista de exclusões): NÃO existe declaração institucional da Bundesbank ou da Deutsche Kreditwirtschaft afirmando que cartões Visa/Mastercard estrangeiros são recusados em terminais girocard-only — a ligação causal é explicação de mecanismo e nunca pode ser apresentada como citação.",
+      "ano": 2025,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-b04-n04"
+      ]
+    },
+    {
+      "id": "de-b04-ladenschluss",
+      "afirmacao": "Winkelopeningstijden worden per Land geregeld, niet vanuit Berlijn: Art. 74 Abs. 1 Nr. 11 GG geeft de federale overheid economisch recht uitdrukkelijk «ohne das Recht des Ladenschlusses». Het federale Ladenschlussgesetz van 1956 blijft als restmodel bestaan, en § 3 houdt winkels dicht op zondagen en feestdagen, vóór 6 uur 's ochtends en vanaf 8 uur 's avonds van maandag tot zaterdag, en vanaf 2 uur 's middags op 24 december. De zondagsbescherming is grondwettelijk: Art. 140 GG neemt Art. 139 van de Weimarer grondwet over, en het Bundesverfassungsgericht oordeelde op 1 december 2009 dat het omzetbelang van een handelaar en het «Shopping-Interesse» van een klant op zichzelf niet volstaan voor opening. Beieren volgt sinds 1 augustus 2025 de federale tekst niet meer, toen het eigen Bayerisches Ladenschlussgesetz van 25 juli 2025 in werking trad: dezelfde grens van 8 uur 's avonds, plus tot acht door de gemeente toegestane koopavonden per jaar, vier extra per handelaar met twee weken vooraankondiging, en onbemande minisupermarkten tot 150 vierkante meter die de klok rond mogen openen, ook op zondag.",
+      "fonte": "Art. 74 Abs. 1 Nr. 11 GG, § 3 LadSchlG, Art. 140 GG + Art. 139 WRV, todos verbatim de gesetze-im-internet.de; BVerfG, Urteil de 1/12/2009, 1 BvR 2857/07 e 1 BvR 2858/07 (comunicado bvg09-134); BayLadSchlG de 25/7/2025, GVBl. S. 246, em vigor desde 1/8/2025, verificado em gesetze-bayern.de. RESSALVA: o estatuto do Ladenschluss foi verificado em apenas 3 dos 16 Länder (Baviera, Berlim e NRW, os dois últimos parcialmente) — é a categoria mais volátil do dossiê.",
+      "ano": 2025,
+      "revisarAte": "2027-02-28",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": [
+        "de-b04-n06"
+      ]
+    },
+    {
+      "id": "de-b04-reservierung",
+      "afirmacao": "Een stoelreservering in een Duitse langeafstandstrein is een optie, geen verplichting. De Beförderungsbedingungen der Deutschen Bahn AG, in de versie van 14 december 2025 zoals bijgewerkt op 1 januari 2026, betitelen clausule A.5 als «Reservierungsmöglichkeit» en bepalen dat reizigers tot twaalf maanden vooraf mogen reserveren in ICE en IC/EC; waar een trein wél verplichte reservering kent, is die in de dienstregeling met een R gemarkeerd. Het recht op de gereserveerde stoel vervalt als de reiziger die vijftien minuten na vertrek uit het reserveringsstation nog niet heeft ingenomen. Het tarief per persoon en per richting is 5,50 euro in tweede klas en 6,90 euro in eerste, met een gratis reservering in eerste klas Flexpreis op treinen zonder reserveringsplicht, en een fietsplek voor 7,50 euro waar niet inbegrepen. Bevestigde uitzonderingen: de ÖBB Nightjet vereist reservering en heeft die in de boeking inbegrepen, terwijl IC- en ICE-nachtdiensten dat niet doen.",
+      "fonte": "Beförderungsbedingungen der Deutschen Bahn AG, «Neuausgabe vom 14. Dezember 2025 / Aktualisierter Stand vom 01. Januar 2026», Tarifbekanntmachung 1/2026, PDF baixado e extraído — cláusulas A.5/5.1, 5.2 e 5.3 verbatim; exceções do FAQ do bahn.de aberto em 5/8/2026. RESSALVA DE VERSÃO: o bahn.de/agb indicava em 5/8/2026 uma versão «Stand 31.07.2026», mais recente que a citada; as eventuais mudanças na cláusula A.5 e nos valores 5,50 € / 6,90 € NÃO foram verificadas. Preços de transporte mudam em janeiro.",
+      "ano": 2026,
+      "revisarAte": "2027-01-31",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-b04-n07",
+        "de-b04-n08"
+      ]
+    },
+    {
+      "id": "de-b04-taxfree",
+      "afirmacao": "Belastingvrij winkelen op weg de EU uit heeft drie voorwaarden en één verrassing. Het Merkblatt zur Umsatzsteuerbefreiung für Ausfuhrlieferungen im nichtkommerziellen Reiseverkehr van het Bundesfinanzministerium, Stand maart 2025 en verspreid via zoll.de, eist dat de koper buiten de EU woont, dat de goederen binnen drie maanden na aankoop worden uitgevoerd, en dat het totaal inclusief btw hoger is dan 50 euro. Woonplaats beslist, geen nationaliteit — het Merkblatt zegt uitdrukkelijk «Auf die Staatsangehörigkeit des Käufers kommt es nicht an», en werkt het Britse geval uit met genummerde voorbeelden: een Brit die in Noord-Ierland woont is geen derde-landkoper, wie in Engeland woont wel. Aan de grens toont de reiziger paspoort, uitvoerdocument en «die auszuführende Ware» — de goederen zelf. De verrassing is aan wie de vrijstelling toebehoort: «Die Steuerbefreiung gilt ausschließlich für den Unternehmer». De reiziger heeft geen recht op teruggave van de fiscus en krijgt in plaats daarvan een prijsvermindering die de handelaar mag verlenen, en daarom betalen luchthavenagenten uit na aftrek van een verwerkingsvergoeding. Het volle tarief achter de rekensom is 19 procent — § 12 UStG, «Die Steuer beträgt für jeden steuerpflichtigen Umsatz 19 Prozent der Bemessungsgrundlage» — en dat is het tarief dat de reiziger nooit volledig terugziet.",
+      "fonte": "BMF, «Merkblatt zur Umsatzsteuerbefreiung für Ausfuhrlieferungen im nichtkommerziellen Reiseverkehr», Stand März 2025, distribuído pelo zoll.de — 15 páginas, PDF aberto; condições, prazo, exemplos britânicos (3) e (4), procedimento e a cláusula «Die Steuerbefreiung gilt ausschließlich für den Unternehmer» todos verbatim; alíquota-padrão de 19% verbatim do § 12 UStG (gesetze-im-internet.de). RESSALVA: a alíquota reduzida de 7% na gastronomia entrou em 1/1/2026 e não afeta este cálculo, mas prova que a alíquota é matéria móvel.",
+      "ano": 2025,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-b04-n09",
+        "de-b04-n10"
+      ]
+    },
+    {
+      "id": "de-b04-krankenversicherung",
+      "afirmacao": "Voor een inwoner van Nederland is de EHIC het toegangsbewijs en niet de verzekering. De Zorgverzekeringswet en het CAK stellen dat de EHIC alleen medisch noodzakelijke zorg dekt volgens de regels van het land waar u bent, en uitdrukkelijk geen vervanging is van een reisverzekering. Wat de kaart koopt is het Duitse staatsstelsel op inwonersvoorwaarden, en inwoners betalen bijdragen: § 39 Abs. 4 SGB V rekent een volwassen opnamepatiënt een dagbedrag aan gedurende ten hoogste 28 dagen in een kalenderjaar, en § 61 Satz 2 SGB V zet dat bedrag op 10 euro per dag, met medicijnen op 10 procent van de prijs, minimaal 5 euro en maximaal 10. De Praxisgebühr van 10 euro per kwartaal die oudere gidsen nog vermelden, is met unaniem besluit van de Bundestag op 9 november 2012 afgeschaft, met werking vanaf 1 januari 2013.",
+      "fonte": "CAK/Rijksoverheid, «Zorg in het buitenland met de EHIC», e Zorginstituut Nederland, verbatim dat de EHIC medisch noodzakelijke zorg dekt volgens de regels van het bezoekland en geen reisverzekering vervangt; § 39 Abs. 4 e § 61 Satz 2 SGB V verbatim de gesetze-im-internet.de; abolição da Praxisgebühr [RESUMO de bundestag.de, 546 votos em 9/11/2012, efeito em 1/1/2013]. NÃO ENTRA: qualquer citação atribuída ao Medicare (medicare.gov devolveu 403) nem à DVKA (404).",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-b04-n11"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b04-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "De lijst van vanavond telt vijf punten en heeft een houdbaarheidsdatum. Elk is hier vijf minuten en daar een rij."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-b04-r01",
+      "es": "Guten Tag, Hotel Adler.",
+      "pinyin": "GOO-ten TAHK, ho-TEL AHD-ler",
+      "pt": "Goedendag, Hotel Adler.",
+      "tts": "Guten Tag, Hotel Adler."
+    },
+    {
+      "consulta": [
+        "quarto/checkin"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b04-p01",
+      "promptPt": "Ze hebben opgenomen, en u hebt nog tien dagen om te herstellen wat dit gesprek boven tafel brengt. Open het. Zeg het nu.",
+      "audioKey": "de-b04-t01",
+      "es": "Guten Tag, ich habe eine Frage zur Buchung.",
+      "pinyin": "GOO-ten TAHK, ikh HAH-buh EYE-nuh FRAH-guh tsoor BOO-khoong",
+      "pt": "Goedendag, ik heb een vraag over de boeking.",
+      "tts": "Guten Tag, ich habe eine Frage zur Buchung."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b04-n02",
+      "bloco": "corpo",
+      "pt": "Een boeking bevestigd per e-mail is geen boeking bevestigd door een mens. Vraag de kleine dingen nu."
+    },
+    {
+      "consulta": [
+        "taxi/destino",
+        "quarto/checkin"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "wie ist die genaue Adresse",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b04-p02",
+      "promptPt": "De boekingssite gaf u een merknaam en een wijk. Krijg iets waar een chauffeur naartoe rijdt. Zeg het nu.",
+      "audioKey": "de-b04-t02",
+      "es": "Entschuldigung, wie ist die genaue Adresse?",
+      "pinyin": "ent-SHOOL-di-goong, vee ist dee ge-NOW-uh a-DRE-suh",
+      "pt": "Pardon, wat is het exacte adres?",
+      "tts": "Entschuldigung, wie ist die genaue Adresse?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b04-r02",
+      "es": "Königstraße vierzehn, dritter Stock.",
+      "pinyin": "KURN-ikh-shtrah-suh FEER-tsayn, DRI-ter shtok",
+      "pt": "Königstraße veertien, derde verdieping.",
+      "tts": "Königstraße vierzehn, dritter Stock.",
+      "receptivo": true,
+      "acao": "Schrijf het in een notitie die zonder signaal werkt, met de Duitse spelling en de ß met rust gelaten."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b04-n03",
+      "pt": "Die laatste letter van Straße is een s en verder niets. Nooit een B, en niets extra om uit te spreken."
+    },
+    {
+      "consulta": [
+        "quarto/checkin"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b04-p03",
+      "promptPt": "Uw vlucht landt laat en kleine adressen zijn in de late uren niet altijd bemand. Controleer het nu. Zeg het nu.",
+      "audioKey": "de-b04-t03",
+      "es": "Ist die Rezeption nachts offen?",
+      "pinyin": "ist dee re-tsep-TSYOHN nakhts O-fen",
+      "pt": "Is de receptie 's nachts open?",
+      "tts": "Ist die Rezeption nachts offen?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b04-r03",
+      "es": "Ja, die Rezeption ist rund um die Uhr besetzt.",
+      "pinyin": "yah, dee re-tsep-TSYOHN ist roont oom dee OOR be-ZETST",
+      "pt": "Ja, de receptie is dag en nacht bemand.",
+      "tts": "Ja, die Rezeption ist rund um die Uhr besetzt.",
+      "receptivo": true,
+      "acao": "Zet het antwoord in dezelfde offline-notitie, op de regel onder het adres."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b04-n04",
+      "pt": "Een: contant. Bankbiljetten zijn hier het enige onbeperkte wettige betaalmiddel, en geen winkel is verplicht uw kaart te nemen."
+    },
+    {
+      "consulta": [
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b04-p04",
+      "promptPt": "Voor u beslist hoeveel biljetten u meeneemt, vraag hoe deze zaak betaald wil worden. Zeg het nu.",
+      "audioKey": "de-b04-t04",
+      "es": "Nehmen Sie Karte?",
+      "pinyin": "NAY-men zee KAR-tuh",
+      "pt": "Neemt u kaart aan?",
+      "tts": "Nehmen Sie Karte?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b04-r04",
+      "es": "Nur Bargeld, bitte.",
+      "pinyin": "noor BAR-gelt, BI-tuh",
+      "pt": "Alleen contant, alstublieft.",
+      "tts": "Nur Bargeld, bitte.",
+      "receptivo": true,
+      "acao": "Pak biljetten zonder te discussiëren. Deze zin is hier rechtsgeldig, en gaat niet over u."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b04-n05",
+      "pt": "Op markten en straatkramen is negen van de tien betalingen contant, en kaarten worden minder dan de helft van de tijd geaccepteerd."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b04-n06",
+      "pt": "Twee: de winkelklok. Zondagen en feestdagen dicht, en vanaf acht uur 's avonds op andere dagen."
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "wann schließt der Supermarkt",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b04-p05",
+      "promptPt": "U landt op zaterdagmiddag en de koelkast in het appartement is leeg. Vraag uw host één ding. Zeg het nu.",
+      "audioKey": "de-b04-t05",
+      "es": "Entschuldigung, wann schließt der Supermarkt?",
+      "pinyin": "ent-SHOOL-di-goong, van shleest dair ZOO-per-markt",
+      "pt": "Pardon, hoe laat sluit de supermarkt?",
+      "tts": "Entschuldigung, wann schließt der Supermarkt?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b04-n07",
+      "pt": "Drie: de stoel. Reserveren mág hier, moet niet — een trein die het eist heeft een R in de dienstregeling."
+    },
+    {
+      "consulta": [
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b04-p06",
+      "promptPt": "De lange rit naar het zuiden is geboekt, en het perron is de verkeerde plek om dit uit te zoeken. Zeg het nu.",
+      "audioKey": "de-b04-t06",
+      "es": "Brauche ich eine Reservierung?",
+      "pinyin": "BROW-khuh ikh EYE-nuh re-zer-VEE-roong",
+      "pt": "Heb ik een reservering nodig?",
+      "tts": "Brauche ich eine Reservierung?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b04-n08",
+      "pt": "Vijf vijftig in tweede klas, en de stoel blijft van u tot vijftien minuten na vertrek."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b04-n09",
+      "bloco": "capsula",
+      "pt": "Vier: de kassa. Woont u buiten de EU, dan wordt het uitvoerpapier gevraagd vóór u betaalt, nooit erna."
+    },
+    {
+      "consulta": [
+        "compras/pagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b04-p07",
+      "promptPt": "Aan een kassa in München, met meer dan vijftig euro aan goederen. Zeg het ene dat dit beslist. Zeg het nu.",
+      "audioKey": "de-b04-t07",
+      "es": "Ich wohne nicht in der EU.",
+      "pinyin": "ikh VOH-nuh nikht in dair ay-OO",
+      "pt": "Ik woon niet in de EU.",
+      "tts": "Ich wohne nicht in der EU."
+    },
+    {
+      "consulta": [
+        "compras/pagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b04-p08",
+      "promptPt": "De aankoop is aangeslagen en de bediende wacht. Noem het papier waarmee u vertrekt. Zeg het nu.",
+      "audioKey": "de-b04-t08",
+      "es": "Ich brauche den Ausfuhrbeleg.",
+      "pinyin": "ikh BROW-khuh dayn OWS-foor-be-layk",
+      "pt": "Ik heb het uitvoerbewijs nodig.",
+      "tts": "Ich brauche den Ausfuhrbeleg."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b04-n10",
+      "pt": "Boven vijftig euro, uit binnen drie maanden, en de goederen in uw hand bij de douane — niet in het ruim."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b04-n11",
+      "pt": "Vijf: ziektekostendekking. De EHIC koopt het staatsstelsel, en de Duitse kant vraagt nog tien per dag."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "DANKE",
+      "encaixe": "vielen Dank",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b04-p09",
+      "promptPt": "Het gesprek deed alles waarvoor u belde en de persoon bleef bij u. Sluit het helemaal af. Zeg het nu.",
+      "audioKey": "de-b04-t09",
+      "es": "Vielen Dank und auf Wiedersehen.",
+      "pinyin": "FEE-len DANK oont owf VEE-der-zayn",
+      "pt": "Hartelijk dank, en tot ziens.",
+      "tts": "Vielen Dank und auf Wiedersehen."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-b04-s01",
+      "es": "Nehmen Sie Karte? Brauche ich eine Reservierung? Ich wohne nicht in der EU.",
+      "pinyin": "NAY-men zee KAR-tuh. BROW-khuh ikh EYE-nuh re-zer-VEE-roong. ikh VOH-nuh nikht in dair ay-OO",
+      "pt": "Schaduw de drie regels die het geld regelen voor u vliegt.",
+      "tts": "Nehmen Sie Karte? Brauche ich eine Reservierung? Ich wohne nicht in der EU."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b04-n12",
+      "bloco": "recap",
+      "pt": "B04 klaar. Contant beslist, zondag gepland, stoel geregeld, uitvoerpapier gevraagd, EHIC in de portemonnee."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Een lijst die duur wordt zodra u instapt",
+    "secoes": [
+      {
+        "titulo": "Hoeveel contant, en waarom de vraag echt is",
+        "corpo": "Duitsland heeft geen wet die een zaak verplicht uw kaart te nemen. Het heeft het omgekeerde: eurobankbiljetten zijn het enige onbeperkte wettige betaalmiddel, en een handelaar mag contant geld alleen weigeren wanneer vooraf een ander middel is afgesproken. Zo zijn «nur Bargeld» aan de deur en «nur Karte» aan de kassa allebei rechtsgeldig, en met geen van beide valt te redetwisten. Het beeld is niet somber — de Bundesbank vond in 2025 dat 86 procent van de ontvangers ook giraal had aanvaard, tegen 61 procent in 2021 — maar een goed kwart van de mensen had in de afgelopen maand een mislukte kaart- of telefoonbetaling, meestal simpelweg omdat de zaak niets elektronisch aanbiedt. Markten en straatkramen zijn de scherpe rand: negen van de tien betalingen contant, kaarten in 43 procent van de gevallen. Beslis vanavond een verstandig bedrag aan biljetten in plaats van bij een geldautomaat na aankomst. Eén woord over de zin zelf, want die is de uitzondering en niet het model: Karte noemt hier een manier van betalen, net als Bargeld, en manieren van betalen krijgen in het Duits geen lidwoordje ervoor — Nehmen Sie Karte?, precies zoals het Engels met kaart en niet met de kaart. Alles wat u zou kunnen tellen komt nog aangekleed, en deze cursus geeft nooit een telbaar ding ongekleed: het is eine SIM-Karte en einen Stadtplan, in hun geheel geleerd, en niets waar u aan de balie op moet puzzelen.",
+        "exemplos": [
+          {
+            "es": "Nehmen Sie Karte?",
+            "pt": "Neemt u kaart aan?"
+          }
+        ]
+      },
+      {
+        "titulo": "Uw kaart is niet hetzelfde ding als een kaart",
+        "corpo": "Het binnenlandse pinsysteem, girocard, draagt ongeveer honderd miljoen kaarten en 41,5 procent van de stationaire detailhandel, en zijn internationale bereik hangt ervan af of een gegeven kaart ook een co-badge draagt zoals Maestro, V Pay, Debit Mastercard of Visa Debit. De praktische vorm daarvan, en het is een mechanisme in plaats van een citaat: een terminal hier kan bedraad zijn voor het nationale systeem, dus een zaak die kaarten aanvaardt is niet hetzelfde als een zaak die de uwe aanvaardt. Uw Nederlandse Maestro of V Pay werkt meestal, maar de biljetten in uw zak zijn een plan en geen bijgeloof."
+      },
+      {
+        "titulo": "De winkelklok, en wie hem echt zet",
+        "corpo": "Sinds 2006 is winkelsluiting de zaak van elk Land — de grondwet geeft economisch recht aan de federale kant, uitdrukkelijk zonder dit. De federale wet van 1956 blijft als restmodel bestaan, en die sluit winkels op zondagen en feestdagen en vanaf acht uur 's avonds op de andere dagen. Zondag zelf is grondwettelijk beschermd, en het Bundesverfassungsgericht oordeelde in 2009 dat de omzet van een handelaar en de winkelwens van een klant op zich niet volstaan om te openen. Beieren stapte op 1 augustus 2025 uit de federale tekst met een eigen wet: zelfde acht uur, plus een handvol geoorloofde koopavonden en onbemande minisupermarkten tot 150 vierkante meter die de klok rond mogen draaien. Een verkaufsoffener Sonntag bestaat, maar is lokaal, gedateerd en aan een gelegenheid gekoppeld — plan een zondag daar nooit omheen."
+      },
+      {
+        "titulo": "De stoel is optioneel, en de reservering heeft een klok",
+        "corpo": "Duitse langeafstandstreinen binden het kaartje niet aan een stoel. De eigen voorwaarden van de vervoerder noemen de clausule een Reservierungsmöglichkeit — een mogelijkheid — en de uitzonderingen staan met een R in de dienstregeling. U mag tot twaalf maanden vooraf reserveren; tweede klas kost 5,50 euro per persoon per richting, eerste klas 6,90. Twee details zijn het waard mee te nemen: in eerste klas Flexpreis is reserveren gratis op treinen zonder reserveringsplicht, en een gereserveerde stoel is niet meer van u vijftien minuten nadat de trein het station heeft verlaten waar uw reservering begon. Nachttreinen van ÖBB eisen wél reservering en hebben die inbegrepen; nacht-IC en -ICE niet.",
+        "exemplos": [
+          {
+            "es": "Brauche ich eine Reservierung?",
+            "pt": "Heb ik een reservering nodig?"
+          }
+        ]
+      },
+      {
+        "titulo": "Tax-free is van de winkel, niet van u",
+        "corpo": "Drie voorwaarden: u woont buiten de EU, de goederen vertrekken binnen drie maanden, en het totaal inclusief btw is meer dan 50 euro. Woonplaats beslist en niet nationaliteit — een Brit die in Engeland woont komt in aanmerking, dezelfde paspoorthouder die in Noord-Ierland woont niet. Aan de grens toont u paspoort, uitvoerdocument en de goederen, en daar gaan echte reizigers de mist in door de aankoop in het ruim in te checken. En het elegante deel: de vrijstelling wordt aan de handelaar verleend, niet aan u. Er is geen teruggave van de fiscus; wat u krijgt is een prijsvermindering die de handelaar mag verlenen, en juist daarom betaalt de agent op de luchthaven uit na een verwerkingsvergoeding. U ziet de volle negentien procent nooit, en dat is het systeem zoals ontworpen. Voor u als Nederlander die naar Duitsland reist speelt dit hoegenaamd niet — dit staat er voor wie een niet-EU-gast meeneemt of voor de zeldzame situatie waarin een klant van u het nodig heeft."
+      },
+      {
+        "titulo": "De EHIC, en de tien euro erachter",
+        "corpo": "De EHIC opent het Duitse staatsstelsel, en het CAK zegt op dezelfde pagina dat die geen alternatief is voor een reisverzekering. Wat de kaart koopt is inwonersvoorwaarden, en inwoners betalen bijdragen: een volwassene in het ziekenhuis betaalt tien euro per dag gedurende ten hoogste 28 dagen in een kalenderjaar, en medicijnen kosten tien procent van de prijs met een vloer van vijf en een plafond van tien. De tien euro per kwartaal die oudere gidsen nog beschrijven, is in november 2012 unaniem afgeschaft en werkt sinds 1 januari 2013 niet meer — noemt een gids dit nog, dan is die gids dertien jaar oud."
+      }
+    ]
+  },
+  "slot": "B04",
+  "permissao": "U mag deze ene avond overvoorbereid zijn. Een boeking bevestigen die u al hebt, een contant bedrag beslissen dat u misschien niet nodig hebt, en vragen naar een stoel die u wellicht nooit reserveert is geen angst — dit is het enige stuk van de reis waarin vijf minuten aan uw eigen tafel dingen regelt die een balie slecht zou regelen, en u mag er tijd aan besteden en daarna stoppen.",
+  "permissaoAudioKey": "de-b04-n01",
+  "espelho": "Wie ooit een instapkaart heeft gescreenshot omdat de app van de maatschappij vastliep, draait deze reflex al op één document. B04 vraagt dezelfde offline-gewoonte op vier andere, en laat u dan de laptop dichtklappen.",
+  "fichasCulturais": [
+    {
+      "sinal": "Een café of marktkraam wuift uw kaart weg en zegt «nur Bargeld», zonder excuus en zonder toelichting.",
+      "suaLeitura": "Ze ontduiken belasting, of ze doen moeilijk, en ergens moet toch een regel staan die zegt dat ze het moeten aanvaarden.",
+      "oQueEAli": "Zo'n regel bestaat in Duitsland niet, en de wet gaat de andere kant op: eurobankbiljetten zijn het enige onbeperkte wettige betaalmiddel, en een zaak mag contant geld alleen weigeren wanneer vooraf een ander middel is afgesproken. «Nur Bargeld» en «nur Karte» zijn allebei rechtsgeldig. Op de grond zou 86 procent van de ontvangers een girale methode aanvaarden, maar bij markten en straatverkoop zakt dat aandeel naar 43 procent.",
+      "oQueVoceFaz": "Beslis een contant bedrag voor u vliegt en vraag «Nehmen Sie Karte?» vóór u bestelt in plaats van erna, want dat is het moment waarop u nog een keuze hebt over waar u uitgeeft.",
+      "oQueMelhora": "Een geweigerde kaart houdt op een kleine vernedering te zijn en wordt een stukje informatie dat u al had, en de biljetten in uw zak blijken het plan te zijn in plaats van het vangnet.",
+      "ondeNaoVale": "Dit is geen bewering dat het land op contant draait. Girale aanvaarding klom van 61 procent in 2021 naar 86 procent in 2025 en meer dan de helft van de dagelijkse betalingen is nu giraal. En het punt over uw eigen kaart die in een binnenlands-systeemterminal faalt is een uitleg van een mechanisme, geen institutionele uitspraak — zo'n uitspraak bestaat niet.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-b04-n04",
+        "de-b04-n05"
+      ]
+    },
+    {
+      "sinal": "U koopt het langeafstandskaartje, ziet een stoelreservering als extra aangeboden, en gaat ervan uit dat het kaartje pas echt gekocht is als u er een aan toevoegt.",
+      "suaLeitura": "Snelle treinen betekenen een kaartje dat aan een stoel vastzit, zoals in Frankrijk, Italië en Spanje, dus de reservering móét het echte kaartje zijn.",
+      "oQueEAli": "De eigen voorwaarden van de vervoerder noemen de clausule een mogelijkheid in plaats van een plicht. Treinen met verplichte reservering staan met een R in de dienstregeling, en dat zijn de uitzonderingen. Reserveren kost 5,50 euro in tweede klas en 6,90 in eerste, is gratis in eerste klas Flexpreis op treinen zonder de plicht, en kan tot twaalf maanden vooraf. Een gereserveerde stoel vervalt ook vijftien minuten nadat de trein het station heeft verlaten waar uw reservering begon.",
+      "oQueVoceFaz": "Koop het kaartje, kijk naar de R, en reserveer alleen wanneer de dienstregeling erom vraagt of wanneer een drukke vrijdag vijf vijftig waard maakt. Als u gereserveerd hebt, zit in het eerste kwartier op de stoel.",
+      "oQueMelhora": "U betaalt niet meer voor iets dat u nooit hoefde te kopen, en u staat niet meer naast uw eigen gereserveerde stoel af te vragen of de zittende in de fout zit.",
+      "ondeNaoVale": "Gelezen tegen de voorwaarden van kracht op 1 januari 2026. Een nieuwere versie van 31 juli 2026 bestaat en clausule A.5 en de twee prijzen zijn daarin niet gecontroleerd, en tarieven veranderen hier in januari. Sommige internationale diensten kennen wél verplichte reservering met de reservering inbegrepen, en de ÖBB-nachttrein altijd.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-b04-n07",
+        "de-b04-n08"
+      ]
+    }
+  ]
+}

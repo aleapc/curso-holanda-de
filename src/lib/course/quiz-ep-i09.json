@@ -1,0 +1,96 @@
+{
+  "id": "q-i09",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Der Markt, an dem die Nachbarn wirklich einkaufen",
+  "subtitulo": "Zwei Bausteine, die einen ganzen Wochenmarkt tragen",
+  "introAudioKey": "hol-i09-q-i",
+  "introPt": "Ein Reisender sucht einen bestimmten Stand auf dem Wochenmarkt und lässt sich zwischen zwei Käsesorten beraten.",
+  "cenario": "Ein Wochenmarkt, Samstagvormittag.",
+  "dialogo": [
+    {
+      "audioKey": "hol-i09-q01",
+      "voz": "target_nl_f",
+      "es": "Ik zoek de kaasboer.",
+      "pt": "Ich suche den Käsehändler.",
+      "tts": "Ik zoek de kaasboer."
+    },
+    {
+      "audioKey": "hol-i09-q02",
+      "voz": "target_nl_m",
+      "es": "Twee kramen verderop, naast de bloemenstal.",
+      "pt": "Zwei Stände weiter, neben dem Blumenstand.",
+      "tts": "Twee kramen verderop, naast de bloemenstal."
+    },
+    {
+      "audioKey": "hol-i09-q03",
+      "voz": "target_nl_f",
+      "es": "Wat raadt u aan: deze kaas of die kaas?",
+      "pt": "Was empfehlen Sie: diesen Käse oder jenen?",
+      "tts": "Wat raadt u aan: deze kaas of die kaas?"
+    },
+    {
+      "audioKey": "hol-i09-q04",
+      "voz": "target_nl_m",
+      "es": "Deze, hij is kruidiger.",
+      "pt": "Diesen, er ist würziger.",
+      "tts": "Deze, hij is kruidiger."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Welcher Baustein aus den ersten Tagen der Reise funktioniert auch auf dem Markt?",
+      "opcoes": [
+        "Heeft u — für die Frage, ob etwas existiert",
+        "Ik zoek — dasselbe Suchen wie bei Apotheke oder Geldautomat, jetzt für einen bestimmten Stand",
+        "Zonder — nur für Allergien",
+        "Hoe laat is — nur für Öffnungszeiten"
+      ],
+      "correta": 1,
+      "explica": "Ik zoek + [Ding] funktioniert überall dort, wo Sie etwas Bestimmtes suchen — einen Geldautomaten am Anfang der Reise, einen Käsestand jetzt."
+    },
+    {
+      "pergunta": "«Twee kramen verderop, naast de bloemenstal.» Wie orientieren Sie sich mit dieser Antwort?",
+      "opcoes": [
+        "Nach Metern auf einer Karte suchen",
+        "Die Zahl der Stände zählen, nicht die Entfernung in Metern",
+        "Nach dem nächsten Straßenschild fragen",
+        "Zurück zum Eingang gehen und neu beginnen"
+      ],
+      "correta": 1,
+      "explica": "Eine Zahl plus ein Nachbarstand ist die ganze Wegbeschreibung — zählen Sie die Stände, nicht die Meter."
+    },
+    {
+      "pergunta": "Zwei Käselaibe liegen ohne Etikett nebeneinander. Was fragen Sie?",
+      "opcoes": [
+        "Wat raadt u aan: deze kaas of die kaas?",
+        "Heeft u een vaas?",
+        "Hoe laat sluit de markt?",
+        "Kunt u dat opschrijven?"
+      ],
+      "correta": 0,
+      "explica": "Derselbe Baustein aus dem Restaurant funktioniert auch am Marktstand — er macht aus einer stummen Auswahl eine geschlossene Frage mit zwei Dingen."
+    },
+    {
+      "pergunta": "Warum ist «Ik zoek een pinautomaat» eine der ersten Fragen, die Reisende hier stellen?",
+      "opcoes": [
+        "Weil Geldautomaten in den Niederlanden selten sind",
+        "Weil viele Läden nur die inländische Debitkarte annehmen und Bargeld trotzdem nützlich bleibt",
+        "Weil Kartenzahlung hier verboten ist",
+        "Weil man nur an Geldautomaten Fahrkarten kaufen kann"
+      ],
+      "correta": 1,
+      "explica": "Debitzahlung ist der Normalfall, aber Bargeld bleibt nützlich — deshalb ist der Geldautomat oft das Erste, was Reisende suchen."
+    },
+    {
+      "pergunta": "Was brauchen Sie, um auf einem Markt ohne übersetzte Karten wie jemand zu wirken, der öfter herkommt?",
+      "opcoes": [
+        "Jeden Stand und jedes Produkt im Voraus kennen",
+        "Eine Frage nach dem Weg und eine nach der Empfehlung reichen völlig",
+        "Fließendes Niederländisch ohne einen einzigen Fehler",
+        "Ein gedrucktes Wörterbuch für jeden Stand"
+      ],
+      "correta": 1,
+      "explica": "Sie müssen nicht jeden Stand kennen. Ik zoek und Wat raadt u aan reichen, um sich durch den ganzen Markt zu bewegen."
+    }
+  ]
+}

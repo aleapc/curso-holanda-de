@@ -1,0 +1,257 @@
+{
+  "id": "i08",
+  "nivel": "intermediario",
+  "numero": 26,
+  "parte": "I08",
+  "titulo": "Der Gastgeber öffnet die Tür",
+  "subtitulo": "Was Sie mitbringen, wo Sie sich hinsetzen, und der Trinkspruch, den alle erwarten",
+  "cena": "Ein Nachbar aus dem Hostel lädt Sie zum Abendessen bei sich zu Hause ein, und Sie stehen mit leeren Händen vor der Tür.",
+  "moldura": "ganha",
+  "decisao": "was Sie mitbringen, wo Sie sich hinsetzen, und wann der richtige Moment zum Gehen ist — plus der Trinkspruch, den alle erwarten",
+  "emJogo": "tempo",
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-i08-n01",
+      "gesto": 4,
+      "tom": "ganha",
+      "bloco": "aquecimento",
+      "pt": "Derselbe Baustein des Dankens öffnet heute eine Wohnungstür, nicht nur eine Rechnung."
+    },
+    {
+      "consulta": ["simpatia/convite"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "bloco": "callback",
+      "molde": "DANKE",
+      "encaixe": "dank u wel voor de uitnodiging",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i08-p01",
+      "promptPt": "Derselbe Baustein wie beim warmen Teller, nur heute für etwas viel Größeres: einen Abend bei jemandem zu Hause. Bedanken Sie sich dafür. Jetzt sprechen.",
+      "audioKey": "hol-i08-t01",
+      "es": "Dank u wel voor de uitnodiging!",
+      "pinyin": "dank ü wel for duh öüt-noh-di-CHING",
+      "pt": "Vielen Dank für die Einladung!",
+      "tts": "Dank u wel voor de uitnodiging!"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-i08-r01",
+      "tom": "ganha",
+      "es": "Kom binnen, kom binnen!",
+      "pinyin": "kom BIN-nen, kom BIN-nen",
+      "pt": "Komm rein, komm rein!",
+      "tts": "Kom binnen, kom binnen!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-i08-n02",
+      "tom": "ganha",
+      "bloco": "cena",
+      "pt": "Sie stehen mit leeren Händen in der Tür, und drinnen riecht es schon nach Essen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-i08-n03",
+      "tom": "ganha",
+      "bloco": "corpo",
+      "pt": "Eine Kleinigkeit reicht: Blumen oder eine Flasche Wein sind eine sichere Wahl, kein Muss, aber eine nette Geste."
+    },
+    {
+      "consulta": ["compras/balcao"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "HABEN-SIE",
+      "encaixe": "een vaas",
+      "encaixeGloss": "eine Vase",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i08-p02",
+      "promptPt": "Die Blumen aus dem Laden nebenan liegen noch in Ihrer Hand, und der Gastgeber sucht sichtlich nach etwas dafür. Helfen Sie mit einer Frage. Jetzt sprechen.",
+      "audioKey": "hol-i08-t02",
+      "es": "Heeft u een vaas?",
+      "pinyin": "HÉÉFT ü ayn faas",
+      "pt": "Haben Sie eine Vase?",
+      "tts": "Heeft u een vaas?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-i08-r02",
+      "tom": "ganha",
+      "es": "Ga toch zitten, waar je wilt.",
+      "pinyin": "cha toch ZIT-ten, vaar yuh vilt",
+      "pt": "Setz dich einfach, wo du willst.",
+      "tts": "Ga toch zitten, waar je wilt.",
+      "receptivo": true,
+      "acao": "Es gibt hier selten einen festen Sitzplan. Ein freier Stuhl ist Ihr Stuhl."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i08-p03",
+      "promptPt": "Aus der Küche kommt Geklapper, und Sie sitzen noch mit leeren Händen am Tisch. Bieten Sie Ihre Hilfe an. Jetzt sprechen.",
+      "audioKey": "hol-i08-t03",
+      "es": "Wat kan ik doen om te helpen?",
+      "pinyin": "vat kan ik doon om tuh HEL-pen",
+      "pt": "Was kann ich tun, um zu helfen?",
+      "tts": "Wat kan ik doen om te helpen?"
+    },
+    {
+      "consulta": ["reparo/apontar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "waar is het toilet",
+      "encaixeGloss": "wo ist die Toilette",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i08-p04",
+      "promptPt": "Der Abend ist noch jung, und Sie waren noch nie in dieser Wohnung. Fragen Sie leise, statt selbst zu suchen. Jetzt sprechen.",
+      "audioKey": "hol-i08-t04",
+      "es": "Pardon, waar is het toilet?",
+      "pinyin": "par-DON, vaar is (h)ut twa-LET",
+      "pt": "Entschuldigung, wo ist die Toilette?",
+      "tts": "Pardon, waar is het toilet?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-i08-n04",
+      "tom": "ganha",
+      "bloco": "capsula",
+      "pt": "Ein Wort, bevor das erste Glas geleert wird: Proost — kurz, fest, mit Blick in die Augen der anderen am Tisch."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i08-p05",
+      "promptPt": "Alle Gläser sind gefüllt, und Blicke wandern zu Ihnen. Sagen Sie das eine Wort, das dazugehört. Jetzt sprechen.",
+      "audioKey": "hol-i08-t05",
+      "es": "Proost!",
+      "pinyin": "prohst",
+      "pt": "Prost!",
+      "tts": "Proost!"
+    },
+    {
+      "consulta": ["simpatia/elogiar-comida"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "WIE-LECKER",
+      "encaixe": "eten",
+      "encaixeGloss": "Essen",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i08-p06",
+      "promptPt": "Der Baustein von der Restaurantbestellung passt hier genauso gut, nur diesmal ist es keine Bedienung, die es hört, sondern die Person, die selbst gekocht hat. Jetzt sprechen.",
+      "audioKey": "hol-i08-t06",
+      "es": "Wat een heerlijk eten!",
+      "pinyin": "vat ayn HAYR-lick AY-ten",
+      "pt": "Was für ein köstliches Essen!",
+      "tts": "Wat een heerlijk eten!"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-i08-r03",
+      "tom": "ganha",
+      "es": "Fijn dat het smaakt! Wil je nog wat?",
+      "pinyin": "fain dat (h)ut smaakt! vil yuh noch vat",
+      "pt": "Schön, dass es schmeckt! Möchtest du noch etwas?",
+      "tts": "Fijn dat het smaakt! Wil je nog wat?",
+      "receptivo": true,
+      "acao": "Ein Ja oder ein höfliches Nein reicht — niemand erwartet eine Erklärung dazu."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i08-p07",
+      "promptPt": "Der Teller ist leer, und ein zweiter würde nicht mehr reingehen. Lehnen Sie freundlich ab. Jetzt sprechen.",
+      "audioKey": "hol-i08-t07",
+      "es": "Nee, dank je, ik zit vol.",
+      "pinyin": "nay, dank yuh, ik zit fol",
+      "pt": "Nein, danke, ich bin satt.",
+      "tts": "Nee, dank je, ik zit vol."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-i08-n05",
+      "tom": "ganha",
+      "pt": "Der richtige Moment zum Gehen zeigt sich oft daran, dass der Gastgeber selbst eine Bemerkung über die späte Stunde macht — das ist Ihr Zeichen, nicht Ihr Stichwort zum sofortigen Aufbruch."
+    },
+    {
+      "consulta": ["simpatia/agradecer"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "DANKE",
+      "encaixe": "dank je wel voor deze fijne avond",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i08-p08",
+      "promptPt": "Es wird spät, und beide wissen, dass der Abend gleich endet. Schließen Sie ihn mit einem letzten Satz. Jetzt sprechen.",
+      "audioKey": "hol-i08-t08",
+      "es": "Dank je wel voor deze fijne avond.",
+      "pinyin": "dank yuh wel for DAY-zuh FAI-nuh AA-vont",
+      "pt": "Danke für diesen schönen Abend.",
+      "tts": "Dank je wel voor deze fijne avond."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-i08-n06",
+      "tom": "ganha",
+      "bloco": "permissao",
+      "pt": "Sie müssen kein teures Geschenk mitbringen, und Sie dürfen ein zweites Mal ablehnen, ohne unhöflich zu wirken. Beides ist hier völlig üblich."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-i08-s01",
+      "tom": "ganha",
+      "molde": "WIE-LECKER",
+      "es": "Proost! Wat een heerlijk eten! Dank je wel voor deze fijne avond.",
+      "pinyin": "prohst! vat ayn HAYR-lick AY-ten! dank yuh wel for DAY-zuh FAI-nuh AA-vont.",
+      "pt": "Schatten Sie den Trinkspruch, das Lob und den Abschied hintereinander.",
+      "tts": "Proost! Wat een heerlijk eten! Dank je wel voor deze fijne avond."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "hol-i08-n07",
+      "tom": "ganha",
+      "bloco": "recap",
+      "pt": "I08 fertig. Eine Kleinigkeit in der Hand, ein Proost mit Blickkontakt, und ein Lob, das diesmal dem Koch selbst gilt."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Zu Gast sein",
+    "secoes": [
+      {
+        "titulo": "Proost — die eine feste Form",
+        "corpo": "Proost ist unveränderlich: kein Baustein mit Lücke, sondern ein festes Wort, das vor dem ersten Schluck fällt, meist mit kurzem Blickkontakt zu den anderen am Tisch.",
+        "exemplos": [
+          { "es": "Proost!", "pt": "Prost!" }
+        ]
+      },
+      {
+        "titulo": "Derselbe Baustein, eine neue Küche",
+        "corpo": "Wat een heerlijk eten funktioniert bei Gastgebern genauso wie im Restaurant — nur dass diesmal die Person, die gekocht hat, direkt am Tisch sitzt und das Lob unmittelbar hört."
+      }
+    ]
+  },
+  "slot": "I08",
+  "permissao": "Sie müssen kein teures Geschenk mitbringen, und Sie dürfen ein zweites Mal ablehnen, ohne unhöflich zu wirken. Beides ist hier völlig üblich.",
+  "permissaoAudioKey": "hol-i08-n06"
+}

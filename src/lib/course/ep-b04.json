@@ -1,0 +1,328 @@
+{
+  "id": "b04",
+  "nivel": "basico",
+  "numero": 4,
+  "parte": "B04",
+  "slot": "B04",
+  "titulo": "Der Küchentisch, zehn Tage vor dem Flug — vier Dinge, die jetzt entschieden werden",
+  "subtitulo": "Personalausweis oder Reisepass, die Debitkarte fürs Pinnen, das Ticket fürs Anne-Frank-Haus und die eine Nummer, die Sie vorher speichern",
+  "cena": "Der Küchentisch liegt voller Zettel, der Flug ist in zehn Tagen gebucht, und vier kleine Entscheidungen stehen noch offen, bevor der Koffer zugeht.",
+  "moldura": "protege",
+  "frasePiso": "Vier Häkchen an einem Abend am Küchentisch, und die ersten sechzig Minuten in den Niederlanden haben keine einzige Überraschung mehr, die Sie nicht schon kommen sahen.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "hol-b04-personalausweis",
+      "afirmacao": "Für eine Reise von Deutschland in die Niederlande reicht der gültige Personalausweis — beide Länder gehören zur EU und zum Schengen-Raum, und es gibt keine systematische Grenzkontrolle wie außerhalb davon. Ein Reisepass ist nicht nötig, sofern der Ausweis für die ganze Reisedauer gültig ist.",
+      "fonte": "Verordnung (EU) 2016/399 (Schengener Grenzkodex) zum Recht auf Freizügigkeit und zum Wegfall systematischer Personenkontrollen an Binnengrenzen zwischen Schengen-Staaten.",
+      "ano": 2016,
+      "revisarAte": "2028-08-20",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": ["hol-b04-n02"]
+    },
+    {
+      "id": "hol-b04-roaming",
+      "afirmacao": "Ihr deutscher Mobilfunktarif funktioniert in den Niederlanden zu denselben Konditionen wie zu Hause — Anrufe, SMS und Datenvolumen aus Ihrem Inlandstarif gelten auch dort, ohne Zusatzgebühr. Eine eigene eSIM lohnt sich nur, wenn Ihr Inlandstarif wenig Datenvolumen hat oder Sie länger als vier Monate am Stück im Ausland bleiben.",
+      "fonte": "Verordnung (EU) 2022/612 («Roam like at Home»), EU-weite Roaming-Regelung für Mobilfunk innerhalb der EU/EWR.",
+      "ano": 2022,
+      "revisarAte": "2028-08-20",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": ["hol-b04-n04"]
+    },
+    {
+      "id": "hol-b04-pinnen-vorbereitung",
+      "afirmacao": "Legen Sie sich vor dem Flug eine Debitkarte zurecht, die im Ausland funktioniert (Maestro, V Pay oder Visa/Mastercard Debit), plus etwas Bargeld. Grund: rund vier von fünf Zahlungen am Ladentisch in den Niederlanden laufen über Karte, fast alles davon Debit («pinnen»), und viele Kassen nehmen ausländische Kreditkarten gar nicht. Mehr zum Wort «pinnen» und zur ersten Zahlung in den ersten sechzig Minuten in B06.",
+      "fonte": "Betaalvereniging Nederland / De Nederlandsche Bank (DNB), Factsheet Toonbankbetalingen 2024.",
+      "ano": 2024,
+      "revisarAte": "2027-08-20",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": ["hol-b04-n06"]
+    },
+    {
+      "id": "hol-b04-ticket-vorab",
+      "afirmacao": "Für die bekanntesten Häuser in Amsterdam — allen voran das Anne-Frank-Haus, aber auch das Rijksmuseum und das Van-Gogh-Museum — gibt es an der Tür oft kein Ticket mehr zu kaufen: der Einlass läuft über ein Zeitfenster, das man Wochen vorher online bucht und das regelmäßig ausverkauft ist. Wer diese Häuser sehen will, bucht das Zeitfenster, bevor der Koffer zugeht, nicht danach.",
+      "fonte": "Praxis der offiziellen Ticketsysteme der genannten Häuser (Online-Zeitfenster-Buchung, Stand 2026); genaue Vorlauffristen ändern sich und werden hier bewusst nicht beziffert.",
+      "ano": 2026,
+      "revisarAte": "2027-02-01",
+      "evidencia": "CONSENSO",
+      "risco": "medio",
+      "audioKeys": ["hol-b04-n08"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b04-n01",
+      "gesto": 1,
+      "tom": "protege",
+      "bloco": "aquecimento",
+      "pt": "Vier Dinge liegen heute Abend noch offen. Keins dauert länger als fünf Minuten — aber jedes hat einen Termin."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b04-n02",
+      "tom": "ganha",
+      "bloco": "corpo",
+      "pt": "Erstens, die gute Nachricht: Ihr Personalausweis reicht. Beide Länder sind EU und Schengen — kein Reisepass nötig."
+    },
+    {
+      "consulta": ["reparo/devagar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "ik versta u niet",
+      "encaixeGloss": "ich verstehe Sie nicht",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b04-p01",
+      "promptPt": "Bevor Sie den Ausweis in die Tasche mit den Reisepapieren legen, üben Sie einmal laut, was Sie morgen sagen, wenn jemand Sie zu schnell anspricht. Sag es jetzt.",
+      "audioKey": "hol-b04-t01",
+      "es": "Sorry, ik versta u niet.",
+      "pinyin": "SO-rie, ik VER-staa ü neet",
+      "pt": "Entschuldigung, ich verstehe Sie nicht.",
+      "tts": "Sorry, ik versta u niet."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b04-n03",
+      "tom": "ganha",
+      "pt": "Zweitens: das Handy. Sie müssen keine eigene eSIM kaufen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b04-n04",
+      "tom": "ganha",
+      "pt": "Ihr deutscher Tarif funktioniert dort zu denselben Konditionen wie zu Hause. Eine eSIM lohnt sich nur bei wenig Datenvolumen oder langem Aufenthalt."
+    },
+    {
+      "consulta": ["chegar/entrar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b04-p02",
+      "promptPt": "Sie stellen sich vor, wie Sie morgen am Gate ankommen und die Person am Schalter zuerst ansehen. Grüßen Sie sie, bevor Sie irgendetwas fragen. Sag es jetzt.",
+      "audioKey": "hol-b04-t02",
+      "es": "Goedendag!",
+      "pinyin": "CHUU-den-dach!",
+      "pt": "Guten Tag!",
+      "tts": "Goedendag!"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b04-r01",
+      "tom": "ganha",
+      "es": "Wilt u een bevestiging per sms?",
+      "pinyin": "wilt ü un buh-VES-ti-ching per es-em-es?",
+      "pt": "Möchten Sie eine Bestätigung per SMS?",
+      "tts": "Wilt u een bevestiging per sms?",
+      "receptivo": true,
+      "acao": "Zwei kleine Wörter reichen als Antwort: ja oder nee — beide klingen fast wie im Deutschen."
+    },
+    {
+      "consulta": ["reparo/apontar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b04-p06",
+      "promptPt": "Ein Anruf zur Bestätigung des Fluges, und die Stimme am anderen Ende fragt nach einer schriftlichen Bestätigung. Sie wollen das. Sag es jetzt.",
+      "audioKey": "hol-b04-t05",
+      "es": "Ja, graag.",
+      "pinyin": "yaa, chraach",
+      "pt": "Ja, gerne.",
+      "tts": "Ja, graag."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b04-n05",
+      "tom": "protege",
+      "pt": "Drittens, und das ist der wichtigste Griff: eine Debitkarte, keine reine Kreditkarte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b04-n06",
+      "tom": "protege",
+      "pt": "Vier von fünf Zahlungen dort laufen über Karte, fast alles Debit — pinnen. Viele Kassen nehmen ausländische Kreditkarten gar nicht."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b04-n07",
+      "tom": "ganha",
+      "pt": "Mehr zu diesem Wort erwartet Sie in B06 — heute reicht die eine Karte im Portemonnaie."
+    },
+    {
+      "consulta": ["simpatia/agradecer"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "DANKE",
+      "encaixe": "dank u wel",
+      "encaixeGloss": "vielen Dank",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b04-p03",
+      "promptPt": "Sie legen die Debitkarte griffbereit neben den Ausweis und stellen sich die erste kleine Hilfe morgen vor, die jemand Ihnen leistet. Schließen Sie das kurz ab, so wie man das hier macht. Sag es jetzt.",
+      "audioKey": "hol-b04-t03",
+      "es": "Dank u wel!",
+      "pinyin": "dank ü WEL!",
+      "pt": "Vielen Dank!",
+      "tts": "Dank u wel!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b04-n08",
+      "tom": "protege",
+      "bloco": "capsula",
+      "pt": "Viertens, nur falls auf Ihrer Liste: die großen Amsterdamer Museen verkaufen an der Tür oft nichts mehr — Zeitfenster vorab online buchen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b04-n09",
+      "tom": "ganha",
+      "pt": "Kein Museum auf der Liste? Dann fällt dieser Punkt weg, und Sie haben heute Abend nur noch drei Dinge, keine vier."
+    },
+    {
+      "consulta": ["reparo/ingles"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "spreekt u Engels",
+      "encaixeGloss": "sprechen Sie Englisch",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b04-p07",
+      "promptPt": "Die Buchungsseite des Museums hat gerade eine Rückfrage im Chatfenster geschickt, ganz auf Niederländisch. Sag es jetzt.",
+      "audioKey": "hol-b04-t06",
+      "es": "Sorry, spreekt u Engels?",
+      "pinyin": "SO-rie, SPRAYKT ü ENG-els?",
+      "pt": "Entschuldigung, sprechen Sie Englisch?",
+      "tts": "Sorry, spreekt u Engels?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b04-r02",
+      "tom": "ganha",
+      "es": "Wilt u ook een reisverzekering?",
+      "pinyin": "wilt ü ook un REIS-ver-zay-ke-ring?",
+      "pt": "Möchten Sie auch eine Reiseversicherung?",
+      "tts": "Wilt u ook een reisverzekering?",
+      "receptivo": true,
+      "acao": "Sie haben zu Hause schon eine — die Antwort ist kurz und beide Wörter kennen Sie bereits."
+    },
+    {
+      "consulta": ["reparo/apontar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b04-p08",
+      "promptPt": "Sie haben zu Hause bereits eine Reiseversicherung und brauchen die zusätzliche nicht. Sag es jetzt.",
+      "audioKey": "hol-b04-t07",
+      "es": "Nee, dank u.",
+      "pinyin": "nee, dank ü",
+      "pt": "Nein, danke.",
+      "tts": "Nee, dank u."
+    },
+    {
+      "consulta": ["simpatia/agradecer"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "DANKE",
+      "encaixe": "bedankt",
+      "encaixeGloss": "danke",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b04-p09",
+      "promptPt": "Der Anruf ist fertig, alles bestätigt, und die Stimme am anderen Ende wünscht Ihnen noch einen schönen Flug. Sag es jetzt.",
+      "audioKey": "hol-b04-t08",
+      "es": "Bedankt!",
+      "pinyin": "buh-DANKT!",
+      "pt": "Danke!",
+      "tts": "Bedankt!"
+    },
+    {
+      "consulta": ["reparo/apontar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b04-p04",
+      "promptPt": "Und ganz zum Schluss, weil es so gut zum Wort passt: der Diphthong aus B01, in dem Wort, das es im Deutschen gar nicht gibt. Ein Eis, zur Übung. Sag es jetzt.",
+      "audioKey": "hol-b04-t04",
+      "es": "Een ijsje, alstublieft.",
+      "pinyin": "en EIS-yuh, als-tü-BLEEFT",
+      "pt": "Ein Eis, bitte.",
+      "tts": "Een ijsje, alstublieft."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b04-n10",
+      "tom": "ganha",
+      "bloco": "permissao",
+      "pt": "Sie müssen heute Abend nichts auswendig können. Vier Häkchen, keine Prüfung — jedes fällt weg, sobald erledigt."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b04-n11",
+      "tom": "ganha",
+      "bloco": "recap",
+      "pt": "B04 fertig. Ausweis, Handytarif, Debitkarte, und das Museumsticket, falls nötig — vier Häkchen, und der Koffer kann zu."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Vier Punkte mit Termin",
+    "secoes": [
+      {
+        "titulo": "Personalausweis statt Reisepass",
+        "corpo": "Deutschland und die Niederlande gehören beide zur EU und zum Schengen-Raum, in dem systematische Personenkontrollen an den Binnengrenzen entfallen. Der gültige Personalausweis reicht für die ganze Reise — prüfen Sie nur, dass er über das Reisedatum hinaus gültig bleibt."
+      },
+      {
+        "titulo": "Roaming, ohne eSIM",
+        "corpo": "Die EU-Regelung «Roam like at Home» sorgt dafür, dass Ihr deutscher Handytarif in den Niederlanden zu denselben Konditionen funktioniert wie zu Hause. Eine eSIM oder ein Auslandstarif lohnt sich nur, wenn Ihr Inlandsvertrag wenig Datenvolumen hat oder Sie sich sehr lange am Stück im Ausland aufhalten."
+      },
+      {
+        "titulo": "Debitkarte vor Kreditkarte",
+        "corpo": "In den Niederlanden ist Debitzahlung («pinnen») der Normalfall, nicht die Ausnahme: rund vier von fünf Zahlungen am Ladentisch laufen über Karte, fast alles davon Debit, und viele Kassen — der Supermarkt Albert Heijn ist das meistgenannte Beispiel — nehmen ausländische Kreditkarten gar nicht an. Eine Debitkarte (Maestro, V Pay, Visa/Mastercard Debit) plus etwas Bargeld ist die sichere Kombination für die erste Zeit. Das Wort selbst und die erste Zahlung damit kommen ausführlich in B06.",
+        "exemplos": [
+          { "es": "pinnen", "pt": "mit Debitkarte bezahlen" },
+          { "es": "contant", "pt": "Bargeld" }
+        ]
+      },
+      {
+        "titulo": "Tickets für die großen Häuser",
+        "corpo": "Wer das Anne-Frank-Haus, das Rijksmuseum oder das Van-Gogh-Museum besuchen will, bucht das Zeitfenster online, bevor der Flug losgeht — an der Tür ist oft nichts mehr zu haben, weil der Einlass über vorab reservierte Slots läuft. Die genauen Vorlauffristen ändern sich von Haus zu Haus und von Saison zu Saison; die einzige feste Regel ist, es nicht auf den Ankunftstag zu verschieben."
+      }
+    ]
+  },
+  "permissao": "Sie müssen heute Abend keine Reihenfolge einhalten und nichts auswendig lernen. Vier Punkte, jeder für sich erledigt, und sobald einer nicht zutrifft — kein Museum auf der Liste zum Beispiel — fällt er einfach weg.",
+  "permissaoAudioKey": "hol-b04-n10",
+  "espelho": "Sie machen dieselbe Liste vor jeder Reise, die über die eigene Landesgrenze geht — nur die vier Punkte sind hier andere: kein Visum-Check, dafür eine Karte, die wirklich funktioniert, und ein Ticket, das es an der Tür vielleicht nicht mehr gibt.",
+  "fichasCulturais": [
+    {
+      "sinal": "Sie stehen vor dem Anne-Frank-Haus, die Schlange bewegt sich nicht, und am Einlass hängt ein Schild: heute ausverkauft.",
+      "suaLeitura": "Ich bin zu spät dran, oder das Haus hat ungewöhnlich früh geschlossen.",
+      "oQueEAli": "Der Einlass läuft bei den großen Amsterdamer Häusern über online gebuchte Zeitfenster, nicht über Anstehen — an der Tür wird oft grundsätzlich nichts mehr verkauft, ausverkauft ist ausverkauft, unabhängig von der Uhrzeit.",
+      "oQueVoceFaz": "Buchen Sie das Zeitfenster online, bevor Sie fliegen, mit einer festen Uhrzeit für den Tag, an dem Sie wirklich vor Ort sind.",
+      "oQueMelhora": "Ein enttäuschter Nachmittag vor einer verschlossenen Tür wird zu einem ruhigen Klick am Küchentisch, Tage vorher.",
+      "ondeNaoVale": "Kleinere Museen und die meisten anderen Sehenswürdigkeiten in den Niederlanden verkaufen ganz normal Tickets vor Ort — die Regel gilt vor allem für die wenigen sehr gefragten Häuser in Amsterdam.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["hol-b04-n08"]
+    }
+  ]
+}

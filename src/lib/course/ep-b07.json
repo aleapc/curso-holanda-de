@@ -1,0 +1,346 @@
+{
+  "id": "b07",
+  "nivel": "basico",
+  "numero": 7,
+  "parte": "B07",
+  "slot": "B07",
+  "titulo": "Kunt u — vom Gepäckband bis zum Bett, in vier Worten gefragt",
+  "subtitulo": "Der Flug landet um Viertel nach elf, die Stadt liegt eine halbe Stunde entfernt, und zwischen Ihnen und dem Bett liegen noch ein Automat, ein Bahnsteig und eine Rezeption",
+  "cena": "Der Flug landet um Viertel nach elf, das Gepäckband steht noch still, und zwischen Ihnen und einem Bett liegen ein Fahrkartenautomat, ein Bahnsteig und eine Rezeption, die niemand mehr erwartet.",
+  "moldura": "ganha",
+  "moldes": ["KONNEN-SIE"],
+  "clique": {
+    "contagem": ["Fahrkartenautomat", "Abteil", "Bahnhofsschalter"],
+    "desconto": "Am Automaten, im Abteil und am Bahnhofsschalter haben Sie jedes Mal denselben Baustein benutzt und nur das Ende ausgetauscht. Niemand hat Ihnen für jede Station einen neuen Satz beigebracht."
+  },
+  "fatosDatados": [
+    {
+      "id": "hol-b07-schiphol-zug",
+      "afirmacao": "Vom Bahnhof direkt unter dem Flughafen Schiphol fahren mehrmals pro Stunde Direktzüge (NS Sprinter oder Intercity) nach Amsterdam Centraal — die Fahrt dauert etwa eine Viertelstunde. Für die meisten Ankünfte ist das die schnellste und günstigste Verbindung in die Stadt, deutlich vor Taxi oder Mietwagen.",
+      "fonte": "NS (Nederlandse Spoorwegen), reguläre Fahrplanauskunft Schiphol Airport – Amsterdam Centraal; genaue Taktung und Preise variieren nach Uhrzeit und werden hier bewusst nicht beziffert.",
+      "ano": 2026,
+      "revisarAte": "2027-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": ["hol-b07-n02"]
+    },
+    {
+      "id": "hol-b07-ovpay",
+      "afirmacao": "Für Bus, Bahn und Straßenbahn in den Niederlanden brauchen Sie keine eigene Chipkarte mehr zu kaufen: die meisten Verkehrsbetriebe, darunter die NS, akzeptieren inzwischen kontaktlose Bank- und Kreditkarten direkt am gelben Lesegerät (OVpay) — einchecken beim Einsteigen, auschecken beim Aussteigen, genau wie mit der OV-chipkaart. Mehr zum Ein- und Auschecken folgt in B09.",
+      "fonte": "Translink / NS, Ausweitung der kontaktlosen Zahlung (OVpay) im niederländischen ÖPNV, Stand 2026; die Abdeckung wächst weiterhin von Betrieb zu Betrieb.",
+      "ano": 2026,
+      "revisarAte": "2027-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "medio",
+      "audioKeys": ["hol-b07-n07"]
+    },
+    {
+      "id": "hol-b07-taxi-vorsicht",
+      "afirmacao": "In der Ankunftshalle sprechen gelegentlich Personen ohne Uniform Reisende an und bieten eine «Taxifahrt zum Festpreis» an, bevor diese den offiziellen Taxistand erreicht haben — eine Masche, die an vielen großen Flughäfen Europas vorkommt, nicht nur in Amsterdam. Der sichere Weg ist der ausgeschilderte Taxistand oder eine Fahrt, die das Hotel oder ein Bahnschalter für Sie vermittelt.",
+      "fonte": "Allgemein berichtete Reisehinweise zu inoffiziellen Taxi-Anwerbern an internationalen Flughäfen; keine schiphol-spezifische Statistik zitiert.",
+      "ano": 2026,
+      "revisarAte": "2027-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "medio",
+      "audioKeys": ["hol-b07-n09"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b07-n01",
+      "gesto": 1,
+      "tom": "ganha",
+      "bloco": "aquecimento",
+      "pt": "Vier Stationen zwischen Landung und Bett, und ein einziger Baustein trägt Sie durch alle vier."
+    },
+    {
+      "consulta": ["chegar/balcao"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "HABEN-SIE",
+      "encaixe": "een bagagewagentje",
+      "encaixeGloss": "einen Gepäckwagen",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b07-p01",
+      "promptPt": "Das Gepäckband steht noch still, aber Sie haben schon zwei schwere Koffer, und am Rand stehen ein paar leere Wagen. Fragen Sie den Mitarbeiter daneben, wie Sie es aus B06 kennen. Sag es jetzt.",
+      "audioKey": "hol-b07-t01",
+      "es": "Heeft u een bagagewagentje?",
+      "pinyin": "HÉÉFT ü un ba-CHAA-zhe-VAA-chen-tuh?",
+      "pt": "Haben Sie einen Gepäckwagen?",
+      "tts": "Heeft u een bagagewagentje?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b07-n02",
+      "tom": "ganha",
+      "bloco": "corpo",
+      "pt": "Der Bahnhof liegt direkt unter dem Terminal: mehrmals pro Stunde ein Direktzug in die Stadt, meist schneller als jedes Taxi."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b07-n03",
+      "tom": "ganha",
+      "bloco": "molde",
+      "pt": "Hier ist der Baustein: Kunt u, dahinter, was die andere Person tun soll — im Infinitiv, ganz am Ende."
+    },
+    {
+      "consulta": ["transporte/bilhete"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "KONNEN-SIE",
+      "encaixe": "mij helpen",
+      "encaixeGloss": "mir helfen",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b07-p02",
+      "promptPt": "Der Fahrkartenautomat zeigt nur Niederländisch, es ist kurz vor Mitternacht, und die Schlange hinter Ihnen wird länger. Sag es jetzt.",
+      "audioKey": "hol-b07-t02",
+      "es": "Kunt u mij helpen?",
+      "pinyin": "kunt ü mei HEL-pen?",
+      "pt": "Können Sie mir helfen?",
+      "tts": "Kunt u mij helpen?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b07-r01",
+      "tom": "ganha",
+      "es": "Natuurlijk. Waar moet u naartoe?",
+      "pinyin": "na-TÜÜR-lük. waar moot ü naar-TOO?",
+      "pt": "Natürlich. Wohin müssen Sie?",
+      "tts": "Natuurlijk. Waar moet u naartoe?",
+      "receptivo": true,
+      "acao": "Bleiben Sie stehen und nennen Sie einfach den Zielnamen — Amsterdam Centraal reicht als ganze Antwort."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b07-n04",
+      "tom": "ganha",
+      "pt": "Kunt u trägt die höfliche Form schon in sich, genau wie Heeft u aus B06 — kein du/Sie zu entscheiden."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b07-n05",
+      "tom": "protege",
+      "pt": "Erinnern Sie sich an das vierte Werkzeug aus B03? Jetzt ist der Moment: eine Zahl, die Sie nicht verhören dürfen."
+    },
+    {
+      "consulta": ["reparo/escreve"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "KONNEN-SIE",
+      "encaixe": "dat opschrijven",
+      "encaixeGloss": "das aufschreiben",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b07-p03",
+      "promptPt": "Der Schaffner nennt die Gleisnummer für den Anschlusszug, aber der Lautsprecher übertönt die Hälfte des Satzes. Bitten Sie um Papier statt um Wiederholung. Sag es jetzt.",
+      "audioKey": "hol-b07-t03",
+      "es": "Kunt u dat opschrijven?",
+      "pinyin": "kunt ü dat OP-schrei-ven?",
+      "pt": "Können Sie das aufschreiben?",
+      "tts": "Kunt u dat opschrijven?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b07-n06",
+      "tom": "ganha",
+      "pt": "Derselbe Baustein löst drei völlig verschiedene Probleme: Hilfe, Wiederholung, Papier. Nur das Ende wechselt, nie der Anfang."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b07-n07",
+      "tom": "ganha",
+      "pt": "Für den Fahrschein brauchen Sie oft keine eigene Karte: die kontaktlose Bankkarte funktioniert am gelben Lesegerät direkt. Mehr in B09."
+    },
+    {
+      "consulta": ["reparo/devagar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "spreekt u Engels",
+      "encaixeGloss": "sprechen Sie Englisch",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b07-p04",
+      "promptPt": "Der Schaffner im Abteil hat gerade eine ganze Durchsage gemacht, viel zu schnell, und niemand um Sie herum scheint verwirrt. Fragen Sie ihn leise, statt zu raten. Sag es jetzt.",
+      "audioKey": "hol-b07-t04",
+      "es": "Sorry, spreekt u Engels?",
+      "pinyin": "SO-rie, SPRAYKT ü ENG-els?",
+      "pt": "Entschuldigung, sprechen Sie Englisch?",
+      "tts": "Sorry, spreekt u Engels?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b07-n08",
+      "tom": "protege",
+      "bloco": "capsula",
+      "pt": "Eine Warnung für die Ankunftshalle: Menschen ohne Uniform bieten manchmal einen Taxi-Festpreis an, vor dem offiziellen Stand."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b07-n09",
+      "tom": "protege",
+      "pt": "Das kommt an vielen Flughäfen vor. Gehen Sie weiter zum ausgeschilderten Taxistand, oder lassen Sie die Fahrt vermitteln."
+    },
+    {
+      "consulta": ["taxi/destino"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "KONNEN-SIE",
+      "encaixe": "een taxi voor mij bellen",
+      "encaixeGloss": "ein Taxi für mich rufen",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b07-p05",
+      "promptPt": "Am Bahnhofsschalter brennt noch Licht, aber der letzte Zug in Richtung Innenstadt ist gerade abgefahren, und die Mitarbeiterin sieht Sie fragend an. Sag es jetzt.",
+      "audioKey": "hol-b07-t05",
+      "es": "Kunt u een taxi voor mij bellen?",
+      "pinyin": "kunt ü un TAK-see voor mei BEL-len?",
+      "pt": "Können Sie ein Taxi für mich rufen?",
+      "tts": "Kunt u een taxi voor mij bellen?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b07-r02",
+      "tom": "ganha",
+      "es": "Zeker, over vijf minuten staat hij voor de deur.",
+      "pinyin": "ZAY-ker, oh-ver feif mee-NOO-ten staat hei voor duh duur",
+      "pt": "Sicher, in fünf Minuten steht es vor der Tür.",
+      "tts": "Zeker, over vijf minuten staat hij voor de deur.",
+      "receptivo": true,
+      "acao": "Die Minutenzahl ist der einzige Teil, den Sie behalten müssen — der Rest ist nur Zusicherung."
+    },
+    {
+      "consulta": ["simpatia/agradecer"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "DANKE",
+      "encaixe": "dank u wel",
+      "encaixeGloss": "vielen Dank",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b07-p06",
+      "promptPt": "Die Mitarbeiterin am Schalter hat innerhalb einer Minute alles für Sie geregelt. Sag es jetzt.",
+      "audioKey": "hol-b07-t06",
+      "es": "Dank u wel!",
+      "pinyin": "dank ü WEL!",
+      "pt": "Vielen Dank!",
+      "tts": "Dank u wel!"
+    },
+    {
+      "consulta": ["reparo/apontar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "KONNEN-SIE",
+      "encaixe": "mij helpen",
+      "encaixeGloss": "mir helfen",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b07-p07",
+      "promptPt": "Auf dem Bahnsteig zeigt die Anzeigetafel plötzlich ein anderes Gleis als vorhin, und ein Mitreisender mit Ortskenntnis steht direkt neben Ihnen. Sag es jetzt.",
+      "audioKey": "hol-b07-t02",
+      "es": "Kunt u mij helpen?",
+      "pinyin": "kunt ü mei HEL-pen?",
+      "pt": "Können Sie mir helfen?",
+      "tts": "Kunt u mij helpen?"
+    },
+    {
+      "consulta": ["chegar/entrar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b07-p08",
+      "promptPt": "Im Zug setzt sich jemand Ihnen gegenüber und lächelt Sie an, bevor der Zug überhaupt losfährt. Grüßen Sie zurück. Sag es jetzt.",
+      "audioKey": "hol-b07-t07",
+      "es": "Goedendag!",
+      "pinyin": "CHUU-den-dach!",
+      "pt": "Guten Tag!",
+      "tts": "Goedendag!"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-b07-s01",
+      "tom": "ganha",
+      "es": "Kunt u mij helpen? Kunt u dat opschrijven? Kunt u een taxi voor mij bellen?",
+      "pinyin": "kunt ü mei HEL-pen? · kunt ü dat OP-schrei-ven? · kunt ü un TAK-see voor mei BEL-len?",
+      "pt": "Schatten Sie denselben Baustein über drei völlig verschiedene Probleme.",
+      "tts": "Kunt u mij helpen? Kunt u dat opschrijven? Kunt u een taxi voor mij bellen?",
+      "molde": "KONNEN-SIE"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b07-n10",
+      "tom": "ganha",
+      "bloco": "permissao",
+      "pt": "Sie müssen nicht das exakt richtige Wort finden. Kunt u trägt Sie schon dahin — die andere Person versteht, was gemeint ist."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b07-n11",
+      "tom": "ganha",
+      "bloco": "clique",
+      "pt": "Am Automaten, im Abteil und am Bahnhofsschalter haben Sie jedes Mal denselben Baustein benutzt und nur das Ende ausgetauscht."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b07-n12",
+      "tom": "ganha",
+      "bloco": "recap",
+      "pt": "B07 fertig. Kunt u, plus was Sie brauchen — vier Stationen bis zum Bett, ein Baustein."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Ein Baustein, vier Stationen",
+    "secoes": [
+      {
+        "titulo": "Kunt u plus Infinitiv",
+        "corpo": "Der Baustein hält die Form immer gleich: Kunt u, dann das, was die andere Person tun soll, im Infinitiv, ganz am Ende des Satzes. Das ist genau die Regel, die Ihr eigenes Deutsch im Nebensatz auch befolgt — der zweite Verb-Teil ans Ende — und deshalb müssen Sie sie hier nicht neu lernen, nur wiedererkennen.",
+        "exemplos": [
+          { "es": "Kunt u mij helpen?", "pt": "Können Sie mir helfen?" },
+          { "es": "Kunt u dat opschrijven?", "pt": "Können Sie das aufschreiben?" }
+        ]
+      },
+      {
+        "titulo": "Der schnellste Weg vom Flughafen",
+        "corpo": "Der Bahnhof unter Schiphol verbindet mehrmals pro Stunde direkt mit Amsterdam Centraal, in etwa einer Viertelstunde — für die meisten Ankünfte die schnellste und günstigste Option. Für Fahrscheine reicht inzwischen oft die eigene kontaktlose Bankkarte, mehr dazu in B09."
+      },
+      {
+        "titulo": "Der Taxi-Trick in der Ankunftshalle",
+        "corpo": "Menschen ohne Uniform, die einen Taxi-Festpreis anbieten, bevor Sie den offiziellen Stand erreicht haben, sind an vielen großen Flughäfen ein bekanntes Muster, nicht nur in Amsterdam. Der ausgeschilderte Taxistand oder eine vom Hotel vermittelte Fahrt ist der sichere Weg — und derselbe Baustein aus diesem Kapitel ruft Ihnen notfalls direkt eines an der Rezeption."
+      }
+    ]
+  },
+  "permissao": "Sie müssen nicht das exakt richtige Wort am Ende des Satzes finden. Kunt u trägt Sie schon dahin, und die andere Person versteht aus dem Zusammenhang, was Sie brauchen, auch wenn das letzte Wort nicht perfekt sitzt.",
+  "permissaoAudioKey": "hol-b07-n10",
+  "espelho": "Sie helfen zu Hause selbst ständig Reisenden, die «Können Sie…?» fragen, ohne den ganzen restlichen Satz zu brauchen — hier sind Sie einfach auf der anderen Seite dieser immer gleichen kleinen Bitte.",
+  "fichasCulturais": [
+    {
+      "sinal": "In der Ankunftshalle spricht Sie jemand ohne Uniform an, bevor Sie den ausgeschilderten Taxistand erreicht haben, und bietet eine Fahrt zum Festpreis an.",
+      "suaLeitura": "Das ist bestimmt ein offizieller Service, der mir Zeit spart.",
+      "oQueEAli": "Inoffizielle Anwerber vor dem eigentlichen Taxistand kommen an vielen großen Flughäfen Europas vor — sie nutzen die Unsicherheit direkt nach der Landung aus, nicht eine besondere Eigenheit von Amsterdam.",
+      "oQueVoceFaz": "Gehen Sie einfach weiter bis zum ausgeschilderten Taxistand, oder bitten Sie eine Person in Uniform, ein Taxi für Sie zu rufen — mit demselben Baustein, den Sie gerade gelernt haben.",
+      "oQueMelhora": "Ein Moment, der nach Zeitdruck aussah, wird zu einem kurzen, ruhigen Weiterlaufen — Sie kennen das Muster schon, bevor es Sie erreicht.",
+      "ondeNaoVale": "Am regulären, ausgeschilderten Taxistand mit Uniform und Taxameter besteht dieses Risiko nicht — die Vorsicht gilt gezielt der Ankunftshalle davor.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["hol-b07-n09"]
+    }
+  ]
+}

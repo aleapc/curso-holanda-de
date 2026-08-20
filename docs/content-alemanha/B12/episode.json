@@ -1,0 +1,394 @@
+{
+  "id": "b12",
+  "nivel": "basico",
+  "numero": 12,
+  "parte": "B12",
+  "slot": "B12",
+  "titulo": "Ohne — het kleine woord dat het bord van u maakt",
+  "subtitulo": "Vijf dingen die u er liever uit laat, één woord om ze eruit te laten, en de twee manieren om ch te zeggen",
+  "cena": "Tien over één, een lunchtoonbank met een schoolbord, vier mensen achter u in de rij, en de vrouw met de tang kijkt u recht aan.",
+  "moldura": "ganha",
+  "frasePiso": "Zes bestellingen, gebouwd uit één klein woord, aan drie verschillende toonbanken. De meesten die hier een week zijn, eten wat komt.",
+  "moldes": [
+    "OHNE"
+  ],
+  "clique": {
+    "contagem": [
+      "de lunchtoonbank",
+      "de bakkerstoonbank",
+      "het café",
+      "de Gasthaus-tafel"
+    ],
+    "desconto": "Niemand schreef zes zinnen voor u. U nam één woord, zette het vóór wat u niet wilde, en het bord veranderde.",
+    "piso": "De volgende keer dat wat u wilt niet op het bord staat, eet u er niet omheen. U zegt het ene woord dat het eraf haalt."
+  },
+  "fatosDatados": [
+    {
+      "id": "de-b12-ch-duplo",
+      "afirmacao": "De letters ⟨ch⟩ staan voor twee klanken die het Engelse oor niet uit elkaar houdt. De referentiebeschrijving van standaard Noord-Duits geeft een voorste klank na voorklinkers, na medeklinkers en aan het begin van een morfeem — ich, Milch, Chemie — en een achterste klank na achterklinkers, zoals in Buch en Bach. Het contrast kan een heel woord dragen: Frauchen tegenover rauchen.",
+      "fonte": "Klaus J. Kohler, «German», Handbook of the International Phonetic Association, Cambridge UP, 1999, pp. 86–88",
+      "ano": 1999,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-b12-n03",
+        "de-b12-n04"
+      ]
+    },
+    {
+      "id": "de-b12-nl-ich-laut",
+      "afirmacao": "De ⟨ü⟩ en ⟨ö⟩ krijgt u van huis mee: Gussenhoven noemt /y/ (fuut) en /øː/ (neus) als volle klinkers van het Nederlands. Wat u niet meebrengt is de /ç/ van het Duitse ich: het foneemkader van het Randstad-Nederlands heeft alleen de uvulare /χ/, en de spreker vervangt de ich-Laut vaak door die klank. Kohler geeft het minimale paar Frauchen /fʁauçən/ tegenover rauchen /ʁauχən/, waarmee het contrast een heel woord kan dragen.",
+      "fonte": "Carlos Gussenhoven, «Dutch», Handbook of the IPA, Cambridge UP, 1999, pp. 74–77; Klaus Kohler, ibidem, pp. 86–88",
+      "ano": 1999,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-b12-n07",
+        "de-b12-n08"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b12-n01",
+      "gesto": 2,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "Ohne. Twee lettergrepen, OH-nuh, en de h zwijgt — hij zegt alleen dat de o lang is."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b12-n02",
+      "bloco": "cena",
+      "pt": "Tien over één, een schoolbord dat u niet helemaal kunt lezen, en de vrouw met de tang wacht."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b12-n03",
+      "bloco": "molde",
+      "pt": "Hier is de bouwsteen die bijna elk bord repareert: ohne, en dan wat u er liever niet in wilt."
+    },
+    {
+      "consulta": [
+        "dieta/sem",
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "HABEN-SIE",
+      "encaixe": "etwas ohne Fleisch",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b12-p01",
+      "promptPt": "Elk gerecht op het schoolbord van de lunchtoonbank lijkt een dier te bevatten. Vraag wat er nog meer is. Spreek nu.",
+      "audioKey": "de-b12-t01",
+      "es": "Haben Sie etwas ohne Fleisch?",
+      "pinyin": "HAH-ben zee ET-vas OH-nuh flysh",
+      "pt": "Hebt u iets zonder vlees?",
+      "tts": "Haben Sie etwas ohne Fleisch?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b12-rr01",
+      "es": "Ja, die Gemüsesuppe und den Kartoffelsalat.",
+      "pinyin": "yah, dee guh-MUE-zuh-zoo-puh oont dayn kar-TOF-fel-za-laht",
+      "pt": "Ja, de groentesoep en de aardappelsalade.",
+      "tts": "Ja, die Gemüsesuppe und den Kartoffelsalat."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b12-n04",
+      "bloco": "corpo",
+      "pt": "Fleisch, met ei, is vlees met de klinker van mijn in het midden. Weer de tweede letter."
+    },
+    {
+      "consulta": [
+        "dieta/sem",
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "die Gemüsesuppe",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b12-p07",
+      "promptPt": "Ze noemde net twee dingen die u kunt eten en het eerste klonk warm. Bestel het. Spreek nu.",
+      "audioKey": "de-b12-t02",
+      "es": "Ich möchte die Gemüsesuppe, bitte.",
+      "pinyin": "ikh MURKH-tuh dee guh-MUE-zuh-zoo-puh, BIT-tuh",
+      "pt": "Ik wil graag de groentesoep, alstublieft.",
+      "tts": "Ich möchte die Gemüsesuppe, bitte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b12-n05",
+      "pt": "Ohne is de enige plek waar het ding kaal komt. Geen klein woord ervoor: ohne Fleisch, ohne Milch."
+    },
+    {
+      "consulta": [
+        "dieta/sem",
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "OHNE",
+      "encaixe": "Zwiebeln",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b12-p02",
+      "promptPt": "Er zit iets rauws en wits door de salade in de vitrine, en u praat de hele middag. Spreek nu.",
+      "audioKey": "de-b12-t03",
+      "es": "Ohne Zwiebeln, bitte.",
+      "pinyin": "OH-nuh TSVEE-beln, BIT-tuh",
+      "pt": "Zonder uien, alstublieft.",
+      "tts": "Ohne Zwiebeln, bitte."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b12-r01",
+      "es": "Alles klar. Ohne Zwiebeln. Sonst noch etwas?",
+      "pinyin": "AL-les klar. OH-nuh TSVEE-beln. zonst nokh ET-vas",
+      "pt": "In orde. Zonder uien. Nog iets?",
+      "tts": "Alles klar. Ohne Zwiebeln. Sonst noch etwas?",
+      "receptivo": true,
+      "acao": "Sonst noch etwas is de vraag die u nog een beurt geeft. Gebruik hem: dáár passen de drank en het brood in."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b12-n06",
+      "pt": "Die vraag is uw tweede beurt aan de toonbank. De meesten zeggen nee en staan vijf minuten later weer in de rij."
+    },
+    {
+      "consulta": [
+        "dieta/sem",
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "OHNE",
+      "encaixe": "Milch",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b12-p03",
+      "promptPt": "Het café op de hoek staat op het punt u koffie te geven met een witte krul erop, en u en zuivel gingen jaren geleden uit elkaar. Spreek nu.",
+      "audioKey": "de-b12-t04",
+      "es": "Einen Kaffee ohne Milch, bitte.",
+      "pinyin": "INE-en KA-fay OH-nuh milkh, BIT-tuh",
+      "pt": "Een koffie zonder melk, alstublieft.",
+      "tts": "Einen Kaffee ohne Milch, bitte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b12-n07",
+      "pt": "Milch eindigt als ich: tong voorin, luchtruis — dát is de nieuwe klank. Bach zit achterin, en dat is uw ⟨g⟩ van gaan."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-b12-r02",
+      "es": "Milch. Ich. Chemie. Buch. Bach.",
+      "pinyin": "milkh. ikh. khay-MEE. bookh. bakh",
+      "pt": "Melk. Ik. Scheikunde. Boek. Beek.",
+      "tts": "Milch. Ich. Chemie. Buch. Bach.",
+      "receptivo": true,
+      "acao": "Luister waar de ruis zit. Voorste drie tegen het gehemelte, achterste twee in de keel — de klinker ervoor beslist."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b12-n08",
+      "pt": "En de ö van möchte kent u uit neus en schön. Geen nieuwe klank, alleen een nieuw etiket."
+    },
+    {
+      "consulta": [
+        "dieta/sem",
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "OHNE",
+      "encaixe": "Eis",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b12-p04",
+      "promptPt": "U hebt liever het glas vol drank dan vol met het bevroren spul dat thuis standaard is. Spreek nu.",
+      "audioKey": "de-b12-t05",
+      "es": "Ein Wasser ohne Eis, bitte.",
+      "pinyin": "ine VAH-suh OH-nuh ice, BIT-tuh",
+      "pt": "Een water zonder ijs, alstublieft.",
+      "tts": "Ein Wasser ohne Eis, bitte."
+    },
+    {
+      "consulta": [
+        "dieta/o-que-tem",
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-SUCHE",
+      "encaixe": "etwas ohne Zucker",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b12-p05",
+      "promptPt": "Aan de bakkerstoonbank glimt de helft van de plaat en de andere helft herkent u niet. Zeg wat u zoekt. Spreek nu.",
+      "audioKey": "de-b12-t06",
+      "es": "Ich suche etwas ohne Zucker.",
+      "pinyin": "ikh ZOO-khuh ET-vas OH-nuh TSOOK-uh",
+      "pt": "Ik zoek iets zonder suiker.",
+      "tts": "Ich suche etwas ohne Zucker."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b12-n09",
+      "bloco": "capsula",
+      "pt": "Dezelfde bouwsteen loopt elke ruimte binnen: een toonbank, een bakkerij, een café, een tafel met een kleed."
+    },
+    {
+      "consulta": [
+        "dieta/sem",
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "HABEN-SIE",
+      "encaixe": "etwas ohne Gluten",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b12-p06",
+      "promptPt": "De broodmand landde net op de Gasthaus-tafel en het is het enige wat u niet mag aanraken. Vraag het hem. Spreek nu.",
+      "audioKey": "de-b12-t07",
+      "es": "Haben Sie etwas ohne Gluten?",
+      "pinyin": "HAH-ben zee ET-vas OH-nuh GLOO-ten",
+      "pt": "Hebt u iets zonder gluten?",
+      "tts": "Haben Sie etwas ohne Gluten?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b12-rr02",
+      "es": "Ich frage in der Küche nach. Einen Moment, bitte.",
+      "pinyin": "ikh FRAH-guh in dair KUE-khuh nahkh. INE-en moh-MENT, BIT-tuh",
+      "pt": "Ik vraag het in de keuken na. Een ogenblik, alstublieft.",
+      "tts": "Ich frage in der Küche nach. Einen Moment, bitte."
+    },
+    {
+      "consulta": [
+        "mesa/comida",
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "OHNE",
+      "encaixe": "Butter",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b12-p08",
+      "promptPt": "Het brood komt terug en hij vraagt hoe u het wilt. Eén woord haalt het geel eraf. Spreek nu.",
+      "audioKey": "de-b12-t08",
+      "es": "Ohne Butter, bitte.",
+      "pinyin": "OH-nuh BOO-tuh, BIT-tuh",
+      "pt": "Zonder boter, alstublieft.",
+      "tts": "Ohne Butter, bitte."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "DANKE",
+      "encaixe": "vielen Dank",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b12-p09",
+      "promptPt": "Hij liep voor u naar de keuken en terug en de rij achter u wachtte. Sluit met de grootste van de drie. Spreek nu.",
+      "audioKey": "de-b12-t09",
+      "es": "Vielen Dank!",
+      "pinyin": "FEE-len dank",
+      "pt": "Hartelijk dank!",
+      "tts": "Vielen Dank!"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-b12-s01",
+      "es": "Ohne Zwiebeln, bitte. Ohne Milch, bitte. Ohne Eis, bitte.",
+      "pinyin": "OH-nuh TSVEE-beln, BIT-tuh. OH-nuh milkh, BIT-tuh. OH-nuh ice, BIT-tuh",
+      "pt": "Herhaal het ene woord bij drie dingen die u liever niet krijgt aangereikt.",
+      "tts": "Ohne Zwiebeln, bitte. Ohne Milch, bitte. Ohne Eis, bitte.",
+      "molde": "OHNE"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b12-n10",
+      "bloco": "clique",
+      "pt": "Tel ze: de lunchtoonbank, de bakkerstoonbank, het café, de Gasthaus-tafel. Eén woord, zes borden."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b12-n11",
+      "bloco": "recap",
+      "pt": "B12 klaar. Ohne plus het ding, kaal en onveranderd — en de klinker vóór ch kiest welke ch het is."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Eén woord, en het bord schikt zichzelf opnieuw",
+    "secoes": [
+      {
+        "titulo": "Ohne, en waarom er niets vóór het ding staat",
+        "corpo": "Overal elders in deze cursus komt het ding dat u wilt met een klein woord ervoor — einen Kaffee, ein Bier, eine Apotheke — omdat het Duits de rol van een zelfstandig naamwoord op dat kleine woord markeert. Ohne is de enige bouwsteen waar het ding kaal komt, en dat is geen afkorting: stofnamen en algemene meervouden nemen hier echt niets. Ohne Fleisch, ohne Milch, ohne Zwiebeln, ohne Eis, ohne Zucker, ohne Butter. Zes blokken, geen beslissingen."
+      },
+      {
+        "titulo": "Waar hij in de zin staat",
+        "corpo": "Aan het eind, altijd. Einen Kaffee ohne Milch. Ein Wasser ohne Eis. Ich möchte die Suppe, ohne Zwiebeln. Dat is met opzet: het Duits stuurt dingen graag naar het eind van de zin, en door ohne als laatste te houden hoeft u nooit iets te verplaatsen. Op zichzelf is hij ook een volledige bestelling — ohne Zwiebeln, bitte — zodra het gerecht zelf al is genoemd."
+      },
+      {
+        "titulo": "De twee ch-klanken",
+        "corpo": "⟨ch⟩ staat voor twee verschillende klanken. De achterste, /χ/, is voor u niets nieuws: het is uw eigen ⟨g⟩ van gaan, en die brengt u gratis mee voor Buch, Bach en doch. De voorste, /ç/, is wél nieuw: hij ontbreekt in het foneemkader van het Randstad-Nederlands, en het is de klank van ich, Milch, Chemie en het verkleinsuffix -chen. Tong hoog en voorin, lucht die er stil overheen sist. De klinker of medeklinker ervoor beslist welke van de twee: voorklinker of medeklinker vraagt om /ç/, achterklinker om /χ/, en de pair Frauchen tegenover rauchen laat zien dat het onderscheid een heel woord kan dragen."
+      },
+      {
+        "titulo": "Ö en ü, waar u al bent",
+        "corpo": "Voor u zijn ö en ü geen nieuwe klanken. U heeft de /y/ al uit fuut en huis, en de /øː/ uit neus en zoemen — Gussenhoven registreert ze als volle klinkers van het Nederlands. Möchte, Gemüse, Küche en schön krijgt u dus fonetisch bijna gratis binnen; het enige nieuwe is dat u de klanken onder Duitse etiketten leest. Uw oor gaat niet dwalen zoals bij een Engelstalige die deze klinkers voor het eerst hoort — en dat scheelt dagen aan oefening."
+      },
+      {
+        "titulo": "Sonst noch etwas?",
+        "corpo": "Iets anders? — de vraag die u een tweede beurt geeft aan een toonbank waar u al vooraan staat. Het loont om die klaar te hebben, want het alternatief is dat u de drank pas onthoudt nadat u betaald hebt en achter in de rij aansluit. Ja, en dan het volgende ding, is een volledig antwoord."
+      }
+    ]
+  },
+  "permissao": "U mag het bord veranderen. Ohne Zwiebeln, bitte is een gewone zin aan elke toonbank hier, het kost de keuken niets, en u bent niemand een uitleg schuldig — geen verhaal over uw maag, geen excuus, geen ander gerecht uit beleefdheid. Eén woord, met bitte erachter, is het hele verzoek.",
+  "espelho": "Lang uitleggen waarom u de uien liever niet hebt duurt langer dan de rij toelaat, en laat een routineaanpassing klinken als een probleem dat wordt doorgegeven.",
+  "fichasCulturais": [
+    {
+      "sinal": "U zegt ohne en de persoon achter de toonbank herhaalt het vlak — ohne Zwiebeln — en schrijft het op zonder op te kijken.",
+      "suaLeitura": "Dat was kortaf. Ik heb ze geërgerd door lastig te doen.",
+      "oQueEAli": "Het nazeggen is de bevestiging. De verandering hardop herhalen is hoe een toonbank aangeeft dat hij is binnengekomen, en dat gebeurt zonder franje omdat de rij loopt. Er zit geen oordeel in over wat u vroeg.",
+      "oQueVoceFaz": "Zeg ja of genau als het terugkomt, en voeg het volgende ding toe als dat er is. Als het verkeerd terugkomt, herhaal dan het woord op zichzelf.",
+      "oQueMelhora": "U krijgt een bevestiging die u nog in een taal die u aan het opbouwen bent kunt controleren, voordat het eten wordt gemaakt in plaats van erna.",
+      "ondeNaoVale": "Dit is een beschrijving van hoe een drukke toonbank werkt, geen regel over toon, en geen bron meet het. Een rustige zaak om vier uur in de middag kan best babbelen.",
+      "evidencia": "INFERENCIA",
+      "audioKeys": [
+        "de-b12-n06"
+      ]
+    },
+    {
+      "sinal": "U vraagt om iets zonder een ingrediënt en het antwoord is een tegenvraag — meinen Sie eine Allergie?",
+      "suaLeitura": "Ze denken dat ik overdrijf en willen bewijs.",
+      "oQueEAli": "De twee gevallen worden in een keuken verschillend behandeld, en de vraag is hoe de persoon tegenover u erachter komt met welk van de twee zij te maken hebben. Ohne, op zichzelf, drukt een voorkeur uit; een keuken behandelt een aangegeven allergie als een probleem van andere orde, met een eigen procedure.",
+      "oQueVoceFaz": "Antwoord gewoon. Is het een voorkeur, dan is ohne het hele antwoord. Is het dat niet, dan geeft deze cursus u een sterkere zin en een geschreven kaart voor precies dat geval, en die horen bij elkaar.",
+      "oQueMelhora": "De keuken krijgt de juiste informatie de eerste keer, en u hoeft niet bij elke maaltijd hetzelfde gesprek te voeren.",
+      "ondeNaoVale": "Niets hier beschrijft hoe een bepaalde keuken zich gedraagt, en deze cursus beweert niets over hoe serieus een gegeven zaak beide gevallen neemt. Allergie heeft daarom een eigen deel, en dit hier blijft over voorkeur.",
+      "evidencia": "INFERENCIA",
+      "audioKeys": [
+        "de-b12-n09"
+      ]
+    }
+  ]
+}

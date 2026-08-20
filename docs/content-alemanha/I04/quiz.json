@@ -1,0 +1,121 @@
+{
+  "id": "q-i04",
+  "nivel": "intermediario",
+  "titulo": "Quiz — De ronde, de rekening en de laatste trein",
+  "subtitulo": "Contant of kaart, samen of apart, en wat het kaartje in uw zak waard is",
+  "introAudioKey": "de-i04-q-i",
+  "introPt": "Vier mensen komen door een hele avond in een Kneipe heen — een tafel, een ronde, één rekening en de rit naar huis — zonder één verrassing aan het eind.",
+  "cenario": "Een Kneipe in Leipzig, half tien, een bord aan de muur zonder prijzen.",
+  "dialogo": [
+    {
+      "audioKey": "de-i04-q01",
+      "voz": "target_de_m",
+      "es": "Guten Abend! Sind Sie zu viert? Da hinten ist noch frei.",
+      "pt": "Goedenavond! Bent u met zijn vieren? Achterin is nog plek.",
+      "tts": "Guten Abend! Sind Sie zu viert? Da hinten ist noch frei."
+    },
+    {
+      "audioKey": "de-i04-q02",
+      "voz": "target_de_f",
+      "es": "Danke schön. Was kostet ein Bier? Und haben Sie etwas ohne Alkohol?",
+      "pt": "Dank u. Wat kost een bier? En heeft u iets zonder alcohol?",
+      "tts": "Danke schön. Was kostet ein Bier? Und haben Sie etwas ohne Alkohol?"
+    },
+    {
+      "audioKey": "de-i04-q03",
+      "voz": "target_de_m",
+      "es": "Vier fünfzig. Apfelschorle oder alkoholfreies Bier. Und: nur Bargeld, tut mir leid.",
+      "pt": "Vier vijftig. Apfelschorle of alcoholvrij bier. En: alleen contant, sorry.",
+      "tts": "Vier fünfzig. Apfelschorle oder alkoholfreies Bier. Und: nur Bargeld, tut mir leid."
+    },
+    {
+      "audioKey": "de-i04-q04",
+      "voz": "target_de_f",
+      "es": "Kein Problem. Ich suche einen Geldautomaten — ist einer in der Nähe?",
+      "pt": "Geen probleem. Ik zoek een geldautomaat — staat er een in de buurt?",
+      "tts": "Kein Problem. Ich suche einen Geldautomaten — ist einer in der Nähe?"
+    },
+    {
+      "audioKey": "de-i04-q05",
+      "voz": "target_de_m",
+      "es": "Zahlen? Gern. Zusammen oder getrennt?",
+      "pt": "Afrekenen? Graag. Samen of apart?",
+      "tts": "Zahlen? Gern. Zusammen oder getrennt?"
+    },
+    {
+      "audioKey": "de-i04-q06",
+      "voz": "target_de_f",
+      "es": "Getrennt, bitte. Achtzehn vierzig? Stimmt so. Wann ist die letzte Bahn?",
+      "pt": "Apart, alstublieft. Achttien veertig? Laat maar zo. Wanneer gaat de laatste trein?",
+      "tts": "Getrennt, bitte. Achtzehn vierzig? Stimmt so. Wann ist die letzte Bahn?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "De kaartlezer staat op de bar en hij zegt toch «nur Bargeld». Wat speelt er?",
+      "opcoes": [
+        "Hij overtreedt de wet en u kunt aandringen",
+        "Zowel alleen-contant als alleen-kaart zijn hier legaal; geen wet verplicht een zaak kaart te accepteren",
+        "Hij moet de kaart accepteren als het bedrag boven tien euro is",
+        "De lezer is stuk, wat de enige legale reden is"
+      ],
+      "correta": 1,
+      "explica": "Eurobiljetten zijn in Duits recht het enige onbeperkte wettige betaalmiddel, en een handelaar mag van tevoren een ander middel afspreken. «Nur Bargeld» en «nur Karte» zijn beide legaal. Cashless werd in 2025 in 86% van de waargenomen betalingen aanvaard — tegen 61% in 2021 — maar juist de Gastronomie houdt vast aan contant."
+    },
+    {
+      "pergunta": "De kaart zegt 4,50 voor een bier. Wat verschijnt op de rekening?",
+      "opcoes": [
+        "4,50 plus btw aan de kassa",
+        "4,50 plus servicetoeslag",
+        "4,50 — de getoonde prijs moet al btw en elke andere component bevatten",
+        "4,50 plus couvert per persoon"
+      ],
+      "correta": 2,
+      "explica": "De Preisangabenverordnung verplicht de handelaar de Gesamtpreis te tonen, gedefinieerd als de prijs inclusief btw. Een tariefverandering is voor u dus onzichtbaar: eten in restaurants ging op 1 januari 2026 naar het verlaagde tarief van 7% terwijl dranken op 19% bleven, en u ziet nog steeds één getal. De enige uitdrukkelijke uitzondering is het Pfand op een fles, dat naast de prijs moet staan en er niet bij mag worden opgeteld."
+    },
+    {
+      "pergunta": "«Zusammen oder getrennt?» — wat wordt u gevraagd?",
+      "opcoes": [
+        "Of u de rekening nu wilt of later",
+        "Of het één rekening voor de tafel wordt of één per persoon",
+        "Of u contant of met kaart betaalt",
+        "Of iemand nog iets wil"
+      ],
+      "correta": 1,
+      "explica": "Dit is het antwoord dat op «Zahlen, bitte» kan komen. Zusammen is één rekening voor de tafel; getrennt betekent dat hij de tafel afwerkt, persoon voor persoon, met de getallen in zijn hoofd. Van tevoren beslissen is het verschil tussen een schoon einde en vier mensen die om middernacht rekenen. Dit zijn zinnen om te herkennen en te zeggen: geen officiële bron documenteert de praktijk, en de cursus beweert niets."
+    },
+    {
+      "pergunta": "Hoeveel fooi hoort u te geven?",
+      "opcoes": [
+        "Vijftien tot twintig procent, zoals thuis",
+        "Precies tien procent",
+        "Er is geen norm en geen officiële statistiek — afronden, of niets, zijn beide complete antwoorden",
+        "Niets, fooi wordt als onbeleefd gezien"
+      ],
+      "correta": 2,
+      "explica": "Om fooien vrij te stellen van inkomstenbelasting moet § 3 Nr. 51 EStG omschrijven wat ze zijn: vrijwillig gegeven, zonder juridisch recht daarop, bovenop wat voor de dienst verschuldigd is. De brancheorganisatie herhaalt het woord freiwillig. Het enige bereik dat rondgaat komt uit een enquête besteld door een bedrijf dat kaartlezers met fooiknop verkoopt, dus deze cursus geeft u geen percentage."
+    },
+    {
+      "pergunta": "U stapt om middernacht in de U-Bahn zonder kaartje. Wat riskeert u?",
+      "opcoes": [
+        "Een tarief tot zestig euro en verder niets",
+        "Een waarschuwing de eerste keer",
+        "Een heffing tot zestig euro in het stadsvervoer, en apart een strafbaar feit met tot een jaar of een geldboete",
+        "Niets, want er zijn geen poortjes"
+      ],
+      "correta": 2,
+      "explica": "§ 9 Abs. 2 BefBedV zet een plafond van tot zestig euro in stadsvervoer, terwijl § 6 EVO zestig als ondergrens op het spoor maakt. Los daarvan straft § 265a StGB het verkrijgen van vervoer zonder betalingsintentie met tot een jaar of een geldboete, en de poging is ook strafbaar. Twee wetsvoorstellen om het te schrappen werden op 16 april 2026 in de Bundestag verworpen."
+    },
+    {
+      "pergunta": "U had wel een geldig maandkaart — in uw andere jas. Wat nu?",
+      "opcoes": [
+        "Na de controle is er niets meer te doen",
+        "Bewijs binnen een week dat u een geldig kaartje had en de heffing zakt naar zeven euro",
+        "U moet het volle bedrag betalen en daarna procederen",
+        "U betaalt het dubbele tarief zonder korting"
+      ],
+      "correta": 1,
+      "explica": "Zowel de stads- als de spoorregel verlagen de verhoogde heffing tot zeven euro als u binnen een week na de controle aantoont dat u ten tijde van de controle een geldig kaartje had. Op het spoor is er ook een volledige vrijstelling als het vertrekstation geen open loket en geen werkende automaat had."
+    }
+  ]
+}

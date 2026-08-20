@@ -1,0 +1,393 @@
+{
+  "id": "i03",
+  "nivel": "intermediario",
+  "numero": 21,
+  "parte": "I03",
+  "titulo": "Was empfehlen Sie — en het bord dat u niet ging bestellen",
+  "subtitulo": "Het bord bij de deur, het gerecht van de dag, en één vraag die u geeft wat de keuken vanochtend het beste doet",
+  "cena": "Een Gasthaus om half een, een krijtbord bij de deur met twee regels erop, en een gedrukte kaart in uw handen die u maar half kunt lezen.",
+  "moldura": "ganha",
+  "frasePiso": "Eén vraag aan tafel wint van twintig minuten met een woordenboek, en levert een beter bord op.",
+  "decisao": "welk bord u bestelt — of u alleen door de gedrukte kaart werkt, of de keuze overhandigt aan wie weet wat vanochtend binnenkwam en wat de keuken al heeft gekookt",
+  "emJogo": "dinheiro",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "de-i03-preis-endpreis",
+      "afirmacao": "Het getal op de kaart is het getal dat u betaalt. § 3 Abs. 1 van de Preisangabenverordnung verplicht een handelaar die goederen of diensten aan consumenten aanbiedt tot vermelding van de Gesamtpreis, en § 2 definieert die als de te betalen prijs «einschließlich der Umsatzsteuer und sonstiger Preisbestandteile» — inclusief btw en elke andere prijscomponent. Aan de kassa wordt niets bijgeteld. Achter dat ene getal bewegen twee tarieven: § 12 UStG stelt het standaardtarief op 19 procent en het verlaagde tarief op 7 procent, en het rondschrijven van het ministerie van Financiën van 22 december 2025, kenmerk III C 2 - S 7220/00023/014/027, bracht restaurant- en cateringdiensten voor alle omzet vanaf 1 januari 2026 terug naar het verlaagde 7 procent, uitdrukkelijk met uitsluiting van dranken — «mit Ausnahme der Abgabe von Getränken» — die op 19 blijven. Dankzij de prijsopgaveregel verschijnt niets hiervan ooit op de rekening van de gast.",
+      "fonte": "§§ 2 e 3 Abs. 1 PAngV 2022 e § 12 UStG, verbatim de gesetze-im-internet.de; BMF-Schreiben de 22/12/2025, GZ III C 2 - S 7220/00023/014/027, PDF aberto, com a vigência verbatim «Die Grundsätze dieses Schreibens sind auf alle Umsätze ab dem 1. Januar 2026 anzuwenden» e a exceção verbatim «mit Ausnahme der Abgabe von Getränken» (pesquisa §4.6). Ressalva registrada na pesquisa: o carimbo de vigência do dispositivo consolidado não foi verificado; a conclusão está confirmada por duas outras vias.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-i03-n04",
+        "de-i03-n07"
+      ]
+    },
+    {
+      "id": "de-i03-trinkgeld-lei",
+      "afirmacao": "De Duitse wet moet de fooi vrijwillig verklaren om hem vrij te stellen van belasting, en die verklaring is het schoonste antwoord op wat de menuprijs dekt. § 3 Nr. 51 EStG stelt vrij «Trinkgelder, die anlässlich einer Arbeitsleistung dem Arbeitnehmer von Dritten freiwillig und ohne dass ein Rechtsanspruch auf sie besteht, zusätzlich zu dem Betrag gegeben werden, der für diese Arbeitsleistung zu zahlen ist» — vrijwillig gegeven, zonder wettelijke aanspraak, boven op het voor het werk verschuldigde bedrag. Juridisch is de prijs van de maaltijd dan al de hele prijs. De brancheorganisatie DEHOGA zei hetzelfde in een verklaring van 4 juni 2024: «Trinkgelder sind und bleiben ein freiwilliges Dankeschön für tolle Gastfreundschaft und guten Service.»",
+      "fonte": "§ 3 Nr. 51 EStG, verbatim de gesetze-im-internet.de; DEHOGA Bundesverband, statement de 4/6/2024 (RA Jürgen Benad), verbatim (pesquisa §4.5). ⚠ A FAIXA «5% a 10%» É RECUSADA COMO FATO e está na lista de exclusão: a única fonte é pesquisa de FORNECEDOR de terminais de pagamento com função de gorjeta (Lightspeed/Medallia, maio/2025). Não há norma nem estatística oficial sobre quanto se dá, e este episódio não dá número. «Bedienungsgeld inklusive» como fórmula da DEHOGA NÃO EXISTE na fonte. As fórmulas de mesa («Zahlen, bitte», «zusammen oder getrennt?») são conteúdo LINGUÍSTICO, nunca fato cultural afirmado.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-i03-n06"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i03-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "De gedrukte kaart is de lange lijst. Het bord bij de deur is wat de keuken vandaag echt heeft gedaan."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i03-r01",
+      "receptivo": true,
+      "es": "Heute empfehle ich das Tagesgericht. Steht draußen an der Tafel.",
+      "pinyin": "HOY-tuh emp-FAY-luh ikh dass TAH-gus-guh-rikht · shtayt DROW-sen an dair TAH-fel",
+      "pt": "Vandaag beveel ik het daggerecht aan. Staat buiten op het bord.",
+      "tts": "Heute empfehle ich das Tagesgericht. Steht draußen an der Tafel.",
+      "acao": "Tagesgericht en Tafel zijn de twee woorden om te vangen. Ga eerst naar het bord kijken voor u iets beslist."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i03-n02",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Vraag wat ze aanbevelen en het antwoord is kort. Vraag wat lekker is en u krijgt de hele kaart terug."
+    },
+    {
+      "consulta": [
+        "mesa/carta",
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i03-p01",
+      "promptPt": "Gezeten, kaart open, en de wachtende persoon kent deze keuken beter dan de kaart. Spreek nu.",
+      "audioKey": "de-i03-t01",
+      "es": "Was empfehlen Sie?",
+      "pinyin": "vass emp-FAY-len zee",
+      "pt": "Wat beveelt u aan?",
+      "tts": "Was empfehlen Sie?"
+    },
+    {
+      "consulta": [
+        "mesa/carta",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "was ist heute auf der Tafel",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i03-p02",
+      "promptPt": "U staat nog bij de deur en het krijt is te ver om vanaf hier te lezen. Spreek nu.",
+      "audioKey": "de-i03-t02",
+      "es": "Entschuldigung, was ist heute auf der Tafel?",
+      "pinyin": "ent-SHOOL-di-goong, vass ist HOY-tuh owf dair TAH-fel",
+      "pt": "Pardon, wat staat er vandaag op het bord?",
+      "tts": "Entschuldigung, was ist heute auf der Tafel?"
+    },
+    {
+      "consulta": [
+        "mesa/carta"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "HABEN-SIE",
+      "encaixe": "eine Tageskarte",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i03-p03",
+      "promptPt": "De gedrukte kaart telt vier pagina's van alles en niets ervan gaat over vandaag. Spreek nu.",
+      "audioKey": "de-i03-t03",
+      "es": "Haben Sie eine Tageskarte?",
+      "pinyin": "HAH-ben zee EYE-nuh TAH-gus-kar-tuh",
+      "pt": "Heeft u een dagkaart?",
+      "tts": "Haben Sie eine Tageskarte?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i03-n03",
+      "tom": "ganha",
+      "pt": "De bouwsteen uit uw eerste uur werkt hier nog: Haben Sie, en dan wat u ook wilt dat bestaat."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-i03-r02",
+      "receptivo": true,
+      "es": "Die Tageskarte hängt an der Tafel. Suppe, Hauptgang und Nachtisch.",
+      "pinyin": "dee TAH-gus-kar-tuh hengt an dair TAH-fel · ZOOP-uh, HOWPT-gang oont NAHKH-tish",
+      "pt": "De dagkaart hangt op het bord. Soep, hoofdgerecht en nagerecht.",
+      "tts": "Die Tageskarte hängt an der Tafel. Suppe, Hauptgang und Nachtisch.",
+      "acao": "Drie woorden, drie gangen. U kreeg net de vorm van de hele middagkaart aangereikt."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i03-n04",
+      "tom": "ganha",
+      "pt": "Eén getal op de kaart is het getal dat u betaalt. De belasting zit er wettelijk al in."
+    },
+    {
+      "consulta": [
+        "reparo/devagar",
+        "mesa/carta"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "KONNEN-SIE",
+      "encaixe": "mir das erklären",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i03-p04",
+      "promptPt": "Eén regel op het bord is vier lettergrepen lang en geen ervan zit in uw hoofd. Spreek nu.",
+      "audioKey": "de-i03-t04",
+      "es": "Können Sie mir das erklären?",
+      "pinyin": "KOEN-en zee meer dass er-KLAIR-en",
+      "pt": "Kunt u mij dat uitleggen?",
+      "tts": "Können Sie mir das erklären?"
+    },
+    {
+      "consulta": [
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WANN-IST",
+      "encaixe": "der Mittagstisch",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i03-p05",
+      "promptPt": "U wilt het goedkope doordeweekse bord waarvoor de vaste klanten komen, en dat bestaat alleen binnen een venster. Spreek nu.",
+      "audioKey": "de-i03-t05",
+      "es": "Wann ist der Mittagstisch?",
+      "pinyin": "vahn ist dair MIT-tahks-tish",
+      "pt": "Hoe laat is de lunch van de dag?",
+      "tts": "Wann ist der Mittagstisch?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i03-n05",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "Waar een keuken zijn eigen uur houdt, zegt de sluitingstijd van de zaal daar niets over. Vraag ernaar."
+    },
+    {
+      "consulta": [
+        "reparo/apontar",
+        "mesa/carta"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "was ist das",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i03-p06",
+      "promptPt": "Wijzend naar een regel die u niet doorkomt, met een vinger in plaats van een telefoon. Spreek nu.",
+      "audioKey": "de-i03-t06",
+      "es": "Entschuldigung, was ist das?",
+      "pinyin": "ent-SHOOL-di-goong, vass ist dass",
+      "pt": "Pardon, wat is dat?",
+      "tts": "Entschuldigung, was ist das?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i03-r03",
+      "receptivo": true,
+      "es": "Das ist eine Suppe mit Klößen. Sehr gut heute.",
+      "pinyin": "dass ist EYE-nuh ZOOP-uh mit KLOE-sen · zair goot HOY-tuh",
+      "pt": "Dat is een soep met knoedels. Vandaag erg lekker.",
+      "tts": "Das ist eine Suppe mit Klößen. Sehr gut heute.",
+      "acao": "U had het woord niet nodig. U had iemand nodig om het langzamer te zeggen en er één zin aan toe te voegen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i03-n06",
+      "tom": "ganha",
+      "pt": "De prijs op de kaart is de hele prijs. Een fooi is wettelijk extra en nooit verschuldigd."
+    },
+    {
+      "consulta": [
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "HABEN-SIE",
+      "encaixe": "eine Empfehlung",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i03-p07",
+      "promptPt": "U laat u liever iets aanraden dan te kiezen, en dat hardop zeggen mag gewoon. Spreek nu.",
+      "audioKey": "de-i03-t07",
+      "es": "Haben Sie eine Empfehlung?",
+      "pinyin": "HAH-ben zee EYE-nuh emp-FAY-loong",
+      "pt": "Heeft u een aanbeveling?",
+      "tts": "Haben Sie eine Empfehlung?"
+    },
+    {
+      "consulta": [
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "das Tagesgericht",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i03-p08",
+      "promptPt": "Het bord heeft gewonnen. Bestel waarvoor het bord was geschreven. Spreek nu.",
+      "audioKey": "de-i03-t08",
+      "es": "Ich möchte das Tagesgericht, bitte.",
+      "pinyin": "ikh MOEKH-tuh dass TAH-gus-guh-rikht, BIT-tuh",
+      "pt": "Ik wil graag het daggerecht, alstublieft.",
+      "tts": "Ich möchte das Tagesgericht, bitte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i03-n07",
+      "tom": "ganha",
+      "pt": "Sinds januari valt het eten op die kaart onder zeven procent en de dranken onder negentien."
+    },
+    {
+      "consulta": [
+        "reparo/escreve"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "KONNEN-SIE",
+      "encaixe": "mir das aufschreiben",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i03-p09",
+      "promptPt": "U wilt dit volgende week in een andere stad terugvinden, en uw geheugen is zo goed niet. Spreek nu.",
+      "audioKey": "de-i03-t09",
+      "es": "Können Sie mir das aufschreiben?",
+      "pinyin": "KOEN-en zee meer dass OWF-shry-ben",
+      "pt": "Kunt u dat voor mij opschrijven?",
+      "tts": "Können Sie mir das aufschreiben?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-i03-r04",
+      "receptivo": true,
+      "es": "Gerne. Und zu trinken?",
+      "pinyin": "GAIR-nuh · oont tsoo TRIN-ken",
+      "pt": "Graag. En te drinken?",
+      "tts": "Gerne. Und zu trinken?",
+      "acao": "«Und zu trinken» is de tweede vraag, en die komt snel. Beslis het antwoord voor u gaat zitten."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-i03-s01",
+      "molde": "HABEN-SIE",
+      "es": "Was empfehlen Sie? Haben Sie eine Tageskarte? Ich möchte das Tagesgericht, bitte.",
+      "pinyin": "vass emp-FAY-len zee · HAH-ben zee EYE-nuh TAH-gus-kar-tuh · ikh MOEKH-tuh dass TAH-gus-guh-rikht, BIT-tuh",
+      "pt": "Schaduw de drie zinnen die de keuze aan de keuken overhandigen en als bord terugkomen.",
+      "tts": "Was empfehlen Sie? Haben Sie eine Tageskarte? Ich möchte das Tagesgericht, bitte."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i03-n08",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "I03 klaar. Het bord, de aanbeveling, en een bord dat u op de kaart nooit had gevonden."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Overhandig de keuze, en krijg een beter bord terug",
+    "secoes": [
+      {
+        "titulo": "Twee kaarten, en maar één ervan gaat over vandaag",
+        "corpo": "De meeste plekken waar u binnenloopt hebben een gedrukte kaart die zelden verandert en iets met de hand geschreven wat voortdurend verandert — een Tafel bij de deur, een blaadje in de kaart, een Tageskarte met de kookkunst van één dag. De handgeschreven kaart is waar de keuken neerzet wat ze echt kocht en kookte. Haben Sie eine Tageskarte is een vraag van drie seconden die u van de vaste lijst naar die van de dag verplaatst, en Wann ist der Mittagstisch vindt het doordeweekse middagbord, dat binnen een venster leeft en erna verdwijnt.",
+        "exemplos": [
+          {
+            "es": "Haben Sie eine Tageskarte?",
+            "pt": "Heeft u een dagkaart?"
+          },
+          {
+            "es": "Wann ist der Mittagstisch?",
+            "pt": "Hoe laat is de lunch van de dag?"
+          }
+        ]
+      },
+      {
+        "titulo": "Was empfehlen Sie, en waarom de formulering telt",
+        "corpo": "Vraag wat lekker is en u nodigt uit tot een verdediging van de hele kaart, want niets erop wordt slecht genoemd. Was empfehlen Sie vraagt een persoon om te kiezen, een kleinere en beter beantwoordbare vraag, en het antwoord noemt meestal één ding. Haben Sie eine Empfehlung doet hetzelfde werk in de Haben Sie-bouwsteen die u sinds het eerste uur heeft. Beide zijn hoe u eindigt met eten wat vanochtend binnenkwam in plaats van wat u in het Nederlands al kende.",
+        "exemplos": [
+          {
+            "es": "Was empfehlen Sie?",
+            "pt": "Wat beveelt u aan?"
+          },
+          {
+            "es": "Haben Sie eine Empfehlung?",
+            "pt": "Heeft u een aanbeveling?"
+          }
+        ]
+      },
+      {
+        "titulo": "Het woord dat u niet kunt lezen is niet het probleem",
+        "corpo": "Een Duits menuwoord kan vier zelfstandige naamwoorden aan elkaar gelast zijn, en geen enkele voorbereiding dekt dat. Wat het wél dekt is één zin: Entschuldigung, was ist das, met een vinger op de regel. Het antwoord komt als beschrijving in plaats van vertaling — eine Suppe mit Klößen, sehr gut heute — en een beschrijving was wat u echt nodig had. Können Sie mir das erklären doet hetzelfde voor een hele regel, en Können Sie mir das aufschreiben levert u de spelling zodat u het ergens anders opnieuw kunt bestellen."
+      },
+      {
+        "titulo": "Eén getal, en alles wat erachter verborgen zit",
+        "corpo": "De prijsopgaveregels verplichten een handelaar tot vermelding van de totaalprijs, gedefinieerd als de te betalen prijs inclusief btw en elke andere component, dus het getal naast het gerecht is het getal dat u betaalt. Aan het eind wordt niets bijgeteld, precies het tegenovergestelde van de Noord-Amerikaanse gewoonte. Achter dat getal zijn twee tarieven in het spel: sinds 1 januari 2026 worden restaurant- en cateringdiensten belast tegen het verlaagde tarief van zeven procent, volgens een rondschrijven van het ministerie van Financiën van 22 december 2025, terwijl dranken uitdrukkelijk buiten de regeling bleven en op negentien staan. Dankzij de prijsopgaveregel ziet u geen van beide getallen ooit op uw rekening. Het is een verandering die volledig aan de andere kant van de toonbank plaatsvond."
+      },
+      {
+        "titulo": "Wat de prijs al dekt",
+        "corpo": "De helderste uitspraak over fooien in de Duitse wet is een neveneffect van fiscaal opstellen. Om fooien vrij te stellen van inkomstenbelasting moet de wet eerst zeggen wat ze zijn: vrijwillig gegeven, zonder wettelijke aanspraak, boven op het voor het werk verschuldigde bedrag. Met andere woorden: de prijs van de maaltijd is juridisch de hele prijs van de maaltijd, en alles daarbovenop is een gift, geen schuld. De brancheorganisatie zegt hetzelfde in haar eigen woorden, en noemt fooien een vrijwillige dank-je-wel voor goede gastvrijheid en service. Deze cursus geeft u geen percentage, en dat is met opzet: er is geen norm en geen officiële statistiek over hoeveel iemand geeft, en het cijfer dat circuleert komt uit een enquête in opdracht van een bedrijf dat betaalterminals met fooiknop verkoopt. Doe wat u de maaltijd waard vond."
+      },
+      {
+        "titulo": "De tweede vraag, en een antwoord klaar hebben",
+        "corpo": "Und zu trinken volgt meestal meteen op het eten en kan snel genoeg komen om u te overrompelen. Beslis voor u gaat zitten en de hele uitwisseling blijft bij elke beurt vier woorden lang. Gerne is een warm ja — graag, met plezier — en is de moeite van het herkennen waard, niet van het produceren. En waar een keuken zijn eigen uren houdt, zegt een open zaal niets over of er nog gekookt wordt: Wann ist der Mittagstisch, of gewoon vragen, is goedkoper dan aannemen. Er was geen bron over Duitse restaurantpraktijk beschikbaar voor deze cursus, behandel dit dus als een vraag waard om te stellen, niet als een regel."
+      }
+    ]
+  },
+  "slot": "I03",
+  "permissao": "U mag niet kiezen. De beslissing overlaten aan wie er werkt is geen hulpeloosheid — was empfehlen Sie is een compliment aan de keuken en wordt ook zo beantwoord. U mag ook wijzen op een woord dat u niet kunt lezen en vragen wat het is, zo vaak u wilt, en drie dagen achter elkaar hetzelfde daggerecht bestellen omdat het lekker was.",
+  "permissaoAudioKey": "de-i03-n02",
+  "espelho": "Wie thuis ooit een bezoeker het enige gerecht op de kaart heeft zien bestellen dat hij al herkende, in een zaak beroemd om iets heel anders, heeft de kostprijs gezien van niet vragen. Het is geen taalprobleem. Het is wat gebeurt als de gedrukte lijst het enige is wat iemand raadpleegt.",
+  "fichasCulturais": [
+    {
+      "sinal": "U heeft een gedrukte kaart in de hand en een krijtbord bij de deur, en u leest de gedrukte omdat die u werd gegeven.",
+      "suaLeitura": "De kaart is het menu en het bord is decoratie, of reclame voor iets wat me al is aangeboden.",
+      "oQueEAli": "Het zijn twee verschillende lijsten met twee verschillende taken. De gedrukte kaart is het vaste assortiment; het handgeschreven bord of de Tageskarte is wat de keuken vandaag kocht en kookte, en die is meestal korter, 's middags goedkoper en beter. Ernaar vragen is een normale vraag, geen gunst.",
+      "oQueVoceFaz": "Zeg Haben Sie eine Tageskarte, of lees het bord voor u gaat zitten. Als het gerecht van de dag een venster heeft, vertelt Wann ist der Mittagstisch u wanneer.",
+      "oQueMelhora": "U stopt met bestellen van de lijst die gemaakt is om vast te zijn, en begint bij de lijst die voor vandaag is gemaakt — die de vaste klanten eten.",
+      "ondeNaoVale": "Niet elke plek heeft er een, en dit is geen uitspraak over hoe Duitse keukens in het algemeen werken — er was geen bron over Duitse restaurantpraktijk beschikbaar voor deze cursus. Behandel het als twee lijsten die u kunt tegenkomen, en een vraag die niets kost om te stellen.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "de-i03-n01"
+      ]
+    },
+    {
+      "sinal": "De rekening komt en het totaal is precies de som van de op de kaart gedrukte getallen, zonder iets erbij.",
+      "suaLeitura": "De belasting moet apart komen, of er wordt zo een servicetoeslag gepresenteerd, en ik moet er iets voor achterhouden.",
+      "oQueEAli": "De prijsopgaveregels vereisen dat de vermelde prijs het totaal is, met de btw en alle andere componenten er al in. En de belastingwet definieert fooien, in de handeling van vrijstellen, als vrijwillig, zonder wettelijke aanspraak, en bovenop wat voor het werk verschuldigd is — dus de kaartprijs is juridisch de complete prijs van de maaltijd. Sinds januari 2026 wordt het eten belast tegen zeven procent en de dranken tegen negentien, en geen van beide getallen bereikt ooit uw rekening.",
+      "oQueVoceFaz": "Betaal het getal dat u werd getoond. Wat u daar bovenop legt is aan u om te beslissen, en deze cursus geeft u met opzet geen percentage om aan te tikken.",
+      "oQueMelhora": "U stopt met begroten voor een onzichtbare toeslag die niet bestaat, en stopt met een fooi te behandelen als een rekening die u correct moet afwikkelen.",
+      "ondeNaoVale": "Het zegt niets over wat iemand feitelijk geeft. Er is geen norm en geen officiële statistiek over fooihoogtes in Duitsland; het bereik dat circuleert komt uit een enquête in opdracht van een leverancier van betaalterminals, en deze cursus herhaalt het niet als feit. Tafelformules als Zahlen bitte zijn taal die u nodig heeft, geen gedocumenteerd gebruik.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-i03-n04",
+        "de-i03-n06"
+      ]
+    }
+  ]
+}

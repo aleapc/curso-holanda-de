@@ -1,0 +1,96 @@
+{
+  "id": "q-b12",
+  "nivel": "basico",
+  "titulo": "Quiz — Ohne, het kleine woord dat het bord van u maakt",
+  "subtitulo": "Eén woord, vier toonbanken, en de twee manieren om ch te zeggen",
+  "introAudioKey": "de-b12-q-i",
+  "introPt": "Een lunchtoonbank om tien over één, een rij erachter, en zes borden veranderd door één woord.",
+  "cenario": "De lunchtoonbank, tien over één.",
+  "dialogo": [
+    {
+      "audioKey": "de-b12-q01",
+      "voz": "target_de_f",
+      "es": "Haben Sie etwas ohne Fleisch?",
+      "pt": "Hebt u iets zonder vlees?",
+      "tts": "Haben Sie etwas ohne Fleisch?"
+    },
+    {
+      "audioKey": "de-b12-q02",
+      "voz": "target_de_m",
+      "es": "Ja, die Gemüsesuppe und den Kartoffelsalat.",
+      "pt": "Ja, de groentesoep en de aardappelsalade.",
+      "tts": "Ja, die Gemüsesuppe und den Kartoffelsalat."
+    },
+    {
+      "audioKey": "de-b12-q03",
+      "voz": "target_de_f",
+      "es": "Ohne Zwiebeln, bitte.",
+      "pt": "Zonder uien, alstublieft.",
+      "tts": "Ohne Zwiebeln, bitte."
+    },
+    {
+      "audioKey": "de-b12-q04",
+      "voz": "target_de_m",
+      "es": "Alles klar. Ohne Zwiebeln. Sonst noch etwas?",
+      "pt": "In orde. Zonder uien. Nog iets?",
+      "tts": "Alles klar. Ohne Zwiebeln. Sonst noch etwas?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Overal elders draagt wat u bestelt een klein woord vooraan — einen Kaffee, ein Bier. Wat gebeurt er na «ohne»?",
+      "opcoes": [
+        "Datzelfde kleine woord is nog steeds nodig",
+        "Er staat niets voor: ohne Fleisch, ohne Milch, ohne Eis",
+        "Het ding gaat in het meervoud",
+        "U voegt bitte in het midden toe"
+      ],
+      "correta": 1,
+      "explica": "Het is de enige bouwsteen waar het ding kaal komt, en dat is geen afkorting — algemene meervouden en stofnamen nemen daar echt niets."
+    },
+    {
+      "pergunta": "Waar staat «ohne» in de zin?",
+      "opcoes": [
+        "Vooraan, vóór het ding dat u wilt",
+        "Meteen na het werkwoord",
+        "Aan het eind — einen Kaffee ohne Milch",
+        "Waar dan ook, dat maakt niet uit"
+      ],
+      "correta": 2,
+      "explica": "Hem als laatste houden betekent dat u nooit iets anders verplaatst, en op zichzelf — ohne Zwiebeln, bitte — is hij al een volledige instructie zodra het gerecht is genoemd."
+    },
+    {
+      "pergunta": "«Milch» en «Buch» eindigen beide op ⟨ch⟩. Is het dezelfde klank?",
+      "opcoes": [
+        "Ja, altijd hetzelfde",
+        "Nee: licht en voorin na een voorklinker, verder achterin de keel na een achterklinker",
+        "Ja, en het is de k van chemistry",
+        "Nee, de tweede is stom"
+      ],
+      "correta": 1,
+      "explica": "Ich, Milch en Chemie nemen de voorste; Buch en Bach de achterste. De klinker ervoor kiest, dus er valt niets per woord te onthouden."
+    },
+    {
+      "pergunta": "Hoe maakt u de ü van «Gemüse»?",
+      "opcoes": [
+        "Zeg oe — het is dezelfde klinker",
+        "U kent hem al: het is de /y/ van uw fuut en huis",
+        "Zeg you zoals in het Engelse woord",
+        "Zeg de u van uk"
+      ],
+      "correta": 1,
+      "explica": "De klank staat al in uw Nederlands (fuut, huis). Möchte, Gemüse en Küche krijgt u fonetisch bijna gratis binnen; het enige nieuwe is het Duitse etiket."
+    },
+    {
+      "pergunta": "Hij antwoordt «Sonst noch etwas?». Wat is dat voor u waard?",
+      "opcoes": [
+        "Het is een beleefde afscheidsgroet",
+        "Hij vraagt u om te betalen",
+        "Een tweede beurt aan de toonbank — daar passen de drank en het brood in",
+        "Hij verstond niet wat u zei"
+      ],
+      "correta": 2,
+      "explica": "Iets anders? Zeg ja en voeg het volgende toe. Het alternatief is dat u de drank pas onthoudt nadat u betaald hebt en achter in de rij aansluit."
+    }
+  ]
+}

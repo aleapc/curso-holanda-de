@@ -1,0 +1,89 @@
+{
+  "id": "q-a05",
+  "nivel": "avancado",
+  "titulo": "Quiz — Fryslân, wo ein zweites Straßenschild auf dich wartet",
+  "subtitulo": "Fünf Fragen zu Englisch, Deutsch und dem Schild, das weder das eine noch das andere ist",
+  "introAudioKey": "hol-a05-q-i",
+  "introPt": "Ein Tresen, an dem ins Englische gewechselt wird, und ein Straßenschild in Friesland mit einem zweiten Namen.",
+  "cenario": "An einem Tresen, dann vor einem zweisprachigen Ortsschild in Friesland.",
+  "dialogo": [
+    {
+      "audioKey": "hol-a05-q01",
+      "voz": "target_nl_f",
+      "es": "Zal ik het in het Engels proberen? Dat gaat misschien sneller.",
+      "pt": "Soll ich es auf Englisch versuchen? Das geht vielleicht schneller.",
+      "tts": "Zal ik het in het Engels proberen? Dat gaat misschien sneller."
+    },
+    {
+      "audioKey": "hol-a05-q02",
+      "voz": "target_nl_m",
+      "es": "O, u spreekt Duits. Prima, dat versta ik goed.",
+      "pt": "Oh, Sie sprechen Deutsch. Prima, das verstehe ich gut.",
+      "tts": "O, u spreekt Duits. Prima, dat versta ik goed."
+    },
+    {
+      "audioKey": "hol-a05-q03",
+      "voz": "target_nl_f",
+      "es": "Dit is Frysk, dat is hier de tweede taal.",
+      "pt": "Das ist Friesisch, das ist hier die zweite Sprache.",
+      "tts": "Dit is Frysk, dat is hier de tweede taal."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Du stockst mitten im Satz, und die Person am Tresen wechselt sofort ins Englische. Was bedeutet das über dein Niederländisch?",
+      "opcoes": [
+        "Es war zu schlecht, um weiterzumachen",
+        "Nichts Bestimmtes — die Niederlande stehen seit sechs Jahren auf Platz 1 der Welt im Englischen, der Wechsel kommt oft automatisch",
+        "Es ist ein Zeichen von Unhöflichkeit",
+        "Das passiert nur Touristen mit starkem Akzent"
+      ],
+      "correta": 1,
+      "explica": "Der EF English Proficiency Index 2024 setzt die Niederlande mit 636 Punkten auf Platz 1 von 113 Ländern — das sechste Jahr in Folge. Der Wechsel ins Englische ist Gewohnheit, kein Urteil über dein Niederländisch."
+    },
+    {
+      "pergunta": "Du sprichst einen Fremden auf der Straße zum ersten Mal an. Was ist der sichere Einstieg?",
+      "opcoes": [
+        "Direkt auf Deutsch beginnen, das versteht man ohnehin",
+        "Erst «Sorry» plus Englisch oder dein Niederländisch — Deutsch als allererstes Wort kann wie eine unausgesprochene Annahme klingen",
+        "Schweigen und auf eine Reaktion warten",
+        "Laut und langsam auf Deutsch wiederholen"
+      ],
+      "correta": 1,
+      "explica": "Wegen der historischen Nähe der beiden Länder kann ein Deutsch-Auftakt bei einer fremden Person unbeabsichtigt anmaßend wirken. Sorry plus Englisch oder Niederländisch ist die sichere Reihenfolge; Deutsch darf folgen, sobald das Gespräch läuft."
+    },
+    {
+      "pergunta": "Jemand sagt: «O, u spreekt Duits. Prima, dat versta ik goed.» Was sagt das über das Sprachpaar?",
+      "opcoes": [
+        "Niemand in den Niederlanden versteht Deutsch",
+        "Das Verstehen ist asymmetrisch — Niederländer verstehen gesprochenes Deutsch im Schnitt besser als umgekehrt",
+        "Deutsch und Niederländisch sind identisch",
+        "Das war ein Ausnahmefall"
+      ],
+      "correta": 1,
+      "explica": "Rund 71 Prozent verständigen sich schätzungsweise einigermaßen auf Deutsch — eine Größenordnung, keine exakte Zahl —, und das Verstehen läuft nicht in beide Richtungen gleich gut."
+    },
+    {
+      "pergunta": "In Friesland steht unter dem Ortsschild ein zweiter, unbekannter Name. Was ist das?",
+      "opcoes": [
+        "Ein Rechtschreibfehler",
+        "Ein alter, nicht mehr gültiger Name",
+        "Westfriesisch (Frysk), eine eigene, amtlich anerkannte Sprache mit rund 400.000 Sprechern in dieser einen Provinz",
+        "Eine touristische Übersetzung"
+      ],
+      "correta": 2,
+      "explica": "Frysk ist keine Mundart, sondern eine eigenständige Amtssprache mit eigener Grammatik und Schulunterricht in Friesland — außerhalb dieser Provinz begegnet sie dir praktisch nie."
+    },
+    {
+      "pergunta": "Du willst am Tresen höflich fragen, ob Englisch möglich ist. Was sagst du?",
+      "opcoes": [
+        "Waar is het toilet?",
+        "Spreekt u Engels?",
+        "Hoe laat sluit u?",
+        "Wat kost dat?"
+      ],
+      "correta": 1,
+      "explica": "Spreekt u Engels? ist der neutrale, höfliche Baustein für genau diesen Moment — kurz, klar, und in der ganzen Reise wiederverwendbar."
+    }
+  ]
+}

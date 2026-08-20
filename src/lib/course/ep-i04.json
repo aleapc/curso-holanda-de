@@ -1,0 +1,250 @@
+{
+  "id": "i04",
+  "nivel": "intermediario",
+  "numero": 22,
+  "parte": "I04",
+  "titulo": "Die Runde, und wer als Nächstes bestellt",
+  "subtitulo": "Drei Gläser tief in einen guten Abend, und der Tisch fragt, wer dran ist",
+  "cena": "Eine kleine Bar am Freitagabend, drei Gläser bereits leer, und jemand am Tisch fragt, wer die nächste Runde übernimmt.",
+  "moldura": "ganha",
+  "decisao": "welche Bar und wie lange Sie bleiben; wer die Runde übernimmt und wie Sie sich vom Tisch verabschieden, ohne dass es abrupt wirkt",
+  "emJogo": "ambos",
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-i04-n01",
+      "gesto": 4,
+      "tom": "ganha",
+      "bloco": "aquecimento",
+      "pt": "Der Baustein von der Kreidetafel funktioniert auch dort, wo keine Tafel hängt."
+    },
+    {
+      "consulta": ["mesa/bebida"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "bloco": "callback",
+      "molde": "WAS-EMPFEHLEN-SIE",
+      "encaixe": "het bier of de wijn",
+      "encaixeGloss": "das Bier oder der Wein",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i04-p01",
+      "promptPt": "Derselbe Baustein wie vorhin bei der Tafel, nur diesmal an der Bar, mit zwei ganz anderen Dingen. Fragen Sie zurück. Jetzt sprechen.",
+      "audioKey": "hol-i04-t01",
+      "es": "Wat raadt u aan: het bier of de wijn?",
+      "pinyin": "vat raat ü aan: (h)ut beer of duh vayn",
+      "pt": "Was empfehlen Sie: das Bier oder der Wein?",
+      "tts": "Wat raadt u aan: het bier of de wijn?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-i04-n02",
+      "tom": "ganha",
+      "bloco": "cena",
+      "pt": "Drei Gläser sind schon leer, die Musik ist lauter geworden, und jemand fragt: Wer ist dran?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-i04-r01",
+      "tom": "ganha",
+      "es": "Wie is er aan de beurt?",
+      "pinyin": "vee is er aan duh bört",
+      "pt": "Wer ist dran?",
+      "tts": "Wie is er aan de beurt?",
+      "receptivo": true,
+      "acao": "Das ist keine Prüfung, sondern die Einladung, die Runde zu übernehmen — oder ehrlich zu sagen, dass Sie aussetzen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-i04-n03",
+      "tom": "ganha",
+      "bloco": "corpo",
+      "pt": "Eine Runde zu übernehmen ist hier kein Muss — es ist eine Einladung, die reihum geht, so lange jeder mitmacht."
+    },
+    {
+      "consulta": ["mesa/bebida"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "nog een rondje",
+      "encaixeGloss": "noch eine Runde",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i04-p02",
+      "promptPt": "Alle Gläser sind leer, und Sie sind dran. Rufen Sie die Bedienung und übernehmen Sie es. Jetzt sprechen.",
+      "audioKey": "hol-i04-t02",
+      "es": "Mag ik nog een rondje?",
+      "pinyin": "mach ik noch ayn RON-juh",
+      "pt": "Darf ich noch eine Runde haben?",
+      "tts": "Mag ik nog een rondje?"
+    },
+    {
+      "consulta": ["mesa/bebida"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "een glas witte wijn",
+      "encaixeGloss": "ein Glas Weißwein",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i04-p03",
+      "promptPt": "Die Bedienung fragt, was genau in die Runde soll, und Sie wissen für sich selbst schon die Antwort. Jetzt sprechen.",
+      "audioKey": "hol-i04-t03",
+      "es": "Mag ik een glas witte wijn?",
+      "pinyin": "mach ik ayn chlas WIT-tuh vayn",
+      "pt": "Darf ich ein Glas Weißwein haben?",
+      "tts": "Mag ik een glas witte wijn?"
+    },
+    {
+      "consulta": ["mesa/bebida"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "OHNE",
+      "encaixe": "ijs",
+      "encaixeGloss": "Eis",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i04-p04",
+      "promptPt": "Der Wein soll kühl bleiben, aber nicht verdünnt werden. Sagen Sie, was fehlen soll. Jetzt sprechen.",
+      "audioKey": "hol-i04-t04",
+      "es": "Zonder ijs, alstublieft.",
+      "pinyin": "ZON-der ays, al-stü-BLEEFT",
+      "pt": "Ohne Eis, bitte.",
+      "tts": "Zonder ijs, alstublieft."
+    },
+    {
+      "consulta": ["mesa/bebida"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "OHNE",
+      "encaixe": "alcohol, dit rondje",
+      "encaixeGloss": "Alkohol, diese Runde",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i04-p05",
+      "promptPt": "Sie fahren später noch, und die nächste Runde soll trotzdem mitzählen. Sagen Sie, was diesmal fehlt. Jetzt sprechen.",
+      "audioKey": "hol-i04-t05",
+      "es": "Zonder alcohol, dit rondje.",
+      "pinyin": "ZON-der AL-koh-hol, dit RON-juh",
+      "pt": "Ohne Alkohol, diese Runde.",
+      "tts": "Zonder alcohol, dit rondje."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-i04-n04",
+      "tom": "ganha",
+      "bloco": "capsula",
+      "pt": "Zahlt jemand für Sie mit, folgt oft kein Bargeld — sondern eine kurze App-Anfrage, ein Tikkie."
+    },
+    {
+      "consulta": ["compras/balcao"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "HABEN-SIE",
+      "encaixe": "een menukaart voor bittergarnituur",
+      "encaixeGloss": "eine Karte mit kleinen Snacks",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i04-p06",
+      "promptPt": "Die Runde steht, aber Ihr Magen meldet sich zwischen den Gläsern. Fragen Sie nach etwas Kleinem zum Essen. Jetzt sprechen.",
+      "audioKey": "hol-i04-t06",
+      "es": "Heeft u een menukaart voor bittergarnituur?",
+      "pinyin": "HÉÉFT ü ayn meh-nü-KAART for BIT-ter-char-ni-tür",
+      "pt": "Haben Sie eine Karte mit kleinen Snacks?",
+      "tts": "Heeft u een menukaart voor bittergarnituur?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i04-p07",
+      "promptPt": "Es wird spät, und Sie sind noch nicht bereit, den ganzen Abschied zu erklären. Sagen Sie einfach, dass Sie langsam los müssen. Jetzt sprechen.",
+      "audioKey": "hol-i04-t07",
+      "es": "Ik moet er zo langzaam vandoor.",
+      "pinyin": "ik moot er zoh LANG-zaam fan-DOHR",
+      "pt": "Ich muss so langsam los.",
+      "tts": "Ik moet er zo langzaam vandoor."
+    },
+    {
+      "consulta": ["simpatia/agradecer"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "DANKE",
+      "encaixe": "bedankt voor de gezellige avond",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i04-p08",
+      "promptPt": "Bevor Sie aufstehen, ein kurzes Wort für den Abend, den Sie gerade hatten. Jetzt sprechen.",
+      "audioKey": "hol-i04-t08",
+      "es": "Bedankt voor de gezellige avond!",
+      "pinyin": "buh-DANKT for duh chuh-ZEL-li-guh AA-vont",
+      "pt": "Danke für den geselligen Abend!",
+      "tts": "Bedankt voor de gezellige avond!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-i04-n05",
+      "tom": "ganha",
+      "bloco": "permissao",
+      "pt": "Sie dürfen aussetzen, ohne sich zu erklären, und Sie dürfen früh gehen. Beides ist hier normal."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-i04-s01",
+      "tom": "ganha",
+      "molde": "ICH-MOCHTE",
+      "es": "Mag ik nog een rondje? Zonder ijs, alstublieft. Bedankt voor de gezellige avond!",
+      "pinyin": "mach ik noch ayn RON-juh? ZON-der ays, al-stü-BLEEFT. buh-DANKT for duh chuh-ZEL-li-guh AA-vont!",
+      "pt": "Schatten Sie die ganze Runde in einem Atemzug — bestellen, verfeinern, abschließen.",
+      "tts": "Mag ik nog een rondje? Zonder ijs, alstublieft. Bedankt voor de gezellige avond!"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "hol-i04-n06",
+      "tom": "ganha",
+      "bloco": "recap",
+      "pt": "I04 fertig. Eine Runde übernehmen, eine auslassen, und mit einem Satz vom Tisch aufstehen."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Die Runde und das Tikkie",
+    "secoes": [
+      {
+        "titulo": "Wie eine Runde funktioniert",
+        "corpo": "Eine Runde übernehmen heißt, für den ganzen Tisch zu bestellen und später selbst eine Runde von jemand anderem zu bekommen. Niemand führt genau Buch — aber jeder merkt sich ungefähr, wer schon dran war.",
+        "exemplos": [
+          { "es": "Mag ik nog een rondje?", "pt": "Darf ich noch eine Runde haben?" },
+          { "es": "Wie is er aan de beurt?", "pt": "Wer ist dran?" }
+        ]
+      },
+      {
+        "titulo": "Das Wort, das später auf Ihrem Handy landet",
+        "corpo": "Wenn jemand am Ende doch für Sie mitbezahlt hat, folgt selten eine sofortige Bargeldübergabe. Stattdessen bekommen Sie eine kurze Zahlungsanfrage per App — ein Tikkie. Mehr dazu, mit Quelle und Zahl, in I10."
+      }
+    ]
+  },
+  "slot": "I04",
+  "permissao": "Sie dürfen aussetzen, ohne sich zu erklären, und Sie dürfen früh gehen. Beides ist hier normal.",
+  "permissaoAudioKey": "hol-i04-n05",
+  "fichasCulturais": [
+    {
+      "sinal": "Am Ende des Abends zückt niemand Bargeld, um Sie zurückzuzahlen — stattdessen kommt später eine kurze Nachricht mit einem Betrag und einem Link.",
+      "suaLeitura": "Das wirkt unpersönlich, fast wie eine Rechnung unter Freunden.",
+      "oQueEAli": "Rechnungen untereinander zu teilen ist hier ein selbstverständlicher Wert, kein Zeichen von Geiz. Eine kurze App-Zahlungsanfrage, umgangssprachlich Tikkie genannt, ist der übliche Weg dafür — schnell, genau, ohne dass jemand Wechselgeld suchen muss.",
+      "oQueVoceFaz": "Zahlen Sie die Anfrage zeitnah, und stellen Sie selbst eine, wenn Sie für andere ausgelegt haben. Niemand empfindet das als unhöflich.",
+      "oQueMelhora": "Der Abend endet ohne Kopfrechnen am Tisch, und niemand muss Wechselgeld für fünf Personen zusammensuchen.",
+      "ondeNaoVale": "Unter engen Freunden, die sich seit Jahren kennen, wird oft gar nicht geteilt — dort übernimmt einfach abwechselnd jemand die ganze Rechnung.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["hol-i04-n04"]
+    }
+  ]
+}

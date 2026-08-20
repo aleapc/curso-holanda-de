@@ -1,0 +1,498 @@
+{
+  "id": "i04",
+  "nivel": "intermediario",
+  "numero": 22,
+  "parte": "I04",
+  "titulo": "Die Runde — één tafel, één ronde, één woord voor de rekening",
+  "subtitulo": "Aan tafel, bestellen, samen of apart, en thuiskomen — in zinnen die van vorm niet veranderen",
+  "cena": "Een Kneipe in Leipzig, half tien: vier mensen, één lange tafel, een bord aan de muur zonder prijzen, en een kaartlezer die de hele avond niet is aangeraakt.",
+  "moldura": "ganha",
+  "frasePiso": "Zahlen, bitte — en dan één woord voor samen of apart. Zo eindigt hier een avond, en niet anders.",
+  "decisao": "waar u zit en wat de avond kost; u vraagt de rekening zusammen of getrennt, rondt af of niet, en verlaat de tafel met het retourbiljet al gekocht",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "de-i04-bargeld",
+      "afirmacao": "Er is in Duitsland geen wettelijke plicht om kaarten te accepteren. § 14 Abs. 1 BBankG maakt eurobiljetten «das einzige unbeschränkte gesetzliche Zahlungsmittel», en het standpunt van de ECB is dat een handelaar contant geld alleen mag weigeren als koper en verkoper vooraf een ander middel zijn overeengekomen — dus «nur Bargeld» en «nur Karte» zijn beide rechtsgeldig. Bundesbank, Zahlungsverhalten in Deutschland 2025 (gepubliceerd 17.06.2026): voor het eerst was meer dan de helft van de dagelijkse betalingen giraal (55%, tegen 49% in 2023); contant blijft het meest gebruikte instrument naar aantal transacties (45%) en 23% van de omzet. Contant kon worden gebruikt in 94% van de fysieke aankopen; giraal werd of zou zijn geaccepteerd in 86% van de waargenomen gevallen (81% in 2023, 61% in 2021). Een goede kwart van de respondenten had in de voorafgaande maand minstens één mislukte kaart- of telefoonbetaling (18% in 2023), meestal omdat de begunstigde helemaal geen girale methode aanbiedt (77%). Contant blijft het meest gebruikte middel in de dagelijkse detailhandel, in de Gastronomie en op markten en straatverkoop.",
+      "fonte": "§ 14 Abs. 1 BBankG verbatim (gesetze-im-internet.de) + FAQ do BCE verbatim + Deutsche Bundesbank, «Zahlungsverhalten in Deutschland 2025», Stand jul/2026, publicado 17/6/2026, PDF de 82 páginas lido; metodologia forsa, 6.070 entrevistas, campo 8/9 a 2/12/2025, 5.302 diários, base POS n=10.394. Dossiê §§ 4.1, 4.2, 4.4.",
+      "ano": 2026,
+      "revisarAte": "2028-06-30",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-i04-n05",
+        "de-i04-n06"
+      ]
+    },
+    {
+      "id": "de-i04-trinkgeld",
+      "afirmacao": "De Duitse belastingwet moet uitdrukkelijk stellen dat een fooi vrijwillig is om die vrij te stellen. § 3 Nr. 51 EStG stelt vrij de fooien gegeven «freiwillig und ohne dass ein Rechtsanspruch auf sie besteht», bovenop het bedrag dat voor de dienst verschuldigd is — juridisch is de prijs van de maaltijd al de volledige prijs. De brancheorganisatie zegt hetzelfde: DEHOGA Bundesverband, verklaring van 04.06.2024, «Trinkgelder sind und bleiben ein freiwilliges Dankeschön für tolle Gastfreundschaft und guten Service.» Er is geen norm en geen officiële statistiek over hoeveel.",
+      "fonte": "§ 3 Nr. 51 EStG verbatim (gesetze-im-internet.de); DEHOGA Bundesverband, statement de 4/6/2024 (RA Jürgen Benad), verbatim. Dossiê § 4.5. ⚠ Os «5% a 10%» estão RECUSADOS como fato: a única fonte é pesquisa encomendada pela Lightspeed (fornecedora de terminais de PDV com função de gorjeta) com o instituto Medallia, maio/2025, ~1.000 respondentes.",
+      "ano": 2024,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-i04-n09"
+      ]
+    },
+    {
+      "id": "de-i04-endpreis",
+      "afirmacao": "Het getal op de kaart is het getal dat betaald wordt. Preisangabenverordnung 2022, § 3 Abs. 1: een handelaar die goederen of diensten aan consumenten aanbiedt «hat die Gesamtpreise anzugeben», en § 2 definieert Gesamtpreis als de te betalen prijs «einschließlich der Umsatzsteuer und sonstiger Preisbestandteile». Bij de kassa komt er niets bij. § 12 UStG stelt 19% vast en het verlaagde tarief van 7%; het BMF-Schreiben van 22.12.2025 (GZ III C 2 - S 7220/00023/014/027) herintroduceerde het verlaagde tarief op restaurant- en cateringdiensten vanaf 1 januari 2026, met uitdrukkelijke uitsluiting van dranken («mit Ausnahme der Abgabe von Getränken»). Door de PAngV ziet de gast geen van beide tarieven — alleen één getal.",
+      "fonte": "PAngV 2022 §§ 2 e 3 Abs. 1 verbatim e § 12 UStG verbatim (gesetze-im-internet.de); BMF-Schreiben de 22/12/2025, PDF aberto, vigência verbatim «auf alle Umsätze ab dem 1. Januar 2026». Dossiê § 4.6. A única exceção declarada a esta regra é o Pfand (§ 7 PAngV, dossiê § 9.5).",
+      "ano": 2026,
+      "revisarAte": "2027-06-30",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-i04-n04"
+      ]
+    },
+    {
+      "id": "de-i04-fahrschein",
+      "afirmacao": "Reizen zonder geldig vervoerbewijs in Duitsland kent zowel een tariefverhoging als een strafbaar feit, en de twee grondslagen werken in tegengestelde richting. Stadsvervoer, § 9 Abs. 2 BefBedV: de vervoerder mag een verhoogd tarief heffen van «bis zu 60 Euro» — een plafond. Spoor, § 6 EVO (versie 2023): het verhoogde tarief is tweemaal het gewone tarief, «mindestens jedoch 60 Euro» — een bodem, die op een lange reis kan stijgen. Beide dalen naar 7 euro als de reiziger binnen een week na de controle aantoont een geldig vervoerbewijs te hebben gehad. § 6 Abs. 4 EVO schrapt de heffing volledig als het vertrekstation noch een geopend loket noch een werkende automaat had. En § 265a StGB, «Erschleichen von Leistungen», omvat «die Beförderung durch ein Verkehrsmittel» met «Freiheitsstrafe bis zu einem Jahr oder mit Geldstrafe», ook de poging is strafbaar. Op 16 april 2026 verwierp de Bundestag beide wetsvoorstellen tot intrekking van § 265a (Drucksachen 21/2722 en 21/1757); per 5 augustus 2026 is het volledig van kracht. Papieren kaartjes moeten ook worden afgestempeld: § 9 Abs. 1 Nr. 3 BefBedV knoopt het verhoogde tarief vast aan een kaartje dat niet onverwijld is gevalideerd.",
+      "fonte": "§ 9 BefBedV, § 6 EVO (versão consolidada 2023), § 265a StGB — todos verbatim em gesetze-im-internet.de, lidos em 5/8/2026; Beförderungsbedingungen da DB Stand 1/1/2026 verbatim; página do Deutscher Bundestag sobre a votação de 16/4/2026. Dossiê §§ 5.4 e 5.6. ⚠ CORREÇÃO DE PREMISSA: «§ 9 Abs. 3 EVO» e «§ 12 Abs. 1 VO-ABB», que circulam como base legal, NÃO são os dispositivos corretos. O curso registra o resultado da votação e não toma lado no debate.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": [
+        "de-i04-n10",
+        "de-i04-n11"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i04-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "Een avond uit heeft hier drie momenten: aan tafel gaan, de ronde, en de rekening. Drie korte zinnen dekken alles."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i04-n02",
+      "bloco": "molde",
+      "tom": "ganha",
+      "pt": "Open met de bouwsteen die u al heeft: Haben Sie, en daarna het ding. Vanavond is dat een tafel voor vier."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i04-r01",
+      "es": "Guten Abend! Sind Sie zu viert?",
+      "pt": "Goedenavond! Bent u met zijn vieren?",
+      "tts": "Guten Abend! Sind Sie zu viert?"
+    },
+    {
+      "consulta": [
+        "mesa/mesa",
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "HABEN-SIE",
+      "encaixe": "einen Tisch für vier",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i04-p01",
+      "promptPt": "U staat binnen de deur met drie vrienden achter u en niemand kijkt op. Spreek nu.",
+      "audioKey": "de-i04-t01",
+      "es": "Haben Sie einen Tisch für vier?",
+      "pinyin": "HAH-ben zee EYE-nen tish fuer feer",
+      "pt": "Heeft u een tafel voor vier?",
+      "tts": "Haben Sie einen Tisch für vier?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i04-n03",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Prijzen staan aan de muur of nergens. Vragen wat één ding kost, voor de eerste ronde, is gewoon — niet onbeleefd."
+    },
+    {
+      "consulta": [
+        "mesa/bebida",
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WAS-KOSTET",
+      "encaixe": "ein Bier",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i04-p02",
+      "promptPt": "Het bord noemt de tap en geen enkel getal, en u gaat er vier van bestellen. Spreek nu.",
+      "audioKey": "de-i04-t02",
+      "es": "Was kostet ein Bier?",
+      "pinyin": "vass KOS-tet ine beer",
+      "pt": "Wat kost een bier?",
+      "tts": "Was kostet ein Bier?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i04-n04",
+      "tom": "ganha",
+      "pt": "Het getal op de kaart is het getal dat u betaalt. Btw zit er wettelijk in, en aan de kassa komt er niets bij."
+    },
+    {
+      "consulta": [
+        "mesa/bebida",
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "OHNE",
+      "encaixe": "Alkohol",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i04-p03",
+      "promptPt": "Een van de vier rijdt naar huis en wil daar niet de hele avond over uitleggen. Vraag het voor haar. Spreek nu.",
+      "audioKey": "de-i04-t03",
+      "es": "Haben Sie etwas ohne Alkohol?",
+      "pinyin": "HAH-ben zee ET-vass OH-nuh AL-ko-hohl",
+      "pt": "Heeft u iets zonder alcohol?",
+      "tts": "Haben Sie etwas ohne Alkohol?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i04-r02",
+      "es": "Klar. Apfelschorle, Spezi oder alkoholfreies Bier.",
+      "pt": "Natuurlijk. Appelsapmix, Spezi of alcoholvrij bier.",
+      "tts": "Klar. Apfelschorle, Spezi oder alkoholfreies Bier."
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "eine Apfelschorle",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i04-p04",
+      "promptPt": "Hij noemde er drie; de eerste is de hare. Bestel die voor haar. Spreek nu.",
+      "audioKey": "de-i04-t04",
+      "es": "Ich möchte eine Apfelschorle, bitte.",
+      "pinyin": "ikh MURKH-tuh EYE-nuh AP-fel-shor-luh, BIT-tuh",
+      "pt": "Ik wil graag een Apfelschorle, alstublieft.",
+      "tts": "Ich möchte eine Apfelschorle, bitte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i04-n05",
+      "tom": "protege",
+      "pt": "Een goede kwart van de mensen hier had vorige maand een kaartbetaling die mislukte — meestal omdat de zaak geen apparaat had."
+    },
+    {
+      "consulta": [
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i04-p05",
+      "promptPt": "Voordat iemand iets drinkt: één vraag beslist hoe de avond eindigt. Stel hem. Spreek nu.",
+      "audioKey": "de-i04-t05",
+      "es": "Kann ich mit Karte zahlen?",
+      "pinyin": "kann ikh mitt KAR-tuh TSAH-len",
+      "pt": "Kan ik met kaart betalen?",
+      "tts": "Kann ich mit Karte zahlen?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i04-r03",
+      "es": "Nur Bargeld, tut mir leid.",
+      "pt": "Alleen contant, sorry.",
+      "tts": "Nur Bargeld, tut mir leid.",
+      "receptivo": true,
+      "acao": "Twee woorden op een deur of uit een mond. Hoor ze vroeg en de avond heeft nog een plan; hoor ze laat en niet meer."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i04-n06",
+      "tom": "ganha",
+      "pt": "Nur Bargeld mag hier gewoon. Bankbiljetten zijn het enige onbeperkte wettige betaalmiddel; kaarten zijn optie."
+    },
+    {
+      "consulta": [
+        "pagar/dinheiro",
+        "compras/pagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-SUCHE",
+      "encaixe": "einen Geldautomaten",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i04-p06",
+      "promptPt": "U heeft elf euro op zak en de ronde kost meer. Hou iemand aan bij de deur. Spreek nu.",
+      "audioKey": "de-i04-t06",
+      "es": "Ich suche einen Geldautomaten.",
+      "pinyin": "ikh ZOO-khuh EYE-nen GELT-ow-toh-mah-ten",
+      "pt": "Ik zoek een geldautomaat.",
+      "tts": "Ich suche einen Geldautomaten."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i04-n07",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "Zahlen, bitte. Twee woorden en de avond gaat dicht. Eén woord daarna beslist hoe."
+    },
+    {
+      "consulta": [
+        "mesa/conta",
+        "pagar/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i04-p07",
+      "promptPt": "Glazen leeg, jassen over de stoelen, hij staat twee tafels verder. Vang zijn blik en zeg het. Spreek nu.",
+      "audioKey": "de-i04-t07",
+      "es": "Zahlen, bitte.",
+      "pinyin": "TSAH-len, BIT-tuh",
+      "pt": "De rekening, alstublieft.",
+      "tts": "Zahlen, bitte."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i04-r04",
+      "es": "Zusammen oder getrennt?",
+      "pt": "Samen of apart?",
+      "tts": "Zusammen oder getrennt?"
+    },
+    {
+      "consulta": [
+        "pagar/rachar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i04-p08",
+      "promptPt": "Hij houdt de map vast en wacht, en jullie hebben niets afgesproken. Eén woord. Spreek nu.",
+      "audioKey": "de-i04-t08",
+      "es": "Getrennt, bitte.",
+      "pinyin": "guh-TRENT, BIT-tuh",
+      "pt": "Apart, alstublieft.",
+      "tts": "Getrennt, bitte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i04-n08",
+      "tom": "ganha",
+      "pt": "Zusammen is samen, getrennt is apart. Eén woord is genoeg — en u kunt het al kiezen voor u gaat zitten."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i04-n09",
+      "tom": "ganha",
+      "pt": "Fooi is bij wet vrijwillig — de wet zegt uitdrukkelijk dat er geen recht op is. Een officieel percentage bestaat nergens."
+    },
+    {
+      "consulta": [
+        "pagar/gorjeta"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i04-p09",
+      "promptPt": "Uw deel is achttien euro veertig, u geeft een twintig, en u wilt dat de ruil daarmee klaar is. Spreek nu.",
+      "audioKey": "de-i04-t09",
+      "es": "Stimmt so.",
+      "pinyin": "shtimmt zo",
+      "pt": "Laat maar zo.",
+      "tts": "Stimmt so."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i04-r05",
+      "es": "Wir machen gleich Feierabend.",
+      "pt": "We sluiten zo.",
+      "tts": "Wir machen gleich Feierabend.",
+      "receptivo": true,
+      "acao": "Dat is sluitingstijd, zacht aangekondigd. Bestel nu of vraag de rekening — het wordt niet twee keer gezegd."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i04-n10",
+      "tom": "protege",
+      "pt": "Zonder kaartje reizen kost hier niet alleen zestig euro. Het is ook een strafbaar feit, en een poging telt al."
+    },
+    {
+      "consulta": [
+        "transporte/qual-trem",
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WANN-IST",
+      "encaixe": "die letzte Bahn",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i04-p10",
+      "promptPt": "Het is tien over elf en iemand stelt er nog eentje voor. Zoek uit hoeveel tijd u werkelijk heeft. Spreek nu.",
+      "audioKey": "de-i04-t10",
+      "es": "Wann ist die letzte Bahn?",
+      "pinyin": "vahn ist dee LETS-tuh bahn",
+      "pt": "Wanneer gaat de laatste trein?",
+      "tts": "Wann ist die letzte Bahn?"
+    },
+    {
+      "consulta": [
+        "transporte/plataforma",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WO-IST",
+      "encaixe": "die Haltestelle",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i04-p11",
+      "promptPt": "U heeft elf minuten en geen idee welke hoek. Vraag het aan de man die glazen ophaalt. Spreek nu.",
+      "audioKey": "de-i04-t11",
+      "es": "Wo ist die Haltestelle?",
+      "pinyin": "voh ist dee HAHL-tuh-shtell-uh",
+      "pt": "Waar is de halte?",
+      "tts": "Wo ist die Haltestelle?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i04-n11",
+      "tom": "protege",
+      "pt": "Papieren kaartje: stempelen voor u instapt. Uit de app is het al gestempeld en hoeft u niets te doen."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "DANKE",
+      "encaixe": "Vielen Dank",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i04-p12",
+      "promptPt": "De tafel blijft en u niet. Sluit uw eigen avond zonder die van de anderen te sluiten. Spreek nu.",
+      "audioKey": "de-i04-t12",
+      "es": "Vielen Dank! Ich muss los.",
+      "pinyin": "FEE-len dank! ikh muss lohs",
+      "pt": "Hartelijk dank! Ik moet gaan.",
+      "tts": "Vielen Dank! Ich muss los."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i04-r07",
+      "es": "Schade! Tschüss, bis morgen.",
+      "pt": "Jammer! Doei, tot morgen.",
+      "tts": "Schade! Tschüss, bis morgen."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i04-r06",
+      "es": "Die Fahrkarte, bitte.",
+      "pt": "Uw kaartje, alstublieft.",
+      "tts": "Die Fahrkarte, bitte.",
+      "receptivo": true,
+      "acao": "Geef het en zeg verder niets. Had u wel een geldig kaartje bij u, dan heeft u één week om dat te bewijzen."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-i04-s01",
+      "molde": "HABEN-SIE",
+      "es": "Haben Sie einen Tisch? Haben Sie etwas ohne Alkohol? Haben Sie WLAN?",
+      "pinyin": "HAH-ben zee EYE-nen tish. HAH-ben zee ET-vass OH-nuh AL-ko-hohl. HAH-ben zee VAY-lahn",
+      "pt": "Schaduw één opening over een hele avond: de tafel, het drankje en het netwerk.",
+      "tts": "Haben Sie einen Tisch? Haben Sie etwas ohne Alkohol? Haben Sie WLAN?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i04-n12",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "I04 klaar. Een tafel, een ronde, zahlen bitte, getrennt, stimmt so — en een kaartje in de hand voor het perron."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "De vier woorden die een Duitse avond afsluiten",
+    "secoes": [
+      {
+        "titulo": "Zahlen, bitte — en dan één woord",
+        "corpo": "Zahlen, bitte is het hele verzoek. De vraag die terugkomt is zusammen oder getrennt, en het loont de antwoord al klaar te hebben voor die komt. Zusammen betekent één rekening voor de tafel; getrennt betekent dat hij de tafel afwerkt, persoon voor persoon, met de getallen in zijn hoofd. Dit zijn zinnen om te herkennen en te zeggen, geen regel over hoe iemand hier zich gedraagt: geen officiële bron documenteert de praktijk, en dit cursus beweert niets. Van tevoren beslissen welke van de twee u wilt, is het verschil tussen een schoon einde en vier mensen die om middernacht zitten te rekenen.",
+        "exemplos": [
+          {
+            "es": "Zahlen, bitte.",
+            "pt": "De rekening, alstublieft."
+          },
+          {
+            "es": "Getrennt, bitte.",
+            "pt": "Apart, alstublieft."
+          }
+        ]
+      },
+      {
+        "titulo": "Stimmt so, en wat de wet werkelijk zegt",
+        "corpo": "Stimmt so overhandigt het biljet en sluit de transactie: dat klopt, hou het maar. Het is de moeite waard om te weten waarom er niets meer verschuldigd is. Om fooien vrij te stellen van inkomstenbelasting moet § 3 Nr. 51 EStG eerst omschrijven wat ze zijn — geld dat vrijwillig wordt gegeven, zonder juridisch recht daarop, bovenop het bedrag dat voor de dienst betaald is. De brancheorganisatie zegt hetzelfde: een vrijwillige dank. Dus de maaltijdprijs is wettelijk de hele prijs, en afronden is een keuze, geen plicht. Elk percentage dat u ergens gelezen heeft, is geen regel: er is geen norm en geen officiële statistiek over hoeveel, en het cijfer dat rondgaat komt uit een enquête die besteld werd door een bedrijf dat kaartlezers met een fooiknop verkoopt."
+      },
+      {
+        "titulo": "Contant, kaart, en het apparaat dat niet voor u is",
+        "corpo": "Niets verplicht een zaak hier om kaart te accepteren, en niets verplicht ze om contant te accepteren, zolang ze het van tevoren aangeven. Eurobiljetten zijn wettelijk het enige onbeperkte betaalmiddel, en juist daarom is «nur Bargeld» op de deur legaal en geen truc. De richting is echt — cashless werd in 2025 in 86% van de waargenomen betalingen aanvaard, tegen 61% in 2021 — maar juist de Gastronomie houdt vast aan contant. Er is nog een valstrik als mechanisme, niet als citaat: een Duitse terminal kan alleen op girocard aangesloten zijn, het binnenlandse systeem. Kaarten aannemen is niet hetzelfde als uw kaart aannemen."
+      },
+      {
+        "titulo": "Waarom het menucijfer het eindcijfer is",
+        "corpo": "De Preisangabenverordnung verplicht de handelaar om de Gesamtpreis te tonen, gedefinieerd als de prijs inclusief btw en elk ander onderdeel. Dus het cijfer op de kaart is het cijfer op de rekening — het tegenovergestelde van de Noord-Amerikaanse gewoonte om belasting achteraf toe te voegen. Het betekent ook dat een tariefverandering voor u onzichtbaar is: eten in restaurants ging op 1 januari 2026 naar het verlaagde tarief van 7%, terwijl dranken op 19% bleven, en de gast ziet één getal en geen percentages. De enige uitdrukkelijke uitzondering hierop is het Pfand op een fles, dat volgens de wet naast de prijs moet worden vermeld en er uitdrukkelijk niet bij mag worden opgeteld."
+      },
+      {
+        "titulo": "De rit naar huis, en waarom die strafrechtelijk is",
+        "corpo": "Zonder geldig kaartje reizen heeft hier twee losse gevolgen, en de reiziger die alleen Engels spreekt verwacht meestal maar één. De verhoging is geregeld door twee regels die tegenover elkaar staan: in het stadsvervoer mag de vervoerder tot zestig euro heffen — een plafond — terwijl het op het spoor het dubbele van het tarief is, en ten minste zestig euro — een ondergrens die op een lange reis stijgt. Beide vallen terug op zeven euro als u binnen een week na de controle aantoont dat u wel een geldig kaartje had, en op het spoor vervalt de verhoging helemaal als het vertrekstation geen open loket en geen werkende automaat had. Los daarvan maakt § 265a StGB het strafbaar om zonder betalingsintentie vervoer te verkrijgen, tot een jaar of een geldboete, en de poging is ook strafbaar. Twee wetsvoorstellen om het te schrappen werden op 16 april 2026 in de Bundestag verworpen, dus het staat. Een papieren kaartje moet ook worden gestempeld voor u instapt; een kaartje uit de app is al gevalideerd."
+      }
+    ]
+  },
+  "slot": "I04",
+  "permissao": "U mag vragen wat een drankje kost voor u er vier bestelt, en niemand aan die tafel denkt daar minder om. U mag zusammen oder getrennt beantwoorden met één woord en zonder uitleg, het biljet overhandigen en stimmt so zeggen zonder iets toe te voegen, of niets geven — de wet is uitdrukkelijk dat niemand er recht op heeft. En u mag een tafel verlaten die blijft: vielen Dank, ich muss los, tschüss is op elk uur van de nacht een compleet, volwassen vertrek.",
+  "permissaoAudioKey": "de-i04-n09",
+  "espelho": "Wie thuis ooit met een kaart in een kroeg-alleen-contant stond, kent deze avond al: het probleem is nooit het geld, het is dat u het te laat te weten komt. De Duitse versie heeft dezelfde oplossing — vraag het bij binnenkomst, terwijl u nog kunt kiezen waar u gaat zitten.",
+  "fichasCulturais": [
+    {
+      "sinal": "Er staat een kaartlezer op de bar en het antwoord is toch «nur Bargeld».",
+      "suaLeitura": "Ze weigeren mijn geld, waarschijnlijk om de avond buiten de boeken te houden.",
+      "oQueEAli": "Geen wet verplicht een zaak in Duitsland kaart te accepteren. Eurobiljetten zijn het enige onbeperkte wettige betaalmiddel, en een handelaar mag van tevoren een ander middel afspreken — dus «alleen contant» en «alleen kaart» zijn beide legaal. Er is een tweede laag: een terminal kan alleen op girocard aangesloten zijn, het binnenlandse debetsysteem, dus een apparaat op de toonbank is geen belofte over uw kaart.",
+      "oQueVoceFaz": "Vraag het voor de eerste ronde, niet na de laatste, en hou bankbiljetten bij u voor een avond uit. Is het contant, dan is de vraag naar een geldautomaat de volgende zin, geen nederlaag.",
+      "oQueMelhora": "U komt het te weten op het moment dat u nog kunt kiezen waar u zit, en u leest een legale huisregel niet meer als een belediging.",
+      "ondeNaoVale": "Dit gaat over de zaal waar u staat, niet over het land. De aanvaarding van kaartbetalingen bereikte in 2025 86% van de waargenomen gevallen, tegen 61% in 2021 — de trend is de andere kant op. En het girocard-punt is een mechanisme, geen citaat: er is geen institutionele verklaring dat buitenlandse Visa- of Mastercard-kaarten falen op alleen-girocard-terminals.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-i04-n06"
+      ]
+    },
+    {
+      "sinal": "De terminal wordt naar u gedraaid met een fooiknop die al oplicht.",
+      "suaLeitura": "Dit is hetzelfde scherm als thuis, dus wordt hier dezelfde vijftien of twintig procent verwacht.",
+      "oQueEAli": "De Duitse belastingwet moet omschrijven wat een fooi is om die vrij te stellen, en die omschrijving is: vrijwillig gegeven, zonder juridisch recht daarop, bovenop wat voor de dienst verschuldigd is. De brancheorganisatie herhaalt het woord freiwillig. De maaltijdprijs is wettelijk de hele prijs, en de knop is een functie die de eigenaar heeft aangezet.",
+      "oQueVoceFaz": "Beslis het bedrag zelf voor het scherm verschijnt. Stimmt so met een biljet, een rond getal hardop, of niets zijn allemaal complete antwoorden.",
+      "oQueMelhora": "U wordt niet meer door een scherm afgedongen, en het bedrag is niet meer een percentage dat u uit een ander land invoert.",
+      "ondeNaoVale": "Er is geen norm en geen officiële statistiek over hoeveel er wordt gegeven, dus dit is ook geen vergunning om te zeggen dat een bepaald getal het juiste is. Het enige bereik dat rondgaat komt uit een enquête besteld door een leverancier van kaartlezers met fooifunctie, en deze cursus herhaalt het getal niet. En niets hier zegt dat contant op tafel laten fout is — daar is voor geen enkele richting een bron voor.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-i04-n09"
+      ]
+    }
+  ]
+}

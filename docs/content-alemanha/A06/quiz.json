@@ -1,0 +1,96 @@
+{
+  "id": "q-a06",
+  "nivel": "avancado",
+  "titulo": "Quiz — 3 oktober, en vijftien andere kalenders",
+  "subtitulo": "Vijf vragen over één federale datum, een straat die zichzelf sluit, en de maand die niet bestaat",
+  "introAudioKey": "de-a06-q-i",
+  "introPt": "Een bezoeker stopt met Duitse feestdagen opzoeken en begint te vragen naar de stad die voor hem staat.",
+  "cenario": "Een donderdagavond in een stad waar u een uur geleden met de trein aankwam, en vier antwoorden die niet helemaal samenvallen.",
+  "dialogo": [
+    {
+      "audioKey": "de-a06-q01",
+      "voz": "target_de_f",
+      "es": "Morgen ist Feiertag, da haben wir zu.",
+      "pt": "Morgen is feestdag, dus wij zijn dicht.",
+      "tts": "Morgen ist Feiertag, da haben wir zu."
+    },
+    {
+      "audioKey": "de-a06-q02",
+      "voz": "target_de_m",
+      "es": "Bei uns nicht. Wir sind ein anderes Bundesland.",
+      "pt": "Bij ons niet. Wij zijn een andere deelstaat.",
+      "tts": "Bei uns nicht. Wir sind ein anderes Bundesland."
+    },
+    {
+      "audioKey": "de-a06-q03",
+      "voz": "target_de_f",
+      "es": "Sonntags ist geschlossen. Der Bahnhof hat auf.",
+      "pt": "Op zondag zijn wij dicht. Het station is open.",
+      "tts": "Sonntags ist geschlossen. Der Bahnhof hat auf."
+    },
+    {
+      "audioKey": "de-a06-q04",
+      "voz": "target_de_m",
+      "es": "Rosenmontag ist kein Feiertag, aber hier macht fast alles zu.",
+      "pt": "Rosenmontag is geen feestdag, maar hier gaat bijna alles dicht.",
+      "tts": "Rosenmontag ist kein Feiertag, aber hier macht fast alles zu."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Hoeveel wettelijke feestdagen in Duitsland zijn federaal vastgelegd?",
+      "opcoes": [
+        "Geen — ze horen allemaal bij de deelstaten",
+        "Eén, 3 oktober",
+        "Negen, inclusief Kerstmis en Tweede Paasdag",
+        "Tien, opgesomd in het Grundgesetz"
+      ],
+      "correta": 1,
+      "explica": "Het Einigungsvertrag zegt het in één zin: 3 oktober is de Dag van de Duitse Eenheid, een wettelijke feestdag. Elke andere datum wordt vastgesteld door de wet van een afzonderlijke deelstaat: negen data gelden in alle zestien, en als 3 oktober eraf gaat, zijn de overige acht alleen uniform omdat zestien deelstaatwetten toevallig samenvallen."
+    },
+    {
+      "pergunta": "Rosenmontag maakt de halve Keulen leeg. Wat is de juridische status?",
+      "opcoes": [
+        "Een wettelijke feestdag, alleen in Noordrijn-Westfalen",
+        "Een wettelijke feestdag in de Rijnlandse gemeenten",
+        "Een gewone werkdag, in elke deelstaat",
+        "Een halve feestdag vanaf twaalf uur"
+      ],
+      "correta": 2,
+      "explica": "Het is nergens een wettelijke feestdag. Het schoonste bewijs is dat de stad Keulen een bericht moet publiceren waarin staat dat haar eigen burgerkantoren en burgerlijke stand die dag dicht zijn — wat overbodig zou zijn als de dag zichzelf sloot."
+    },
+    {
+      "pergunta": "Het is zondag en het tankstation is open. Wat mag het u wettelijk verkopen?",
+      "opcoes": [
+        "Alles op de schappen — de sluitingsregels gelden er niet voor",
+        "Auto-onderdelen, brandstof en reiswaren",
+        "Alleen eten en drinken",
+        "Wat het wil, tot acht uur 's avonds"
+      ],
+      "correta": 1,
+      "explica": "De winkelsluitingswet laat tankstations op elk uur openen, maar beperkt ze tijdens sluitingstijden en op zondagen en feestdagen tot onderdelen om een voertuig te laten rijden, brandstof en reiswaren. Het is geen legale zondagssupermarkt. Stations- en luchthavenwinkels zijn op dezelfde manier beperkt tot reiswaren voor reizigers."
+    },
+    {
+      "pergunta": "Welke van deze is de juiste uitspraak over winkelsluiting vandaag?",
+      "opcoes": [
+        "Het is federale wet, identiek in alle zestien deelstaten",
+        "Beieren is de laatste deelstaat die nog op de federale wet draait",
+        "Het hoort sinds 2006 bij de deelstaten, en Beieren nam in 2025 zijn eigen wet aan",
+        "Het is voor toeristen in stadscentra afgeschaft"
+      ],
+      "correta": 2,
+      "explica": "De federale hervorming van 2006 verplaatste de bevoegdheid naar de deelstaten, en het Grundgesetz sluit winkelsluiting nu met zoveel woorden uit van het federale economisch recht. Beierens eigen wet trad in werking op 1 augustus 2025 — die behoudt de acht-uur-grens maar laat onbemande winkels tot 150 vierkante meter dag en nacht open, ook op zondag."
+    },
+    {
+      "pergunta": "Wat klopt over het Duitse zomerseizoen?",
+      "opcoes": [
+        "Het land sluit het grootste deel van augustus, zoals in Zuid-Europa",
+        "De schoolvakanties worden met opzet over de deelstaten gespreid",
+        "Alle zestien deelstaten hebben tegelijk vakantie in juli",
+        "In de zuidelijke deelstaten zijn er geen schoolvakanties"
+      ],
+      "correta": 1,
+      "explica": "Er is geen maand waarin het land sluit, en niets werd gevonden om dat idee te steunen. De onderwijsministers roteren de zomervakanties over vijf groepen deelstaten juist om te voorkomen dat iedereen tegelijk vertrekt — en Baden-Württemberg en Beieren staan structureel als laatste, wat het seizoen uitsmeert van eind juni tot midden september."
+    }
+  ]
+}

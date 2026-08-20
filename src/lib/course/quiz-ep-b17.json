@@ -1,0 +1,96 @@
+{
+  "id": "q-b17",
+  "nivel": "basico",
+  "titulo": "Quiz — Apotheek, bevor ein Arzt nötig ist",
+  "subtitulo": "Der Unterschied zwischen dem grünen Kreuz und der Drogerie, und die Nummer, die nur ein Anruf ist",
+  "introAudioKey": "hol-b17-q-i",
+  "introPt": "Ein Abend in Groningen, das grüne Kreuz dunkel, und ein Reisender, der weiß, wo er weitersuchen muss.",
+  "cenario": "Ein Abend in Groningen, das grüne Kreuz der Apotheke schon dunkel.",
+  "dialogo": [
+    {
+      "audioKey": "hol-b17-q01",
+      "voz": "target_nl_f",
+      "es": "Ik zoek een apotheek.",
+      "pt": "Ich suche eine Apotheke.",
+      "tts": "Ik zoek een apotheek."
+    },
+    {
+      "audioKey": "hol-b17-q02",
+      "voz": "target_nl_m",
+      "es": "Die vindt u op het briefje daar, met het adres.",
+      "pt": "Die finden Sie auf dem Zettel dort, mit der Adresse.",
+      "tts": "Die vindt u op het briefje daar, met het adres."
+    },
+    {
+      "audioKey": "hol-b17-q03",
+      "voz": "target_nl_f",
+      "es": "Ik heb een recept uit Duitsland.",
+      "pt": "Ich habe ein Rezept aus Deutschland.",
+      "tts": "Ik heb een recept uit Duitsland."
+    },
+    {
+      "audioKey": "hol-b17-q04",
+      "voz": "target_nl_m",
+      "es": "Blijf aan de lijn, de ambulance is onderweg.",
+      "pt": "Bleiben Sie am Apparat, der Krankenwagen ist unterwegs.",
+      "tts": "Blijf aan de lijn, de ambulance is onderweg."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Was ist der Unterschied zwischen apotheek und drogist?",
+      "opcoes": [
+        "Keiner, beide Wörter meinen dasselbe",
+        "Die apotheek gibt Rezeptpflichtiges aus, der drogist nur Rezeptfreies",
+        "Der drogist ist teurer",
+        "Die apotheek hat nie geöffnet"
+      ],
+      "correta": 1,
+      "explica": "Zwei Läden, zwei Aufgaben. Kopfschmerztabletten bekommst du auch beim drogist — schneller, wenn die Apotheke noch geschlossen hat."
+    },
+    {
+      "pergunta": "Eine geschlossene Apotheke zeigt ein gedrucktes Blatt hinter der Scheibe. Was steht darauf?",
+      "opcoes": [
+        "Werbung",
+        "Die Adresse der nächsten geöffneten Apotheke — Pflicht, keine Werbung",
+        "Die Preisliste",
+        "Ein Entschuldigungstext"
+      ],
+      "correta": 1,
+      "explica": "Das Blatt ist Pflicht bei geschlossenen Apotheken. Lies die Adresse, nicht den Namen."
+    },
+    {
+      "pergunta": "Gilt dein deutsches Rezept in einer niederländischen Apotheke?",
+      "opcoes": [
+        "Nein, nie",
+        "Ja, ganz normal, EU-weit, ohne neuen Arztbesuch",
+        "Nur mit einer amtlichen Übersetzung",
+        "Nur in Grenzstädten"
+      ],
+      "correta": 1,
+      "explica": "Ein EU-Rezept — auch ein deutsches — gilt hier ganz normal. Ik heb een recept uit Duitsland. ordnet die Situation sofort ein."
+    },
+    {
+      "pergunta": "Wie erreichst du in den Niederlanden den Notruf 112?",
+      "opcoes": [
+        "Per SMS oder Anruf, beides möglich",
+        "Nur per Sprachanruf — es gibt keine SMS-Option für Besucher",
+        "Nur über eine App",
+        "Nur über die Rezeption deiner Unterkunft"
+      ],
+      "correta": 1,
+      "explica": "112 funktioniert hier ausschließlich per Sprachanruf. Kannst du nicht selbst telefonieren, bitte jemanden neben dir darum."
+    },
+    {
+      "pergunta": "Was sagst du zuerst, wenn du 112 anrufst?",
+      "opcoes": [
+        "Deinen Namen",
+        "Den Ort — die Leitstelle braucht ihn sofort, auch falls das Gespräch abbricht",
+        "Deine Reiseversicherung",
+        "Was du gefrühstückt hast"
+      ],
+      "correta": 1,
+      "explica": "Zuerst der Ort, dann was passiert ist. Blijf aan de lijn heißt: nicht auflegen, auch wenn du fertig gesprochen hast."
+    }
+  ]
+}

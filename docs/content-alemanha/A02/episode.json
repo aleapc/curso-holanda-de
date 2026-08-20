@@ -1,0 +1,416 @@
+{
+  "id": "a02",
+  "nivel": "avancado",
+  "numero": 30,
+  "parte": "A02",
+  "titulo": "Waar ze om lachen, en de grap die van u is",
+  "subtitulo": "De spoorwegmaatschappij drijft in het openbaar de spot met zichzelf, uw eigen Duits is het materiaal dat altijd aankomt, en één gebaar staat in het wetboek van strafrecht",
+  "cena": "Een vertraagd perron, een wagon die lacht om iets wat de conducteur zojuist door de intercom zei, en u drie seconden achter de zaal.",
+  "moldura": "ganha",
+  "frasePiso": "Lach om uzelf en lach mee met de treingrappen, en u zit al binnen. De rest kan geluisterd worden.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "de-a02-bahn",
+      "afirmacao": "Deutsche Bahn sloot 2025 af met 60,1 procent van de langeafstandstreinen op tijd, tegen 62,5 procent het jaar ervoor (Presseinformation Bilanz 2025, Berlijn, 27 maart 2026), en het bedrijf schrijft de daling toe aan het recordaantal bouwlocaties op het net, met de toevoeging dat de punctualiteit «wird die Pünktlichkeit unter Druck bleiben» tijdens het bouwjaar 2026. De definitie doet er evenveel toe als het getal: het Geschäftsbericht 2025 stelt «Pünktlich sind Ankünfte mit einer Abweichung kleiner + 6 Minuten», gemeten op elke halte in plaats van alleen bij de eindbestemming. De reizigersgerichte maat, Reisendenpünktlichkeit, staat 14:59 minuten toe en telt gemiste aansluitingen en uitvallen mee: 65,5 procent in 2025. Regionaal spoor stond op 89,2 procent. De maandtabel voor 2026 toont langeafstandspunctualiteit van 52,6 procent in juni en juli, onder het officiële jaardoel van 60 procent. Over de humor zelf: NPR, «Germany's train service is one of Europe's worst. How did it get so bad?», 12 december 2025, documenteert dat DB zelf een mockumentary-serie voor sociale media lanceerde over een team dat het met absurde omstandigheden moet doen, en meldt een conducteur die de reizigers een goede reis wenste «voor zover mogelijk», met de wagon in lachen uit.",
+      "fonte": "DB, Presseinformation Bilanz 2025 (PDF baixado, «Berlin, 27.03.2026»), verbatim: «60,1 Prozent der DB-Fernverkehrszüge erreichten 2025 pünktlich das Ziel (Vorjahr: 62,5 Prozent).» Geschäftsbericht 2025, seção «Betrieb — Pünktlichkeit», verbatim: «Pünktlich sind Ankünfte mit einer Abweichung kleiner + 6 Minuten.» Reisendenpünktlichkeit definida na página oficial de Pünktlichkeitswerte, limiar «14:59 Minuten»: 65,5% em 2025; DB Regio Schiene 89,2%. Tabela mensal 2026 (acessada 5/8/2026): junho 52,6%, julho 52,6%. Meta 2026 verbatim: «das Ziel für 2026 auf 60 % festgelegt». NPR, Esme Nicholson, 12/12/2025 (página aberta e lida). Pesquisa §5.1 e §10.5. ⚠ Sustentar-se em «a própria DB faz humor institucional sobre seus atrasos», nunca em «é um clichê nacional documentado».",
+      "ano": 2026,
+      "revisarAte": "2027-05-31",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-a02-n03",
+        "de-a02-n04"
+      ]
+    },
+    {
+      "id": "de-a02-falsche-freunde",
+      "afirmacao": "De valse vrienden waar een Duitsleerder over struikelt zijn in Duitse woordenboeken geverifieerd, wat ze veilig materiaal maakt voor een grap tegen uzelf. DWDS geeft bekommen als «⟨etw., jmdn. bekommen⟩ in den Besitz von etw., jmdm. kommen» — krijgen, ontvangen — terwijl worden werden is, «bezeichnet das Übergehen … eine Zustandsveränderung». Gift is «Stoff, der im Körper eine zerstörende oder tödliche Wirkung hervorruft», gif; een cadeau is een Geschenk. De etymologie is het beste stukje en is twee keer geverifieerd: DWDS registreert dat Gift «ist eine germ. Abstraktbildung (*gefti-) mit t-Suffix zu dem unter geben behandelten Verb», oorspronkelijk «das Geben, Gabe, Geschenk, Schenkung», met de specialisatie naar gif toegeschreven aan het Griekse en late Latijnse dosis, zelf letterlijk een gave; Duden geeft onafhankelijk «mittelhochdeutsch, althochdeutsch gift», oorspronkelijk «das Geben, Übergabe; Gabe». Mitgift, een bruidsschat, houdt de oude betekenis vast. In het Nederlands ziet u dezelfde splitsing: 'gift' en 'giftig' delen die oude wortel. Also is «folglich, demnach», dus of daarom; eventuell betekent misschien, «mit einer eher geringen Wahrscheinlichkeit», niet uiteindelijk.",
+      "fonte": "Todos os lemas alemães verificados no DWDS e, onde acessível, no Duden — pesquisa §2, tabela dos doze lemas, e a nota etimológica de Gift/Mitgift, marcada como VERIFICADA e «o melhor gancho didático do bloco». ⚠ O lado inglês só foi verificado em dicionário para sensible e eventually (Longman/LDOCE); Merriam-Webster, Cambridge e Collins devolveram 403, e a pesquisa recusa qualquer entrada de dicionário inglês além dessas duas (item 12 da lista de exclusão). Nenhum conteúdo de Kroschewski (2000) é usado: só a referência está confirmada.",
+      "ano": 2026,
+      "revisarAte": "2031-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-a02-n06",
+        "de-a02-n07"
+      ]
+    },
+    {
+      "id": "de-a02-achtung",
+      "afirmacao": "De oorlogsgrap in het voetbal is gedocumenteerd als een die maar één kant op reist. De Daily Mirror van 24 juni 1996, onder redactie van Piers Morgan en twee dagen vóór de halve finale van Euro 96, drukte op de voorpagina «ACHTUNG! SURRENDER», subkop «For you Fritz, ze Euro 96 Championship is over»; The Sun kwam met «Let's Blitz Fritz» en de Daily Star volgde. Die kop en die datum zijn geverifieerd. Wat niet is geverifieerd, en hier dus niet wordt beweerd, is de reactie — klachten, brieven naar de ambassade, een verontschuldiging van de redacteur zijn allemaal uit tweede hand gemeld en de contemporaine bron gaf een fout. De academische literatuur bestaat (Maguire, Poulton & Possamai, Journal of Sport and Social Issues 23(4), 1999; Garland & Rowe, dezelfde journal 23(1), 1999) maar zit achter een betaalmuur en is niet gelezen; uit titels en samenvattingen komt alleen het kernbegrip van asymmetrie, namelijk dat de oorlogsinkleding aan de Engelse pers en Engelse fans toebehoort en niet wordt beantwoord aan Duitse zijde. Geen enkele studie meet hoe iets ervan in Duitsland wordt ontvangen, dus ontraadt deze cursus de grap alleen op grond van asymmetrie en nooit op een claim van kwetsing.",
+      "fonte": "Daily Mirror, 24/6/1996, manchete e subtítulo verificados; The Sun e Daily Star registrados. ⚠ A reação é PROVÁVEL e NÃO VERIFICADA (UPI de 25/6/1996 devolveu HTTP 403) — item 45 da lista de exclusão: «a manchete e a data entram; a reação não». Literatura acadêmica em paywall, NÃO LIDA — item 47: só o conceito de assimetria, sem citação. Item 8 da lista de exclusão: «'Piada sobre a guerra ofende alemães' — percepção anglófona sem registro… O curso pode desaconselhar por assimetria de contexto, não por alegação de ofensa.» Pesquisa §10.5.",
+      "ano": 1996,
+      "revisarAte": "2031-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-a02-n08",
+        "de-a02-n09"
+      ]
+    },
+    {
+      "id": "de-a02-86a",
+      "afirmacao": "De Hitlergroet is in Duitsland een strafbaar feit, en de bepaling noemt groetvormen uitdrukkelijk. § 86a StGB, «Verwenden von Kennzeichen verfassungswidriger und terroristischer Organisationen», bestraft met «Freiheitsstrafe bis zu drei Jahren oder mit Geldstrafe» wie de symbolen van de in § 86 genoemde partijen en verenigingen verspreidt of publiekelijk gebruikt, in een bijeenkomst of in door hem verspreide inhoud; lid 2 definieert die symbolen: «Kennzeichen im Sinne des Absatzes 1 sind namentlich Fahnen, Abzeichen, Uniformstücke, Parolen und Grußformen», en behandelt daarmee verwarrend overeenkomende symbolen als gelijkwaardig. De uitzonderingen in § 86 lid 4 dekken burgerschapsvorming, het tegengaan van ongrondwettelijk streven, kunst, wetenschap, onderzoek, onderwijs en verslaggeving over actuele gebeurtenissen of geschiedenis — geen uitzondering dekt een bezoeker, een foto of een grap. Een aparte en zwaardere bepaling, § 130 lid 3 StGB, bestraft met tot vijf jaar het goedkeuren, ontkennen of bagatelliseren («billigt, leugnet oder verharmlost») van onder het nationaalsocialisme begane daden op een manier die de openbare vrede kan verstoren, en lid 4 vereist geen ontkenning van de Holocaust. Pers documenteert twee toeristengevallen in 2017 — twee Chinese toeristen aangehouden in Berlijn op 5 augustus 2017 en tegen borgtocht van 500 euro elk vrijgelaten, en een 41-jarige Amerikaan aangehouden in Dresden op 12-13 augustus 2017 — maar de uitkomsten staan niet in de berichtgeving, en geen zaak met een buitenlandse toerist werd tussen 2023 en 2026 gevonden. De cursus vermeldt de wet en de straf en stopt daar.",
+      "fonte": "§86a StGB verbatim (gesetze-im-internet.de, aberto), incluindo o Abs. 2 com «Parolen und Grußformen» — o termo que faz a saudação cair aqui. §86 Abs. 4 verbatim. §130 Abs. 3 e 4 lidos na mesma página oficial por outra via (⚠ a extração verbatim foi bloqueada pelo limite de citação da ferramenta; conferir uma vez antes de imprimir). Casos de 2017: cobertura jornalística convergente (BBC, NPR, TIME, LA Times, 6-7/8/2017; CNN para Dresden devolveu HTTP 451) — MODERADA. ⚠ Itens 42 e 43 da lista de exclusão: o desfecho processual não consta, não há nenhum caso de turista estrangeiro entre 2023 e 2026, e a PMK não separa turistas. «Não sugerir ao aluno que é corriqueiro hoje. Dizer que é crime, com a pena, e parar aí.» Pesquisa §10.2 e §10.6.",
+      "ano": 2026,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": [
+        "de-a02-n12",
+        "de-a02-n13",
+        "de-a02-n14"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a02-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Humor komt als laatste aan en gaat als eerste mis, dus het meeste van dit deel is voor uw oor en weinig voor uw mond."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a02-n02",
+      "bloco": "corpo",
+      "pt": "Begin met de grap die al publiek loopt, want die deur staat voor iedereen open: het spoor."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-a02-r01",
+      "receptivo": true,
+      "acao": "Dat is een conducteur die om zijn eigen trein lacht. Lach mee met de wagon — het is een uitnodiging, geen waarschuwing.",
+      "es": "Ich wünsche Ihnen eine gute Fahrt, soweit das möglich ist.",
+      "pt": "Ik wens u een goede reis, voor zover mogelijk.",
+      "tts": "Ich wünsche Ihnen eine gute Fahrt, soweit das möglich ist."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a02-n03",
+      "pt": "Zes van de tien langeafstandstreinen kwamen in 2025 op tijd, en op tijd betekent onder de zes minuten te laat."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a02-n04",
+      "pt": "Het spoor maakt zijn eigen comedy-serie over zijn eigen personeel. Die grap is van hen, en ze delen hem vrij uit."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "transporte/qual-trem"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-a02-p01",
+      "promptPt": "U miste een aansluiting, kwam een uur te laat, en de tafel wil het verhaal. Houd het licht en over uzelf. Spreek nu.",
+      "audioKey": "de-a02-t01",
+      "es": "Die Bahn und ich, wir haben eine schwierige Beziehung!",
+      "pinyin": "dee BAHN oont ikh, veer HAH-ben EYE-nuh SHVEE-ri-guh buh-TSEE-hoong",
+      "pt": "De Bahn en ik hebben een moeizame relatie!",
+      "tts": "Die Bahn und ich, wir haben eine schwierige Beziehung!"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-a02-r02",
+      "receptivo": true,
+      "acao": "U bent net binnengelaten in iets, niet beklaagd. Blijf erin — de volgende zin is meestal een verhaal.",
+      "es": "Willkommen im Club!",
+      "pt": "Welkom bij de club!",
+      "tts": "Willkommen im Club!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a02-n05",
+      "bloco": "capsula",
+      "pt": "Twee, en dit is de betrouwbare: de grap over uzelf. Uw eigen Duits is gratis materiaal."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "reparo/ingles"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-a02-p02",
+      "promptPt": "Wees als eerste over uw eigen pogingen, voordat iemand er aardig over hoeft te doen. Spreek nu.",
+      "audioKey": "de-a02-t02",
+      "es": "Mein Deutsch ist furchtbar!",
+      "pinyin": "mine DOYTCH isst FOORKHT-bar",
+      "pt": "Mijn Duits is verschrikkelijk!",
+      "tts": "Mein Deutsch ist furchtbar!"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-a02-r03",
+      "receptivo": true,
+      "acao": "Neem het compliment aan en stop daar. Ertegen ingaan laat de hele tafel werken.",
+      "es": "Aber nein, das ist doch schon sehr gut!",
+      "pt": "Welnee, dat is al heel goed!",
+      "tts": "Aber nein, das ist doch schon sehr gut!"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-a02-p03",
+      "promptPt": "Beken de vergissing die elke Nederlander aan een balie op dag één maakt, en klink erover verguld. Spreek nu.",
+      "audioKey": "de-a02-t03",
+      "es": "Ich bekomme ein Bier, ich werde kein Bier!",
+      "pinyin": "ikh buh-KOM-muh eyn BEER, ikh VAIR-duh kine BEER",
+      "pt": "Ik krijg een bier, ik word geen bier!",
+      "tts": "Ich bekomme ein Bier, ich werde kein Bier!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a02-n06",
+      "pt": "Bekommen is krijgen. Worden is werden. Iedereen belandt eens op de verkeerde, en het is altijd grappig."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-a02-p04",
+      "promptPt": "Bezit het etiket dat u op uw tweede ochtend in een bouwmarkt deed steigeren. Spreek nu.",
+      "audioKey": "de-a02-t04",
+      "es": "Ich habe Gift gelesen und an ein Geschenk gedacht!",
+      "pinyin": "ikh HAH-buh GIFT guh-LAY-zen oont ann eyn guh-SHENK guh-DAHKHT",
+      "pt": "Ik las Gift en dacht aan een cadeau!",
+      "tts": "Ich habe Gift gelesen und an ein Geschenk gedacht!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a02-n07",
+      "pt": "Gift is gif. In uw eigen 'gift' zit dezelfde oude wortel; Duits hield de oude betekenis alleen in Mitgift."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-a02-r04",
+      "receptivo": true,
+      "acao": "Een falscher Freund is een valse vriend. Ze noemen de valstrik, opgewekt, en noemen u niet.",
+      "es": "Vorsicht, das ist ein falscher Freund!",
+      "pt": "Voorzichtig, dat is een valse vriend!",
+      "tts": "Vorsicht, das ist ein falscher Freund!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a02-n08",
+      "pt": "Drie, en die gaat andersom. In 1996 drukte een Londense voorpagina ACHTUNG, SURRENDER vóór een halve finale."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a02-n09",
+      "pt": "Niemand heeft gemeten hoe dat hier leest. Wat vaststaat is dat het verkeer maar één kant op ging."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a02-n10",
+      "pt": "Het is dus een grap zonder tegenspeler aan deze kant. Geen smaakregel — gewoon ruil die niet terugkomt."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-a02-p05",
+      "promptPt": "De tafel draait naar u voor een oordeel over hun eigen land. Sla het warm af. Spreek nu.",
+      "audioKey": "de-a02-t05",
+      "es": "Davon weiß ich zu wenig.",
+      "pinyin": "dah-FON vyce ikh tsoo VAY-nikh",
+      "pt": "Daar weet ik te weinig van.",
+      "tts": "Davon weiß ich zu wenig."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a02-n11",
+      "pt": "Die zin sluit een onderwerp zonder de avond te sluiten, en het is de goedkoopste uitgang die u hebt."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-a02-p06",
+      "promptPt": "Ze duwen nog eens, vriendelijk maar aandringend. Sluit het beleefd en definitief af. Spreek nu.",
+      "audioKey": "de-a02-t06",
+      "es": "Dazu möchte ich lieber nichts sagen.",
+      "pinyin": "DAH-tsoo MURKH-tuh ikh LEE-buh nikhts ZAH-gen",
+      "pt": "Daar zeg ik liever niets over.",
+      "tts": "Dazu möchte ich lieber nichts sagen."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-a02-p07",
+      "promptPt": "Iemand parkeert de avond op het ene onderwerp dat u niet wilt. Verzet het zelf. Spreek nu.",
+      "audioKey": "de-a02-t07",
+      "es": "Können wir über etwas anderes sprechen?",
+      "pinyin": "KUR-nen veer UE-ber ET-vass AN-duh-res SHPREH-khen",
+      "pt": "Kunnen we het over iets anders hebben?",
+      "tts": "Können wir über etwas anderes sprechen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a02-n12",
+      "pt": "En één harde grens, wet en geen smaak. De gestrekte-armgroet is hier een strafbaar feit."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a02-n13",
+      "pt": "Tot drie jaar, en het artikel noemt groetvormen met zoveel woorden. Niet voor een foto, niet voor de lol."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a02-n14",
+      "pt": "De uitzonderingen zijn kunst, wetenschap, onderwijs en verslaggeving. Geen enkele dekt een bezoeker."
+    },
+    {
+      "consulta": [
+        "reparo/como-se-diz",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-a02-p08",
+      "promptPt": "Iedereen lachte en u ving niets op. Vraag het, in plaats van een tel te laat mee te lachen. Spreek nu.",
+      "audioKey": "de-a02-t08",
+      "es": "Entschuldigung, ich habe den Witz nicht verstanden.",
+      "pinyin": "ent-SHOOL-di-goong, ikh HAH-buh dane VITS nikht fair-SHTAN-den",
+      "pt": "Sorry, ik heb de grap niet begrepen.",
+      "tts": "Entschuldigung, ich habe den Witz nicht verstanden."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-a02-r05",
+      "receptivo": true,
+      "acao": "De uitleg komt eraan, en hij schakelde naar het informele 'jij' om die te geven. Hoor de warmte; blijf zelf Sie gebruiken.",
+      "es": "Kein Problem, ich erkläre es dir!",
+      "pt": "Geen probleem, ik leg het je uit!",
+      "tts": "Kein Problem, ich erkläre es dir!"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-a02-s01",
+      "es": "Mein Deutsch ist furchtbar! Davon weiß ich zu wenig. Können wir über etwas anderes sprechen?",
+      "pinyin": "mine DOYTCH isst FOORKHT-bar · dah-FON vyce ikh tsoo VAY-nikh · KUR-nen veer UE-ber ET-vass AN-duh-res SHPREH-khen",
+      "pt": "Schaduw de drie die het dekken: lach om uzelf, weiger het oordeel, verzet de avond.",
+      "tts": "Mein Deutsch ist furchtbar! Davon weiß ich zu wenig. Können wir über etwas anderes sprechen?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a02-n15",
+      "bloco": "recap",
+      "pt": "A02 klaar. Doe mee met de treingrap, maak uzelf tot onderwerp, weiger het oordeel, en maak het gebaar nooit."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Receptieve humor, het materiaal dat van u is, en de grens die wet is",
+    "secoes": [
+      {
+        "titulo": "Het spoor lacht om zichzelf, in het openbaar",
+        "corpo": "Dit is de veiligste gedeelde grap voor een bezoeker, omdat de instelling erover al de grap vertelt. Deutsche Bahn sloot 2025 af met 60,1 procent van de langeafstandstreinen op tijd, tegen 62,5, en produceerde een mockumentary-serie voor sociale media over eigen personeel dat met absurde omstandigheden omgaat. De definitie is de moeite waard om mee te nemen, want die is de pointe: op tijd betekent minder dan zes minuten te laat aankomen, gemeten op elke halte. De reizigersmaat die gemiste aansluitingen meetelt staat vijftien minuten toe en kwam uit op 65,5 procent. Regionale treinen doen het veel beter, met 89,2 procent. Doe mee, klaag licht over uw eigen reis, en laat het daarbij — het materiaal gaat over een bedrijf, niet over iemand aan tafel.",
+        "exemplos": [
+          {
+            "es": "Ich wünsche Ihnen eine gute Fahrt, soweit das möglich ist.",
+            "pt": "Ik wens u een goede reis, voor zover mogelijk."
+          },
+          {
+            "es": "Die Bahn und ich, wir haben eine schwierige Beziehung!",
+            "pt": "De Bahn en ik hebben een moeizame relatie!"
+          }
+        ]
+      },
+      {
+        "titulo": "Uw eigen Duits is het betrouwbare materiaal",
+        "corpo": "Zelfspot is het register dat intact reist, en hier komt het met kant-en-klare grappen die toevallig waar zijn. Bekommen betekent krijgen, dus ich bekomme ein Bier is juist en ich werde ein Bier betekent dat u er zelf een wordt — iedereen maakt die ruil één keer. Gift betekent gif, en een cadeau is een Geschenk, wat pas grappig wordt als u weet dat het ooit hetzelfde woord was: Duits bewaarde de oude betekenis van geven alleen in Mitgift, een bruidsschat, en het Nederlands doet iets soortgelijks in het paar 'gift' en 'giftig'. Also betekent dus of daarom, niet 'ook'. Eventuell betekent misschien, niet uiteindelijk, wat stilletjes verandert wat iemand denkt dat u hebt beloofd. Deze tegen uzelf vertellen doet meer dan lachen — het haalt de angst over uw uitspraak uit de kamer voordat iemand er beleefd over hoeft te doen."
+      },
+      {
+        "titulo": "De grap die maar één kant op reist",
+        "corpo": "Op 24 juni 1996, twee dagen vóór de halve finale van Euro 96, drukte een Londense tabloid ACHTUNG! SURRENDER over zijn voorpagina, subkop for you Fritz, ze Euro 96 Championship is over; twee andere kranten volgden met varianten. De kop en de datum zijn gedocumenteerd. Wat niet is gedocumenteerd is hoe iets daarvan in Duitsland werd ontvangen — geen studie meet dat, en de destijds gemelde reactie komt uit tweede hand. Wat de academische literatuur bijdraagt, uit titels en samenvattingen, is het begrip asymmetrie: de oorlogsinkleding hoort bij één land pers en tribunes, en er is geen bijpassende traditie aan de andere kant. Dat is de eerlijke reden om het te laten. Niet omdat het kwetst — niemand heeft dat gemeten en deze cursus doet niet alsof — maar omdat een grap een tegenspeler nodig heeft, en die heeft deze hier niet."
+      },
+      {
+        "titulo": "De discussie die u wordt aangereikt, en hoe u die teruggeeft",
+        "corpo": "Vroeg of laat draait een tafel zich naar de bezoeker voor een oordeel over iets binnen hun eigen land. Gevraagd worden is gastvrijheid, dezelfde beweging als het brood krijgen aangereikt, en het verplicht niet tot antwoorden. Drie zinnen dekken elke versie: davon weiß ich zu wenig, dat het onderwerp sluit zonder de avond te sluiten; dazu möchte ich lieber nichts sagen, dat beleefd en definitief is als ze aandringen; en können wir über etwas anderes sprechen, dat iedereen verplaatst. Merk op wat deze cursus u niet geeft: woordenschat om een standpunt te hebben. Meningswoordenschat in een taal die u niet beheerst is precies het mechanisme van het ongeluk, en gast blijven is meer waard dan geïnformeerd klinken."
+      },
+      {
+        "titulo": "Het enige dat helemaal geen grap is",
+        "corpo": "§ 86a van het Duitse wetboek van strafrecht bestraft het gebruik van symbolen van de in § 86 genoemde organisaties met tot drie jaar of een geldboete, en lid 2 spelt uit wat als symbool telt: vlaggen, insignes, uniformstukken, leuzen en groetvormen. Groetvormen is de term die de gestrekte-armgroet in het artikel plaatst. De uitzonderingen in § 86 lid 4 zijn burgerschapsvorming, het tegengaan van ongrondwettelijk streven, kunst, wetenschap, onderzoek, onderwijs en verslaggeving over actuele gebeurtenissen of geschiedenis. Er is geen uitzondering voor een grap, voor een foto, voor dronkenschap of voor buitenlander zijn. De pers documenteert twee aangehouden toeristen in 2017, één zaak in Berlijn en één in Dresden; de uitkomsten staan niet in de berichten, en geen zaak met een buitenlandse bezoeker wordt tussen 2023 en 2026 gevonden. Dit is dus geen verhaal over hoe vaak het gebeurt. Het is gewoon de wet, met een straf eraan, en kennis ervan kost u niets. Een apart artikel, § 130, reikt tot goedkeuren, ontkennen of bagatelliseren van wat onder het nationaalsocialisme werd gedaan, met tot vijf jaar — en bagatelliseren op zich is al genoeg."
+      }
+    ]
+  },
+  "slot": "A02",
+  "permissao": "U mag de grap missen en dat hardop zeggen. Entschuldigung, ich habe den Witz nicht verstanden, een halve tel te laat, komt veel beter aan dan het beleefde lachje, dat u toch verraadt, en vragen wat er grappig was is het vriendelijkste wat er is aan een tafel die net heeft gelachen. U mag ook de enige aan die tafel zijn zonder mening over het land dat u bezoekt — een oordeel afwijzen is hier geen onbeleefdheid, en één korte zin doet het hele werk.",
+  "permissaoAudioKey": "de-a02-n11",
+  "espelho": "Wie ooit een halve seconde achter een groep in eigen taal heeft gelachen, kent de kleine paniek in dit deel al. Humor is waar vloeiendheid werkelijk wordt gemeten, in elke taal, en juist daarom verwacht niemand dat u er in uw derde week snel in bent — en juist daarom is de grap over uw eigen fouten degene die overal werkt.",
+  "fichasCulturais": [
+    {
+      "sinal": "Er wordt een vertraging omgeroepen, de wagon lacht om iets droogs van het personeel, en u kunt niet zien of mensen geamuseerd zijn of woedend.",
+      "suaLeitura": "Klagen over de treinen hier moet een gevoelig punt zijn, en meedoen zou onbeleefd zijn over het land.",
+      "oQueEAli": "De instelling voert de grap zelf. Deutsche Bahn maakte een mockumentary-serie voor sociale media over zijn eigen personeel, en de cijfers zijn publiek: 60,1 procent van de langeafstandstreinen kwam in 2025 op tijd, waarbij op tijd betekent onder de zes minuten te laat, gemeten op elke halte. De reizigersmaat die gemiste aansluitingen meetelt was 65,5 procent. Regionale diensten lopen op 89,2 procent.",
+      "oQueVoceFaz": "Doe licht mee en over uw eigen reis, niet over het land. Die Bahn und ich, wir haben eine schwierige Beziehung volstaat, en koopt u meestal iemand anders zijn verhaal terug.",
+      "oQueMelhora": "U hebt één gedeelde grap die niets kost en geen timing vereist, wat een stuk meer is dan de meeste bezoekers in de eerste week hebben.",
+      "ondeNaoVale": "Het is geen licentie voor het bredere cliché over efficiëntie, dat het onderzoek achter deze cursus weigert: gedocumenteerd is een bedrijf dat de spot met zijn eigen vertragingen drijft, geen nationale eigenschap. En het is geen zin om te gebruiken tegen het personeelslid dat aan het einde van een twaalfurige dienst voor u staat.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-a02-n03",
+        "de-a02-n04"
+      ]
+    },
+    {
+      "sinal": "Laat op een goede avond stelt iemand een foto voor en maakt een grap over de groet, en iedereen lijkt de suggestie zelf grappig te vinden.",
+      "suaLeitura": "Het is duidelijk ironisch, iedereen ziet dat, en weigeren zou me de humorloze maken.",
+      "oQueEAli": "Het is een strafbaar feit, en het artikel zegt dat met zoveel woorden. § 86a StGB dekt de symbolen van de in § 86 genoemde organisaties en definieert ze als onder meer Parolen und Grußformen, met een straf van tot drie jaar of een geldboete; een symbool dat er verwarrend op lijkt telt gelijkwaardig. De uitzonderingen in § 86 lid 4 zijn kunst, wetenschap, onderzoek, onderwijs, burgerschapsvorming en verslaggeving. Ironie hoort er niet bij, en toerisme evenmin.",
+      "oQueVoceFaz": "Maak het gebaar niet — niet als grap, niet voor een foto, niet in een groep en niet na een lange avond. Als het onderwerp opkomt, zeg dan davon weiß ich zu wenig en verzet het. Corrigeer nooit iemand in hakkelend Duits; zwijgen en een nieuw onderwerp doen het hele werk.",
+      "oQueMelhora": "Het verwijdert de enige situatie in deze hele cursus waar u aangehouden zou kunnen worden, en dat zonder dat u een standpunt over iets hoeft in te nemen.",
+      "ondeNaoVale": "Het is geen bewering dat het een gebruikelijke ervaring voor bezoekers is: de pers documenteert twee toeristengevallen in 2017, de uitkomsten staan er niet, en geen zaak met een buitenlandse toerist werd tussen 2023 en 2026 gevonden. Het is ook geen uitnodiging om iemand een preek te geven, of om het onderwerp als gesprek te behandelen — de wet is de reden, en de wet is waar het eindigt.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-a02-n12",
+        "de-a02-n13",
+        "de-a02-n14"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "q-b09",
+  "nivel": "basico",
+  "titulo": "Quiz — Der gelbe Kasten, der Sie ein- und auscheckt",
+  "subtitulo": "Zwei Pieptöne, zwei Zahlen, und zwei Bausteine, die sich hier wieder treffen",
+  "introAudioKey": "hol-b09-q-i",
+  "introPt": "Ein Reisender kauft ein Ticket, verwechselt fast Ein- und Ausstieg und findet trotzdem sein Gleis.",
+  "cenario": "Straßenbahnhaltestelle und Bahnhof.",
+  "dialogo": [
+    {
+      "audioKey": "hol-b09-q01",
+      "voz": "target_nl_m",
+      "es": "Dat is drie euro twintig.",
+      "pt": "Das macht drei Euro zwanzig.",
+      "tts": "Dat is drie euro twintig."
+    },
+    {
+      "audioKey": "hol-b09-q02",
+      "voz": "target_nl_m",
+      "es": "Die kant is instappen, die andere is uitstappen — niet verwisselen!",
+      "pt": "Diese Seite ist Einsteigen, die andere Aussteigen — nicht verwechseln!",
+      "tts": "Die kant is instappen, die andere is uitstappen — niet verwisselen!"
+    },
+    {
+      "audioKey": "hol-b09-q03",
+      "voz": "target_nl_f",
+      "es": "De trein naar Utrecht vertrekt om kwart voor vijf van spoor negen.",
+      "pt": "Der Zug nach Utrecht fährt um Viertel vor fünf von Gleis neun.",
+      "tts": "De trein naar Utrecht vertrekt om kwart voor vijf van spoor negen."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Was passiert, wenn Sie das Auschecken am gelben Kasten vergessen?",
+      "opcoes": [
+        "Nichts, die Fahrt war kostenlos",
+        "Das System zieht den höchstmöglichen Preis für die Strecke ab, nicht die tatsächliche Fahrt",
+        "Sie bekommen automatisch ein Bußgeld per Post",
+        "Die Karte wird gesperrt"
+      ],
+      "correta": 1,
+      "explica": "Der Fahrpreis ergibt sich aus der Differenz zwischen Ein- und Ausstiegspunkt. Ohne Auschecken kennt das System den Ausstiegspunkt nicht und rechnet den Höchstbetrag."
+    },
+    {
+      "pergunta": "Brauchen Sie für eine kurze Reise unbedingt eine eigene OV-chipkaart?",
+      "opcoes": [
+        "Ja, immer",
+        "Nein — dieselbe kontaktlose Bankkarte funktioniert an den meisten Kästen direkt",
+        "Nur für Busse, nicht für Bahnen",
+        "Nur wenn Sie unter 18 sind"
+      ],
+      "correta": 1,
+      "explica": "OVpay macht die eigene Karte meist überflüssig: Ein- und Auschecken funktioniert direkt mit der kontaktlosen Bankkarte."
+    },
+    {
+      "pergunta": "«Dat is drie euro twintig.» Was müssen Sie davon wirklich verstehen?",
+      "opcoes": [
+        "Jedes einzelne Wort",
+        "Nur die Zahl — der Preis",
+        "Nur das Wort «euro»",
+        "Gar nichts, raten reicht"
+      ],
+      "correta": 1,
+      "explica": "Zahlen sind hier das Einzige, was zählt, und sie liegen dem Deutschen sehr nahe — drie, twintig."
+    },
+    {
+      "pergunta": "Sie haben aus der Durchsage die Nummer «spoor negen» aufgeschnappt, aber die Anzeigetafel zeigt sie nicht mehr. Was fragen Sie?",
+      "opcoes": [
+        "Heeft u wifi?",
+        "Waar is spoor negen?",
+        "Dank u wel!",
+        "Vakantie."
+      ],
+      "correta": 1,
+      "explica": "Derselbe Baustein aus B08 — Waar is ___? — trägt auch eine gehörte Zahl zurück in eine vollständige Frage."
+    },
+    {
+      "pergunta": "Am Automaten sind zwei Kästen zu sehen, aber unklar, welcher fürs Ein- und welcher fürs Aussteigen ist. Was fragen Sie einen Mitfahrenden?",
+      "opcoes": [
+        "Kunt u dit uitleggen?",
+        "Waar is het toilet?",
+        "Sorry, ik versta u niet.",
+        "Een week."
+      ],
+      "correta": 0,
+      "explica": "Derselbe Baustein aus B07 — Kunt u ___? — löst auch dieses neue Problem: um eine Erklärung bitten."
+    }
+  ]
+}

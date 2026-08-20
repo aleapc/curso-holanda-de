@@ -1,0 +1,403 @@
+{
+  "id": "a03",
+  "nivel": "avancado",
+  "numero": 31,
+  "parte": "A03",
+  "titulo": "Wie ze denken dat ze zijn",
+  "subtitulo": "Openbare klokken die slechter lopen dan de Italiaanse, een spoorwegmaatschappij die comedy over zichzelf maakt, bankbiljetten met een wettelijk voorrecht, en een zondag die in de grondwet staat",
+  "cena": "Naast u wordt hardop een vertrekbord voorgelezen, en de zin die erop volgt maakt vier vreemden aan het lachen die elkaar nooit hebben ontmoet.",
+  "moldura": "ganha",
+  "frasePiso": "Vraag naar de trein, vraag wat er op zondag open is, en houd contant geld op zak. Drie vragen en u zit binnen de grap in plaats van ernaast.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "de-a03-uhren",
+      "afirmacao": "Het stereotype van de stiptheid overleeft de enige studie niet die er iets naderbij aan mat. Levine & Norenzayan, «The Pace of Life in 31 Countries», Journal of Cross-Cultural Psychology 30(2), 1999, pp. 178-205, Tabel 1: Duitsland scoort op de algemene pace-index -3,00 (3e van 31), loopsnelheid 12,01 seconden per zestig voet (5e), postsnelheid 13,46 seconden om een postzegel te verkopen (1e ter wereld), en accuratesse van openbare klokken met een gemiddelde afwijking van 43,00 seconden — 8e, achter Zwitserland op 19,29, Italië op 24,17 en Oostenrijk op 25,00. De Italiaanse openbare klokken waren, ten tijde van de meting, bijna twee keer zo accuraat als de Duitse. De grenzen horen bij het cijfer: de Duitse verzameling werd alleen in Frankfurt gedaan, de landensteekproef wordt door de auteurs zelf omschreven als «clearly less than random», het veldwerk dateert uit het begin van de jaren 1990, en de auteurs concluderen dat economische vitaliteit de variantie beter verklaart dan nationale cultuur. Doorslaggevend is wat de studie meet: pace of life, niet of iemand op tijd bij een afspraak komt. Dat meet niemand. Hofstede heeft er geen dimensie voor, de GLOBE future orientation gaat over planning en niet over klokwerk, en Halls monochroom schema is theorie zonder meting.",
+      "fonte": "Levine, Robert V. & Norenzayan, Ara, «The Pace of Life in 31 Countries», JCCP 30(2), 1999, pp. 178-205, PDF aberto, Tabela 1 lida. Pesquisa §3.4 e item 1 da lista de exclusão: «Alemães são obsessivamente pontuais» é RECUSADO como estereótipo sem base. Formulação segura autorizada pela pesquisa: expectativa normativa, nunca fato medido.",
+      "ano": 1999,
+      "revisarAte": "2031-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-a03-n02"
+      ]
+    },
+    {
+      "id": "de-a03-bahn",
+      "afirmacao": "De spoorwegmaatschappij publiceert zijn eigen tegenbewijs. Het DB-Konzern Geschäftsbericht 2025, verschenen op 27 maart 2026, sectie «Betrieb — Pünktlichkeit», definieert de drempel verbatim: «Pünktlich sind Ankünfte mit einer Abweichung kleiner + 6 Minuten», gemeten op elke halte en niet alleen op de eindbestemming. De Presseinformation Bilanz 2025, gedateerd Berlin, 27 maart 2026, stelt verbatim: «60,1 Prozent der DB-Fernverkehrszüge erreichten 2025 pünktlich das Ziel (Vorjahr: 62,5 Prozent).» De reizigersgerichte maat, Reisendenpünktlichkeit, die gemiste aansluitingen en uitvallen telt met een drempel van 14:59 minuten, kwam voor langeafstand in 2025 op 65,5 procent; DB Regio Schiene haalde 89,2 procent. In 2026 waren de zomermaanden slechter: 52,6 procent in juni en juli voor langeafstand, tegen 57,1 en 56,1 in dezelfde maanden van 2025, met een officieel doel van 60 procent voor een jaar dat het bedrijf een Superbaujahr noemt. Over de grap zelf is de enige gedocumenteerde claim dat het bedrijf hem over zichzelf maakt: NPR, Esme Nicholson, «Germany's train service is one of Europe's worst. How did it get so bad?», 12 december 2025, documenteert een mockumentary-serie geproduceerd door DB voor sociale media over een team dat het redt met absurde omstandigheden, en meldt een conducteur die de reizigers een goede voortzetting van de reis wenst «voor zover mogelijk», met gelach in de wagon. Geen academische of Duitse referentiebron behandelt de grap als een gedocumenteerd nationaal fenomeen, en de cursus beweert dat ook niet.",
+      "fonte": "DB-Konzern, Geschäftsbericht 2025 (PDF oficial, 27/3/2026), verbatim; Presseinformation Bilanz 2025, verbatim; página oficial de Pünktlichkeitswerte, acessada 5/8/2026, tabela mensal de 2026. NPR, Esme Nicholson, 12/12/2025 (aberta e lida). Pesquisa §5.1 e §10.5. ⚠ Não misturar recortes: «Regionalverkehr 88,7%» do LOK Report é recorte Konzern, distinto de «DB Regio Schiene 89,2%». Os preços e números de transporte mudam em janeiro.",
+      "ano": 2025,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-a03-n03",
+        "de-a03-n04",
+        "de-a03-n05"
+      ]
+    },
+    {
+      "id": "de-a03-bargeld",
+      "afirmacao": "Er is in Duitsland geen wettelijke plicht om een kaart te aanvaarden, en de omgekeerde plicht staat opgeschreven. § 14 Abs. 1 Bundesbankgesetz, verbatim: «Auf Euro lautende Banknoten sind das einzige unbeschränkte gesetzliche Zahlungsmittel.» Een «nur Bargeld»-bordje aan de deur is dus rechtmatig, wat precies het omgekeerde is van de Italiaanse regel, waar een handelaar kaart moet aanvaarden. Deutsche Bundesbank, Zahlungsverhalten in Deutschland 2025, verschenen op 17 juni 2026, verbatim: «Erstmals wurden mehr als die Hälfte der erfassten Zahlungen des Alltags bargeldlos getätigt (55 % im Vergleich zu 49 % im Jahr 2023). […] Bargeld ist weiterhin das am häufigsten eingesetzte Zahlungsmittel nach Anzahl der Transaktionen (45 %).» Over acceptatie, verbatim: «Bei Einkäufen vor Ort konnte in 94 % der Fälle Bargeld verwendet werden» en «In 86 % der beobachteten Fälle hat oder hätte der Zahlungsempfänger unbare Zahlungsmittel angenommen.» Waar contant het sterkst blijft, verbatim: op markten en bij straatverkoop «neun von zehn Zahlungen und fast 80 % des Umsatzes» zijn contant, met een acceptatie van pinbetalingen van slechts 43 procent. Methode: forsa, 6.070 interviews, veldwerk 8 september tot 2 december 2025, gevolgd door een driedaags betaaldagboek; POS-basis n=10.394 transacties.",
+      "fonte": "§14 Abs. 1 BBankG, gesetze-im-internet.de, verbatim. Deutsche Bundesbank, «Zahlungsverhalten in Deutschland 2025», Stand julho/2026, publicado 17/6/2026, PDF de 82 páginas baixado e lido, verbatim; metodologia no Anhang 2. Pesquisa §4.1, §4.2 e §4.3. ⚠ O lado italiano da comparação é [RESUMO] e deve ser reconfirmado antes de publicar; o dado alemão do SPACE 2024 do BCE é de 2023 e não é comparável — para a Alemanha, usar a Bundesbank direto. Os dados da Bundesbank são bienais, próxima edição prevista para 2028.",
+      "ano": 2025,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-a03-n06",
+        "de-a03-n07",
+        "de-a03-n08"
+      ]
+    },
+    {
+      "id": "de-a03-sonntag",
+      "afirmacao": "De gesloten zondag heeft een grondwettelijk anker, geen commercieel. Art. 140 Grundgesetz neemt Art. 139 van de Weimarer grondwet van 11 augustus 1919 op, verbatim: «Der Sonntag und die staatlich anerkannten Feiertage bleiben als Tage der Arbeitsruhe und der seelischen Erhebung gesetzlich geschützt.» De resterende federale Ladenschlussgesetz van 1956, § 3, verbatim, verplicht winkels gesloten te zijn «1. an Sonn- und Feiertagen, 2. montags bis samstags bis 6 Uhr und ab 20 Uhr, 3. am 24. Dezember, wenn dieser Tag auf einen Werktag fällt, bis 6 Uhr und ab 14 Uhr». Het Bundesverfassungsgericht, uitspraak van 1 december 2009, 1 BvR 2857/07 en 1 BvR 2858/07, verwierp een Berlijnse wet die de vier Adventszondagen op rij toestond, met verbatim: «Ein bloß wirtschaftliches Umsatzinteresse der Verkaufsstelleninhaber und ein alltägliches Erwerbsinteresse ('Shopping-Interesse') potenzieller Käufer genügen grundsätzlich nicht». Twee grenzen: de wetgevende bevoegdheid ging in 2006 met de Föderalismusreform naar de Länder, en Beieren heeft sinds 1 augustus 2025 een eigen wet, dus de gangbare bewering dat Beieren nog onder de federale wet valt is achterhaald; en de status van de federale wet werd slechts in drie van de zestien Länder geverifieerd.",
+      "fonte": "Art. 140 GG e Art. 139 WRV, gesetze-im-internet.de, verbatim; § 3 LadSchlG, verbatim; BVerfG, comunicado bvg09-134, verbatim do núcleo doutrinário; Art. 74 Abs. 1 Nr. 11 GG, verbatim, para a competência dos Länder; BayLadSchlG de 25/7/2025 (GVBl. S. 246), em vigor desde 1/8/2025, verificado em gesetze-bayern.de. Pesquisa §7.1, §7.2, §7.3 e §7.5. ⚠ O estatuto do Ladenschluss muda por Land, mudou na Baviera em 2025, e é a categoria mais volátil do dossiê.",
+      "ano": 2025,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-a03-n09",
+        "de-a03-n10"
+      ]
+    },
+    {
+      "id": "de-a03-englisch",
+      "afirmacao": "Special Eurobarometer 540, Europeans and their languages, veldwerk september-oktober 2023, gepubliceerd in 2024 voor DG EAC: 65 procent in Duitsland zegt genoeg Engels te spreken om een gesprek te voeren, als extra taal, tegen een EU27-gemiddelde van 47 procent. Het vergelijkbare cijfer uit Special Eurobarometer 386, veldwerk februari-maart 2012, was 56 procent tegen 38 procent voor de EU27. Twee grenzen horen bij het cijfer. Herkomst: de enquêtepagina op europa.eu is een JavaScript-applicatie die geen downloadlink teruggaf en de openbare API antwoordde met 404, dus het geopende PDF kwam van een mirror buiten het europa.eu-domein, met kaft, ISBN, DOI en opmaak intact en de waarde gekruist met de lopende tekst. En het is niet uitwisselbaar met de Eurostat Adult Education Survey, waar 87,7 procent van de Duitsers tussen 25 en 64 jaar in 2022 minstens één vreemde taal opgaf maar slechts ongeveer 28 procent van hen zich vaardig noemde — verschillende vragen, nooit op te tellen of te presenteren alsof ze elkaar bevestigen.",
+      "fonte": "Special Eurobarometer 540 (Verian para a DG EAC, DOI 10.2766/28257), p. 20, tabela «D48.otherlang.»; média EU27 verbatim: «Nearly half of Europeans (47%) say they speak it, a slight increase (+5) compared to 2012.» SP386 (2012), p. 21, célula DE «English 56%». Eurostat AES, tabelas edat_aes_l21 e edat_aes_l31. Pesquisa §10.1. ⚠ Nunca escrever «X% dos alemães falam inglês» com base no EF EPI, que é auto-selecionado por declaração do próprio publicador.",
+      "ano": 2023,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-a03-n11"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a03-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Drie dingen waar dit land stilletjes trots op is. Datgene waarvan u al hebt gehoord, is het wankelst."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a03-n02",
+      "bloco": "corpo",
+      "pt": "Begin met de klok. In de enige studie die openbare klokken opmat, kwam dit land als achtste — na Italië."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-a03-r01",
+      "receptivo": true,
+      "acao": "Tien minuten wordt aangekondigd als vertraging, niet weggewuifd. Noteer het getal en check uw aansluiting.",
+      "es": "Der ICE nach Hamburg hat heute zehn Minuten Verspätung.",
+      "pt": "De sneltrein naar Hamburg heeft vandaag tien minuten vertraging.",
+      "tts": "Der ICE nach Hamburg hat heute zehn Minuten Verspätung."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a03-n03",
+      "pt": "Bij het spoor betekent op tijd: onder de zes minuten, gemeten op elke halte. Zestig komma één procent in 2025."
+    },
+    {
+      "consulta": [
+        "transporte/qual-trem"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-a03-p01",
+      "promptPt": "U heeft aan de andere kant twaalf minuten om het perron te wisselen, en het bord toont nog de oude tijd. Check. Spreek nu.",
+      "audioKey": "de-a03-t01",
+      "es": "Ist der Zug pünktlich?",
+      "pinyin": "isst dair tsook PUENK-tlikh",
+      "pt": "Is de trein op tijd?",
+      "tts": "Ist der Zug pünktlich?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a03-n04",
+      "pt": "Het reizigerscijfer, dat uw gemiste aansluiting meetelt, was vijfenzestig komma vijf. Regionaal: negenentachtig."
+    },
+    {
+      "consulta": [
+        "transporte/qual-trem",
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-a03-p02",
+      "promptPt": "De omroep is geweest, iedereen zuchtte, en u ving niets van het getal in het midden op. Vraag ernaar. Spreek nu.",
+      "audioKey": "de-a03-t02",
+      "es": "Wie viel Verspätung hat der Zug?",
+      "pinyin": "vee feel fair-SHPAY-toong hatt dair tsook",
+      "pt": "Hoeveel vertraging heeft de trein?",
+      "tts": "Wie viel Verspätung hat der Zug?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-a03-r02",
+      "receptivo": true,
+      "acao": "Dat is de grap aan boord, en de wagon zit erin. Meelachen is uw hele bijdrage hier.",
+      "es": "Wir wünschen Ihnen eine gute Weiterfahrt — soweit möglich.",
+      "pt": "Wij wensen u een goede voortzetting van de reis — voor zover mogelijk.",
+      "tts": "Wir wünschen Ihnen eine gute Weiterfahrt — soweit möglich."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a03-n05",
+      "bloco": "capsula",
+      "pt": "Het spoor filmt comedy over zijn eigen vertragingen. De grap is van het huis, en daarom mag u meelachen."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-a03-p03",
+      "promptPt": "De man tegenover u lachte om de omroep en ving uw blik. Open het gesprek dat hij aanbiedt. Spreek nu.",
+      "audioKey": "de-a03-t03",
+      "es": "Fahren Sie oft mit der Bahn?",
+      "pinyin": "FAH-ren zee oft mitt dair BAHN",
+      "pt": "Reist u vaak met de trein?",
+      "tts": "Fahren Sie oft mit der Bahn?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a03-n06",
+      "pt": "Tweede ding: geld. Biljetten zijn het enige onbeperkte wettige betaalmiddel, en geen winkel is u een pinapparaat schuldig."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-a03-r03",
+      "receptivo": true,
+      "acao": "Er ging niets mis en er wordt niets achtergehouden. Grijp naar biljetten, of vraag ernaar voordat u bestelt.",
+      "es": "Nur Bargeld, bitte. Wir nehmen keine Karten.",
+      "pt": "Alleen contant, alstublieft. Wij nemen geen kaarten aan.",
+      "tts": "Nur Bargeld, bitte. Wir nehmen keine Karten."
+    },
+    {
+      "consulta": [
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-a03-p04",
+      "promptPt": "U bent twee stappen binnen en in uw zak zit elf euro. Regel dit voordat u gaat zitten. Spreek nu.",
+      "audioKey": "de-a03-t04",
+      "es": "Nehmen Sie Karte?",
+      "pinyin": "NAY-men zee KAR-tuh",
+      "pt": "Neemt u kaart aan?",
+      "tts": "Nehmen Sie Karte?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a03-n07",
+      "pt": "In 2025 ging voor het eerst meer dan de helft van de dagelijkse betalingen digitaal. Naar aantal leidt contant nog."
+    },
+    {
+      "consulta": [
+        "pagar/dinheiro"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-a03-p05",
+      "promptPt": "De marktvrouw houdt uw zak pruimen in één hand en kijkt naar welke zak u grijpt. Zeg het haar. Spreek nu.",
+      "audioKey": "de-a03-t05",
+      "es": "Ich zahle bar.",
+      "pinyin": "ikh TSAH-luh bar",
+      "pt": "Ik betaal contant.",
+      "tts": "Ich zahle bar."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a03-n08",
+      "pt": "Op markten en straatkraampjes zijn negen op de tien betalingen contant, en slechts drieënveertig procent neemt iets anders."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a03-n09",
+      "pt": "Het derde ding staat in de grondwet. Zondag blijft wettelijk beschermd als rustdag."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-a03-r04",
+      "receptivo": true,
+      "acao": "Zondag, en het rolluik is dicht om een grondwettelijke reden. Doe de boodschappen op zaterdag.",
+      "es": "Sonntags haben wir geschlossen. Ab Montag wieder ab sieben.",
+      "pt": "Op zondag zijn we gesloten. Vanaf maandag weer vanaf zeven uur.",
+      "tts": "Sonntags haben wir geschlossen. Ab Montag wieder ab sieben."
+    },
+    {
+      "consulta": [
+        "chegar/balcao",
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-a03-p06",
+      "promptPt": "Het is zaterdagavond aan de balie en morgen is een lege bladzij die u liever niet hongerig doorbrengt. Vraag ernaar. Spreek nu.",
+      "audioKey": "de-a03-t06",
+      "es": "Was ist am Sonntag offen?",
+      "pinyin": "vass isst am ZONN-tahk OFF-en",
+      "pt": "Wat is er op zondag open?",
+      "tts": "Was ist am Sonntag offen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a03-n10",
+      "pt": "In 2009 oordeelde het grondwettelijk hof dat de wens om te winkelen te weinig weegt om een zondag te openen."
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-a03-p07",
+      "promptPt": "Tien voor acht op een dinsdag, u bent binnen, en de verkoopster ruimt al de balie op. Vraag naar de tijd. Spreek nu.",
+      "audioKey": "de-a03-t07",
+      "es": "Wann schließen Sie?",
+      "pinyin": "vann SHLEE-sen zee",
+      "pt": "Hoe laat sluit u?",
+      "tts": "Wann schließen Sie?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a03-n11",
+      "pt": "Vijfenzestig procent zei in 2023 een gesprek in het Engels te kunnen voeren. In de hele Unie zevenenveertig."
+    },
+    {
+      "consulta": [
+        "reparo/como-se-diz",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-a03-p08",
+      "promptPt": "Hij stapte uit vriendelijkheid over op Engels, en u wilt liever het woord bewaren dat hij net gebruikte. Vraag ernaar in zijn taal. Spreek nu.",
+      "audioKey": "de-a03-t08",
+      "es": "Wie sagt man das auf Deutsch?",
+      "pinyin": "vee zahkt mann dass owf DOYTCH",
+      "pt": "Hoe zegt men dat in het Duits?",
+      "tts": "Wie sagt man das auf Deutsch?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-a03-s01",
+      "es": "Ist der Zug pünktlich? Nehmen Sie Karte? Was ist am Sonntag offen?",
+      "pinyin": "isst dair tsook PUENK-tlikh · NAY-men zee KAR-tuh · vass isst am ZONN-tahk OFF-en",
+      "pt": "Schaduw de drie vragen die de trein, de kassa en de lege zondag dekken.",
+      "tts": "Ist der Zug pünktlich? Nehmen Sie Karte? Was ist am Sonntag offen?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a03-n12",
+      "bloco": "recap",
+      "pt": "A03 klaar. De klok kwam achtste, het spoor lacht om zichzelf, biljetten werken, en zondag is grondwettelijk."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Waar ze trots op zijn, en wat de cijfers werkelijk zeggen",
+    "secoes": [
+      {
+        "titulo": "De klok, en de studie die iedereen aanhaalt zonder te lezen",
+        "corpo": "De enige meting die het dichtst bij het stereotype komt, is de accuratesse van openbare klokken, gedaan in eenendertig landen door Levine en Norenzayan en gepubliceerd in 1999. Duitsland kwam als achtste, met een gemiddelde afwijking van drieënveertig seconden — achter Zwitserland op negentien, Italië op vierentwintig en Oostenrijk op vijfentwintig. De Italiaanse openbare klokken waren, toen ze gemeten werden, bijna twee keer zo accuraat. Dezelfde tabel plaatst Duitsland eerste ter wereld voor de snelheid waarmee een postkantoor een postzegel verkoopt, en derde overall op de pace-index, dus dit is geen land dat langzaam beweegt; het is een land waarvan de klokken niet het punt waren. Vier eerlijke grenzen: de Duitse data komen alleen uit Frankfurt, de landensteekproef wordt door de auteurs zelf omschreven als duidelijk minder dan willekeurig, het veldwerk is ongeveer dertig jaar oud, en de auteurs zelf concluderen dat economische vitaliteit meer van de variantie verklaart dan nationale cultuur. Bovenal meet de studie het levenstempo en niet of mensen op tijd aankomen voor iets. Dat heeft niemand gemeten. Wat waar en bruikbaar is, is smaller: op tijd verschijnen wordt van u verwacht, en die verwachting is een sociale norm en geen bewering over hoe de systemen om u heen lopen.",
+        "exemplos": [
+          {
+            "es": "Ist der Zug pünktlich?",
+            "pt": "Is de trein op tijd?"
+          },
+          {
+            "es": "Wie viel Verspätung hat der Zug?",
+            "pt": "Hoeveel vertraging heeft de trein?"
+          }
+        ]
+      },
+      {
+        "titulo": "De spoorwegmaatschappij, die zelf het tegenbewijs publiceert",
+        "corpo": "De definitie doet er meer toe dan het cijfer. Het bedrijf telt een aankomst als op tijd wanneer die minder dan zes minuten te laat is, en telt op elke halte in plaats van op uw eindbestemming — daarom leest het officiële cijfer altijd beter dan de dag aanvoelde. Op die maat kwam zestig komma één procent van de langeafstandstreinen in 2025 op tijd aan, tegen tweeënzestig komma vijf een jaar eerder. De maat die de moeite waard is te kennen, is de andere: Reisendenpünktlichkeit, die vijftien minuten toestaat en gemiste aansluitingen en uitvallen meetelt: vijfenzestig komma vijf procent voor langeafstand in 2025. Regionale treinen zijn een andere wereld, op negenentachtig komma twee. De zomer van 2026 was nog zwaarder — tweeënvijftig komma zes procent in juni en opnieuw in juli — in een jaar dat het bedrijf een Superbaujahr noemt, met een officieel doel van zestig. Twee praktische consequenties: bouw een echte marge in elke aansluiting die u werkelijk nodig heeft, en neem het regionale net serieus, want daar leeft de betrouwbaarheid."
+      },
+      {
+        "titulo": "De grap die van het huis is",
+        "corpo": "De veiligste humor voor een bezoeker is de humor die de plek al over zichzelf maakt, en hier is die ongewoon goed gedocumenteerd. Het spoor produceerde een mockumentary-serie voor sociale media over een team dat het redt met absurde omstandigheden, en een journaliste registreerde in december 2025 een conducteur die de reizigers een goede voortzetting van de reis wenste «voor zover mogelijk», met de wagon in lachen uit. Dat is het register: droog, gericht op de instelling, gemaakt door de instelling. Wat níet gedocumenteerd is, is de bredere bewering dat efficiëntie een nationale in-joke is — geen academische of Duitse referentiebron behandelt dat fenomeen als een object, dus de cursus stelt het niet. Meelachen om een omroep is veilig. De nationale karaktertrek erachter uitleggen aan iemand die hier woont, is niet dezelfde activiteit."
+      },
+      {
+        "titulo": "Bankbiljetten hebben een wettelijk voorrecht, en het bordje aan de deur is rechtmatig",
+        "corpo": "De Bundesbankwet zegt dat eurobankbiljetten het enige onbeperkte wettige betaalmiddel zijn, en niets verplicht een bedrijf om een kaart te aanvaarden. Dus «nur Bargeld» is geen obstructie en geen storing van een apparaat — het is een keuze die de wet openlaat, en het is precies het omgekeerde van Italië, waar een handelaar uw kaart moet aannemen. Ondertussen beweegt het land: in 2025 was voor het eerst meer dan de helft van de dagelijkse betalingen digitaal, op vijfenvijftig procent tegen negenenveertig twee jaar eerder, al blijft contant naar aantal transacties met vijfenveertig procent het meest gebruikte middel. Acceptatie is het cijfer om mee te nemen: in vierennegentig procent van de contactbetalingen kon contant, in zesentachtig kon digitaal. Waar contant het hardst blijft, is precies waar een bezoeker de beste middagen doorbrengt — markten en straatkraampjes, waar negen op de tien betalingen contant zijn en slechts drieënveertig procent van de verkopers iets anders aanneemt. Haal geld vóór de markt, niet erop."
+      },
+      {
+        "titulo": "De zondag is geen roosterongeluk",
+        "corpo": "De gesloten zondag gaat terug op een clausule van de grondwet van 1919 die het Grundgesetz overneemt: zondagen en erkende feestdagen blijven wettelijk beschermd als dagen van rust en geestelijke verheffing. De resterende federale winkelsluitingswet houdt winkels dicht op zondagen en feestdagen, en op werkdagen vóór zes en na acht. In 2009 verwierp het grondwettelijk hof een Berlijnse regel die vier Adventszondagen op rij toestond, met het oordeel dat het omzetbelang van een winkelier en de dagelijkse wens van een koper om te winkelen in beginsel niet volstaan. Twee grenzen die de cursus in het oog houdt: de bevoegdheid om te wetgeven ging in 2006 naar de deelstaten, en Beieren heeft sinds augustus 2025 een eigen wet — dus de oude regel dat Beieren nog onder de federale wet valt is achterhaald — en de status van die wet werd slechts in drie van de zestien deelstaten geverifieerd. Wat betrouwbaar opent is smal en juridisch bepaald: de dienstapotheek, tankstations voor reisartikelen, bakkers in een kort ochtendraam, station- en luchthavenwinkels voor reizigers, en badplaatsen. Een koopzondag is lokaal, gedateerd en aan een evenement gebonden; plan er nooit op."
+      },
+      {
+        "titulo": "Engels, en wat de enquête werkelijk vroeg",
+        "corpo": "Vijfenzestig procent zei in 2023 genoeg Engels te spreken om een gesprek te voeren, tegen zevenenveertig procent in de hele EU, tegen zesenvijftig en achtendertig in 2012. Dat is een zelfrapport over een vaardigheid, geen belofte over de persoon voor u, en een tweede Europese enquête wijst de andere kant op: zevenentachtig komma zeven procent van de volwassenen gaf in 2022 minstens één vreemde taal op, maar slechts ongeveer achtentwintig procent van hen noemde zich vaardig. De twee vragen zijn verschillend en mogen niet worden opgeteld. Praktisch: verwacht Engels vaak, vooral in steden en van jongere en meer geschoolde sprekers, en verwacht dat velen van hen het slechts af en toe gebruiken. Beginnen in het Duits en antwoord krijgen in het Engels is het gewone verloop, en het is geen oordeel over uw accent."
+      }
+    ]
+  },
+  "slot": "A03",
+  "permissao": "U mag lachen om de vertragingsomroep, omdat de grap van het bedrijf zelf is en de wagon al lacht. U mag ook blijven vragen hoe laat dingen sluiten, op welke dag van de week dan ook, zonder dat het als klagen telt — de openingstijden hier worden door de wet bepaald en niet door humeur, dus een vraag erover is een vraag over een regel en niemand hoort er kritiek in. En u mag zonder verontschuldiging contant geld op zak hebben: biljetten zijn het enige betaalmiddel dat overal werkt, en er eerst naar grijpen is hier de plaatselijke reflex en geen concessie.",
+  "permissaoAudioKey": "de-a03-n05",
+  "espelho": "Iedereen wiens eigen land een reputatie draagt waar het niet helemaal aan voldoet, kent deze vorm al van binnenuit — datgene waar buitenstaanders u om prijzen, is zelden datgene waar u werkelijk trots op bent, en gefeliciteerd worden ermee landt ergens tussen grappig en vermoeiend. De bezoekersversie van de vergissing is gewoon luider: aankomen met het compliment al klaar, en dan verrast doen dat de trein te laat is.",
+  "fichasCulturais": [
+    {
+      "sinal": "U prijst iemand dat hier alles zo goed loopt, en het antwoord is een vlak lachje en een verhaal over een trein.",
+      "suaLeitura": "Ik heb iets onhandigs gezegd, of ze zijn bescheiden en ik moet aandringen.",
+      "oQueEAli": "U bent het bekendste stuk zelfspot van het land binnengelopen, en het is van het spoor zelf. De gepubliceerde cijfers steunen de grap eerder dan het compliment: zestig komma één procent van de langeafstandstreinen telde in 2025 als op tijd op een drempel van onder de zes minuten, en de zomer van 2026 draaide op tweeënvijftig komma zes. Het bedrijf maakt zelf mockumentary-comedy over het onderwerp.",
+      "oQueVoceFaz": "Laat het compliment vallen en neem de grap over. Vraag iets concreets — of de trein op tijd is, hoeveel vertraging hij heeft, of ze vaak met het spoor reizen — en laat ze het verhaal vertellen waar ze al naar reikten.",
+      "oQueMelhora": "U stopt de bezoeker te zijn die een oordeel over een land velt en wordt iemand in dezelfde wagon als iedereen, wat een veel betere positie is voor de volgende veertig minuten gesprek.",
+      "ondeNaoVale": "Het is geen bewering dat niets op tijd loopt, en geen uitnodiging om zelf uitgebreid grappen te maken. Regionale treinen haalden in 2025 negenentachtig komma twee procent, en de humor is het veiligst wanneer die van hen blijft — u lacht mee, u diagnosticeert geen natie. Evenmin is dit een maat voor persoonlijke stiptheid: niemand heeft ooit gemeten of mensen hier op tijd bij afspraken komen, en te laat komen bij een reservering blijft uw probleem.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-a03-n03",
+        "de-a03-n04",
+        "de-a03-n05"
+      ]
+    },
+    {
+      "sinal": "Een café waar u al bent gaan zitten zegt u dat het alleen contant is, en op zondag is de hele straat dichtgerold terwijl de apotheek gloeit.",
+      "suaLeitura": "Deze zaak loopt achter, en ergens moet een winkel zijn die wel open is gebleven.",
+      "oQueEAli": "Beide zijn wet, geen gewoonte. Eurobankbiljetten zijn het enige onbeperkte wettige betaalmiddel en niets verplicht een bedrijf om een kaart te aanvaarden — precies het omgekeerde van de Italiaanse regel. En zondagen zijn beschermd door een clausule van de grondwet van 1919 die het Grundgesetz overneemt; in 2009 oordeelde het grondwettelijk hof dat de wens om te winkelen niet zwaar genoeg weegt om ze te openen. Wat op zondag opent is een korte juridische lijst: de dienstapotheek, tankstationreisartikelen, een ochtendraam bij de bakker, station- en luchthavenwinkels voor reizigers.",
+      "oQueVoceFaz": "Vraag ernaar voordat u bestelt in plaats van erna, en houd biljetten op zak, vooral voor markten, waar negen op de tien betalingen contant zijn. Doe de boodschappen op zaterdag, en behandel het zondagraam bij de bakker als kort in plaats van als openingstijd.",
+      "oQueMelhora": "Twee hele categorieën verrassing zijn geen verrassingen meer, en u plant een weekend zoals de mensen om u heen het plannen, wat het verschil is tussen een lege zondag en een goede.",
+      "ondeNaoVale": "Contant is niet verplicht en het land beweegt snel: in 2025 was voor het eerst meer dan de helft van de dagelijkse betalingen digitaal, en digitaal werd in zesentachtig procent van de waargenomen gevallen aanvaard. Op zondag verschillen de regels per deelstaat — de wetgevende bevoegdheid ging in 2006 naar de deelstaten, Beieren heeft sinds augustus 2025 een eigen wet, en de status werd slechts in drie van de zestien deelstaten geverifieerd, dus check de stad waar u werkelijk bent. En wat hier sluit is de detailhandel: het bovenstaande komt uit de winkelsluitingswet, wat niet de wet is die restaurants regelt — lees een dichtgerolde winkelstraat dus niet als een oordeel over het diner.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-a03-n06",
+        "de-a03-n09",
+        "de-a03-n10"
+      ]
+    }
+  ]
+}

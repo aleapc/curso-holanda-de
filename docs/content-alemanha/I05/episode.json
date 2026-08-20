@@ -1,0 +1,498 @@
+{
+  "id": "i05",
+  "nivel": "intermediario",
+  "numero": 23,
+  "parte": "I05",
+  "titulo": "De vijf vragen, en de twee zinnen die een zesde afsluiten",
+  "subtitulo": "Waarvandaan, hoelang, hoe bevalt het — plus een uitweg uit een onderwerp dat u niet gekozen heeft",
+  "cena": "Een gedeelde tafel in een Biergarten in Neurenberg op donderdag: het echtpaar tegenover u heeft Guten Abend gezegd, en de eerste vraag komt al aan.",
+  "moldura": "ganha",
+  "frasePiso": "Vijf antwoorden die u niet hoeft te bouwen, en één zin die een onderwerp afsluit zonder de avond af te sluiten.",
+  "decisao": "blijf ik in het gesprek of stap ik eruit; welke vijf antwoorden houd ik klaar voordat ik ga zitten, en welke zin gebruik ik wanneer het onderwerp er een wordt dat ik niet heb gekozen",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "de-i05-englisch",
+      "afirmacao": "Duitsland meldt een hoog niveau Engels onder volwassenen, en het getal hangt af van de vraag. Special Eurobarometer 540, Europeans and their languages (veldwerk sep–okt 2023, gepubliceerd 2024): 65% in Duitsland zegt Engels goed genoeg te spreken om een gesprek te voeren, tegen een EU27-gemiddelde van 47%. De vergelijkbare eerdere meting, Special Eurobarometer 386 (veldwerk feb–mrt 2012): Duitsland 56%, EU27 38%. De Adult Education Survey van Eurostat vraagt iets anders en krijgt een andere vorm: onder 25–64-jarigen in Duitsland meldt 87,7% ten minste één vreemde taal in 2022 (78,7% in 2016), maar slechts 28,0% beoordeelt zichzelf als vaardig in hun beste — grofweg 24,5% van de leeftijdsgroep. De twee vragen zijn niet uitwisselbaar en mogen niet worden opgeteld of als bevestigend voor elkaar worden gepresenteerd.",
+      "fonte": "Special Eurobarometer 540 (Verian para a DG EAC, DOI 10.2766/28257), p. 20, tabela D48.otherlang; Special Eurobarometer 386 (TNS Opinion & Social, jun/2012), p. 21, tabela D48T; Eurostat AES, tabelas edat_aes_l21 e edat_aes_l31 via API de disseminação. Dossiê § 10.1. ⚠ RESSALVA DE PROVENIÊNCIA: o PDF do SP540 foi aberto num espelho fora do domínio europa.eu (capa, ISBN, DOI e layout íntegros, valor 65 validado contra o texto corrido da p. 19). O EF EPI (Alemanha 4º de 123 em 2025) NÃO entra como estimativa populacional: a própria EF declara a amostra «self-selected and not guaranteed to be representative».",
+      "ano": 2024,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-i05-n05"
+      ]
+    },
+    {
+      "id": "de-i05-quebras",
+      "afirmacao": "Waar Engels het sterkst staat, is alleen op Europees niveau gedocumenteerd, nooit binnen Duitsland. Special Eurobarometer 386 meldt dat «very good» Engels vaker voorkomt bij jongeren, met name 15–24-jarigen (27%) tegenover 55+ (15%); onder wie het voltijdonderwijs pas op 20-jarige leeftijd of later heeft afgerond (26%); en onder inwoners van grote steden (29%) tegenover plattelandsdorpen (15%). Hetzelfde rapport registreert dat Duitsers die Engels spreken, tot degenen behoren die het slechts af en toe gebruiken (58%). Geen enkel onderzoek splitst Engels in Duitsland uit naar Bundesland of naar voormalig Oost en West: dat verschil ontbreekt als data.",
+      "fonte": "Special Eurobarometer 386, quebras europeias verbatim (não alemãs). Dossiê § 10.1. ⚠ A diferença leste-oeste é AUSENTE como dado: Eurobarómetro e Eurostat quebram por país, idade, escolaridade e urbano/rural, nunca por Bundesland ou ex-RDA. A premissa do russo como primeira língua estrangeira na RDA está documentada (KMK, 7/3/2014, p. 4, verbatim), mas a ligação «leste 50+ fala menos inglês» é inferência plausível e NÃO se escreve como estatística.",
+      "ano": 2012,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-i05-n06"
+      ]
+    },
+    {
+      "id": "de-i05-schweigen",
+      "afirmacao": "Het ene onderwerp waar een geïmproviseerde zin van een bezoeker een strafzaak kan worden, staat in het Wetboek van Strafrecht, en de cursus registreert het artikel en geen mening. § 86a StGB bestraft het verspreiden of publiekelijk gebruiken van symbolen van ongrondwettelijke organisaties met «Freiheitsstrafe bis zu drei Jahren oder mit Geldstrafe», en Abs. 2 noemt als symbolen vlaggen, insignes, uniformdelen, «Parolen und Grußformen» — leuzen en groetvormen — plus alles wat op verwarrende wijze lijkt. De uitzonderingen in § 86 Abs. 4 dekken staatsburgerlijke vorming, verweer tegen ongrondwettelijke activiteit, kunst, wetenschap, onderzoek, onderwijs en berichtgeving over actualiteit of geschiedenis; geen daarvan dekt een bezoeker. § 130 Abs. 3 StGB bestraft met tot vijf jaar of een geldboete iedereen die publiekelijk misdaden van het naziregime goedkeurt, ontkent of bagatelliseert op een wijze die geschikt is de openbare vrede te verstoren — billigen, leugnen, verharmlosen, en bagatelliseren alleen al is voldoende.",
+      "fonte": "§ 86a StGB e § 86 Abs. 4 StGB verbatim (gesetze-im-internet.de); § 130 Abs. 3 e Abs. 4 StGB lidos na mesma página oficial (a extração verbatim foi bloqueada pelo limite de citação da ferramenta — conferir uma vez antes de imprimir; texto de lei alemã é amtliches Werk, § 5 UrhG). Dossiê §§ 10.2 e 10.6. ⚠ DOIS AUSENTES A DIZER EM VOZ ALTA: o desfecho processual dos casos de turistas noticiados em 2017 (Berlim, 5/8; Dresden, 12–13/8) não consta da cobertura; e NÃO se encontrou nenhum caso de turista estrangeiro entre 2023 e 2026. Não sugerir que é corriqueiro: dizer que é crime, com a pena, e parar aí.",
+      "ano": 2026,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": [
+        "de-i05-n09",
+        "de-i05-n10"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i05-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "Aan elke tafel komen dezelfde vijf vragen. Antwoord uit voorraad, en u besteedt de avond aan luisteren."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i05-r01",
+      "es": "Und woher kommen Sie?",
+      "pt": "En waar komt u vandaan?",
+      "tts": "Und woher kommen Sie?"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i05-p01",
+      "promptPt": "Vraag één, en die komt binnen een minuut na het gaan zitten. Noem de stad, niet het land. Spreek nu.",
+      "audioKey": "de-i05-t01",
+      "es": "Ich komme aus Manchester.",
+      "pinyin": "ikh KOM-uh owss MAN-ches-ter",
+      "pt": "Ik kom uit Manchester.",
+      "tts": "Ich komme aus Manchester."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i05-n02",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Noem de stad en u geeft iets waar ze zich aan vasthouden. Een landnaam sluit het gesprek; een stad opent het."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i05-p02",
+      "promptPt": "Vraag twee komt direct achter de eerste, en u vliegt volgende week zondag terug. Spreek nu.",
+      "audioKey": "de-i05-t02",
+      "es": "Ich bin zehn Tage hier.",
+      "pinyin": "ikh bin tsayn TAH-guh heer",
+      "pt": "Ik ben hier tien dagen.",
+      "tts": "Ich bin zehn Tage hier."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-i05-r02",
+      "es": "Sie sprechen aber gut Deutsch!",
+      "pt": "U spreekt anders best goed Duits!",
+      "tts": "Sie sprechen aber gut Deutsch!",
+      "receptivo": true,
+      "acao": "De aber is verbazing, geen correctie. Danke is het volledige antwoord — leg niet uit hoe weinig u heeft."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i05-n03",
+      "tom": "ganha",
+      "pt": "Derde vraag, en het eerlijke antwoord is het goede. Nur ein bisschen koopt geduld dat u niet hoeft te vragen."
+    },
+    {
+      "consulta": [
+        "reparo/ingles",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i05-p03",
+      "promptPt": "Ze heeft u net een compliment gegeven dat u niet kunt inlossen; het eerlijke antwoord is twee woorden. Spreek nu.",
+      "audioKey": "de-i05-t03",
+      "es": "Nur ein bisschen.",
+      "pinyin": "noor ine BIS-hyen",
+      "pt": "Maar een beetje.",
+      "tts": "Nur ein bisschen."
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "ich habe das nicht verstanden",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i05-p04",
+      "promptPt": "Hij zei iets langs en snels en u ving twee woorden. Zeg dat, voor het moment weg is. Spreek nu.",
+      "audioKey": "de-i05-t04",
+      "es": "Entschuldigung, ich habe das nicht verstanden.",
+      "pinyin": "ent-SHOOL-di-goong, ikh HAH-buh das nikht fer-SHTAN-den",
+      "pt": "Sorry, dat heb ik niet verstaan.",
+      "tts": "Entschuldigung, ich habe das nicht verstanden."
+    },
+    {
+      "consulta": [
+        "reparo/devagar",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "KONNEN-SIE",
+      "encaixe": "das wiederholen",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i05-p05",
+      "promptPt": "Hij is bereid en hij wacht. Vraag hem het hele ding nog eens. Spreek nu.",
+      "audioKey": "de-i05-t05",
+      "es": "Können Sie das wiederholen?",
+      "pinyin": "KUR-nen zee dass VEE-der-hoh-len",
+      "pt": "Kunt u dat herhalen?",
+      "tts": "Können Sie das wiederholen?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i05-r03",
+      "es": "Wir können auch Englisch sprechen.",
+      "pt": "We kunnen ook Engels spreken.",
+      "tts": "Wir können auch Englisch sprechen.",
+      "receptivo": true,
+      "acao": "Dat is hulp die wordt aangeboden, geen oordeel over u. Zeg danke, neem het aan, en bewaar het Duits voor de volgende balie."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i05-n04",
+      "tom": "ganha",
+      "pt": "De overschakeling naar Engels is een snelweg die u wordt aangereikt. Aannemen kost niets en verliest niets."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i05-n05",
+      "tom": "ganha",
+      "pt": "Vijfenzestig procent van de volwassenen hier zegt een gesprek in het Engels te kunnen voeren. Het EU-gemiddelde is zevenenveertig."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i05-n06",
+      "tom": "ganha",
+      "pt": "De Europese uitsplitsingen wijzen naar jonger, hoger opgeleid en grote stad. Binnen Duitsland zijn zulke cijfers er niet."
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar-lugar",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i05-p06",
+      "promptPt": "Vraag vier komt bij elke bezoeker, en het korte warme antwoord verslaat het lange voorzichtige. Spreek nu.",
+      "audioKey": "de-i05-t06",
+      "es": "Es gefällt mir sehr.",
+      "pinyin": "es guh-FELT meer zayr",
+      "pt": "Het bevalt me erg.",
+      "tts": "Es gefällt mir sehr."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i05-r04",
+      "es": "Möchten Sie einen Schnaps? Aufs Haus.",
+      "pt": "Wilt u een schnaps? Van het huis.",
+      "tts": "Möchten Sie einen Schnaps? Aufs Haus."
+    },
+    {
+      "consulta": [
+        "mesa/bebida",
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "OHNE",
+      "encaixe": "Alkohol",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i05-p07",
+      "promptPt": "Het wordt aangeboden, het is gratis, en u fietst terug. Wijs het af zonder de tafel af te wijzen. Spreek nu.",
+      "audioKey": "de-i05-t07",
+      "es": "Für mich bitte etwas ohne Alkohol.",
+      "pinyin": "fuer mikh BIT-tuh ET-vass OH-nuh AL-ko-hohl",
+      "pt": "Voor mij graag iets zonder alcohol.",
+      "tts": "Für mich bitte etwas ohne Alkohol."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i05-n07",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "Vijf antwoorden verder draait het gesprek om. De bouwsteen die draait is die u al aan balies gebruikt."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "HABEN-SIE",
+      "encaixe": "einen Tipp für morgen",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i05-p08",
+      "promptPt": "Zij wonen hier, morgen is leeg in uw agenda, en niemand heeft nog iets aangeboden. Vraag het hen. Spreek nu.",
+      "audioKey": "de-i05-t08",
+      "es": "Haben Sie einen Tipp für morgen?",
+      "pinyin": "HAH-ben zee EYE-nen tip fuer MOR-gen",
+      "pt": "Heeft u een tip voor morgen?",
+      "tts": "Haben Sie einen Tipp für morgen?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-i05-r05",
+      "es": "Gehen Sie auf den Flohmarkt! Der ist wirklich schön.",
+      "pt": "Ga naar de vlooienmarkt! Die is echt mooi.",
+      "tts": "Gehen Sie auf den Flohmarkt! Der ist wirklich schön."
+    },
+    {
+      "consulta": [
+        "chegar/balcao",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WO-IST",
+      "encaixe": "der Flohmarkt",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i05-p09",
+      "promptPt": "Zij heeft u net morgen aangereikt. Ontdek in welk stadsdeel het is. Spreek nu.",
+      "audioKey": "de-i05-t09",
+      "es": "Wo ist der Flohmarkt?",
+      "pinyin": "voh ist dair FLOH-markt",
+      "pt": "Waar is de vlooienmarkt?",
+      "tts": "Wo ist der Flohmarkt?"
+    },
+    {
+      "consulta": [
+        "transporte/qual-trem",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WANN-IST",
+      "encaixe": "der Flohmarkt",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i05-p10",
+      "promptPt": "U kent de wijk nu en het uur niet, en om vier uur opduiken zou de hele tip verspillen. Spreek nu.",
+      "audioKey": "de-i05-t10",
+      "es": "Wann ist der Flohmarkt?",
+      "pinyin": "vahn ist dair FLOH-markt",
+      "pt": "Wanneer is de vlooienmarkt?",
+      "tts": "Wann ist der Flohmarkt?"
+    },
+    {
+      "consulta": [
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WAS-KOSTET",
+      "encaixe": "der Eintritt",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i05-p11",
+      "promptPt": "Zij noemden ook een museum voor de middag, en u weet dat liever voor de deur dan aan de deur. Spreek nu.",
+      "audioKey": "de-i05-t11",
+      "es": "Was kostet der Eintritt?",
+      "pinyin": "vass KOSS-tet dair EYN-tritt",
+      "pt": "Wat kost de entree?",
+      "tts": "Was kostet der Eintritt?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i05-n08",
+      "tom": "ganha",
+      "pt": "Twee vragen verder en zij plannen voor u. Dat is de hele truc: antwoord vijf, vraag dan drie."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i05-r06",
+      "es": "Und was denken Sie über unsere Geschichte?",
+      "pt": "En wat denkt u over onze geschiedenis?",
+      "tts": "Und was denken Sie über unsere Geschichte?",
+      "receptivo": true,
+      "acao": "Dit is de zesde vraag, en het is de vraag die u afwijst. U bent niet verplicht een mening te hebben, in welke taal dan ook."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i05-n09",
+      "tom": "protege",
+      "pt": "Deze cursus geeft u hier geen meningswoordenschat, met opzet. Wel twee uitgangen en een feit over de wet."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "reparo/ingles"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i05-p12",
+      "promptPt": "Het onderwerp draaide en u niet. Wijs het één keer af, warm, en laat de deur open. Spreek nu.",
+      "audioKey": "de-i05-t12",
+      "es": "Davon weiß ich zu wenig.",
+      "pinyin": "dah-FON vyce ikh tsoo VAY-nikh",
+      "pt": "Daarvan weet ik te weinig.",
+      "tts": "Davon weiß ich zu wenig."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i05-p13",
+      "promptPt": "Hij kwam er toch op terug. Zeg de beleefde, definitieve versie — de zin waarna er niets meer te antwoorden valt. Spreek nu.",
+      "audioKey": "de-i05-t13",
+      "es": "Da möchte ich lieber nichts zu sagen.",
+      "pinyin": "dah MURKH-tuh ikh LEE-ber nikhts tsoo ZAH-gen",
+      "pt": "Daar wil ik liever niets over zeggen.",
+      "tts": "Da möchte ich lieber nichts zu sagen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i05-n10",
+      "tom": "protege",
+      "pt": "Symbolen, leuzen en groeten kosten hier tot drie jaar, en de uitzonderingen zijn kunst, onderwijs en verslaggeving."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i05-p14",
+      "promptPt": "Twee weigeringen hebben hem niet verzet en de tafel is stil. Verzet het zelf, hardop en vriendelijk. Spreek nu.",
+      "audioKey": "de-i05-t14",
+      "es": "Können wir über etwas anderes sprechen?",
+      "pinyin": "KUR-nen veer UE-ber ET-vass AN-duh-res SHPREH-khen",
+      "pt": "Kunnen we het over iets anders hebben?",
+      "tts": "Können wir über etwas anderes sprechen?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-i05-s01",
+      "es": "Ich komme aus Manchester. Ich bin zehn Tage hier. Es gefällt mir sehr.",
+      "pinyin": "ikh KOM-uh owss MAN-ches-ter. ikh bin tsayn TAH-guh heer. es guh-FELT meer zayr",
+      "pt": "Schaduw de drie die als eerste komen, in de volgorde waarin ze komen.",
+      "tts": "Ich komme aus Manchester. Ich bin zehn Tage hier. Es gefällt mir sehr."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i05-n11",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "I05 klaar. Vijf antwoorden uit voorraad, drie vragen terug, en één zin die een onderwerp sluit zonder de tafel te sluiten."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Vijf klare antwoorden, drie vragen terug, één uitweg",
+    "secoes": [
+      {
+        "titulo": "De vijf, in de volgorde waarin ze komen",
+        "corpo": "Woher kommen Sie, wie lange bleiben Sie, sprechen Sie Deutsch, gefällt es Ihnen, en een variant van wat u tot nu toe hebt gezien. Geen ervan hoeft gebouwd te worden: ich komme aus, ich bin zehn Tage hier, nur ein bisschen, es gefällt mir sehr. Leer de vier antwoorden als vier vaste blokken en de eerste twee minuten van elke avond kosten u helemaal niets meer.",
+        "exemplos": [
+          {
+            "es": "Ich komme aus Manchester.",
+            "pt": "Ik kom uit Manchester."
+          },
+          {
+            "es": "Ich bin zehn Tage hier.",
+            "pt": "Ik ben hier tien dagen."
+          }
+        ]
+      },
+      {
+        "titulo": "Nur ein bisschen, en waarom het eerlijke antwoord wint",
+        "corpo": "Sie sprechen aber gut Deutsch is een compliment met een klein stukje verbazing erin, en de verleiding is een paragraaf te geven over hoe slecht u eigenlijk spreekt. Danke, en als ze aandringen nur ein bisschen, doet de hele klus: het aanvaardt de vriendelijkheid en het zet het tempo voor alles wat volgt. De persoon tegenover u weet nu dat ze langzamer moeten praten zonder dat u erom hoefde te vragen, en dat is wat u werkelijk wilde."
+      },
+      {
+        "titulo": "Wanneer ze overschakelen naar Engels",
+        "corpo": "Het gebeurt, en het loont de grond te kennen. In de Europese enquête van 2023 zei 65% van de volwassenen in Duitsland een gesprek in het Engels te kunnen voeren, tegen 47% in de EU. Een andere enquête, met een andere vraag, vond dat 87,7% van de 25-64-jarigen ten minste één vreemde taal claimt, maar dat maar 28% daarvan zichzelf vaardig noemt — waarom die twee getallen niet gestapeld mogen worden. De Europese uitsplitsingen wijzen op jonger, hoger opgeleid en grote stad, en er zijn geen cijfers binnen Duitsland gebroken naar oost en west. Praktisch: neem niets aan over de individu, open in het Duits, en aanvaard de overschakeling zodra die wordt aangeboden."
+      },
+      {
+        "titulo": "Antwoord vijf, vraag dan drie",
+        "corpo": "De ommekeer is het deel dat de meeste bezoekers nooit maken. Haben Sie einen Tipp für morgen legt de avond in hun handen, en de twee vervolgvragen zijn bouwstenen die u al bezit van de straat: wo ist en wann ist. Voeg was kostet der Eintritt toe en u heeft small talk omgezet in een plan voor morgen, met vier zinnen die van vorm niet veranderen."
+      },
+      {
+        "titulo": "De zesde vraag, en de twee zinnen die die afsluiten",
+        "corpo": "Soms wendt de tafel zich tot de twintigste eeuw en vraagt iemand wat u ervan denkt. Deze cursus geeft u daarvoor met opzet geen woordenschat om een standpunt in te nemen — niet om te veroordelen, niet om te relativeren, niet om te tonen dat u aan de goede kant staat. Meningswoordenschat in een taal die u niet beheerst is precies het mechanisme van het ongeluk. Wat we u geven zijn twee neutrale uitgangen, «Davon weiß ich zu wenig» en «Da möchte ich lieber nichts zu sagen», en een derde die het onderwerp verzet, «Können wir über etwas anderes sprechen?». Maakt iemand de grap, dan is het antwoord stilte en een verandering van onderwerp: doe nooit mee, en probeer nooit te corrigeren in een taal die u nog aan het leren bent. Achter dat alles zit een feit, geen voorkeur. § 86a StGB straft de symbolen, leuzen en groeten van ongrondwettelijke organisaties met tot drie jaar of een geldboete — het woord in de wet is Grußformen, groetvormen — en de uitzonderingen in § 86 Abs. 4 zijn burgerschapsonderwijs, kunst, wetenschap, onderzoek, onderwijs en verslaggeving. Geen ervan dekt een bezoeker, en camera, grap of drankje evenmin."
+      }
+    ]
+  },
+  "slot": "I05",
+  "permissao": "U mag precies één zin per vraag hebben en niet meer. Nur ein bisschen is een volledig antwoord, es gefällt mir sehr is een volledig oordeel, en geen van beide is iemand een paragraaf schuldig. U mag de overschakeling naar Engels aannemen zodra die wordt aangeboden, zonder het als een mislukking te lezen, en u mag — dit is de belangrijke — een onderwerp afwijzen. Niemand aan die tafel heeft recht op uw mening over iets, en «Davon weiß ich zu wenig» is een heel, volwassen, niet-herhaalbaar antwoord.",
+  "permissaoAudioKey": "de-i05-n09",
+  "espelho": "Wie thuis ooit een bezoeker heeft ontvangen, heeft deze vijf vragen in dezelfde volgorde gesteld zonder het te merken. De vreemdeling die in korte, warme zinnen antwoordt en dan iets terugvraagt, is degene aan wie u de weg wijst, een telefoonnummer geeft en een oordeel over waar te eten.",
+  "fichasCulturais": [
+    {
+      "sinal": "U opent in voorzichtig Duits en het antwoord komt direct in het Engels terug.",
+      "suaLeitura": "Mijn Duits was zo slecht dat ze het opgaven.",
+      "oQueEAli": "Het is meestal de snelste route naar wat u vroeg, aangeboden door iemand die die route beschikbaar heeft. In de Europese enquête van 2023 zei 65% van de volwassenen in Duitsland een gesprek in het Engels te kunnen voeren, tegen een EU-gemiddelde van 47%. De overschakeling is een dienst die wordt bewezen, geen cijfer dat u krijgt.",
+      "oQueVoceFaz": "Zeg danke, neem het Engels, en blijf de volgende keer in het Duits openen. De opening verdient de welwillendheid; in welke taal het antwoord komt is niet uw zaak.",
+      "oQueMelhora": "U leest behulpzaamheid niet meer als afwijzing, en u blijft het Duits gebruiken dat voor u wel werkt.",
+      "ondeNaoVale": "Het is geen belofte over de persoon voor u. Een andere enquête met een andere vraag vond dat 87,7% van de 25-64-jarigen ten minste één vreemde taal claimt maar maar 28% daarvan zichzelf vaardig noemt — de twee cijfers zijn niet uitwisselbaar en tellen niet op. De Europese uitsplitsingen bevoordelen jonger, hoger opgeleid en grote stad, en er zijn geen cijfers gebroken naar oost en west binnen Duitsland.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-i05-n05",
+        "de-i05-n06"
+      ]
+    },
+    {
+      "sinal": "De tafel wendt zich tot de twintigste eeuw en iemand vraagt u, direct, wat u ervan denkt.",
+      "suaLeitura": "Ik moet iets zeggen waaruit blijkt dat ik aan de goede kant sta.",
+      "oQueEAli": "Het onderwerp is tegelijk staatsgeheugen en strafrecht. § 86a StGB straft de symbolen, leuzen en groeten van ongrondwettelijke organisaties met tot drie jaar of een geldboete, en § 130 Abs. 3 straft het goedkeuren, ontkennen of bagatelliseren van nazi-misdaden met tot vijf jaar — bagatelliseren is op zich al genoeg. De uitzonderingen in § 86 Abs. 4 zijn burgerschapsonderwijs, kunst, wetenschap, onderzoek, onderwijs en verslaggeving over geschiedenis of actualiteit.",
+      "oQueVoceFaz": "Gebruik een zin en laat het los: «Davon weiß ich zu wenig.» Komt het terug, «Da möchte ich lieber nichts zu sagen.» Wil het niet weg, «Können wir über etwas anderes sprechen?» Maakt iemand de grap, zeg niets en verander van onderwerp. En maak nooit het gebaar — niet voor een foto, niet in een groep, niet na vier bieren.",
+      "oQueMelhora": "U houdt de avond, u houdt de tafel, en u improviseert nooit een standpunt in een taal die u tien dagen kent.",
+      "ondeNaoVale": "Dit is een uitspraak over een wet, niet over mensen. Het is geen bewijs dat het onderwerp verboden is in gesprek, dat iemand het vermijdt, of dat een bezoeker aangeklaagd zal worden: geen zaak van een buitenlandse bezoeker onder § 86a is gevonden tussen 2023 en 2026, en de twee gerapporteerde toeristenzaken dateren uit 2017, met onbekende afloop. De regel over het gebaar is gedrag, en die staat los daarvan.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-i05-n10"
+      ]
+    }
+  ]
+}

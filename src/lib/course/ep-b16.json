@@ -1,0 +1,295 @@
+{
+  "id": "b16",
+  "nivel": "basico",
+  "numero": 16,
+  "parte": "B16",
+  "slot": "B16",
+  "titulo": "Heeft u — die Frage, die ein Zimmer besser macht, bevor du dich beschwerst",
+  "subtitulo": "Eine höhere Etage, ein Zimmer ohne steile Treppe, und ein Adapter, den die Rezeption meistens hat",
+  "cena": "Eine Hotelrezeption in Rotterdam, vier Uhr nachmittags, die Buchung noch auf dem Bildschirm, der Schlüssel noch nicht in deiner Hand.",
+  "moldura": "ganha",
+  "frasePiso": "Heeft u, dreimal an derselben Rezeption gesagt. Das ist ein besseres Zimmer als das, das du gebucht hast.",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b16-n01",
+      "gesto": 1,
+      "tom": "ganha",
+      "bloco": "aquecimento",
+      "pt": "Ein Takt pro Wort, wie immer: héeft ü un KA-mer. Bitten kostet nichts, und du fragst zuerst, bevor du dich beschwerst."
+    },
+    {
+      "consulta": [
+        "quarto/checkin"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "HABEN-SIE",
+      "encaixe": "een kamer op een hogere verdieping",
+      "encaixeGloss": "ein Zimmer in einer höheren Etage",
+      "bloco": "callback",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b16-p01",
+      "promptPt": "Gestern hast du mit diesem Baustein nach einer größeren Größe gefragt. Heute stehst du an der Rezeption, und die Buchung zeigt noch keine Etage. Frag. Sprich jetzt.",
+      "audioKey": "hol-b16-t01",
+      "es": "Heeft u een kamer op een hogere verdieping?",
+      "pinyin": "héeft ü un KAA-mer op un HOH-che-re fer-DEE-ping?",
+      "pt": "Haben Sie ein Zimmer in einer höheren Etage?",
+      "tts": "Heeft u een kamer op een hogere verdieping?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b16-n02",
+      "tom": "ganha",
+      "bloco": "cena",
+      "pt": "Vier Uhr nachmittags, die Buchung noch auf dem Bildschirm, der Schlüssel noch nicht in deiner Hand. Jetzt ist der Moment zu bitten."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b16-r01",
+      "tom": "ganha",
+      "es": "Ja, ik heb nog een kamer op de vierde verdieping vrij.",
+      "pinyin": "ya, ik hep noch un KAA-mer op de FEER-de fer-DEE-ping frei",
+      "pt": "Ja, ich habe noch ein Zimmer im vierten Stock frei.",
+      "tts": "Ja, ik heb nog een kamer op de vierde verdieping vrij.",
+      "receptivo": true,
+      "acao": "Vrij heißt frei, verfügbar. Nick oder bestätige mit ja — mehr braucht es hier nicht."
+    },
+    {
+      "consulta": [
+        "quarto/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "HABEN-SIE",
+      "encaixe": "een rustigere kamer",
+      "encaixeGloss": "ein ruhigeres Zimmer",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b16-p02",
+      "promptPt": "Vor dem Hotel liegt eine belebte Straße, und die Zimmer zur Straße hin kennst du schon von der Buchungsseite. Frag nach etwas Ruhigerem. Sprich jetzt.",
+      "audioKey": "hol-b16-t02",
+      "es": "Heeft u een rustigere kamer?",
+      "pinyin": "héeft ü un RÜS-ti-che-re KAA-mer?",
+      "pt": "Haben Sie ein ruhigeres Zimmer?",
+      "tts": "Heeft u een rustigere kamer?"
+    },
+    {
+      "consulta": [
+        "quarto/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "HABEN-SIE",
+      "encaixe": "een kamer zonder trap",
+      "encaixeGloss": "ein Zimmer ohne Treppe",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b16-p03",
+      "promptPt": "Dein Koffer ist schwer, und viele Altstadthäuser hier haben nur eine steile, schmale Treppe. Frag, ob es anders geht. Sprich jetzt.",
+      "audioKey": "hol-b16-t03",
+      "es": "Heeft u een kamer zonder trap?",
+      "pinyin": "héeft ü un KAA-mer ZON-der trap?",
+      "pt": "Haben Sie ein Zimmer ohne Treppe?",
+      "tts": "Heeft u een kamer zonder trap?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b16-n03",
+      "tom": "ganha",
+      "bloco": "corpo",
+      "pt": "Zonder steckt hier im selben Baustein wie in B12 — kahl, kein Artikel davor, egal was du weglässt."
+    },
+    {
+      "consulta": [
+        "quarto/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "OHNE",
+      "encaixe": "ontbijt",
+      "encaixeGloss": "Frühstück",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b16-p04",
+      "promptPt": "Das Paket auf dem Bildschirm ist teurer, weil morgens etwas dabei ist, das du eh nie isst. Sag, was du nicht willst. Sprich jetzt.",
+      "audioKey": "hol-b16-t04",
+      "es": "Zonder ontbijt, graag.",
+      "pinyin": "ZON-der ONT-bäit, chraach",
+      "pt": "Ohne Frühstück, bitte.",
+      "tts": "Zonder ontbijt, graag."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b16-r02",
+      "tom": "ganha",
+      "es": "Geen probleem. Hier is uw sleutel, kamer vierhonderdtwee.",
+      "pinyin": "cheen proh-BLEEM. heer is ü SLÖÜ-tel, KAA-mer FEER-hon-dert-tvay",
+      "pt": "Kein Problem. Hier ist Ihr Schlüssel, Zimmer vierhundertzwei.",
+      "tts": "Geen probleem. Hier is uw sleutel, kamer vierhonderdtwee.",
+      "receptivo": true,
+      "acao": "Die Zimmernummer kommt zuletzt, als eine lange Zahl. Hör bis zum Ende und wiederhol sie im Kopf, bevor du zum Aufzug gehst."
+    },
+    {
+      "consulta": [
+        "quarto/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ICH-SUCHE",
+      "encaixe": "een adapter",
+      "encaixeGloss": "ein Adapter",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b16-p05",
+      "promptPt": "Dein Stecker passt nicht in die Steckdose im Zimmer, und der Akku ist fast leer. Frag an der Rezeption. Sprich jetzt.",
+      "audioKey": "hol-b16-t05",
+      "es": "Ik zoek een adapter.",
+      "pinyin": "ik ZUUK un a-DAP-ter",
+      "pt": "Ich suche einen Adapter.",
+      "tts": "Ik zoek een adapter."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b16-n04",
+      "tom": "ganha",
+      "pt": "Erst bitten, dann erst reklamieren — in dieser Reihenfolge klingt jede Beschwerde ruhiger, wenn sie kommt."
+    },
+    {
+      "consulta": [
+        "quarto/nao-funciona"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "protege",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b16-p06",
+      "promptPt": "Im Zimmer angekommen zeigt dein Handy null Balken, obwohl das Symbol da ist. Melde es unten. Sprich jetzt.",
+      "audioKey": "hol-b16-t06",
+      "es": "De wifi werkt niet.",
+      "pinyin": "de VIE-fie WERKT neet",
+      "pt": "Das WLAN funktioniert nicht.",
+      "tts": "De wifi werkt niet."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b16-r03",
+      "tom": "protege",
+      "es": "Sorry, dat hoor ik vaker. Ik stuur iemand naar boven.",
+      "pinyin": "SO-rie, dat hohr ik FAA-ker. ik stür EE-mant naar BOH-ven",
+      "pt": "Entschuldigung, das höre ich öfter. Ich schicke jemanden nach oben.",
+      "tts": "Sorry, dat hoor ik vaker. Ik stuur iemand naar boven.",
+      "receptivo": true,
+      "acao": "Dat hoor ik vaker heißt, das Problem ist bekannt. Nichts, was du falsch gemacht hast — warte einfach im Zimmer."
+    },
+    {
+      "consulta": [
+        "quarto/nao-funciona",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "protege",
+      "molde": "KONNEN-SIE",
+      "encaixe": "iemand sturen",
+      "encaixeGloss": "jemanden schicken",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b16-p07",
+      "promptPt": "Zwanzig Minuten vergingen und niemand kam. Frag noch einmal, klar und ruhig. Sprich jetzt.",
+      "audioKey": "hol-b16-t07",
+      "es": "Kunt u iemand sturen?",
+      "pinyin": "kunt ü EE-mant STÜ-ren?",
+      "pt": "Können Sie jemanden schicken?",
+      "tts": "Kunt u iemand sturen?"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "DANKE",
+      "encaixe": "dank u wel",
+      "encaixeGloss": "vielen Dank",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b16-p08",
+      "promptPt": "Das WLAN läuft wieder, der Adapter liegt auf dem Nachttisch, das Zimmer ist ruhig. Schließ ab. Sprich jetzt.",
+      "audioKey": "hol-b16-t08",
+      "es": "Dank u wel!",
+      "pinyin": "dank ü vel!",
+      "pt": "Vielen Dank!",
+      "tts": "Dank u wel!"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-b16-s01",
+      "tom": "ganha",
+      "es": "Heeft u een rustigere kamer? Zonder ontbijt, graag. Ik zoek een adapter.",
+      "pinyin": "héeft ü un RÜS-ti-che-re KAA-mer? ZON-der ONT-bäit, chraach. ik ZUUK un a-DAP-ter",
+      "pt": "Schatte drei völlig verschiedene Bitten an derselben Rezeption.",
+      "tts": "Heeft u een rustigere kamer? Zonder ontbijt, graag. Ik zoek een adapter."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b16-n05",
+      "tom": "ganha",
+      "bloco": "recap",
+      "pt": "B16 fertig. Erst Heeft u, um das Zimmer besser zu machen, dann erst die Beschwerde, wenn wirklich etwas nicht geht."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Zuerst bitten, dann erst reklamieren",
+    "secoes": [
+      {
+        "titulo": "Heeft u, an der Rezeption",
+        "corpo": "Derselbe Baustein aus B06 trägt die ganze Rezeption: eine höhere Etage, ein ruhigeres Zimmer, ein Zimmer ohne Treppe. Kein neues Verb, kein neuer Satzbau — nur das Ding am Ende wechselt.",
+        "exemplos": [
+          {
+            "es": "Heeft u een kamer op een hogere verdieping?",
+            "pt": "Haben Sie ein Zimmer in einer höheren Etage?"
+          },
+          {
+            "es": "Heeft u een rustigere kamer?",
+            "pt": "Haben Sie ein ruhigeres Zimmer?"
+          }
+        ]
+      },
+      {
+        "titulo": "Zonder, wieder am Empfangstresen",
+        "corpo": "Zonder ontbijt, graag nimmt das Frühstück kahl aus dem Paket, genau wie zonder ui die Zwiebeln von den Pommes nahm. Derselbe Baustein, ein neuer Ort."
+      },
+      {
+        "titulo": "Warum die Reihenfolge zählt",
+        "corpo": "Erst bitten, dann erst reklamieren, ist keine Höflichkeitsregel — es ist die Reihenfolge, in der ein Zimmer tatsächlich besser wird. Eine Bitte am Empfang kostet nichts und wird oft sofort erfüllt; eine Beschwerde später braucht Geduld und einen zweiten Anlauf. Wer zuerst fragt, reklamiert seltener."
+      }
+    ]
+  },
+  "permissao": "Du darfst dreimal hintereinander um etwas anderes bitten, ohne dich dafür zu entschuldigen. Heeft u, plus das Ding, kostet die Rezeption nichts zu hören, und ein Nein ist keine Ablehnung von dir — nur eine Information über das, was gerade frei ist.",
+  "permissaoAudioKey": "hol-b16-n04",
+  "fichasCulturais": [
+    {
+      "sinal": "Die Treppe zu deinem Zimmer in einem älteren Stadthaus ist steil, schmal und ohne Aufzug — dein Koffer passt kaum durch die Kurve.",
+      "suaLeitura": "Das Hotel hat gespart, oder das Gebäude ist einfach schlecht gebaut.",
+      "oQueEAli": "Viele Häuser in historischen Innenstädten wurden ursprünglich schmal und hoch gebaut, mit steilen, engen Treppen als Normalfall der Bauweise — nicht als Mangel an einem bestimmten Hotel. Ein Aufzug ist in solchen Gebäuden oft technisch gar nicht nachrüstbar.",
+      "oQueVoceFaz": "Frag bei der Buchung oder spätestens am Empfang gezielt nach einem Zimmer ohne Treppe oder mit Aufzug, statt es erst beim Hochtragen zu merken.",
+      "oQueMelhora": "Du planst das Gepäck realistisch, statt dich über ein Gebäude zu ärgern, das nicht anders gebaut werden konnte.",
+      "ondeNaoVale": "Neuere Hotels und größere Ketten haben in aller Regel Aufzüge — die steile Treppe ist ein Merkmal historischer Altstadthäuser, keine landesweite Norm.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "hol-b16-p03"
+      ]
+    }
+  ]
+}

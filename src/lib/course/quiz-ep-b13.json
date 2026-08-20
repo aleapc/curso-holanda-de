@@ -1,0 +1,96 @@
+{
+  "id": "q-b13",
+  "nivel": "basico",
+  "titulo": "Quiz — Ik heb een allergie, vor der Bestellung gesagt",
+  "subtitulo": "Vier Wörter, das Wort für Erdnuss, und die Karte für den Fall, dass Worte nicht reichen",
+  "introAudioKey": "hol-b13-q-i",
+  "introPt": "Ein Eetcafé, die Karte noch offen, und ein Satz, der zuerst kommt, nicht danach.",
+  "cenario": "Ein Eetcafé in Utrecht, kurz vor der Bestellung.",
+  "dialogo": [
+    {
+      "audioKey": "hol-b13-q01",
+      "voz": "target_nl_f",
+      "es": "Ik heb een allergie voor pinda's.",
+      "pt": "Ich habe eine Allergie gegen Erdnüsse.",
+      "tts": "Ik heb een allergie voor pinda's."
+    },
+    {
+      "audioKey": "hol-b13-q02",
+      "voz": "target_nl_m",
+      "es": "Momentje, ik vraag het even in de keuken na.",
+      "pt": "Einen Moment, ich frage kurz in der Küche nach.",
+      "tts": "Momentje, ik vraag het even in de keuken na."
+    },
+    {
+      "audioKey": "hol-b13-q03",
+      "voz": "target_nl_f",
+      "es": "Zit er pindaolie in?",
+      "pt": "Ist da Erdnussöl drin?",
+      "tts": "Zit er pindaolie in?"
+    },
+    {
+      "audioKey": "hol-b13-q04",
+      "voz": "target_nl_m",
+      "es": "Dat kan ik u niet garanderen.",
+      "pt": "Das kann ich Ihnen nicht garantieren.",
+      "tts": "Dat kan ik u niet garanderen."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Wann sagst du Ik heb een allergie voor?",
+      "opcoes": [
+        "Erst, wenn das Gericht schon auf dem Tisch steht",
+        "Als Erstes, bevor der Tisch überhaupt bestellt",
+        "Nur wenn direkt danach gefragt wird",
+        "Am Ende, beim Bezahlen"
+      ],
+      "correta": 1,
+      "explica": "Eine Küche kann nur handeln, solange noch gekocht wird. Vier Wörter, gesagt bevor irgendjemand am Tisch gewählt hat."
+    },
+    {
+      "pergunta": "Was bedeutet zit er … in?",
+      "opcoes": [
+        "Ist … drin?",
+        "Wie viel kostet …?",
+        "Wo finde ich …?",
+        "Mag ich …?"
+      ],
+      "correta": 0,
+      "explica": "In heißt hier drin. Zit er pindaolie in? liefert dir ein klares Ja oder Nein zu einer Zutat."
+    },
+    {
+      "pergunta": "Dat kan ik u niet garanderen — was ist das?",
+      "opcoes": [
+        "Eine Ablehnung, dir zu helfen",
+        "Eine ehrliche Antwort — nimm sie als Nein für dieses Gericht",
+        "Ein Scherz",
+        "Eine Zusage"
+      ],
+      "correta": 1,
+      "explica": "Das ist jemand, der nichts verspricht, was er nicht überblicken kann. Nimm es als Nein für dieses Gericht und frag, was die Küche sicher zubereiten kann."
+    },
+    {
+      "pergunta": "Die Antwort bleibt vage — misschien, een beetje. Was sagst du?",
+      "opcoes": [
+        "Nichts, und einfach hoffen",
+        "Dit is een allergie, geen voorkeur",
+        "Laut werden",
+        "Das Restaurant sofort verlassen"
+      ],
+      "correta": 1,
+      "explica": "Dit is een allergie, geen voorkeur macht denselben Satz härter, nicht lauter — die geschützte Zweitform für eine weiche Antwort."
+    },
+    {
+      "pergunta": "Was ist die sicherste Version, wenn Worte nicht reichen?",
+      "opcoes": [
+        "Lauter sprechen",
+        "Auf Deutsch weitermachen",
+        "Die geschriebene Karte auf Niederländisch reichen",
+        "Das Gericht einfach probieren"
+      ],
+      "correta": 2,
+      "explica": "Hier staat het in het Nederlands, gefolgt von einem Blick, ersetzt einen Satz nach dem anderen — die sicherste Version von allen."
+    }
+  ]
+}

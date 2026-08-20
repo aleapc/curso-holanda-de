@@ -1,0 +1,89 @@
+{
+  "id": "q-a03",
+  "nivel": "avancado",
+  "titulo": "Quiz — Ein Land, das sich selbst aus dem Meer gebaut hat",
+  "subtitulo": "Fünf Fragen zum Deich, zum Fahrrad und zum Understatement, das den Stolz trägt",
+  "introAudioKey": "hol-a03-q-i",
+  "introPt": "Ein Deich, ein Fahrradverleih und ein Gewächshausmeer — drei Orte, an denen dieses Land leise von sich selbst erzählt.",
+  "cenario": "Auf dem Deich vor Rotterdam, dann am Fahrradverleih, dann vor den Gewächshäusern.",
+  "dialogo": [
+    {
+      "audioKey": "hol-a03-q01",
+      "voz": "target_nl_m",
+      "es": "Alles onder die lijn is eigenlijk zee.",
+      "pt": "Alles unter dieser Linie ist eigentlich Meer.",
+      "tts": "Alles onder die lijn is eigenlijk zee."
+    },
+    {
+      "audioKey": "hol-a03-q02",
+      "voz": "target_nl_f",
+      "es": "Iedereen heeft hier minstens één fiets, vaak twee.",
+      "pt": "Hier hat jeder mindestens ein Fahrrad, oft zwei.",
+      "tts": "Iedereen heeft hier minstens één fiets, vaak twee."
+    },
+    {
+      "audioKey": "hol-a03-q03",
+      "voz": "target_nl_m",
+      "es": "Die kassen daar, dat is allemaal tomaat voor heel Europa.",
+      "pt": "Die Gewächshäuser da drüben, das sind alles Tomaten für ganz Europa.",
+      "tts": "Die kassen daar, dat is allemaal tomaat voor heel Europa."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Auf dem Deich hörst du: «Alles onder die lijn is eigenlijk zee.» Was bedeutet das für dich als Reisender?",
+      "opcoes": [
+        "Eine Warnung, dass gleich eine Flut kommt",
+        "Eine ruhige geografische Tatsache — rund ein Viertel des Landes liegt unter dem Meeresspiegel und ist durch Deiche geschützt",
+        "Ein Scherz, den niemand ernst meint",
+        "Eine Aufforderung, den Deich zu verlassen"
+      ],
+      "correta": 1,
+      "explica": "Etwa 26 Prozent der Niederlande liegen unter dem Meeresspiegel (PBL, Berechnung mit digitalem Höhenmodell). Das System aus Deichen, Dünen und Pumpen funktioniert seit Jahrhunderten — der trockene Tonfall ist Normalzustand, keine Dramatik."
+    },
+    {
+      "pergunta": "Was ist an «mehr Fahrräder als Einwohner» bemerkenswert?",
+      "opcoes": [
+        "Es ist übertrieben, es gibt genauso viele wie Menschen",
+        "Die Größenordnung stimmt: rund 24 Millionen Fahrräder auf knapp 18 Millionen Einwohner",
+        "Das gilt nur für Amsterdam",
+        "Die Fahrräder gehören alle Touristen"
+      ],
+      "correta": 1,
+      "explica": "Die Zahl ist eine Schätzung aus Bestands- und Verkaufsstatistiken, keine Volkszählung — aber die Größenordnung ist stabil: deutlich mehr Räder als Menschen."
+    },
+    {
+      "pergunta": "Du lobst begeistert die Fahrradkultur, und die Antwort ist nur ein Schulterzucken. Was bedeutet das?",
+      "opcoes": [
+        "Dein Kompliment kam nicht an",
+        "Understatement — etwas so Alltägliches braucht kein großes Wort, das ist echter Stolz, keine Ablehnung",
+        "Du hast etwas Falsches gesagt",
+        "Fahrräder interessieren hier niemanden wirklich"
+      ],
+      "correta": 1,
+      "explica": "Das Schulterzucken ist Zustimmung, nicht Abwehr. Eine konkrete Beobachtung kommt meist besser an als ein großes Lob — und bei Themen wie den Sturmflutwehren wird aus dem knappen Ton schnell eine ausführliche, stolze Erklärung."
+    },
+    {
+      "pergunta": "Was steckt hinter dem Satz über die Gewächshäuser und die Tomaten für ganz Europa?",
+      "opcoes": [
+        "Eine Übertreibung zur Unterhaltung von Touristen",
+        "Die Niederlande sind nach den USA der zweitgrößte Agrarexporteur der Welt, mit einem Exportwert von knapp 124 Milliarden Euro (2023)",
+        "Das Land importiert die meisten Tomaten",
+        "Nur eine einzelne Region exportiert Gemüse"
+      ],
+      "correta": 1,
+      "explica": "CBS beziffert den niederländischen Agrarexport 2023 auf knapp 124 Milliarden Euro — Platz zwei der Welt nach Wert, aus einem Land von der Größe eines mittleren Bundeslands."
+    },
+    {
+      "pergunta": "Du willst am Fahrradverleih fragen, ob noch eines frei ist. Welcher Baustein passt, den du schon aus B06 kennst?",
+      "opcoes": [
+        "Waar is de fiets?",
+        "Heeft u nog een fiets vrij?",
+        "Ik zoek een fiets.",
+        "Hoe laat sluit u?"
+      ],
+      "correta": 1,
+      "explica": "Heeft u + das Ding funktioniert auch hier: Heeft u nog een fiets vrij? fragt höflich nach Verfügbarkeit, mit derselben Form, die du seit dem ersten Schalter benutzt."
+    }
+  ]
+}

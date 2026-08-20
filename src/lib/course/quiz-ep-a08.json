@@ -1,0 +1,82 @@
+{
+  "id": "q-a08",
+  "nivel": "avancado",
+  "titulo": "Quiz — Der letzte Kaffee, und zehn Sätze, die in die Tasche passen",
+  "subtitulo": "Fünf Fragen zum Abschied, zum letzten Tikkie und zu den Bausteinen, die die ganze Reise getragen haben",
+  "introAudioKey": "hol-a08-q-i",
+  "introPt": "Derselbe Tresen wie am ersten Tag, ein letzter Kaffee, und ein Abschied, der jetzt vertraut klingt.",
+  "cenario": "Der letzte Abend, am selben Tresen wie am ersten Tag.",
+  "dialogo": [
+    {
+      "audioKey": "hol-a08-q01",
+      "voz": "target_nl_m",
+      "es": "Pinnen of contant, wat u wilt.",
+      "pt": "Mit Karte oder bar, wie Sie möchten.",
+      "tts": "Pinnen of contant, wat u wilt."
+    },
+    {
+      "audioKey": "hol-a08-q02",
+      "voz": "target_nl_f",
+      "es": "Dag, tot de volgende keer!",
+      "pt": "Tschüss, bis zum nächsten Mal!",
+      "tts": "Dag, tot de volgende keer!"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Am letzten Abend willst du noch einen Kaffee bestellen. Welcher Baustein trägt dich seit B11 durch den ganzen Kurs?",
+      "opcoes": [
+        "Heeft u een koffie?",
+        "Mag ik nog een laatste koffie?",
+        "Ik zoek een koffie.",
+        "Waar is de koffie?"
+      ],
+      "correta": 1,
+      "explica": "Mag ik ___? bleibt bis zum letzten Kaffee derselbe Baustein wie am ersten Tag — die höfliche Bitte, die trotz des falschen Freundes «mag» immer funktioniert hat."
+    },
+    {
+      "pergunta": "Beim Abschied von neuen Freunden kommt jemand mit der Wange statt der Hand. Was tust du?",
+      "opcoes": [
+        "Zurückweichen, das ist zu persönlich",
+        "Dem Tempo der anderen Person folgen — drei Küsse, rechts, links, rechts, unter Freunden völlig normal",
+        "Nur bei Frauen mitmachen",
+        "Immer selbst die Küsse anbieten, auch bei Fremden"
+      ],
+      "correta": 1,
+      "explica": "Drei Wangenküsse gehören zum vertrauten, privaten Rahmen; ein Handschlag bleibt bei formelleren Anlässen und beim ersten Treffen die sichere Wahl. Lass die andere Person den Ton vorgeben."
+    },
+    {
+      "pergunta": "Am letzten gemeinsamen Abend kommt wieder ein Tikkie-Link fürs Handy. Was sagt das über die Reise?",
+      "opcoes": [
+        "Nach so vielen Abenden hätte man das nicht mehr so genau nehmen müssen",
+        "Präzision beim Geld bleibt bis zuletzt die Norm, kein Zeichen von Distanz",
+        "Das ist ein Fehler des Kellners",
+        "Nur Touristen bekommen einen Tikkie"
+      ],
+      "correta": 1,
+      "explica": "Das exakte Teilen der Rechnung bleibt vom ersten bis zum letzten Abend gleich — es ist Wert, kein Versehen, wie schon in A02 gezeigt."
+    },
+    {
+      "pergunta": "Du willst dem Kellner formell danken und dich verabschieden, so wie am ersten Tag am Schalter. Was sagst du?",
+      "opcoes": [
+        "Dank u wel, tot ziens!",
+        "Sorry, spreekt u Engels?",
+        "Ik zoek een pinautomaat.",
+        "Zullen we het over iets anders hebben?"
+      ],
+      "correta": 0,
+      "explica": "Dank u wel, tot ziens verbindet die Dankesformel mit dem formellen Abschied — genau das Register für einen Kellner oder eine Person an einer Theke."
+    },
+    {
+      "pergunta": "Was war der eigentliche Maßstab dieses ganzen Kurses?",
+      "opcoes": [
+        "Muttersprachliches Niveau am Ende der 36 Teile",
+        "Der durchschnittliche Reisende — bestellen, bezahlen, nachfragen und sich verabschieden reicht völlig",
+        "Perfekte Aussprache in jeder Übung",
+        "Möglichst viele auswendig gelernte Sätze"
+      ],
+      "correta": 1,
+      "explica": "Der Kurs vergleicht dich nie mit einem Muttersprachler, sondern mit dem durchschnittlichen Reisenden — und daran gemessen hast du am fremden Tresen bestellt, bezahlt und dich verabschiedet, ganz ohne Test."
+    }
+  ]
+}

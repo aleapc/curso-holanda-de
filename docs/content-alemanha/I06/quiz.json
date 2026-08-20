@@ -1,0 +1,121 @@
+{
+  "id": "q-i06",
+  "nivel": "intermediario",
+  "titulo": "Quiz — War, hatte, en de dag die u hardop vertelt",
+  "subtitulo": "Twee éénwoordvormen, acht klare blokken, één echte plaatsnaam en één woord dat u niet mag misverstaan",
+  "introAudioKey": "de-i06-q-i",
+  "introPt": "Iemand vraagt wat u gisteren deed. Kijk hoe een hele dag in vier korte zinnen wordt verteld — en hoe een plaatsnaam een tip voor morgen wordt.",
+  "cenario": "Zondagavond aan een gedeelde tafel, de dag ervoor nog vers, een bierviltje en een pen op tafel.",
+  "dialogo": [
+    {
+      "audioKey": "de-i06-q01",
+      "voz": "target_de_m",
+      "es": "Und was haben Sie gestern gemacht?",
+      "pt": "En wat heeft u gisteren gedaan?",
+      "tts": "Und was haben Sie gestern gemacht?"
+    },
+    {
+      "audioKey": "de-i06-q02",
+      "voz": "target_de_f",
+      "es": "Ich war in Dresden. Ich bin mit dem Zug gefahren. Es war super.",
+      "pt": "Ik was in Dresden. Ik ben met de trein gegaan. Het was geweldig.",
+      "tts": "Ich war in Dresden. Ich bin mit dem Zug gefahren. Es war super."
+    },
+    {
+      "audioKey": "de-i06-q03",
+      "voz": "target_de_m",
+      "es": "In Dresden waren Sie? Und was haben Sie gesehen?",
+      "pt": "Was u in Dresden? En wat heeft u gezien?",
+      "tts": "In Dresden waren Sie? Und was haben Sie gesehen?"
+    },
+    {
+      "audioKey": "de-i06-q04",
+      "voz": "target_de_f",
+      "es": "Ich habe das Museum gesehen und ich bin viel gelaufen. Ich hatte einen guten Tag.",
+      "pt": "Ik heb het museum gezien en ik heb veel gelopen. Ik had een goede dag.",
+      "tts": "Ich habe das Museum gesehen und ich bin viel gelaufen. Ich hatte einen guten Tag."
+    },
+    {
+      "audioKey": "de-i06-q05",
+      "voz": "target_de_m",
+      "es": "Das Grüne Gewölbe müssen Sie unbedingt sehen. Beim nächsten Mal!",
+      "pt": "Het Grünes Gewölbe moet u beslist zien. Volgende keer!",
+      "tts": "Das Grüne Gewölbe müssen Sie unbedingt sehen. Beim nächsten Mal!"
+    },
+    {
+      "audioKey": "de-i06-q06",
+      "voz": "target_de_f",
+      "es": "Können Sie das aufschreiben? Vielen Dank für den Tipp! Ich komme wieder.",
+      "pt": "Kunt u dat opschrijven? Hartelijk dank voor de tip! Ik kom terug.",
+      "tts": "Können Sie das aufschreiben? Vielen Dank für den Tipp! Ich komme wieder."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Welke twee vormen staan alleen, zonder iets wachtend aan het eind van de zin?",
+      "opcoes": [
+        "habe en bin",
+        "war en hatte",
+        "gefahren en gegessen",
+        "möchte en kann"
+      ],
+      "correta": 1,
+      "explica": "Ich war en ich hatte zijn elk één woord: geen tweede stuk, niets om mee te congrueren. Samen dekken ze waar u was, hoe het was en wat de dag bevatte — het meeste van wat u ooit gevraagd wordt."
+    },
+    {
+      "pergunta": "U wilt zeggen dat u een currywurst at en het klare woord komt niet. Wat doet u?",
+      "opcoes": [
+        "De zin uit het presens opbouwen en hopen",
+        "Het midden in de zin in het Engels zeggen",
+        "Val terug op war — «Es war gut» — en ga verder",
+        "Niets zeggen en van onderwerp veranderen"
+      ],
+      "correta": 2,
+      "explica": "Leer de acht blokken in hun geheel, zoals u een telefoonnummer leerde, en gebruik war voor alles waar u geen blok voor heeft. Een heel blok of war zijn beide juist; een halfgebouwd broodje niet, en dat is wat een luisteraar doet stoppen en wachten."
+    },
+    {
+      "pergunta": "Hoe leest u ⟨ie⟩ en ⟨ei⟩ in geblieben en heißt?",
+      "opcoes": [
+        "Altijd als de klinker van vies",
+        "Altijd als de klinker van eik",
+        "Zeg de tweede letter: ie is de klinker van vies, ei is de klinker van eik",
+        "Het varieert per regio en is niet voorspelbaar"
+      ],
+      "correta": 2,
+      "explica": "De officiële spellingregels geven ie als lange [iː] in native woorden en ei als de diftong [aɪ]. Voor u is geen van beide nieuw — het Nederlands doet het net zo, viel en ei — en de Duitse digraaf heeft geen native uitzondering."
+    },
+    {
+      "pergunta": "Uw dag was heerlijk en u zegt dat. Er komt niet veel terug. Wat ontbrak?",
+      "opcoes": [
+        "Een langere zin",
+        "Een eigennaam — de stad, het museum, het gerecht",
+        "Betere uitspraak",
+        "De beleefdheidsvorm"
+      ],
+      "correta": 1,
+      "explica": "Een algemeen oordeel geeft de ander niets vast te houden; een naam geeft alles. Ze zijn er geweest, of ze sturen u ergens beters heen — zo wordt een verhaal over gisteren een plan voor morgen."
+    },
+    {
+      "pergunta": "Een fles in een werkplaats draagt het etiket «Gift». Wat staat er?",
+      "opcoes": [
+        "Het is een cadeau, ingepakt",
+        "Het is vergif — een stof met een vernietigend of dodelijk effect",
+        "Het is belastingvrij",
+        "Het is een donatiebus"
+      ],
+      "correta": 1,
+      "explica": "Das Gift is vergif; een cadeau is das Geschenk. Ze zijn werkelijk cognaat — Gift betekende ooit het geven, de gave, en versmalde onder invloed van een Grieks en Latijns woord voor een dosis. Duits hield de oude betekenis op precies één plek: Mitgift, een bruidsschat."
+    },
+    {
+      "pergunta": "Iemand zegt «Ich habe das eventuell gemacht». Wat is er gezegd?",
+      "opcoes": [
+        "Dat ze het uiteindelijk hebben gedaan",
+        "Dat ze het mogelijk hebben gedaan — eventuell betekent met vrij lage kans",
+        "Dat ze het moesten doen",
+        "Dat ze het feitelijk hebben gedaan"
+      ],
+      "correta": 1,
+      "explica": "Eventuell is de duurste van de geverifieerde valse vrienden omdat het een toezegging omkeert: het betekent mogelijk, niet uiteindelijk, dat is schließlich. De andere om mee te nemen: bekommen is krijgen, niet worden (werden); aktuell is huidig, niet feitelijk (eigentlich); der Chef is de baas, en een kok is der Koch."
+    }
+  ]
+}

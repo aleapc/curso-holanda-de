@@ -1,0 +1,214 @@
+{
+  "id": "i06",
+  "nivel": "intermediario",
+  "numero": 24,
+  "parte": "I06",
+  "titulo": "Gestern in Amsterdam, heute schon eine Geschichte",
+  "subtitulo": "Zwei fertige Satzstücke, mit denen Sie erzählen können, was Sie schon getan haben",
+  "cena": "Beim Frühstück im Hostel erzählt jemand von seinem Tag, und Sie merken: Ihren eigenen können Sie noch nicht auf Niederländisch erzählen.",
+  "moldura": "ganha",
+  "decisao": "wie viel Sie von gestern erzählen und wie — mit zwei fertigen Satzstücken statt jedem Verb einzeln zusammengebaut",
+  "emJogo": "tempo",
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-i06-n01",
+      "gesto": 4,
+      "tom": "ganha",
+      "bloco": "aquecimento",
+      "pt": "Derselbe Faustschlag trägt heute auch Sätze über gestern — nicht nur Fragen über jetzt."
+    },
+    {
+      "consulta": ["simpatia/puxar-conversa"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "bloco": "callback",
+      "molde": "ICH-MAG",
+      "encaixe": "deze rondleiding",
+      "encaixeGloss": "diese Führung",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i06-p01",
+      "promptPt": "Derselbe Baustein wie gestern Abend in der Küche, nur heute für etwas, das schon vorbei ist. Sagen Sie, was Ihnen gefiel. Jetzt sprechen.",
+      "audioKey": "hol-i06-t01",
+      "es": "Ik hou van deze rondleiding.",
+      "pinyin": "ik how fan DAY-zuh RONT-lay-ding",
+      "pt": "Ich mag diese Führung.",
+      "tts": "Ik hou van deze rondleiding."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-i06-r01",
+      "tom": "ganha",
+      "es": "Ik ben gisteren naar Amsterdam geweest. Het was geweldig!",
+      "pinyin": "ik ben CHIS-te-ren naar AM-ster-dam chuh-VAYST. (h)ut vas chuh-VEL-dich!",
+      "pt": "Ich bin gestern in Amsterdam gewesen. Es war großartig!",
+      "tts": "Ik ben gisteren naar Amsterdam geweest. Het was geweldig!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-i06-n02",
+      "tom": "ganha",
+      "bloco": "cena",
+      "pt": "Zwei feste Satzstücke reichen für fast jede Geschichte über gestern: Ik ben … geweest, und Het was …"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-i06-n03",
+      "tom": "ganha",
+      "bloco": "corpo",
+      "pt": "Kein Verb wird hier neu konjugiert. Diese zwei Stücke kommen fertig — Sie hängen nur den Ort oder das Wort für gut dahinter."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i06-p02",
+      "promptPt": "Jemand fragt, was Sie gestern gemacht haben. Erzählen Sie vom Ausflug in die große Stadt. Jetzt sprechen.",
+      "audioKey": "hol-i06-t02",
+      "es": "Ik ben naar Amsterdam geweest.",
+      "pinyin": "ik ben naar AM-ster-dam chuh-VAYST",
+      "pt": "Ich bin in Amsterdam gewesen.",
+      "tts": "Ik ben naar Amsterdam geweest."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i06-p03",
+      "promptPt": "Fügen Sie ein Urteil hinzu, ohne ein neues Verb zu suchen. Der Tag war es wert. Jetzt sprechen.",
+      "audioKey": "hol-i06-t03",
+      "es": "Het was geweldig!",
+      "pinyin": "(h)ut vas chuh-VEL-dich",
+      "pt": "Es war großartig!",
+      "tts": "Het was geweldig!"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-i06-r02",
+      "tom": "ganha",
+      "es": "En, heb je lekker gegeten?",
+      "pinyin": "en, heb yuh LEK-ker chuh-CHAY-ten",
+      "pt": "Und, hast du gut gegessen?",
+      "tts": "En, heb je lekker gegeten?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i06-p04",
+      "promptPt": "Das Essen von gestern war der beste Teil des Tages. Sagen Sie es mit dem Wort, das Sie schon oft benutzt haben. Jetzt sprechen.",
+      "audioKey": "hol-i06-t04",
+      "es": "Ik heb heerlijk gegeten.",
+      "pinyin": "ik heb HAYR-lick chuh-CHAY-ten",
+      "pt": "Ich habe köstlich gegessen.",
+      "tts": "Ik heb heerlijk gegeten."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i06-p05",
+      "promptPt": "Nicht nur die große Stadt — auch der Zwischenstopp am zweiten Tag verdient einen Satz. Nennen Sie ihn. Jetzt sprechen.",
+      "audioKey": "hol-i06-t05",
+      "es": "Ik ben ook naar Utrecht geweest.",
+      "pinyin": "ik ben ohk naar Ü-trecht chuh-VAYST",
+      "pt": "Ich bin auch in Utrecht gewesen.",
+      "tts": "Ik ben ook naar Utrecht geweest."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i06-p06",
+      "promptPt": "Die Fahrradtour war der Teil, den Sie am meisten genossen haben. Sagen Sie genau das. Jetzt sprechen.",
+      "audioKey": "hol-i06-t06",
+      "es": "Ik heb genoten van de fietstocht.",
+      "pinyin": "ik heb chuh-NOH-ten fan duh FEETS-tocht",
+      "pt": "Ich habe die Fahrradtour genossen.",
+      "tts": "Ik heb genoten van de fietstocht."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-i06-p07",
+      "promptPt": "Nicht jeder Tag muss ein Programm haben. Erzählen Sie ehrlich, dass Sie einen Tag lang gar nichts gemacht haben. Jetzt sprechen.",
+      "audioKey": "hol-i06-t07",
+      "es": "Ik heb een dagje niets gedaan.",
+      "pinyin": "ik heb ayn DACH-yuh neets chuh-DAAN",
+      "pt": "Ich habe einen Tag lang gar nichts gemacht.",
+      "tts": "Ik heb een dagje niets gedaan."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-i06-p08",
+      "promptPt": "Das Gespräch dreht sich jetzt zu morgen. Sagen Sie, wohin die Reise als Nächstes geht. Jetzt sprechen.",
+      "audioKey": "hol-i06-t08",
+      "es": "Morgen ga ik naar Rotterdam.",
+      "pinyin": "MOR-chen chaa ik naar ROT-ter-dam",
+      "pt": "Morgen gehe ich nach Rotterdam.",
+      "tts": "Morgen ga ik naar Rotterdam."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-i06-n04",
+      "tom": "ganha",
+      "bloco": "permissao",
+      "pt": "Sie müssen keine Verbtabelle im Kopf haben, um von gestern zu erzählen. Zwei fertige Stücke und ein Ort oder ein Wort für gut reichen völlig."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-i06-s01",
+      "tom": "ganha",
+      "es": "Ik ben naar Amsterdam geweest. Het was geweldig! Ik heb heerlijk gegeten.",
+      "pinyin": "ik ben naar AM-ster-dam chuh-VAYST. (h)ut vas chuh-VEL-dich! ik heb HAYR-lick chuh-CHAY-ten.",
+      "pt": "Schatten Sie drei Sätze über einen ganzen Tag hintereinander.",
+      "tts": "Ik ben naar Amsterdam geweest. Het was geweldig! Ik heb heerlijk gegeten."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "hol-i06-n05",
+      "tom": "ganha",
+      "bloco": "recap",
+      "pt": "I06 fertig. Zwei Satzstücke, jeder Ort, jedes Urteil, jedes Gericht — Ihre ganze Reise erzählbar, ohne ein einziges neues Verb zu lernen."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Zwei Satzstücke für die ganze Reise",
+    "secoes": [
+      {
+        "titulo": "Ik ben … geweest — jeder Ort, dieselbe Form",
+        "corpo": "Egal ob Amsterdam, Utrecht oder das Museum um die Ecke: Ik ben naar … geweest bleibt exakt gleich, nur der Ort dahinter wechselt.",
+        "exemplos": [
+          { "es": "Ik ben naar Amsterdam geweest.", "pt": "Ich bin in Amsterdam gewesen." },
+          { "es": "Ik ben ook naar Utrecht geweest.", "pt": "Ich bin auch in Utrecht gewesen." }
+        ]
+      },
+      {
+        "titulo": "Het was … und Ik heb … — das Urteil und das Erlebnis",
+        "corpo": "Het was geweldig fasst einen ganzen Tag in zwei Wörtern zusammen. Ik heb genoten van … macht dasselbe für ein einzelnes Erlebnis, das Ihnen besonders gefiel — beide Stücke bleiben fest, nur das, worüber Sie sprechen, wechselt."
+      }
+    ]
+  },
+  "slot": "I06",
+  "permissao": "Sie müssen keine Verbtabelle im Kopf haben, um von gestern zu erzählen. Zwei fertige Stücke und ein Ort oder ein Wort für gut reichen völlig.",
+  "permissaoAudioKey": "hol-i06-n04"
+}

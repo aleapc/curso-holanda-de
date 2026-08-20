@@ -1,0 +1,340 @@
+{
+  "id": "b15",
+  "nivel": "basico",
+  "numero": 15,
+  "parte": "B15",
+  "slot": "B15",
+  "titulo": "Hoeveel kost dat — drei Wörter für jeden Preis im Laden",
+  "subtitulo": "Ein Marktstand, ein Kleidergeschäft, und eine Selbstbedienungskasse, die deine Kreditkarte nicht kennt",
+  "cena": "Samstagvormittag auf einem Markt in Rotterdam: ein Käsestand mit Warteschlange, ein Kleidergeschäft direkt daneben, und eine Selbstbedienungskasse, die gerade deine Karte ausspuckt.",
+  "moldura": "ganha",
+  "frasePiso": "Hoeveel kost, plus das Ding — die ganze Einkaufsstraße bepreist mit drei Wörtern und einem Finger.",
+  "moldes": [
+    "WAS-KOSTET"
+  ],
+  "clique": {
+    "contagem": [
+      "Käsestand",
+      "Kleidergeschäft",
+      "Selbstbedienungskasse im Supermarkt"
+    ],
+    "desconto": "Niemand hat dir drei Sätze für drei Läden geschrieben. Du hast drei Wörter festgehalten und nur das Ding am Ende gewechselt, und jeder Preis kam zurück.",
+    "piso": "Das nächste Mal, wenn nirgends ein Preis steht und das Ding einen Namen trägt, den du noch nie gesehen hast, gehst du nicht weiter. Du zeigst und fragst in drei Wörtern."
+  },
+  "fatosDatados": [
+    {
+      "id": "hol-b15-pinnen-kassa",
+      "afirmacao": "An der Selbstbedienungskasse im Supermarkt — der Albert Heijn ist das meistgenannte Beispiel — wird eine ausländische Kreditkarte besonders häufig abgelehnt, öfter als an einer Kasse mit Personal. Die Debitkarte (Maestro, V Pay, Visa Debit) geht in der Regel problemlos durch. Wird die Karte abgewiesen, ist das keine Fehlfunktion an dir — es ist die Voreinstellung des Systems auf das inländische Debitnetz.",
+      "fonte": "Betaalvereniging Nederland / DNB, Factsheet Toonbankbetalingen 2024 — dieselbe Quelle wie B06, hier auf die Selbstbedienungskasse bezogen.",
+      "ano": 2024,
+      "revisarAte": "2027-08-20",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "hol-b15-n06",
+        "hol-b15-n07"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b15-n01",
+      "gesto": 2,
+      "tom": "ganha",
+      "bloco": "aquecimento",
+      "pt": "Reine Vokale, noch einmal: hoe-VEEL kost. Kein Rutschen, jeder Vokal bis zum Ende gehalten."
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "passen",
+      "encaixeGloss": "anprobieren",
+      "bloco": "callback",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b15-p01",
+      "promptPt": "Gestern Abend hast du mit demselben Baustein abgerechnet. Heute hängt ein Pullover an der Umkleide, und du willst ihn vorher probieren. Frag danach. Sprich jetzt.",
+      "audioKey": "hol-b15-t01",
+      "es": "Mag ik passen?",
+      "pinyin": "mach ik PAS-sen?",
+      "pt": "Darf ich anprobieren?",
+      "tts": "Mag ik passen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b15-n02",
+      "tom": "ganha",
+      "bloco": "cena",
+      "pt": "Samstagvormittag, ein Käsestand mit Schlange, gleich daneben ein Kleidergeschäft. Nirgends steht ein Preis auf dem Etikett."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b15-n03",
+      "tom": "ganha",
+      "bloco": "molde",
+      "pt": "Hier ist der Baustein für jeden Preis: Hoeveel kost, plus das Ding, mit dem Finger drauf gezeigt."
+    },
+    {
+      "consulta": [
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "WAS-KOSTET",
+      "encaixe": "dit",
+      "encaixeGloss": "das hier",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b15-p02",
+      "promptPt": "Am Käsestand liegt ein Stück ohne Etikett, und die Schlange hinter dir wartet nicht ewig. Zeig drauf und frag. Sprich jetzt.",
+      "audioKey": "hol-b15-t02",
+      "es": "Hoeveel kost dit?",
+      "pinyin": "hoo-VEEL kost dit?",
+      "pt": "Wie viel kostet das hier?",
+      "tts": "Hoeveel kost dit?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b15-r01",
+      "tom": "ganha",
+      "es": "Dat is achttien euro per kilo.",
+      "pinyin": "dat is ACHT-teen Ö-roh per KEE-loh",
+      "pt": "Das ist achtzehn Euro pro Kilo.",
+      "tts": "Dat is achttien euro per kilo.",
+      "receptivo": true,
+      "acao": "Per kilo heißt pro Kilo. Rechne im Kopf grob um und entscheide, bevor er schneidet — danach ist das Stück deins."
+    },
+    {
+      "consulta": [
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "WAS-KOSTET",
+      "encaixe": "de sjaal",
+      "encaixeGloss": "der Schal",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b15-p03",
+      "promptPt": "Im Kleidergeschäft nebenan hängt ein Schal ohne Preisschild, direkt am Eingang. Frag. Sprich jetzt.",
+      "audioKey": "hol-b15-t03",
+      "es": "Hoeveel kost de sjaal?",
+      "pinyin": "hoo-VEEL kost de shaal?",
+      "pt": "Wie viel kostet der Schal?",
+      "tts": "Hoeveel kost de sjaal?"
+    },
+    {
+      "consulta": [
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "HABEN-SIE",
+      "encaixe": "een grotere maat",
+      "encaixeGloss": "eine größere Größe",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b15-p04",
+      "promptPt": "Der Pullover ist eng an den Schultern, und am Ständer siehst du nur diese eine Größe. Frag nach mehr. Sprich jetzt.",
+      "audioKey": "hol-b15-t04",
+      "es": "Heeft u een grotere maat?",
+      "pinyin": "héeft ü un CHROH-te-re maat?",
+      "pt": "Haben Sie eine größere Größe?",
+      "tts": "Heeft u een grotere maat?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b15-n04",
+      "tom": "ganha",
+      "pt": "Derselbe Baustein wie in B06 — Heeft u — kehrt hier zurück, nur das Ding am Ende ist jetzt eine Größe, kein Chip und keine Toilette."
+    },
+    {
+      "consulta": [
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "WAS-KOSTET",
+      "encaixe": "het horloge",
+      "encaixeGloss": "die Armbanduhr",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b15-p05",
+      "promptPt": "In der Vitrine liegt eine Uhr, die dir gefällt, aber kein Schild verrät die Zahl. Frag danach. Sprich jetzt.",
+      "audioKey": "hol-b15-t05",
+      "es": "Hoeveel kost het horloge?",
+      "pinyin": "hoo-VEEL kost het hor-LOH-zhuh?",
+      "pt": "Wie viel kostet die Armbanduhr?",
+      "tts": "Hoeveel kost het horloge?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b15-n05",
+      "tom": "ganha",
+      "pt": "Achtung, ein Zaunwort: Hoeveel kosten, mit Endung, fragt nach mehreren Dingen — das lernst du noch nicht. Ein Ding, ein Kost."
+    },
+    {
+      "consulta": [
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "protege",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b15-p06",
+      "promptPt": "An der Selbstbedienungskasse im Supermarkt weist das Display gerade deine Kreditkarte ab, zum zweiten Mal. Frag nach der anderen Möglichkeit. Sprich jetzt.",
+      "audioKey": "hol-b15-t06",
+      "es": "Neemt u ook contant?",
+      "pinyin": "NAY-mt ü ohk kon-TANT?",
+      "pt": "Nehmen Sie auch Bargeld?",
+      "tts": "Neemt u ook contant?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b15-n06",
+      "tom": "protege",
+      "bloco": "capsula",
+      "pt": "An genau dieser Selbstbedienungskasse wird ausländisches Kredit besonders oft abgewiesen — Debit geht meist problemlos durch."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b15-n07",
+      "tom": "ganha",
+      "pt": "Keine Fehlfunktion, keine Panik. Debitkarte oder Bargeld, und die Schlange hinter dir merkt gar nichts."
+    },
+    {
+      "consulta": [
+        "compras/devolver"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "ruilen",
+      "encaixeGloss": "umtauschen",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b15-p07",
+      "promptPt": "Der Schal von vorhin ist zu Hause die falsche Farbe für alles, was du besitzt. Frag nach dem Umtausch. Sprich jetzt.",
+      "audioKey": "hol-b15-t07",
+      "es": "Mag ik dit ruilen?",
+      "pinyin": "mach ik dit RÖÜ-len?",
+      "pt": "Darf ich das umtauschen?",
+      "tts": "Mag ik dit ruilen?"
+    },
+    {
+      "consulta": [
+        "compras/quanto",
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "WAS-KOSTET",
+      "encaixe": "het kaartje",
+      "encaixeGloss": "das Ticket",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b15-p08",
+      "promptPt": "Am Automaten vor dem Museum steht eine Zahl in einer Währung, die dir nichts sagt. Frag noch einmal, direkt. Sprich jetzt.",
+      "audioKey": "hol-b15-t08",
+      "es": "Hoeveel kost het kaartje?",
+      "pinyin": "hoo-VEEL kost het KAART-yuh?",
+      "pt": "Wie viel kostet das Ticket?",
+      "tts": "Hoeveel kost het kaartje?"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "DANKE",
+      "encaixe": "bedankt",
+      "encaixeGloss": "danke",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b15-p09",
+      "promptPt": "Drei Preise gefragt, ein Umtausch erledigt, alles bezahlt. Schließ locker ab. Sprich jetzt.",
+      "audioKey": "hol-b15-t09",
+      "es": "Bedankt!",
+      "pinyin": "buh-DANKT!",
+      "pt": "Danke!",
+      "tts": "Bedankt!"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-b15-s01",
+      "tom": "ganha",
+      "es": "Hoeveel kost dit? Hoeveel kost de sjaal? Hoeveel kost het horloge?",
+      "pinyin": "hoo-VEEL kost dit? hoo-VEEL kost de shaal? hoo-VEEL kost het hor-LOH-zhuh?",
+      "pt": "Schatte denselben Baustein über drei völlig verschiedene Preise.",
+      "tts": "Hoeveel kost dit? Hoeveel kost de sjaal? Hoeveel kost het horloge?",
+      "molde": "WAS-KOSTET"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b15-n08",
+      "tom": "ganha",
+      "bloco": "recap",
+      "pt": "B15 fertig. Hoeveel kost, plus das Ding, mit dem Finger drauf — und keine Kreditkarte, auf die du dich allein verlässt."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Ein Baustein, und der Preis auf keinem Etikett",
+    "secoes": [
+      {
+        "titulo": "Hoeveel kost, plus das Ding, gezeigt",
+        "corpo": "Hoeveel kost fragt immer nach EINEM Ding, singulär — het kaartje, de sjaal, dit. Die Endung kosten mit -en fragt nach mehreren Dingen zusammen, und die brauchst du hier nicht: ein Ding nach dem anderen bepreisen ist der Entwurf, keine Einschränkung, die du später loswirst.",
+        "exemplos": [
+          {
+            "es": "Hoeveel kost dit?",
+            "pt": "Wie viel kostet das hier?"
+          },
+          {
+            "es": "Hoeveel kost de sjaal?",
+            "pt": "Wie viel kostet der Schal?"
+          }
+        ]
+      },
+      {
+        "titulo": "Heeft u, zurück aus B06",
+        "corpo": "Der Baustein aus deiner ersten Stunde — Heeft u, plus das Ding — funktioniert auch im Kleidergeschäft. Heeft u een grotere maat? fragt nach einer größeren Größe genau wie Heeft u wifi? nach WLAN fragte: keine neue Form, nur ein neues Ding am Ende."
+      },
+      {
+        "titulo": "Kredit an der Selbstbedienungskasse",
+        "corpo": "Genau an der Selbstbedienungskasse — nicht an der Kasse mit Personal — wird ausländisches Kredit am häufigsten abgewiesen. Das ist Mechanik, keine Schikane: das System ist auf das inländische Debitnetz voreingestellt, und Debitkarten (Maestro, V Pay, Visa Debit) gehen fast immer problemlos durch. Neemt u ook contant? ist die vollständige, ruhige Reaktion darauf."
+      }
+    ]
+  },
+  "permissao": "Du darfst auf jedes Preisschild zeigen und fragen, auch wenn du am Ende nichts kaufst. Hoeveel kost dit? verpflichtet dich zu nichts, und niemand hinter dem Tresen erwartet, dass du kaufst, nur weil du gefragt hast.",
+  "permissaoAudioKey": "hol-b15-n03",
+  "fichasCulturais": [
+    {
+      "sinal": "Deine Kreditkarte wird an der Selbstbedienungskasse abgelehnt, während die Person vor dir mit derselben Geste einfach durchkam.",
+      "suaLeitura": "Meine Karte hat ein Problem, oder das Gerät ist heute launisch.",
+      "oQueEAli": "Höchstwahrscheinlich funktioniert die Karte einwandfrei — sie ist nur Kredit, kein Debit. Selbstbedienungskassen sind auf das inländische Debitnetz voreingestellt und weisen ausländische Kreditkarten überdurchschnittlich oft ab, unabhängig vom Kontostand.",
+      "oQueVoceFaz": "Wechsle zur Debitkarte, wenn du eine hast, oder bezahl bar. Bei wiederholter Ablehnung frag ruhig neemt u ook contant? und geh zu einer Kasse mit Personal, wenn die Schlange es zulässt.",
+      "oQueMelhora": "Ein Moment, der wie eine gesperrte Karte aussah, wird zu einem Griff in die andere Tasche, ohne dass du die Bank anrufen musst.",
+      "ondeNaoVale": "Die Kreditakzeptanz wächst Jahr für Jahr, und viele größere Geschäfte und touristische Anbieter nehmen Kredit ohne Weiteres. Es ist verlass dich nicht darauf an der Selbstbedienungskasse, nicht Kredit funktioniert nirgends im Land.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "hol-b15-n06",
+        "hol-b15-n07"
+      ]
+    }
+  ]
+}

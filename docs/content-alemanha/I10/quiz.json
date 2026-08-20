@@ -1,0 +1,96 @@
+{
+  "id": "q-i10",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Geld hier",
+  "subtitulo": "Vijf vragen over de prijs, de kaart, het statiegeld en de fooi",
+  "introAudioKey": "de-i10-q-i",
+  "introPt": "Een kassa laat in de middag, een schapprijs die niet klopt met het display, en vier beslissingen die elk een regel achter zich hebben.",
+  "cenario": "Een supermarkt, een klein keukentje bij het plein en een taxistandplaats, allemaal dezelfde middag.",
+  "dialogo": [
+    {
+      "audioKey": "de-i10-q01",
+      "voz": "target_de_m",
+      "es": "Das macht neun Euro achtzig.",
+      "pt": "Dat komt op negen euro tachtig.",
+      "tts": "Das macht neun Euro achtzig."
+    },
+    {
+      "audioKey": "de-i10-q02",
+      "voz": "target_de_f",
+      "es": "Tut mir leid, nur Bargeld.",
+      "pt": "Sorry, alleen contant.",
+      "tts": "Tut mir leid, nur Bargeld."
+    },
+    {
+      "audioKey": "de-i10-q03",
+      "voz": "target_de_m",
+      "es": "Plus fünfundzwanzig Cent Pfand.",
+      "pt": "Plus vijfentwintig cent statiegeld.",
+      "tts": "Plus fünfundzwanzig Cent Pfand."
+    },
+    {
+      "audioKey": "de-i10-q04",
+      "voz": "target_de_f",
+      "es": "Zusammen oder getrennt?",
+      "pt": "Samen of apart?",
+      "tts": "Zusammen oder getrennt?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Op de kaart staat 12,50 en u bestelt één gerecht. Wat komt er op de rekening?",
+      "opcoes": [
+        "12,50 plus btw aan de kassa",
+        "12,50 plus een bedieningstoeslag",
+        "12,50 — de getoonde prijs is het totaal, btw inbegrepen",
+        "12,50 plus een couvert per persoon"
+      ],
+      "correta": 2,
+      "explica": "De Preisangabenverordnung verplicht de handelaar de Gesamtpreis te tonen, gedefinieerd als de prijs die te betalen is, btw inbegrepen. Er wordt niets bij de kassa opgeteld — precies andersom dan in Noord-Amerika."
+    },
+    {
+      "pergunta": "Een klein zaakje heeft een handgeschreven nur-Bargeld-bordje op de deur. Wat is uw positie?",
+      "opcoes": [
+        "Ze overtreden de wet en u kunt aandringen",
+        "Volstrekt legaal — contant is het enige onbeperkte wettige betaalmiddel en niets verplicht ze om een kaart aan te nemen",
+        "Legaal alleen voor bedragen onder tien euro",
+        "Legaal alleen als ze ook prijzen contant tonen"
+      ],
+      "correta": 1,
+      "explica": "§14 van de Bundesbankwet maakt eurobiljetten het enige onbeperkte wettige betaalmiddel, en niets verplicht een handelaar om een kaart aan te nemen. Nur Bargeld en nur Karte zijn beide even legaal. Vraag het in de deuropening en beslis daar."
+    },
+    {
+      "pergunta": "Op het schap staat 0,99 en de kassa zegt 1,24. Wat is er gebeurd?",
+      "opcoes": [
+        "Er is btw bijgekomen aan de kassa",
+        "Het etiket was verouderd",
+        "Het statiegeld is opgeteld — en de wet verbiedt dat het in de schapprijs zit",
+        "U bent een toeslag voor buitenlanders aangerekend"
+      ],
+      "correta": 2,
+      "explica": "§7 van de Preisangabenverordnung schrijft voor dat het statiegeld naast de totaalprijs staat en er uitdrukkelijk niet in wordt opgenomen. Het Verpackungsgesetz stelt het op minimaal vijfentwintig cent inclusief btw, en het lege flesje koopt het terug."
+    },
+    {
+      "pergunta": "Welke verpakking draagt betrouwbaar statiegeld?",
+      "opcoes": [
+        "Een pak sap",
+        "Een wijnfles",
+        "Een plastic wegwerpfles of een blikje",
+        "Alles boven drie liter"
+      ],
+      "correta": 2,
+      "explica": "Het materiaal telt meer dan de drank: plastic flessen en blikjes zijn erbij, pakken en wijnflessen niet, en verpakkingen onder 0,1 liter of boven 3 liter vallen buiten de regeling."
+    },
+    {
+      "pergunta": "Hoeveel fooi hoort u te geven na een goede maaltijd?",
+      "opcoes": [
+        "Vijftien procent, zoals thuis",
+        "Precies tien procent, dat is de gepubliceerde norm",
+        "Wat u wilt — de wet die fooien vrijstelt zegt dat niemand er aanspraak op heeft",
+        "Niets, want de bediening zit wettelijk in een aparte regel"
+      ],
+      "correta": 2,
+      "explica": "§3 nr. 51 van de Einkommensteuerwet stelt fooien juist daarom vrij: ze zijn vrijwillig gegeven, zonder rechtsaanspraak, bovenop het verschuldigde bedrag. Geen enkel ministerie of statistiekbureau publiceert een percentage. Rond af en zeg stimmt so, of doe het niet."
+    }
+  ]
+}

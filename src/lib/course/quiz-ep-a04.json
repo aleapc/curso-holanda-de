@@ -1,0 +1,89 @@
+{
+  "id": "q-a04",
+  "nivel": "avancado",
+  "titulo": "Quiz — Ein Riss in der Wand, den man nicht mehr übertüncht",
+  "subtitulo": "Fünf Fragen zu Groningen, dem Bibelgürtel und den vier Sätzen, die keine Meinung brauchen",
+  "introAudioKey": "hol-a04-q-i",
+  "introPt": "Ein Küchentisch bei Groningen und ein leeres Dorf am Sonntag — zwei Orte, an denen du besser fragst als urteilst.",
+  "cenario": "Am Küchentisch in einem Dorf bei Groningen, dann in einem stillen Dorf am Sonntagmorgen.",
+  "dialogo": [
+    {
+      "audioKey": "hol-a04-q01",
+      "voz": "target_nl_m",
+      "es": "Die scheur zit er al jaren, van de aardbevingen.",
+      "pt": "Der Riss ist schon seit Jahren da, von den Erdbeben.",
+      "tts": "Die scheur zit er al jaren, van de aardbevingen."
+    },
+    {
+      "audioKey": "hol-a04-q02",
+      "voz": "target_nl_m",
+      "es": "Ja, maar het is nu wel klaar. We praten er niet meer zo vaak over.",
+      "pt": "Ja, aber jetzt ist es abgeschlossen. Wir reden nicht mehr so oft darüber.",
+      "tts": "Ja, maar het is nu wel klaar. We praten er niet meer zo vaak over."
+    },
+    {
+      "audioKey": "hol-a04-q03",
+      "voz": "target_nl_f",
+      "es": "Op zondag is hier alles dicht, dat is hier al eeuwenlang zo.",
+      "pt": "Sonntags ist hier alles zu, das ist hier schon jahrhundertelang so.",
+      "tts": "Op zondag is hier alles dicht, dat is hier al eeuwenlang zo."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Du siehst einen langen Riss in einer Küchenwand bei Groningen. Was steckt in vielen Fällen dahinter?",
+      "opcoes": [
+        "Ein einfacher Baumangel, wie überall",
+        "Jahrzehnte Erdgasförderung mit über 1.600 Erdstößen, die Zehntausende Häuser beschädigten — die Förderung wurde erst 2023/2024 gestoppt",
+        "Ein aktuelles Erdbeben von letzter Woche",
+        "Ein Streit zwischen Nachbarn"
+      ],
+      "correta": 1,
+      "explica": "Das Gasfeld bei Groningen löste seit den 1960ern über 1.600 Erdbeben aus. Die Förderung wurde 2023 gedrosselt und zum Gasjahr 2024/2025 endgültig gestoppt; der Staat zahlt seither umfangreiche Entschädigungen."
+    },
+    {
+      "pergunta": "Warum sind in manchen Dörfern sonntags noch alle Läden geschlossen, obwohl das im Land längst nicht mehr die Regel ist?",
+      "opcoes": [
+        "Ein landesweites Gesetz zwingt dazu",
+        "Reste der «Versäulung» — der historischen Aufteilung in katholische, protestantische, sozialistische und liberale Parallelwelten, hier im sogenannten Bibelgürtel noch sichtbar",
+        "Alle Läden im Land sind sonntags zu",
+        "Es ist ein touristischer Ruhetag"
+      ],
+      "correta": 1,
+      "explica": "Bis in die 1960er/70er lebte das Land in getrennten Säulen mit je eigenen Institutionen. In den meisten Regionen ist davon nichts mehr zu spüren, aber im «Bibelgürtel» — einem Streifen streng reformierter Gemeinden — ist der Sonntag in manchen Dörfern noch anders."
+    },
+    {
+      "pergunta": "Am Tisch will jemand deine Meinung zu einem der beiden Themen hören. Was ist die beste Antwort, wenn du wirklich zu wenig weißt?",
+      "opcoes": [
+        "Eine Meinung erfinden, um höflich zu sein",
+        "Daar weet ik te weinig van sagen — ehrlich, und wird als Respekt gehört",
+        "Das Thema ignorieren und nicht reagieren",
+        "Der Person widersprechen, um interessiert zu wirken"
+      ],
+      "correta": 1,
+      "explica": "Niemand erwartet eine Position von einem Gast. Daar weet ik te weinig van schließt das Thema, ohne jemanden zu beleidigen, und ist nach wenigen Tagen im Land schlicht zutreffend."
+    },
+    {
+      "pergunta": "Der Abend ist an einen Punkt gekommen, an dem alle lieber woanders wären. Was sagst du?",
+      "opcoes": [
+        "Können wir über etwas anderes reden? — ohne jemandem die Schuld zu geben",
+        "Ich habe dazu eine klare Meinung",
+        "Das Thema interessiert mich nicht",
+        "Wer hat damit angefangen?"
+      ],
+      "correta": 0,
+      "explica": "Zullen we het over iets anders hebben bietet allen am Tisch einen Ausweg, neutral und ohne Schuldzuweisung — der Abend geht ohne Reibung weiter."
+    },
+    {
+      "pergunta": "Was ist die sicherste Frage, wenn du wirklich neugierig bist, statt eine Meinung zu suchen?",
+      "opcoes": [
+        "Wie ist das Land wirklich?",
+        "Wie hat sich dieses Dorf in den letzten Jahren verändert? — der Ort statt des ganzen Landes",
+        "Wer hat hier recht?",
+        "Warum ist das so kompliziert?"
+      ],
+      "correta": 1,
+      "explica": "Den Ort statt des Landes zu nennen verschiebt das Gespräch auf konkrete, gern geteilte Erfahrung — die Person vor dir wird zur Expertin für ihren Ort, nicht zur Vertreterin einer ganzen Nation."
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "id": "a07",
+  "nivel": "avancado",
+  "numero": 35,
+  "parte": "A07",
+  "titulo": "Ein Wohnzimmer ohne Vorhänge, mitten auf der Straße",
+  "subtitulo": "Ein Nein, das nichts Persönliches ist, eine Tür, die offenbleibt, ein Zettel mit deiner Nummer darauf, und ein Fenster, durch das jeder hineinsehen darf",
+  "slot": "A07",
+  "moldura": "ganha",
+  "cena": "Auf dem Abendspaziergang schaust du versehentlich direkt in ein erleuchtetes Wohnzimmer ohne Vorhänge, und niemand darin schaut zurück, als wäre das völlig normal.",
+  "frasePiso": "Ein offener Blick durchs Fenster, ein Nein ohne Umweg, und ein Zettel mit deiner Nummer beim Bäcker — drei Signale, die nichts Schlechtes bedeuten, sobald du sie einmal erkannt hast.",
+  "permissao": "Du darfst kurz stehen bleiben und durch ein erleuchtetes Fenster schauen, ohne dich schuldig zu fühlen — hier ist das kein Hineinspähen, sondern eine offen gezeigte Wohnzimmerwand. Und du darfst ein klares Nein hören, ohne nach einem versteckten Grund zu suchen — es gibt meistens keinen.",
+  "permissaoAudioKey": "hol-a07-n09",
+  "espelho": "Wer im eigenen Land schon mal erlebt hat, wie unhöflich direkte Antworten woanders klingen können, obwohl sie dort gar nicht so gemeint sind, kennt dieses Missverständnis bereits von der anderen Seite. Neu ist hier nur, wie sehr Offenheit als Wert gilt, statt als Zufall.",
+  "fichasCulturais": [
+    {
+      "sinal": "Beim Abendspaziergang stehen in fast jedem Haus die Vorhänge offen, das Licht an, und du siehst direkt ins Wohnzimmer.",
+      "suaLeitura": "Die Leute haben vergessen, die Vorhänge zuzuziehen, oder sie wollen angeben mit ihrer Einrichtung.",
+      "oQueEAli": "Offene Fenster ohne Vorhang gelten hier vielerorts als Zeichen von Ehrlichkeit und Transparenz — «wir haben nichts zu verbergen» — und reichen historisch bis in calvinistisch geprägte Vorstellungen von Anstand zurück. Ein kurzer Blick hinein beim Vorbeigehen gilt nicht als Neugier, sondern als normal.",
+      "oQueVoceFaz": "Schau ruhig kurz hin, wenn dich ein Wohnzimmer interessiert — bleib aber nicht stehen und starr nicht lange, das wäre dann doch zu viel. Ein kurzer Blick im Vorbeigehen ist der übliche Rahmen.",
+      "oQueMelhora": "Ein Spaziergang durch ein Wohnviertel am Abend wird plötzlich viel interessanter, sobald du weißt, dass Hinschauen erlaubt ist.",
+      "ondeNaoVale": "In Mehrfamilienhäusern in großen Städten und bei Schlafzimmern gilt die offene Vorhang-Regel deutlich seltener — es ist vor allem ein Muster bei Wohnzimmern in Einfamilienhäusern und Reihenhäusern, keine feste Regel für jedes Fenster im Land.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "hol-a07-n02",
+        "hol-a07-n03"
+      ]
+    },
+    {
+      "sinal": "Du fragst, ob ein Treffen heute noch klappt, und die Antwort kommt sofort und knapp: «Nee, dat lukt niet.» Ohne weitere Erklärung.",
+      "suaLeitura": "Ich habe etwas falsch gemacht, oder die Person ist mir gegenüber unfreundlich.",
+      "oQueEAli": "Direktheit gilt hier als Höflichkeit, nicht als ihr Gegenteil — ein knappes Nein ohne Umweg spart beiden Seiten Zeit und wird als ehrlich statt als kalt gehört. Ein langes Drumherumreden würde eher als unklar oder sogar als unaufrichtig gelten.",
+      "oQueVoceFaz": "Nimm das Nein als vollständige, abgeschlossene Antwort — kein Nachbohren nötig. Eine klare Gegenfrage («Wann würde es besser passen?») kommt gut an und wird genauso direkt beantwortet.",
+      "oQueMelhora": "Ein Satz, der beim ersten Hören schroff wirkt, wird zu einem Zeichen von Verlässlichkeit — du weißt hier fast immer sofort, woran du bist.",
+      "ondeNaoVale": "Im Berufsleben und bei formelleren Anlässen wird durchaus noch ein kurzer höflicher Rahmen um das Nein gelegt — die ganz knappe Form gehört eher zum Alltag unter Bekannten und im lockeren Gespräch.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "hol-a07-n05",
+        "hol-a07-n06"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a07-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "Drei Signale, die du hier lesen lernst: das offene Fenster, das knappe Nein, und das Zahlensystem an der Theke."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a07-n02",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Erstens: das Fenster. Abends, Licht an, Vorhang offen — und niemand darin fühlt sich beobachtet."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-a07-r01",
+      "tom": "ganha",
+      "receptivo": true,
+      "acao": "Er merkt deinen kurzen Blick und findet ihn nicht seltsam. Ein kurzer Blick im Vorbeigehen ist hier normal, langes Anstarren nicht.",
+      "es": "Onze gordijnen zijn altijd open, dat is heel gewoon hier.",
+      "pinyin": "ON-ze chor-DAI-nen zain AL-tait OH-pen, dat is heel che-VOON heer",
+      "pt": "Unsere Vorhänge sind immer offen, das ist hier ganz normal.",
+      "tts": "Onze gordijnen zijn altijd open, dat is heel gewoon hier."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a07-n03",
+      "tom": "ganha",
+      "pt": "Ehrlichkeit statt Verstecken — «wir haben nichts zu verbergen» steckt historisch dahinter. Ein kurzer Blick gilt nicht als Neugier."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-a07-p01",
+      "promptPt": "Ein Nachbar bemerkt, dass du kurz ins Fenster geschaut hast, und lächelt. Sag ihm, dass dir das Zimmer gefällt. Sprich jetzt.",
+      "audioKey": "hol-a07-t01",
+      "es": "Wat een mooie kamer heeft u!",
+      "pinyin": "vat en MOO-ye KAA-mer heft ü",
+      "pt": "Was für ein schönes Zimmer haben Sie!",
+      "tts": "Wat een mooie kamer heeft u!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a07-n04",
+      "tom": "ganha",
+      "pt": "Zweitens: das Nein. Kurz, direkt, ohne Umweg — und genau das gilt hier als höflich, nicht als das Gegenteil."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_f",
+      "audioKey": "hol-a07-r02",
+      "tom": "ganha",
+      "receptivo": true,
+      "acao": "Kein böser Unterton, nur eine knappe Antwort. Nimm sie als vollständig, nicht als unfreundlich gemeint.",
+      "es": "Nee, dat lukt vandaag niet.",
+      "pinyin": "néé, dat LÜKT fan-DAACH niet",
+      "pt": "Nein, das klappt heute nicht.",
+      "tts": "Nee, dat lukt vandaag niet."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a07-n05",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "Ein langes Drumherumreden würde hier eher als unklar gelten. Das knappe Nein ist Respekt vor deiner Zeit, nicht Ablehnung."
+    },
+    {
+      "consulta": [
+        "simpatia/convite"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-a07-p02",
+      "promptPt": "Das Nein kam knapp, und du willst wissen, wann es stattdessen passen würde. Frag direkt zurück. Sprich jetzt.",
+      "audioKey": "hol-a07-t02",
+      "es": "Wanneer past het dan beter?",
+      "pinyin": "van-NEER past het dan BAY-ter",
+      "pt": "Wann würde es dann besser passen?",
+      "tts": "Wanneer past het dan beter?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a07-n06",
+      "tom": "ganha",
+      "pt": "Drittens: der Zettel an der Theke. Beim Bäcker, Metzger oder Amt zieht man eine Nummer und wartet, bis sie aufgerufen wird."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-a07-r03",
+      "tom": "ganha",
+      "receptivo": true,
+      "acao": "Er zeigt auf den kleinen Automaten neben der Tür. Ein Zettel mit einer Nummer, und du wartest wie alle anderen.",
+      "es": "Trek maar een nummertje, dan bent u zo aan de beurt.",
+      "pinyin": "trek maar en NUM-mer-työ, dan bent ü zo aan de böört",
+      "pt": "Ziehen Sie ruhig eine Nummer, dann sind Sie gleich dran.",
+      "tts": "Trek maar een nummertje, dan bent u zo aan de beurt."
+    },
+    {
+      "consulta": [
+        "chegar/ultimo"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-a07-p03",
+      "promptPt": "Beim Metzger stehen ein paar Leute herum, ohne erkennbare Reihe, und du willst wissen, wer gerade an der Reihe ist. Frag. Sprich jetzt.",
+      "audioKey": "hol-a07-t03",
+      "es": "Wie is er aan de beurt?",
+      "pinyin": "vee is er aan de böört",
+      "pt": "Wer ist gerade dran?",
+      "tts": "Wie is er aan de beurt?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a07-n07",
+      "tom": "ganha",
+      "pt": "Kein sichtbares Anstellen nötig — das System aus Zetteln sorgt automatisch für Fairness. Niemand drängelt sich vor."
+    },
+    {
+      "consulta": [
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-a07-p04",
+      "promptPt": "Du siehst den kleinen Zettelautomaten zum ersten Mal und bist dir nicht sicher, wo er steht. Frag danach. Sprich jetzt.",
+      "audioKey": "hol-a07-t04",
+      "es": "Waar trek ik een nummertje?",
+      "pinyin": "vaar trek ik en NUM-mer-työ",
+      "pt": "Wo ziehe ich eine Nummer?",
+      "tts": "Waar trek ik een nummertje?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a07-n08",
+      "bloco": "permissao",
+      "tom": "ganha",
+      "pt": "Ein kurzer Blick durchs Fenster, ein direktes Nein ohne Umweg — beides ist hier normal, keins davon ist gegen dich gerichtet."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "molde": "DANKE",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-a07-p05",
+      "promptPt": "Er hat dir gerade gezeigt, wo der Zettelautomat steht. Bedank dich kurz. Sprich jetzt.",
+      "audioKey": "hol-a07-t05",
+      "es": "Dank u wel!",
+      "pinyin": "dank ü WEL",
+      "pt": "Vielen Dank!",
+      "tts": "Dank u wel!"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-a07-s01",
+      "tom": "ganha",
+      "es": "Wanneer past het dan beter? Wie is er aan de beurt? Waar trek ik een nummertje?",
+      "pinyin": "van-NEER past het dan BAY-ter · vee is er aan de böört · vaar trek ik en NUM-mer-työ",
+      "pt": "Schatte die drei nach, die das Nein, die Reihenfolge und den Zettelautomaten abdecken.",
+      "tts": "Wanneer past het dan beter? Wie is er aan de beurt? Waar trek ik een nummertje?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a07-n09",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "A07 fertig. Offene Fenster sind Ehrlichkeit, ein knappes Nein ist Respekt vor deiner Zeit, und der Zettel sorgt für Fairness ohne Drängeln."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Drei Signale, die nichts über dich aussagen",
+    "secoes": [
+      {
+        "titulo": "Das Fenster ohne Vorhang",
+        "corpo": "Offene, unverhängte Wohnzimmerfenster gehören zu den meistbeschriebenen Alltagsbeobachtungen über niederländische Wohnviertel: Sie werden vielfach als Ausdruck von Ehrlichkeit und Transparenz gedeutet, mit Wurzeln in calvinistisch geprägten Vorstellungen von Anstand — «wer nichts zu verbergen hat, zieht den Vorhang nicht zu». Ein kurzer Blick beim Vorbeigehen gilt als normal, langes Stehenbleiben und Starren dagegen nicht.",
+        "exemplos": [
+          { "es": "Wat een mooie kamer heeft u!", "pt": "Was für ein schönes Zimmer haben Sie!" }
+        ]
+      },
+      {
+        "titulo": "Das knappe Nein als Höflichkeit",
+        "corpo": "In praktisch jeder Beschreibung niederländischer Umgangsformen taucht Direktheit als Grundwert auf: klar sagen, was gemeint ist, gilt als respektvoll und effizient, während langes Drumherumreden eher als unaufrichtig empfunden wird. Ein knappes «Nee, dat lukt niet» ist deshalb selten persönlich gemeint — die passende Reaktion ist eine ebenso direkte Rückfrage, keine gekränkte Stille."
+      },
+      {
+        "titulo": "Der Zettel, der Streit verhindert",
+        "corpo": "Beim Bäcker, Metzger, auf dem Amt oder in der Arztpraxis wird häufig eine Nummer gezogen statt sich anzustellen — ein System, das Fairness ohne sichtbare Reihe herstellt und Diskussionen darüber, wer zuerst dran war, von vornherein vermeidet. Wer nicht danach fragt, wo der kleine Automat steht, verliert schlicht Zeit, nicht seinen Platz."
+      },
+      {
+        "titulo": "Ein gemeinsamer Nenner",
+        "corpo": "Alle drei Signale — das offene Fenster, das knappe Nein, das Zahlensystem — lassen sich auf denselben Grundwert zurückführen: Klarheit wird höher geschätzt als Höflichkeitsfloskeln. Das erklärt, warum Direktheit hier nicht als Kälte gilt, sondern als eine Form von Respekt, die dir sofort und ohne Umwege sagt, woran du bist."
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "id": "q-b16",
+  "nivel": "basico",
+  "titulo": "Quiz — de minuut aan de balie",
+  "subtitulo": "Haben Sie voor wat zij hebben, ohne voor wat u overslaat",
+  "introAudioKey": "de-b16-q-i",
+  "introPt": "Een reiziger checkt in voor de kamer klaar is, verbetert die in drie zinnen, en meldt één ding dat kapot is.",
+  "cenario": "Hotelreceptie in Duitsland, laat in de middag, de kamer pas klaar om twee uur en de winkels dicht om acht.",
+  "dialogo": [
+    {
+      "audioKey": "de-b16-q01",
+      "voz": "target_de_f",
+      "es": "Guten Tag, ich habe eine Reservierung. Haben Sie ein ruhigeres Zimmer?",
+      "pinyin": "GOO-ten TAHK, ikh HAH-be AI-ne re-zer-VEE-roong. HAH-ben zee ain ROO-ig-e-res TSIM-mah",
+      "pt": "Goedemiddag, ik heb een reservering. Heeft u een rustigere kamer?",
+      "tts": "Guten Tag, ich habe eine Reservierung. Haben Sie ein ruhigeres Zimmer?"
+    },
+    {
+      "audioKey": "de-b16-q02",
+      "voz": "target_de_m",
+      "es": "Ja, im vierten Stock, zum Hof. Das Zimmer ist ab vierzehn Uhr fertig.",
+      "pinyin": "yah, im FEER-ten shtok, tsoom hohf. das TSIM-mah ist ap FEER-tsayn OO-ah FAIR-tikh",
+      "pt": "Ja, vierde verdieping, aan de binnenplaats. De kamer is klaar vanaf twee uur.",
+      "tts": "Ja, im vierten Stock, zum Hof. Das Zimmer ist ab vierzehn Uhr fertig."
+    },
+    {
+      "audioKey": "de-b16-q03",
+      "voz": "target_de_f",
+      "es": "Danke. Ich suche einen Supermarkt.",
+      "pinyin": "DANG-ke. ikh ZOO-khe AI-nen ZOO-pah-markt",
+      "pt": "Dank u wel. Ik zoek een supermarkt.",
+      "tts": "Danke. Ich suche einen Supermarkt."
+    },
+    {
+      "audioKey": "de-b16-q04",
+      "voz": "target_de_m",
+      "es": "Gleich um die Ecke, aber er macht um zwanzig Uhr zu.",
+      "pinyin": "glaikh oom dee EK-ke, AH-bah air makht oom TSVAN-tsikh OO-ah tsoo",
+      "pt": "Meteen om de hoek, maar hij gaat om acht uur dicht.",
+      "tts": "Gleich um die Ecke, aber er macht um zwanzig Uhr zu."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Waar antwoordde de balie werkelijk mee?",
+      "opcoes": [
+        "Een kaal ja",
+        "Een verdieping, een kant van het gebouw en een uur",
+        "Een prijs",
+        "Een vraag over uw paspoort"
+      ],
+      "correta": 1,
+      "explica": "Im vierten Stock, zum Hof, ab vierzehn Uhr. De nuttige helft van een Duits ja is het detail dat eraan vast zit."
+    },
+    {
+      "pergunta": "Welke opening vraagt wat de persoon voor u heeft?",
+      "opcoes": [
+        "Ich suche",
+        "Haben Sie",
+        "Was kostet",
+        "Wo ist"
+      ],
+      "correta": 1,
+      "explica": "Haben Sie ein Kissen, haben Sie WLAN. Ich suche opent een zoektocht; wo ist vraagt naar een plek waarvan u al weet dat die bestaat."
+    },
+    {
+      "pergunta": "Waarom zeggen de tegels einen Adapter en nooit alleen Adapter?",
+      "opcoes": [
+        "Omdat het kleine woordje de grammatica draagt, dus u leert het paar als één blok",
+        "Omdat Duitse zelfstandige naamwoorden niet alleen kunnen staan",
+        "Omdat het beleefder klinkt",
+        "Omdat Adapter meervoud is"
+      ],
+      "correta": 0,
+      "explica": "De uitgang die verandert leeft op het lidwoord, niet op het zelfstandig naamwoord. Leer einen Adapter heel en u hoeft het aan een balie nooit uit te dokteren."
+    },
+    {
+      "pergunta": "Het is tien over acht op een zaterdag en elke winkel in de straat is donker. Wat gebeurde er?",
+      "opcoes": [
+        "Een lokale feestdag die niemand noemde",
+        "Winkelsluitingstijden zijn wettelijk, en acht uur 's avonds is de gebruikelijke muur",
+        "De straat is in verval",
+        "Alles is naar online verhuisd"
+      ],
+      "correta": 1,
+      "explica": "Zondagen en feestdagen zijn dicht, en werkdagen eindigen om acht uur in het restfederale model. Elk Land schrijft nu zijn eigen versie — Beieren in 2025, Berlijn dat de hele nacht toestaat — dus de zin om te gebruiken is ich suche einen Supermarkt, aan de balie, op de weg naar binnen."
+    },
+    {
+      "pergunta": "Het etiket zegt 0,99 € en de kassa vraagt 1,24 €. Waarom?",
+      "opcoes": [
+        "Btw wordt bij de kassa opgeteld",
+        "Een statiegeld van vijfentwintig cent op de fles, dat de winkel niet in de schapprijs mag opnemen",
+        "Een kaarttoeslag",
+        "Een vergissing waar u iets van moet zeggen"
+      ],
+      "correta": 1,
+      "explica": "Het statiegeld is minimaal vijfentwintig cent inclusief btw, en de prijsregels vereisen het naast het totaal en uitdrukkelijk niet erin. Het is de enige verklaarde uitzondering op de regel dat de aangegeven prijs de prijs is die u betaalt — en u krijgt het terug aan de automaat."
+    },
+    {
+      "pergunta": "De balie zegt nur Bargeld. Wat is uw positie?",
+      "opcoes": [
+        "Kaart weigeren mag niet en u kunt aandringen",
+        "Contant is hier het enige onbeperkte wettige betaalmiddel en het bordje is volledig legaal",
+        "U kunt het melden bij de consumentenautoriteit",
+        "Het geldt alleen voor kleine bedragen"
+      ],
+      "correta": 1,
+      "explica": "Er is in Duitsland geen plicht om kaarten aan te nemen. Erger voor u: een terminal kan op het interne girocard-systeem draaien, dus kaarten aannemen is niet hetzelfde als de úwe aannemen. Vraag voor u bestelt, niet erna."
+    }
+  ]
+}

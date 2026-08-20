@@ -1,0 +1,96 @@
+{
+  "id": "q-b01",
+  "nivel": "basico",
+  "titulo": "Quiz — De klanken zijn al van u",
+  "subtitulo": "De wissel voor w en v, de tweede letter van ei en ie, de tik op de z, de ronde lippen, en de r die klinker wordt",
+  "introAudioKey": "de-b01-q-i",
+  "introPt": "Een reiziger bestelt 's ochtends aan een bakkerstoonbank en vraagt op de uitweg om water.",
+  "cenario": "Een bakkerij net na zevenen, één iemand bedient, een blad met broodjes en een taartschaal tussen u in.",
+  "dialogo": [
+    {
+      "audioKey": "de-b01-q01",
+      "voz": "target_de_f",
+      "es": "Guten Morgen. Ein Brötchen, bitte.",
+      "pt": "Goedemorgen. Een broodje, alstublieft.",
+      "tts": "Guten Morgen. Ein Brötchen, bitte."
+    },
+    {
+      "audioKey": "de-b01-q02",
+      "voz": "target_de_m",
+      "es": "Guten Morgen! Sonst noch etwas?",
+      "pt": "Goedemorgen! Nog iets anders?",
+      "tts": "Guten Morgen! Sonst noch etwas?"
+    },
+    {
+      "audioKey": "de-b01-q03",
+      "voz": "target_de_f",
+      "es": "Ein Stück Kuchen und Wasser, bitte.",
+      "pt": "Een stukje taart en water, alstublieft.",
+      "tts": "Ein Stück Kuchen und Wasser, bitte."
+    },
+    {
+      "audioKey": "de-b01-q04",
+      "voz": "target_de_m",
+      "es": "Gerne. Schönen Tag noch, auf Wiedersehen.",
+      "pt": "Graag. Nog een fijne dag, tot ziens.",
+      "tts": "Gerne. Schönen Tag noch, auf Wiedersehen."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "U ziet het woord Wasser op een fles. Welke klank draagt de eerste letter?",
+      "opcoes": [
+        "De w van water in het Nederlands",
+        "Een v — Wasser begint als het Nederlandse woord vaas",
+        "Hij is stom",
+        "Een f"
+      ],
+      "correta": 1,
+      "explica": "Het officiële regelwerk geeft w als [v]: wann, Wagen, Möwe. Het paar om uit elkaar te houden is wir en vier, waar elke letter het werk van de andere doet."
+    },
+    {
+      "pergunta": "Duitse v is altijd f. Waar of niet waar?",
+      "opcoes": [
+        "Waar, zonder uitzondering",
+        "Niet waar — het is f in een korte gesloten lijst oude inheemse woorden en in ver-, v in leenwoorden, en het weifelt in een derde lijst",
+        "Niet waar — het is altijd v",
+        "Waar, behalve aan het eind van een woord"
+      ],
+      "correta": 1,
+      "explica": "Het regelwerk splitst het in drieën: Vater, viel, vier, von, vor krijgen f; privat, Vase, Universität krijgen v; en November staat te boek als echt beide kanten opgaand."
+    },
+    {
+      "pergunta": "Hoe leest u de klinkerparen in Ein Bier?",
+      "opcoes": [
+        "Beide als een lange ie",
+        "Zeg de naam van de tweede letter elke keer — ei is ai, ie is ie",
+        "Beide als ai",
+        "Wat het Nederlandse verwante woord doet"
+      ],
+      "correta": 1,
+      "explica": "De regel kent geen inheemse uitzonderingen: de digraaf wordt als zijn tweede letter gelezen. Ein is ai, Bier is ie, en dezelfde regel dekt de hele woordenschat."
+    },
+    {
+      "pergunta": "Wat gebeurt er met de r aan het eind van Wasser?",
+      "opcoes": [
+        "Het is een volle Nederlandse eind-r",
+        "Hij wordt een klinker — een klein uh — en de uitgang -er is dat altijd",
+        "Hij wordt gerold met de tongpunt",
+        "Hij verdwijnt zonder iets ervoor in de plaats"
+      ],
+      "correta": 1,
+      "explica": "Aan het eind van een lettergreep zit er geen medeklinker. Butter, Vater, Kinder, besser, aber, oder eindigen allemaal op datzelfde kleine uh, en dat is de duidelijkst hoorbare reparatie die u ter beschikking staat."
+    },
+    {
+      "pergunta": "Rad en Rat zijn anders gespeld. Hoe klinken ze?",
+      "opcoes": [
+        "De eerste eindigt zacht, de tweede hard",
+        "Hetzelfde — een d, b of g aan het eind van een woord komt stemloos aan, precies zoals bed en hond bij u",
+        "De eerste heeft een langere klinker",
+        "De tweede heeft de klemtoon aan het eind"
+      ],
+      "correta": 1,
+      "explica": "De spelling registreert het niet, maar de uitgang wordt hard: Rad is raht, Hund eindigt als Hunt, Tag als Tak. Het is dezelfde eindverharding die u al thuis toepast."
+    }
+  ]
+}

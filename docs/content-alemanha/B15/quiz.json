@@ -1,0 +1,96 @@
+{
+  "id": "q-b15",
+  "nivel": "basico",
+  "titulo": "Quiz — Was kostet das, en het gat tussen schap en kassa",
+  "subtitulo": "Eén vraag, de maat, een valse vriend, het statiegeld en de acht-uurgrens",
+  "introAudioKey": "de-b15-q-i",
+  "introPt": "Een klant prijst één ding, vraagt om een andere maat, en ontmoet dan een totaal groter dan het label beloofde.",
+  "cenario": "Een kledingzaak en daarna een supermarkt, laat op een zaterdagmiddag in Keulen.",
+  "dialogo": [
+    {
+      "audioKey": "de-b15-q01",
+      "voz": "target_de_f",
+      "es": "Was kostet der Rock? Haben Sie eine andere Größe?",
+      "pt": "Wat kost de rok? Heeft u een andere maat?",
+      "tts": "Was kostet der Rock? Haben Sie eine andere Größe?"
+    },
+    {
+      "audioKey": "de-b15-q02",
+      "voz": "target_de_m",
+      "es": "Der kostet vierzig Euro. Die Umkleidekabine ist da hinten.",
+      "pt": "Die kost veertig euro. Het paskamer is achteraan.",
+      "tts": "Der kostet vierzig Euro. Die Umkleidekabine ist da hinten."
+    },
+    {
+      "audioKey": "de-b15-q03",
+      "voz": "target_de_f",
+      "es": "Ich möchte das anprobieren, bitte. Haben Sie eine Tüte?",
+      "pt": "Ik wil dat graag passen, alstublieft. Heeft u een zakje?",
+      "tts": "Ich möchte das anprobieren, bitte. Haben Sie eine Tüte?"
+    },
+    {
+      "audioKey": "de-b15-q04",
+      "voz": "target_de_m",
+      "es": "Das macht einundvierzig Euro fünfundzwanzig, mit Pfand.",
+      "pt": "Dat is eenenveertig euro vijfentwintig, met statiegeld.",
+      "tts": "Das macht einundvierzig Euro fünfundzwanzig, mit Pfand."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "U ziet «der Rock» op een label. Wat is het?",
+      "opcoes": [
+        "Een steen of een rotswand",
+        "Een rok",
+        "Een rek",
+        "Een jas"
+      ],
+      "correta": 1,
+      "explica": "Der Rock is een rok, precies zoals in het Nederlands. In het Duits kan het ook rockmuziek betekenen (homoniem), maar het is nooit een steen."
+    },
+    {
+      "pergunta": "U wilt een cadeau kopen. Naar welk woord vraagt u?",
+      "opcoes": [
+        "ein Gift",
+        "ein Geschenk",
+        "eine Gabe",
+        "eine Mitgift"
+      ],
+      "correta": 1,
+      "explica": "Das Gift is gif. Verwarrend voor Nederlanders: bij ons is «gift» een schenking, in het Duits alleen «vergif». De Duitse betekenis «geven» overleefde alleen in Mitgift, een bruidsschat. Op een fles is Gift een waarschuwing."
+    },
+    {
+      "pergunta": "Het schap zei 0,99 € en de kassa vroeg 1,24 €. Wat is er gebeurd?",
+      "opcoes": [
+        "Btw werd bij de kassa opgeteld",
+        "Het label was niet bijgewerkt",
+        "Het statiegeld werd naast de prijs getoond omdat de wet verbiedt het erbij op te tellen",
+        "Een tassenprijs werd automatisch inbegrepen"
+      ],
+      "correta": 2,
+      "explica": "De Verpackungsgesetz stelt een statiegeld van minstens vijfentwintig cent inclusief btw, en de prijsregeling verplicht het naast het totaal te tonen en uitdrukkelijk niet erin op te nemen. Dit is de enige wettelijke uitzondering op getoonde prijs = eindprijs."
+    },
+    {
+      "pergunta": "Het is zondagochtend en u heeft iets te eten nodig. Welke van deze is bij wet bevestigd open?",
+      "opcoes": [
+        "De supermarkt, want eten is uitgezonderd",
+        "Het benzinestation, als algemene kruidenier",
+        "Een bakker, in een smal ochtendvenster",
+        "Elke winkel onder 150 m², overal in het land"
+      ],
+      "correta": 2,
+      "explica": "§ 12 van de winkeltijdenwet dekt bakkerij, melk, vers fruit, bloemen en kranten in een smal venster rond de hoofddienst. Benzinestations mogen open, maar tijdens sluitingstijden alleen brandstof, auto-onderdelen en reisbenodigdheden verkopen. De onbemande winkelregel is Beierens eigen wet, geen nationale."
+    },
+    {
+      "pergunta": "Uw reisgenoot woont buiten de EU en vraagt de btw terug op het vliegveld. Wat krijgt hij feitelijk?",
+      "opcoes": [
+        "De volle 19%, betaald door de belastingdienst",
+        "Een prijskorting die de winkel toekent, minus verwerkingskosten",
+        "De volle 19% minus de papierwerkkosten",
+        "Niets, tenzij de aankoop meer dan 500 euro was"
+      ],
+      "correta": 1,
+      "explica": "De vrijstelling behoort de handelaar toe, niet de reiziger — er is geen directe teruggave van de belastingdienst aan een koper. Toon paspoort, uitvoerdocument en de goederen aan de douanebalie vóór er iets in het ruim wordt ingecheckt. Voor u als Nederlander geldt de regel niet: Nederland is een EU-lidstaat."
+    }
+  ]
+}

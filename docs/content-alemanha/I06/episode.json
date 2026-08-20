@@ -1,0 +1,485 @@
+{
+  "id": "i06",
+  "nivel": "intermediario",
+  "numero": 24,
+  "parte": "I06",
+  "titulo": "Ich war, ich hatte — en acht klare blokken voor al het andere",
+  "subtitulo": "Twee éénwoordvormen dragen uw hele reis; de rest leert u in stukken, zoals een telefoonnummer",
+  "cena": "Zondagavond aan een gedeelde tafel, iemand heeft net gevraagd wat u gisteren deed, en de hele dag zit in uw hoofd in het Engels.",
+  "moldura": "ganha",
+  "frasePiso": "Ich war in Dresden. Es war super. Twee zinnen en de dag is verteld.",
+  "decisao": "welke drie dingen vertel ik en in welke volgorde; gisteren vertellen in klaargezette blokken in plaats van alles in de tegenwoordige tijd te antwoorden en de aanbeveling die daarna komt te missen",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "de-i06-gift",
+      "afirmacao": "De duurste valse vriend in dit paar zit precies in een verhaal over souvenirs. DWDS definieert das Gift als «Stoff, der im Körper eine zerstörende oder tödliche Wirkung hervorruft» — een stof met een vernietigende of dodelijke werking op het lichaam. Het Nederlandse woord ervoor is gif; het Duits voor het Engelse gift (cadeau) is das Geschenk. De twee woorden zijn echte verwanten: DWDS registreert Gift als een Germaanse abstracte vorming bij het werkwoord geben, oorspronkelijk «das Geben, Gabe, Geschenk, Schenkung», met de specialisatie tot gif toegeschreven aan de invloed van laatgrieks en Latijn dosis, zelf letterlijk een gave; Duden geeft onafhankelijk Middel- en Oudhoogduits gift, oorspronkelijk «das Geben, Übergabe; Gabe». Het Duits bewaarde de oude betekenis alleen nog in de samenstelling Mitgift, een bruidsschat. Een etiket met Gift is dus een waarschuwing, nooit een cadeau.",
+      "fonte": "DWDS (Wörterbuch der deutschen Gegenwartssprache + etimológico de Pfeifer) e Duden, verbetes abertos e lidos. Dossiê § 2. ⚠ O lado INGLÊS dos pares só foi verificado em dicionário para «sensible» e «eventually» (Longman/LDOCE): Merriam-Webster, Cambridge e Collins devolveram 403. A lista vale como sentido ALEMÃO verificado, não como afirmação sobre o inglês.",
+      "ano": 2026,
+      "revisarAte": "2031-08-05",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": [
+        "de-i06-n07",
+        "de-i06-n08"
+      ]
+    },
+    {
+      "id": "de-i06-falsche-freunde",
+      "afirmacao": "Nog vier geverifieerde Duitse betekenissen die het verhaal van een reiziger in de val laten lopen, alle nagetrokken in DWDS of Duden. Bekommen is «in den Besitz von etw. kommen», ontvangen — worden is werden, «eine Zustandsveränderung». Eventuell betekent «mit einer eher geringen Wahrscheinlichkeit», mogelijk — Nederlands eventueel neigt naar hetzelfde, maar Engels eventually, «uiteindelijk», is schließlich; dit paar keert een toezegging om en is de duurste van de vier. Aktuell is «gegenwärtig vorhanden, bedeutsam für die unmittelbare Gegenwart», actueel in de zin van nu — Engels actually is eigentlich. Der Chef is «verantwortlicher Leiter; Inhaber eines Betriebes», de baas — een kok is der Koch. Also is het voegwoord «folglich, demnach», dus, niet het Nederlandse of Engelse also. En das Handy is gewoon een mobiele telefoon.",
+      "fonte": "DWDS e Duden, doze lemas alemães verificados, verbatim das definições. Dossiê § 2, tabela dos falsos amigos. ⚠ auch, Fels/Stein, Küchenchef e tatsächlich foram propostos como equivalentes mas o verbete NÃO foi aberto — não entram como afirmação. Kroschewski (2000) está confirmada só como referência bibliográfica: o livro não foi lido e nada de conteúdo se cita dele.",
+      "ano": 2026,
+      "revisarAte": "2031-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-i06-n08"
+      ]
+    },
+    {
+      "id": "de-i06-ei-ie",
+      "afirmacao": "De spellingsregel die de afgewerkte bouwstenen leesbaar maakt, staat vast en heeft geen inheemse uitzondering. Het officiële Regelwerk 2024, § 1, geeft ⟨ie⟩ als [iː] in inheemse woorden (Liebe, Dieb) en ⟨ei⟩ als de tweeklank [aɪ] (eigen, Eile, beiseite), met ⟨eu⟩ en ⟨äu⟩ als [ɔʏ] en ⟨au⟩ als [aʊ]. § 1.3 stelt dat lengte regelmatig door ie wordt gemarkeerd, alleen in inheemse woorden met [iː]. Niets hier is een nieuwe klank voor een Nederlandse lezer — ⟨ie⟩ is de gewone spelling voor /i/ in het Nederlands (lied, hier), en ⟨ei⟩ voor een tweeklank (trein, eigen) — maar de valkuil is dat de lezer de Duitse waarden verwart met de eigen, of terugvalt op het Engels waar believe naast height, seize, receive en ceiling staat. Het robuuste ezelsbruggetje, zonder inheemse uitzondering: zeg in de Duitse digraaf de tweede letter.",
+      "fonte": "Amtliches Regelwerk der deutschen Rechtschreibung 2024, § 1 e § 1.3, verbatim do PDF. Dossiê § 1.4 (classificada FORTE) e síntese § 1.11, onde ei/ie aparece como «nenhum som novo, custo baixíssimo, prioridade alta».",
+      "ano": 2024,
+      "revisarAte": "2031-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-i06-n04"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i06-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "Gisteren is twee éénwoordvormen en acht blokken die u in hun geheel leert. Een korte lijst, geen systeem om te bouwen."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i06-r01",
+      "es": "Und was haben Sie gestern gemacht?",
+      "pt": "En wat heeft u gisteren gedaan?",
+      "tts": "Und was haben Sie gestern gemacht?",
+      "receptivo": true,
+      "acao": "Een variant hiervan komt elke avond. Drie klare zinnen is een compleet antwoord; vier is een verhaal."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i06-n02",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Begin met war. Eén woord, geen verbuiging, geen tweede stuk — het draagt een stad, een dag en een heel oordeel."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i06-p01",
+      "promptPt": "Hij vroeg naar de dag ervoor, en u zat twee uur verderop, in de hoofdstad. Spreek nu.",
+      "audioKey": "de-i06-t01",
+      "es": "Ich war in Berlin.",
+      "pinyin": "ikh vahr in ber-LEEN",
+      "pt": "Ik was in Berlijn.",
+      "tts": "Ich war in Berlin."
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar-lugar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i06-p02",
+      "promptPt": "Hij wacht op het oordeel over de hele dag, en een knik doet dat niet. Zelfde woord, tweede taak. Spreek nu.",
+      "audioKey": "de-i06-t02",
+      "es": "Es war super.",
+      "pinyin": "es vahr ZOO-per",
+      "pt": "Het was geweldig.",
+      "tts": "Es war super."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-i06-r02",
+      "es": "Ach, in Berlin waren Sie? Und wie war's?",
+      "pt": "O, was u in Berlijn? En hoe was het?",
+      "tts": "Ach, in Berlin waren Sie? Und wie war's?",
+      "receptivo": true,
+      "acao": "De plaatsnaam deed dat, niet de grammatica. Wie war's wil één woord terug, niet uw reisplan."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i06-n03",
+      "tom": "ganha",
+      "pt": "De rest is een broodje: een klein woord vooraan, en het klare woord wachtend aan het eind."
+    },
+    {
+      "consulta": [
+        "transporte/qual-trem",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i06-p03",
+      "promptPt": "De dag daarvoor nam u vroeg de trein zuidwaarts en kwam laat op de avond terug. Zeg hoe u er kwam. Spreek nu.",
+      "audioKey": "de-i06-t03",
+      "es": "Ich bin nach Dresden gefahren.",
+      "pinyin": "ikh bin nahkh DRESS-den guh-FAH-ren",
+      "pt": "Ik ben naar Dresden gereisd.",
+      "tts": "Ich bin nach Dresden gefahren."
+    },
+    {
+      "consulta": [
+        "mesa/comida",
+        "simpatia/elogiar-comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i06-p04",
+      "promptPt": "Lunch was staand, van een kartonnetje, aan een raam op een hoek. Noem wat op het kartonnetje lag. Spreek nu.",
+      "audioKey": "de-i06-t04",
+      "es": "Ich habe eine Currywurst gegessen.",
+      "pinyin": "ikh HAH-buh EYE-nuh KA-ree-voorst guh-GESS-en",
+      "pt": "Ik heb een currywurst gegeten.",
+      "tts": "Ich habe eine Currywurst gegessen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i06-n04",
+      "tom": "ganha",
+      "pt": "Voorlezen: in ⟨ie⟩ en ⟨ei⟩ zegt u de tweede letter — net als thuis. Gesehen, geblieben, gefahren."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "simpatia/elogiar-lugar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i06-p05",
+      "promptPt": "U stond veertig minuten in de rij voor de grote collectie op het eiland, en het was elk minuut waard. Spreek nu.",
+      "audioKey": "de-i06-t05",
+      "es": "Ich habe das Museum gesehen.",
+      "pinyin": "ikh HAH-buh dass moo-ZAY-oom guh-ZAY-en",
+      "pt": "Ik heb het museum gezien.",
+      "tts": "Ich habe das Museum gesehen."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i06-p06",
+      "promptPt": "U liep het hele centrum twee keer door en uw benen praten er nu nog over. Spreek nu.",
+      "audioKey": "de-i06-t06",
+      "es": "Ich bin viel gelaufen.",
+      "pinyin": "ikh bin feel guh-LOW-fen",
+      "pt": "Ik heb veel gelopen.",
+      "tts": "Ich bin viel gelaufen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i06-n05",
+      "tom": "ganha",
+      "pt": "Drie zinnen is een verhaal: waar u was, één ding wat u deed, en hoe het was. Stop dan en laat hen vragen."
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar-lugar",
+        "simpatia/elogiar-comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i06-p07",
+      "promptPt": "Zij wil weten of de lange dag het waard was, en iets warmers dan super zou hier beter landen. Spreek nu.",
+      "audioKey": "de-i06-t07",
+      "es": "Es hat mir sehr gefallen.",
+      "pinyin": "es hat meer zayr guh-FA-len",
+      "pt": "Het beviel me erg.",
+      "tts": "Es hat mir sehr gefallen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i06-n06",
+      "tom": "ganha",
+      "pt": "Hatte is de tweede éénwoordvorm. War voor waar en hoe, hatte voor wat de dag bevatte. Beide staan alleen."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i06-p08",
+      "promptPt": "Vat het geheel samen in één zin, zoals u het thuis aan een vriend aan de telefoon zou zeggen. Spreek nu.",
+      "audioKey": "de-i06-t08",
+      "es": "Ich hatte einen guten Tag.",
+      "pinyin": "ikh HA-tuh EYE-nen GOO-ten tahk",
+      "pt": "Ik had een goede dag.",
+      "tts": "Ich hatte einen guten Tag."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i06-r03",
+      "es": "Und das Grüne Gewölbe? Das müssen Sie unbedingt sehen.",
+      "pt": "En het Grünes Gewölbe? Dat moet u beslist zien.",
+      "tts": "Und das Grüne Gewölbe? Das müssen Sie unbedingt sehen.",
+      "receptivo": true,
+      "acao": "Een tip met een eigennaam erin. Zet die op papier voor de avond zonder die verder gaat."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i06-n07",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "Een echte plaats noemen koopt de volgende tip. En één woord in de souvenirwinkel moet juist zijn."
+    },
+    {
+      "consulta": [
+        "reparo/como-se-diz",
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "wie heißt das",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i06-p09",
+      "promptPt": "U beschrijft wat u at en het woord is er gewoon niet. Vraag het hem. Spreek nu.",
+      "audioKey": "de-i06-t09",
+      "es": "Entschuldigung, wie heißt das?",
+      "pinyin": "ent-SHOOL-di-goong, vee hysst dass",
+      "pt": "Sorry, hoe heet dat?",
+      "tts": "Entschuldigung, wie heißt das?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i06-n08",
+      "tom": "protege",
+      "pt": "Gift op een etiket betekent hier gif. Een cadeau is ein Geschenk — de twee woorden gingen eeuwen geleden uit elkaar."
+    },
+    {
+      "consulta": [
+        "compras/balcao",
+        "compras/so-olhando"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-SUCHE",
+      "encaixe": "ein Geschenk",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i06-p10",
+      "promptPt": "Laatste stop van de reis, en u bent uw zus iets uit deze stad schuldig. Open met wat u zoekt. Spreek nu.",
+      "audioKey": "de-i06-t10",
+      "es": "Ich suche ein Geschenk.",
+      "pinyin": "ikh ZOO-khuh eyn guh-SHENK",
+      "pt": "Ik zoek een cadeau.",
+      "tts": "Ich suche ein Geschenk."
+    },
+    {
+      "consulta": [
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WAS-KOSTET",
+      "encaixe": "das Buch",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i06-p11",
+      "promptPt": "Zij zette drie dingen op de toonbank en er staat maar op één geen prijs. Vraag over dat ene. Spreek nu.",
+      "audioKey": "de-i06-t11",
+      "es": "Was kostet das Buch?",
+      "pinyin": "vass KOS-tet dass bookh",
+      "pt": "Wat kost het boek?",
+      "tts": "Was kostet das Buch?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-i06-r04",
+      "es": "Achtzehn Euro. Soll ich es einpacken?",
+      "pt": "Achttien euro. Zal ik het inpakken?",
+      "tts": "Achtzehn Euro. Soll ich es einpacken?"
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "noch einen Kaffee",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i06-p12",
+      "promptPt": "Terug aan tafel is het verhaal half verteld en uw kop is al tien minuten leeg. Spreek nu.",
+      "audioKey": "de-i06-t12",
+      "es": "Ich möchte noch einen Kaffee, bitte.",
+      "pinyin": "ikh MURKH-tuh nokh EYE-nen KA-fay, BIT-tuh",
+      "pt": "Ik wil graag nog een koffie, alstublieft.",
+      "tts": "Ich möchte noch einen Kaffee, bitte."
+    },
+    {
+      "consulta": [
+        "reparo/escreve"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "KONNEN-SIE",
+      "encaixe": "das aufschreiben",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i06-p13",
+      "promptPt": "Hij noemde net een plaats met vier lettergrepen die u morgenochtend nooit reproduceert. Spreek nu.",
+      "audioKey": "de-i06-t13",
+      "es": "Können Sie das aufschreiben?",
+      "pinyin": "KUR-nen zee dass OWF-shry-ben",
+      "pt": "Kunt u dat opschrijven?",
+      "tts": "Können Sie das aufschreiben?"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "DANKE",
+      "encaixe": "Vielen Dank",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i06-p14",
+      "promptPt": "Hij heeft u morgen op de rug van een bierviltje gegeven. Sluit dat netjes af. Spreek nu.",
+      "audioKey": "de-i06-t14",
+      "es": "Vielen Dank für den Tipp!",
+      "pinyin": "FEE-len dank fuer dayn tip",
+      "pt": "Hartelijk dank voor de tip!",
+      "tts": "Vielen Dank für den Tipp!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i06-n09",
+      "tom": "ganha",
+      "pt": "Sluit vooruit af. Één korte zin over terugkomen maakt van een reisverslag een belofte over de volgende reis."
+    },
+    {
+      "consulta": [
+        "simpatia/convite",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i06-p15",
+      "promptPt": "Het verhaal is verteld, iedereen lacht, en u vliegt dinsdag. Sluit af met blik vooruit. Spreek nu.",
+      "audioKey": "de-i06-t15",
+      "es": "Ich komme wieder.",
+      "pinyin": "ikh KOM-uh VEE-der",
+      "pt": "Ik kom terug.",
+      "tts": "Ich komme wieder."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-i06-s01",
+      "es": "Ich war in Berlin. Ich habe eine Currywurst gegessen. Es war super. Ich komme wieder.",
+      "pinyin": "ikh vahr in ber-LEEN. ikh HAH-buh EYE-nuh KA-ree-voorst guh-GESS-en. es vahr ZOO-per. ikh KOM-uh VEE-der",
+      "pt": "Schaduw een hele dag: waar u was, één ding dat u deed, hoe het was, en de belofte aan het eind.",
+      "tts": "Ich war in Berlin. Ich habe eine Currywurst gegessen. Es war super. Ich komme wieder."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i06-n10",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "I06 klaar. War, hatte, acht blokken, één echte plaatsnaam — en een dag van u hardop verteld in drie zinnen."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Twee éénwoordvormen en acht blokken",
+    "secoes": [
+      {
+        "titulo": "War en hatte doen het zware werk",
+        "corpo": "Ich war en ich hatte zijn de twee vormen die alleen staan: één woord elk, niets wachtend aan het eind van de zin, niets om mee te congrueren. Ich war in Berlin, ich war müde, es war super, ich hatte einen guten Tag. Samen dekken ze waar u was, hoe het was en wat de dag bevatte — het meeste van wat iemand vraagt. Al het andere in dit deel is een tweedelig blok, en dat leert u als blok.",
+        "exemplos": [
+          {
+            "es": "Ich war in Berlin.",
+            "pt": "Ik was in Berlijn."
+          },
+          {
+            "es": "Ich hatte einen guten Tag.",
+            "pt": "Ik had een goede dag."
+          }
+        ]
+      },
+      {
+        "titulo": "Het broodje, en waarom u er nooit een bouwt",
+        "corpo": "Ich habe eine Currywurst gegessen. Ich bin nach Dresden gefahren. Er zit een klein woord vooraan en een klaar woord aan het eind, en daartussen gaat het interessante deel. Sommige blokken nemen habe en andere bin, en de regel daarachter gaat u onder druk aan tafel niet gebruiken. Leer de acht die u nodig heeft in hun geheel, zoals u een telefoonnummer leerde: gefahren, gegessen, gesehen, getrunken, gelaufen, geblieben, gekauft, gefallen. Zeg het hele blok of zeg war. Beide zijn juist; een halfgebouwd blok niet."
+      },
+      {
+        "titulo": "Ze hardop lezen",
+        "corpo": "Bijna elk blok begint met ge-, en meerdere ervan bevatten de twee klinkerparen die bepalen of een Engelse lezer Duitse woorden juist krijgt. De regel is vast en heeft geen native uitzondering: in ⟨ie⟩ en ⟨ei⟩ zegt u de tweede letter. Voor u is dat vertrouwd terrein: het Nederlands doet het net zo (viel, ei). Dus geblieben heeft de klinker van vies, heißt heeft de klinker van eik, gesehen is ge-ZAY-en met een s die als z klinkt, en gefahren eindigt op de ingeslikte -en die ze allemaal hebben. Geen van deze is een nieuw geluid voor u. Het zijn herspellingen van klanken die u al bezit."
+      },
+      {
+        "titulo": "Noem de plaats, krijg de tip",
+        "corpo": "Een algemeen oordeel — het was leuk, de dag was goed — geeft de persoon tegenover u niets vast te houden. Een eigennaam wel: ze zijn er geweest, of hun neef, of ze vertellen u waar u wel had moeten zijn. Daar draait de avond van u die een samenvatting geeft naar hen die uw morgen plannen, en daarvoor loont het de bouwsteen klaar te hebben op het moment dat het gebeurt: können Sie das aufschreiben, want een naam van vier lettergrepen aan een luide tafel is bij het ontbijt weg."
+      },
+      {
+        "titulo": "Gift is geen cadeau",
+        "corpo": "Dit is het ene woord in het paar dat werkelijk iets kan kosten. Das Gift is een stof met een vernietigend of dodelijk effect — vergif. Een cadeau is das Geschenk. Wat het onthoudbaar maakt in plaats van willekeurig is dat de twee werkelijk hetzelfde woord zijn: Gift is een oude vorming bij geben, en betekende ooit het geven, de gave, voor het versmalde naar de dosis die doodt. Duits hield de oorspronkelijke betekenis op precies één plaats: Mitgift, een bruidsschat. Vier andere zijn de moeite waard om mee te nemen in een gesprek over een reis: bekommen is krijgen, niet worden, dat is werden; eventuell betekent mogelijk en niet uiteindelijk, dat is schließlich, en dat paar keert een toezegging om; aktuell betekent huidig en niet feitelijk, dat is eigentlich; en der Chef is de baas, terwijl een kok der Koch is."
+      }
+    ]
+  },
+  "slot": "I06",
+  "permissao": "U mag gisteren in drie korte zinnen vertellen en stoppen. Niemand aan die tafel wacht op een volledig reisverslag, en «Ich war in Berlin. Es war super.» is een compleet, volwassen verhaal van een dag. U mag terugvallen op war voor alles waarvoor u geen blok heeft — het is geen mindere antwoord, het is hetzelfde antwoord in minder stukken. En u mag het einde van een woord fout zeggen tijdens het vertellen: de dag is nog gebeurd, de luisteraar weet nog waar u was, en begrepen worden is het hele werk.",
+  "permissaoAudioKey": "de-i06-n05",
+  "espelho": "Wie thuiskwam en gevraagd werd hoe de reis was, kent dit probleem: de week was enorm en wat eruit komt is «leuk, ja, echt leuk». De reparatie is in beide talen dezelfde — noem één plaats, noem één ding dat u at, en laat de ander de tweede vraag stellen.",
+  "fichasCulturais": [
+    {
+      "sinal": "U zegt dat de dag schön was en krijgt een vriendelijke knik; u zegt Dresden en de stoel komt dichterbij.",
+      "suaLeitura": "Mijn Duits werd beter tussen die twee zinnen.",
+      "oQueEAli": "De eigennaam veranderde het, niet de grammatica. Een plaatsnaam is iets waar de ander zich aan kan vasthouden — ze zijn er geweest, ze zijn er opgegroeid, of ze hebben een betere om u naartoe te sturen. Een algemeen oordeel laat hen niets te beantwoorden.",
+      "oQueVoceFaz": "Zet de echte naam in de zin — de stad, de straat, het museum, het gerecht — stop dan en laat de vraag terugkomen. Komt er een naam terug, vraag die op papier.",
+      "oQueMelhora": "U levert geen samenvatting meer en verzamelt aanbevelingen, wat de hele reden is om het verhaal hardop te vertellen.",
+      "ondeNaoVale": "Het is geen techniek voor iedereen. Iemand achter een balie met een rij achter u is vriendelijk, niet klaar voor de avond, en daar zijn dezelfde drie zinnen al de juiste lengte.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "de-i06-n07"
+      ]
+    },
+    {
+      "sinal": "Een fles in een werkplaats, een kast in een keuken of een plank in een bouwmarkt draagt het etiket Gift.",
+      "suaLeitura": "Er staat iets op die plank dat als cadeau bedoeld is, of de winkel is grappig in het Engels.",
+      "oQueEAli": "Das Gift is vergif — een stof met een vernietigend of dodelijk effect op het lichaam. Het Duits voor een cadeau is das Geschenk. De twee zijn werkelijk cognaat: Gift is een oude vorming bij het werkwoord geben en betekende ooit het geven, de gave, en versmalde later onder invloed van een Grieks en Latijns woord voor een dosis. De oude betekenis leeft in het Duits alleen voort in Mitgift, een bruidsschat.",
+      "oQueVoceFaz": "Lees Gift overal als waarschuwing, en gebruik Geschenk als u een cadeau bedoelt — ich suche ein Geschenk in een winkel, niets anders.",
+      "oQueMelhora": "Het duurste woord in dit taalpaar is niet meer dubbelzinnig, op de twee plaatsen waar u het echt tegenkomt: een etiket en een souvenirtoonbank.",
+      "ondeNaoVale": "Alleen de Duitse kant van dit en de andere paren is in woordenboeken geverifieerd; de Engelse kant is voor twee woorden gecontroleerd. Behandel de lijst als betrouwbare Duitse betekenissen en niet als een uitspraak over hoe het Engels werkt, en breid hem niet uit naar paren die niemand heeft opgezocht.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-i06-n08"
+      ]
+    }
+  ]
+}

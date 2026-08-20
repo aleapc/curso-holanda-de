@@ -1,0 +1,449 @@
+{
+  "id": "b02",
+  "nivel": "basico",
+  "numero": 2,
+  "parte": "B02",
+  "titulo": "Groet bij binnenkomst, en negen andere woorden",
+  "subtitulo": "Tien woorden dragen een heel winkelbezoek — en het openingswoord verschuift met de kaart, van Moin in het noorden tot Grüß Gott in het zuiden",
+  "cena": "U stapt 's middags een winkeltje binnen waar al twee klanten staan; de eigenaar achter de toonbank kijkt op, en er is een halve seconde waarin het woord er wel of niet uitkomt.",
+  "moldura": "ganha",
+  "frasePiso": "Eén woord bij binnenkomst, één bij het weggaan, en drie maten dank ertussenin. Dat is het hele bezoek.",
+  "moldes": [
+    "DANKE"
+  ],
+  "clique": {
+    "contagem": [
+      "de bakkerstoonbank",
+      "de hotelreceptie",
+      "het loket",
+      "het juiste gebouw, twee straten verderop"
+    ],
+    "desconto": "Niemand gaf u een andere afsluiter voor de bakker, de receptioniste en de baliemedewerker. U hield één woord aan en veranderde alleen hoeveel u ervan zei.",
+    "piso": "De volgende keer dat iemand u iets aanreikt en u zou hebben geknikt, komt er een woord uit — en u kiest zelf welke maat het is."
+  },
+  "fatosDatados": [
+    {
+      "id": "de-b02-gruss",
+      "afirmacao": "The afternoon greeting changes by region, and the survey that documents it is set in exactly the situation this part teaches: walking into a small shop in the afternoon. The Atlas zur deutschen Alltagssprache (Elspaß, Salzburg / Möller, Liège), round 2, question F01, maps Moin and Moinmoin to Schleswig-Holstein and northern Lower Saxony; Grüß Gott to southern Germany, Austria and the pre-Alpine belt; Servus to eastern Bavaria and Austria; Grüezi and Hoi to northern and eastern Switzerland and Vorarlberg; and Hallo as general, recorded across roughly 150 survey points. Two findings from the atlas itself are better than the guidebook version: Moin does not come from Morgen but from moien Dag, from a Low German and Frisian moi meaning pleasant, so that the shortened form keeps only the adjective; and Hallo is the largest change in use since the 1970s, replacing or competing with Guten Tag above all in the north and west, outside the Moin area.",
+      "fonte": "Atlas zur deutschen Alltagssprache (AdA), Elspaß (Salzburg) / Möller (Liège), Rodada 2, questão F01, «Gruß am Nachmittag» [RESUMO — página lida por fetch]. Pesquisa §3.2. RESSALVAS DE MÉTODO, obrigatórias: o AdA publica CATEGORIAS ORDINAIS (üblich / ab und zu / unüblich) por localidade, NUNCA percentuais — qualquer número percentual atribuído ao AdA seria invenção (lista de exclusão, item 17); e o AdA dá PONTOS DE INQUÉRITO, não isoglossas, de modo que nenhuma fronteira mais fina que «Schleswig-Holstein + norte da Baixa Saxônia» existe para o Moin (item 18). A etimologia de Moin é do próprio AdA; a afirmação de que por isso serve a qualquer hora é MODERADA. O Goethe-Institut foi verificado e descartado: a página não cita fonte nem dado. DATAÇÃO: a pesquisa não declara o ano de campo da Rodada 2 do AdA; o campo `ano` registra a CONSULTA de 2026, não o ano do inquérito, e nenhuma data de campo pode ser atribuída à carta F01.",
+      "ano": 2026,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-b02-n04",
+        "de-b02-n05",
+        "de-b02-n06",
+        "de-b02-n07"
+      ]
+    },
+    {
+      "id": "de-b02-sie",
+      "afirmacao": "Sie is the entry-level address and the learner never has to decide anything. The Duden Sprachratgeber states that in business life and with new contacts Sie is the correct address, and that du is offered downwards — the boss to the employee, the older colleague to the younger — with unasked-for du from a superior treated as bad manners. The linguist Horst Simon (FU Berlin), interviewed by Spektrum der Wissenschaft on 27 March 2023, adds the part that matters most: anyone may offer du, and the real asymmetry is that the person receiving the offer can hardly refuse it. Simon also states that the claim Sie is disappearing is not established. The only quantitative figure located is a commercial survey by Appinio dated 7 January 2026, N=4,877, ages 16–54: 54 per cent address their boss as Sie, and fewer than one in ten in every age band support abolishing Sie.",
+      "fonte": "Duden, Sprachratgeber «Duzen oder Siezen?», verbatim: «Grundsätzlich ist im Geschäftsleben oder bei neuen Kontakten aber zunächst das Sie die korrekte Ansprache»; «das Du wird von oben nach unten angeboten, der Chef bietet es dem Mitarbeiter an, die ältere Kollegin der jüngeren». Horst Simon (FU Berlin), entrevista à Spektrum der Wissenschaft, 27/3/2023 [RESUMO]. Appinio, «Siezen oder Duzen», 7/1/2026, N=4.877, 16–54 anos [RESUMO]. Pesquisa §3.1. RESSALVAS: o Appinio é instituto COMERCIAL, representatividade não declarada, e a faixa etária para em 54 anos — serve para dizer «o Sie não está sendo abolido», não para número fino. RECUSADO e fora do curso: «a mulher oferece o du» (item 3 da lista de exclusão) e a DIREÇÃO da assimetria em loja e restaurante (item 20), que nenhuma fonte aberta documenta.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-b02-n08",
+        "de-b02-n09"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b02-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Tien woorden dragen hier een heel winkelbezoek, en één ervan moet naar buiten vóór wat dan ook anders.",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b02-n03",
+      "bloco": "corpo",
+      "pt": "De groet is geen versiering. Het is de halve seconde die zegt dat u binnen bent, niet dat u alleen rondkijkt.",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-b02-t01",
+      "es": "Guten Tag.",
+      "pinyin": "GOO-ten tahk",
+      "pt": "Goedendag. Werkt van halverwege de ochtend tot de avond, overal in het land.",
+      "tts": "Guten Tag."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b02-p01",
+      "promptPt": "Twee uur 's middags; u komt de winkel binnen en de eigenaar heeft van de kassa opgekeken. Spreek nu.",
+      "audioKey": "de-b02-t01",
+      "es": "Guten Tag.",
+      "pinyin": "GOO-ten tahk",
+      "pt": "Goedendag.",
+      "tts": "Guten Tag."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b02-p02",
+      "promptPt": "Zeven uur 's avonds nu; u stapt een restaurant binnen waar iemand een stapel menukaarten vasthoudt. Spreek nu.",
+      "audioKey": "de-b02-t02",
+      "es": "Guten Abend.",
+      "pinyin": "GOO-ten AH-bent",
+      "pt": "Goedenavond.",
+      "tts": "Guten Abend."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b02-n04",
+      "pt": "Welke groet u hoort hangt af van de kaart. Een enquête naar de middaggroet vond een ander woord in elke uithoek.",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b02-r01",
+      "receptivo": true,
+      "es": "Moin. Moin moin.",
+      "pinyin": "moyn · moyn moyn",
+      "pt": "Hallo, in het noorden. Één lettergreep, even vaak dubbel als enkel gezegd, en hij komt vóór u binnen bent.",
+      "tts": "Moin. Moin moin.",
+      "acao": "Antwoord met hetzelfde woord als u in het noorden bent en het net hebt gehoord. Kopieer wat de ruimte gebruikte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b02-n05",
+      "pt": "Moin hoort bij Sleeswijk-Holstein en het noorden van Nedersaksen. En het komt niet van Morgen.",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b02-n06",
+      "pt": "Het komt van een Nederduits woord voor mooi of aangenaam. Wat overbleef is het bijvoeglijk naamwoord, niet het uur.",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-b02-r02",
+      "receptivo": true,
+      "es": "Grüß Gott. Servus.",
+      "pinyin": "grues got · ZEHR-voos",
+      "pt": "Hallo, in het zuiden, en hallo met meer warmte erin. De tweede werkt ook als afscheid.",
+      "tts": "Grüß Gott. Servus.",
+      "acao": "Herken deze twee liever dan ze zelf te grijpen. Waar ze thuishoren hoort u ze binnen het eerste uur."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b02-n07",
+      "pt": "Die twee horen in het zuiden. Hallo werkt overal, en het is de grootste verschuiving in gebruik sinds de jaren zeventig.",
+      "tom": "ganha"
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b02-p03",
+      "promptPt": "U weet niet in welke regio u staat, de zaak is klein, en iemand heeft opgekeken. Eén woord dekt u. Spreek nu.",
+      "audioKey": "de-b02-t03",
+      "es": "Hallo.",
+      "pinyin": "HAH-lo",
+      "pt": "Hallo.",
+      "tts": "Hallo."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b02-n08",
+      "pt": "Nu de aanspreekvorm. Sie geldt voor elke onbekende volwassene, elke toonbank, elk kantoor — de hele reis lang.",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b02-n09",
+      "pt": "De overstap naar de informele vorm wordt aangeboden door de andere, nooit door u genomen. Geen beslissing voor u dus.",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b02-n02",
+      "bloco": "molde",
+      "pt": "Hier de bouwsteen: danke, danke schön, vielen Dank. Drie maten dank, en de maat is uw enige keuze.",
+      "tom": "ganha"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "DANKE",
+      "encaixe": "danke",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b02-p04",
+      "promptPt": "De bakkerstoonbank, een zak overhandigd, drie seconden transactie en een rij achter u. Kleinste maat. Spreek nu.",
+      "audioKey": "de-b02-t04",
+      "es": "Danke.",
+      "pinyin": "DAHN-kuh",
+      "pt": "Dank.",
+      "tts": "Danke."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "DANKE",
+      "encaixe": "danke schön",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b02-p05",
+      "promptPt": "Aan de hotelreceptie heeft ze zojuist de plattegrond geprint en er een lijn op getekend voor u. Middelste maat. Spreek nu.",
+      "audioKey": "de-b02-t05",
+      "es": "Danke schön.",
+      "pinyin": "DAHN-kuh shoen",
+      "pt": "Dank u wel.",
+      "tts": "Danke schön."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "DANKE",
+      "encaixe": "vielen Dank",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b02-p06",
+      "promptPt": "Een onbekende heeft u naar het juiste gebouw twee straten verderop gelopen en keert nu om. Grootste maat. Spreek nu.",
+      "audioKey": "de-b02-t06",
+      "es": "Vielen Dank.",
+      "pinyin": "FEE-len dahnk",
+      "pt": "Hartelijk dank.",
+      "tts": "Vielen Dank."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b02-r03",
+      "receptivo": true,
+      "es": "Bitte schön. Gern geschehen.",
+      "pinyin": "BIT-tuh shoen · gehrn guh-SHAY-en",
+      "pt": "Graag gedaan, en met plezier. Beide komen recht terug, en geen van beide vraagt een antwoord.",
+      "tts": "Bitte schön. Gern geschehen.",
+      "acao": "Hoor deze twee als een punt, niet als een vraag. De uitwisseling is klaar en u kunt uw tas pakken en gaan."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b02-n13",
+      "pt": "Bitte doet vier klussen: alstublieft, hier-heeft-u, graag gedaan, en pardon. Het vaakst hergebruikte woord van het land.",
+      "tom": "ganha"
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b02-p07",
+      "promptPt": "Ze houdt de zak open en vraagt of u het tweede er ook bij wilt. Dat wilt u. Spreek nu.",
+      "audioKey": "de-b02-t07",
+      "es": "Ja, bitte.",
+      "pinyin": "yah, BIT-tuh",
+      "pt": "Ja, graag.",
+      "tts": "Ja, bitte."
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "DANKE",
+      "encaixe": "danke",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b02-p08",
+      "promptPt": "Zelfde toonbank; nu biedt ze een papieren zak aan die u niet nodig hebt. Sla af zonder koel te worden. Spreek nu.",
+      "audioKey": "de-b02-t08",
+      "es": "Nein, danke.",
+      "pinyin": "nine, DAHN-kuh",
+      "pt": "Nee, dank.",
+      "tts": "Nein, danke."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b02-n11",
+      "pt": "Nog één woord, en het is vandaag het langste. Alleen is het een excuus. In deel drie wordt het een opener.",
+      "tom": "ganha"
+    },
+    {
+      "consulta": [
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b02-p09",
+      "promptPt": "Het gangpad is smal, u bent net achteruit tegen iemand aangelopen, en jullie houden allebei een mandje vast. Spreek nu.",
+      "audioKey": "de-b02-t09",
+      "es": "Entschuldigung.",
+      "pinyin": "ent-SHOOL-di-goong",
+      "pt": "Pardon.",
+      "tts": "Entschuldigung."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b02-n10",
+      "pt": "Twee afscheiden dekken alles: het korte bij het verlaten van een winkel, het lange waar de ruimte formeler is.",
+      "tom": "ganha"
+    },
+    {
+      "consulta": [
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b02-p10",
+      "promptPt": "U staat bij de deur op weg naar buiten en zij is nog achter de toonbank. De korte. Spreek nu.",
+      "audioKey": "de-b02-t10",
+      "es": "Tschüss!",
+      "pinyin": "chues",
+      "pt": "Doei!",
+      "tts": "Tschüss!"
+    },
+    {
+      "consulta": [
+        "chegar/sair",
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "DANKE",
+      "encaixe": "danke",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b02-p11",
+      "promptPt": "Aan het loket heeft de bediende een aansluiting uitgezocht die u niet begreep, en er wacht een rij. Sluit af en ga. Spreek nu.",
+      "audioKey": "de-b02-t11",
+      "es": "Danke, auf Wiedersehen.",
+      "pinyin": "DAHN-kuh, owf VEE-duh-zay-en",
+      "pt": "Dank, tot ziens.",
+      "tts": "Danke, auf Wiedersehen."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-b02-s01",
+      "molde": "DANKE",
+      "es": "Danke. Danke schön. Vielen Dank.",
+      "pinyin": "DAHN-kuh · DAHN-kuh shoen · FEE-len dahnk",
+      "pt": "Schaduw de drie maten achter elkaar, en merk op hoeveel langer de laatste duurt om uit te spreken.",
+      "tts": "Danke. Danke schön. Vielen Dank."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b02-n12",
+      "bloco": "recap",
+      "pt": "B02 klaar. Groet bij binnenkomst, drie maten danke, Sie voor iedereen, en Tschüss bij het weggaan.",
+      "tom": "ganha"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Tien woorden, één aanspreekvorm, en een kaart",
+    "secoes": [
+      {
+        "titulo": "De tien",
+        "corpo": "Guten Morgen, Guten Tag, Guten Abend; Hallo; bitte; danke, danke schön, vielen Dank; ja en nein; Entschuldigung; Tschüss en Auf Wiedersehen. Dat is de hele startset, en niets erin verandert van vorm afhankelijk van tegen wie u praat. Twee ervan, Moin en Grüß Gott, staan in de luisterkolom en niet in de spreekkolom: ze horen bij bepaalde streken en u weet binnen een dag in welke u staat.",
+        "exemplos": [
+          {
+            "es": "Guten Tag. … Danke schön. … Auf Wiedersehen.",
+            "pt": "De drie tellen van een bezoek: binnen, dank, buiten"
+          },
+          {
+            "es": "Ja, bitte. / Nein, danke.",
+            "pt": "Ja alstublieft / nee dank u — de twee antwoorden die u het vaakst nodig hebt"
+          }
+        ]
+      },
+      {
+        "titulo": "De drie maten dank",
+        "corpo": "Danke op zichzelf is kort en past bij een transactie: muntjes, een zak, een bonnetje. Danke schön is een trap hoger en past bij alles wat de ander een moment aandacht heeft gekost. Vielen Dank is de volste van de drie en hoort waar iemand daadwerkelijk iets voor u heeft gedaan — u ergens heen gelopen, een telefoontje gepleegd, een aansluiting gevonden. Het is een keuze van maat, niet van grammatica: de bouwsteen verandert nooit van vorm en hangt niet af van tegen wie u praat."
+      },
+      {
+        "titulo": "Bitte, en zijn vier klussen",
+        "corpo": "Bitte is alstublieft aan het eind van een verzoek; het is alstublieft-hier wanneer iets wordt overhandigd; het is graag gedaan na een dankwoord; en, alleen gezegd met stijgende toon, is het pardon, ik heb u niet gevolgd. Bitte schön en gern geschehen zijn de twee antwoorden die u het vaakst hoort na een bedankje, en geen van beide vraagt iets van u — ze sluiten de uitwisseling."
+      },
+      {
+        "titulo": "De groetenkaart, en wat de enquête wel en niet zegt",
+        "corpo": "Een enquête naar alledaags Duits vroeg hoe mensen gewoontegetrouw groeten bij binnenkomst in een winkeltje in de middag — precies de situatie waar u in staat. Moin en Moinmoin horen bij Sleeswijk-Holstein en het noorden van Nedersaksen; Grüß Gott bij Zuid-Duitsland, Oostenrijk en de vooralpiene strook; Servus bij Oost-Beieren en Oostenrijk; Grüezi en Hoi bij noordelijk en oostelijk Zwitserland; en Hallo is algemeen, gemeten op zo'n honderdvijftig enquêtepunten. Twee dingen die de atlas noteert en waar reisgidsen naast zitten: Moin is geen verkorting van Morgen — het komt van moien Dag, van een Nederduits en Fries woord voor aangenaam, dus wat overbleef is het bijvoeglijk naamwoord — en Hallo is de grootste verschuiving in gebruik sinds de jaren zeventig, concurrerend met of vervangend van Guten Tag vooral in het noorden en westen, buiten het Moin-gebied. De atlas publiceert ordinale categorieën per locatie in plaats van percentages, en enquêtepunten in plaats van grenzen, dus er valt geen fijnere Moin-grens te leren dan die."
+      },
+      {
+        "titulo": "Sie, en het aanbod dat u niet kunt doen",
+        "corpo": "Sie is de correcte aanspreekvorm in zaken en met nieuwe contacten, en het is wat u gebruikt voor elke onbekende volwassene, de hele reis lang. De overstap naar het informele du wordt aangeboden en niet aangenomen, en hij reist naar beneden — een baas naar een medewerker, een oudere collega naar een jongere — waarbij een ongevraagd du van bovenaf als onbeleefd geldt. Een taalkundige die over aanspreekvormen in het Duits werkt zet het scherper: iedereen mag du aanbieden, en de echte asymmetrie is dat degene die het aanbod krijgt het nauwelijks kan weigeren. Uw enige zet is dus de veilige, en die doet u door niets te doen. Voor u ligt dit dichter bij thuis dan bij het Engels: u kent u en jij al uit huis, en de keuze om altijd bij u te blijven op reis is precies de conservatieve keuze die deze cursus maakt. Dat Sie zou verdwijnen is trouwens niet aangetoond; het enige beschikbare cijfer komt uit een commerciële enquête, en daarin wilde minder dan één op de tien in elke leeftijdsgroep Sie afschaffen."
+      },
+      {
+        "titulo": "Twee afscheiden, en waarom maar twee",
+        "corpo": "Tschüss is neutraal en werkt in een winkel, een café, een bakker, een taxi. Auf Wiedersehen is de formele en hoort waar de ruimte formeel is: een kantoor, een bank, een dokterspraktijk, een hotelreceptie die zorgvuldig met u is. Regionale afscheiden bestaan — u hoort ze in het zuiden en het zuidwesten — maar het enquêtemateriaal dat ze in kaart brengt is niet met begeleidende tekst gepubliceerd, dus deze cursus leert u de twee die overal veilig zijn en laat u de lokale via het gehoor oppakken."
+      }
+    ]
+  },
+  "slot": "B02",
+  "permissao": "U mag overal Hallo zeggen. Het is algemeen in het hele land, het is de grootste verschuiving in groetgedrag in vijftig jaar, en niemand hoort het als een compromis van een buitenstaander. U hoeft niet uit te vogelen in welke regio u staat voordat u uw mond opent, en u hoeft nooit tussen formeel en informeel te kiezen — Sie is standaard goed, en de andere is niet aan u om aan te bieden.",
+  "permissaoAudioKey": "de-b02-n07",
+  "espelho": "U doet dit hele stuk thuis al zonder het te benoemen: het knikje bij de kiosk, het dank dat één lettergreep is aan de kassa en drie lettergrepen wanneer iemand een deur voor u openhoudt. Niemand leerde u de maten en u hebt er nog nooit een fout gehad. Dit hoofdstuk is dezelfde set zetten met andere klanken.",
+  "fichasCulturais": [
+    {
+      "sinal": "U loopt een winkeltje binnen, gaat recht op het schap af dat u wilt, en spreekt pas aan de kassa.",
+      "suaLeitura": "Rustig rondkijken is beleefd — met personeel praten voordat ik ze nodig heb, valt lastig.",
+      "oQueEAli": "De enquête die het Duitse groetgedrag documenteert is letterlijk gesitueerd in een winkeltje 's middags, wat u vertelt waar de groet leeft: het is toonbankgedrag, geen ceremonie. Het woord zelf verandert met de kaart — Moin in Sleeswijk-Holstein en het noorden van Nedersaksen, Grüß Gott en Servus in het zuiden en in Oostenrijk, Grüezi in Zwitserland, en Hallo is algemeen op zo'n honderdvijftig enquêtepunten.",
+      "oQueVoceFaz": "Zeg Hallo of Guten Tag bij het binnenkomen, vóór u ergens naar kijkt. Gebruik daarna wat er bij u terugkwam de volgende keer dat u in dezelfde plaats een winkel binnenloopt.",
+      "oQueMelhora": "De tweede helft van de uitwisseling wordt makkelijker omdat de eerste heeft plaatsgevonden, en u stopt met de persoon te zijn die uit het niets aan de kassa opduikt.",
+      "ondeNaoVale": "De atlas publiceert ordinale categorieën per locatie, geen percentages, en enquêtepunten in plaats van grenzen — dus er is geen exact Moin-gebied naast Sleeswijk-Holstein en Noord-Nedersaksen, en geen cijfer om te citeren. En niets hierin zegt dat een winkel u onbeleefd zal behandelen als u stil blijft; het zegt dat de groet u ter beschikking staat en goedkoop is.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-b02-n04"
+      ]
+    },
+    {
+      "sinal": "Iemand van ongeveer uw leeftijd aan de tafel naast u, of een medewerker in een winkel gericht op jongere klanten, spreekt u aan met du.",
+      "suaLeitura": "We staan nu op informele voet, dus het zou stijf of onvriendelijk zijn om geen du terug te zeggen.",
+      "oQueEAli": "Sie is de correcte aanspreekvorm in zaken en met nieuwe contacten. De overstap naar du is een aanbod, hij loopt van hoger naar lager, en de goed gedocumenteerde asymmetrie gaat er niet over wie mag aanbieden — iedereen mag — maar over het feit dat wie het aanbod krijgt het nauwelijks kan weigeren. Het risico ligt dus geheel bij de aanbieder, en dat bent u nooit.",
+      "oQueVoceFaz": "Blijf zelf bij Sie. Niets wat u geleerd hebt verandert van vorm, want Sie zit al in elke vaste zin uit deze cursus. Gebruikt iemand du tegen u, neem het als hún keuze en ga door.",
+      "oQueMelhora": "U stopt aandacht uit te geven aan een beslissing die niet van u is, en u maakt nooit die ene zet die echt scheef zou landen: ongevraagde informaliteit van een vreemde.",
+      "ondeNaoVale": "Wie in een winkel of een restaurant wie met Sie aanspreekt, is in geen enkele open bron gedocumenteerd — die richting is een beschreven conventie, geen meting. De Sie-cijfers komen van een commercieel instituut met niet-vermelde representativiteit en met een leeftijdsgroep die bij 54 stopt. En niets hiervan voorspelt de persoon voor u: een aanbod van du zegt iets over hem en zijn winkel, niet over hoe u het deed.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-b02-n09"
+      ]
+    }
+  ]
+}

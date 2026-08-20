@@ -1,0 +1,328 @@
+{
+  "id": "a03",
+  "nivel": "avancado",
+  "numero": 31,
+  "parte": "A03",
+  "titulo": "Ein Land, das sich selbst aus dem Meer gebaut hat",
+  "subtitulo": "Mehr Fahrräder als Einwohner, ein Agrarexport auf Platz zwei der Welt, und ein Stolz, der lieber zeigt als sagt",
+  "slot": "A03",
+  "moldura": "ganha",
+  "cena": "Auf dem Deich vor Rotterdam zeigt dir jemand mit der flachen Hand die Linie, unter der gerade das ganze Land liegt, und wartet ab, wie dein Gesicht reagiert.",
+  "frasePiso": "Nach diesem Teil erkennst du drei Dinge, auf die dieses kleine Land leise stolz ist — ohne dass dir je jemand ein Zahlenblatt in die Hand gedrückt hat.",
+  "permissao": "Du musst hier keine einzige Zahl auswendig können. Es reicht, wenn dein Gesicht zeigt, dass dich das Fahrrad-vor-jeder-Tür oder der Deich beeindruckt — die Reaktion ist der ganze Beitrag, den man von dir erwartet.",
+  "permissaoAudioKey": "hol-a03-n11",
+  "espelho": "Wer in seinem eigenen Land schon mal einem Gast leise gezeigt hat, worauf man wirklich stolz ist — ohne es laut zu sagen —, kennt diesen Ton bereits. Neu ist nur, dass hier das Zeigen selbst schon die ganze Aussage ist.",
+  "fichasCulturais": [
+    {
+      "sinal": "Du sagst begeistert «Das ist ja unglaublich, wie viele Fahrräder hier stehen!», und die Antwort ist ein Schulterzucken: «Ja, das ist hier halt so.»",
+      "suaLeitura": "Meine Bewunderung kam nicht an, oder es interessiert sie gar nicht.",
+      "oQueEAli": "Das Gegenteil: Du hast gerade etwas benannt, das so alltäglich ist, dass ein großes Wort darüber fast falsch klänge. Es gibt schlicht mehr Fahrräder als Einwohner im Land, und genau weil es niemand extra erwähnt, ist es echter Stolz und keine Pose.",
+      "oQueVoceFaz": "Nimm das Schulterzucken als Zustimmung, nicht als Abwehr. Eine konkrete Beobachtung («Sogar der Bürgermeister fährt Rad, oder?») kommt meist besser an als ein großes Lob.",
+      "oQueMelhora": "Du liest eine ganze Gesprächsart richtig, die dir sonst wie Desinteresse vorkäme — und findest den Ton, mit dem hier über das eigene Land geredet wird.",
+      "ondeNaoVale": "Bei echten Ingenieursleistungen wie den Sturmflutwehren wird durchaus offen und lang erzählt, sobald du eine konkrete Frage stellst — das Understatement gilt fürs Alltägliche, nicht für jedes Thema.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "hol-a03-n09"
+      ]
+    },
+    {
+      "sinal": "Auf dem Deich zeigt dir jemand die Höhenlinie und sagt trocken: «Alles unter der Linie ist eigentlich Meer.»",
+      "suaLeitura": "Das klingt nach einer Warnung oder einer Übertreibung, um mich zu beeindrucken.",
+      "oQueEAli": "Es ist eine schlichte geografische Tatsache, die hier niemandem Angst macht, weil das Deich- und Pumpensystem seit Jahrhunderten genau dafür gebaut ist. Rund ein Viertel des Landes liegt unter dem Meeresspiegel — und funktioniert trotzdem, jeden Tag.",
+      "oQueVoceFaz": "Frag ruhig nach, wie das Pumpensystem funktioniert — das ist eines der wenigen Themen, bei denen aus dem knappen Ton plötzlich eine ausführliche, sichtlich stolze Erklärung wird.",
+      "oQueMelhora": "Ein Fakt, der beim ersten Hören nach Katastrophe klingt, wird zu einem der interessantesten Gespräche der Reise.",
+      "ondeNaoVale": "Nicht das ganze Land ist so tief — die östlichen und südlichen Landesteile liegen über dem Meeresspiegel, und die Linie auf dem Deich gilt für die Küsten- und Polderregionen, nicht überall.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "hol-a03-n02",
+        "hol-a03-n03"
+      ]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "hol-a03-meeresspiegel",
+      "afirmacao": "Etwa 26 Prozent der Niederlande liegen unter dem Meeresspiegel, und weitere Landesteile wären ohne Deiche und Dünen regelmäßig überflutet. Die Zahl stammt aus einer Berechnung mit einem digitalen Höhenmodell, kombiniert mit Boden- und Deichdaten — kein Schätzwert aus einem Reiseführer.",
+      "fonte": "PBL Netherlands Environmental Assessment Agency, in Zusammenarbeit mit Rijkswaterstaat-Waterdienst, Berechnung auf Basis des Actueel Hoogtebestand Nederland (Korrektur einer früheren IPCC-Angabe von 55 Prozent).",
+      "ano": 2020,
+      "revisarAte": "2030-08-20",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "hol-a03-n02",
+        "hol-a03-n03"
+      ]
+    },
+    {
+      "id": "hol-a03-fahrraeder",
+      "afirmacao": "Es gibt schätzungsweise rund 24 Millionen Fahrräder im Land, bei knapp 18 Millionen Einwohnern — deutlich mehr Fahrräder als Menschen. Die genaue Zahl ist eine Schätzung, keine Volkszählung, aber die Größenordnung ist seit Jahren stabil und wächst leicht weiter.",
+      "fonte": "Rijksoverheid (niederländische Regierung), Themenseite Fahrräder; ergänzt durch Branchenschätzungen zum Fahrradbestand.",
+      "ano": 2024,
+      "revisarAte": "2028-08-20",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "hol-a03-n05",
+        "hol-a03-n06"
+      ]
+    },
+    {
+      "id": "hol-a03-agrarexport",
+      "afirmacao": "Die Niederlande sind nach den USA der zweitgrößte Agrarexporteur der Welt, gemessen am Wert — ein Land von der Größe eines mittleren deutschen Bundeslands. Der Exportwert lag 2023 bei knapp 124 Milliarden Euro, getragen vor allem von Gewächshausgemüse, Blumen, Milchprodukten und Fleisch.",
+      "fonte": "CBS (Centraal Bureau voor de Statistiek), Meldung «Dutch agricultural exports worth nearly 124 billion euros in 2023».",
+      "ano": 2023,
+      "revisarAte": "2027-08-20",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "hol-a03-n07",
+        "hol-a03-n08"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a03-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "Drei Dinge, auf die dieses Land leise stolz ist. Niemand wird sie dir mit großen Worten erklären — du musst sie selbst bemerken."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a03-n02",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Erstens: das Land selbst. Etwa ein Viertel liegt unter dem Meeresspiegel und steht trotzdem trocken."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-a03-r01",
+      "tom": "ganha",
+      "receptivo": true,
+      "acao": "Er zeigt dir die Höhenlinie am Deich, ohne jede Dramatik. Nimm den trockenen Ton als Normalzustand.",
+      "es": "Alles onder die lijn is eigenlijk zee.",
+      "pinyin": "AL-les ON-der die lain is AI-chen-luk zee",
+      "pt": "Alles unter dieser Linie ist eigentlich Meer.",
+      "tts": "Alles onder die lijn is eigenlijk zee."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a03-n03",
+      "tom": "ganha",
+      "pt": "Deiche, Dünen und Pumpen halten das seit Jahrhunderten trocken. Das System funktioniert — jeden einzelnen Tag."
+    },
+    {
+      "consulta": [
+        "reparo/como-se-diz"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-a03-p01",
+      "promptPt": "Auf dem Deich willst du wissen, wo genau die Grenze zum ehemaligen Meeresboden verläuft. Frag ihn. Sprich jetzt.",
+      "audioKey": "hol-a03-t01",
+      "es": "Waar begint het land onder zeeniveau?",
+      "pinyin": "vaar be-CHINT het lant ON-der ZEE-nee-vo",
+      "pt": "Wo beginnt das Land unter dem Meeresspiegel?",
+      "tts": "Waar begint het land onder zeeniveau?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a03-n04",
+      "tom": "ganha",
+      "pt": "Zweitens: das Fahrrad. Es ist hier kein Sportgerät, sondern das ehrlichste Transportmittel im Land."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_f",
+      "audioKey": "hol-a03-r02",
+      "tom": "ganha",
+      "receptivo": true,
+      "acao": "Sie sagt es beiläufig, als wäre es das Selbstverständlichste der Welt. Genau das ist die Pointe.",
+      "es": "Iedereen heeft hier minstens één fiets, vaak twee.",
+      "pinyin": "EE-der-een heft heer min-stens ain FEETS, fak tvee",
+      "pt": "Hier hat jeder mindestens ein Fahrrad, oft zwei.",
+      "tts": "Iedereen heeft hier minstens één fiets, vaak twee."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a03-n05",
+      "tom": "ganha",
+      "pt": "Rund vierundzwanzig Millionen Fahrräder auf knapp achtzehn Millionen Menschen. Mehr Räder als Köpfe."
+    },
+    {
+      "consulta": [
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-a03-p02",
+      "promptPt": "Am Bahnhof stehen Hunderte Räder zum Verleih, und du willst eines für den Tag. Frag nach dem Preis. Sprich jetzt.",
+      "audioKey": "hol-a03-t02",
+      "es": "Hoeveel kost een fiets voor één dag?",
+      "pinyin": "HOE-feel kost en feets foor één dach",
+      "pt": "Wie viel kostet ein Fahrrad für einen Tag?",
+      "tts": "Hoeveel kost een fiets voor één dag?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a03-n06",
+      "tom": "ganha",
+      "pt": "Das Fahrradnetz ist kein Zufall — es wurde jahrzehntelang so gebaut. Die Zahl der Räder ist nur die Folge davon."
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "molde": "HABEN-SIE",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-a03-p03",
+      "promptPt": "Der Verleih hat eine Warteschlange, und du willst zuerst wissen, ob überhaupt noch eins frei ist. Frag mit dem Baustein, den du schon kennst. Sprich jetzt.",
+      "audioKey": "hol-a03-t03",
+      "es": "Heeft u nog een fiets vrij?",
+      "pinyin": "HÉÉFT ü noch en feets fraiy",
+      "pt": "Haben Sie noch ein Fahrrad frei?",
+      "tts": "Heeft u nog een fiets vrij?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a03-n07",
+      "tom": "ganha",
+      "pt": "Drittens: das Land ernährt einen Kontinent. Nach den USA ist es der zweitgrößte Agrarexporteur der Welt."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-a03-r03",
+      "tom": "ganha",
+      "receptivo": true,
+      "acao": "Er nennt die Gewächshäuser ganz nebenbei, während er auf ein Feld voller Glas zeigt. Kein Ausrufezeichen in der Stimme.",
+      "es": "Die kassen daar, dat is allemaal tomaat voor heel Europa.",
+      "pinyin": "die KAS-sen daar, dat is al-le-MAAL to-MAAT foor heel öü-RO-pa",
+      "pt": "Die Gewächshäuser da drüben, das sind alles Tomaten für ganz Europa.",
+      "tts": "Die kassen daar, dat is allemaal tomaat voor heel Europa."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a03-n08",
+      "tom": "ganha",
+      "bloco": "capsula",
+      "pt": "Knapp einhundertvierundzwanzig Milliarden Euro Agrarexport, aus einem Land so groß wie ein mittleres Bundesland."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a03-n09",
+      "tom": "ganha",
+      "pt": "Sag es laut, und die Antwort ist meist ein Schulterzucken. Das ist hier keine Ablehnung — es ist der Stolz, der lieber zeigt als sagt."
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar-lugar"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-a03-p04",
+      "promptPt": "Vor dem Gewächshausmeer angekommen, willst du sagen, wie beeindruckend das ist — ohne Übertreibung, einfach ehrlich. Sprich jetzt.",
+      "audioKey": "hol-a03-t04",
+      "es": "Dat is echt indrukwekkend, zeg.",
+      "pinyin": "dat is echt in-druk-VEK-kend, zech",
+      "pt": "Das ist wirklich beeindruckend.",
+      "tts": "Dat is echt indrukwekkend, zeg."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a03-n10",
+      "tom": "ganha",
+      "bloco": "permissao",
+      "pt": "Du brauchst keine einzige Zahl im Kopf zu behalten. Ein ehrliches Gesicht ist hier schon der ganze Beitrag."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "molde": "DANKE",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-a03-p05",
+      "promptPt": "Er hat dir gerade fünf Minuten lang das Deichsystem erklärt, sichtlich gern. Bedank dich dafür. Sprich jetzt.",
+      "audioKey": "hol-a03-t05",
+      "es": "Dank u wel, heel interessant!",
+      "pinyin": "dank ü wel, heel in-ter-es-SANT",
+      "pt": "Vielen Dank, sehr interessant!",
+      "tts": "Dank u wel, heel interessant!"
+    },
+    {
+      "consulta": ["simpatia/puxar-conversa"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-a03-p06",
+      "promptPt": "Du willst wissen, seit wann die Familie schon Fahrräder für den Verleih anbietet — eine ehrliche Neugier, kein Small Talk. Sprich jetzt.",
+      "audioKey": "hol-a03-t06",
+      "es": "Hoe lang doet u dit al?",
+      "pinyin": "hoe lang doet ü dit al",
+      "pt": "Wie lange machen Sie das schon?",
+      "tts": "Hoe lang doet u dit al?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-a03-s01",
+      "tom": "ganha",
+      "es": "Waar begint het land onder zeeniveau? Heeft u nog een fiets vrij? Dat is echt indrukwekkend, zeg.",
+      "pinyin": "vaar be-CHINT het lant ON-der ZEE-nee-vo · HÉÉFT ü noch en feets fraiy · dat is echt in-druk-VEK-kend zech",
+      "pt": "Schatte die drei nach, die den Deich, das Fahrrad und das Gewächshaus abdecken.",
+      "tts": "Waar begint het land onder zeeniveau? Heeft u nog een fiets vrij? Dat is echt indrukwekkend, zeg."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a03-n11",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "A03 fertig. Ein Viertel unter dem Meer, mehr Räder als Menschen, und Tomaten für ganz Europa — leise gesagt, laut gemeint."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Drei Zahlen, und warum sie so ruhig ausgesprochen werden",
+    "secoes": [
+      {
+        "titulo": "Ein Viertel unter dem Meer",
+        "corpo": "Die oft zitierte, überzogene Zahl von über der Hälfte des Landes unter dem Meeresspiegel geht auf einen Fehler in einem IPCC-Bericht zurück. Die korrigierte, methodisch belastbare Zahl der niederländischen Umweltbehörde PBL liegt bei rund 26 Prozent — berechnet mit einem digitalen Höhenmodell, kombiniert mit Boden- und Deichdaten. Der Rest des Landes liegt über dem Meeresspiegel, vor allem im Osten und Süden.",
+        "exemplos": [
+          { "es": "Waar begint het land onder zeeniveau?", "pt": "Wo beginnt das Land unter dem Meeresspiegel?" }
+        ]
+      },
+      {
+        "titulo": "Mehr Fahrräder als Einwohner",
+        "corpo": "Schätzungen zum Fahrradbestand kommen nicht aus einer Volkszählung, sondern aus Verkaufs- und Bestandsstatistiken der Regierung und der Branche — deshalb wird hier bewusst «rund 24 Millionen» statt einer scheinbar exakten Zahl genannt. Sicher ist die Größenordnung: deutlich mehr Räder als die knapp 18 Millionen Einwohner, und die Zahl wächst mit dem E-Bike weiter."
+      },
+      {
+        "titulo": "Zweitgrößter Agrarexporteur der Welt",
+        "corpo": "Die Zahl stammt vom niederländischen Statistikamt CBS und bezieht sich auf den Exportwert, nicht auf die Anbaufläche — ein großer Teil davon ist Wiederausfuhr von Blumen, Saatgut und verarbeiteten Produkten, die durch die Häfen und Gewächshäuser des Landes laufen. Das ändert nichts an der Kernaussage: Ein kleines, dicht besiedeltes Land exportiert landwirtschaftliche Güter im Wert von über hundert Milliarden Euro pro Jahr."
+      },
+      {
+        "titulo": "Zeigen statt sagen",
+        "corpo": "Der understatement-Ton, mit dem alle drei Fakten hier ausgesprochen werden, ist selbst ein kulturelles Muster und keine Zufälligkeit dieses Kurses: In vielen Alltagsbeschreibungen der niederländischen Umgangsformen taucht Nüchternheit («nuchterheid») als Grundhaltung auf — Understatement statt große Worte, besonders beim eigenen Erfolg."
+      }
+    ]
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "id": "b05",
+  "nivel": "basico",
+  "numero": 5,
+  "parte": "B05",
+  "slot": "B05",
+  "titulo": "Der Grenzbeamte, der Sie fast nie aufhält — und drei Fragen, falls doch",
+  "subtitulo": "Der Zug rollt über die Grenze, ohne dass irgendjemand aufsteht — aber zwei Wagen weiter geht ein Schaffner mit einem Kontrollgerät durch die Reihen, und Sie haben alle drei Antworten schon",
+  "cena": "Der internationale Zug rollt über die Grenze bei Bad Bentheim, niemand hebt den Kopf — aber zwei Wagen weiter kommt gerade ein Schaffner mit einem Kontrollgerät durch die Reihen.",
+  "moldura": "ganha",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "hol-b05-schengen-grenze",
+      "afirmacao": "Zwischen Deutschland und den Niederlanden gibt es keine systematische Personenkontrolle mehr — beide Länder gehören zum Schengen-Raum, und Sie fahren normalerweise ohne Halt über die Grenze. Punktuelle Kontrollen bleiben trotzdem möglich: Schengen-Staaten dürfen zeitlich befristet wieder Grenzkontrollen einführen, und auf internationalen Zügen prüfen Schaffner gelegentlich Ausweise unabhängig davon. «Fast nie» ist deshalb ehrlicher als «nie».",
+      "fonte": "Verordnung (EU) 2016/399 (Schengener Grenzkodex), insbesondere Art. 23 ff. zur befristeten Wiedereinführung von Grenzkontrollen an Binnengrenzen.",
+      "ano": 2016,
+      "revisarAte": "2028-08-20",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": ["hol-b05-n02"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b05-n01",
+      "gesto": 1,
+      "tom": "ganha",
+      "bloco": "aquecimento",
+      "pt": "Drei Fragen kommen hier fast nie, und wenn doch, haben Sie alle drei Antworten schon vor der Abfahrt im Kopf."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b05-n02",
+      "tom": "ganha",
+      "bloco": "corpo",
+      "pt": "Beide Länder sind Schengen — normalerweise rollen Sie ohne Halt über die Grenze. Punktuelle Kontrollen bleiben möglich."
+    },
+    {
+      "consulta": ["reparo/devagar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "is dit de rij voor de paspoortcontrole",
+      "encaixeGloss": "ist das die Schlange für die Passkontrolle",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b05-p01",
+      "promptPt": "Am Flughafen teilt sich der Gang in zwei Schlangen, kein Schild ist von hier aus lesbar, und Sie sind sich nicht sicher, in welcher Sie stehen. Fragen Sie die Person vor Ihnen. Sag es jetzt.",
+      "audioKey": "hol-b05-t01",
+      "es": "Pardon, is dit de rij voor de paspoortcontrole?",
+      "pinyin": "par-DON, is dit de rei voor de pas-POORT-kon-troh-luh?",
+      "pt": "Entschuldigung, ist das die Schlange für die Passkontrolle?",
+      "tts": "Pardon, is dit de rij voor de paspoortcontrole?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b05-r01",
+      "tom": "ganha",
+      "es": "Wat is het doel van uw reis?",
+      "pinyin": "wat is et dool van üü rei-zuh?",
+      "pt": "Was ist der Zweck Ihrer Reise?",
+      "tts": "Wat is het doel van uw reis?",
+      "receptivo": true,
+      "acao": "Diese Frage kommt selten, aber wenn, brauchen Sie nur ein Wort zurück — kein ganzer Satz."
+    },
+    {
+      "consulta": ["chegar/entrar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b05-p02",
+      "promptPt": "Der Beamte wartet auf ein einziges Wort. Sie fliegen für ein paar Tage Urlaub. Sag es jetzt.",
+      "audioKey": "hol-b05-t02",
+      "es": "Vakantie.",
+      "pinyin": "va-KAN-tsee",
+      "pt": "Urlaub.",
+      "tts": "Vakantie."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b05-r02",
+      "tom": "ganha",
+      "es": "En hoe lang blijft u?",
+      "pinyin": "en hoo lang bleift ü?",
+      "pt": "Und wie lange bleiben Sie?",
+      "tts": "En hoe lang blijft u?",
+      "receptivo": true,
+      "acao": "Zweite Frage, selbe Kürze — eine Zahl plus ein Wort reicht als Antwort."
+    },
+    {
+      "consulta": ["chegar/entrar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b05-p03",
+      "promptPt": "Sieben Tage, hin und zurück gebucht. Sag es jetzt.",
+      "audioKey": "hol-b05-t03",
+      "es": "Een week.",
+      "pinyin": "un week",
+      "pt": "Eine Woche.",
+      "tts": "Een week."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b05-r04",
+      "tom": "ganha",
+      "es": "Alleen, of met iemand?",
+      "pinyin": "AL-leen, of met EE-mant?",
+      "pt": "Allein, oder mit jemandem?",
+      "tts": "Alleen, of met iemand?",
+      "receptivo": true,
+      "acao": "Eine kurze Frage, die manchmal noch dazukommt — die Antwort ist wieder nur ein paar Wörter."
+    },
+    {
+      "consulta": ["chegar/entrar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b05-p06",
+      "promptPt": "Die Person, mit der Sie reisen, steht direkt neben Ihnen, mit demselben Ticket. Sag es jetzt.",
+      "audioKey": "hol-b05-t06",
+      "es": "Met mijn partner.",
+      "pinyin": "met mein PART-ner",
+      "pt": "Mit meinem Partner.",
+      "tts": "Met mijn partner."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b05-r03",
+      "tom": "ganha",
+      "es": "En waar logeert u?",
+      "pinyin": "en waar loh-CHEERT ü?",
+      "pt": "Und wo übernachten Sie?",
+      "tts": "En waar logeert u?",
+      "receptivo": true,
+      "acao": "Dritte und letzte Frage — Hotelname oder einfach «in een hotel» reicht."
+    },
+    {
+      "consulta": ["quarto/checkin"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b05-p04",
+      "promptPt": "Die Buchungsbestätigung liegt schon auf dem Handy bereit, für alle Fälle. Sag es jetzt.",
+      "audioKey": "hol-b05-t04",
+      "es": "In een hotel in Amsterdam.",
+      "pinyin": "in un hoh-TEL in AM-ster-dam",
+      "pt": "In einem Hotel in Amsterdam.",
+      "tts": "In een hotel in Amsterdam."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b05-n03",
+      "tom": "ganha",
+      "bloco": "capsula",
+      "pt": "Genau dieselben drei Fragen hören Sie oft wieder — an der Hotelrezeption, fürs Anmeldeformular."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_f",
+      "audioKey": "hol-b05-t05",
+      "tom": "ganha",
+      "es": "Hoe lang blijft u bij ons, en waar komt u vandaan?",
+      "pinyin": "hoo lang bleift ü bei ons, en waar komt ü van-DAAN?",
+      "pt": "Wie lange bleiben Sie bei uns, und woher kommen Sie?",
+      "tts": "Hoe lang blijft u bij ons, en waar komt u vandaan?"
+    },
+    {
+      "consulta": ["quarto/checkin"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b05-p05",
+      "promptPt": "Dieselbe Zahl wie am Schalter, nur diesmal an der Rezeption. Eine Woche. Sag es jetzt.",
+      "audioKey": "hol-b05-t03",
+      "es": "Een week.",
+      "pinyin": "un week",
+      "pt": "Eine Woche.",
+      "tts": "Een week."
+    },
+    {
+      "consulta": ["reparo/ingles"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "spreekt u Engels",
+      "encaixeGloss": "sprechen Sie Englisch",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b05-p07",
+      "promptPt": "Der Rest des Anmeldeformulars an der Rezeption steht in kleiner niederländischer Schrift, und die Empfangsdame wartet auf Ihre nächste Frage. Sag es jetzt.",
+      "audioKey": "hol-b05-t07",
+      "es": "Sorry, spreekt u Engels?",
+      "pinyin": "SO-rie, SPRAYKT ü ENG-els?",
+      "pt": "Entschuldigung, sprechen Sie Englisch?",
+      "tts": "Sorry, spreekt u Engels?"
+    },
+    {
+      "consulta": ["simpatia/agradecer"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "DANKE",
+      "encaixe": "dank u wel",
+      "encaixeGloss": "vielen Dank",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b05-p08",
+      "promptPt": "Der Zimmerschlüssel liegt vor Ihnen auf dem Tresen, und die Empfangsdame lächelt Ihnen zu. Sag es jetzt.",
+      "audioKey": "hol-b05-t08",
+      "es": "Dank u wel!",
+      "pinyin": "dank ü WEL!",
+      "pt": "Vielen Dank!",
+      "tts": "Dank u wel!"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-b05-s01",
+      "tom": "ganha",
+      "es": "Vakantie. Een week. In een hotel in Amsterdam.",
+      "pinyin": "va-KAN-tsee · un week · in un hoh-TEL in AM-ster-dam",
+      "pt": "Schatten Sie die drei kurzen Antworten hintereinander.",
+      "tts": "Vakantie. Een week. In een hotel in Amsterdam."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b05-n04",
+      "tom": "ganha",
+      "bloco": "permissao",
+      "pt": "Ein Wort ist eine vollständige Antwort. Niemand erwartet einen ganzen Satz — vakantie reicht, so wie es ist."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b05-n05",
+      "tom": "ganha",
+      "bloco": "recap",
+      "pt": "B05 fertig. Warum, wie lange, wo — drei Fragen, drei kurze Antworten, und Sie hatten sie schon, bevor Sie gefragt wurden."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Drei Fragen, an zwei verschiedenen Orten",
+    "secoes": [
+      {
+        "titulo": "Warum die Grenze meistens leer bleibt",
+        "corpo": "Deutschland und die Niederlande gehören beide zum Schengen-Raum, in dem systematische Kontrollen an den Binnengrenzen entfallen. Das ist keine Ausnahme, sondern der Normalfall — und trotzdem bleiben punktuelle Kontrollen rechtlich möglich, vor allem auf internationalen Zügen und in Phasen erhöhter Kontrolle. «Fast nie» ist deshalb die ehrliche Formulierung, nicht «nie»."
+      },
+      {
+        "titulo": "Die drei Antworten, ein Wort pro Frage",
+        "corpo": "Vakantie für den Grund, eine Zahl plus week oder dagen für die Dauer, in een hotel oder der Name für den Ort — keine dieser Antworten braucht einen ganzen Satz. Genau dieselben drei Antworten funktionieren später an der Hotelrezeption, wenn dort das Anmeldeformular ausgefüllt wird.",
+        "exemplos": [
+          { "es": "Vakantie.", "pt": "Urlaub." },
+          { "es": "Een week.", "pt": "Eine Woche." }
+        ]
+      },
+      {
+        "titulo": "Warum dieses Kapitel keinen neuen Baustein einführt",
+        "corpo": "Die drei Antworten sind fertige Wörter, kein Muster mit austauschbarem Kern — Sie lernen sie als Ganzes, so wie eine Telefonnummer. Der einzige Baustein hier ist der aus B03, der wiederkehrt: Sorry oder Pardon, plus was Sie brauchen, falls Sie selbst etwas fragen müssen, bevor die Fragen überhaupt kommen."
+      }
+    ]
+  },
+  "permissao": "Ein Wort ist eine vollständige Antwort. Niemand an einem Schalter oder einer Rezeption erwartet einen ganzen Satz — vakantie, een week, in een hotel reichen genau so, wie sie sind.",
+  "permissaoAudioKey": "hol-b05-n04",
+  "espelho": "An jeder Grenze oder Rezeption zu Hause stellen Sie selbst genau dieselben drei Fragen, ohne groß darüber nachzudenken — hier ist nur die Seite getauscht, und die Antworten sind kürzer, als Sie erwarten.",
+  "fichasCulturais": [
+    {
+      "sinal": "Der Zug rollt über die Grenze, niemand steht auf, kein Schild, kein Beamter — und Sie fragen sich, ob Sie etwas verpasst haben.",
+      "suaLeitura": "Das kann nicht die Grenze gewesen sein, irgendetwas muss noch kommen.",
+      "oQueEAli": "Zwischen zwei Schengen-Staaten gibt es normalerweise keinen sichtbaren Grenzübergang mehr — kein Halt, kein Schalter, kein Stempel. Das ist keine Lücke im System, sondern genau, wie es gedacht ist.",
+      "oQueVoceFaz": "Nichts. Behalten Sie Ihren Ausweis griffbereit für den seltenen Fall einer Kontrolle im Zug, und fahren Sie einfach weiter.",
+      "oQueMelhora": "Ein Moment, der wie eine verpasste Pflicht aussah, wird zur bestätigten Erwartung — Sie wissen jetzt, dass nichts fehlte.",
+      "ondeNaoVale": "Bei Reisen von außerhalb des Schengen-Raums, etwa mit einem Anschlussflug über ein Nicht-EU-Land, gibt es sehr wohl eine reguläre Passkontrolle — die Regel gilt nur für die Fahrt zwischen zwei Schengen-Ländern.",
+      "evidencia": "FATO",
+      "audioKeys": ["hol-b05-n02"]
+    }
+  ]
+}

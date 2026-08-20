@@ -1,0 +1,495 @@
+{
+  "id": "i10",
+  "nivel": "intermediario",
+  "numero": 28,
+  "parte": "I10",
+  "titulo": "Geld hier: het etiket is de hele prijs",
+  "subtitulo": "De belasting zit al bij wet in het getal, de fooi is bij wet vrijwillig, en het statiegeld op de fles is het enige wat de wet buiten dat getal beveelt te houden",
+  "cena": "Een supermarktkassa om zes uur 's avonds: het schap zei 0,99, het display zegt 1,24, en degene achter u legt zijn mandje al leeg.",
+  "moldura": "ganha",
+  "frasePiso": "Was kostet das, bitte? — gevraagd voordat u zich vastlegt, en het getal dat u hoort is het getal dat u overhandigt.",
+  "decisao": "decidir na porta e antes de pedir como esta casa recebe dinheiro e quanto eu de fato entrego — o preço exibido já é final por lei, a gorjeta é voluntária por lei e o Pfand é a única coisa que a etiqueta é obrigada a NÃO somar — em vez de descobrir «nur Bargeld» com a conta na mão e ler a diferença do caixa como golpe",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "de-i10-gesamtpreis",
+      "afirmacao": "De getoonde prijs is de eindprijs, en dat is een verplichting, geen gewoonte. De Preisangabenverordnung (PAngV 2022), § 3 lid 1, verplicht een handelaar die goederen of diensten aan consumenten aanbiedt om de Gesamtpreis te vermelden; § 2 definieert Gesamtpreis als de te betalen prijs «einschließlich der Umsatzsteuer und sonstiger Preisbestandteile». De tarieven staan in § 12 UStG op 19 procent, verlaagd naar 7 procent. Restaurant- en cateringdiensten zijn per 1 januari 2026 terug naar het verlaagde tarief van 7 procent (BMF-Schreiben van 22.12.2025, GZ III C 2 - S 7220/00023/014/027), met dranken uitdrukkelijk uitgezonderd en op 19 procent gebleven. Door de PAngV wordt geen van die rekensommen ooit zichtbaar voor de klant: er staat één getal op de kaart en dát wordt betaald.",
+      "fonte": "PAngV 2022 §3 Abs.1 verbatim: «Wer als Unternehmer Verbrauchern Waren oder Leistungen anbietet … hat die Gesamtpreise anzugeben», e §2: «den Preis, der einschließlich der Umsatzsteuer und sonstiger Preisbestandteile … zu zahlen ist» (gesetze-im-internet.de). §12 UStG: 19% / 7%. BMF-Schreiben de 22/12/2025 sobre a «(Wieder-)Einführung des ermäßigten Steuersatzes auf Restaurant- und Verpflegungsdienstleistungen zum 1. Januar 2026», vigência verbatim «auf alle Umsätze ab dem 1. Januar 2026»; bebidas ficam a 19% («mit Ausnahme der Abgabe von Getränken»). Pesquisa §4.6.",
+      "ano": 2026,
+      "revisarAte": "2027-06-30",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-i10-n03",
+        "de-i10-n04"
+      ]
+    },
+    {
+      "id": "de-i10-bargeld",
+      "afirmacao": "Er is in Duitsland geen wettelijke plicht om een kaart te aanvaarden, en de plicht loopt de andere kant op: § 14 lid 1 BBankG stelt «Auf Euro lautende Banknoten sind das einzige unbeschränkte gesetzliche Zahlungsmittel» — eurobiljetten zijn het enige onbeperkte wettige betaalmiddel. Een handelaar mag contant weigeren waar een ander middel vooraf is afgesproken: het standpunt van de Europese Centrale Bank is dat winkeliers contant niet mogen weigeren «es sei denn, Käufer und Verkäufer haben sich auf die Nutzung anderer Zahlungsmittel geeinigt», wat de Bundesbank baseert op contractsvrijheid en voorafgaande kennisgeving. Praktisch gevolg: een nur-Bargeld-bordje en een nur-Karte-bordje zijn beide volkomen legaal, en over geen van beide kan als onregelmatig geklaagd worden.",
+      "fonte": "§14 Abs.1 BBankG verbatim (gesetze-im-internet.de). BCE, FAQ em alemão, verbatim: «Einzelhändler dürfen Barzahlungen nicht ablehnen, es sei denn, Käufer und Verkäufer haben sich auf die Nutzung anderer Zahlungsmittel geeinigt.» Bundesbank fundamenta a exceção na Vertragsfreiheit, com aviso prévio [RESUMO: a FAQ não devolveu o corpo]. Pesquisa §4.1: «na Alemanha 'nur Bargeld' e 'nur Karte' são ambos legais».",
+      "ano": 2026,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-i10-n05",
+        "de-i10-n06"
+      ]
+    },
+    {
+      "id": "de-i10-bundesbank",
+      "afirmacao": "Deutsche Bundesbank, Zahlungsverhalten in Deutschland 2025, gepubliceerd 17 juni 2026: voor het eerst werd meer dan de helft van de dagelijkse betalingen giraal gedaan (55 procent tegen 49 procent in 2023), terwijl contant naar aantal transacties het meest gebruikte middel bleef met 45 procent en 23 procent van de omzet, tegen 28 procent voor de debetkaart. Voor een bezoeker telt de acceptatie: contant kon in 94 procent van de fysieke aankopen worden gebruikt, en in 86 procent van de geobserveerde gevallen accepteerde de ontvanger een giraal middel of zou dat gedaan hebben — 81 procent twee jaar eerder en slechts 61 procent in 2021. Ook wrijving is meetbaar: ruim een kwart van de respondenten had in de voorafgaande maand minstens één kaart- of telefoonbetaling zien mislukken, tegen 18 procent in 2023, meestal omdat de ontvanger helemaal geen giraal middel aanbood (77 procent). Contant houdt het hardst vol in de alledaagse detailhandel, in eet- en drinkgelegenheden en op markten en straatkramen, waar negen van de tien betalingen contant zijn en girale acceptatie op 43 procent staat. Methode: forsa, 6.070 interviews, veldwerk 8 september tot 2 december 2025, gevolgd door een driedaags betalingsdagboek; 5.302 dagboeken, 10.394 verkooppunttransacties.",
+      "fonte": "Deutsche Bundesbank, «Zahlungsverhalten in Deutschland 2025», Stand julho/2026, publicado 17/6/2026, PDF de 82 páginas baixado e lido. Verbatim: «Erstmals wurden mehr als die Hälfte der erfassten Zahlungen des Alltags bargeldlos getätigt (55 % …)»; «Bargeld ist weiterhin das am häufigsten eingesetzte Zahlungsmittel nach Anzahl der Transaktionen (45 %)»; «Bei Einkäufen vor Ort konnte in 94 % der Fälle Bargeld verwendet werden»; «In 86 % der beobachteten Fälle hat oder hätte der Zahlungsempfänger unbare Zahlungsmittel angenommen. Vor zwei Jahren lag dieser Anteil bei 81 %, im Jahr 2021 nur bei 61 %.» Anhang 2: forsa, 6.070 entrevistas, campo 8/9 a 2/12/2025. Pesquisa §4.2. ⚠ Os dados são bienais — próxima edição prevista para 2028.",
+      "ano": 2026,
+      "revisarAte": "2028-12-31",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-i10-n07",
+        "de-i10-n08"
+      ]
+    },
+    {
+      "id": "de-i10-pfand",
+      "afirmacao": "Het statiegeld is de enige aangewezen uitzondering op de regel dat de getoonde prijs de eindprijs is. § 7 PAngV verplicht de handelaar het statiegeld «neben dem Gesamtpreis anzugeben und nicht in diesen einzubeziehen» — naast de totaalprijs en er uitdrukkelijk niet in — en het ook buiten de eenheidsprijs te houden. Het bedrag komt uit § 31 lid 1 VerpackG: «ein Pfand in Höhe von mindestens 0,25 Euro einschließlich Umsatzsteuer je Verpackung», een minimum en geen vast getal, btw inbegrepen, met verplichte permanente markering vóór verkoop. § 31 lid 2 legt een terugnameplicht op de verkooppunten tijdens openingstijden, met kosteloze restitutie van het statiegeld; een winkel onder 200 vierkante meter mag de terugname beperken tot de materiaalsoorten die hij verkoopt in plaats van vrijgesteld te worden. Hervulbare flessen vallen onder een heel ander regime: het Verbraucherzentrale registreert dat de hoogte van het statiegeld en de restitutie voor Mehrweg-flessen «zivilrechtliche Vereinbarungen» zijn, private afspraken tussen bottelaar en winkel, met gebruikelijke waarden van 8 cent voor een bierfles tot een halve liter, 15 cent voor een grotere fles en 1,50 euro voor een krat — marktgebruik, geen norm.",
+      "fonte": "§7 PAngV 2022 verbatim: o comerciante «hat deren Höhe neben dem Gesamtpreis anzugeben und nicht in diesen einzubeziehen». §31 Abs.1 VerpackG verbatim: «ein Pfand in Höhe von mindestens 0,25 Euro einschließlich Umsatzsteuer je Verpackung». §31 Abs.2, Rücknahmepflicht, com o trecho verbatim «Für Vertreiber mit einer Verkaufsfläche von weniger als 200 Quadratmetern beschränkt sich…». Verbraucherzentrale verbatim sobre Mehrweg: «Die Pfandhöhe und die Erstattung für Mehrwegflaschen sind zivilrechtliche Vereinbarungen». Valores 0,08 / 0,15 / 1,50 € são uso de mercado — MODERADA, não norma. Pesquisa §9.1, §9.5, §9.6. ⚠ A lista de isenções do §31 Abs.4 está em paráfrase na pesquisa e não é citada aqui.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-i10-n09",
+        "de-i10-n10",
+        "de-i10-n11"
+      ]
+    },
+    {
+      "id": "de-i10-trinkgeld",
+      "afirmacao": "Het Duitse belastingrecht moet de fooi vrijwillig verklaren om hem vrij te kunnen stellen. § 3 nr. 51 EStG noemt onder vrijgesteld inkomen «Trinkgelder, die anlässlich einer Arbeitsleistung dem Arbeitnehmer von Dritten freiwillig und ohne dass ein Rechtsanspruch auf sie besteht, zusätzlich zu dem Betrag gegeben werden, der für diese Arbeitsleistung zu zahlen ist» — vrijwillig gegeven, zonder rechtsaanspraak, en bovenop het voor het werk verschuldigde bedrag. Juridisch is de prijs van de maaltijd dus al de volle prijs. De brancheorganisatie DEHOGA zei op 4 juni 2024 hetzelfde over de fooiknop op kaartterminals: «Trinkgelder sind und bleiben ein freiwilliges Dankeschön für tolle Gastfreundschaft und guten Service.» Geen enkele autoriteit of statistiekbureau publiceert een percentage. De reeks die online circuleert steunt op één door een leverancier bestelde peiling — een verkoper van kassaterminals voor de horeca, wiens toestellen een fooiknop dragen — dus deze cursus noemt geen enkel getal.",
+      "fonte": "§3 Nr. 51 EStG verbatim (gesetze-im-internet.de). DEHOGA Bundesverband, statement de 4/6/2024 (RA Jürgen Benad), verbatim: «Trinkgelder sind und bleiben ein freiwilliges Dankeschön für tolle Gastfreundschaft und guten Service.» ⚠ Os «5% a 10%» foram RECUSADOS como fato pela pesquisa (item 21 da lista de exclusão): única fonte é pesquisa de fornecedor de terminais (Lightspeed/Medallia, maio/2025, ~1.000 respondentes, relatório primário não aberto). «Bedienungsgeld inklusive» como fórmula da DEHOGA NÃO existe na fonte — usar a PAngV. Pesquisa §4.5 e §4.6.",
+      "ano": 2024,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-i10-n12",
+        "de-i10-n13"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i10-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Hier komen elke dag vier geldvragen langs, en de Duitse wet beantwoordt er drie voordat u ze stelt."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i10-n02",
+      "bloco": "corpo",
+      "pt": "Eén: het getal op het etiket is het getal dat u betaalt. De belasting zit er al in."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-i10-t01",
+      "es": "Was kostet das, bitte?",
+      "pinyin": "vass KOSS-tet dass, BIT-tuh",
+      "pt": "Wat kost dat, alstublieft?",
+      "tts": "Was kostet das, bitte?"
+    },
+    {
+      "consulta": [
+        "compras/quanto",
+        "pagar/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WAS-KOSTET",
+      "encaixe": "das",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i10-p01",
+      "promptPt": "Een marktkraam, iets goeds in uw hand, en geen getal ergens in de buurt. Spreek nu.",
+      "audioKey": "de-i10-t01",
+      "es": "Was kostet das, bitte?",
+      "pinyin": "vass KOSS-tet dass, BIT-tuh",
+      "pt": "Wat kost dat, alstublieft?",
+      "tts": "Was kostet das, bitte?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i10-r01",
+      "receptivo": true,
+      "acao": "Negen tachtig is het hele bedrag. Er komt niets bij de kassa bij, dus doe uw portemonnee weg tot dan.",
+      "es": "Das macht neun Euro achtzig.",
+      "pt": "Dat komt op negen euro tachtig.",
+      "tts": "Das macht neun Euro achtzig."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i10-n03",
+      "pt": "De wet noemt het de Gesamtpreis: het totaal, met btw al meegeteld. Eén getal, en dat is definitief."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i10-n04",
+      "pt": "Restaurants gingen in januari 2026 naar het verlaagde tarief en u ziet daar niets van. Er is één getal."
+    },
+    {
+      "consulta": [
+        "pagar/cartao",
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i10-p02",
+      "promptPt": "Nog in de deur van een klein zaakje bij het plein, niets besteld, portemonnee dicht. Regel het nu. Spreek nu.",
+      "audioKey": "de-i10-t02",
+      "es": "Kann ich mit Karte zahlen?",
+      "pinyin": "kann ikh mitt KAR-tuh TSAH-len",
+      "pt": "Kan ik met kaart betalen?",
+      "tts": "Kann ich mit Karte zahlen?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i10-r02",
+      "receptivo": true,
+      "acao": "Legaal, gewoon en zonder excuus. U kiest nu — naar een geldautomaat lopen, of blijven en eten.",
+      "es": "Tut mir leid, nur Bargeld.",
+      "pt": "Sorry, alleen contant.",
+      "tts": "Tut mir leid, nur Bargeld."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i10-n05",
+      "pt": "Twee: eurobiljetten zijn hier het enige onbeperkte wettige betaalmiddel. Niemand is u een kaartlezer schuldig."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i10-n06",
+      "pt": "Nur Bargeld en nur Karte zijn beide legale bordjes. In de deur gevraagd kost de vraag u niets."
+    },
+    {
+      "consulta": [
+        "taxi/destino",
+        "taxi/taximetro"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WAS-KOSTET",
+      "encaixe": "die Fahrt",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i10-p03",
+      "promptPt": "Bij de standplaats, deur nog open, meter niet aan, en één getal zou de hele avond regelen. Spreek nu.",
+      "audioKey": "de-i10-t03",
+      "es": "Was kostet die Fahrt?",
+      "pinyin": "vass KOSS-tet dee FAART",
+      "pt": "Wat kost de rit?",
+      "tts": "Was kostet die Fahrt?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i10-n07",
+      "pt": "In 2025 werd een girale betaling in zesentachtig van de honderd gevallen aanvaard, tegen eenenzestig in 2021."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i10-n08",
+      "pt": "Ruim een kwart zag deze maand nog één betaling stuklopen. Houd een briefje in uw zak."
+    },
+    {
+      "consulta": [
+        "compras/quanto",
+        "pagar/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WAS-KOSTET",
+      "encaixe": "der Eintritt",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i10-p04",
+      "promptPt": "Een museumbalie met een lang bord vol tarieven erachter en een groeiende rij achter u. Spreek nu.",
+      "audioKey": "de-i10-t04",
+      "es": "Was kostet der Eintritt?",
+      "pinyin": "vass KOSS-tet dair EYN-tritt",
+      "pt": "Wat kost de toegang?",
+      "tts": "Was kostet der Eintritt?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i10-n09",
+      "bloco": "capsula",
+      "pt": "Drie, en dit verrast iedereen: het Pfand, het statiegeld dat op de fles meerijdt."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i10-r03",
+      "receptivo": true,
+      "acao": "Vijfentwintig cent die naar u terugkomen. Bewaar de lege en voer hem aan de automaat in elke grote winkel.",
+      "es": "Plus fünfundzwanzig Cent Pfand.",
+      "pt": "Plus vijfentwintig cent statiegeld.",
+      "tts": "Plus fünfundzwanzig Cent Pfand."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i10-n10",
+      "pt": "Op het schap staat nul negenennegentig, de kassa zegt een vierentwintig. De wet verbiedt het optellen."
+    },
+    {
+      "consulta": [
+        "compras/quanto",
+        "compras/pagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i10-p05",
+      "promptPt": "De schaprand bij de koude dranken lijkt een tikje te goedkoop, en u wilt weten waarom. Spreek nu.",
+      "audioKey": "de-i10-t05",
+      "es": "Ist das mit Pfand?",
+      "pinyin": "isst dass mitt PFANNT",
+      "pt": "Zit daar statiegeld op?",
+      "tts": "Ist das mit Pfand?"
+    },
+    {
+      "consulta": [
+        "compras/quanto",
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WAS-KOSTET",
+      "encaixe": "die Flasche",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i10-p06",
+      "promptPt": "Kiosk, niets geprijsd op de deur, en u wilt het hele getal voordat de kassa beslist. Spreek nu.",
+      "audioKey": "de-i10-t06",
+      "es": "Was kostet die Flasche?",
+      "pinyin": "vass KOSS-tet dee FLA-shuh",
+      "pt": "Wat kost de fles?",
+      "tts": "Was kostet die Flasche?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i10-n11",
+      "pt": "Minstens vijfentwintig cent op een wegwerpblik of plastic fles, en het lege koopt het meteen terug."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-i10-r04",
+      "receptivo": true,
+      "acao": "Twee woorden, één beslissing: samen of apart. Heb het antwoord klaar voordat de kaartlezer komt.",
+      "es": "Zusammen oder getrennt?",
+      "pt": "Samen of apart?",
+      "tts": "Zusammen oder getrennt?"
+    },
+    {
+      "consulta": [
+        "pagar/rachar",
+        "mesa/conta"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i10-p07",
+      "promptPt": "Vier van u, vier kaarten al op het kleed, en de vraag is net gevallen. Twee woorden. Spreek nu.",
+      "audioKey": "de-i10-t07",
+      "es": "Getrennt, bitte.",
+      "pinyin": "guh-TRENT, BIT-tuh",
+      "pt": "Apart, alstublieft.",
+      "tts": "Getrennt, bitte."
+    },
+    {
+      "consulta": [
+        "mesa/conta",
+        "pagar/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i10-p08",
+      "promptPt": "Borden twintig minuten weg, niemand komt langs, en u hebt om zeven uur een trein. Spreek nu.",
+      "audioKey": "de-i10-t08",
+      "es": "Zahlen, bitte.",
+      "pinyin": "TSAH-len, BIT-tuh",
+      "pt": "De rekening, alstublieft.",
+      "tts": "Zahlen, bitte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i10-n12",
+      "pt": "Vier: de fooi. Om hem vrij te stellen moet de wet eerst zeggen dat niemand er aanspraak op heeft."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i10-n13",
+      "pt": "Dus de maaltijdprijs is al de volle prijs. Geen instantie publiceert een percentage, want dat is er niet."
+    },
+    {
+      "consulta": [
+        "pagar/gorjeta"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i10-p09",
+      "promptPt": "Lange lunch, soepele bediening, munten al in uw hand. Sluit af zonder te rekenen. Spreek nu.",
+      "audioKey": "de-i10-t09",
+      "es": "Stimmt so.",
+      "pinyin": "shtimmt zo",
+      "pt": "Laat maar zo.",
+      "tts": "Stimmt so."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i10-r05",
+      "receptivo": true,
+      "acao": "Dank dubbel terug. De transactie is gesloten en u mag opstaan wanneer u wilt.",
+      "es": "Danke schön, sehr gerne!",
+      "pt": "Hartelijk dank, graag gedaan!",
+      "tts": "Danke schön, sehr gerne!"
+    },
+    {
+      "consulta": [
+        "compras/pagar",
+        "mesa/conta"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i10-p10",
+      "promptPt": "De la dicht, terminal piepte, en er kwam niets uit de printer. Uw boekhouding wil papier. Spreek nu.",
+      "audioKey": "de-i10-t10",
+      "es": "Eine Quittung, bitte.",
+      "pinyin": "EYE-nuh KVIT-toong, BIT-tuh",
+      "pt": "Een bonnetje, alstublieft.",
+      "tts": "Eine Quittung, bitte."
+    },
+    {
+      "consulta": [
+        "quarto/pedir",
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WAS-KOSTET",
+      "encaixe": "das Frühstück",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i10-p11",
+      "promptPt": "Hotelbalie tegen middernacht, en morgenochtend beneden heeft een prijs die niemand noemde. Spreek nu.",
+      "audioKey": "de-i10-t11",
+      "es": "Was kostet das Frühstück?",
+      "pinyin": "vass KOSS-tet dass FRUE-shtuek",
+      "pt": "Wat kost het ontbijt?",
+      "tts": "Was kostet das Frühstück?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-i10-s01",
+      "molde": "WAS-KOSTET",
+      "es": "Was kostet das, bitte? Was kostet die Fahrt? Was kostet der Eintritt?",
+      "pinyin": "vass KOSS-tet dass BIT-tuh · vass KOSS-tet dee FAART · vass KOSS-tet dair EYN-tritt",
+      "pt": "Schaduw dezelfde drie woorden over een kraam, een taxi en een museumbalie.",
+      "tts": "Was kostet das, bitte? Was kostet die Fahrt? Was kostet der Eintritt?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i10-n14",
+      "bloco": "recap",
+      "pt": "I10 klaar, en HAAL HET GOEDE ERUIT. De etiketprijs is definitief, het statiegeld is de uitzondering, de fooi is van u."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Vier geldvragen, drie ervan schriftelijk beslecht",
+    "secoes": [
+      {
+        "titulo": "Eén getal, en dat is het laatste",
+        "corpo": "De Preisangabenverordnung verplicht een handelaar de Gesamtpreis te tonen — het totaal, gedefinieerd als de te betalen prijs inclusief btw en alle andere componenten. Er wordt niets bij de kassa opgeteld, precies het tegenovergestelde van de Noord-Amerikaanse gewoonte, en dat is het waard om in het vliegtuig af te leren. Het verlaagde tarief van zeven procent kwam op 1 januari 2026 terug voor restaurant- en cateringdiensten, met dranken op negentien; door dezelfde verordening zult u die verandering nooit op uw rekening zien. U ziet één getal op de kaart en u overhandigt dat getal.",
+        "exemplos": [
+          {
+            "es": "Was kostet das, bitte?",
+            "pt": "Wat kost dat, alstublieft?"
+          },
+          {
+            "es": "Das macht neun Euro achtzig.",
+            "pt": "Dat komt op negen euro tachtig."
+          }
+        ]
+      },
+      {
+        "titulo": "Contant is degene met de wet erachter",
+        "corpo": "Er is geen plicht om een kaart te aanvaarden. § 14 van de Bundesbankwet maakt eurobiljetten het enige onbeperkte wettige betaalmiddel, en het standpunt van de Europese Centrale Bank is dat een winkelier contant alleen mag weigeren wanneer een ander middel vooraf is afgesproken. Nur Bargeld en nur Karte zijn dus even legale bordjes, en geen van beide is een klacht. Wat de peiling van de Bundesbank uit 2025 toevoegt is de schaal: contant kon in vierennegentig procent van de fysieke aankopen worden gebruikt, en giraal werd in zesentachtig procent aanvaard, tegen eenenzestig in 2021. Markten en straatkramen houden het hardst vol, met negen van de tien betalingen contant. En ruim een kwart zag deze maand nog één kaartbetaling stuklopen, meestal omdat de zaak simpelweg geen giraal middel aanbood."
+      },
+      {
+        "titulo": "Waarom uw kaart en niet zomaar elke kaart",
+        "corpo": "Duitse terminals zitten vaak op girocard, de nationale debetregeling van de Duitse banken en spaarbanken, met ongeveer honderd miljoen kaarten in omloop en internationaal bereik alleen via een co-badge zoals Maestro, Debit Mastercard, V Pay, Visa Debit of JCB. In de stationaire detailhandel voor 2024 droeg girocard alleen al 41,5 procent van de omzet. Er is geen institutionele uitspraak dat een buitenlandse Visa of Mastercard aan een girocard-only-terminal geweigerd wordt, dus dit staat hier als mechanisme, niet als citaat: kaarten aannemen in Duitsland betekent niet automatisch úw kaart aannemen, en dat is nog een reden om een briefje op zak te houden."
+      },
+      {
+        "titulo": "Het statiegeld is het enige dat het etiket niet mag optellen",
+        "corpo": "§ 7 van de Preisangabenverordnung zegt de handelaar het statiegeld naast de totaalprijs te vermelden en uitdrukkelijk niet erbinnen. Die ene zin verklaart de hele ervaring: 0,99 op het schap, 1,24 aan de kassa, en nergens een fout. Het Verpackungsgesetz stelt het statiegeld op minimaal vijfentwintig cent inclusief btw voor een wegwerpverpakking, en verplicht de winkel het lege terug te nemen en kosteloos te vergoeden — een zaak onder tweehonderd vierkante meter mag zich beperken tot de materiaalsoorten die hij verkoopt, wat een beperking is, geen vrijstelling. Hervulbaar glas is een andere wereld: die statiegelden zijn private afspraken tussen bottelaar en winkel, gebruikelijk acht cent op een bierfles, vijftien op een grotere en een euro vijftig op een krat, terugbetaald als handelsvriendelijkheid en niet als plicht. Vuistregel: plastic en blik naar de automaat van elke grote supermarkt; hervulbaar glas terug naar waar u het kocht."
+      },
+      {
+        "titulo": "De fooi, en het getal dat niet bestaat",
+        "corpo": "Het Duitse inkomstenbelastingrecht stelt fooien vrij, en om dat te doen moet het ze eerst definiëren: vrijwillig gegeven, zonder rechtsaanspraak, en bovenop het voor het werk verschuldigde bedrag. De brancheorganisatie zegt hetzelfde over de fooiknop op kaartterminals — een vrijwillig dankjewel, en die functie inschakelen is de beslissing van de uitbater. Niets gepubliceerd door welk ministerie, verbond of statistiekbureau ook zegt hoeveel. De reeks die u online las komt uit een peiling in opdracht van een bedrijf dat kassaterminals met een fooifunctie verkoopt, dus het is geen feit en deze cursus herhaalt geen enkel getal. Wat u leert is de werking: vraag om de rekening, overhandig een afgerond getal en zeg stimmt so, of laat wat u wilt. De maaltijdprijs was al heel."
+      }
+    ]
+  },
+  "slot": "I10",
+  "permissao": "U mag vragen hoe een zaak geld aanneemt voordat u iets bestelt, en doorlopen als het antwoord u niet aanstaat. Kann ich mit Karte zahlen? in de deur is geen wantrouwen en niemand hoort het zo — het is tien seconden zekerheid gekocht terwijl u nog een keus hebt. U mag ook helemaal niets op het bord laten liggen: de wet die fooien vrijstelt zegt met zoveel woorden dat niemand er aanspraak op heeft.",
+  "permissaoAudioKey": "de-i10-n06",
+  "espelho": "Wie thuis in een buurtwinkel heeft staan aarzelen of hij een groot biljet zou breken of naar een pinautomaat lopen, kent deze hele rekensom al. Het enige nieuwe is dat hier het meeste ervan door iemand anders is opgeschreven — inclusief die ene regel die de schapprijs en de kassaprijs verhindert overeen te komen.",
+  "fichasCulturais": [
+    {
+      "sinal": "Op het schap staat 0,99, het kassadisplay 1,24, en niets op de bon lijkt op een verklaring.",
+      "suaLeitura": "Er is stiekem iets bijgekomen, en ik ben net aangerekend voor buitenlander zijn.",
+      "oQueEAli": "Het tegenovergestelde gebeurde. § 7 van de Preisangabenverordnung beveelt de handelaar het statiegeld naast de totaalprijs te tonen en er uitdrukkelijk niet in op te nemen, dus de schapprijs móet wettelijk onvolledig zijn. Het Verpackungsgesetz stelt dat statiegeld op minimaal vijfentwintig cent inclusief btw op een wegwerpverpakking, en de winkel moet het lege terugnemen en kosteloos vergoeden.",
+      "oQueVoceFaz": "Lees het kleine regeltje onder de prijs — zzgl. 0,25 € Pfand is de kennisgeving die haar werk doet. Bewaar de lege in uw kamer en stop ze voor vertrek in de automaat bij elke grote supermarkt. Ist das mit Pfand? regelt het aan de balie in vier woorden.",
+      "oQueMelhora": "Vijfentwintig cent per fles is geen ergernis meer maar geld dat terugkomt, en het verschil tussen twee getallen ziet er niet meer uit als bedrog.",
+      "ondeNaoVale": "Niet elke verpakking draagt het — pakken, wijnflessen en enkele drankcategorieën vallen erbuiten, en het materiaal telt meer dan de drank. En hervulbaar glas is een heel ander regime: die statiegelden zijn private afspraken, vergoed als handelsvriendelijkheid en niet als wettelijke plicht, dus een hervulbare fles gaat terug naar de winkel die hem verkocht.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-i10-n09",
+        "de-i10-n10",
+        "de-i10-n11"
+      ]
+    },
+    {
+      "sinal": "U legt een kaart op een kleine balie en krijgt vlak, zonder verontschuldiging, te horen dat het alleen contant is.",
+      "suaLeitura": "In een land dat zo op orde is moet dit wel ergens een ontduiking zijn, en er wordt vast een regel gebroken.",
+      "oQueEAli": "Er is een regel en die loopt andersom. Eurobiljetten zijn het enige onbeperkte wettige betaalmiddel onder de Bundesbankwet, en geen wet verplicht een handelaar hier een kaart te aanvaarden. Nur Bargeld is net zo legaal als nur Karte. De peiling van de Bundesbank uit 2025 zet girale acceptatie landelijk op zesentachtig procent, maar op slechts drieënveertig procent op markten en straatkramen, waar negen van de tien betalingen nog contant zijn.",
+      "oQueVoceFaz": "Vraag het in de deur en niet aan het einde, en houd een briefje op zak voor de markt, de bakker en het kleine keukentje. Als het antwoord alleen contant is, kiest u of u blijft, u concedeert niets.",
+      "oQueMelhora": "U plant de dag niet meer om een kaart die misschien niet gewenst is, en u leest een legale voorkeur niet meer als een belediging.",
+      "ondeNaoVale": "Ook niet de claim dat contant altijd welkom is: een handelaar mag het weigeren waar een ander middel vooraf is afgesproken en aangekondigd. En het zegt niets over úw bank — de terminal kan op het nationale girocard-net zitten, en er is geen institutionele bron die zegt dat een buitenlandse kaart daar geweigerd wordt, dus behandel dat als een mechanisme dat het waard is te kennen en niet als een feit om over te ruziën.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-i10-n05",
+        "de-i10-n06",
+        "de-i10-n07"
+      ]
+    }
+  ]
+}

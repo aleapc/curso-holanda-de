@@ -1,0 +1,111 @@
+{
+  "id": "q-b17",
+  "nivel": "basico",
+  "titulo": "Quiz — de donkere apotheek en het blad achter het raam",
+  "subtitulo": "Etwas gegen voor de pijn, können Sie voor wat u iemand anders wilt laten doen",
+  "introAudioKey": "de-b17-q-i",
+  "introPt": "Een reiziger vindt een gesloten apotheek om half tien, leest het raam, en wordt vier straten verderop geholpen.",
+  "cenario": "Een Duitse winkelstraat 's avonds, één apotheek donker, een geprint rooster achter het glas.",
+  "dialogo": [
+    {
+      "audioKey": "de-b17-q01",
+      "voz": "target_de_f",
+      "es": "Entschuldigung, wo ist die nächste Apotheke?",
+      "pinyin": "ent-SHOOL-di-goong, voh ist dee NEKH-ste a-po-TAY-ke",
+      "pt": "Pardon, waar is de dichtstbijzijnde apotheek?",
+      "tts": "Entschuldigung, wo ist die nächste Apotheke?"
+    },
+    {
+      "audioKey": "de-b17-q02",
+      "voz": "target_de_m",
+      "es": "Die hier ist zu. Der Notdienst steht am Fenster — heute ist die in der Bahnhofstraße offen.",
+      "pinyin": "dee heer ist tsoo. dair NOHT-deenst shtayt am FEN-stah — HOY-te ist dee in dair BAHN-hohfs-shtrah-se OF-fen",
+      "pt": "Deze is dicht. Het dienstrooster hangt achter het raam — vanavond is die aan de Bahnhofstraße open.",
+      "tts": "Die hier ist zu. Der Notdienst steht am Fenster — heute ist die in der Bahnhofstraße offen."
+    },
+    {
+      "audioKey": "de-b17-q03",
+      "voz": "target_de_f",
+      "es": "Ich brauche etwas gegen Halsschmerzen. Brauche ich ein Rezept?",
+      "pinyin": "ikh BROW-khe ET-vas GAY-gen HALS-shmer-tsen. BROW-khe ikh ain re-TSEPT",
+      "pt": "Ik heb iets tegen keelpijn nodig. Heb ik een recept nodig?",
+      "tts": "Ich brauche etwas gegen Halsschmerzen. Brauche ich ein Rezept?"
+    },
+    {
+      "audioKey": "de-b17-q04",
+      "voz": "target_de_m",
+      "es": "Nein. Dreimal täglich, nach dem Essen. Mit Notdienstgebühr macht das neun Euro fünfzig.",
+      "pinyin": "nain. DRAI-mahl TAYK-likh, nahkh daym ESS-en. mit NOHT-deenst-ge-bewr makht dass noyn OY-ro FEWNF-tsikh",
+      "pt": "Nee. Drie keer per dag, na het eten. Met de nachtdiensttoeslag is dat negen vijftig.",
+      "tts": "Nein. Dreimal täglich, nach dem Essen. Mit Notdienstgebühr macht das neun Euro fünfzig."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "De apotheek is donker en er hangt een geprint blad achter het glas. Wat is dat?",
+      "opcoes": [
+        "Openingstijden voor de week",
+        "Een wettelijk voorgeschreven bord dat de apotheken op dienst vanavond noemt",
+        "Een advertentie",
+        "Een sluitingsbericht van de gemeente"
+      ],
+      "correta": 1,
+      "explica": "Een gesloten apotheek moet zichtbaar tonen welke in de buurt open zijn. Het rooster zelf is verplicht: in een stad met meerdere apotheken gelast de autoriteit dat ze in wisseldienst sluiten, zodat er altijd een deel dienst heeft. Ongeveer één op tien in een stad, en er is een officiële zoekfunctie op aponet.de."
+    },
+    {
+      "pergunta": "Welke opening vraagt de andere iets voor u te doen?",
+      "opcoes": [
+        "Ich suche",
+        "Wo ist",
+        "Können Sie",
+        "Ich brauche"
+      ],
+      "correta": 2,
+      "explica": "Können Sie mir helfen, können Sie das aufschreiben, können Sie einen Krankenwagen rufen. Het blok erna eindigt op een infinitief, waar het Duits het werkwoord toch al wil hebben."
+    },
+    {
+      "pergunta": "De rekening was negen vijftig en het doosje kost zeven. Wat is het verschil?",
+      "opcoes": [
+        "Een nacht-, zondag- en feestdagtoeslag bij regeling vastgesteld op twee euro vijftig",
+        "Een toeristentoeslag",
+        "Een kaartkosten",
+        "Een vergoeding voor advies"
+      ],
+      "correta": 0,
+      "explica": "Twee euro vijftig inclusief btw, tussen acht 's avonds en zes 's ochtends, op zondagen en feestdagen en op 24 december. Een bezoeker betaalt hem als particulier. Hij staat in paragraaf zes van de prijzenregeling, niet paragraaf zeven."
+    },
+    {
+      "pergunta": "Er gebeurt iets ernstigs op straat. Welk nummer?",
+      "opcoes": [
+        "112 voor alles, en zij zetten door",
+        "112 voor ambulance en brand, 110 voor politie",
+        "110 voor alles",
+        "116117 voor alles wat spoed heeft"
+      ],
+      "correta": 1,
+      "explica": "Duitsland hield beide nummers en 112 zet u niet door naar de politie. Het Nederlandse rijksadvies is 112 in de hele EU voor politie, brandweer of ambulance — vraag naar wat u nodig heeft."
+    },
+    {
+      "pergunta": "Het is zondag, de huisarts is dicht, en het is niet levensbedreigend. Wat moet u weten over 116117?",
+      "opcoes": [
+        "Er is een Engelse taaloptie",
+        "De website is vertaald maar de telefoonlijn antwoordt alleen in het Duits",
+        "Hij dekt tandheelkundige spoedgevallen",
+        "Hij vervangt 112"
+      ],
+      "correta": 1,
+      "explica": "De eigen Engelstalige pagina zegt dat de dienst alleen in het Duits beschikbaar is, en hij is niet voor levensbedreigende gevallen of tandheelkunde. Hij is gratis verklaard met een Duits telefooncontract, dus vanaf een buitenlandse simkaart zijn de kosten onbekend — laat iemand Duitstaligs bellen."
+    },
+    {
+      "pergunta": "Een Nederlands ingezetene komt in een Duits ziekenhuis. Wat doet de EHIC (achterop uw zorgpas)?",
+      "opcoes": [
+        "Maakt alles gratis",
+        "Koopt dezelfde voorwaarden die een Duits ingezetene krijgt, wat nog steeds een eigen bijdrage kan zijn",
+        "Vervangt de reisverzekering",
+        "Dekt de vlucht naar huis"
+      ],
+      "correta": 1,
+      "explica": "Het Nederlandse advies is expliciet dat de kaart geen alternatief voor een reisverzekering is: geen privébehandeling, geen repatriëring, geen bergredding. Duitse klinische zorg draagt tien euro per dag voor maximaal achtentwintig dagen per jaar, en medicijnen tien procent met een ondergrens van vijf en een bovengrens van tien. Neem ook een reisverzekering mee."
+    }
+  ]
+}

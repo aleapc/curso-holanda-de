@@ -1,0 +1,420 @@
+{
+  "id": "i07",
+  "nivel": "intermediario",
+  "numero": 25,
+  "parte": "I07",
+  "titulo": "Zeg het goede hardop, en zeg het gewone met dezelfde stem",
+  "subtitulo": "Lof met het gerecht erin bereikt de keuken; zes vlakke woorden krijgen het bord verholpen",
+  "cena": "Een Gasthaus om half negen: het ene bord was werkelijk uitstekend, het volgende kwam koud op tafel, en dezelfde kalme stem regelt beide.",
+  "moldura": "ganha",
+  "frasePiso": "Twee zinnen, elk zes woorden. De meeste mensen die hier een week zijn zeggen er geen enkele hardop.",
+  "decisao": "het compliment uitspreken mét de naam van het gerecht en het feit ter plekke in vlakke stem melden — in plaats van naar alles te glimlachen en het ongenoegen op te sparen voor de online recensie",
+  "emJogo": "ambos",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "de-i07-v-und-w",
+      "afirmacao": "De Duitse w wordt gelezen als een Nederlandse v (wann, Wagen, Möwe) — bijna dezelfde klank als uw eigen w in 'wat', alleen iets scherper. De Duitse v is f in een korte gesloten lijst van inheemse woorden — het regelboek noemt Vater, Veilchen, Vettel, Vetter, Vieh, viel, vielleicht, vier, Vlies, Vogel, Vogt, Volk, voll (maar füllen), von, vor, vordere, vorn — plus het voorvoegsel ver- en de twee woorden Frevel en Nerv. In leenwoorden is v een v (privat, Revolution, Universität, Virus, zivil, Vase), en het officiële regelboek noemt een derde groep waar de uitspraak echt zweeft tussen beide: Initiative, Larve, Pulver, evangelisch, Vers, Vesper, November, brave. Vater krijgt dus f, Vase krijgt v, en November mag allebei.",
+      "fonte": "Rat für deutsche Rechtschreibung / IDS Mannheim, Amtliches Regelwerk der deutschen Rechtschreibung, editie 2024, van kracht sinds 1/7/2024 — §22(1) voor ⟨w⟩=[v], §29 voor de gesloten lijst ⟨v⟩=[f], §30 voor de leenwoorden en de zwevende lijst.",
+      "ano": 2024,
+      "revisarAte": "2030-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-i07-n03",
+        "de-i07-n05"
+      ]
+    },
+    {
+      "id": "de-i07-gesamtpreis",
+      "afirmacao": "Het bedrag op de kaart is het bedrag dat u betaalt. De Preisangabenverordnung verplicht een ondernemer die goederen of diensten aan consumenten aanbiedt de Gesamtpreis te noemen, gedefinieerd als het te betalen totaal inclusief btw en alle andere prijsonderdelen. De btw zelf is 19 procent standaard en 7 procent verlaagd; sinds 1 januari 2026 zijn restaurant- en cateringdiensten weer op het verlaagde tarief van 7 procent, terwijl drank op 19 blijft — en door de prijsregel ziet de gast geen van beide getallen, alleen één totaal.",
+      "fonte": "PAngV 2022, §3 Abs. 1 en §2 (Gesamtpreis «einschließlich der Umsatzsteuer»); §12 UStG voor de tarieven; BMF-Schreiben van 22/12/2025, GZ III C 2 - S 7220/00023/014/027, «(Wieder-)Einführung des ermäßigten Steuersatzes auf Restaurant- und Verpflegungsdienstleistungen zum 1. Januar 2026», met uitdrukkelijke uitzondering voor drank.",
+      "ano": 2026,
+      "revisarAte": "2027-01-31",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-i07-n08"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i07-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Twee zinnen vanavond. Eén stuurt lof naar de keuken, één krijgt een bord verholpen. Beide kort."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i07-n02",
+      "bloco": "corpo",
+      "pt": "Lof met een zelfstandig naamwoord erin reist. 'Gut' blijft aan uw tafel; de naam van het gerecht loopt door."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-i07-t01",
+      "es": "Das Schnitzel war ausgezeichnet.",
+      "pinyin": "das SHNIT-sel var OWS-guh-tsykh-net",
+      "pt": "De schnitzel was uitstekend.",
+      "tts": "Das Schnitzel war ausgezeichnet."
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar-comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i07-p01",
+      "promptPt": "Eén bord op deze tafel was beter dan al het andere. Prijs dat bord bij naam. Spreek nu.",
+      "audioKey": "de-i07-t01",
+      "es": "Das Schnitzel war ausgezeichnet.",
+      "pinyin": "das SHNIT-sel var OWS-guh-tsykh-net",
+      "pt": "De schnitzel was uitstekend.",
+      "tts": "Das Schnitzel war ausgezeichnet."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i07-r01",
+      "receptivo": true,
+      "es": "Das freut mich! Ich sage es der Küche weiter.",
+      "pt": "Wat fijn om te horen! Ik geef het door aan de keuken.",
+      "tts": "Das freut mich! Ich sage es der Küche weiter.",
+      "acao": "'Weitersagen' betekent dat het al onderweg is. Zeg het één keer en laat het korte antwoord het hele antwoord zijn."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i07-n03",
+      "pt": "Hoort u de w in 'war'? De Duitse w is bijna uw eigen v — iets scherper. Één letter, en de helft leest u beter."
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar-comida",
+        "simpatia/elogiar-lugar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i07-p02",
+      "promptPt": "U wilt dat het voorbij de bediening komt en degene bereikt die kookte. Spreek nu.",
+      "audioKey": "de-i07-t02",
+      "es": "Ein Kompliment an die Küche!",
+      "pinyin": "ine kom-pli-MENT an dee KUE-khuh",
+      "pt": "Een compliment voor de keuken!",
+      "tts": "Ein Kompliment an die Küche!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i07-n04",
+      "pt": "Dank komt hier in drie maten, en die maat kiezen is de hele vaardigheid. Kort, midden, vol."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "DANKE",
+      "encaixe": "danke schön",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i07-p03",
+      "promptPt": "Het glas dat u vroeg landt midden in een zin naast u. Neem de middenmaat. Spreek nu.",
+      "audioKey": "de-i07-t03",
+      "es": "Danke schön.",
+      "pinyin": "DAHN-kuh shurn",
+      "pt": "Dank u wel.",
+      "tts": "Danke schön."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "DANKE",
+      "encaixe": "vielen Dank",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i07-p04",
+      "promptPt": "Ze gingen dat éne gerecht zoeken waar uw tafel naar vroeg. Neem de volle maat. Spreek nu.",
+      "audioKey": "de-i07-t04",
+      "es": "Vielen Dank!",
+      "pinyin": "FEE-len dahnk",
+      "pt": "Heel hartelijk dank!",
+      "tts": "Vielen Dank!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i07-n05",
+      "pt": "'Vielen' opent met een f. De Duitse v is f in oude woorden: viel, vier, von, vor, Vater. Uw v niet sonoor maken."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i07-r02",
+      "receptivo": true,
+      "es": "Sehr gerne. Schmeckt es Ihnen?",
+      "pt": "Graag gedaan. Smaakt het u?",
+      "tts": "Sehr gerne. Schmeckt es Ihnen?",
+      "acao": "'Schmeckt es Ihnen' is de controle halverwege de maaltijd. Een knik en 'sehr gut' is een compleet antwoord."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i07-n06",
+      "bloco": "capsula",
+      "pt": "Nu de andere zin. Entschuldigung, dan het feit, dan stop. Geen verhaal er bovenop."
+    },
+    {
+      "consulta": [
+        "mesa/errado"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "das ist kalt",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i07-p05",
+      "promptPt": "Het bord voor u kwam op kamertemperatuur uit de keuken. Zeg alleen dat, vlakke stem. Spreek nu.",
+      "audioKey": "de-i07-t05",
+      "es": "Entschuldigung, das ist kalt.",
+      "pinyin": "ent-SHOOL-di-goong, das ist kalt",
+      "pt": "Pardon, dit is koud.",
+      "tts": "Entschuldigung, das ist kalt."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i07-r03",
+      "receptivo": true,
+      "es": "Oh, das tut mir leid. Ich bringe Ihnen einen neuen Teller.",
+      "pt": "O, dat spijt me. Ik breng u een nieuw bord.",
+      "tts": "Oh, das tut mir leid. Ich bringe Ihnen einen neuen Teller.",
+      "acao": "'Ich bringe Ihnen' betekent dat het al onderweg is. Blijf zitten en zeg niets meer."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i07-n07",
+      "pt": "Zes woorden, vlakke stem, geen extra excuus. De opening heeft het al zacht gemaakt voor u."
+    },
+    {
+      "consulta": [
+        "mesa/errado"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "das habe ich nicht bestellt",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i07-p06",
+      "promptPt": "Er is iets voor u neergezet dat niemand aan deze tafel bestelde. Zeg dat, en niets meer. Spreek nu.",
+      "audioKey": "de-i07-t06",
+      "es": "Entschuldigung, das habe ich nicht bestellt.",
+      "pinyin": "ent-SHOOL-di-goong, das HAH-buh ikh nikht buh-SHTELT",
+      "pt": "Pardon, dit heb ik niet besteld.",
+      "tts": "Entschuldigung, das habe ich nicht bestellt."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i07-n08",
+      "pt": "Het bedrag op de kaart is het bedrag dat u betaalt: btw zit er wettelijk in en u ziet hem nooit."
+    },
+    {
+      "consulta": [
+        "pagar/errado",
+        "mesa/conta"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i07-p07",
+      "promptPt": "Het totaal voor het hoofdgerecht is twee euro hoger dan de kaart. Wijs naar de kaart. Spreek nu.",
+      "audioKey": "de-i07-t07",
+      "es": "Auf der Karte steht ein anderer Preis.",
+      "pinyin": "owf dair KAR-tuh shtayt ine AN-duh-rer PRYSS",
+      "pt": "Op de kaart staat een andere prijs.",
+      "tts": "Auf der Karte steht ein anderer Preis."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i07-r04",
+      "receptivo": true,
+      "es": "Da haben Sie recht, Entschuldigung. Ich korrigiere das.",
+      "pt": "U hebt gelijk, pardon. Ik corrigeer het.",
+      "tts": "Da haben Sie recht, Entschuldigung. Ich korrigiere das.",
+      "acao": "'Da haben Sie recht' sluit de zaak. Niets meer verschuldigd aan beide zijden van de tafel."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i07-n09",
+      "pt": "Dezelfde stem aan de hotelreceptie de ochtend erna. Zeg wat er is, stel dan uw vraag."
+    },
+    {
+      "consulta": [
+        "quarto/nao-funciona"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i07-p08",
+      "promptPt": "De radiator in kamer 214 bleef de hele nacht ijskoud. Meld het in één zin aan de balie. Spreek nu.",
+      "audioKey": "de-i07-t08",
+      "es": "Die Heizung funktioniert nicht.",
+      "pinyin": "dee HY-tsoong foonk-tsyo-NEERT nikht",
+      "pt": "De verwarming werkt niet.",
+      "tts": "Die Heizung funktioniert nicht."
+    },
+    {
+      "consulta": [
+        "quarto/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WANN-IST",
+      "encaixe": "das Frühstück",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i07-p09",
+      "promptPt": "U staat er toch en wilt liever niet op het verkeerde uur komen. Vraag ernaar. Spreek nu.",
+      "audioKey": "de-i07-t09",
+      "es": "Wann ist das Frühstück?",
+      "pinyin": "van ist das FRUE-shtuek",
+      "pt": "Hoe laat is het ontbijt?",
+      "tts": "Wann ist das Frühstück?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i07-r05",
+      "receptivo": true,
+      "es": "Von sieben bis zehn, im Erdgeschoss.",
+      "pt": "Van zeven tot tien, op de begane grond.",
+      "tts": "Von sieben bis zehn, im Erdgeschoss.",
+      "acao": "'Erdgeschoss' is de begane grond. Hier is de eerste verdieping één trap hoger — lees de liftknoppen twee keer."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i07-n10",
+      "pt": "'Frühstück' heeft twee ü — dezelfde klank als uw 'huis' of 'fuut'. Dat krijgt u cadeau."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i07-p10",
+      "promptPt": "De receptie regelde de kamer in vier minuten en zei waar u kunt ontbijten. Sluit warm af. Spreek nu.",
+      "audioKey": "de-i07-t10",
+      "es": "Vielen Dank, das war sehr nett.",
+      "pinyin": "FEE-len dahnk, das var zair net",
+      "pt": "Heel hartelijk dank, dat was erg aardig.",
+      "tts": "Vielen Dank, das war sehr nett."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-i07-s01",
+      "molde": "DANKE",
+      "es": "Das Schnitzel war ausgezeichnet. Entschuldigung, das ist kalt. Vielen Dank!",
+      "pinyin": "das SHNIT-sel var OWS-guh-tsykh-net. ent-SHOOL-di-goong, das ist kalt. FEE-len dahnk",
+      "pt": "Herhaal de lof, het feit en de afsluiting, allemaal in één stem.",
+      "tts": "Das Schnitzel war ausgezeichnet. Entschuldigung, das ist kalt. Vielen Dank!"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i07-n11",
+      "bloco": "recap",
+      "pt": "I07 klaar. Noem het gerecht, noem het feit, en laat één kalme stem beide dragen."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Lof, dank en de vlakke zin",
+    "secoes": [
+      {
+        "titulo": "Zet het gerecht in de zin",
+        "corpo": "Niemand kan 'alles was heerlijk' de keuken in dragen. 'Das Schnitzel' wel. Das Schnitzel war ausgezeichnet is vijf woorden en herhaalt zich in de mond van wie het hoorde, en dat is het hele mechanisme. Ein Kompliment an die Küche is de vaste zin die zich richt op het koken in plaats van op de bediening, en werkt aan een balie net zo goed als aan tafel.",
+        "exemplos": [
+          {
+            "es": "Das Schnitzel war ausgezeichnet.",
+            "pt": "De schnitzel was uitstekend."
+          },
+          {
+            "es": "Ein Kompliment an die Küche!",
+            "pt": "Een compliment voor de keuken!"
+          }
+        ]
+      },
+      {
+        "titulo": "Drie maten van dank",
+        "corpo": "Danke is de korte, danke schön de middelste, vielen Dank de volle. U zegt er één tien keer per dag, en die keuze is het enige wat u beslist. Niets anders in de zin beweegt — daarom overleeft hij lawaai, vermoeidheid en een ober die al halverwege de volgende tafel is.",
+        "exemplos": [
+          {
+            "es": "Danke schön.",
+            "pt": "Dank u wel."
+          },
+          {
+            "es": "Vielen Dank!",
+            "pt": "Heel hartelijk dank!"
+          }
+        ]
+      },
+      {
+        "titulo": "Entschuldigung, dan het feit, dan stilte",
+        "corpo": "Das ist kalt. Das habe ich nicht bestellt. Auf der Karte steht ein anderer Preis. Drie zinnen, geen bijvoeglijk oordeel over hoe de avond loopt en geen verslag van uw dag. De opening draagt de beleefdheid, zodat de inhoud dat niet hoeft — en hoe korter de inhoud, hoe sneller het bord beweegt."
+      },
+      {
+        "titulo": "Waarom de rekening klopt met de kaart op tafel",
+        "corpo": "De Duitse prijswet verplicht een ondernemer de Gesamtpreis te noemen — het te betalen totaal, met btw er al in. Dat is het tegenovergestelde van wat een Amerikaanse koper gewend is, en het heeft een handig neveneffect: sinds 1 januari 2026 wordt restauranteten belast met 7 procent en drank met 19, en u ziet geen van beide cijfers ergens op uw rekening. Als het totaal dus niet met de kaart klopt, is de verklaring niet de btw. Dat in één vlakke zin zeggen is een gewone handeling."
+      },
+      {
+        "titulo": "Twee letters die zichzelf terugverdienen",
+        "corpo": "De Duitse w is bijna uw v, alleen iets scherper: war, wann, Wagen. De Duitse v is f in een korte lijst oude woorden — viel, vier, von, vor, Vater, Vogel, voll — en in het voorvoegsel ver-. In leenwoorden wordt hij weer v: Vase, privat, Universität. Uw eigen ⟨v⟩ wilt hem ook stemhebbend maken, en dat is precies wat u hier niet wilt: laat 'viel' met een f beginnen. Het officiële regelboek houdt zelfs een derde lijst waar de uitspraak echt zweeft, November en Vers erbij — hoort u beide, dan hoort u het goed."
+      }
+    ]
+  },
+  "slot": "I07",
+  "permissao": "U mag zeggen dat een bord koud is. Entschuldigung, das ist kalt is een gewone zin in een Duitse eetzaal, hij wordt gehoord als informatie en niet als aanval, en de versie waarin u het koud opeet en er in de taxi over zit te mopperen helpt niemand, u zelf het minst.",
+  "permissaoAudioKey": "de-i07-n06",
+  "espelho": "Wie thuis wel eens een verkeerd bord heeft opgegeten in plaats van er iets van te zeggen, en er daarna twintig minuten in de auto over doorpraatte, kent deze reflex al. Het heeft niets met Duits te maken. Het is het idee dat iets hardop zeggen u lastig maakt — precies andersom.",
+  "fichasCulturais": [
+    {
+      "sinal": "De rekening komt en het totaal is precies de som van de bedragen op de kaart — er komt aan het einde niets bij.",
+      "suaLeitura": "Er moet ergens btw bij komen, dus ik houd geld apart en controleer de sommen straks.",
+      "oQueEAli": "De prijswet verplicht een ondernemer die goederen of diensten aan consumenten aanbiedt de Gesamtpreis te noemen, gedefinieerd als het te betalen totaal inclusief btw. Het bedrag op de kaart is dus het hele bedrag. Sinds 1 januari 2026 wordt restauranteten belast met 7 procent en drank met 19, en dezelfde regel zorgt dat een gast geen van beide cijfers ooit ziet.",
+      "oQueVoceFaz": "Lees de prijs op de kaart als de prijs, en begroot ermee. Klopt het totaal niet, zeg dan die ene vlakke zin: Auf der Karte steht ein anderer Preis.",
+      "oQueMelhora": "U houdt geen mentale reserve meer aan voor een onzichtbare toeslag, en u kunt twee zaken vergelijken door naar twee kaarten te kijken.",
+      "ondeNaoVale": "Het statiegeld is de aangegeven uitzondering: dezelfde wetgeving vereist dat het Pfand náást het totaalbedrag staat en er uitdrukkelijk niet bij wordt opgeteld — daarom staat op het schap 0,99 € en vraagt de kassa 1,24 €. Dat verschil is de regel die werkt, geen ondernemer die improviseert.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-i07-n08"
+      ]
+    },
+    {
+      "sinal": "Wie zojuist uw bord verving, blijft u de rest van de avond met Sie aanspreken, terwijl hij zichtbaar vriendelijk is.",
+      "suaLeitura": "Ze zijn formeel geworden omdat ik iets over het eten zei.",
+      "oQueEAli": "Sie is de juiste aanspreekvorm bij nieuwe contacten en in het zakelijk verkeer — zo staat het in het standaardwerk — en de overstap naar du komt als aanbod van de andere kant, niet als temperatuurmeter van het gesprek. Warmte en Sie reizen prima samen. Voor u is dat vertrouwd terrein: u kent thuis al de U-vorm die afstand markeert, en in Duitsland doet Sie precies dat werk.",
+      "oQueVoceFaz": "Blijf bij Sie. Het zit al ingebakken in elke bouwsteen die u kent, dus u hoeft niets te beslissen: Haben Sie, Können Sie, Wann ist, Entschuldigung.",
+      "oQueMelhora": "U leest formaliteit niet meer als kilte, en u besteedt de avond aan luisteren in plaats van aan een oordeel over uzelf te zoeken.",
+      "ondeNaoVale": "Dit is geen uitspraak over wie aan wie Sie verschuldigd is aan een balie — die richting is in geen enkele open bron gedocumenteerd, en de cursus verzint er geen. En in het noorden hoort u wellicht uw voornaam gevolgd door Sie: die combinatie is een geregistreerde regionale variant in de Duitse alledaagse-spraakatlas, geen verspreking.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "de-i07-n04"
+      ]
+    }
+  ]
+}

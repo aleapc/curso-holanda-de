@@ -1,0 +1,470 @@
+{
+  "id": "b15",
+  "nivel": "basico",
+  "numero": 15,
+  "parte": "B15",
+  "titulo": "Was kostet das? — de drie woorden die alles op het schap prijzen",
+  "subtitulo": "Plus de maat, het paskamer, de tas — en waarom schap en kassa twee verschillende bedragen noemen",
+  "cena": "Zaterdagmiddag op een winkelstraat in Keulen: om acht uur gaan de rolluiken dicht, en morgen is de hele straat donker.",
+  "moldura": "ganha",
+  "frasePiso": "Was kostet, en dan één ding. U kunt een hele straat prijzen met drie woorden en een vinger, en nooit zeggen hoe het ding heet.",
+  "moldes": [
+    "WAS-KOSTET"
+  ],
+  "clique": {
+    "contagem": [
+      "de souvenirkraam",
+      "de kledingzaak",
+      "de bakker"
+    ],
+    "desconto": "Niemand schreef u zes zinnen. U nam één woord, plaatste dat vóór het ding dat u niet wilde, en het bord veranderde.",
+    "piso": "Volgende keer als een prijs nergens staat en het ding een naam heeft die u nooit zag, loopt u niet weg. U wijst en vraagt in drie woorden."
+  },
+  "fatosDatados": [
+    {
+      "id": "de-b15-ladenschluss",
+      "afirmacao": "Winkeltijden zijn wet, geen gewoonte. § 3 LadSchlG verplicht verkooppunten om te sluiten op zondagen en feestdagen, vóór 6 uur en vanaf 20 uur maandag tot en met zaterdag, en op 24 december vanaf 14 uur wanneer die dag een werkdag is; bakkers mogen vanaf 5.30 uur open. Sinds de Föderalismusreform van 2006 ligt de bevoegdheid bij de Länder — Art. 74 Abs. 1 Nr. 11 GG sluit «das Recht des Ladenschlusses» uit van het federale economisch recht — en de federale wet van 1956 overleeft alleen als restmodel. De veelgehoorde claim dat alleen Beieren nog op de federale wet draait is verouderd: het Bayerisches Ladenschlussgesetz van 25 juli 2025 is sinds 1 augustus 2025 van kracht, houdt de 20-uurgrens vast maar laat tot acht gemeentelijk goedgekeurde late openingen per jaar tot middernacht toe, vier extra per ondernemer met twee weken opzegtermijn, en onbemande Kleinstsupermärkte tot 150 m² zijn de klok rond open, ook op zondag. Berlijn staat 24 uur toe van maandag tot en met zaterdag, met zondag in principe dicht. De status van de federale wet is in slechts drie van de zestien Länder geverifieerd, dus over de andere dertien is niets te zeggen.",
+      "fonte": "pesquisa-alemanha-en.md §7.1, §7.5 e §7.6 — § 3 LadSchlG e Art. 74 Abs. 1 Nr. 11 GG (gesetze-im-internet.de, abertos, verbatim); BayLadSchlG de 25/7/2025, GVBl. S. 246, verificado em gesetze-bayern.de; Berlim [RESUMO de berlin.de, lei não aberta]. O dossiê registra: «Verificou-se o estatuto do LadSchlG federal em apenas 3 dos 16 Länder.»",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": [
+        "de-b15-n09"
+      ]
+    },
+    {
+      "id": "de-b15-sonntag",
+      "afirmacao": "Wat er op zondag daadwerkelijk open is, is een korte en juridisch omschreven lijst. Apotheken volgens rooster (§ 4 LadSchlG met § 23 ApBetrO); benzinestations, die elke dag open mogen maar tijdens sluitingstijden alleen auto-onderdelen, brandstof en Reisebedarf mogen verkopen (§ 6) — een benzinestation is geen legale zondagssupermarkt; winkels in personenstations (§ 8) en op luchthavens (§ 9), die buiten normale uren alleen «Reisebedarf an Reisende» mogen verkopen, reisbenodigdheden aan reizigers; een kort zondagochtendvenster voor melk en zuivel, bakkerij- en banketbakkersproducten, vers fruit, bloemen en kranten (§ 12), met de tijden per Land vastgelegd «unter Berücksichtigung der Zeit des Hauptgottesdienstes», waardoor het venster smal is en rond de hoofddienst sluit; kur- en badplaatsen (§ 10), tot 40 zondagen en feestdagen per jaar, ten hoogste 8 uur. Een verkaufsoffener Sonntag is lokaal, gedateerd en gekoppeld aan een gelegenheid, en het Bundesverfassungsgericht oordeelde in december 2009 dat het handelsbelang van een winkelier en het gewone «Shopping-Interesse» van een klant op zichzelf niet volstaan om er een te rechtvaardigen.",
+      "fonte": "pesquisa-alemanha-en.md §7.3, §7.4 e §7.5 — §§ 4, 6, 8, 9, 10 e 12 LadSchlG (gesetze-im-internet.de, abertos, §§ 9 e 12 verbatim); BVerfG, Urteil de 1/12/2009, 1 BvR 2857/07 e 1 BvR 2858/07, verbatim do comunicado. O dossiê marca como NÃO CONFIRMADO que restaurantes e cafés abrem por estarem fora do Ladenschluss, e que o supermercado de estação funcione como mercearia dominical plena.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-b15-n09"
+      ]
+    },
+    {
+      "id": "de-b15-pfand",
+      "afirmacao": "Het statiegeld is de enige wettelijke uitzondering op de regel dat de getoonde prijs de betaalde prijs is. § 31 Abs. 1 VerpackG stelt een statiegeld van «mindestens 0,25 Euro einschließlich Umsatzsteuer» per verpakking — een minimum, geen vast bedrag, en inclusief btw — en verplicht de verpakking om vóór verkoop permanent gemarkeerd te zijn. § 7 PAngV 2022 verplicht de handelaar dan om het statiegeld «neben dem Gesamtpreis anzugeben und nicht in diesen einzubeziehen»: naast de totaalprijs, en uitdrukkelijk niet erin opgenomen. Daarom staat er 0,99 € op het schap en 1,24 € aan de kassa. Het is geen fout en geen truc: het is een wettelijke plicht om het er níet bij op te tellen. Voor de praktijk: het materiaal beslist meer dan de drank — PET-flessen en blikjes dragen het bijna altijd, kartons en wijnflessen niet — en sinds 1 januari 2024 dragen melk en drinkbare zuivel in eenmalige plastic flessen het ook. Herbruikbare Mehrweg-statiegelden zijn privaatrechtelijke afspraken, doorgaans 0,08 € voor een bierflesje en 1,50 € voor een krat, zonder enige wettelijke inleverplicht.",
+      "fonte": "pesquisa-alemanha-en.md §9.1, §9.2, §9.3, §9.5 e §9.6 — § 31 Abs. 1 VerpackG e § 7 PAngV 2022 (gesetze-im-internet.de, abertos, verbatim); Verbraukerzentrale sobre Mehrweg como «zivilrechtliche Vereinbarungen», verbatim. Os valores de Mehrweg são uso de mercado, não norma; a extensão ao leite em 1/1/2024 é [RESUMO do Umweltbundesamt].",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-b15-n07",
+        "de-b15-n08"
+      ]
+    },
+    {
+      "id": "de-b15-taxfree",
+      "afirmacao": "De belastingteruggave op het vliegveld is de vrijstelling van de winkel, niet die van de reiziger. Het BMF-Merkblatt van maart 2025, verspreid door zoll.de, stelt drie voorwaarden: de koper moet in een derde land wonen, de goederen moeten binnen drie maanden dat derde land bereiken, en de totale waarde inclusief btw moet meer dan 50 euro bedragen. Woonplaats bepaalt, nationaliteit is irrelevant — de eigen voorbeelden van het Merkblatt maken een Brit met woonplaats in Engeland een Drittlandskäufer en een Brit met woonplaats in Noord-Ierland niet. Voor Nederlandse ingezetenen geldt géén teruggave, omdat Nederland een EU-lidstaat is: de vrijstelling is er alleen voor bezoekers van buiten de EU. Bij het grensdouanekantoor moet de reiziger paspoort, uitvoerdocument en de goederen zelf tonen, wat precies is waar mensen fout gaan door de aankoop in te checken voordat hij is afgestempeld. En de zin die telt: «Die Steuerbefreiung gilt ausschließlich für den Unternehmer» — de vrijstelling behoort alleen aan de handelaar toe. Er is geen recht op teruggave van de belastingdienst; wat de reiziger krijgt is een Preisnachlass die de handelaar als deel van de verkoop kan toekennen, waarom luchthavenbedrijven uitkeren na aftrek van een verwerkingskosten. Niemand krijgt ooit de volle 19% terug, en dat is legaal en voorzien.",
+      "fonte": "pesquisa-alemanha-en.md §4.7 — BMF, «Merkblatt zur Umsatzsteuerbefreiung für Ausfuhrlieferungen im nichtkommerziellen Reiseverkehr», Stand März 2025, distribuído por zoll.de, PDF de 15 páginas aberto; todas as passagens citadas são verbatim do Merkblatt.",
+      "ano": 2025,
+      "revisarAte": "2027-03-31",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-b15-n10"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b15-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "Zaterdagmiddag, om acht uur zakken de rolluiken. Morgen is de straat donker. Dus vandaag, dan."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b15-n02",
+      "bloco": "molde",
+      "tom": "ganha",
+      "pt": "Hier is de bouwsteen: Was kostet, en dan één ding. Altijd één tegelijk, en het verandert nooit van vorm."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-b15-t01",
+      "es": "Was kostet das?",
+      "pinyin": "vass KOS-tet dass",
+      "pt": "Wat kost dat?",
+      "tts": "Was kostet das?"
+    },
+    {
+      "consulta": [
+        "compras/quanto",
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WAS-KOSTET",
+      "encaixe": "das",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b15-p01",
+      "promptPt": "Op de souvenirkraam heeft het houten dingetje geen prijs en geen naam die u kunt uitspreken. Wijs en vraag. Spreek nu.",
+      "audioKey": "de-b15-t01",
+      "es": "Was kostet das?",
+      "pinyin": "vass KOS-tet dass",
+      "pt": "Wat kost dat?",
+      "tts": "Was kostet das?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b15-n03",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Was kostet das werkt met een vinger. U hoeft nooit te weten hoe het ding heet om de prijs te weten."
+    },
+    {
+      "consulta": [
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WAS-KOSTET",
+      "encaixe": "der Rock",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b15-p02",
+      "promptPt": "In de kledingzaak is het grijze op het rek het enige wat ze echt zou dragen. Prijs het. Spreek nu.",
+      "audioKey": "de-b15-t02",
+      "es": "Was kostet der Rock?",
+      "pinyin": "vass KOS-tet dair rock",
+      "pt": "Wat kost de rok?",
+      "tts": "Was kostet der Rock?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b15-n04",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Der Rock is een rok — precies zoals in het Nederlands. Eén van de weinige woorden die u gratis meekrijgt."
+    },
+    {
+      "consulta": [
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WAS-KOSTET",
+      "encaixe": "die Jacke",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b15-p03",
+      "promptPt": "Nog in de kledingzaak: u pakte te licht in, het is kouder dan voorspeld, en één ding aan het rek lost het op. Spreek nu.",
+      "audioKey": "de-b15-t03",
+      "es": "Was kostet die Jacke?",
+      "pinyin": "vass KOS-tet dee YAK-kuh",
+      "pt": "Wat kost het jack?",
+      "tts": "Was kostet die Jacke?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-b15-r01",
+      "es": "Das kostet neunundzwanzig Euro neunzig.",
+      "pinyin": "dass KOS-tet NOYN-oont-tsvan-tsikh OY-ro NOYN-tsikh",
+      "pt": "Dat kost negenentwintig euro negentig.",
+      "tts": "Das kostet neunundzwanzig Euro neunzig.",
+      "receptivo": true,
+      "acao": "Net als in het Nederlands: eerst de eenheden, dan de tientallen. Neun-und-zwanzig is negenentwintig. Dat komt gratis mee."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b15-n05",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Nu de bouwsteen die u al kent: Haben Sie, en dan het ding. Een andere maat, een tas, dezelfde in een andere kleur."
+    },
+    {
+      "consulta": [
+        "compras/balcao",
+        "mesa/tamanho"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "HABEN-SIE",
+      "encaixe": "eine andere Größe",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b15-p04",
+      "promptPt": "Het past over de schouders en nergens anders, en er hangt er nog één op het rek. Vraag het. Spreek nu.",
+      "audioKey": "de-b15-t04",
+      "es": "Haben Sie eine andere Größe?",
+      "pinyin": "HAA-ben zee EYE-nuh AN-duh-ruh GRER-suh",
+      "pt": "Heeft u een andere maat?",
+      "tts": "Haben Sie eine andere Größe?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b15-r02",
+      "es": "Die Umkleidekabine ist da hinten.",
+      "pinyin": "dee oom-KLY-duh-ka-BEE-nuh ist daa HIN-ten",
+      "pt": "Het paskamer is daar achteraan.",
+      "tts": "Die Umkleidekabine ist da hinten.",
+      "receptivo": true,
+      "acao": "Umkleidekabine is het paskamer, en da hinten is achteraan. Volg de hand, niet het lange woord."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b15-n06",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Cadeau is ein Geschenk. Vraag nooit om «Gift» — dat woord op een fles is een waarschuwing en betekent gif."
+    },
+    {
+      "consulta": [
+        "compras/balcao",
+        "compras/so-olhando"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "das anprobieren",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b15-p05",
+      "promptPt": "U heeft het over uw arm en u koopt het niet blind. Zeg wat u ermee wilt doen. Spreek nu.",
+      "audioKey": "de-b15-t05",
+      "es": "Ich möchte das anprobieren, bitte.",
+      "pinyin": "ikh MERKH-tuh dass AN-pro-bee-ren, BIT-tuh",
+      "pt": "Ik wil dat graag passen, alstublieft.",
+      "tts": "Ich möchte das anprobieren, bitte."
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "ein Geschenk",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b15-p06",
+      "promptPt": "U neemt iets mee voor wie een week lang uw kat voerde, en wilt naar het juiste schap gewezen worden. Spreek nu.",
+      "audioKey": "de-b15-t06",
+      "es": "Ich möchte ein Geschenk, bitte.",
+      "pinyin": "ikh MERKH-tuh eyn guh-SHENK, BIT-tuh",
+      "pt": "Ik zoek een cadeau, alstublieft.",
+      "tts": "Ich möchte ein Geschenk, bitte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b15-n07",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Het label zegt 0,99 en de kassa zegt 1,24. Dat gat is statiegeld, en de wet verbiedt het erbij op te tellen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b15-n08",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Minimaal vijfentwintig cent, op blikjes en plastic flessen, en het apparaat bij de ingang geeft het terug."
+    },
+    {
+      "consulta": [
+        "compras/quanto",
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WAS-KOSTET",
+      "encaixe": "das Brot",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b15-p10",
+      "promptPt": "Bij de bakker heeft het donkere brood achter het glas geen kaartje. Zelfde drie woorden. Spreek nu.",
+      "audioKey": "de-b15-t10",
+      "es": "Was kostet das Brot?",
+      "pinyin": "vass KOS-tet dass broht",
+      "pt": "Wat kost het brood?",
+      "tts": "Was kostet das Brot?"
+    },
+    {
+      "consulta": [
+        "compras/pagar",
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "HABEN-SIE",
+      "encaixe": "eine Tüte",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b15-p07",
+      "promptPt": "Bij de bakker heeft u beide handen vol en de balie geeft u niets om het in te dragen. Vraag het. Spreek nu.",
+      "audioKey": "de-b15-t07",
+      "es": "Haben Sie eine Tüte?",
+      "pinyin": "HAA-ben zee EYE-nuh TEW-tuh",
+      "pt": "Heeft u een zakje?",
+      "tts": "Haben Sie eine Tüte?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-b15-r03",
+      "es": "Möchten Sie eine Tüte?",
+      "pinyin": "MERKH-ten zee EYE-nuh TEW-tuh",
+      "pt": "Wilt u een zakje?",
+      "tts": "Möchten Sie eine Tüte?",
+      "receptivo": true,
+      "acao": "Een zakje wordt aangeboden, niet aangenomen. Heb ja bitte of nein danke klaar voordat de kassa wacht."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b15-n09",
+      "bloco": "corpo",
+      "tom": "protege",
+      "pt": "Winkels sluiten om acht uur en blijven dicht op zondag. Stations en luchthavens mogen open — alleen voor reizigers."
+    },
+    {
+      "consulta": [
+        "compras/devolver"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "das umtauschen",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b15-p08",
+      "promptPt": "Het leek goed in de winkel en fout in de hotelspiegel, en u bewaarde het bonnetje. Terug bij de kassa. Spreek nu.",
+      "audioKey": "de-b15-t08",
+      "es": "Ich möchte das umtauschen, bitte.",
+      "pinyin": "ikh MERKH-tuh dass OOM-tow-shen, BIT-tuh",
+      "pt": "Ik wil dat graag ruilen, alstublieft.",
+      "tts": "Ich möchte das umtauschen, bitte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b15-n10",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "Belastingteruggave op het vliegveld geldt voor bezoekers van buiten de EU — voor Nederlanders dus niet."
+    },
+    {
+      "consulta": [
+        "compras/so-olhando"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b15-p09",
+      "promptPt": "Iemand komt helpen en u wilt vijf minuten alleen bij het rek gelaten worden. Twee woorden. Spreek nu.",
+      "audioKey": "de-b15-t09",
+      "es": "Nur schauen, danke.",
+      "pinyin": "noor SHOW-en, DAN-kuh",
+      "pt": "Ik kijk alleen, dank u.",
+      "tts": "Nur schauen, danke."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-b15-s01",
+      "molde": "WAS-KOSTET",
+      "es": "Was kostet das? Was kostet der Rock? Was kostet die Jacke?",
+      "pinyin": "vass KOS-tet dass. vass KOS-tet dair rock. vass KOS-tet dee YAK-kuh",
+      "pt": "Schaduw dezelfde drie woorden op drie heel verschillende dingen.",
+      "tts": "Was kostet das? Was kostet der Rock? Was kostet die Jacke?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b15-n11",
+      "bloco": "recap",
+      "pt": "B15 klaar. Eén vraag prees de hele straat, en het bedrag aan de kassa verrast u niet meer."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Een straat prijzen met drie woorden",
+    "secoes": [
+      {
+        "titulo": "Was kostet, plus één ding",
+        "corpo": "Zet achter Was kostet alles waar u naar kunt wijzen, en de vraag is af. Let op de bewuste grens: alles wat u invoegt is enkelvoud. Was kosten, voor het meervoud, zou u dwingen om aan de balie een overeenkomstbeslissing te nemen, en dat is precies wat deze cursus u níet vraagt. Prijs één ding per keer. Dat is een keuze, geen gebrek.",
+        "exemplos": [
+          {
+            "es": "Was kostet das?",
+            "pt": "Wat kost dat?"
+          },
+          {
+            "es": "Was kostet die Jacke?",
+            "pt": "Wat kost het jack?"
+          }
+        ]
+      },
+      {
+        "titulo": "Het ding komt met zijn lidwoord er al aan vast",
+        "corpo": "Der Rock, die Jacke, eine andere Größe, eine Tüte, ein Geschenk. Leer elk van die als één brok, zoals u een telefoonnummer leerde, en haal het eerste woord er nooit af. Duits verandert dat eerste woord naargelang de functie in de zin, en deze cursus heeft het zo geregeld dat u dat aan de balie nooit hoeft uit te vogelen. Na ist en na kostet is de vorm toevallig de woordenboekvorm; na haben Sie en na ich möchte niet, en u merkt er niets van, want u leerde de brok."
+      },
+      {
+        "titulo": "Eén woord dat uw oog laat struikelen",
+        "corpo": "Der Rock is een rok — precies wat u in het Nederlands ook zegt. Het is een van de weinige plekken waar het Duits en het Nederlands hetzelfde woord in dezelfde betekenis hebben, en dat komt gratis mee. De echte val staat elders: das Gift betekent gif. In het Nederlands hoort «gift» bij een schenking, niet bij vergif. Duits en Engels bewaarden de betekenis van «geven» in Mitgift (bruidsschat), en verder betekent Gift alleen «vergif». Wat u wilt kopen is ein Geschenk. Op een fles is Gift een waarschuwing, geen vriendelijk gebaar."
+      },
+      {
+        "titulo": "Waarom schap en kassa het oneens zijn",
+        "corpo": "Overal elders is de getoonde prijs de eindprijs — dat is de Preisangabenverordnung, die het totaal inclusief btw voorschrijft. Het statiegeld op drankverpakkingen is de ene wettelijke uitzondering, en het loopt andersom: dezelfde regeling verplicht om het statiegeld naast de totaalprijs te tonen en uitdrukkelijk niet erin op te nemen. Dus het schap zegt 0,99 € en de kassa zegt 1,24 €, en geen van beide is fout. Minimaal vijfentwintig cent op eenmalige verpakkingen, en het komt terug uit het apparaat bij de ingang van de supermarkt. De vuistregel: het materiaal beslist meer dan de drank — plastic flessen en blikjes dragen het bijna altijd, kartons en wijnflessen niet. Herbruikbaar glas is een privaatrechtelijke afspraak, meestal acht cent per bierflesje en anderhalve euro per krat — en zonder wettelijke inleverplicht, dus die gaan terug naar de winkel die ze verkocht."
+      },
+      {
+        "titulo": "De acht-uurgrens en de zondag",
+        "corpo": "De federale winkeltijdenwet verplicht verkooppunten om op zondagen en feestdagen dicht te zijn en om 20 uur op werkdagen, met bakkers open vanaf half zes 's ochtends. Sinds 2006 schrijft elke Land zijn eigen versie, en de veelgehoorde regel dat alleen Beieren nog op de federale wet draait is sinds 1 augustus 2025 niet meer waar. Wat op zondag bevestigd open is, is een korte lijst: de apotheek in het rooster, het benzinestation — bij wet beperkt tot brandstof, auto-onderdelen en reisbenodigdheden, dus geen supermarkt — station en luchthavenwinkels, beperkt tot reisbenodigdheden voor reizigers, een smal ochtendvenster voor brood, melk, bloemen, vers fruit en kranten, en badplaatsen. Een verkaufsoffener Sonntag is lokaal, gedateerd en gekoppeld aan een gelegenheid; het constitutionele hof oordeelde dat willen handelen en willen winkelen op zichzelf niet volstaan om er een te rechtvaardigen. Reken er nooit op."
+      },
+      {
+        "titulo": "De teruggave die niet voor u geldt",
+        "corpo": "Op de luchthaven ziet u misschien een tax-freebalie. Drie voorwaarden: u woont buiten de EU, de goederen verlaten binnen drie maanden, en de aankoop inclusief btw is meer dan 50 euro. Woonplaats beslist, niet uw paspoort. Als Nederlander woont u in de EU en heeft u geen recht op teruggave — de balie is er voor bezoekers uit derde landen. Voor uw reisgenoten die wél buiten de EU wonen: het eigen voorbeeld van het informatieblad maakt een Brit die in Engeland woont wél in aanmerking komend, en een Brit die in Noord-Ierland woont niet. Toon paspoort, uitvoerdocument en de goederen aan de douanebalie, wat betekent dat het gekochte niet al in het ruim mag zitten. En het deel dat niemand uitlegt: de vrijstelling behoort de winkel toe, niet aan de klant. Er is geen recht op teruggave door de belastingdienst; wat de reiziger krijgt is een prijskorting die de winkelier als deel van de verkoop toekent, en het teruggavebedrijf keert uit na aftrek van kosten. Niemand ziet ooit de volle 19%, en zo is de regel geschreven."
+      }
+    ]
+  },
+  "slot": "B15",
+  "permissao": "U mag wijzen. Was kostet das met een vinger is een volledige vraag in elke winkel van het land, en niemand telt of u het woord voor het voorwerp kende — en u mag dezelfde drie woorden gebruiken bij de kraam, aan het rek en bij de balie, zonder ze te variëren om interessanter te klinken. U mag ook nur schauen, danke zeggen en met rust gelaten worden, en u mag iets teruggeven dat niet werkte, met het bonnetje er nog aan. Geen daarvan hoeft een uitleg eromheen.",
+  "permissaoAudioKey": "de-b15-n03",
+  "espelho": "Wie ooit heeft gewinkeld in een land waarvan hij het alfabet kon lezen maar de woorden niet, doet dit al: wijzen, prijs vragen, het ding vasthouden, het bedrag controleren. Het enige nieuwe is dat het vragen drie woorden is en dat het bedrag aan de kassa legaal groter mag zijn dan dat op het schap.",
+  "fichasCulturais": [
+    {
+      "sinal": "Het schaplabel zegt 0,99 € en de kassa vraagt 1,24 €, en niemand legt het verschil uit.",
+      "suaLeitura": "Of het label is verouderd of er is stiekem iets bij opgeteld — het soort ding waar u navraag over zou doen.",
+      "oQueEAli": "Het is een wettelijke plicht om het er níet bij op te tellen. De Verpackungsgesetz stelt een statiegeld van minstens vijfentwintig cent inclusief btw op eenmalige drankverpakkingen, en de prijsregeling verplicht de handelaar om dat statiegeld naast de totaalprijs te tonen en uitdrukkelijk niet erin op te nemen. Het label «zzgl. 0,25 € Pfand» is de winkel die zich aan de regel houdt, en het is de enige uitzondering in het land op het principe dat de getoonde prijs de betaalde prijs is.",
+      "oQueVoceFaz": "Lees de kleine regel onder de prijs voordat u uw wisselgeld telt, en bewaar de lege verpakkingen. Breng blikjes en plastic flessen met het statiegeldlogo terug naar een winkel die hetzelfde materiaal verkoopt — via het apparaat of aan de kassa — en het statiegeld wordt u terugbetaald.",
+      "oQueMelhora": "Een bedrag dat op een fout leek, wordt een bedrag dat u kunt voorspellen, en de lege flessen in de hotelkamer worden weer geld.",
+      "ondeNaoVale": "Het dekt niet alles. Verpakkingen onder 0,1 liter en boven 3 liter vallen erbuiten, evenals kartons, wijn en sterke drank — maar die uitzonderingen op basis van drank vervallen zodra de verpakking een plastic fles of blikje is. Herbruikbaar glas is een ander verhaal: die statiegelden zijn privaatrechtelijke afspraken, de bedragen zijn marktgebruik, en er is geen enkele wettelijke plicht op enige winkel om ze terug te nemen.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-b15-n07"
+      ]
+    },
+    {
+      "sinal": "Het is zes uur zaterdagavond en u besluit het winkelen tot morgen uit te stellen.",
+      "suaLeitura": "Zondag zal rustiger en makkelijker zijn, zoals een weekenddag doorgaans is.",
+      "oQueEAli": "Zondagssluiting staat in de wet, niet in de gewoonte, en is grondwettelijk verankerd: zondagen en erkende feestdagen zijn beschermd als rustdagen via een Weimar-artikel dat in de Basiswet is opgenomen. Verkooppunten zijn dicht op zondagen en feestdagen en vanaf acht uur 's avonds op werkdagen. Sinds 2006 schrijft elke Land zijn eigen versie, dus de details schuiven door het land, maar de zondag zelf niet.",
+      "oQueVoceFaz": "Doe het winkelen op zaterdag, vóór acht uur. Wordt u overvallen, dan is de bevestigde zondagslijst kort: de apotheek in het rooster, een smal ochtendvenster voor brood, melk, bloemen, fruit en kranten, station en luchthavenwinkels voor reisgoederen, en het benzinestation voor brandstof en reisbenodigdheden.",
+      "oQueMelhora": "U verliest geen dag van de reis aan gesloten deuren, en u loopt niet meer naar een supermarkt die nooit open ging.",
+      "ondeNaoVale": "De bevoegdheid ligt bij de Länder en deze cursus heeft de positie in slechts drie van de zestien geverifieerd, dus niets hier moet als een nationale dienstregeling worden gelezen — Berlijn staat 24 uur toe van maandag tot en met zaterdag, Beieren nam in 2025 zijn eigen wet aan met late openingen en onbemande winkeltjes die de klok rond open zijn, en de andere dertien zijn niet gecontroleerd. Restaurants en cafés vallen onder andere wetgeving en worden hier niet gedekt. En een verkaufsoffener Sonntag, waar er een is, is een enkel lokaal evenement op datum, en nooit iets om op te rekenen.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-b15-n09"
+      ]
+    },
+    {
+      "sinal": "Een bord op het vliegveld biedt aan de btw terug te geven op wat u kocht, en u rekent 19% van het totaal uit.",
+      "suaLeitura": "De belasting is van u om terug te vragen, en de balie is er om die terug te geven.",
+      "oQueEAli": "Het officiële informatieblad zegt dat de vrijstelling uitsluitend voor de handelaar geldt. Er is geen directe teruggave van de belastingdienst aan een koper; wat de winkel kan geven is een prijskorting overeengekomen als deel van de verkoop, en de luchthavenbedrijven keren uit na aftrek van kosten. De voorwaarden zijn woonplaats buiten de EU, uitvoer binnen drie maanden, en een aankoop van meer dan 50 euro inclusief btw — en woonplaats bepaalt, niet nationaliteit. Voor Nederlandse ingezetenen geldt de regel niet: Nederland is een EU-lidstaat.",
+      "oQueVoceFaz": "Als u zelf in de EU woont, is er niets terug te halen — sla de balie over. Reist u met iemand van buiten de EU: vraag om het uitvoerdocument in de winkel, houd de aankoop in de handbagage, en presenteer paspoort, document en goederen samen aan de douanebalie voordat er iets ingecheckt wordt. Behandel wat er terugkomt daarna als een korting, niet als een teruggave.",
+      "oQueMelhora": "U rekent niet op 19% die nooit kwam, en de reisgenoot van buiten de EU verliest de hele claim niet door de aankoop in het ruim te stoppen.",
+      "ondeNaoVale": "De regel geldt in het geheel niet voor ingezetenen van EU-landen, dus voor u niet. De woonplaatstoets snijdt scherp: het eigen voorbeeld van het informatieblad maakt een Brit die in Engeland woont in aanmerking komend en een die in Noord-Ierland woont niet. En het bedrag dat de reisgenoot ontvangt is een contractzaak tussen hem en de winkel, dus vooraf valt er geen getal te beloven.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-b15-n10"
+      ]
+    }
+  ]
+}

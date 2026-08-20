@@ -1,0 +1,96 @@
+{
+  "id": "q-a02",
+  "nivel": "avancado",
+  "titulo": "Quiz — Waar ze om lachen",
+  "subtitulo": "Vijf vragen over de gedeelde grap, het materiaal dat van u is, en de grens die wet is",
+  "introAudioKey": "de-a02-q-i",
+  "introPt": "Een vertraagde wagon, een lange tafel later diezelfde avond, en een bezoeker die uitzoekt wie wat mag zeggen.",
+  "cenario": "Twee uur in een trein die niet op tijd is, gevolgd door een diner met mensen die elkaar al twintig jaar kennen.",
+  "dialogo": [
+    {
+      "audioKey": "de-a02-q01",
+      "voz": "target_de_m",
+      "es": "Ich wünsche Ihnen eine gute Fahrt, soweit das möglich ist.",
+      "pt": "Ik wens u een goede reis, voor zover mogelijk.",
+      "tts": "Ich wünsche Ihnen eine gute Fahrt, soweit das möglich ist."
+    },
+    {
+      "audioKey": "de-a02-q02",
+      "voz": "target_de_f",
+      "es": "Aber nein, das ist doch schon sehr gut!",
+      "pt": "Welnee, dat is al heel goed!",
+      "tts": "Aber nein, das ist doch schon sehr gut!"
+    },
+    {
+      "audioKey": "de-a02-q03",
+      "voz": "target_de_m",
+      "es": "Vorsicht, das ist ein falscher Freund!",
+      "pt": "Voorzichtig, dat is een valse vriend!",
+      "tts": "Vorsicht, das ist ein falscher Freund!"
+    },
+    {
+      "audioKey": "de-a02-q04",
+      "voz": "target_de_f",
+      "es": "Davon weiß ich zu wenig.",
+      "pt": "Daar weet ik te weinig van.",
+      "tts": "Davon weiß ich zu wenig."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Het treinpersoneel maakt een grap over zijn eigen trein en de wagon lacht. Wat doet u?",
+      "opcoes": [
+        "Zwijgen — klagen over het land zou onbeleefd zijn",
+        "Meelachen, en uw eigen versie over uw eigen reis erbij",
+        "Uitleggen hoe het spoor werkt waar u vandaan komt",
+        "Bij de volgende halte om restitutie vragen"
+      ],
+      "correta": 1,
+      "explica": "De spoorwegmaatschappij maakt zelf een comedy-serie over haar eigen personeel, dus de grap is al publiek en gedeeld. Houd het bij uw reis en niet bij het land, en het levert u meestal iemands verhaal op."
+    },
+    {
+      "pergunta": "Op tijd, in het officiële cijfer, betekent wat precies?",
+      "opcoes": [
+        "Aankomen op de minuut die op het kaartje staat",
+        "Minder dan zes minuten te laat aankomen, gemeten op elke halte",
+        "Binnen dertig minuten aankomen",
+        "Vóór de volgende trein aankomen"
+      ],
+      "correta": 1,
+      "explica": "Onder zes minuten, gemeten op elke halte — daarom leest het officiële cijfer altijd beter dan de reis voelde. Op die maat was 60,1 procent van de langeafstandstreinen op tijd in 2025."
+    },
+    {
+      "pergunta": "U zegt ich werde ein Bier aan de bar. Wat hebt u gezegd?",
+      "opcoes": [
+        "Ik wil graag een bier",
+        "Ik word een bier",
+        "Ik heb al een bier",
+        "Ik trakteer een rondje"
+      ],
+      "correta": 1,
+      "explica": "Bekommen is krijgen, werden is worden. Iedereen ruilt ze één keer om, en het tegen uzelf vertellen is de grap die hier betrouwbaar aankomt."
+    },
+    {
+      "pergunta": "De tafel begint een discussie over hun eigen land en draait naar u voor het oordeel. Wat zegt u?",
+      "opcoes": [
+        "De mening die u onderweg vormde",
+        "Een grap die u over een van de regio's hoorde",
+        "Davon weiß ich zu wenig, met een glimlach, en vraag dan wat zij vinden",
+        "Helemaal niets, en naar uw bord kijken"
+      ],
+      "correta": 2,
+      "explica": "Gevraagd worden is gastvrijheid en verplicht niets. De zin sluit het onderwerp zonder de avond te sluiten, en deze cursus geeft u met opzet geen woordenschat voor een standpunt."
+    },
+    {
+      "pergunta": "Laat op de avond stelt iemand de groet voor op de foto, als grap. Wat is de situatie?",
+      "opcoes": [
+        "Ongemakkelijk maar ongevaarlijk als iedereen duidelijk ironisch is",
+        "Een strafbaar feit — het artikel noemt Grußformen, met tot drie jaar of een geldboete",
+        "Een civiele zaak tussen u en de zaak",
+        "Alleen strafbaar als het online komt"
+      ],
+      "correta": 1,
+      "explica": "§86a StGB dekt Parolen und Grußformen, met tot drie jaar of een geldboete, en de uitzonderingen in §86 lid 4 zijn kunst, wetenschap, onderzoek, onderwijs en verslaggeving. Geen daarvan dekt een bezoeker, een foto of een grap."
+    }
+  ]
+}

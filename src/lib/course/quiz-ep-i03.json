@@ -1,0 +1,96 @@
+{
+  "id": "q-i03",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Der Teller, den Sie nie bestellt hätten",
+  "subtitulo": "Ein neuer Baustein macht aus fünf Namen zwei",
+  "introAudioKey": "hol-i03-q-i",
+  "introPt": "Ein Reisender steht vor einer Kreidetafel mit fünf unbekannten Gerichten und lässt die Bedienung wählen.",
+  "cenario": "Ein kleines Café, kurz nach zwölf, Werktag.",
+  "dialogo": [
+    {
+      "audioKey": "hol-i03-q01",
+      "voz": "target_nl_f",
+      "es": "Wat raadt u aan: de vis of het vlees?",
+      "pt": "Was empfehlen Sie: den Fisch oder das Fleisch?",
+      "tts": "Wat raadt u aan: de vis of het vlees?"
+    },
+    {
+      "audioKey": "hol-i03-q02",
+      "voz": "target_nl_m",
+      "es": "De vis, die is vandaag heel vers.",
+      "pt": "Den Fisch, der ist heute besonders frisch.",
+      "tts": "De vis, die is vandaag heel vers."
+    },
+    {
+      "audioKey": "hol-i03-q03",
+      "voz": "target_nl_f",
+      "es": "Heeft u iets zonder gluten?",
+      "pt": "Haben Sie etwas ohne Gluten?",
+      "tts": "Heeft u iets zonder gluten?"
+    },
+    {
+      "audioKey": "hol-i03-q04",
+      "voz": "target_nl_f",
+      "es": "Mag ik het dagmenu?",
+      "pt": "Darf ich das Tagesmenü haben?",
+      "tts": "Mag ik het dagmenu?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Was macht der Baustein «Wat raadt u aan: [A] of [B]?»?",
+      "opcoes": [
+        "Er fragt nach dem billigsten Gericht",
+        "Er macht aus einer offenen Liste eine geschlossene Wahl zwischen zwei Dingen, die Sie schon aussprechen können",
+        "Er bestellt automatisch das Tagesgericht",
+        "Er funktioniert nur bei Getränken"
+      ],
+      "correta": 1,
+      "explica": "Statt die ganze Tafel zu entziffern, nennen Sie zwei Dinge, die Sie erkannt haben, und lassen die Bedienung entscheiden."
+    },
+    {
+      "pergunta": "«De vis, die is vandaag heel vers.» Was tun Sie mit dieser Antwort?",
+      "opcoes": [
+        "Nachfragen, warum nicht das Fleisch",
+        "Sie als vollständige Antwort nehmen, keinen Test",
+        "Beide Gerichte gleichzeitig bestellen",
+        "Um eine dritte Option bitten"
+      ],
+      "correta": 1,
+      "explica": "Sie hat einfach eins der beiden genannt. Das ist die ganze Antwort — keine Prüfung Ihres Verständnisses."
+    },
+    {
+      "pergunta": "Die Bedienung nennt ein einziges Gericht und wartet auf Ihr Ja. Was passiert hier wirklich?",
+      "opcoes": [
+        "Sie testet, ob Sie verstanden haben",
+        "In einem Haus, das heute eine Sache gut kocht, ist der Name selbst die Empfehlung",
+        "Sie hat sich in der Bestellung geirrt",
+        "Es ist ein Fehler des Kellners, den man korrigieren sollte"
+      ],
+      "correta": 1,
+      "explica": "Die Küche hat schon entschieden. Sagen Sie einfach ja, oder zeigen Sie auf den Nachbartisch."
+    },
+    {
+      "pergunta": "«Heeft u iets zonder gluten?» — welcher Baustein steckt dahinter, und woher kennen Sie ihn?",
+      "opcoes": [
+        "Ein neuer Baustein nur für Allergien",
+        "Derselbe Heeft u aus den ersten 60 Minuten in Amsterdam, mit einem neuen Ding dahinter",
+        "Ein fest gelernter Satz ohne Baustein",
+        "Eine Frage, die nur ein Arzt stellt"
+      ],
+      "correta": 1,
+      "explica": "Heeft u ___? kommt aus B06 zurück. Das Ding wechselt — eine SIM-Karte damals, etwas ohne Gluten heute."
+    },
+    {
+      "pergunta": "Was müssen Sie von einer Tafel mit fünf Gerichtsnamen wirklich verstehen?",
+      "opcoes": [
+        "Alle fünf Namen genau übersetzen",
+        "Nur ein Wort, das reicht, um die Bedienung zwischen zwei Dingen wählen zu lassen",
+        "Gar nichts — man zeigt einfach irgendwohin",
+        "Man muss vorher zu Hause die Speisekarte auswendig lernen"
+      ],
+      "correta": 1,
+      "explica": "Ein erkanntes Wort reicht als Startpunkt für Wat raadt u aan. Der Rest der Tafel bleibt Ihre Sache nicht."
+    }
+  ]
+}

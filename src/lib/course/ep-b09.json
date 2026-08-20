@@ -1,0 +1,304 @@
+{
+  "id": "b09",
+  "nivel": "basico",
+  "numero": 9,
+  "parte": "B09",
+  "slot": "B09",
+  "titulo": "Der gelbe Kasten, der Sie ein- und auscheckt",
+  "subtitulo": "Ein Piepton beim Einsteigen, ein zweiter beim Aussteigen — und der teure Unterschied zwischen den beiden, den Ihr Ohr ab heute erkennt",
+  "cena": "Die Straßenbahn hält, ein gelber Kasten neben der Tür blinkt, und die Frau vor Ihnen hält ihre Karte kurz davor, bevor sie einsteigt.",
+  "moldura": "ganha",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "hol-b09-in-uitchecken",
+      "afirmacao": "Bus, Bahn, Straßenbahn und Metro in den Niederlanden funktionieren nach einem Ein- und Auscheck-System: Sie halten Ihre Karte — die OV-chipkaart oder inzwischen meist direkt Ihre kontaktlose Bankkarte (OVpay) — beim Einsteigen an den gelben Kasten (einchecken) und beim Aussteigen noch einmal (auschecken). Der gefahrene Weg wird aus der Differenz berechnet. Wer das Auschecken vergisst, zahlt keinen Fehlbetrag, sondern den vom System angenommenen Höchstbetrag für die Strecke — deutlich mehr, als die tatsächliche Fahrt gekostet hätte.",
+      "fonte": "Translink (OV-chipkaart-System) und NS-Reiseinformation zum Ein- und Auschecken sowie zur Ausweitung der kontaktlosen Zahlung (OVpay); die genaue Höhe des Höchstbetrags variiert je nach Betrieb und Strecke und wird hier bewusst nicht beziffert.",
+      "ano": 2026,
+      "revisarAte": "2027-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "medio",
+      "audioKeys": ["hol-b09-n03", "hol-b09-n04"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b09-n01",
+      "gesto": 1,
+      "tom": "ganha",
+      "bloco": "aquecimento",
+      "pt": "Ein Piepton beim Einsteigen, ein zweiter beim Aussteigen — der Unterschied entscheidet, was die Fahrt kostet."
+    },
+    {
+      "consulta": ["reparo/apontar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "is dit de goede kant voor het centrum",
+      "encaixeGloss": "ist das die richtige Richtung zum Zentrum",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b09-p00",
+      "promptPt": "Wie gestern in B08: die Straßenbahnhaltestelle liegt irgendwo hinter dem Kreisverkehr, und eine Radfahrerin hält kurz neben Ihnen an. Sag es jetzt.",
+      "audioKey": "hol-b09-t00",
+      "es": "Pardon, is dit de goede kant voor het centrum?",
+      "pinyin": "par-DON, is dit de CHOO-de kant voor et CEN-trum?",
+      "pt": "Entschuldigung, ist das die richtige Richtung zum Zentrum?",
+      "tts": "Pardon, is dit de goede kant voor het centrum?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b09-n02",
+      "tom": "ganha",
+      "bloco": "corpo",
+      "pt": "Die Anzeige an der Haltestelle zeigt den Preis nur in Zahlen — kein neues Wort, nur Ihr Ohr für Ziffern."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b09-t01",
+      "tom": "ganha",
+      "es": "Dat is drie euro twintig.",
+      "pinyin": "dat is dree ÖÖ-ro TWIN-tich",
+      "pt": "Das macht drei Euro zwanzig.",
+      "tts": "Dat is drie euro twintig.",
+      "receptivo": true,
+      "acao": "Zahlen klingen dem Deutschen sehr nahe — drie, twintig. Hören Sie die Zahl heraus, mehr müssen Sie hier nicht verstehen."
+    },
+    {
+      "consulta": ["transporte/bilhete"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "WO-IST",
+      "encaixe": "de kaartjesautomaat",
+      "encaixeGloss": "der Fahrkartenautomat",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b09-p01",
+      "promptPt": "Der Bahnsteig hat drei Ausgänge, und Sie haben noch kein Ticket in der Tasche. Fragen Sie eine Angestellte, wo Sie eines kaufen können. Sag es jetzt.",
+      "audioKey": "hol-b09-t02",
+      "es": "Waar is de kaartjesautomaat?",
+      "pinyin": "waar is de KAART-yes-au-to-maat?",
+      "pt": "Wo ist der Fahrkartenautomat?",
+      "tts": "Waar is de kaartjesautomaat?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b09-r02",
+      "tom": "ganha",
+      "es": "Goedendag! Daar rechts, naast de trap.",
+      "pinyin": "CHUU-den-dach! daar rechts, naast de trap",
+      "pt": "Guten Tag! Dort rechts, neben der Treppe.",
+      "tts": "Goedendag! Daar rechts, naast de trap.",
+      "receptivo": true,
+      "acao": "Sie hören ihre eigene Begrüßung aus B02 zurück — ein gutes Zeichen, dass Ihre erste Frage höflich ankam."
+    },
+    {
+      "consulta": ["compras/balcao"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "HABEN-SIE",
+      "encaixe": "een pinautomaat",
+      "encaixeGloss": "einen Geldautomaten",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b09-p01b",
+      "promptPt": "Der Fahrkartenautomat nimmt nur Karte, und in Ihrer Tasche liegt gerade kein Bargeld für den Kaffee danach. Fragen Sie die Angestellte, wie in B06. Sag es jetzt.",
+      "audioKey": "hol-b09-t01b",
+      "es": "Heeft u een pinautomaat?",
+      "pinyin": "HÉÉFT ü un PIN-au-to-maat?",
+      "pt": "Haben Sie einen Geldautomaten?",
+      "tts": "Heeft u een pinautomaat?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b09-n03",
+      "tom": "protege",
+      "bloco": "capsula",
+      "pt": "Der Mechanismus: einchecken beim Einsteigen, auschecken beim Aussteigen. Vergessen Sie es, zieht das System den Höchstpreis ab."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b09-n04",
+      "tom": "ganha",
+      "pt": "Eine eigene Chipkarte brauchen Sie meist nicht: dieselbe Bankkarte aus B04 funktioniert am gelben Kasten direkt."
+    },
+    {
+      "consulta": ["reparo/apontar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "KONNEN-SIE",
+      "encaixe": "dit uitleggen",
+      "encaixeGloss": "das erklären",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b09-p02",
+      "promptPt": "Am Automaten blinken zwei gelbe Kästen nebeneinander, einer für Ein- und einer für Aussteigen, und ein Fahrgast mit Ortskenntnis wartet direkt neben Ihnen auf dieselbe Bahn. Sag es jetzt.",
+      "audioKey": "hol-b09-t03",
+      "es": "Kunt u dit uitleggen?",
+      "pinyin": "kunt ü dit ÖÜT-lech-chen?",
+      "pt": "Können Sie das erklären?",
+      "tts": "Kunt u dit uitleggen?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b09-r01",
+      "tom": "ganha",
+      "es": "Die kant is instappen, die andere is uitstappen — niet verwisselen!",
+      "pinyin": "dee kant is IN-stap-pen, dee AN-de-re is ÖÜT-stap-pen — neet ver-WIS-se-len!",
+      "pt": "Diese Seite ist Einsteigen, die andere Aussteigen — nicht verwechseln!",
+      "tts": "Die kant is instappen, die andere is uitstappen — niet verwisselen!",
+      "receptivo": true,
+      "acao": "Instappen und uitstappen sind die zwei Wörter, die Sie ab jetzt am Kasten unterscheiden — der Rest ist nur Betonung."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_f",
+      "audioKey": "hol-b09-t04",
+      "tom": "ganha",
+      "es": "De trein naar Utrecht vertrekt om kwart voor vijf van spoor negen.",
+      "pinyin": "de trein naar ÜÜ-trecht ver-TREKT om kwart voor feif van spoor NAY-chen",
+      "pt": "Der Zug nach Utrecht fährt um Viertel vor fünf von Gleis neun.",
+      "tts": "De trein naar Utrecht vertrekt om kwart voor vijf van spoor negen.",
+      "receptivo": true,
+      "acao": "Zwei Zahlen zählen: die Uhrzeit und die Gleisnummer. Der Rest der Durchsage ist Beiwerk, das Sie überhören dürfen."
+    },
+    {
+      "consulta": ["transporte/plataforma"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "WO-IST",
+      "encaixe": "spoor negen",
+      "encaixeGloss": "Gleis neun",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b09-p03",
+      "promptPt": "Sie haben die Nummer aus der Durchsage aufgeschnappt, aber die Anzeigetafel über Ihnen zeigt sie nicht mehr an. Fragen Sie eine Angestellte im Bahnhof, wo dieses Gleis liegt. Sag es jetzt.",
+      "audioKey": "hol-b09-t05",
+      "es": "Waar is spoor negen?",
+      "pinyin": "waar is spoor NAY-chen?",
+      "pt": "Wo ist Gleis neun?",
+      "tts": "Waar is spoor negen?"
+    },
+    {
+      "consulta": ["simpatia/agradecer"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "DANKE",
+      "encaixe": "bedankt",
+      "encaixeGloss": "danke",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b09-p04",
+      "promptPt": "Die Angestellte zeigt mit dem Arm auf den richtigen Gang, und Sie haben gerade noch genug Zeit, um loszulaufen. Sag es jetzt.",
+      "audioKey": "hol-b09-t06",
+      "es": "Bedankt!",
+      "pinyin": "buh-DANKT!",
+      "pt": "Danke!",
+      "tts": "Bedankt!"
+    },
+    {
+      "consulta": ["reparo/devagar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "ik versta u niet",
+      "encaixeGloss": "ich verstehe Sie nicht",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b09-p05",
+      "promptPt": "Im Zug erklärt eine Durchsage etwas über einen geänderten Halt, aber viel zu schnell, um ihr zu folgen. Sag es jetzt.",
+      "audioKey": "hol-b09-t08",
+      "es": "Sorry, ik versta u niet.",
+      "pinyin": "SO-rie, ik VER-staa ü neet",
+      "pt": "Entschuldigung, ich verstehe Sie nicht.",
+      "tts": "Sorry, ik versta u niet."
+    },
+    {
+      "consulta": ["transporte/plataforma"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "WO-IST",
+      "encaixe": "de halte",
+      "encaixeGloss": "die Haltestelle",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b09-p06",
+      "promptPt": "Am Ziel angekommen, wollen Sie noch mit der Straßenbahn weiter, aber der Ausgang öffnet sich auf eine unbekannte Straße. Sag es jetzt.",
+      "audioKey": "hol-b09-t09",
+      "es": "Waar is de halte?",
+      "pinyin": "waar is de HAL-tuh?",
+      "pt": "Wo ist die Haltestelle?",
+      "tts": "Waar is de halte?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-b09-s01",
+      "tom": "ganha",
+      "es": "Waar is de kaartjesautomaat? Kunt u dit uitleggen? Waar is spoor negen?",
+      "pinyin": "waar is de KAART-yes-au-to-maat? · kunt ü dit ÖÜT-lech-chen? · waar is spoor NAY-chen?",
+      "pt": "Schatten Sie zwei Bausteine, die sich hier wieder treffen.",
+      "tts": "Waar is de kaartjesautomaat? Kunt u dit uitleggen? Waar is spoor negen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b09-n05",
+      "tom": "ganha",
+      "bloco": "permissao",
+      "pt": "Sie müssen keine Durchsage vollständig verstehen. Zwei Zahlen — Uhrzeit und Gleis — reichen völlig."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b09-n06",
+      "tom": "ganha",
+      "bloco": "recap",
+      "pt": "B09 fertig. Ein- und auschecken, ein Piepton pro Seite — und zwei Bausteine, die Sie schon kennen, treffen sich hier wieder."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Zwei Pieptöne und zwei Zahlen",
+    "secoes": [
+      {
+        "titulo": "Einchecken, auschecken",
+        "corpo": "Der Mechanismus ist überall im niederländischen ÖPNV derselbe: Karte an den gelben Kasten beim Einsteigen (instappen), Karte an den gelben Kasten beim Aussteigen (uitstappen). Die Differenz aus beiden Berührungen ergibt den Fahrpreis. Vergessen Sie das Auschecken, berechnet das System den höchstmöglichen Preis für die Strecke, nicht den tatsächlich gefahrenen — das ist die eine Regel, die sich zu merken lohnt.",
+        "exemplos": [
+          { "es": "instappen", "pt": "einsteigen / einchecken" },
+          { "es": "uitstappen", "pt": "aussteigen / auschecken" }
+        ]
+      },
+      {
+        "titulo": "Keine eigene Karte nötig",
+        "corpo": "Die eigene OV-chipkaart brauchen Sie für eine kurze Reise meist nicht mehr zu kaufen: dieselbe kontaktlose Bankkarte, die Sie aus Deutschland mitbringen, funktioniert an den meisten gelben Lesegeräten direkt, unter dem Namen OVpay."
+      },
+      {
+        "titulo": "Zahlen, die schon fast Deutsch sind",
+        "corpo": "Niederländische Zahlwörter liegen dem Deutschen sehr nah — drie, vier, vijf, negen klingen fast wie ihre deutschen Geschwister. In diesem Kapitel zählt nur das Erkennen: eine Uhrzeit, eine Gleisnummer, ein Preis. Sie müssen sie nicht selbst bilden, nur aus einer Durchsage herausfischen."
+      }
+    ]
+  },
+  "permissao": "Sie müssen keine Durchsage vollständig verstehen. Zwei Zahlen — eine Uhrzeit, ein Gleis oder ein Preis — reichen völlig, und der Rest des Satzes darf einfach an Ihnen vorbeigehen.",
+  "permissaoAudioKey": "hol-b09-n05",
+  "espelho": "Sie überhören zu Hause selbst die Hälfte jeder Bahnhofsdurchsage und behalten nur Uhrzeit und Gleis — hier ist es genau dieselbe Fähigkeit, nur auf einer Sprache, die noch neu für Ihr Ohr ist.",
+  "fichasCulturais": [
+    {
+      "sinal": "Sie steigen aus der Straßenbahn, ohne die Karte noch einmal an den gelben Kasten zu halten, weil Sie es eilig hatten.",
+      "suaLeitura": "Das war doch nur eine Formalität — ich habe ja schon beim Einsteigen bezahlt.",
+      "oQueEAli": "Das System berechnet den Fahrpreis aus der Differenz zwischen Ein- und Ausstiegspunkt. Ohne Auschecken kennt es den Ausstiegspunkt nicht und zieht deshalb den höchstmöglichen Betrag für die Strecke ab — kein Bußgeld, aber spürbar mehr, als die Fahrt gekostet hätte.",
+      "oQueVoceFaz": "Halten Sie die Karte ein zweites Mal an den Kasten, sobald Sie die Tür erreichen — es kostet eine Sekunde, dieselbe Bewegung wie beim Einsteigen.",
+      "oQueMelhora": "Sie zahlen genau die gefahrene Strecke, nicht die teuerste denkbare — und die kleine Zusatzbewegung wird nach dem zweiten Mal automatisch.",
+      "ondeNaoVale": "Bei einigen Bussen mit nur einer Tür und einem Fahrer, der Sie direkt beim Aussteigen abkassiert, entfällt der zweite Kasten — dort reicht ein einziges Einchecken.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["hol-b09-n03"]
+    }
+  ]
+}

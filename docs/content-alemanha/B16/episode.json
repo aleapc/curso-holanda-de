@@ -1,0 +1,425 @@
+{
+  "id": "b16",
+  "nivel": "basico",
+  "numero": 16,
+  "parte": "B16",
+  "titulo": "Haben Sie — de minuut aan de balie die de kamer opwaardeert",
+  "subtitulo": "Bij het inchecken staat uw boeking nog op een scherm, en vragen kost niets",
+  "cena": "Een hotelbalie in Duitsland om vier uur 's middags, de sleutel nog niet overhandigd, de boeking nog op het scherm, en een supermarkt vier minuten verderop die om acht uur dichtgaat.",
+  "moldura": "ganha",
+  "frasePiso": "Haben Sie, plus het ding, drie keer aan één balie gezegd. Dat is een betere kamer dan die u boekte.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "de-b16-ladenschluss",
+      "afirmacao": "Winkelopeningstijden zijn in Duitsland wet, geen gewoonte, en het restfederale model is streng. § 3 LadSchlG verplicht verkoopruimtes gesloten te zijn op zondagen en feestdagen, vóór 6 uur en vanaf 20 uur van maandag t/m zaterdag, en vanaf 14 uur op 24 december als die op een werkdag valt; bakkerijen mogen vanaf 5.30 uur open. Sinds de Föderalismusreform van 2006 ligt de bevoegdheid bij de Länder — Art. 74 Abs. 1 Nr. 11 GG sluit «das Recht des Ladenschlusses» uit van het federale economisch recht — dus geldt de regel van het Land waar u staat. Beieren nam op 25/7/2025 een eigen Bayerisches Ladenschlussgesetz aan, van kracht sinds 1/8/2025, dat 20 uur handhaaft maar tot 8 door de gemeente goedgekeurde late avonden per jaar tot middernacht toestaat en onbemande mini-supermarkten tot 150 m² dag en nacht. Berlijn staat 24 uur maandag tot zaterdag toe, zondagen in principe dicht. Eerlijke grens: het statuut werd voor slechts 3 van de 16 Länder geverifieerd, dus de cursus leert «vraag aan de balie», nooit een landelijk rooster.",
+      "fonte": "gesetze-im-internet.de (§ 3 LadSchlG e Art. 74 Abs. 1 Nr. 11 GG, verbatim) e gesetze-bayern.de (BayLadSchlG de 25/7/2025, GVBl. S. 246, Art. 2); Berlim [RESUMO de berlin.de, lei não aberta] — pesquisa § 7.1, 7.3 e 7.6. Verificado em 5/8/2026 em 3 dos 16 Länder.",
+      "ano": 2025,
+      "revisarAte": "2027-02-28",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": ["de-b16-n05", "de-b16-n06"]
+    },
+    {
+      "id": "de-b16-pfand",
+      "afirmacao": "Het statiegeld op een drankverpakking is de enige wettelijke uitzondering op de regel dat de aangegeven prijs de prijs is die u betaalt. § 31 Abs. 1 VerpackG stelt «ein Pfand in Höhe von mindestens 0,25 Euro einschließlich Umsatzsteuer je Verpackung» — een minimum, btw inbegrepen — en § 7 PAngV 2022 verplicht de handelaar het statiegeld «neben dem Gesamtpreis anzugeben und nicht in diesen einzubeziehen»: naast het totaal, uitdrukkelijk niet erbij opgeteld. Daarom staat op het schap 0,99 € en op de kassa 1,24 €. De praktische regel is materiaal, niet drank: PET-flessen en blikjes bijna altijd; drankkartons en wijnflessen niet. Sinds 1/1/2024 dragen ook melk en drinkbare zuivel in wegwerpplastic het.",
+      "fonte": "gesetze-im-internet.de (§ 31 Abs. 1 VerpackG e § 7 PAngV 2022, verbatim); isenções do § 31 Abs. 4 em paráfrase; leite desde 1/1/2024 [RESUMO Umweltbundesamt] — pesquisa § 9.1, 9.3 e 9.5.",
+      "ano": 2024,
+      "revisarAte": "2027-06-30",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": ["de-b16-n07", "de-b16-n08"]
+    },
+    {
+      "id": "de-b16-bargeld",
+      "afirmacao": "Niemand in Duitsland is u een kaartbetaling verschuldigd. § 14 Abs. 1 BBankG bepaalt «Auf Euro lautende Banknoten sind das einzige unbeschränkte gesetzliche Zahlungsmittel» — contant is het enige onbeperkte wettige betaalmiddel — en er is geen tegenverplichting om plastic te aanvaarden, dus een «nur Bargeld»-bordje aan de balie is volledig legaal. Het Zahlungsverhalten in Deutschland 2025 van de Bundesbank, gepubliceerd 17/6/2026, meldt dat contant gebruikt kon worden bij 94% van de aankopen ter plaatse en dat in 86% van de waargenomen gevallen de betaaldienst een cashless methode zou aanvaarden, tegen 81% in 2023. De tweede helft van het probleem is intern: girocard, het eigen debit-systeem van de Duitse banken met circa 100 miljoen kaarten, bereikt het buitenland alleen via een co-badge, dus een terminal die kaarten aanneemt kan de úwe nog steeds weigeren. Het causale verband is mechanisme, geen institutionele uitspraak.",
+      "fonte": "gesetze-im-internet.de (§ 14 Abs. 1 BBankG, verbatim); Deutsche Bundesbank, «Zahlungsverhalten in Deutschland 2025», Stand julho/2026, publicado 17/6/2026, PDF lido; girocard.eu (EURO Kartensysteme GmbH), verbatim — pesquisa § 4.1, 4.2 e 4.4. A recusa de cartão estrangeiro em terminal girocard-only é mecanismo deduzido, sem citação institucional.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": ["de-b16-n09", "de-b16-n10"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b16-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "De kamer is het enige wat u boekte voordat u iets wist. Bij het inchecken zet u dat recht."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b16-n02",
+      "bloco": "molde",
+      "pt": "Alles aan deze balie draait op één opening die u al bezit: Haben Sie, en dan het ding."
+    },
+    {
+      "consulta": ["quarto/checkin"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b16-p01",
+      "promptPt": "U komt bij de balie met een tas over elke schouder. Groet eerst, zeg dan waarom u er staat. Spreek nu.",
+      "audioKey": "de-b16-t01",
+      "es": "Guten Tag, ich habe eine Reservierung.",
+      "pinyin": "GOO-ten TAHK, ikh HAH-be AI-ne re-zer-VEE-roong",
+      "pt": "Goedemiddag, ik heb een reservering.",
+      "tts": "Guten Tag, ich habe eine Reservierung."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b16-r01",
+      "es": "Guten Tag! Darf ich bitte Ihren Ausweis sehen?",
+      "pinyin": "GOO-ten TAHK! darf ikh BIT-te EE-ren OWS-vais ZAY-en",
+      "pt": "Goedemiddag! Mag ik uw identiteitsbewijs zien?",
+      "tts": "Guten Tag! Darf ich bitte Ihren Ausweis sehen?",
+      "receptivo": true,
+      "acao": "Ausweis is het paspoort in uw jas. Geef het aan voor de zin klaar is."
+    },
+    {
+      "consulta": ["quarto/pedir"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "HABEN-SIE",
+      "encaixe": "ein ruhigeres Zimmer",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b16-p02",
+      "promptPt": "Er rijdt een tram langs de straat en u slaapt toch al slecht. Het scherm staat nog open. Vraag. Spreek nu.",
+      "audioKey": "de-b16-t02",
+      "es": "Haben Sie ein ruhigeres Zimmer?",
+      "pinyin": "HAH-ben zee ain ROO-ig-e-res TSIM-mah",
+      "pt": "Heeft u een rustigere kamer?",
+      "tts": "Haben Sie ein ruhigeres Zimmer?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b16-n03",
+      "bloco": "corpo",
+      "pt": "Het ding komt vast aan zijn kleine woordje. Leer ein Zimmer heel en haal het nooit uit elkaar."
+    },
+    {
+      "consulta": ["quarto/pedir"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "HABEN-SIE",
+      "encaixe": "ein Zimmer nach hinten",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b16-p03",
+      "promptPt": "Achter dit gebouw ligt een binnenplaats en al het lawaai zit vooraan. Vraag naar de andere kant. Spreek nu.",
+      "audioKey": "de-b16-t03",
+      "es": "Haben Sie ein Zimmer nach hinten?",
+      "pinyin": "HAH-ben zee ain TSIM-mah nahkh HIN-ten",
+      "pt": "Heeft u een kamer aan de achterkant?",
+      "tts": "Haben Sie ein Zimmer nach hinten?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b16-r02",
+      "es": "Ja, im vierten Stock, zum Hof. Das Zimmer ist ab vierzehn Uhr fertig.",
+      "pinyin": "yah, im FEER-ten shtok, tsoom hohf. das TSIM-mah ist ap FEER-tsayn OO-ah FAIR-tikh",
+      "pt": "Ja, vierde verdieping, aan de binnenplaats. De kamer is klaar vanaf twee uur.",
+      "tts": "Ja, im vierten Stock, zum Hof. Das Zimmer ist ab vierzehn Uhr fertig.",
+      "receptivo": true,
+      "acao": "Het ja komt met een verdieping en een uur eraan vast. Pak het uur: dat bepaalt uw middag."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b16-n04",
+      "pt": "Vraag terwijl de boeking nog op het scherm staat. Na de sleutel heeft datzelfde verzoek een reden nodig."
+    },
+    {
+      "consulta": ["quarto/pedir"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "HABEN-SIE",
+      "encaixe": "WLAN",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b16-p04",
+      "promptPt": "Uw telefoon vond geen netwerk op het vliegveld en uw kaarten zitten in de cloud. Vraag naar de wifi. Spreek nu.",
+      "audioKey": "de-b16-t04",
+      "es": "Haben Sie WLAN?",
+      "pinyin": "HAH-ben zee VAY-lahn",
+      "pt": "Heeft u wifi?",
+      "tts": "Haben Sie WLAN?"
+    },
+    {
+      "consulta": ["quarto/pedir", "chegar/balcao"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "HABEN-SIE",
+      "encaixe": "einen Adapter",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b16-p05",
+      "promptPt": "Uw stekker heeft drie platte pinnen, elk stopcontact boven twee ronde gaten. Vraag aan de balie. Spreek nu.",
+      "audioKey": "de-b16-t05",
+      "es": "Haben Sie einen Adapter?",
+      "pinyin": "HAH-ben zee AI-nen a-DAP-tah",
+      "pt": "Heeft u een adapter?",
+      "tts": "Haben Sie einen Adapter?"
+    },
+    {
+      "consulta": ["quarto/pedir"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "HABEN-SIE",
+      "encaixe": "noch ein Kissen",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b16-p06",
+      "promptPt": "Het bed kwam met één plat vierkant ding en u slaapt op twee. Vraag om er nog een. Spreek nu.",
+      "audioKey": "de-b16-t06",
+      "es": "Haben Sie noch ein Kissen?",
+      "pinyin": "HAH-ben zee nokh ain KISS-en",
+      "pt": "Heeft u nog een kussen?",
+      "tts": "Haben Sie noch ein Kissen?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b16-r03",
+      "es": "Natürlich. Nehmen Sie Milch und Zucker zum Frühstück?",
+      "pinyin": "na-TEWR-likh. NAY-men zee milkh oont TSOO-kah tsoom FREW-shtewk",
+      "pt": "Natuurlijk. Neemt u melk en suiker bij het ontbijt?",
+      "tts": "Natürlich. Nehmen Sie Milch und Zucker zum Frühstück?"
+    },
+    {
+      "consulta": ["dieta/sem", "mesa/bebida"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "OHNE",
+      "encaixe": "Milch",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b16-p07",
+      "promptPt": "Zuivel en u hebben een afspraak: u laat het staan. Beantwoord de ontbijtvraag. Spreek nu.",
+      "audioKey": "de-b16-t07",
+      "es": "Ohne Milch, bitte.",
+      "pinyin": "OH-ne milkh, BIT-te",
+      "pt": "Zonder melk, alstublieft.",
+      "tts": "Ohne Milch, bitte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b16-n05",
+      "pt": "Winkels gaan hier om acht uur dicht, en de hele zondag. De balie weet welke deur nog open is."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b16-n06",
+      "pt": "Beieren schreef in 2025 zijn eigen wet, en Berlijn draait door tot na middernacht. Vraag, neem nooit aan."
+    },
+    {
+      "consulta": ["compras/balcao", "chegar/balcao"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-SUCHE",
+      "encaixe": "einen Supermarkt",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b16-p08",
+      "promptPt": "Het is tien voor acht en er is niets te drinken in de kamer. Zeg waar u naar zoekt. Spreek nu.",
+      "audioKey": "de-b16-t08",
+      "es": "Ich suche einen Supermarkt.",
+      "pinyin": "ikh ZOO-khe AI-nen ZOO-pah-markt",
+      "pt": "Ik zoek een supermarkt.",
+      "tts": "Ich suche einen Supermarkt."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b16-r04",
+      "es": "Gleich um die Ecke, aber er macht um zwanzig Uhr zu.",
+      "pinyin": "glaikh oom dee EK-ke, AH-bah air makht oom TSVAN-tsikh OO-ah tsoo",
+      "pt": "Meteen om de hoek, maar hij gaat om acht uur dicht.",
+      "tts": "Gleich um die Ecke, aber er macht um zwanzig Uhr zu.",
+      "receptivo": true,
+      "acao": "Zu betekent dicht. Ga nu, en koop voor zondag zo goed als voor vanavond."
+    },
+    {
+      "consulta": ["pagar/dinheiro", "compras/balcao"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-SUCHE",
+      "encaixe": "einen Geldautomaten",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b16-p09",
+      "promptPt": "U heeft elf euro op zak en de bakker morgenvroeg is een muntjes-tent. Spreek nu.",
+      "audioKey": "de-b16-t09",
+      "es": "Ich suche einen Geldautomaten.",
+      "pinyin": "ikh ZOO-khe AI-nen GELT-ow-to-MAH-ten",
+      "pt": "Ik zoek een geldautomaat.",
+      "tts": "Ich suche einen Geldautomaten."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b16-n07",
+      "bloco": "capsula",
+      "pt": "Het etiket zegt nul komma negenennegentig en de kassa één vierentwintig. Dat gat is het Pfand."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b16-n08",
+      "pt": "Vijfentwintig cent per fles, voor u vastgehouden, en de wet verbiedt de winkel het in de schapprijs te vouwen."
+    },
+    {
+      "consulta": ["pagar/cartao", "compras/pagar"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b16-p10",
+      "promptPt": "Voor de flessen op de band gaan, regelt u de vraag die bepaalt of u vanavond naar de automaat moet. Spreek nu.",
+      "audioKey": "de-b16-t10",
+      "es": "Nehmen Sie Karte?",
+      "pinyin": "NAY-men zee KAR-te",
+      "pt": "Neemt u kaart aan?",
+      "tts": "Nehmen Sie Karte?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b16-n09",
+      "pt": "Contant is hier het enige onbeperkte wettige betaalmiddel. Nur Bargeld op de deur is volledig legaal."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b16-n10",
+      "pt": "Kaart aannemen is niet hetzelfde als de úwe aannemen — veel terminals rijden op de girocard-rail."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b16-n11",
+      "pt": "Nu de andere helft van de balie. Noem het voorwerp, zeg dan de korte zin erover."
+    },
+    {
+      "consulta": ["quarto/nao-funciona"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b16-p11",
+      "promptPt": "De radiator onder het raam is steenkoud en het is oktober. Ga naar beneden en zeg het in vijf woorden. Spreek nu.",
+      "audioKey": "de-b16-t11",
+      "es": "Die Heizung funktioniert nicht.",
+      "pinyin": "dee HAI-tsoong foonk-tsyo-NEERT nikht",
+      "pt": "De verwarming doet het niet.",
+      "tts": "Die Heizung funktioniert nicht."
+    },
+    {
+      "consulta": ["quarto/nao-funciona"],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b16-p12",
+      "promptPt": "U liet de douche vier minuten lopen en hij bleef precies zo koud als aan het begin. Meld het. Spreek nu.",
+      "audioKey": "de-b16-t12",
+      "es": "Es gibt kein heißes Wasser.",
+      "pinyin": "es geept kain HAI-ses VAS-sah",
+      "pt": "Er is geen warm water.",
+      "tts": "Es gibt kein heißes Wasser."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b16-r05",
+      "es": "Entschuldigung! Ich schicke gleich jemanden hoch.",
+      "pinyin": "ent-SHOOL-di-goong! ikh SHIK-ke glaikh YAY-man-den hohkh",
+      "pt": "Sorry daarvoor! Ik stuur meteen iemand naar boven.",
+      "tts": "Entschuldigung! Ich schicke gleich jemanden hoch."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-b16-s01",
+      "es": "Haben Sie ein ruhigeres Zimmer? Haben Sie WLAN? Haben Sie noch ein Kissen?",
+      "pinyin": "HAH-ben zee ain ROO-ig-e-res TSIM-mah. HAH-ben zee VAY-lahn. HAH-ben zee nokh ain KISS-en",
+      "pt": "Schaduw één opening door drie totaal verschillende verzoeken aan dezelfde balie.",
+      "tts": "Haben Sie ein ruhigeres Zimmer? Haben Sie WLAN? Haben Sie noch ein Kissen?",
+      "molde": "HABEN-SIE"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b16-n12",
+      "bloco": "recap",
+      "pt": "B16 klaar. Haben Sie voor wat zij hebben, ohne voor wat u overslaat, en twee kalme zinnen voor de rest."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Eén balie, drie minuten, een betere week",
+    "secoes": [
+      {
+        "titulo": "Haben Sie plus het ding, al aangekleed",
+        "corpo": "Het Duits markeert de rol van een zelfstandig naamwoord op het kleine woordje ervoor, en na Haben Sie ligt dat woordje vast. U wordt nooit gevraagd het uit te dokteren terwijl u met tassen aan uw schouders aan een balie staat: einen Adapter, ein Kissen, ein ruhigeres Zimmer komen als één blok, heel geleerd, zoals u een telefoonnummer leerde. De woordenboekvorm van einen Adapter is der Adapter, en dat feit mag u de hele reis negeren.",
+        "exemplos": [
+          { "es": "Haben Sie ein ruhigeres Zimmer?", "pt": "Heeft u een rustigere kamer?" },
+          { "es": "Haben Sie noch ein Kissen?", "pt": "Heeft u nog een kussen?" }
+        ]
+      },
+      {
+        "titulo": "Sie zit al in de zin",
+        "corpo": "De opening draagt de beleefdheidsvorm met zich mee, dus het register is bepaald voordat u uw mond opent. U gebruikt Sie de hele reis en hoeft nooit te kiezen. Als iemand u het du aanbiedt — en het wordt aangeboden, niet genomen — hoeft u het aanbod alleen te herkennen; dat komt later in de cursus en kost hier niets.",
+        "exemplos": [
+          { "es": "Nehmen Sie Karte?", "pt": "Neemt u kaart aan?" }
+        ]
+      },
+      {
+        "titulo": "Acht uur is een wettelijke muur, en die verschuift per Land",
+        "corpo": "De restfederale wet sluit verkoopruimtes op zondagen en feestdagen en vanaf acht uur 's avonds op werkdagen, met bakkerijen open vanaf half zes 's ochtends. Sinds 2006 schrijft elk Land zijn eigen versie, dus de muur staat in elk Land net ergens anders: de wet van Beieren uit 2025 handhaaft acht uur maar voegt gemeentelijk goedgekeurde late avonden toe en laat onbemande winkels onder 150 vierkante meter dag en nacht draaien, en Berlijn staat de hele nacht toe van maandag tot zaterdag. Het statuut is in drie van de zestien Länder gecontroleerd, precies daarom is de nuttige zin een vraag aan de balie in plaats van een rooster in uw hoofd. Stations, luchthavens en tankstations zijn de klassieke zondagsuitzonderingen en zijn wettelijk beperkt tot reisartikelen, dus dat is een flesje water in plaats van een weekboodschap.",
+        "exemplos": [
+          { "es": "Ich suche einen Supermarkt.", "pt": "Ik zoek een supermarkt." }
+        ]
+      },
+      {
+        "titulo": "De vijfentwintig cent die nooit in de prijs zaten",
+        "corpo": "Het statiegeld op een fles of blikje is minimaal vijfentwintig cent inclusief btw, en de prijsregels verplichten de winkel het naast het totaal te vermelden en uitdrukkelijk niet erbij op te tellen. Dat is de hele verklaring voor een schap dat 0,99 € zegt en een kassa die 1,24 € zegt. De vuistregel is het materiaal in plaats van de drank: plastic flessen en blikjes dragen het bijna altijd, kartons en wijnflessen niet, en sinds begin 2024 draagt melk in wegwerpplastic het ook. Een krat van twintig bieren draagt bovendien het kratstatiegeld, waardoor een totaal met drie euro tien omhoogspringt zonder dat er iets mis is.",
+        "exemplos": [
+          { "es": "Nehmen Sie Karte?", "pt": "Neemt u kaart aan?" }
+        ]
+      },
+      {
+        "titulo": "Noem het voorwerp, dan de korte zin",
+        "corpo": "De helft van deze balie waar mensen tegenop zien, is de kleinste helft. Twee vormen dekken bijna alles wat een kamer u kan aandoen: die Heizung funktioniert nicht voor een apparaat dat is gestopt, en es gibt kein heißes Wasser voor iets dat de kamer niet heeft. Wissel het voorwerp en houd de rest hetzelfde: das WLAN funktioniert nicht, es gibt keine Handtücher. Beide zijn feitelijke uitspraken in plaats van beschuldigingen, en dat is het register waarop iemand naar boven wordt gestuurd.",
+        "exemplos": [
+          { "es": "Die Heizung funktioniert nicht.", "pt": "De verwarming doet het niet." },
+          { "es": "Es gibt kein heißes Wasser.", "pt": "Er is geen warm water." }
+        ]
+      }
+    ]
+  },
+  "slot": "B16",
+  "permissao": "U mag vragen om de betere kamer, en dat mag in de simpelste drie woorden die u bezit. Haben Sie plus een ding is een volledig, beleefd verzoek aan elke balie in het land — geen verzachting, geen excuus, geen volzin nodig — en u mag dezelfde opening vijf keer in dezelfde minuut gebruiken zonder hem te variëren om beter te klinken. U mag ook contant betalen zonder dat als falen te zien: bankbiljetten zijn hier het enige onbeperkte wettige betaalmiddel, en een balie die ze wil, volgt gewoon de regel in plaats van er een te verzinnen.",
+  "permissaoAudioKey": "de-b16-n02",
+  "espelho": "Iedereen die ooit thuis heeft ingecheckt in een hotel kent deze minuut al: het scherm staat open, de receptionist heeft het nog niet druk, en alles is goedkoop nog te veranderen. Het enige nieuwe is dat u het doet met twee woorden en een zelfstandig naamwoord.",
+  "fichasCulturais": [
+    {
+      "sinal": "Het is tien over acht op een zaterdag, u gaat naar buiten om iets te eten bij de winkel op de hoek, en de hele straat met winkels is donker.",
+      "suaLeitura": "Deze buurt is dood, of u bent aangekomen op een provinciale plek waar niets openblijft.",
+      "oQueEAli": "Sluitingstijd is een wet in plaats van een zakelijke beslissing. De restfederale wet sluit verkoopruimtes vanaf acht uur 's avonds op werkdagen en de hele zondag en feestdagen, en sinds 2006 schrijft elk Land zijn eigen versie — Beieren nam er een aan in 2025, Berlijn staat de hele nacht toe van maandag tot zaterdag. Apotheken met dienst, station- en luchthavenwinkels, tankstations en zondagochtendbakkerijen zijn geschreven uitzonderingen, en de station- en luchthavenwinkels zijn wettelijk beperkt tot reisartikelen.",
+      "oQueVoceFaz": "Vraag aan de balie op de weg naar binnen, niet op de weg naar buiten: ich suche einen Supermarkt, en luister naar het uur in het antwoord. Koop op zaterdag voor zondag, en vraag de balie wat op zondagavond nog open is in plaats van naar buiten te lopen om erachter te komen.",
+      "oQueMelhora": "U ontdekt de muur niet meer door er tegenaan te lopen, en zondag wordt een dag die u plande in plaats van een dag die u overviel.",
+      "ondeNaoVale": "Het statuut werd voor slechts drie van de zestien Länder geverifieerd, dus dit is een model in plaats van een landelijk rooster — noem geen uren voor een Land dat u niet hebt bevraagd. Of restaurants en cafés buiten de winkelsluitingsregels vallen, is een lezing van de grondwettelijke bevoegdheidsverdeling en geen statuut dat iemand opende, dus dit deel belooft u ook geen restaurant op zondag. En een verkaufsoffener Sonntag is lokaal, gedateerd en gebonden aan een gelegenheid, plan er dus nooit omheen.",
+      "evidencia": "FATO",
+      "audioKeys": ["de-b16-n05", "de-b16-n06"]
+    },
+    {
+      "sinal": "Het flesje water heeft op het schap 0,99 € staan en de kassa vraagt u 1,24 €.",
+      "suaLeitura": "U bent te veel gerekend, of er is een belasting die er aan het eind bij komt zoals thuis.",
+      "oQueEAli": "Het tegenovergestelde: de verpakkingswet stelt een statiegeld van minimaal vijfentwintig cent inclusief btw op de verpakking, en de prijsaanduidingsregels vereisen dat de winkel dat statiegeld naast het totaal toont en verbieden uitdrukkelijk het in de weergegeven prijs op te nemen. Het verschil is geld dat u vasthoudt, geen geld dat u uitgeeft — voer de fles aan de automaat bij elke supermarkt die hetzelfde materiaal verkoopt, en het komt terug. Overal elders is het bedrag op het etiket al inclusief btw en is het bedrag dat u betaalt.",
+      "oQueVoceFaz": "Bewaar flessen en blikjes in de kamer in plaats van in de prullenbak, en breng ze mee op elke boodschap. Zoek het statiegeldlogo; wegwerpplastic en blikjes gaan terug naar elke winkel die hetzelfde materiaal verkoopt, retourglas gaat terug naar de winkel die het verkocht.",
+      "oQueMelhora": "Een totaal dat verkeerd leek wordt een totaal dat u kunt voorspellen, en een week aan flessen wordt weer een paar euro in plaats van afval.",
+      "ondeNaoVale": "Het statiegeld is de enige verklaarde uitzondering op de prijsaanduidingsregel, veralgemeen het dus niet tot een vermoeden dat Duitse prijzen extra's verbergen — dat doen ze niet. De uitzonderingslijst is een parafrase van de wet in plaats van een citaat, de gebruikelijke waarden voor retourglas zijn marktpraktijk en geen wet, en er is helemaal geen wettelijke plicht om retourglas terug te nemen: de meeste winkels doen het als commerciële beleefdheid.",
+      "evidencia": "FATO",
+      "audioKeys": ["de-b16-n07", "de-b16-n08"]
+    }
+  ]
+}

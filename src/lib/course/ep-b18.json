@@ -1,0 +1,296 @@
+{
+  "id": "b18",
+  "nivel": "basico",
+  "numero": 18,
+  "parte": "B18",
+  "slot": "B18",
+  "titulo": "Hoe laat is — die Frage, die den letzten Tag ordnet",
+  "subtitulo": "Die Rezeption am letzten Morgen, der Frühstücksraum, und ein Bahnsteig, der zum Flughafen führt",
+  "cena": "Der letzte Morgen in Delft, der Koffer schon halb gepackt, und niemand hat dir gesagt, bis wann das Zimmer wirklich deins ist.",
+  "moldura": "ganha",
+  "frasePiso": "Hoe laat is, plus das Ding — der ganze letzte Tag geordnet mit drei Wörtern, bevor irgendetwas dich überrascht.",
+  "moldes": [
+    "WANN-IST"
+  ],
+  "clique": {
+    "contagem": [
+      "Rezeption am letzten Morgen",
+      "Frühstücksraum",
+      "Bahnsteig zum Flughafen"
+    ],
+    "desconto": "Niemand gab dir drei Sätze für drei Uhrzeiten. Du hast drei Wörter festgehalten und nur das Ding am Ende gewechselt, und jede Antwort kam mit einer Zahl zurück.",
+    "piso": "Das nächste Mal, wenn ein Tag mit einer Deadline endet, die keiner dir laut gesagt hat, fragst du nicht ins Blaue. Du sagst Hoe laat is und das Ding, um das es geht."
+  },
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b18-n01",
+      "gesto": 1,
+      "tom": "ganha",
+      "bloco": "aquecimento",
+      "pt": "Ein Takt pro Wort, zum letzten Mal in diesem Kurs: hoo laat is. Derselbe Rhythmus, der dich seit B01 trägt."
+    },
+    {
+      "consulta": [
+        "taxi/taximetro"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "WAS-KOSTET",
+      "encaixe": "een taxi naar het vliegveld",
+      "encaixeGloss": "ein Taxi zum Flughafen",
+      "bloco": "callback",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b18-p01",
+      "promptPt": "Gestern hast du mit diesem Baustein den Preis für ein Ticket erfragt. Heute geht es um die Fahrt zum Flughafen selbst. Frag danach. Sprich jetzt.",
+      "audioKey": "hol-b18-t01",
+      "es": "Hoeveel kost een taxi naar het vliegveld?",
+      "pinyin": "hoo-VEEL kost un TAK-see naar het FLEECH-felt?",
+      "pt": "Wie viel kostet ein Taxi zum Flughafen?",
+      "tts": "Hoeveel kost een taxi naar het vliegveld?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b18-n02",
+      "tom": "ganha",
+      "bloco": "cena",
+      "pt": "Der letzte Morgen, der Koffer halb gepackt, und niemand hat gesagt, bis wann das Zimmer wirklich deins ist."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b18-n03",
+      "tom": "ganha",
+      "bloco": "molde",
+      "pt": "Hier ist der Baustein für den letzten Tag: Hoe laat is, plus das Ding, um das es geht."
+    },
+    {
+      "consulta": [
+        "quarto/checkout"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "WANN-IST",
+      "encaixe": "de check-out",
+      "encaixeGloss": "der Check-out",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b18-p02",
+      "promptPt": "An der Rezeption am letzten Morgen, mit dem Koffer schon halb gepackt und dem Flug am Nachmittag. Frag danach. Sprich jetzt.",
+      "audioKey": "hol-b18-t02",
+      "es": "Hoe laat is de check-out?",
+      "pinyin": "hoo laat is de CHEK-out?",
+      "pt": "Wann ist der Check-out?",
+      "tts": "Hoe laat is de check-out?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b18-r01",
+      "tom": "ganha",
+      "es": "Uitchecken kan tot elf uur.",
+      "pinyin": "ÖÜT-chek-ken kan tot elf ür",
+      "pt": "Auschecken geht bis elf Uhr.",
+      "tts": "Uitchecken kan tot elf uur.",
+      "receptivo": true,
+      "acao": "Tot heißt bis. Die Zahl am Ende ist die einzige, die zählt — merk sie dir, bevor du zurück ins Zimmer gehst."
+    },
+    {
+      "consulta": [
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "WANN-IST",
+      "encaixe": "het ontbijt",
+      "encaixeGloss": "das Frühstück",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b18-p03",
+      "promptPt": "Im Frühstücksraum ist der Tisch schon fast leer, und du bist unsicher, wie lange es noch geöffnet ist. Frag danach. Sprich jetzt.",
+      "audioKey": "hol-b18-t03",
+      "es": "Hoe laat is het ontbijt?",
+      "pinyin": "hoo laat is het ONT-bäit?",
+      "pt": "Wann ist das Frühstück?",
+      "tts": "Hoe laat is het ontbijt?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b18-n04",
+      "tom": "ganha",
+      "bloco": "corpo",
+      "pt": "Derselbe Baustein trägt jede Uhrzeit — Check-out, Frühstück, Zug — nur das Ding am Ende wechselt, nie das Verb."
+    },
+    {
+      "consulta": [
+        "quarto/mala"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "mijn koffer hier laten",
+      "encaixeGloss": "meinen Koffer hier lassen",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b18-p04",
+      "promptPt": "Ausgecheckt, aber der Flug geht erst abends, und der Koffer ist zu schwer für einen Stadtbummel. Frag an der Rezeption. Sprich jetzt.",
+      "audioKey": "hol-b18-t04",
+      "es": "Mag ik mijn koffer hier laten?",
+      "pinyin": "mach ik mäin KOF-fer heer LAA-ten?",
+      "pt": "Darf ich meinen Koffer hier lassen?",
+      "tts": "Mag ik mijn koffer hier laten?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b18-r02",
+      "tom": "ganha",
+      "es": "Natuurlijk, u kunt hem tot vanavond ophalen.",
+      "pinyin": "na-TÜÜR-lük, ü kunt hem tot faa-NAA-fent OP-haa-len",
+      "pt": "Natürlich, Sie können ihn bis heute Abend abholen.",
+      "tts": "Natuurlijk, u kunt hem tot vanavond ophalen.",
+      "receptivo": true,
+      "acao": "Vanavond heißt heute Abend. Der Koffer wartet dort — du musst nichts weiter tun, bis du zurückkommst."
+    },
+    {
+      "consulta": [
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "WAS-KOSTET",
+      "encaixe": "het treinkaartje naar Schiphol",
+      "encaixeGloss": "das Zugticket nach Schiphol",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b18-p05",
+      "promptPt": "Am Bahnsteig zum Flughafen zeigt der Automat viele Optionen, aber keinen klaren Preis für dich. Frag konkret. Sprich jetzt.",
+      "audioKey": "hol-b18-t05",
+      "es": "Hoeveel kost het treinkaartje naar Schiphol?",
+      "pinyin": "hoo-VEEL kost het TRÄIN-kaart-yuh naar SCHIP-hol?",
+      "pt": "Wie viel kostet das Zugticket nach Schiphol?",
+      "tts": "Hoeveel kost het treinkaartje naar Schiphol?"
+    },
+    {
+      "consulta": [
+        "transporte/qual-trem"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "WANN-IST",
+      "encaixe": "de volgende trein",
+      "encaixeGloss": "der nächste Zug",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b18-p06",
+      "promptPt": "Auf dem Bahnsteig zum Flughafen, mit dem Koffer neben dir und keiner Anzeige, die du auf Anhieb liest. Frag danach. Sprich jetzt.",
+      "audioKey": "hol-b18-t06",
+      "es": "Hoe laat is de volgende trein?",
+      "pinyin": "hoo laat is de FOL-chen-de träin?",
+      "pt": "Wann ist der nächste Zug?",
+      "tts": "Hoe laat is de volgende trein?"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "DANKE",
+      "encaixe": "dank u wel voor alles",
+      "encaixeGloss": "vielen Dank für alles",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b18-p07",
+      "promptPt": "Der Koffer ist abgeholt, der Zug fährt gleich ein, und die Rezeption hat dir zwei Wochen lang geholfen. Schließ ab. Sprich jetzt.",
+      "audioKey": "hol-b18-t07",
+      "es": "Dank u wel voor alles!",
+      "pinyin": "dank ü vel fohr AL-les!",
+      "pt": "Vielen Dank für alles!",
+      "tts": "Dank u wel voor alles!"
+    },
+    {
+      "consulta": [
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b18-p08",
+      "promptPt": "Der Zug fährt ein, und der Barmann von B11, der Verkäufer vom Markt, alle bleiben zurück. Sag den letzten Satz. Sprich jetzt.",
+      "audioKey": "hol-b18-t08",
+      "es": "Tot de volgende keer!",
+      "pinyin": "tot de FOL-chen-de kayr!",
+      "pt": "Bis zum nächsten Mal!",
+      "tts": "Tot de volgende keer!"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-b18-s01",
+      "tom": "ganha",
+      "es": "Hoe laat is de check-out? Hoe laat is het ontbijt? Hoe laat is de volgende trein?",
+      "pinyin": "hoo laat is de CHEK-out? hoo laat is het ONT-bäit? hoo laat is de FOL-chen-de träin?",
+      "pt": "Schatte denselben Baustein über drei völlig verschiedene Uhrzeiten.",
+      "tts": "Hoe laat is de check-out? Hoe laat is het ontbijt? Hoe laat is de volgende trein?",
+      "molde": "WANN-IST"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b18-n05",
+      "tom": "ganha",
+      "bloco": "recap",
+      "pt": "B18 fertig, und ME VIRO auch. Hoe laat is, plus das Ding — der letzte Tag geordnet, ohne dass dich eine Uhrzeit überrascht."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Ein Baustein, und der letzte Tag in drei Uhrzeiten",
+    "secoes": [
+      {
+        "titulo": "Hoe laat is, plus das Ding",
+        "corpo": "Hoe laat is fragt immer nach EINER Uhrzeit, mit dem Ding direkt danach: de check-out, het ontbijt, de volgende trein. Kein neues Verb für jede Frage — der Baustein wechselt nie, nur das, wonach du fragst.",
+        "exemplos": [
+          {
+            "es": "Hoe laat is de check-out?",
+            "pt": "Wann ist der Check-out?"
+          },
+          {
+            "es": "Hoe laat is de volgende trein?",
+            "pt": "Wann ist der nächste Zug?"
+          }
+        ]
+      },
+      {
+        "titulo": "Zwei Bausteine, die zurückkehren",
+        "corpo": "Mag ik mijn koffer hier laten? ist derselbe Baustein aus B11 und B14 — nur das Ding am Ende ist jetzt der Koffer, nicht der Kaffee oder die Rechnung. Hoeveel kost trägt dich vom Marktstand aus B15 bis zum Bahnsteig hier — der letzte Tag baut auf allem auf, was vorher kam."
+      },
+      {
+        "titulo": "Warum der letzte Tag mit einer Frage endet, nicht mit Sorge",
+        "corpo": "Check-out-Zeiten, Frühstückszeiten und Zugzeiten sind selten irgendwo laut ausgesprochen — sie stehen, wenn überhaupt, klein gedruckt an einer Wand. Hoe laat is holt die Zahl heraus, bevor sie dich überrascht, und das ist der ganze Unterschied zwischen einem entspannten letzten Morgen und einem gehetzten."
+      }
+    ]
+  },
+  "permissao": "Du darfst an der Rezeption dreimal nach einer Uhrzeit fragen, ohne dich zu entschuldigen — auch wenn du sie eigentlich schon einmal gehört hast. Hoe laat is, plus das Ding, ist eine vollständige, normale Frage am letzten Tag, und niemand erwartet, dass du dir jede Zahl beim ersten Mal merkst.",
+  "permissaoAudioKey": "hol-b18-n03",
+  "fichasCulturais": [
+    {
+      "sinal": "Die Check-out-Zeit an der Rezeption ist elf Uhr, ohne dass irgendjemand danach fragt oder das aushängt — du hast es selbst erfragen müssen.",
+      "suaLeitura": "Das Hotel hätte es doch von selbst sagen können, ohne dass ich extra fragen muss.",
+      "oQueEAli": "Check-out-Zeiten sind eine betriebliche Gewohnheit der jeweiligen Unterkunft, keine landesweit einheitliche oder gesetzlich festgelegte Regel — sie stehen deshalb selten prominent ausgehängt, weil sie von Haus zu Haus variieren.",
+      "oQueVoceFaz": "Frag am Vortag oder direkt am letzten Morgen: Hoe laat is de check-out? Das ist die übliche, erwartete Frage, keine, die auffällt.",
+      "oQueMelhora": "Du planst den letzten Morgen realistisch, statt eine Uhrzeit anzunehmen, die vielleicht gar nicht stimmt.",
+      "ondeNaoVale": "Größere Hotelketten kommunizieren die Check-out-Zeit oft schon bei der Buchung oder auf einer Karte im Zimmer — dann ist die Nachfrage an der Rezeption nur eine Bestätigung, kein reines Herausfinden.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "hol-b18-t02"
+      ]
+    }
+  ]
+}

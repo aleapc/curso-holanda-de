@@ -1,0 +1,402 @@
+{
+  "id": "b13",
+  "nivel": "basico",
+  "numero": 13,
+  "parte": "B13",
+  "titulo": "Ich habe eine Allergie — vóór de bestelling, niet na het bord",
+  "subtitulo": "Vier woorden, dan ohne en het ding, en één vraag die de keuken bereikt",
+  "cena": "Een Gasthaus in Leipzig, kaarten nog open, het moment vlak vóór de bestelling naar de keuken loopt.",
+  "moldura": "protege",
+  "frasePiso": "Ich habe eine Allergie, plus ohne en het ding. Dat is een volledige instructie aan een keuken, gegeven terwijl de pan nog koud is.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "de-b13-notruf",
+      "afirmacao": "Duitsland heeft twee alarmnummers, geen één. 112 bereikt de brandweer en de Rettungsdienst — de ambulance — en 110 bereikt de politie. Beide werden op 20 september 1973 tussen Bund en Länder afgesproken; 112 werd door de Raad van de EU in 1991 als het gemeenschappelijke Europese alarmnummer aangenomen. In Nederland routeert 112 alles via één centraal punt (politie, ambulance en brandweer). In Duitsland niet: 112 verbindt u niet met de politie. Wie thuis gewend is dat één nummer alles doorschakelt, verliest hier de eerste dertig seconden aan de verkeerde lijn.",
+      "fonte": "pesquisa-alemanha-en.md §6.1 — BMI, comunicado de setembro/2023 «Seit 50 Jahren gibt es einheitliche Notrufnummern» [RESUMO de bbk.bund.de, bundesregierung.de, polizei-beratung.de]; para o hábito neerlandês, 112.nl (comparação de contexto).",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": [
+        "de-b13-n07"
+      ]
+    },
+    {
+      "id": "de-b13-116117",
+      "afirmacao": "116117 is de huisartsenpost-lijn buiten kantooruren, beheerd door de Kassenärztliche Bundesvereinigung: 24 uur per dag, zeven dagen per week, voor het soort klacht waarmee u overdag naar een praktijk zou gaan wanneer die dicht is. Uitdrukkelijk niet voor levensbedreigende noodgevallen — dat is 112 — en tandheelkunde valt er niet onder. De Engelstalige pagina van de dienst zegt letterlijk «This service is only available in German»: de website heeft een Engelse versie, de telefoonlijn niet. De pagina noemt het gesprek gratis «mit deutschem Telefonvertrag»; over de kosten vanuit een buitenlandse simkaart of in roaming staat niets, dus voor een bezoeker mag het niet als gratis worden verkocht.",
+      "fonte": "pesquisa-alemanha-en.md §6.2 — 116117.de (Kassenärztliche Bundesvereinigung), aberta em 5/8/2026, e 116117.de/de/englisch.php. O custo em roaming está marcado AUSENTE no dossiê.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-b13-n08"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b13-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "Eén zin, uitgesproken vóór de bestelling weggaat, doet het hele werk. Zeg het vlak en zeg het vroeg."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b13-n02",
+      "bloco": "molde",
+      "pt": "Ich habe eine Allergie. Vier woorden. Geen excuus eromheen, en geen verhaal over de vorige keer."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-b13-t01",
+      "es": "Ich habe eine Allergie.",
+      "pinyin": "ikh HAA-buh EYE-nuh a-lair-GHEE",
+      "pt": "Ik heb een allergie.",
+      "tts": "Ich habe eine Allergie."
+    },
+    {
+      "consulta": [
+        "dieta/dizer"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b13-p01",
+      "promptPt": "De ober heeft het blocnote open en wacht tot de tafel beslist. Zeg het als eerste. Spreek nu.",
+      "audioKey": "de-b13-t01",
+      "es": "Ich habe eine Allergie.",
+      "pinyin": "ikh HAA-buh EYE-nuh a-lair-GHEE",
+      "pt": "Ik heb een allergie.",
+      "tts": "Ich habe eine Allergie."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b13-r01",
+      "es": "Moment, ich frage in der Küche.",
+      "pinyin": "mo-MENT, ikh FRAA-guh in dair KEW-khuh",
+      "pt": "Een moment, ik vraag het in de keuken.",
+      "tts": "Moment, ich frage in der Küche.",
+      "receptivo": true,
+      "acao": "Wacht de stilte af. Die stilte is de keuken die het gevraagd wordt, en dat is het antwoord dat u wilde."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b13-n03",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "De tweede helft is de bouwsteen die u al kent: ohne, en dan het ding dat niet op het bord mag."
+    },
+    {
+      "consulta": [
+        "dieta/sem",
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "OHNE",
+      "encaixe": "Milch",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b13-p02",
+      "promptPt": "Zuivel is wat uw avond kan verpesten, en de saus is de gebruikelijke schuilplaats. Zeg het. Spreek nu.",
+      "audioKey": "de-b13-t02",
+      "es": "Bitte ohne Milch.",
+      "pinyin": "BIT-tuh OH-nuh milkh",
+      "pt": "Zonder melk, alstublieft.",
+      "tts": "Bitte ohne Milch."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b13-n04",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Ohne pakt het voedsel kaal, zonder iets ervoor. Ohne Milch, ohne Nüsse, ohne Fleisch."
+    },
+    {
+      "consulta": [
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "OHNE",
+      "encaixe": "Gluten",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b13-p03",
+      "promptPt": "Brood en pasta zijn definitief van tafel voor u, en het gerecht komt met een knoedel. Zeg het. Spreek nu.",
+      "audioKey": "de-b13-t03",
+      "es": "Für mich bitte ohne Gluten.",
+      "pinyin": "fewr mikh BIT-tuh OH-nuh GLOO-ten",
+      "pt": "Voor mij zonder gluten, alstublieft.",
+      "tts": "Für mich bitte ohne Gluten."
+    },
+    {
+      "consulta": [
+        "dieta/sem",
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "OHNE",
+      "encaixe": "Zwiebeln",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b13-p04",
+      "promptPt": "Geen medische kwestie deze keer — u kunt gewoon die rauwe witte ringen niet verdragen. Zelfde vorm. Spreek nu.",
+      "audioKey": "de-b13-t04",
+      "es": "Bitte ohne Zwiebeln.",
+      "pinyin": "BIT-tuh OH-nuh TSVEE-beln",
+      "pt": "Zonder uien, alstublieft.",
+      "tts": "Bitte ohne Zwiebeln."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b13-r02",
+      "es": "Da ist Butter drin.",
+      "pinyin": "daa ist BOOT-ter DRIN",
+      "pt": "Er zit boter in.",
+      "tts": "Da ist Butter drin.",
+      "receptivo": true,
+      "acao": "Drin betekent in het gerecht. Elke zin met drin erin is een ingrediëntenlijst — behandel het zo."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b13-n05",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Vraag vóór u kiest, nooit erna. Was ist da drin is vier lettergrepen en opent het hele gerecht."
+    },
+    {
+      "consulta": [
+        "dieta/o-que-tem",
+        "mesa/carta"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b13-p05",
+      "promptPt": "Het dagmenu is een woord dat u nog nooit zag en de kaart zegt verder niets. Vraag het. Spreek nu.",
+      "audioKey": "de-b13-t05",
+      "es": "Was ist da drin?",
+      "pinyin": "vass ist daa DRIN",
+      "pt": "Wat zit erin?",
+      "tts": "Was ist da drin?"
+    },
+    {
+      "consulta": [
+        "dieta/o-que-tem"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b13-p06",
+      "promptPt": "U vermoedt de saus, en één ja of nee lost het in één seconde op. Vraag rechtstreeks. Spreek nu.",
+      "audioKey": "de-b13-t06",
+      "es": "Ist da Fisch drin?",
+      "pinyin": "ist daa fish DRIN",
+      "pt": "Zit er vis in?",
+      "tts": "Ist da Fisch drin?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b13-n06",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Können Sie, en dan wat u gedaan wilt hebben. Hier is dat één ding: de vraag naar de kok brengen."
+    },
+    {
+      "consulta": [
+        "dieta/cartao",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "KONNEN-SIE",
+      "encaixe": "in der Küche fragen",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b13-p07",
+      "promptPt": "Hij haalt zijn schouders op — hij weet echt niet wat er in de bouillon zit. Stuur hem naar wie het wél weet. Spreek nu.",
+      "audioKey": "de-b13-t07",
+      "es": "Können Sie in der Küche fragen?",
+      "pinyin": "KER-nen zee in dair KEW-khuh FRAA-gen",
+      "pt": "Kunt u het in de keuken vragen?",
+      "tts": "Können Sie in der Küche fragen?"
+    },
+    {
+      "consulta": [
+        "dieta/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "KONNEN-SIE",
+      "encaixe": "das der Küche sagen",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b13-p08",
+      "promptPt": "Hij knikte, schreef niets op en draaide zich om. Zorg dat het met de bestelling meegaat. Spreek nu.",
+      "audioKey": "de-b13-t08",
+      "es": "Können Sie das der Küche sagen?",
+      "pinyin": "KER-nen zee dass dair KEW-khuh ZAA-gen",
+      "pt": "Kunt u dat aan de keuken doorgeven?",
+      "tts": "Können Sie das der Küche sagen?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b13-r03",
+      "es": "Das kann ich Ihnen nicht garantieren.",
+      "pinyin": "dass kann ikh EE-nen nikht ga-ran-TEE-ren",
+      "pt": "Dat kan ik u niet garanderen.",
+      "tts": "Das kann ich Ihnen nicht garantieren.",
+      "receptivo": true,
+      "acao": "Dat is een eerlijk antwoord, geen afwijzing. Neem het als een nee voor dat gerecht en vraag wat de keuken wél kan."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b13-n07",
+      "bloco": "corpo",
+      "tom": "protege",
+      "pt": "Twee nummers, geen één. 112 is brandweer en ambulance. 110 is politie. 112 verbindt u niet met de politie door."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b13-n08",
+      "bloco": "corpo",
+      "tom": "protege",
+      "pt": "116117 is de huisartsenpost buiten kantooruren. Eigen Engelse pagina: telefoon antwoordt alleen in het Duits."
+    },
+    {
+      "consulta": [
+        "saude/112",
+        "saude/minha-alergia"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b13-p09",
+      "promptPt": "Uw gezicht loopt op en de zaal is stil. Vier woorden, hard, tegen wie het dichtst bij staat. Spreek nu.",
+      "audioKey": "de-b13-t09",
+      "es": "Ich brauche einen Arzt.",
+      "pinyin": "ikh BROW-khuh EYE-nen artst",
+      "pt": "Ik heb een arts nodig.",
+      "tts": "Ich brauche einen Arzt."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b13-n09",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "Draag het geschreven én gesproken bij u. Een uitgehouden scherm wordt door de kok gelezen, niet doorgegeven."
+    },
+    {
+      "consulta": [
+        "dieta/cartao",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b13-p10",
+      "promptPt": "U tikte het in het vliegtuig helemaal uit en het staat op uw telefoon. Geef het aan. Spreek nu.",
+      "audioKey": "de-b13-t10",
+      "es": "Hier ist es auf Deutsch.",
+      "pinyin": "heer ist ess owf DOYTSH",
+      "pt": "Hier staat het in het Duits.",
+      "tts": "Hier ist es auf Deutsch."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-b13-s01",
+      "molde": "OHNE",
+      "es": "Ohne Milch. Ohne Nüsse. Ohne Gluten.",
+      "pinyin": "OH-nuh milkh. OH-nuh NEW-suh. OH-nuh GLOO-ten",
+      "pt": "Schaduw dezelfde tweewoords-instructie op drie verschillende dingen.",
+      "tts": "Ohne Milch. Ohne Nüsse. Ohne Gluten."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b13-n10",
+      "bloco": "recap",
+      "pt": "B13 klaar. De vlakke zin, ohne plus het ding, en één vraag die de kok bereikt."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "De zin, de kaart, en de twee telefoonnummers",
+    "secoes": [
+      {
+        "titulo": "Waarom het eerst gaat, en waarom het vlak blijft",
+        "corpo": "Een keuken kan alleen handelen zolang er nog gekookt wordt. Zodra het bord op tafel staat, blijft alleen terugsturen over, en dan is de pan al gebruikt. Ich habe eine Allergie is vier woorden en hoort bovenaan de bestelling, voordat iemand iets heeft gekozen. Onderdruk de neiging om het te verzachten — sorry dat ik lastig ben, waarschijnlijk gaat het wel, het is maar een klein probleempje. Elke voorbehoud verplaatst het verzoek van de kolom «kan niet» naar «heb liever niet», en een drukke keuken sorteert precies daarop."
+      },
+      {
+        "titulo": "Ohne, en de enige plek waar het ding kaal binnenkomt",
+        "corpo": "Overal elders in deze cursus komt het ding dat u invoegt met zijn lidwoord al vast — einen Tisch, ein Zimmer, eine Karte. Ohne is de uitzondering, en het is een echte: na ohne krijgen stofvoedingsmiddelen en algemene meervouden niets ervoor. Ohne Milch. Ohne Fleisch. Ohne Nüsse. Ohne Gluten. Twee woorden, en er valt niets tussen te kiezen.",
+        "exemplos": [
+          {
+            "es": "Bitte ohne Milch.",
+            "pt": "Zonder melk, alstublieft."
+          },
+          {
+            "es": "Für mich bitte ohne Gluten.",
+            "pt": "Voor mij zonder gluten, alstublieft."
+          }
+        ]
+      },
+      {
+        "titulo": "Drin — het woord dat betekent dat het erin zit",
+        "corpo": "Was ist da drin? geeft u de ingrediënten. Ist da Fisch drin? geeft u een ja of een nee. En als het antwoord terugkomt, is drin het woord om op te letten: da ist Butter drin betekent dat de boter in het gerecht zit, niet op tafel. Het is kort, het is overal, en het doet het werk dat een lange Nederlandse zin over ingrediënten zou doen."
+      },
+      {
+        "titulo": "De vraag voorbij de ober sturen",
+        "corpo": "Können Sie in der Küche fragen? en Können Sie das der Küche sagen? zijn de twee helften van dezelfde taak: de vraag bij degene met de pan krijgen, en uw beperking met de bestelling laten meereizen. Als het antwoord terugkomt als das kann ich Ihnen nicht garantieren — dat kan ik u niet garanderen — is dat geen weigering om te helpen. Het is iemand die niet iets belooft wat hij niet kan overzien. Neem het als een nee voor dat gerecht en vraag wat de keuken wél kan doen."
+      },
+      {
+        "titulo": "De twee nummers, en het derde dat geen noodlijn is",
+        "corpo": "112 is de brandweer en de ambulance. 110 is de politie. Ze werden in 1973 door Bund en Länder als paar afgesproken, en 112 werd in 1991 het gemeenschappelijke Europese nummer — maar het paar bleef een paar, dus 112 verbindt u niet met de politie door, zoals u dat vanuit Nederland gewend bent. Daarnaast is er 116117, de huisartsenlijn buiten kantooruren voor het soort klacht waarmee u naar een praktijk zou gaan. Het loopt de klok rond, tandheelkunde valt er niet onder, en het is niet voor iets levensbedreigends. De eigen Engelstalige pagina zegt in gewone woorden dat de dienst alleen in het Duits beschikbaar is. De pagina noemt het gesprek gratis met een Duits telefooncontract; wat het kost vanuit een buitenlandse simkaart wordt eenvoudigweg niet gepubliceerd, dus reken er niet op dat het voor u gratis is."
+      }
+    ]
+  },
+  "slot": "B13",
+  "permissao": "U mag dit slecht zeggen. Een vlakke Ich habe eine Allergie met een Nederlands accent, zonder werkwoordcongruentie waar dan ook en met de verkeerde klemtoon op Allergie, is een volledige en effectieve instructie — en u mag het tegen elke persoon zeggen die een bestelling opneemt, elke dag van de reis, zonder ooit excuses te maken voor het herhalen. U mag ook een telefoonscherm overhandigen in plaats van te spreken, en u mag Was ist da drin? blijven vragen totdat het antwoord niet meer vaag is. Niets daarvan is onbeleefd hier en niets ervan hoeft een aanloop te hebben.",
+  "permissaoAudioKey": "de-b13-n09",
+  "espelho": "Wie ooit een vriend met een notenallergie mee uit eten heeft genomen, kent deze volgorde al — zeg het vroeg, zeg het duidelijk, geef het aan de keuken door, controleer de saus. Het enige nieuwe is dat vier van de woorden Duits zijn.",
+  "fichasCulturais": [
+    {
+      "sinal": "Er gaat iets mis aan tafel en u grijpt naar het ene alarmnummer dat u kent.",
+      "suaLeitura": "Er zal één lijn zijn die alles doorschakelt, zoals 112 dat thuis doet — politie, ambulance én brandweer via één centrale.",
+      "oQueEAli": "Er zijn er twee. 112 is de brandweer en de Rettungsdienst — de ambulance — en 110 is de politie. Het paar werd in 1973 tussen de federale overheid en de Länder afgesproken, en 112 werd in 1991 het gemeenschappelijke Europese alarmnummer. Anders dan in Nederland schakelt 112 hier niet door naar de politie: wie een politiezaak heeft, moet 110 draaien.",
+      "oQueVoceFaz": "Zet beide nummers in uw telefoon voordat u vliegt, met 112 eerst. Voor iets medisch belt u 112 en vraagt u om een ambulance. Voor iets waar de politie voor nodig is, kiest u 110 rechtstreeks — niet 112.",
+      "oQueMelhora": "U verliest niet de eerste dertig seconden van een noodgeval aan de verkeerde lijn, en u weet welk nummer degene naast u draait als er iets gebeurt.",
+      "ondeNaoVale": "Dit zegt niets over hoe snel iemand komt, en niets over wat een ambulance u kost — dat hangt af van uw eigen dekking. En het is geen bewering dat elke 112-medewerker Engels spreekt — geen enkele bron in het onderzoek van deze cursus meet dat.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-b13-n07"
+      ]
+    },
+    {
+      "sinal": "Een hotel of een apotheek wijst u naar 116117 in plaats van 112 voor iets wat pijn doet maar geen noodgeval is.",
+      "suaLeitura": "Een zachtere hulplijn, vermoedelijk bemand voor bezoekers, die u er in het Engels doorheen praat.",
+      "oQueEAli": "116117 is de medische dienst buiten kantooruren van de Kassenärztliche Bundesvereinigung: de klok rond, voor het soort klacht waarmee u naar een praktijk zou gaan als die dicht is. Tandheelkunde valt er niet onder en het is uitdrukkelijk niet voor iets levensbedreigends. De eigen Engelstalige pagina zegt dat de dienst alleen in het Duits beschikbaar is — de website heeft een Engelse versie, de telefoonlijn niet.",
+      "oQueVoceFaz": "Gebruik het voor het probleem op praktijkniveau, en zorg dat u een Duitstalige achter de hand heeft voordat u belt — de hotelbalie, een collega, de persoon aan de apotheekbalie. Als het levensbedreigend is, slaat u dit over en belt u 112.",
+      "oQueMelhora": "U stopt met verwachten dat er een Engels gesprek plaatsvindt dat de dienst nooit heeft beloofd, en u gebruikt de juiste lijn voor het juiste probleem.",
+      "ondeNaoVale": "De claim dat het gesprek gratis is op de officiële pagina, geldt alleen voor een Duits telefooncontract. Wat het gesprek vanuit een buitenlandse simkaart of in roaming kost, wordt nergens gepubliceerd waar deze cursus het kon verifiëren, dus ga er niet vanuit dat het voor u gratis is.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-b13-n08"
+      ]
+    }
+  ]
+}

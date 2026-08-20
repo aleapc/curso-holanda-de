@@ -1,0 +1,356 @@
+{
+  "id": "b03",
+  "nivel": "basico",
+  "numero": 3,
+  "parte": "B03",
+  "slot": "B03",
+  "titulo": "Sorry — der erste Fremde, den Sie ansprechen, und was Sie nicht zuerst sagen",
+  "subtitulo": "Ihr Handy hat kein Netz mehr, der Bahnsteig zeigt die falsche Nummer, und ein einziges Wort öffnet jeden Fremden hier — nur eben nicht auf Deutsch",
+  "cena": "Die Anzeigetafel am Gleis zeigt eine andere Nummer als Ihr Ticket, Ihr Handy hat kein Netz mehr, und die nächste Person geht gerade an Ihnen vorbei.",
+  "moldura": "ganha",
+  "frasePiso": "Sorry, plus was Sie brauchen, und Sie kommen an jeden Fremden dieser Reise heran — noch bevor Sie das erste ganze niederländische Wort gelernt haben.",
+  "moldes": ["ENTSCHULDIGUNG"],
+  "clique": {
+    "contagem": ["Bahnsteig", "Café", "Bushaltestelle"],
+    "desconto": "Am Bahnsteig, im Café und an der Bushaltestelle haben Sie mit demselben einen Wort begonnen. Der Rest des Satzes kam von Ihnen, nicht aus einem Sprachführer."
+  },
+  "fatosDatados": [
+    {
+      "id": "hol-b03-englisch-und-deutsch",
+      "afirmacao": "Die Niederlande stehen seit sechs Jahren in Folge auf Platz eins von über hundert Ländern beim EF-Englisch-Kompetenzindex, und Fremde wechseln bei der kleinsten Schwierigkeit oft von selbst ins Englische. Zugleich verstehen viele Menschen hier auch Deutsch — grob geschätzt kann eine Mehrheit der Bevölkerung Deutsch zumindest folgen —, aber das Verständnis läuft nicht symmetrisch: Niederländer verstehen Deutsch besser, als Deutsche Niederländisch verstehen. Genau deshalb ist es hier klüger, ein Gespräch nicht direkt auf Deutsch zu eröffnen, sondern mit «Sorry» und danach Englisch oder Niederländisch zu beginnen — ein Versuch auf Niederländisch wird ausdrücklich positiv aufgenommen.",
+      "fonte": "EF Education First, EF English Proficiency Index 2024 (Rang 1 von 113 Ländern, 636 Punkte, sechstes Jahr in Folge); Schätzungen zur Deutschkompetenz sind Größenordnungen aus Sprachberichten, keine Volkszählung.",
+      "ano": 2024,
+      "revisarAte": "2027-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "medio",
+      "audioKeys": ["hol-b03-n02", "hol-b03-n03"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b03-n01",
+      "gesto": 1,
+      "tom": "ganha",
+      "bloco": "aquecimento",
+      "pt": "Ein Wort öffnet heute jeden Fremden: Sorry — das Erste, wenn etwas nicht nach Plan läuft."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b03-n02",
+      "tom": "ganha",
+      "bloco": "molde",
+      "pt": "Hier ist der Baustein: Sorry oder Pardon, plus was Sie brauchen. Das zieht die Aufmerksamkeit, ohne mehr zu sagen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b03-n03",
+      "tom": "ganha",
+      "pt": "Ein Wort sagen Sie hier bewusst NICHT zuerst: Deutsch. Sorry, dann Englisch oder Niederländisch — die sichere Reihenfolge."
+    },
+    {
+      "consulta": ["reparo/ingles"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "spreekt u Engels",
+      "encaixeGloss": "sprechen Sie Englisch",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b03-p01",
+      "promptPt": "Am Bahnsteig, die Anzeigetafel zeigt eine andere Nummer als Ihr Ticket, und die nächste Person geht gerade an Ihnen vorbei. Sprechen Sie sie an. Sag es jetzt.",
+      "audioKey": "hol-b03-t01",
+      "es": "Sorry, spreekt u Engels?",
+      "pinyin": "SO-rie, SPRAYKT ü ENG-els?",
+      "pt": "Entschuldigung, sprechen Sie Englisch?",
+      "tts": "Sorry, spreekt u Engels?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b03-r01",
+      "tom": "ganha",
+      "es": "Ja hoor, wat kan ik voor u doen?",
+      "pinyin": "yaa hoor, wat kan ik voor ü doon?",
+      "pt": "Ja klar, was kann ich für Sie tun?",
+      "tts": "Ja hoor, wat kan ik voor u doen?",
+      "receptivo": true,
+      "acao": "«Ja hoor» ist ein lockeres Ja — nichts weiter zu tun, als jetzt die eigentliche Frage zu stellen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b03-n04",
+      "tom": "ganha",
+      "bloco": "corpo",
+      "pt": "Werkzeug zwei: sagen Sie einfach, wenn Sie nichts verstanden haben. Niemand erwartet schon fließendes Niederländisch."
+    },
+    {
+      "consulta": ["reparo/devagar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "ik versta u niet",
+      "encaixeGloss": "ich verstehe Sie nicht",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b03-p02",
+      "promptPt": "Der Schaffner sagt einen ganzen Satz über den Bahnsteigwechsel, viel zu schnell für Ihr erstes Wort Niederländisch. Sagen Sie, dass Sie nicht folgen konnten. Sag es jetzt.",
+      "audioKey": "hol-b03-t02",
+      "es": "Sorry, ik versta u niet.",
+      "pinyin": "SO-rie, ik VER-staa ü neet",
+      "pt": "Entschuldigung, ich verstehe Sie nicht.",
+      "tts": "Sorry, ik versta u niet."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b03-n05",
+      "tom": "ganha",
+      "pt": "Werkzeug drei: langsamer bitten. Ein Wort reicht, und der Baustein trägt es genauso wie eben."
+    },
+    {
+      "consulta": ["reparo/devagar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "langzamer, alstublieft",
+      "encaixeGloss": "langsamer, bitte",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b03-p03",
+      "promptPt": "Er wiederholt denselben Satz noch einmal, im exakt gleichen Tempo wie beim ersten Mal, und die eine Zahl geht wieder unter. Sag es jetzt.",
+      "audioKey": "hol-b03-t03",
+      "es": "Pardon, langzamer, alstublieft?",
+      "pinyin": "par-DON, LANG-zaa-mer, als-tü-BLEEFT?",
+      "pt": "Entschuldigung, langsamer, bitte?",
+      "tts": "Pardon, langzamer, alstublieft?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b03-r02",
+      "tom": "ganha",
+      "es": "Oh, sorry hoor. U moet bij spoor twee zijn.",
+      "pinyin": "oh, SO-rie hoor. ü moot bei spoor twee zein",
+      "pt": "Oh, entschuldigen Sie. Sie müssen zu Gleis zwei.",
+      "tts": "Oh, sorry hoor. U moet bij spoor twee zijn.",
+      "receptivo": true,
+      "acao": "Die Nummer ist der Teil, den Sie behalten — der Rest des Satzes ist Höflichkeit, die Sie nicht mitschreiben müssen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b03-n06",
+      "tom": "ganha",
+      "pt": "Ein viertes Werkzeug wartet noch: bitten, es aufzuschreiben. Das kommt richtig in Können Sie — mehr dazu in B07."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b03-r03",
+      "tom": "ganha",
+      "es": "Kunt u dat opschrijven?",
+      "pinyin": "kunt ü dat OP-schrei-ven?",
+      "pt": "Können Sie das aufschreiben?",
+      "tts": "Kunt u dat opschrijven?",
+      "receptivo": true,
+      "acao": "Erkennen reicht heute — Sie hören die Frage schon jetzt einmal, damit sie in B07 nicht neu klingt."
+    },
+    {
+      "consulta": ["reparo/ingles"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "spreekt u Engels",
+      "encaixeGloss": "sprechen Sie Englisch",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b03-p04",
+      "promptPt": "In einem kleinen Café will die Bedienung Ihre Bestellung aufnehmen, und Sie sind sich beim Namen des Gebäcks nicht sicher, was sie meint. Sag es jetzt.",
+      "audioKey": "hol-b03-t04",
+      "es": "Sorry, spreekt u Engels?",
+      "pinyin": "SO-rie, SPRAYKT ü ENG-els?",
+      "pt": "Entschuldigung, sprechen Sie Englisch?",
+      "tts": "Sorry, spreekt u Engels?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b03-n07",
+      "tom": "protege",
+      "bloco": "capsula",
+      "pt": "Warum Raten hier riskant ist: viele Wörter sehen deutsch aus, meinen aber anderes — mag heißt dürfen, nicht mögen. Mehr dazu in B06 und B11."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b03-n08",
+      "tom": "ganha",
+      "pt": "Deshalb ist Sorry, ich verstehe Sie nicht sicherer, als ein vertraut klingendes Wort zu erraten."
+    },
+    {
+      "consulta": ["chegar/entrar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "ik versta u niet",
+      "encaixeGloss": "ich verstehe Sie nicht",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b03-p05",
+      "promptPt": "An der Bushaltestelle erklärt Ihnen jemand in schnellem Niederländisch, warum der Bus heute nicht kommt, und Sie verstehen kein einziges Wort davon. Sag es jetzt.",
+      "audioKey": "hol-b03-t05",
+      "es": "Sorry, ik versta u niet.",
+      "pinyin": "SO-rie, ik VER-staa ü neet",
+      "pt": "Entschuldigung, ich verstehe Sie nicht.",
+      "tts": "Sorry, ik versta u niet."
+    },
+    {
+      "consulta": ["reparo/devagar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "langzamer, alstublieft",
+      "encaixeGloss": "langsamer, bitte",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b03-p06",
+      "promptPt": "Er versucht es noch einmal, in demselben Tempo, und die eine Zahl, auf die es ankommt, geht wieder unter. Sag es jetzt.",
+      "audioKey": "hol-b03-t06",
+      "es": "Pardon, langzamer, alstublieft?",
+      "pinyin": "par-DON, LANG-zaa-mer, als-tü-BLEEFT?",
+      "pt": "Entschuldigung, langsamer, bitte?",
+      "tts": "Pardon, langzamer, alstublieft?"
+    },
+    {
+      "consulta": ["reparo/ingles"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "spreekt u Engels",
+      "encaixeGloss": "sprechen Sie Englisch",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b03-p07",
+      "promptPt": "Am Schalter des Museums liegt ein Blatt mit Öffnungszeiten aus, ganz in kleinen niederländischen Buchstaben. Sag es jetzt.",
+      "audioKey": "hol-b03-t07",
+      "es": "Sorry, spreekt u Engels?",
+      "pinyin": "SO-rie, SPRAYKT ü ENG-els?",
+      "pt": "Entschuldigung, sprechen Sie Englisch?",
+      "tts": "Sorry, spreekt u Engels?"
+    },
+    {
+      "consulta": ["reparo/devagar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "ik versta u niet",
+      "encaixeGloss": "ich verstehe Sie nicht",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b03-p08",
+      "promptPt": "An der Tramhaltestelle erklärt Ihnen eine Frau in einem einzigen langen Satz, warum die Bahn heute anders fährt. Sag es jetzt.",
+      "audioKey": "hol-b03-t08",
+      "es": "Sorry, ik versta u niet.",
+      "pinyin": "SO-rie, ik VER-staa ü neet",
+      "pt": "Entschuldigung, ich verstehe Sie nicht.",
+      "tts": "Sorry, ik versta u niet."
+    },
+    {
+      "consulta": ["reparo/devagar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "langzamer, alstublieft",
+      "encaixeGloss": "langsamer, bitte",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b03-p09",
+      "promptPt": "Der Apotheker erklärt die Dosierung in einem Tempo, dem Sie beim ersten Mal nicht folgen konnten. Sag es jetzt.",
+      "audioKey": "hol-b03-t06",
+      "es": "Pardon, langzamer, alstublieft?",
+      "pinyin": "par-DON, LANG-zaa-mer, als-tü-BLEEFT?",
+      "pt": "Entschuldigung, langsamer, bitte?",
+      "tts": "Pardon, langzamer, alstublieft?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-b03-s01",
+      "tom": "ganha",
+      "es": "Sorry, spreekt u Engels? Sorry, ik versta u niet. Pardon, langzamer, alstublieft?",
+      "pinyin": "SO-rie, SPRAYKT ü ENG-els? · SO-rie, ik VER-staa ü neet · par-DON, LANG-zaa-mer, als-tü-BLEEFT?",
+      "pt": "Schatten Sie die drei Werkzeuge des Notfallkits hintereinander.",
+      "tts": "Sorry, spreekt u Engels? Sorry, ik versta u niet. Pardon, langzamer, alstublieft?",
+      "molde": "ENTSCHULDIGUNG"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b03-n09",
+      "tom": "ganha",
+      "bloco": "permissao",
+      "pt": "Sie müssen den Antwortsatz nicht verstehen. Eine Zahl, ein Gleis, ein Nicken reicht — der Rest darf vorbeigehen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b03-n10",
+      "tom": "ganha",
+      "bloco": "clique",
+      "pt": "Am Bahnsteig, im Café und an der Bushaltestelle begannen Sie mit demselben Wort. Der Rest kam von Ihnen."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b03-n11",
+      "tom": "ganha",
+      "bloco": "recap",
+      "pt": "B03 fertig. Sorry, spreekt u Engels, ik versta u niet, langzamer — vier Werkzeuge, ein Baustein."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Ein Wort, drei Werkzeuge und ein viertes, das wartet",
+    "secoes": [
+      {
+        "titulo": "Sorry oder Pardon, plus was Sie brauchen",
+        "corpo": "Der Baustein hält die Form nie ändert: Sorry (das englische Lehnwort, überall neutral und gebräuchlich) oder Pardon, direkt gefolgt von dem, was Sie brauchen. Die volle Form Neem me niet kwalijk existiert auch, aber Sie brauchen sie nie — die kurze Form trägt jede Situation dieses Kapitels.",
+        "exemplos": [
+          { "es": "Sorry, spreekt u Engels?", "pt": "Entschuldigung, sprechen Sie Englisch?" },
+          { "es": "Sorry, ik versta u niet.", "pt": "Entschuldigung, ich verstehe Sie nicht." }
+        ]
+      },
+      {
+        "titulo": "Warum nicht zuerst Deutsch",
+        "corpo": "Die Niederlande stehen seit sechs Jahren in Folge weltweit auf Platz eins beim Englisch-Kompetenzindex, und viele Menschen hier verstehen zusätzlich Deutsch — aber das Verständnis läuft nicht in beide Richtungen gleich gut, und ein Gespräch direkt auf Deutsch zu eröffnen, kann wie eine Annahme klingen, die niemand hören will. Sorry und danach Englisch oder Niederländisch ist die Reihenfolge, die hier am besten ankommt, und ein Versuch auf Niederländisch wird echt positiv aufgenommen."
+      },
+      {
+        "titulo": "Das vierte Werkzeug wartet in B07",
+        "corpo": "«Können Sie das aufschreiben?» ist der letzte Rettungsring, wenn selbst langsames Sprechen nicht reicht — eine Zahl, eine Adresse, ein Gleis auf Papier lässt sich nicht mehr verhören. Dieser Baustein trägt eine andere Form (Kunt u …?) und bekommt in B07 seinen eigenen Auftritt, mit eigenem Namen."
+      },
+      {
+        "titulo": "Warum Raten hier riskanter ist als anderswo",
+        "corpo": "Weil Niederländisch und Deutsch so nah beieinanderliegen, klingen viele Wörter vertraut und meinen etwas anderes — mag/mögen ist das bekannteste Beispiel, mehr dazu in B06 und B11. Genau deshalb lohnt es sich in diesem Kapitel, lieber Sorry, ich verstehe Sie nicht zu sagen, als ein vertraut klingendes Wort zu erraten."
+      }
+    ]
+  },
+  "permissao": "Sie müssen den Antwortsatz nicht verstehen, um weiterzukommen. Eine Zahl, ein Nicken, eine Geste reicht — den Rest lassen Sie vorbeigehen, und niemand hier erwartet von Ihnen am dritten Tag schon fließendes Niederländisch.",
+  "permissaoAudioKey": "hol-b03-n09",
+  "espelho": "Sie machen das in Ihrer eigenen Sprache jeden Tag mit Touristen, ohne darüber nachzudenken: einen Satz langsamer wiederholen, auf etwas zeigen, ein einzelnes Wort verstehen und den Rest raten. Dieses Kapitel gibt Ihnen dieselben drei Werkzeuge, nur auf der anderen Seite des Gesprächs.",
+  "fichasCulturais": [
+    {
+      "sinal": "Sie sprechen einen Fremden direkt auf Deutsch an, weil Sie wissen, dass er es versteht — und die Antwort kommt kurz, oder wechselt sofort ins Englische.",
+      "suaLeitura": "Mein Deutsch war zu schwer, oder die Person mag meinen Akzent nicht.",
+      "oQueEAli": "Es geht selten um Verständnis: die Niederlande verstehen Deutsch überwiegend gut, aber ein Gespräch direkt auf Deutsch zu eröffnen, kann wie die Annahme klingen, dass die Niederlande eine Art Erweiterung Deutschlands seien — ein Thema mit historischem Gewicht, das niemand am Bahnsteig aufmachen will.",
+      "oQueVoceFaz": "Eröffnen Sie mit Sorry, dann Englisch oder ein Versuch auf Niederländisch. Deutsch dürfen Sie später anbieten, wenn das Gespräch schon läuft und die andere Seite von sich aus wechselt.",
+      "oQueMelhora": "Sie werden als jemand gelesen, der sich Mühe gibt, statt als jemand, der etwas voraussetzt — und Gespräche öffnen sich spürbar freundlicher.",
+      "ondeNaoVale": "Sobald jemand selbst ins Deutsche wechselt oder danach fragt, ist das Thema erledigt — es geht um den ersten Satz, nicht um die ganze Unterhaltung danach.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["hol-b03-n03"]
+    }
+  ]
+}

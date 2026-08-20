@@ -1,0 +1,96 @@
+{
+  "id": "q-i06",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Gestern in Amsterdam, heute schon eine Geschichte",
+  "subtitulo": "Zwei fertige Satzstücke für die ganze Reise",
+  "introAudioKey": "hol-i06-q-i",
+  "introPt": "Ein Reisender erzählt beim Frühstück, was er gestern erlebt hat, ohne ein einziges Verb neu zu konjugieren.",
+  "cenario": "Frühstückstisch im Hostel, am Morgen.",
+  "dialogo": [
+    {
+      "audioKey": "hol-i06-q01",
+      "voz": "target_nl_m",
+      "es": "Ik ben gisteren naar Amsterdam geweest. Het was geweldig!",
+      "pt": "Ich bin gestern in Amsterdam gewesen. Es war großartig!",
+      "tts": "Ik ben gisteren naar Amsterdam geweest. Het was geweldig!"
+    },
+    {
+      "audioKey": "hol-i06-q02",
+      "voz": "target_nl_m",
+      "es": "En, heb je lekker gegeten?",
+      "pt": "Und, hast du gut gegessen?",
+      "tts": "En, heb je lekker gegeten?"
+    },
+    {
+      "audioKey": "hol-i06-q03",
+      "voz": "target_nl_f",
+      "es": "Ik heb heerlijk gegeten.",
+      "pt": "Ich habe köstlich gegessen.",
+      "tts": "Ik heb heerlijk gegeten."
+    },
+    {
+      "audioKey": "hol-i06-q04",
+      "voz": "target_nl_f",
+      "es": "Morgen ga ik naar Rotterdam.",
+      "pt": "Morgen gehe ich nach Rotterdam.",
+      "tts": "Morgen ga ik naar Rotterdam."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Was passiert mit «Ik ben … geweest», wenn Sie von Amsterdam zu Utrecht wechseln?",
+      "opcoes": [
+        "Das ganze Satzstück muss neu konjugiert werden",
+        "Nichts — nur der Ort dahinter wechselt, der Rest bleibt exakt gleich",
+        "«Geweest» wird zu «geweesd»",
+        "Man braucht ein komplett neues Verb"
+      ],
+      "correta": 1,
+      "explica": "Ik ben naar … geweest ist ein festes Stück. Amsterdam, Utrecht, jeder Ort passt an dieselbe Stelle."
+    },
+    {
+      "pergunta": "Wie fassen Sie einen ganzen guten Tag in zwei Wörtern zusammen?",
+      "opcoes": [
+        "Het was geweldig!",
+        "Ik ben geweest.",
+        "Heb je gegeten?",
+        "Morgen ga ik."
+      ],
+      "correta": 0,
+      "explica": "Het was … ist das feste Urteilsstück — geweldig, lekker, of ein anderes Wort dahinter, je nach Tag."
+    },
+    {
+      "pergunta": "«Ik heb heerlijk gegeten.» Welches Wort taucht hier wieder auf, das Sie schon aus dem Balcón kennen?",
+      "opcoes": [
+        "Geweest",
+        "Heerlijk",
+        "Morgen",
+        "Beurt"
+      ],
+      "correta": 1,
+      "explica": "Heerlijk — köstlich — ist ein Wort, das in diesem Kurs noch öfter zurückkommt, besonders beim Loben von Essen."
+    },
+    {
+      "pergunta": "Müssen Sie eine Verbtabelle im Kopf haben, um von gestern zu erzählen?",
+      "opcoes": [
+        "Ja, sonst funktioniert kein Satz",
+        "Nein — zwei feste Stücke und ein Ort oder ein Urteilswort reichen völlig",
+        "Nur bei unregelmäßigen Verben",
+        "Nur wenn man mehr als einen Tag erzählen will"
+      ],
+      "correta": 1,
+      "explica": "Ik ben … geweest und Het was … kommen fertig. Sie hängen nur an, worüber Sie sprechen."
+    },
+    {
+      "pergunta": "«Morgen ga ik naar Rotterdam.» Was passiert hier grammatisch?",
+      "opcoes": [
+        "Eine komplett neue Zukunftsform wird eingeführt",
+        "Die gewöhnliche Gegenwartsform trägt schon die nahe Zukunft, mit «morgen» davor",
+        "Ein unregelmäßiges Verb, das man auswendig lernen muss",
+        "Dieselbe Form wie «Ik ben geweest»"
+      ],
+      "correta": 1,
+      "explica": "Wie im Deutschen reicht oft die Gegenwart plus ein Zeitwort wie «morgen», um von der Zukunft zu sprechen — kein neues Verbmuster nötig."
+    }
+  ]
+}

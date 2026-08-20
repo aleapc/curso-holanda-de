@@ -1,0 +1,96 @@
+{
+  "id": "q-b16",
+  "nivel": "basico",
+  "titulo": "Quiz — Heeft u, bevor du dich beschwerst",
+  "subtitulo": "Eine höhere Etage, ein Zimmer ohne Treppe, und ein Adapter an der Rezeption",
+  "introAudioKey": "hol-b16-q-i",
+  "introPt": "Eine Hotelrezeption, vier Uhr nachmittags, und drei Bitten, bevor überhaupt etwas kaputt ist.",
+  "cenario": "Eine Hotelrezeption in Rotterdam, vier Uhr nachmittags.",
+  "dialogo": [
+    {
+      "audioKey": "hol-b16-q01",
+      "voz": "target_nl_f",
+      "es": "Heeft u een kamer op een hogere verdieping?",
+      "pt": "Haben Sie ein Zimmer in einer höheren Etage?",
+      "tts": "Heeft u een kamer op een hogere verdieping?"
+    },
+    {
+      "audioKey": "hol-b16-q02",
+      "voz": "target_nl_m",
+      "es": "Geen probleem. Hier is uw sleutel, kamer vierhonderdtwee.",
+      "pt": "Kein Problem. Hier ist Ihr Schlüssel, Zimmer vierhundertzwei.",
+      "tts": "Geen probleem. Hier is uw sleutel, kamer vierhonderdtwee."
+    },
+    {
+      "audioKey": "hol-b16-q03",
+      "voz": "target_nl_f",
+      "es": "De wifi werkt niet.",
+      "pt": "Das WLAN funktioniert nicht.",
+      "tts": "De wifi werkt niet."
+    },
+    {
+      "audioKey": "hol-b16-q04",
+      "voz": "target_nl_m",
+      "es": "Sorry, dat hoor ik vaker. Ik stuur iemand naar boven.",
+      "pt": "Entschuldigung, das höre ich öfter. Ich schicke jemanden nach oben.",
+      "tts": "Sorry, dat hoor ik vaker. Ik stuur iemand naar boven."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Was ist die richtige Reihenfolge an der Rezeption?",
+      "opcoes": [
+        "Erst reklamieren, dann bitten",
+        "Erst mit Heeft u bitten, dann erst reklamieren, wenn wirklich etwas nicht geht",
+        "Nur reklamieren, nie bitten",
+        "Die Reihenfolge spielt keine Rolle"
+      ],
+      "correta": 1,
+      "explica": "Erst bitten, dann erst reklamieren, ist keine Höflichkeitsregel — eine Bitte am Empfang kostet nichts und wird oft sofort erfüllt."
+    },
+    {
+      "pergunta": "Heeft u een kamer zonder trap? — welche zwei Bausteine trägt dieser Satz?",
+      "opcoes": [
+        "Hoeveel kost und Mag ik",
+        "Heeft u und Zonder, kombiniert",
+        "Ik zoek und Waar is",
+        "Kunt u und Dank u wel"
+      ],
+      "correta": 1,
+      "explica": "Heeft u fragt nach dem Zimmer, zonder trap nimmt die Treppe kahl aus dem Satz — genau wie zonder ui die Zwiebeln von den Pommes nahm."
+    },
+    {
+      "pergunta": "Warum haben viele Altstadthäuser eine steile, schmale Treppe ohne Aufzug?",
+      "opcoes": [
+        "Das Hotel hat gespart",
+        "So wurden viele historische Häuser ursprünglich gebaut — ein Aufzug ist oft technisch gar nicht nachrüstbar",
+        "Das ist eine landesweite Vorschrift für alle Hotels",
+        "Nur billige Unterkünfte haben das"
+      ],
+      "correta": 1,
+      "explica": "Historische Innenstadthäuser wurden schmal und hoch gebaut, mit steilen Treppen als Normalfall der Bauweise — kein Mangel an einem bestimmten Hotel."
+    },
+    {
+      "pergunta": "Dat hoor ik vaker — was sagt dir das?",
+      "opcoes": [
+        "Dass du etwas falsch gemacht hast",
+        "Dass das Problem bekannt ist und nichts mit dir zu tun hat",
+        "Dass es keine Lösung gibt",
+        "Dass du das Zimmer wechseln musst"
+      ],
+      "correta": 1,
+      "explica": "Dat hoor ik vaker heißt, das Problem ist bekannt. Warte einfach im Zimmer, während jemand geschickt wird."
+    },
+    {
+      "pergunta": "Hier is uw sleutel, kamer vierhonderdtwee — worauf achtest du?",
+      "opcoes": [
+        "Auf den Namen des Empfangsmitarbeiters",
+        "Auf die Zimmernummer, die zuletzt kommt, als lange Zahl",
+        "Auf die Uhrzeit",
+        "Auf den Preis"
+      ],
+      "correta": 1,
+      "explica": "Die Zimmernummer kommt zuletzt, als eine lange Zahl. Hör bis zum Ende und wiederhol sie im Kopf, bevor du zum Aufzug gehst."
+    }
+  ]
+}

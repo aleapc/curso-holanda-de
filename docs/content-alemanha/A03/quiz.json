@@ -1,0 +1,96 @@
+{
+  "id": "q-a03",
+  "nivel": "avancado",
+  "titulo": "Quiz — Wie ze denken dat ze zijn",
+  "subtitulo": "Vijf vragen over een klok die achtste werd, een drempel van zes minuten, een rechtmatig contant-alleen-bordje en een grondwettelijke zondag",
+  "introAudioKey": "de-a03-q-i",
+  "introPt": "Een vertraagde trein, een kassa die biljetten wil, en een zaterdagavond vóór een dag waarop de straat dichtzit.",
+  "cenario": "Een perron, dan een café twee straten van het station, op de middag vóór een zondag die u niet gepland heeft.",
+  "dialogo": [
+    {
+      "audioKey": "de-a03-q01",
+      "voz": "target_de_m",
+      "es": "Der ICE nach Hamburg hat heute zehn Minuten Verspätung.",
+      "pt": "De sneltrein naar Hamburg heeft vandaag tien minuten vertraging.",
+      "tts": "Der ICE nach Hamburg hat heute zehn Minuten Verspätung."
+    },
+    {
+      "audioKey": "de-a03-q02",
+      "voz": "target_de_f",
+      "es": "Wir wünschen Ihnen eine gute Weiterfahrt — soweit möglich.",
+      "pt": "Wij wensen u een goede voortzetting van de reis — voor zover mogelijk.",
+      "tts": "Wir wünschen Ihnen eine gute Weiterfahrt — soweit möglich."
+    },
+    {
+      "audioKey": "de-a03-q03",
+      "voz": "target_de_m",
+      "es": "Nur Bargeld, bitte. Wir nehmen keine Karten.",
+      "pt": "Alleen contant, alstublieft. Wij nemen geen kaarten aan.",
+      "tts": "Nur Bargeld, bitte. Wir nehmen keine Karten."
+    },
+    {
+      "audioKey": "de-a03-q04",
+      "voz": "target_de_f",
+      "es": "Sonntags haben wir geschlossen. Ab Montag wieder ab sieben.",
+      "pt": "Op zondag zijn we gesloten. Vanaf maandag weer vanaf zeven uur.",
+      "tts": "Sonntags haben wir geschlossen. Ab Montag wieder ab sieben."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "In de enige studie die openbare klokken in eenendertig landen opmat, waar kwam Duitsland?",
+      "opcoes": [
+        "Eerste, vóór Zwitserland",
+        "Achtste, achter Zwitserland, Italië en Oostenrijk",
+        "Tweede, net achter Japan",
+        "De studie heeft nooit klokken gemeten"
+      ],
+      "correta": 1,
+      "explica": "Drieënveertig seconden gemiddelde afwijking tegen vierentwintig van Italië. Dezelfde tabel plaatst Duitsland eerste ter wereld voor de snelheid waarmee een postkantoor een postzegel verkoopt — en meet het levenstempo, niet of iemand op tijd bij een afspraak komt. Dat meet niemand."
+    },
+    {
+      "pergunta": "Het spoor zegt dat zestig komma één procent van de langeafstandstreinen in 2025 op tijd was. Wat betekent op tijd?",
+      "opcoes": [
+        "Op de gedrukte minuut op de eindbestemming aankomen",
+        "Minder dan zes minuten te laat aankomen, op elke halte geteld",
+        "Binnen een half uur aankomen",
+        "Op tijd vertrekken, wat er daarna ook gebeurt"
+      ],
+      "correta": 1,
+      "explica": "Die drempel, en het tellen op elke halte, is waarom het officiële cijfer altijd beter leest dan de dag aanvoelde. De maat die uw gemiste aansluiting meetelt, staat vijftien minuten toe en kwam op vijfenzestig komma vijf procent."
+    },
+    {
+      "pergunta": "De regel van de conducteur kreeg gelach. Wat gebeurt hier?",
+      "opcoes": [
+        "Het personeel wordt gestraft en de reizigers weten het",
+        "Het is de grap van het huis zelf — het bedrijf maakt zelfs mockumentary-comedy over zijn vertragingen",
+        "Het is een formele verontschuldiging in een ouderwets register",
+        "Iemand heeft een omroep verkeerd vertaald"
+      ],
+      "correta": 1,
+      "explica": "De veiligste humor voor een bezoeker is de humor die de plek al over zichzelf maakt. Lach mee; de bredere bewering dat efficiëntie een nationale in-joke is heeft geen bron en de cursus maakt hem niet."
+    },
+    {
+      "pergunta": "Het café accepteert alleen contant. Wat is dat voor situatie?",
+      "opcoes": [
+        "Iets om te melden bij een consumentenorganisatie",
+        "Volledig rechtmatig — biljetten zijn het enige onbeperkte wettige betaalmiddel en niets verplicht iemand een kaart aan te nemen",
+        "Een teken dat de zaak niet is ingeschreven",
+        "Een regel die alleen voor kleine bedragen geldt"
+      ],
+      "correta": 1,
+      "explica": "Precies het omgekeerde van Italië, waar een handelaar uw kaart moet aannemen. Contant was bruikbaar in vierennegentig procent van de contactbetalingen, en op markten zijn negen op de tien betalingen contant met slechts drieënveertig procent van de verkopers die iets anders aanneemt."
+    },
+    {
+      "pergunta": "Waarom zit de hele straat dicht op zondag?",
+      "opcoes": [
+        "Een gemeentebesluit dat elk jaar verandert",
+        "Een clausule van de grondwet van 1919, overgenomen in het Grundgesetz, beschermt zondagen als rustdagen",
+        "Een cao-afspraak in de detailhandel",
+        "Niets formeels — gewoon de gewoonte"
+      ],
+      "correta": 1,
+      "explica": "In 2009 verwierp het grondwettelijk hof vier Adventszondagen op rij, met het oordeel dat omzetbelang en winkellust niet volstaan. De lijst van wat opent is kort: dienstapotheek, tankstationreisartikelen, een ochtendraam bij de bakker, station- en luchthavenwinkels."
+    }
+  ]
+}

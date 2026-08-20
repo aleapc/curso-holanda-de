@@ -1,0 +1,96 @@
+{
+  "id": "q-b05",
+  "nivel": "basico",
+  "titulo": "Quiz — Drie vragen, en u hebt alle drie antwoorden al",
+  "subtitulo": "De balie, de aanspreekvorm, en de groet die van de landingsbaan afhangt",
+  "introAudioKey": "de-b05-q-i",
+  "introPt": "Drie vragen aan de balie, twee uitwegen als het antwoord snel terugkomt, en één sociale keuze die u nooit maakt.",
+  "cenario": "Paspoortcontrole op een Duitse luchthaven, twintig minuten na de landing.",
+  "dialogo": [
+    {
+      "audioKey": "de-b05-q01",
+      "voz": "target_de_m",
+      "es": "Was ist der Grund Ihrer Reise?",
+      "pt": "Wat is het doel van uw reis?",
+      "tts": "Was ist der Grund Ihrer Reise?"
+    },
+    {
+      "audioKey": "de-b05-q02",
+      "voz": "target_de_f",
+      "es": "Ich mache Urlaub.",
+      "pt": "Ik ben op vakantie.",
+      "tts": "Ich mache Urlaub."
+    },
+    {
+      "audioKey": "de-b05-q03",
+      "voz": "target_de_m",
+      "es": "Wie lange bleiben Sie in Deutschland?",
+      "pt": "Hoe lang blijft u in Duitsland?",
+      "tts": "Wie lange bleiben Sie in Deutschland?"
+    },
+    {
+      "audioKey": "de-b05-q04",
+      "voz": "target_de_f",
+      "es": "Ich bleibe zehn Tage.",
+      "pt": "Ik blijf tien dagen.",
+      "tts": "Ich bleibe zehn Tage."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "De ambtenaar vraagt waar u verblijft en de straatnaam is lang. Wat is de beste zet?",
+      "opcoes": [
+        "Hem letter voor letter spellen",
+        "Zeg het soort adres, en toon dan het geschreven adres",
+        "Alleen de postcode geven",
+        "De telefoon ontgrendeld overhandigen"
+      ],
+      "correta": 1,
+      "explica": "Ich wohne in einem Hotel beantwoordt de vraag, en Die Adresse steht hier maakt het af. Een Duitse straatnaam vlot voorlezen is niet vereist en niet sneller."
+    },
+    {
+      "pergunta": "Wie beslist of een uitwisseling van Sie naar du overgaat?",
+      "opcoes": [
+        "De jongere persoon",
+        "Wie het beste Duits spreekt",
+        "De ander, door het aan te bieden — en het is praktisch onomkeerbaar",
+        "Niemand: de overstap gebeurt automatisch na de eerste ontmoeting"
+      ],
+      "correta": 2,
+      "explica": "Een stijlgids beschrijft du als van boven naar beneden aangeboden; een linguïst van de Freie Universität Berlin voegt toe dat iedereen het mag aanbieden en dat de echte asymmetrie is dat wie het krijgt het nauwelijks kan weigeren. U bent nooit degene die die deur opent."
+    },
+    {
+      "pergunta": "«Entschuldigung, ich habe das nicht verstanden.» Wat doet deze zin?",
+      "opcoes": [
+        "Zich verontschuldigen voor een buitenlander te zijn",
+        "Vragen om het hele gesprek in het Engels",
+        "Een herhaling kopen, zonder u te verontschuldigen voor uw bestaan",
+        "Het gesprek beleefd beëindigen"
+      ],
+      "correta": 2,
+      "explica": "De bouwsteen is Entschuldigung plus wat u van een vreemde nodig hebt. Hang er een ander verzoek aan en hij doet iets anders: sprechen Sie Englisch geeft de taalkeuze weg, ich spreche nur wenig Deutsch zet het niveau."
+    },
+    {
+      "pergunta": "U landt om vier uur 's middags in Hamburg en hoort «Moin». Wat is het?",
+      "opcoes": [
+        "Een ingekorte Guten Morgen, per ongeluk 's middags gebruikt",
+        "Een noordelijke groet van een oud woord dat mooi betekent, op elk uur gebruikt",
+        "Dialect dat buitenstaanders zouden moeten napraten",
+        "Een regionale manier om afscheid te nemen"
+      ],
+      "correta": 1,
+      "explica": "Moin komt van moien Dag en het Nederduitse moi, dus wat overleeft is het bijvoeglijk naamwoord — en daarom doet het uur er niet toe. U herkent het woord al uit uw eigen taal. Herken het; antwoord Guten Tag, wat in elke aankomsthal van het land werkt."
+    },
+    {
+      "pergunta": "Hoeveel Engels kunt u aan de balie verwachten?",
+      "opcoes": [
+        "Alle ambtenaren zijn verplicht het te spreken",
+        "Bijna niets — reken op alleen Duits",
+        "Ongeveer twee volwassenen op de drie zeggen een gesprek te kunnen voeren — wijd beschikbaar, geen garantie",
+        "Het hangt alleen af van de grootte van de luchthaven"
+      ],
+      "correta": 2,
+      "explica": "65 procent zei dat in de Europese enquête van 2023, tegen een EU-gemiddelde van 47. Een andere enquête die naar niveau vraagt in plaats van gesprek geeft een veel kleiner vaardig aandeel — andere vragen, en niets om bij op te tellen."
+    }
+  ]
+}

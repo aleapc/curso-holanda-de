@@ -1,0 +1,96 @@
+{
+  "id": "q-i08",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Der Gastgeber öffnet die Tür",
+  "subtitulo": "Was mitbringen, wo sitzen, und der Trinkspruch, den alle erwarten",
+  "introAudioKey": "hol-i08-q-i",
+  "introPt": "Ein Reisender wird zum ersten Mal zu jemandem nach Hause eingeladen und muss ein paar einfache Regeln kennen.",
+  "cenario": "Die Wohnung eines neuen Bekannten, Abendessen unter der Woche.",
+  "dialogo": [
+    {
+      "audioKey": "hol-i08-q01",
+      "voz": "target_nl_m",
+      "es": "Kom binnen, kom binnen!",
+      "pt": "Komm rein, komm rein!",
+      "tts": "Kom binnen, kom binnen!"
+    },
+    {
+      "audioKey": "hol-i08-q02",
+      "voz": "target_nl_m",
+      "es": "Ga toch zitten, waar je wilt.",
+      "pt": "Setz dich einfach, wo du willst.",
+      "tts": "Ga toch zitten, waar je wilt."
+    },
+    {
+      "audioKey": "hol-i08-q03",
+      "voz": "target_nl_f",
+      "es": "Proost!",
+      "pt": "Prost!",
+      "tts": "Proost!"
+    },
+    {
+      "audioKey": "hol-i08-q04",
+      "voz": "target_nl_f",
+      "es": "Wat een heerlijk eten!",
+      "pt": "Was für ein köstliches Essen!",
+      "tts": "Wat een heerlijk eten!"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Sie sind zum Abendessen eingeladen. Was ist eine sichere Wahl, um nicht mit leeren Händen zu kommen?",
+      "opcoes": [
+        "Ein teures Geschenk, sonst wirkt man geizig",
+        "Blumen oder eine Flasche Wein — eine Kleinigkeit reicht",
+        "Man darf niemals etwas mitbringen",
+        "Nur Süßigkeiten für die Kinder des Hauses"
+      ],
+      "correta": 1,
+      "explica": "Eine Kleinigkeit reicht völlig — Blumen oder eine Flasche Wein sind eine sichere, nette Geste, kein Muss."
+    },
+    {
+      "pergunta": "«Ga toch zitten, waar je wilt.» Was bedeutet das für Ihren Platz am Tisch?",
+      "opcoes": [
+        "Es gibt einen strengen Sitzplan, den Sie erraten müssen",
+        "Es gibt selten einen festen Sitzplan — ein freier Stuhl ist Ihr Stuhl",
+        "Sie sollten stehen bleiben, bis jemand Sie führt",
+        "Nur der Gastgeber darf sitzen, bis alle Gäste da sind"
+      ],
+      "correta": 1,
+      "explica": "Ein freier Stuhl ist Ihr Stuhl — es gibt selten eine feste Sitzordnung bei einem privaten Abendessen."
+    },
+    {
+      "pergunta": "Vor dem ersten Schluck fällt ein Wort mit Blickkontakt zu den anderen am Tisch. Welches?",
+      "opcoes": [
+        "Alstublieft",
+        "Proost",
+        "Bedankt",
+        "Sorry"
+      ],
+      "correta": 1,
+      "explica": "Proost ist die feste, unveränderliche Form für den Trinkspruch — kurz, mit Blick in die Runde."
+    },
+    {
+      "pergunta": "Welcher Baustein aus dem Restaurant funktioniert auch bei einem Gastgeber zu Hause?",
+      "opcoes": [
+        "Heeft u — für das Nachfragen an der Theke",
+        "Wat een heerlijke [Ding] — das Lob, das diesmal direkt den Koch am Tisch erreicht",
+        "Hoe laat is — nur für Uhrzeiten",
+        "Zonder — nur für Allergien"
+      ],
+      "correta": 1,
+      "explica": "Wat een heerlijk eten funktioniert genauso wie im Restaurant, nur hört diesmal die Person, die gekocht hat, das Lob direkt."
+    },
+    {
+      "pergunta": "Der Gastgeber macht eine Bemerkung über die späte Stunde. Was bedeutet das?",
+      "opcoes": [
+        "Ein Zeichen, dass Sie sofort und ohne ein Wort gehen sollten",
+        "Ein Zeichen, dass der Abend sich dem Ende nähert — nicht Ihr Stichwort zum abrupten Aufbruch",
+        "Eine Beschwerde darüber, dass Sie zu lange geblieben sind",
+        "Eine Einladung, noch eine weitere Runde zu bleiben"
+      ],
+      "correta": 1,
+      "explica": "Die Bemerkung ist ein sanftes Zeichen, kein Rauswurf. Ein letzter Dank und ein ruhiger Abschied passen jetzt gut."
+    }
+  ]
+}

@@ -1,0 +1,393 @@
+{
+  "id": "b07",
+  "nivel": "basico",
+  "numero": 7,
+  "parte": "B07",
+  "slot": "B07",
+  "titulo": "Können Sie — de rit naar de stad, gevraagd in vier woorden",
+  "subtitulo": "Een late landing, een streektrein en een hotelbed, met één opening die werkt bij elke vreemde daartussen",
+  "cena": "Het treinstation onder het vliegveld na een late landing: twee borden zijn het oneens, de koffer heeft wieltjes op een metalen helling, en het bed is nog drie beslissingen verderop.",
+  "moldura": "ganha",
+  "frasePiso": "Können Sie, plus wat u gedaan wilt hebben. Eén opening, en elke vreemde tussen de gate en het bed wordt aanspreekbaar.",
+  "moldes": [
+    "KONNEN-SIE"
+  ],
+  "clique": {
+    "contagem": [
+      "de informatiebalie",
+      "het perron",
+      "de trein",
+      "de hotelreceptie"
+    ],
+    "desconto": "Niemand gaf u vier verschillende zinnen voor die vier plekken. U hield één opening en veranderde alleen wat erna kwam.",
+    "piso": "De volgende keer dat iemand iets zegt wat u niet oppikt, knikt u niet meer op goed geluk. U vraagt het opnieuw, in vier woorden."
+  },
+  "fatosDatados": [
+    {
+      "id": "de-b07-reservierung",
+      "afirmacao": "Op Duitse langeafstandstreinen is een stoelreservering een mogelijkheid, geen verplichting. De Beförderungsbedingungen der Deutschen Bahn AG (nieuwe uitgave 14 december 2025, zoals gewijzigd op 1 januari 2026, Tarifbekanntmachung 1/2026) noemen in artikel A.5/5.1 «Reservierungsmöglichkeit» en bepalen dat reizigers tot twaalf maanden vooruit MOGEN reserveren in ICE en IC/EC, dat een vervoerder op bepaalde treinen een reserveringsplicht kan opleggen, en dat «Die reservierungspflichtigen Züge sind im Fahrplan mit R gekennzeichnet.» De aanspraak op een gereserveerde stoel vervalt als hij niet binnen 15 minuten na vertrek van het beginstation van de reservering wordt ingenomen. Het optionele tarief is 5,50 € per persoon en per richting in de tweede klas en 6,90 € in de eerste (Stand 1/1/2026). Reservering IS inbegrepen en verplicht op de Nightjet, op ICE/TGV naar Parijs en Marseille, op treinen naar Milaan via Bazel en op alle langeafstandstreinen naar Polen.",
+      "fonte": "Beförderungsbedingungen der Deutschen Bahn AG, Neuausgabe vom 14.12.2025 / Stand 01.01.2026, Tarifbekanntmachung 1/2026, cláusula A.5 / 5.1 e 5.2 (PDF baixado e extraído) + FAQ do bahn.de aberto em 5/8/2026 para as exceções. ⚠ O bahn.de/agb indicava em 5/8/2026 uma versão mais recente, «Stand 31.07.2026», que NÃO foi verificada — inclusive quanto aos valores 5,50 € / 6,90 €.",
+      "ano": 2026,
+      "revisarAte": "2027-01-31",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-b07-n04",
+        "de-b07-n05"
+      ]
+    },
+    {
+      "id": "de-b07-puenktlichkeit",
+      "afirmacao": "De eigen definitie van «pünktlich» van de Duitse spoorwegen is een aankomst minder dan 6 minuten te laat, gemeten bij elke stop en niet alleen op de eindbestemming. Volgens die definitie kwam 60,1 procent van de DB-langeafstandstreinen in 2025 op tijd aan (62,5 procent in 2024), terwijl DB Regio Schiene — de regionale diensten — 89,2 procent haalde. De reizigersgerichte maatstaf, Reisendenpünktlichkeit, hanteert een drempel van 14:59 minuten en telt gemiste aansluitingen en uitval mee: 65,5 procent in 2025. De cijfers over 2026 liggen lager: 52,6 procent operationele langeafstandpunctualiteit in zowel juni als juli 2026, tegen een officieel jaardoel van 60 procent.",
+      "fonte": "DB-Konzern, Geschäftsbericht 2025 (PDF oficial publicado 27/3/2026), seção «Betrieb — Pünktlichkeit», verbatim «Pünktlich sind Ankünfte mit einer Abweichung kleiner + 6 Minuten»; Presseinformation Bilanz 2025 da DB, Berlim, 27/3/2026, verbatim «60,1 Prozent der DB-Fernverkehrszüge erreichten 2025 pünktlich das Ziel (Vorjahr: 62,5 Prozent)»; tabela mensal de Pünktlichkeitswerte em deutschebahn.com, referência julho/2026, acessada em 5/8/2026.",
+      "ano": 2026,
+      "revisarAte": "2027-04-30",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-b07-n06",
+        "de-b07-n07"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b07-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "Late landing, één trein, één bed. Daartussen staan vier vreemden, en één opening bedient alle vier."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b07-n02",
+      "bloco": "molde",
+      "tom": "ganha",
+      "pt": "De bouwsteen: Können Sie, dan wat u gedaan wilt hebben. Het werkwoord staat al aan het eind, geparkeerd voor u."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-b07-t01",
+      "es": "Entschuldigung, können Sie mir helfen?",
+      "pinyin": "ent-SHOOL-di-goong, KUR-nen zee meer HELL-fen",
+      "pt": "Neem me niet kwalijk, kunt u mij helpen?",
+      "tts": "Entschuldigung, können Sie mir helfen?"
+    },
+    {
+      "consulta": [
+        "reparo/apontar",
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "können Sie mir helfen",
+      "encaixeGloss": "mij helpen",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b07-p01",
+      "promptPt": "De informatiebalie is open en de borden zijn het niet eens. Open met het lange woord, zeg dan wat u nodig hebt. Spreek nu.",
+      "audioKey": "de-b07-t01",
+      "es": "Entschuldigung, können Sie mir helfen?",
+      "pinyin": "ent-SHOOL-di-goong, KUR-nen zee meer HELL-fen",
+      "pt": "Neem me niet kwalijk, kunt u mij helpen?",
+      "tts": "Entschuldigung, können Sie mir helfen?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b07-r01",
+      "es": "Ja, natürlich. Wohin möchten Sie?",
+      "pt": "Ja, natuurlijk. Waar wilt u naartoe?",
+      "tts": "Ja, natürlich. Wohin möchten Sie?",
+      "receptivo": true,
+      "acao": "Ja plus een wedervraag is hier normaal. Antwoord met alleen de plaatsnaam — dat is een compleet antwoord."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b07-n03",
+      "tom": "ganha",
+      "pt": "Können is «kuh-nen». Die ö is precies uw ⟨eu⟩ uit «neus» — geen nieuwe klank, één zorg minder."
+    },
+    {
+      "consulta": [
+        "reparo/devagar",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "KONNEN-SIE",
+      "encaixe": "das wiederholen",
+      "encaixeGloss": "dat herhalen",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b07-p02",
+      "promptPt": "Ze antwoordden snel en u hoorde er één woord van. Vraag het hele geheel nog eens. Spreek nu.",
+      "audioKey": "de-b07-t02",
+      "es": "Können Sie das wiederholen?",
+      "pinyin": "KUR-nen zee dass VEE-der-hoh-len",
+      "pt": "Kunt u dat herhalen?",
+      "tts": "Können Sie das wiederholen?"
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "KONNEN-SIE",
+      "encaixe": "langsamer sprechen",
+      "encaixeGloss": "langzamer spreken",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b07-p03",
+      "promptPt": "Dezelfde woorden, dezelfde snelheid. Vraag nu een tandje trager. Spreek nu.",
+      "audioKey": "de-b07-t03",
+      "es": "Können Sie langsamer sprechen?",
+      "pinyin": "KUR-nen zee LAHNG-zah-mer SHPREH-khen",
+      "pt": "Kunt u langzamer spreken?",
+      "tts": "Können Sie langsamer sprechen?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b07-r02",
+      "es": "Sie müssen einmal umsteigen.",
+      "pt": "U moet één keer overstappen.",
+      "tts": "Sie müssen einmal umsteigen.",
+      "receptivo": true,
+      "acao": "Umsteigen betekent uitstappen en weer instappen. Steek één vinger op om het aantal te bevestigen en vraag ze de stationsnaam op te schrijven."
+    },
+    {
+      "consulta": [
+        "transporte/plataforma",
+        "transporte/qual-trem"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "KONNEN-SIE",
+      "encaixe": "mir den Bahnsteig zeigen",
+      "encaixeGloss": "mij het perron wijzen",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b07-p04",
+      "promptPt": "Zes genummerde perrons onder één dak en uw trein vertrekt over vier minuten. Vraag ze de uwe aan te wijzen. Spreek nu.",
+      "audioKey": "de-b07-t04",
+      "es": "Können Sie mir den Bahnsteig zeigen?",
+      "pinyin": "KUR-nen zee meer dayn BAHN-shtyke TSY-gen",
+      "pt": "Kunt u mij het perron wijzen?",
+      "tts": "Können Sie mir den Bahnsteig zeigen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b07-n04",
+      "tom": "ganha",
+      "pt": "Uw langeafstandsticket zit niet aan een stoel vast. Alleen treinen met een R in de dienstregeling vereisen reservering."
+    },
+    {
+      "consulta": [
+        "transporte/qual-trem"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "ist dieser Platz frei",
+      "encaixeGloss": "is deze plaats vrij",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b07-p05",
+      "promptPt": "U zit in de trein, een jas ligt op de stoel en de eigenaar kijkt uit het raam. Open, en vraag dan. Spreek nu.",
+      "audioKey": "de-b07-t05",
+      "es": "Entschuldigung, ist dieser Platz frei?",
+      "pinyin": "ent-SHOOL-di-goong, ist DEE-zer plats fry",
+      "pt": "Neem me niet kwalijk, is deze plaats vrij?",
+      "tts": "Entschuldigung, ist dieser Platz frei?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b07-n05",
+      "tom": "ganha",
+      "pt": "Een gereserveerde stoel is niet meer gereserveerd vijftien minuten nadat de trein het beginstation heeft verlaten."
+    },
+    {
+      "consulta": [
+        "reparo/escreve"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "KONNEN-SIE",
+      "encaixe": "das aufschreiben",
+      "encaixeGloss": "dat opschrijven",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b07-p06",
+      "promptPt": "Een stationsnaam met vijf lettergrepen ging net langs uw oor. Papier wint van geheugen om middernacht. Spreek nu.",
+      "audioKey": "de-b07-t06",
+      "es": "Können Sie das aufschreiben?",
+      "pinyin": "KUR-nen zee dass OWF-shry-ben",
+      "pt": "Kunt u dat opschrijven?",
+      "tts": "Können Sie das aufschreiben?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b07-r03",
+      "es": "Der Zug hat heute zehn Minuten Verspätung.",
+      "pt": "De trein heeft vandaag tien minuten vertraging.",
+      "tts": "Der Zug hat heute zehn Minuten Verspätung.",
+      "receptivo": true,
+      "acao": "Verspätung is het woord voor een late trein. Als u dat hoort, telt het getal ervóór — ga zitten."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b07-n06",
+      "tom": "ganha",
+      "pt": "Pünktlich op dat bord betekent onder zes minuten te laat, gemeten bij elke stop, niet alleen bij die van u."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b07-n07",
+      "tom": "ganha",
+      "pt": "Op die telling reed de langeafstand in 2025 voor 60,1 procent op tijd; de streektreinen die u neemt 89,2."
+    },
+    {
+      "consulta": [
+        "taxi/destino"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "KONNEN-SIE",
+      "encaixe": "ein Taxi rufen",
+      "encaixeGloss": "een taxi bellen",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b07-p07",
+      "promptPt": "Laatste etappe, geen treinen meer vannacht, en de taxistandplaats buiten is leeg. Vraag het aan de balie. Spreek nu.",
+      "audioKey": "de-b07-t07",
+      "es": "Können Sie ein Taxi rufen?",
+      "pinyin": "KUR-nen zee eyn TAX-ee ROO-fen",
+      "pt": "Kunt u een taxi bellen?",
+      "tts": "Können Sie ein Taxi rufen?"
+    },
+    {
+      "consulta": [
+        "quarto/checkin",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "KONNEN-SIE",
+      "encaixe": "mir das erklären",
+      "encaixeGloss": "dat uitleggen",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b07-p08",
+      "promptPt": "De hotelreceptie geeft u een kaart, een code en een zin over het ontbijt, alles tegelijk. Vraag het trager en duidelijker. Spreek nu.",
+      "audioKey": "de-b07-t08",
+      "es": "Können Sie mir das erklären?",
+      "pinyin": "KUR-nen zee meer dass air-KLAIR-en",
+      "pt": "Kunt u mij dat uitleggen?",
+      "tts": "Können Sie mir das erklären?"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b07-p09",
+      "promptPt": "Sleutel in de hand, half één 's nachts, en de persoon achter de balie bleef voor u wakker. Sluit af. Spreek nu.",
+      "audioKey": "de-b07-t09",
+      "es": "Vielen Dank. Gute Nacht!",
+      "pinyin": "FEE-len dahnk. GOO-tuh nakht",
+      "pt": "Hartelijk dank. Goedenacht!",
+      "tts": "Vielen Dank. Gute Nacht!"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-b07-s01",
+      "molde": "KONNEN-SIE",
+      "es": "Können Sie das wiederholen? Können Sie das aufschreiben? Können Sie mir helfen?",
+      "pinyin": "KUR-nen zee dass VEE-der-hoh-len. KUR-nen zee dass OWF-shry-ben. KUR-nen zee meer HELL-fen",
+      "pt": "Herhaal dezelfde vier woorden over drie verschillende kleine noodgevallen.",
+      "tts": "Können Sie das wiederholen? Können Sie das aufschreiben? Können Sie mir helfen?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b07-n08",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "B07 klaar. Können Sie plus wat u gedaan wilt, van de balie tot het perron tot het bed."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Eén opening, en het werkwoord al geparkeerd aan het eind",
+    "secoes": [
+      {
+        "titulo": "Können Sie plus wat u gedaan wilt hebben",
+        "corpo": "Het Duits stuurt het werkwoord in heel wat constructies naar het eind van de zin, en dat is voor een Engelstalige het meest desoriënterende aan de woordvolgorde. Voor u is dat vertrouwd terrein: het Nederlands doet in bijzinnen net hetzelfde. Können Sie is vast, en wat u erachter zet eindigt op een infinitief die al staat waar het Duits hem wil. U verplaatst niets. U kiest een blok en zet het erin.",
+        "exemplos": [
+          {
+            "es": "Können Sie das wiederholen?",
+            "pt": "Kunt u dat herhalen?"
+          },
+          {
+            "es": "Können Sie mir helfen?",
+            "pt": "Kunt u mij helpen?"
+          }
+        ]
+      },
+      {
+        "titulo": "Sie zit al in de bouwsteen",
+        "corpo": "Het beleefde Sie zit ingebakken in de opening, dus u hoeft nooit tijdens een lange dag met een koffer te beslissen hoe u iemand aanspreekt. Sie is de juiste vorm voor een vreemde, een balie, een ambtenaar en een chauffeur, voor de hele reis. Als iemand u later du aanbiedt, is dat een uitnodiging die u accepteert — geen keuze die u vooraf moet maken. Voor de Nederlandse reiziger is dit hetzelfde patroon dat u thuis met «u» kent."
+      },
+      {
+        "titulo": "De stoel hoort niet bij het ticket",
+        "corpo": "Op langeafstandstreinen hier is reservering iets wat u mág kopen, niet iets wat het ticket u oplegt: de regel heet zelfs «reserveringsmogelijkheid». Treinen waarop het wel verplicht is dragen een R in de dienstregeling, en daar zit de reservering al in de boeking — de nachttreinen, de verbindingen naar Parijs en Marseille, naar Milaan via Bazel en naar Polen. Optionele reserveringen kosten 5,50 euro in de tweede klas en 6,90 in de eerste, en een gereserveerde stoel is vijftien minuten na vertrek van het beginstation niet meer de uwe."
+      },
+      {
+        "titulo": "Wat «op tijd» hier telt",
+        "corpo": "Het punctualiteitscijfer dat wordt aangehaald is gemeten met een drempel van onder zes minuten, bij elke stop en niet alleen op uw eindbestemming, en daarom leest het altijd beter dan een middag reizen aanvoelt. Er is een tweede, eerlijker cijfer, Reisendenpünktlichkeit, dat vijftien minuten toelaat en de gemiste aansluiting meetelt: 65,5 procent voor de langeafstand in 2025 tegen 60,1 op de strikte telling. De streektreinen zijn goed nieuws voor iemand die van een vliegveld aankomt: 89,2 procent in datzelfde jaar."
+      },
+      {
+        "titulo": "Umsteigen, en de twee woorden erna",
+        "corpo": "Het antwoord op uw vraag bevat heel vaak umsteigen — u wisselt van trein. Het reist met een getal (einmal, zweimal) en een stationsnaam, en die drie stukjes vormen de hele instructie. Vangt u het getal en verliest u de naam, dan hebt u de bouwsteen die het herstelt al: Können Sie das aufschreiben."
+      }
+    ]
+  },
+  "permissao": "U mag dezelfde vier woorden gebruiken bij de balie, op het perron, in de trein en aan de hotelreceptie, zonder ze te variëren om minder herhalend te klinken. Niemand daar becijfert uw Duits, en twee keer vragen is voor iedereen goedkoper dan één keer gokken. U mag ook zonder gereserveerde stoel in een langeafstandstrein stappen en gewoon een plek zoeken — zo is het ticket bedoeld.",
+  "permissaoAudioKey": "de-b07-n02",
+  "espelho": "Wie thuis op een onbekend station aankomt doorloopt precies dezelfde volgorde — iemand in uniform zoeken, vragen, trager laten herhalen, laten opschrijven. Het enige nieuwe is dat de vier woorden nooit veranderen.",
+  "fichasCulturais": [
+    {
+      "sinal": "De app zegt dat uw aansluiting vier minuten heeft en het bord zegt dat de trein op tijd rijdt, maar het perron is leeg.",
+      "suaLeitura": "Ofwel loopt het systeem op de seconde ofwel is het stuk, en u kunt niet zeggen welke van de twee.",
+      "oQueEAli": "«Op tijd» is hier een gedefinieerde drempel, geen belofte: een aankomst geldt als punctueel bij minder dan zes minuten vertraging, en dat wordt bij elke stop op de lijn gemeten. Er is een tweede cijfer, gemaakt voor reizigers, dat vijftien minuten toelaat en gemiste aansluitingen en uitval meetelt.",
+      "oQueVoceFaz": "Neem meer overstaptijd dan de app minimaal aanbiedt, en als een vertraging wordt omgeroepen, vang dan het getal vóór het woord Verspätung, niet de rest van de zin.",
+      "oQueMelhora": "U leest een punctualiteitscijfer niet meer als een persoonlijke garantie, en u plant die ene aansluiting die er die dag echt toe doet met marge.",
+      "ondeNaoVale": "Het zegt niets over uw specifieke trein op uw specifieke dag. En de twee helften van het net gedragen zich anders: langeafstand reed in 2025 60,1 procent op tijd, regionaal 89,2 procent — het traject van een vliegveld de stad in is meestal het tweede type, niet het eerste.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-b07-n06",
+        "de-b07-n07"
+      ]
+    },
+    {
+      "sinal": "U stapt met een geldig ticket in een langeafstandstrein en er staat nergens een stoelnummer op.",
+      "suaLeitura": "Bij het boeken is iets misgegaan en zo meteen wordt u door de eigenaar van de stoel weggestuurd.",
+      "oQueEAli": "De regel voor stoelen op deze treinen heet «reserveringsmogelijkheid». Reserveren is optioneel, behalve op treinen met een R in de dienstregeling — daar zit het al in de boeking. Een reservering van iemand anders vervalt vijftien minuten nadat de trein het beginstation heeft verlaten.",
+      "oQueVoceFaz": "Loop de wagon door, lees de kleine schermpjes boven de stoelen, en vraag voordat u gaat zitten. Als een stoel geen reservering voor uw traject toont, is hij van u.",
+      "oQueMelhora": "U betaalt niet meer uit onrust voor een reservering, en u staat niet meer in een gangpad naast elf lege stoelen.",
+      "ondeNaoVale": "Nachttreinen en enkele internationale diensten vereisen wél een reservering en hebben die in het ticket zitten — de Nightjet, ICE en TGV naar Parijs en Marseille, treinen naar Milaan via Bazel en alle langeafstandstreinen naar Polen. En dit beschrijft de voorwaarden van 1 januari 2026; er is een latere uitgave die niet gecontroleerd is, dus behandel de twee tariefbedragen als die van januari.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-b07-n04",
+        "de-b07-n05"
+      ]
+    }
+  ]
+}

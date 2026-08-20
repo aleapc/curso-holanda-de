@@ -1,0 +1,256 @@
+{
+  "id": "a08",
+  "nivel": "avancado",
+  "numero": 36,
+  "parte": "A08",
+  "titulo": "Der letzte Kaffee, und zehn Sätze, die in die Tasche passen",
+  "subtitulo": "Drei Wangenküsse für Freunde, ein Handschlag für alle anderen, ein letztes Dank u wel, und die Tür, durch die du wiederkommst",
+  "slot": "A08",
+  "moldura": "ganha",
+  "cena": "Am letzten Abend, am selben Tresen wie am ersten Tag, hebt der Kellner die Hand zum Abschied und sagt genau den Satz, den du inzwischen ohne Nachdenken verstehst.",
+  "frasePiso": "Zehn Sätze aus diesem Kurs bringen dich vom ersten Schalter bis zu diesem letzten Abschied — mehr hat dieses Land von dir nie erwartet.",
+  "permissao": "Du darfst am letzten Abend genauso viel oder wenig Niederländisch sprechen wie am ersten. Kein Fortschritt ist Pflicht, kein Test wartet — ein ehrliches Dank u wel am Ende zählt genauso wie am Anfang.",
+  "permissaoAudioKey": "hol-a08-n11",
+  "espelho": "Jeder kennt das Gefühl, an einem letzten Abend genau zu dem Ort zurückzukehren, an dem die Reise begann, um zu sehen, wie viel sich seither verändert hat. Neu ist hier nur, dass du diesmal die Sprache verstehst, die am ersten Tag noch fremd war.",
+  "fichasCulturais": [
+    {
+      "sinal": "Beim Abschied von neuen Bekannten reichst du die Hand, und eine Person kommt stattdessen mit der Wange näher — drei Küsse, abwechselnd links und rechts.",
+      "suaLeitura": "Das ist mir zu nah, oder ich habe ein falsches Signal gesendet.",
+      "oQueEAli": "Drei Wangenküsse — rechts, links, rechts — sind der übliche Abschiedsgruß unter Freunden und in vertrauten Runden, während ein Handschlag bei formelleren Anlässen und beim ersten Treffen die Norm bleibt. Ein Abend zu dritt oder viert zählt hier oft schon als vertraut genug.",
+      "oQueVoceFaz": "Lass die andere Person den Ton vorgeben — folgt sie der Wange, mach mit; bleibt sie bei der Hand, bleib auch du dabei. Es sind Luftküsse, keine echte Berührung mit den Lippen.",
+      "oQueMelhora": "Ein Moment, der beim ersten Mal überraschend nah wirkt, wird zu einem herzlichen, unkomplizierten Abschluss eines guten Abends.",
+      "ondeNaoVale": "Im Berufsleben und bei der ersten Begegnung mit Fremden bleibt der Handschlag der Standard — die drei Küsse gehören zum privaten, vertrauten Rahmen, nicht zu jeder Verabschiedung.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "hol-a08-n06"
+      ]
+    },
+    {
+      "sinal": "Am letzten Abend bezahlt jemand am Tisch die ganze Runde, und noch bevor du dein Portemonnaie gezückt hast, kommt schon ein Tikkie-Link fürs Handy.",
+      "suaLeitura": "Nach so vielen gemeinsamen Abenden hätte man das doch nicht mehr so genau nehmen müssen.",
+      "oQueEAli": "Das exakte Teilen der Rechnung, per Tikkie in Sekunden erledigt, bleibt bis zum letzten Abend die Norm — es ist Präzision als Wert, nicht als Zeichen von Distanz, wie A02 schon gezeigt hat.",
+      "oQueVoceFaz": "Zahl den Link, wie du es die ganze Reise über gemacht hast, und nimm es als vertrauten Abschluss statt als Kühle am letzten Abend.",
+      "oQueMelhora": "Ein Ritual, das am ersten Tag noch fremd war, wird zum letzten kleinen Beweis, dass du das Land inzwischen verstehst.",
+      "ondeNaoVale": "Unter engen Freunden wird an besonderen Abenden — etwa dem allerletzten vor einer Abreise — durchaus auch mal großzügig eingeladen, ohne dass ein Tikkie folgt; das exakte Teilen ist die Regel, keine unumstößliche Pflicht.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "hol-a08-n08"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a08-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "Der letzte Teil. Kein neuer Baustein, nur der, mit dem du wieder gehst — und der Abschied selbst."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a08-n02",
+      "bloco": "callback",
+      "tom": "ganha",
+      "pt": "Erinnerst du dich an den ersten Schalter, B06? Heeft u, und dann das Ding. Der Baustein, der überall passte."
+    },
+    {
+      "consulta": [
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "molde": "HABEN-SIE",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-a08-p01",
+      "promptPt": "Am letzten Abend am selben Tresen wie am ersten Tag. Frag noch einmal nach etwas, das du brauchst — der allererste Baustein. Sprich jetzt.",
+      "audioKey": "hol-a08-t01",
+      "es": "Heeft u de rekening voor mij?",
+      "pinyin": "HÉÉFT ü de re-KEE-ning foor mai",
+      "pt": "Haben Sie die Rechnung für mich?",
+      "tts": "Heeft u de rekening voor mij?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a08-n03",
+      "tom": "ganha",
+      "pt": "Und die Falle, die dich die ganze Reise begleitet hat: mag. Nicht «ich mag», sondern «darf ich» — bis zum letzten Kaffee."
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "molde": "ICH-MOCHTE",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-a08-p02",
+      "promptPt": "Ein letzter Kaffee, bevor du gehst — bestell ihn mit dem Baustein, der dich die ganze Reise über nie im Stich gelassen hat. Sprich jetzt.",
+      "audioKey": "hol-a08-t02",
+      "es": "Mag ik nog een laatste koffie?",
+      "pinyin": "mach ik noch en LAAT-ste KOF-fie",
+      "pt": "Darf ich noch einen letzten Kaffee?",
+      "tts": "Mag ik nog een laatste koffie?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a08-n04",
+      "tom": "ganha",
+      "pt": "Pinnen, geen creditcard — das Wort, das dich vom ersten Automaten an begleitet hat. Nimm die Debitkarte, oder Bargeld."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-a08-r01",
+      "tom": "ganha",
+      "receptivo": true,
+      "acao": "Vertraut inzwischen: pinnen. Kein Grund mehr, zu stocken, wenn du das hörst.",
+      "es": "Pinnen of contant, wat u wilt.",
+      "pinyin": "PIN-nen of kon-TANT, vat ü vilt",
+      "pt": "Mit Karte oder bar, wie Sie möchten.",
+      "tts": "Pinnen of contant, wat u wilt."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a08-n05",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "Jetzt der Abschied selbst. Unter Freunden: drei Wangenküsse. Bei allen anderen: ein Handschlag."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_f",
+      "audioKey": "hol-a08-n06",
+      "tom": "ganha",
+      "receptivo": true,
+      "acao": "Rechts, links, rechts — folge dem Tempo der anderen Person, es sind Luftküsse, keine echte Berührung.",
+      "es": "Dag, tot de volgende keer!",
+      "pinyin": "dach, tot de FOL-chen-de kair",
+      "pt": "Tschüss, bis zum nächsten Mal!",
+      "tts": "Dag, tot de volgende keer!"
+    },
+    {
+      "consulta": [
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-a08-p03",
+      "promptPt": "Der Kellner, der dich die ganze Reise über bedient hat, verabschiedet sich formell an der Tür. Schließ es formell ab. Sprich jetzt.",
+      "audioKey": "hol-a08-t03",
+      "es": "Dank u wel, tot ziens!",
+      "pinyin": "dank ü wel, tot ZEENS",
+      "pt": "Vielen Dank, auf Wiedersehen!",
+      "tts": "Dank u wel, tot ziens!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a08-n07",
+      "tom": "ganha",
+      "pt": "Und der Tikkie-Link kommt, wie an jedem anderen Abend auch — bis zuletzt keine Ausnahme."
+    },
+    {
+      "consulta": [
+        "pagar/rachar"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-a08-p04",
+      "promptPt": "Der Link ist schon da, wie immer. Zeig, dass dich das nach so vielen Abenden nicht mehr überrascht. Sprich jetzt.",
+      "audioKey": "hol-a08-t04",
+      "es": "Dat ken ik inmiddels, hoor!",
+      "pinyin": "dat ken ik in-MID-dels, hoor",
+      "pt": "Das kenne ich inzwischen!",
+      "tts": "Dat ken ik inmiddels, hoor!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a08-n08",
+      "tom": "ganha",
+      "pt": "Sag zum Schluss, dass du wiederkommen willst — das ist der Satz, der eine Bekanntschaft zur Einladung macht."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "molde": "DANKE",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-a08-p05",
+      "promptPt": "Am Ende des letzten Abends willst du sagen, dass du wiederkommen möchtest. Sprich es aus. Sprich jetzt.",
+      "audioKey": "hol-a08-t05",
+      "es": "Dank u wel voor alles, ik kom zeker terug!",
+      "pinyin": "dank ü wel foor AL-les, ik kom ZAY-ker te-RUCH",
+      "pt": "Vielen Dank für alles, ich komme bestimmt wieder!",
+      "tts": "Dank u wel voor alles, ik kom zeker terug!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a08-n09",
+      "bloco": "permissao",
+      "tom": "ganha",
+      "pt": "Du darfst heute Abend genauso viel oder wenig sprechen wie am ersten Tag. Kein Test wartet — nur der letzte Kaffee."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-a08-s01",
+      "tom": "ganha",
+      "es": "Mag ik nog een laatste koffie? Dank u wel, tot ziens! Ik kom zeker terug!",
+      "pinyin": "mach ik noch en LAAT-ste KOF-fie · dank ü wel, tot ZEENS · ik kom ZAY-ker te-RUCH",
+      "pt": "Schatte die drei nach, die den letzten Kaffee, den Abschied und das Wiederkommen tragen.",
+      "tts": "Mag ik nog een laatste koffie? Dank u wel, tot ziens! Ik kom zeker terug!"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a08-n10",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "A08 fertig, und der ganze Kurs mit ihm. Heeft u, Mag ik, pinnen, Dank u wel — vier Wörter, die dich vom ersten Schalter bis hierher getragen haben."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a08-n11",
+      "tom": "ganha",
+      "pt": "Tot ziens, und gute Reise. Was du hier gelernt hast, reicht — jetzt gehört der Rest des Wegs ganz dir."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Zehn Sätze für die Tasche, und was am Ende wirklich bleibt",
+    "secoes": [
+      {
+        "titulo": "Der Baustein, der nie ausfiel",
+        "corpo": "Heeft u plus das Ding hat vom ersten SIM-Schalter in B06 bis zum letzten Kaffee in diesem Teil funktioniert, ohne sich je zu ändern — kein Kasus, ein einziges «een» für beide Geschlechter, dieselbe höfliche Form von Anfang an eingebaut. Genau darin liegt der Punkt dieses Kurses: nicht Vokabelmengen, sondern wenige Bausteine, die überallhin passen.",
+        "exemplos": [
+          { "es": "Heeft u de rekening voor mij?", "pt": "Haben Sie die Rechnung für mich?" },
+          { "es": "Mag ik nog een laatste koffie?", "pt": "Darf ich noch einen letzten Kaffee?" }
+        ]
+      },
+      {
+        "titulo": "Der Abschied, kurz erklärt",
+        "corpo": "Drei Wangenküsse — rechts, links, rechts — gehören zum vertrauten, privaten Rahmen unter Bekannten; ein Handschlag bleibt der sichere Standard bei formelleren Anlässen und bei der ersten Begegnung mit Fremden. Lass im Zweifel die andere Person den Ton vorgeben, statt selbst zu entscheiden, wie nah der Abschied ausfällt."
+      },
+      {
+        "titulo": "Was bis zuletzt gleich bleibt",
+        "corpo": "Pinnen statt Kreditkarte, ein Tikkie-Link nach jedem gemeinsamen Abend, ein knappes, direktes Nein ohne Umweg — all das bleibt vom ersten bis zum letzten Tag gleich, und genau diese Wiederholung macht ein Land vertraut, kein einzelner großer Moment."
+      },
+      {
+        "titulo": "Wofür dieser Kurs nie gedacht war",
+        "corpo": "Kein einziger Test hat auf dich gewartet, und keiner wartet jetzt. Der Maßstab war nie ein Muttersprachler, sondern der durchschnittliche Reisende — und daran gemessen hast du an einem fremden Tresen bestellt, bezahlt, nachgefragt und dich verabschiedet, in einer Sprache, die vor diesem Kurs nur eine Reihe fremder Wörter auf einem Straßenschild war."
+      }
+    ]
+  }
+}

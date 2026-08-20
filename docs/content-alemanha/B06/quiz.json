@@ -1,0 +1,96 @@
+{
+  "id": "q-b06",
+  "nivel": "basico",
+  "titulo": "Quiz — Haben Sie, en dan wat het eerste uur maar nodig heeft",
+  "subtitulo": "Eén bouwsteen over vier balies, en het verschil tussen het etiket en de kassa",
+  "introAudioKey": "de-b06-q-i",
+  "introPt": "Een reiziger doorkruist de aankomsthal met één opener en acht verschillende behoeften.",
+  "cenario": "Duitse aankomst, het eerste uur.",
+  "dialogo": [
+    {
+      "audioKey": "de-b06-q01",
+      "voz": "target_de_f",
+      "es": "Guten Tag, haben Sie eine SIM-Karte?",
+      "pt": "Goedendag, heeft u een simkaart?",
+      "tts": "Guten Tag, haben Sie eine SIM-Karte?"
+    },
+    {
+      "audioKey": "de-b06-q02",
+      "voz": "target_de_m",
+      "es": "Ja, natürlich. Mit oder ohne Vertrag?",
+      "pt": "Ja, natuurlijk. Met of zonder contract?",
+      "tts": "Ja, natürlich. Mit oder ohne Vertrag?"
+    },
+    {
+      "audioKey": "de-b06-q03",
+      "voz": "target_de_f",
+      "es": "Haben Sie Wechselgeld?",
+      "pt": "Heeft u wisselgeld?",
+      "tts": "Haben Sie Wechselgeld?"
+    },
+    {
+      "audioKey": "de-b06-q04",
+      "voz": "target_de_m",
+      "es": "Nein, aber der Automat da drüben gibt Münzen.",
+      "pt": "Nee, maar de automaat daar geeft munten.",
+      "tts": "Nein, aber der Automat da drüben gibt Münzen."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Wat komt er na «Haben Sie»?",
+      "opcoes": [
+        "Een werkwoord",
+        "Het ding waarvan u wilt dat ze het hebben",
+        "Een getal",
+        "Uw naam"
+      ],
+      "correta": 1,
+      "explica": "De bouwsteen is Haben Sie plus een ding: eine SIM-Karte, WLAN, Wechselgeld, Wasser, Fahrkarten. De opener zelf verandert nooit van vorm, en de beleefde vorm zit er al in."
+    },
+    {
+      "pergunta": "Het Duits markeert de rol van een zelfstandig naamwoord op het lidwoordje ervoor. Wat betekent dat voor deze bouwsteen?",
+      "opcoes": [
+        "U moet het lidwoordje aan de balie uitwerken",
+        "Niets — het ding komt al aangekleed, en u leert het paar in zijn geheel",
+        "U zou altijd de woordenboekvorm moeten gebruiken",
+        "De bouwsteen werkt alleen met woorden die nooit veranderen"
+      ],
+      "correta": 1,
+      "explica": "De tegel zegt einen Tisch, nooit Tisch. Dat de woordenboekvorm der Tisch is klopt en mag de hele reis worden genegeerd. Meervouden en stoffen komen echt kaal — Haben Sie Fahrkarten, Haben Sie Wasser — precies zoals in het Nederlands."
+    },
+    {
+      "pergunta": "«Nein, aber der Automat da drüben gibt Münzen.» Wat moet u doen?",
+      "opcoes": [
+        "Bedanken en weglopen",
+        "Nogmaals langzamer vragen",
+        "Blijf één tel — het nee draagt het adres van het ja",
+        "Probeer de vraag in het Engels"
+      ],
+      "correta": 2,
+      "explica": "Het eerste woord is maar de eerste helft. Het nuttige deel is de automaat daar, de kiosk tegenover, de balie die wél een vijftig breekt."
+    },
+    {
+      "pergunta": "De fles is gemerkt 0,99 en de kassa zegt 1,24. Wat is er gebeurd?",
+      "opcoes": [
+        "Aan de kassa werd belasting bijgeteld, zoals thuis",
+        "Een toeristentoeslag",
+        "Het statiegeld, dat de wet verbiedt in de schapprijs op te nemen",
+        "Een fout om te betwisten"
+      ],
+      "correta": 2,
+      "explica": "Eenmalige drankverpakking draagt een statiegeld van minstens vijfentwintig cent inclusief btw, en de handelaar moet het naast het totaal tonen en er uitdrukkelijk niet in optellen. Het is de enige uitzondering op de regel dat wat u ziet is wat u betaalt — en u krijgt het terug."
+    },
+    {
+      "pergunta": "De terminalwinkel is om half tien 's avonds open. Waarom?",
+      "opcoes": [
+        "Luchthavens zijn helemaal vrijgesteld van winkelsluiting",
+        "Ze mogen elke dag en de hele dag open, maar buiten normale uren mogen ze alleen reisbenodigdheden aan reizigers verkopen",
+        "Avondopening is normaal in het hele land",
+        "Het is een taxfree-regel"
+      ],
+      "correta": 1,
+      "explica": "Winkels op luchthavens en in personentreinstations hebben een uitzondering voor de hele dag met een smalle voorwaarde eraan. De algemene regel sluit winkels op zondagen en feestdagen en vanaf acht uur 's avonds op de andere dagen."
+    }
+  ]
+}

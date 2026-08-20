@@ -1,0 +1,84 @@
+{
+  "id": "q-b01",
+  "nivel": "basico",
+  "titulo": "Quiz — Fünf Bewegungen, ein geteilter Mund",
+  "subtitulo": "Das kehlige g, das ui, das ij, das eu, die Endung -tje, und das Testwort Scheveningen",
+  "introAudioKey": "hol-b01-q-i",
+  "introPt": "Ein Reisender übt vor einer Bäckerei in Scheveningen fünf Bewegungen für einen einzigen Mund.",
+  "cenario": "Eine Bäckerei und eine Gracht in Scheveningen.",
+  "dialogo": [
+    {
+      "audioKey": "hol-b01-q01",
+      "voz": "target_nl_f",
+      "es": "Graag, dank u wel.",
+      "pt": "Gerne, vielen Dank.",
+      "tts": "Graag, dank u wel."
+    },
+    {
+      "audioKey": "hol-b01-q02",
+      "voz": "target_nl_m",
+      "es": "Met of zonder slagroom?",
+      "pt": "Mit oder ohne Sahne?",
+      "tts": "Met of zonder slagroom?"
+    },
+    {
+      "audioKey": "hol-b01-q03",
+      "voz": "target_nl_m",
+      "es": "Gezellig hier, hè?",
+      "pt": "Gemütlich hier, oder?",
+      "tts": "Gezellig hier, hè?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Wie unterscheidet sich das niederländische g/ch von Ihrem deutschen ch in Bach?",
+      "opcoes": [
+        "Es klingt genau gleich",
+        "Es sitzt oft weiter hinten im Hals und ist härter, reibender",
+        "Es wird wie ein deutsches k ausgesprochen",
+        "Es wird stumm gelassen"
+      ],
+      "correta": 1,
+      "explica": "Der niederländische Laut ist kehliger als sein deutsches Gegenstück — dieselbe Richtung, mehr Reibung."
+    },
+    {
+      "pergunta": "Welcher der fünf Laute hat im Deutschen wirklich keine Entsprechung?",
+      "opcoes": ["ij/ei", "eu", "ui", "-tje"],
+      "correta": 2,
+      "explica": "ui, wie in huis, ist der einzige der fünf, den Sie neu lernen — die anderen vier haben alle eine deutsche Anker-Silbe."
+    },
+    {
+      "pergunta": "Wie klingt ij/ei im Niederländischen — und wo liegt die Lesefalle?",
+      "opcoes": [
+        "Wie Ihr deutsches ei in Wein — keine Falle",
+        "Wie das englische I in nine — Ihr Auge liest das ei aber deutsch",
+        "Wie ein langes deutsches e",
+        "Stumm, wird nicht gesprochen"
+      ],
+      "correta": 1,
+      "explica": "Die Falle: Ihr Auge erkennt das vertraute ei und Ihr Mund produziert automatisch die deutsche Version, obwohl der Laut ein anderer ist."
+    },
+    {
+      "pergunta": "Was macht die Endung -tje, wie in kaartje oder biertje?",
+      "opcoes": [
+        "Sie zeigt die Mehrzahl an",
+        "Sie macht ein Wort klein, freundlich oder beiläufig",
+        "Sie verändert die Bedeutung komplett",
+        "Sie kommt nur bei Ortsnamen vor"
+      ],
+      "correta": 1,
+      "explica": "-tje hängt an tausenden Wörtern und macht sie klein oder freundlich — ein Klang, den Sie am Ende des Kurses automatisch erkennen."
+    },
+    {
+      "pergunta": "Warum ist Scheveningen ein gutes Testwort?",
+      "opcoes": [
+        "Es ist das längste Wort im Niederländischen",
+        "Es trägt mehrere der fünf Bewegungen in einem einzigen Wort",
+        "Es kommt nur in Liedern vor",
+        "Es hat keine besondere Bedeutung fürs Hören"
+      ],
+      "correta": 1,
+      "explica": "Scheveningen bündelt das kehlige sch/ch am Anfang und im Wortinneren — eine bekannte Anekdote, kein Laborexperiment, aber ein gutes Übungswort."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "q-a07",
+  "nivel": "avancado",
+  "titulo": "Quiz — Het aanbod dat u nooit doet",
+  "subtitulo": "Vijf vragen over het du dat van de andere kant komt, een voornaam die bij Sie hoort, en de uren die opgeschreven staan",
+  "introAudioKey": "de-a07-q-i",
+  "introPt": "Een vierde avond in dezelfde bar, een aanbod over de toog, en een klop boven om tien over tien.",
+  "cenario": "Eén Kneipe, één waard die u drie keer heeft bediend, en één buur met een tijd in zijn zin.",
+  "dialogo": [
+    {
+      "audioKey": "de-a07-q01",
+      "voz": "target_de_m",
+      "es": "Wir können uns gerne duzen.",
+      "pt": "We mogen elkaar rustig tutoyeren.",
+      "tts": "Wir können uns gerne duzen."
+    },
+    {
+      "audioKey": "de-a07-q02",
+      "voz": "target_de_f",
+      "es": "Gerne! Ich bin Alex.",
+      "pt": "Graag! Ik ben Alex.",
+      "tts": "Gerne! Ich bin Alex."
+    },
+    {
+      "audioKey": "de-a07-q03",
+      "voz": "target_de_f",
+      "es": "Thomas, wann kommen Sie morgen?",
+      "pt": "Thomas, wanneer komt u morgen?",
+      "tts": "Thomas, wann kommen Sie morgen?"
+    },
+    {
+      "audioKey": "de-a07-q04",
+      "voz": "target_de_m",
+      "es": "Könnten Sie das bitte etwas leiser machen? Es ist nach zehn.",
+      "pt": "Kunt u het iets zachter zetten, alstublieft? Het is na tienen.",
+      "tts": "Könnten Sie das bitte etwas leiser machen? Es ist nach zehn."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Iemand biedt u het du aan. Wat laat de cursus u doen?",
+      "opcoes": [
+        "Uit beleefdheid eerst zelf terugbieden",
+        "Zeg gerne en geef uw voornaam",
+        "Weiger het tot de derde ontmoeting",
+        "Ga over op du en gebruik het vanaf dan foutloos"
+      ],
+      "correta": 1,
+      "explica": "Eén woord en een naam is het hele antwoord. De overstap wordt aangeboden en niet genomen, en niets aan het accepteren verplicht u om zelf du te produceren — de meesten die het aannemen glijden de hele avond terug en niemand telt mee."
+    },
+    {
+      "pergunta": "Waar zit de echte asymmetrie in het du, volgens de geciteerde taalkundige?",
+      "opcoes": [
+        "Alleen een senior mag het aanbieden",
+        "Alleen een vrouw mag het aanbieden",
+        "Iedereen mag aanbieden, maar wie het krijgt kan bijna niet weigeren",
+        "Het kan de volgende ochtend worden ingetrokken"
+      ],
+      "correta": 2,
+      "explica": "Horst Simon van de Vrije Universiteit Berlijn relativeert de hiërarchie — iedereen mag aanbieden — en legt het gewicht op weigeren. De overstap is ook eenrichtings en in de praktijk onomkeerbaar, en juist daarom wordt hij overgelaten aan degene die er woont. De regel over wie eerst aanbiedt op basis van sekse heeft geen basis in de bereikte literatuur."
+    },
+    {
+      "pergunta": "Een winkelier noemt u bij uw voornaam en blijft Sie gebruiken. Wat gebeurt er?",
+      "opcoes": [
+        "Een vergissing, en u moet die vriendelijk verbeteren",
+        "Een aanbod van du dat u geacht wordt aan te nemen",
+        "Het Hamburger Sie — gewoon, vooral in het noorden",
+        "Een teken dat u eerder onbeleefd was"
+      ],
+      "correta": 2,
+      "explica": "Voornaam plus Sie is een gedocumenteerde mengvorm, het vaakst in Noord-Duitsland en zeldzaam in het zuiden, in West-Oostenrijk en Zwitserland. Het is een kleine stap naar u toe, geen aanbod, en het juiste antwoord is doorgaan met Sie."
+    },
+    {
+      "pergunta": "Wat dekt de federale rusturenverordening eigenlijk?",
+      "opcoes": [
+        "Alle geluid, op zondagen en na acht uur 's avonds",
+        "De machines uit de bijlage, in woongebieden",
+        "Muziek en gesprek in flats na tien uur 's avonds",
+        "Bars en restaurants in stadscentra"
+      ],
+      "correta": 1,
+      "explica": "De 32e immissiebeschermingsverordening verbiedt het gebruik van de apparaten in haar bijlage — maaiers, blazers — in woongebieden op zondagen en feestdagen de hele dag en op werkdagen van acht uur 's avonds tot zeven uur 's ochtends. De algemene nachtrust van tien tot zes komt uit deelstaatwet, gemeentelijke verordening en het huisreglement van het gebouw zelf, en juist daarom kan niemand er één nationale wet voor citeren."
+    },
+    {
+      "pergunta": "Wat vond de studie uit 2009 over telgebaren, precies?",
+      "opcoes": [
+        "Dat één wijsvinger omhoog u twee bier oplevert",
+        "Dat alleen de Duitse deelnemers de duim gebruikten voor het getal één",
+        "Dat de duim overal in continentaal Europa wordt gebruikt",
+        "Dat barmensen buitenlandse gebaren meestal verkeerd lezen"
+      ],
+      "correta": 1,
+      "explica": "Dat zegt de samenvatting, tegenover twee Noord-Amerikaanse groepen die de wijsvinger gebruikten. De studie mat de vorm van het gebaar en niets over wat de barman vervolgens deed, op zestig deelnemers in hypothetische scenario's — dus het is een gedocumenteerd patroon, en het verhaal over twee bier blijft een anekdote."
+    }
+  ]
+}

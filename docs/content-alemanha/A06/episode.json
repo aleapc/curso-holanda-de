@@ -1,0 +1,372 @@
+{
+  "id": "a06",
+  "nivel": "avancado",
+  "numero": 34,
+  "parte": "A06",
+  "titulo": "3 oktober, en vijftien andere kalenders",
+  "subtitulo": "Eén datum staat in de federale wet en de andere acht vallen alleen toevallig samen; Rosenmontag is overal een werkdag, en een feestdag sluit de straat zoals een zondag doet",
+  "cena": "Donderdagavond in een stad waar u een uur geleden met de trein aankwam: een geprint briefje geplakt in de etalage van de bakker, de helft van de rolluiken op straat al omlaag, en van hieraf niet te zeggen of morgen een gewone dag wordt.",
+  "moldura": "ganha",
+  "frasePiso": "U vraagt niet meer of morgen feestdag is in Duitsland, maar of het hier feestdag is.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "de-a06-feiertage",
+      "afirmacao": "Precies één wettelijke feestdag in Duitsland is federaal vastgelegd. Het Einigungsvertrag, hoofdstuk I, artikel 2 lid 2, luidt voluit: «Der 3. Oktober ist als Tag der Deutschen Einheit gesetzlicher Feiertag.» Elke andere feestdag wordt vastgesteld door de wet van een afzonderlijke deelstaat. Negen data gelden in alle zestien — Nieuwjaar, Goede Vrijdag, Tweede Paasdag, 1 mei, Hemelvaart, Tweede Pinksterdag, 3 oktober en beide kerstdagen — en als 3 oktober eraf gaat, zijn de overige acht alleen uniform omdat de zestien Sonn- und Feiertagsgesetze toevallig samenvallen. Vier ervan bewegen mee met Pasen: Goede Vrijdag min twee dagen, Tweede Paasdag plus één, Hemelvaart plus negenendertig, Tweede Pinksterdag plus vijftig. Onder dat niveau wordt de kaart nog fijner: in Saksen en Thüringen is Fronleichnam een feestdag in met naam genoemde gemeenten en niet in de hele deelstaat, Buß- und Bettag overleeft alleen in Saksen, en het Augsburger Friedensfest op 8 augustus is een wettelijke feestdag in één enkele stad.",
+      "fonte": "Einigungsvertrag, Kapitel I, Art. 2 Abs. 2, verbatim de gesetze-im-internet.de. A uniformidade dos outros nove decorre de as Sonn- und Feiertagsgesetze dos 16 Länder coincidirem [RESUMO do verbete do BMI — a página do BMI devolveu HTTP 400 e nenhuma citação verbatim lhe é atribuída]. NENHUM Feiertagsgesetz de Land foi aberto, nem o texto da FronleichnamsVO saxã: a tabela dos feriados variáveis é MODERADA e as listas municipais são reportadas, não transcritas.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-a06-n02",
+        "de-a06-n03"
+      ]
+    },
+    {
+      "id": "de-a06-ladenschluss",
+      "afirmacao": "Een feestdag maakt de winkels leeg zoals een zondag dat doet, en het federale model zegt dat in één zin. § 3 van het Ladenschlussgesetz eist dat winkels op zondagen en feestdagen dicht zijn, en op werkdagen vóór zes uur 's ochtends en vanaf acht uur 's avonds, en op 24 december vanaf twee uur 's middags; bakkers mogen vanaf half zes open. Wat open blijft is een korte, wettelijk vastgelegde lijst: apotheken in de verplichte dienstrooster, tankstations beperkt tot auto-onderdelen, brandstof en reiswaren, stations- en luchthavenwinkels beperkt tot reiswaren die aan reizigers verkocht worden, en een kort tijdvenster op zondagochtend voor brood, melk, bloemen, kranten en vers fruit, afgestemd op de hoofdkerkdienst. Sinds de federale hervorming van 2006 ligt de bevoegdheid bij de deelstaten — het Grundgesetz sluit de winkelsluiting nu met zoveel woorden uit van het federale economisch recht — en Beieren heeft op 25 juli 2025 zijn eigen wet aangenomen, in werking sinds 1 augustus 2025, die de acht-uur-grens behoudt maar onbemande minisupermarkten tot 150 vierkante meter dag en nacht laat opengaan, ook op zondag.",
+      "fonte": "§ 3, § 4, § 6, § 8, § 9 e § 12 LadSchlG, verbatim em gesetze-im-internet.de; Art. 74 Abs. 1 Nr. 11 GG «ohne das Recht des Ladenschlusses»; BayLadSchlG de 25/7/2025 (GVBl. S. 246), em vigor desde 1/8/2025, verificado em gesetze-bayern.de, Art. 2 Abs. 2 para os Kleinstsupermärkte de até 150 m². RESSALVA: o estatuto do Ladenschluss foi verificado em apenas 3 dos 16 Länder (Baviera, e parcialmente Berlim e NRW) — nada se afirma sobre os outros 13. Categoria mais volátil do dossiê.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": [
+        "de-a06-n04",
+        "de-a06-n05"
+      ]
+    },
+    {
+      "id": "de-a06-karneval",
+      "afirmacao": "Rosenmontag is in geen enkele deelstaat een wettelijke feestdag, en het schoonste bewijs is dat de stad Keulen haar eigen sluitingen moet aankondigen: haar burgerkantoren, burgerlijke stand en rijbewijskantoor publiceren dat ze die dag dicht zijn, wat overbodig zou zijn als de dag zichzelf sloot. Voor de sessie 2027 geeft Keulen Weiberfastnacht als donderdag 4 februari, Rosenmontag als maandag 8 februari, Veilchendienstag als dinsdag 9 februari en Aswoensdag als woensdag 10 februari — consistent met Pasen 2027 op 28 maart. En de drie namen zijn drie verschillende dingen in plaats van één feest: Karneval in het Rijnland, Fasching in Beieren, Fastnacht of Fasnet in Hessen, Rijnland-Palts en Baden-Württemberg, waarvan de laatste zich juist afzet tegen de Rijnlandse versie, met een gesneden houten masker en een geërfd kostuum in plaats van een satirische praalwagen, en die sinds 2014 in het nationale register van immaterieel cultureel erfgoed staat.",
+      "fonte": "stadt-koeln.de, «Termine der Karnevalssession» (artigo 08212), verbatim para as quatro datas de 2027; página de horários da mesma cidade para o fechamento dos Kundenzentren na Rosenmontag [RESUMO]. Os três eixos geográficos e a schwäbisch-alemannische Fastnacht no Bundesweites Verzeichnis des Immateriellen Kulturerbes desde 2014: MODERADA, unesco.de não aberto.",
+      "ano": 2026,
+      "revisarAte": "2027-02-01",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-a06-n07",
+        "de-a06-n08"
+      ]
+    },
+    {
+      "id": "de-a06-ferien",
+      "afirmacao": "Er is geen maand waarin het land sluit, en niets werd gevonden dat dat idee steunt. Wat wél bestaat is het apparaat dat precies dat moet voorkomen: de Kultusministerkonferenz spreidt de zomerschoolvakanties over de deelstaten in vijf roterende groepen, en formuleert het doel in eigen woorden — voorkomen dat de vakantiegangers tegelijk vertrekken en terugkomen, en de gevolgen die dat zou hebben voor het verkeer en voor de logies in de vakantiestreken. Baden-Württemberg en Beieren staan structureel als laatste, vanwege hun pinkstervakanties. Het praktische gevolg is dat het zomerraam uitsmeert van eind juni tot midden september, en dat hoogseizoen geen nationale datum is maar een kwestie van welke deelstaat die week vrij heeft.",
+      "fonte": "Kultusministerkonferenz, kmk.org/service/ferien.html, verbatim quanto ao objetivo do escalonamento; os cinco grupos rotativos I (BB, BE, HH, MV, SH), II (HB, NI, SN, ST, TH), III (NRW), IV (HE, RP, SL) e V (BW, BY). O clichê do «mês em que tudo fecha» é AUSENTE e foi recusado. As datas concretas de 2026/2027 não foram obtidas.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-a06-n09"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a06-n01",
+      "gesto": 2,
+      "bloco": "aquecimento",
+      "pt": "Donderdagavond. Morgen is hier feestdag en veertig minuten verderop een gewone werkdag."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a06-n02",
+      "bloco": "corpo",
+      "pt": "Eén datum geldt voor het hele land: 3 oktober. Elke andere hangt af van de deelstaat waar u staat."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-a06-r01",
+      "receptivo": true,
+      "es": "Morgen ist Feiertag, da haben wir zu.",
+      "pinyin": "MOR-gen ist FY-er-tahk, dah HAH-ben veer tsoo",
+      "pt": "Morgen is feestdag, dus wij zijn dicht.",
+      "tts": "Morgen ist Feiertag, da haben wir zu.",
+      "acao": "Zu is dicht, auf is open, en beide vallen op het laatste woord. Wacht op het eind voor u iets besluit."
+    },
+    {
+      "consulta": [
+        "chegar/balcao",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WANN-IST",
+      "encaixe": "der Feiertag",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-a06-p01",
+      "promptPt": "Het briefje in de etalage noemt een dag die u van de stoep niet ontcijfert, en de vrouw achter de toonbank is vrij. Spreek nu.",
+      "audioKey": "de-a06-t01",
+      "es": "Wann ist der Feiertag?",
+      "pinyin": "van ist dair FY-er-tahk",
+      "pt": "Wanneer is de feestdag?",
+      "tts": "Wann ist der Feiertag?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a06-n03",
+      "pt": "Nog acht lijken landelijk, en dat zijn ze ook, alleen omdat zestien deelstaatwetten toevallig samenvallen."
+    },
+    {
+      "consulta": [
+        "chegar/balcao",
+        "compras/so-olhando"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-a06-p02",
+      "promptPt": "Om elf uur is de halve straat dicht en niemand kijkt verbaasd. Vraag het aan de bakker. Spreek nu.",
+      "audioKey": "de-a06-t02",
+      "es": "Ist heute ein Feiertag?",
+      "pinyin": "ist HOY-tuh ine FY-er-tahk",
+      "pt": "Is het vandaag feestdag?",
+      "tts": "Ist heute ein Feiertag?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a06-n04",
+      "pt": "Een feestdag maakt de winkels leeg zoals een zondag. Op andere dagen sluit het federale model om acht uur."
+    },
+    {
+      "consulta": [
+        "compras/balcao",
+        "compras/so-olhando"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-a06-p03",
+      "promptPt": "U wilt terug voor de jas die u paste, en overmorgen is uw enige vrije ochtend. Vraag het eerst. Spreek nu.",
+      "audioKey": "de-a06-t03",
+      "es": "Haben Sie am Sonntag geöffnet?",
+      "pinyin": "HAH-ben zee am ZON-tahk guh-URF-net",
+      "pt": "Bent u zondag open?",
+      "tts": "Haben Sie am Sonntag geöffnet?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-a06-r02",
+      "receptivo": true,
+      "es": "Sonntags ist geschlossen. Der Bahnhof hat auf.",
+      "pinyin": "ZON-tahks ist guh-SHLOSS-en. dair BAHN-hofe hat owf",
+      "pt": "Op zondag zijn wij dicht. Het station is open.",
+      "tts": "Sonntags ist geschlossen. Der Bahnhof hat auf.",
+      "acao": "Stations- en luchthavenwinkels blijven open, maar mogen alleen reiswaren aan reizigers verkopen, geen weekboodschap."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a06-n05",
+      "bloco": "capsula",
+      "pt": "Zondag laat een korte lijst open: de dienstapotheek, het station, het tankstation en vroeg de bakker."
+    },
+    {
+      "consulta": [
+        "chegar/balcao",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-SUCHE",
+      "encaixe": "eine Bäckerei",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-a06-p04",
+      "promptPt": "Zondag, tien over acht, en u wilt alleen brood en iets warms. Begin de zoektocht bij een vreemde. Spreek nu.",
+      "audioKey": "de-a06-t04",
+      "es": "Ich suche eine Bäckerei.",
+      "pinyin": "ikh ZOO-khuh INE-uh beck-uh-RYE",
+      "pt": "Ik zoek een bakker.",
+      "tts": "Ich suche eine Bäckerei."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a06-n06",
+      "pt": "Ei zoals uw eigen ei van reis: Bäckerei rijmt op mei, drei op wei, Feiertag begint zo. Vrijwel gratis."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WANN-IST",
+      "encaixe": "der Rosenmontag",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-a06-p05",
+      "promptPt": "Op de poster achter de bar staan drie februaridata; u wilt de middelste, de grote. Spreek nu.",
+      "audioKey": "de-a06-t05",
+      "es": "Wann ist der Rosenmontag?",
+      "pinyin": "van ist dair ROH-zen-mohn-tahk",
+      "pt": "Wanneer is Rosenmontag?",
+      "tts": "Wann ist der Rosenmontag?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-a06-r03",
+      "receptivo": true,
+      "es": "Rosenmontag ist kein Feiertag, aber hier macht fast alles zu.",
+      "pinyin": "ROH-zen-mohn-tahk ist kine FY-er-tahk, AH-ber heer makht fast AL-es tsoo",
+      "pt": "Rosenmontag is geen feestdag, maar hier gaat bijna alles dicht.",
+      "tts": "Rosenmontag ist kein Feiertag, aber hier macht fast alles zu.",
+      "acao": "Kein Feiertag en toch dicht: aan de Rijn regelt elke stad het zelf, daarom moet de stad het aankondigen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a06-n07",
+      "pt": "In 2027 valt hij op 8 februari, en de donderdag daarvoor is waar die week begint."
+    },
+    {
+      "consulta": [
+        "quarto/pedir",
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-a06-p06",
+      "promptPt": "U pakt vanavond in en twee dingen staan nog op de lijst. Vraag het aan de balie voor u de ochtend plant. Spreek nu.",
+      "audioKey": "de-a06-t06",
+      "es": "Sind die Geschäfte morgen zu?",
+      "pinyin": "zint dee guh-SHEFF-tuh MOR-gen tsoo",
+      "pt": "Zijn de winkels morgen dicht?",
+      "tts": "Sind die Geschäfte morgen zu?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a06-n08",
+      "pt": "Drie namen, drie andere dingen: Karneval aan de Rijn, Fasching in Beieren, Fastnacht in het zuidwesten."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WANN-IST",
+      "encaixe": "der Umzug",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-a06-p07",
+      "promptPt": "Gesneden houten maskers staan al in de etalages, en u zit liever niet binnen als de straat volloopt. Spreek nu.",
+      "audioKey": "de-a06-t07",
+      "es": "Wann ist der Umzug?",
+      "pinyin": "van ist dair OOM-tsook",
+      "pt": "Wanneer is de optocht?",
+      "tts": "Wann ist der Umzug?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a06-n09",
+      "pt": "En geen maand sluit het land. Schoolvakanties zijn met opzet gespreid, in vijf groepen die roteren."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-a06-s01",
+      "molde": "WANN-IST",
+      "es": "Wann ist der Feiertag? Ist heute ein Feiertag? Sind die Geschäfte morgen zu?",
+      "pinyin": "van ist dair FY-er-tahk. ist HOY-tuh ine FY-er-tahk. zint dee guh-SHEFF-tuh MOR-gen tsoo",
+      "pt": "Schaduw de drie vragen die een dag hier beslissen: de datum, vandaag, en morgen de rolluiken.",
+      "tts": "Wann ist der Feiertag? Ist heute ein Feiertag? Sind die Geschäfte morgen zu?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a06-n10",
+      "bloco": "recap",
+      "pt": "A06 klaar. Eén federale datum, negen door samenloop, en het echte antwoord hoort bij de stad waar u staat."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Eén land, zestien kalenders, en de dag die de straat zelf beslist",
+    "secoes": [
+      {
+        "titulo": "Slechts één datum is nationaal",
+        "corpo": "Het Einigungsvertrag legt voor heel Duitsland één wettelijke feestdag vast, in één zin: 3 oktober is de Dag van de Duitse Eenheid. Al het andere op de kalender is een zaak van de deelstaat. Negen data gelden in alle zestien Länder — Nieuwjaar, Goede Vrijdag, Tweede Paasdag, 1 mei, Hemelvaart, Tweede Pinksterdag, 3 oktober en beide kerstdagen — en als u 3 oktober uit die lijst haalt, zijn de andere acht alleen nationaal omdat zestien afzonderlijke deelstaatwetten hetzelfde blijken te zeggen. Vier bewegen met Pasen, en daarom valt Hemelvaart op een donderdag in mei en Tweede Pinksterdag elf dagen later. Onder het niveau van de deelstaat wordt de kaart nog fijner: Fronleichnam is een wettelijke feestdag in een handvol met naam genoemde gemeenten in Saksen en Thüringen en niet in die deelstaten als geheel, Buß- und Bettag overleeft alleen in Saksen, en het Augsburger Friedensfest op 8 augustus is een wettelijke feestdag in precies één stad.",
+        "exemplos": [
+          {
+            "es": "Wann ist der Feiertag?",
+            "pt": "Wanneer is de feestdag?"
+          },
+          {
+            "es": "Ist heute ein Feiertag?",
+            "pt": "Is het vandaag feestdag?"
+          }
+        ]
+      },
+      {
+        "titulo": "Wat een feestdag met een straat doet",
+        "corpo": "De federale winkelsluitingswet zet zondagen en feestdagen in dezelfde zin: winkels dicht, de hele dag. Op elke andere dag zijn ze dicht vóór zes uur 's ochtends en vanaf acht uur 's avonds, en op 24 december vanaf twee uur 's middags. Bakkers mogen vanaf half zes open. Wat op een feestdag open blijft is een korte, wettelijk vastgelegde lijst en niet wat toevallig wil handelen: de apotheek die dienst heeft in de verplichte rooster, tankstations — die alleen auto-onderdelen, brandstof en reiswaren mogen verkopen, dus geen legale zondagssupermarkt — stations- en luchthavenwinkels beperkt tot reiswaren voor reizigers, en een kort tijdvenster op zondagochtend voor brood, melk, bloemen, kranten en vers fruit, afgestemd op de hoofdkerkdienst, en dat is de reden waarom het zo vroeg dichtgaat."
+      },
+      {
+        "titulo": "Waarom het antwoord verandert als u van trein wisselt",
+        "corpo": "Winkelsluiting is sinds 2006 geen federale zaak meer, en het Grundgesetz sluit het nu met zoveel woorden uit van het federale economisch recht. Elke deelstaat maakt zijn eigen versie, en dat is de reden waarom een regionale trein die een deelstaatgrens oversteekt echt kan veranderen of de winkels open zijn. Beieren is het duidelijkste voorbeeld en meteen de correctie op de versie die nog rondgaat: het draait niet meer op de federale wet, omdat het in juli 2025 zijn eigen wet aannam, in werking sinds 1 augustus van dat jaar. Die behoudt de acht-uur-grens van maandag tot zaterdag, geeft een handvol avonden per jaar die een gemeente zonder opgaaf van redenen mag vrijgeven, en laat onbemande minisupermarkten tot honderdvijftig vierkante meter dag en nacht open, zondagen inbegrepen. De eerlijke grens van deze cursus: slechts drie van de zestien deelstaten zijn nagekeken, dus behandel de acht-uur-regel als het model en niet als garantie voor de plek waar u toevallig bent.",
+        "exemplos": [
+          {
+            "es": "Haben Sie am Sonntag geöffnet?",
+            "pt": "Bent u zondag open?"
+          },
+          {
+            "es": "Sind die Geschäfte morgen zu?",
+            "pt": "Zijn de winkels morgen dicht?"
+          }
+        ]
+      },
+      {
+        "titulo": "Rosenmontag, en de dag die zichzelf sluit zonder feestdag te zijn",
+        "corpo": "Rosenmontag is in geen enkele deelstaat een wettelijke feestdag — juridisch is het een gewone werkdag — en toch staat in Keulen, Düsseldorf en Mainz een groot deel van de stad stil. Het bewijs dat het een lokale afspraak is en geen wet is dat de stad Keulen een bericht moet publiceren waarin staat welke van haar eigen kantoren die dag dicht zijn. Voor 2027 geeft de stad Weiberfastnacht als donderdag 4 februari, Rosenmontag als maandag de achtste, Veilchendienstag als de negende en Aswoensdag als de tiende. En er bestaat geen enkelvoudige Duitse karnaval: Karneval aan de Rijn, Fasching in Beieren, en Fastnacht of Fasnet in Hessen, Rijnland-Palts en Baden-Württemberg, waar de traditie zich juist tegenover de Rijnlandse versie zet — een gesneden houten masker en een geërfd familiekostuum, een rituele optocht in plaats van een satirische praalwagen. Sinds 2014 staat die vorm in het nationale register van immaterieel cultureel erfgoed. Alle drie behandelen als één feest is de fout die de moeite waard is om níét te maken."
+      },
+      {
+        "titulo": "De maand waarin alles dichtgaat, die niet bestaat",
+        "corpo": "Zuid-Europa heeft een maand waarin de rolluiken zakken en de steden leeglopen, en die wordt integraal in reisadvies over Duitsland ingevoerd. Niets werd hier gevonden dat dat steunt, en het apparaat wijst juist de andere kant op: de onderwijsministers spreiden bewust de zomerschoolvakanties over de deelstaten in vijf roterende groepen, en formuleren het doel in eigen woorden — voorkomen dat de hele vakantiegroep tegelijk vertrekt en terugkeert, en de wegen en vakantiestreken de gevolgen besparen. Baden-Württemberg en Beieren staan structureel als laatste in de rotatie vanwege hun pinkstervakanties. Zo smeert het zomerraam uit over het hele land van eind juni tot midden september, en is hoogseizoen geen datum op een nationale kalender; het is een kwestie van welke deelstaat die week vrij heeft. De concrete data voor 2026 en 2027 werden niet verkregen, dus de vraag blijft de moeite waard om ter plekke te stellen."
+      }
+    ]
+  },
+  "slot": "A06",
+  "permissao": "U mag een wildvreemde vragen of morgen een feestdag is, in een land waar die vraag echt zestien antwoorden heeft. Van een bezoeker wordt niet verwacht dat hij weet dat Fronleichnam een wettelijke feestdag is in een handvol met naam genoemde dorpen in Saksen maar niet in het volgende dal, en vragen is geen onwetendheid — het is de enige methode die iemand heeft, ook de mensen die er wonen. U mag ook uw boodschappen rond acht uur 's avonds plannen en zondag helemaal overslaan, in plaats van te jagen op de uitzondering waarmee u sokken kunt kopen.",
+  "permissaoAudioKey": "de-a06-n02",
+  "espelho": "Wie thuis ooit een provinciegrens overreed en de slijterij dicht vond, of op de bank verscheen op een dag die een lokale feestdag bleek, kent de vorm hiervan al. Nieuw is alleen dat die grens hier de moeite waard is om naar te vragen voordat u de dag plant, want het land houdt echt niet één kalender aan — en de reizigersfout die hier misgaat, is opzoeken welke feestdagen Duitsland heeft in plaats van vragen naar deze stad.",
+  "fichasCulturais": [
+    {
+      "sinal": "U steekt met een regionale trein een deelstaatgrens over en de winkels aan het overzijperron zijn normaal open, terwijl die van een uur geleden donker waren.",
+      "suaLeitura": "Iemand verderop negeert de feestdag, of de feestdag wordt hier maar half in acht genomen.",
+      "oQueEAli": "Precies één wettelijke feestdag is federaal vastgelegd, en dat is 3 oktober. Elke andere wordt vastgesteld door de wet van een afzonderlijke deelstaat, en van de negen data die overal gelden zijn de acht naast 3 oktober alleen uniform omdat zestien deelstaatwetten samenvallen. Sommige zijn nog fijner: Fronleichnam is een feestdag in met naam genoemde gemeenten in Saksen en Thüringen, en het Augsburger Friedensfest op 8 augustus is een wettelijke feestdag in één stad en verder nergens.",
+      "oQueVoceFaz": "Vraag naar de plek waar u staat, niet naar het land. Ist heute ein Feiertag en sind die Geschäfte morgen zu zijn de twee vragen, en een receptie of een bakker beantwoordt beide binnen een seconde.",
+      "oQueMelhora": "U wordt niet meer overvallen door een donkere straat, en u begint de goede helft van de regeling te gebruiken — een feestdag die uw vertrekstad leegmaakt is een rustige ochtend in de stad waar u aankomt.",
+      "ondeNaoVale": "Geen enkele Feiertagsgesetz van een deelstaat werd voor deze cursus geopend en de Saksische verordening met de Fronleichnam-gemeenten werd niet gelezen, dus de variabele data zijn gerapporteerd en niet overgeschreven — kijk in de deelstaat, niet in deze lijst, als er iets van afhangt. En dit gaat over winkels: een wettelijke feestdag stopt de treinen niet.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-a06-n02",
+        "de-a06-n03"
+      ]
+    },
+    {
+      "sinal": "Het is zondag, u heeft een supermarkt nodig, en de enige verlichte deuren in de straat zijn een tankstation en één apotheek.",
+      "suaLeitura": "Deze stad is ongewoon slaperig, en ergens vlakbij moet toch een normale winkel open zijn gebleven.",
+      "oQueEAli": "De winkelsluitingswet zet zondagen en feestdagen in dezelfde zin: dicht, de hele dag. De uitzonderingen zijn wettelijk gedefinieerd en niet door de handel bepaald — apotheken op de verplichte dienstrooster, tankstations beperkt tot auto-onderdelen, brandstof en reiswaren, stations- en luchthavenwinkels beperkt tot reiswaren voor reizigers, en een kort tijdvenster op zondagochtend voor brood, melk, bloemen, kranten en vers fruit, afgestemd op de hoofdkerkdienst.",
+      "oQueVoceFaz": "Doe de boodschappen op zaterdag voor achten, en gebruik het bakkersvenster op zondag vroeg en niet om elf uur. Als de dag toch nog moet werken, is het station de wettige open deur, voor reiswaren.",
+      "oQueMelhora": "De stille zondag houdt op een obstakel te zijn en wordt wat hij bedoeld is te zijn — de dag waarop de stad beloopbaar is, musea en cafés de middag dragen en niemand ergens in de rij staat.",
+      "ondeNaoVale": "Winkelsluiting hoort sinds 2006 bij de deelstaten en slechts drie van de zestien werden hier geverifieerd, dus dit is het model en geen belofte. Beierens eigen wet, in werking sinds augustus 2025, laat onbemande winkels tot honderdvijftig vierkante meter dag en nacht open, ook op zondag. Een verkaufsoffener Sonntag is lokaal, gedateerd en aan een aanleiding gebonden, en nooit de moeite waard om op te plannen. En restaurants worden grondwettelijk apart behandeld van winkelsluiting — deze cursus heeft hun regels niet nagekeken.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-a06-n04",
+        "de-a06-n05"
+      ]
+    }
+  ]
+}

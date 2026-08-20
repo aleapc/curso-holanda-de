@@ -1,0 +1,314 @@
+{
+  "id": "b11",
+  "nivel": "basico",
+  "numero": 11,
+  "parte": "B11",
+  "slot": "B11",
+  "titulo": "Mag ik — der Satz, der in B06 fast etwas anderes bedeutete",
+  "subtitulo": "Ein Barmann, anderthalb Sekunden Aufmerksamkeit, und ein Baustein, der nie fragt, ob du etwas magst",
+  "cena": "Zehn nach eins, der Tresen ist drei Leute tief, ein Barmann sieht dich an und sagt Zeg het maar — und du hast ungefähr zwei Sekunden, bevor er weiterzieht.",
+  "moldura": "ganha",
+  "frasePiso": "Mag ik, plus das Ding — der Satz, mit dem du bestellst, dankst und zahlst, ohne ihn dreimal neu zu lernen.",
+  "moldes": [
+    "ICH-MOCHTE"
+  ],
+  "clique": {
+    "contagem": [
+      "der Tresen im Café",
+      "der Kiosk am Bahnsteig",
+      "der Tisch im Restaurant",
+      "die Bar am Abend"
+    ],
+    "desconto": "Vier verschiedene Theken haben dieselben zwei Wörter von dir bekommen. Nur das Ding am Ende hat sich bewegt, und du hast es jedes Mal richtig verstanden — dieses Mal.",
+    "piso": "Das nächste Mal, wenn ein Barmann dich ansieht und Zeg het maar sagt, hast du in unter zwei Sekunden eine vollständige, höfliche Bitte parat."
+  },
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b11-n01",
+      "gesto": 1,
+      "tom": "ganha",
+      "bloco": "aquecimento",
+      "pt": "Ein Takt pro Wort, gleichmäßig: mag ik EEN kof-FEE. Der Rhythmus trägt die Bitte, nicht die Lautstärke."
+    },
+    {
+      "consulta": [
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "HABEN-SIE",
+      "encaixe": "een tafel voor twee",
+      "encaixeGloss": "ein Tisch für zwei",
+      "bloco": "callback",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b11-p01",
+      "promptPt": "Gestern in der Ankunftshalle hast du nach WLAN gefragt. Heute stehst du in der Tür eines Lokals um kurz nach eins, alle Tische wirken besetzt. Frag. Sprich jetzt.",
+      "audioKey": "hol-b11-t01",
+      "es": "Heeft u een tafel voor twee?",
+      "pinyin": "hééft ü un TAA-fel fohr tvay?",
+      "pt": "Haben Sie einen Tisch für zwei?",
+      "tts": "Heeft u een tafel voor twee?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b11-n02",
+      "bloco": "cena",
+      "pt": "Zehn nach eins, der Tresen drei Leute tief. Der Barmann sieht dich an, sagt Zeg het maar, und zieht in zwei Sekunden weiter."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b11-r01",
+      "es": "Zeg het maar!",
+      "pinyin": "zech het maar!",
+      "pt": "Sag einfach, was du willst!",
+      "tts": "Zeg het maar!",
+      "receptivo": true,
+      "acao": "Das ist die Einladung, nicht eine Frage zum Nachdenken. Antworte sofort mit dem Baustein, den du gleich lernst."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b11-n03",
+      "bloco": "molde",
+      "pt": "Der Baustein: Mag ik, plus das Ding. Wörtlich Darf ich — eine höfliche Bitte, kein Geschmacksurteil."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b11-n04",
+      "pt": "Erinnerst du dich an B06? Mag klingt wie mögen und heißt hier dürfen. Du bekamst den Kaffee trotzdem — jetzt sagst du es richtig, mit Absicht."
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "een koffie",
+      "encaixeGloss": "ein Kaffee",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b11-p02",
+      "promptPt": "Der Barmann hat gerade Zeg het maar gesagt, und du hast zwei Sekunden. Bestell dir einen Kaffee. Sprich jetzt.",
+      "audioKey": "hol-b11-t02",
+      "es": "Mag ik een koffie?",
+      "pinyin": "mach ik un kof-FEE?",
+      "pt": "Darf ich einen Kaffee haben?",
+      "tts": "Mag ik een koffie?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b11-r02",
+      "es": "Komt eraan.",
+      "pinyin": "komt e-RAAN",
+      "pt": "Kommt sofort.",
+      "tts": "Komt eraan.",
+      "receptivo": true,
+      "acao": "Kein weiteres Wort nötig. Das ist die Bestätigung, keine Rückfrage."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b11-n05",
+      "pt": "Der Barmann stellt die Tasse ab und sagt alstublieft. Das ist das Gegenstück zu deinem Bausteinen — bitte sehr, in einem Wort."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "DANKE",
+      "encaixe": "dank u wel",
+      "encaixeGloss": "vielen Dank",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b11-p03",
+      "promptPt": "Die Tasse steht vor dir, noch dampfend. Schließ ab, wie man das hier macht. Sprich jetzt.",
+      "audioKey": "hol-b11-t03",
+      "es": "Dank u wel!",
+      "pinyin": "dank ü wel!",
+      "pt": "Vielen Dank!",
+      "tts": "Dank u wel!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b11-n06",
+      "tom": "ganha",
+      "pt": "Derselbe Baustein bestellt jedes Getränk. Kein neues Verb, kein neuer Satzbau — nur das Ding am Ende wechselt."
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "een biertje",
+      "encaixeGloss": "ein Bier",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b11-p04",
+      "promptPt": "Es ist jetzt sechs Uhr abends, der Kaffee ist längst leer, und dein Nachbar am Tresen hebt gerade sein Glas. Bestell dasselbe. Sprich jetzt.",
+      "audioKey": "hol-b11-t04",
+      "es": "Mag ik een biertje?",
+      "pinyin": "mach ik un BEER-tyuh?",
+      "pt": "Darf ich ein Bierchen haben?",
+      "tts": "Mag ik een biertje?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b11-n07",
+      "pt": "Das -tje am Ende ist das Diminutiv. Es macht ein Bier nicht kleiner, es macht die Bitte weicher — du hörst es den ganzen Tag am Tresen."
+    },
+    {
+      "consulta": [
+        "mesa/agua-pao"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "een glas water erbij",
+      "encaixeGloss": "ein Glas Wasser dazu",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b11-p05",
+      "promptPt": "Das Bier ist stärker, als du dachtest, und niemand am Tresen bietet Wasser von sich aus an. Frag danach. Sprich jetzt.",
+      "audioKey": "hol-b11-t05",
+      "es": "Mag ik een glas water erbij?",
+      "pinyin": "mach ik un chlas VAA-ter er-BÄI?",
+      "pt": "Darf ich ein Glas Wasser dazu haben?",
+      "tts": "Mag ik een glas water erbij?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b11-n08",
+      "pt": "In den Niederlanden bezahlst du am Tresen oft pro Runde, nicht am Ende mit einer offenen Rechnung."
+    },
+    {
+      "consulta": [
+        "pagar/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "afrekenen",
+      "encaixeGloss": "abrechnen",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b11-p06",
+      "promptPt": "Dein Zug fährt in zehn Minuten, und du willst nicht warten, bis jemand zufällig vorbeikommt. Sag, dass du jetzt zahlen willst. Sprich jetzt.",
+      "audioKey": "hol-b11-t06",
+      "es": "Mag ik afrekenen?",
+      "pinyin": "mach ik AF-ray-ke-nen?",
+      "pt": "Darf ich abrechnen?",
+      "tts": "Mag ik afrekenen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b11-n09",
+      "bloco": "capsula",
+      "pt": "Zeg het maar hörst du an fast jedem Tresen des Landes — im Café, im Imbiss, im Kiosk am Bahnsteig. Es ist keine Floskel nur für Stammgäste."
+    },
+    {
+      "consulta": [
+        "mesa/conta"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "de rekening",
+      "encaixeGloss": "die Rechnung",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b11-p07",
+      "promptPt": "Am Tisch im Restaurant, nach dem Essen, hebt niemand von selbst die Hand, um den Tisch abzuschließen. Ruf die Kellnerin und bitte darum. Sprich jetzt.",
+      "audioKey": "hol-b11-t07",
+      "es": "Mag ik de rekening?",
+      "pinyin": "mach ik de RAY-ke-ning?",
+      "pt": "Darf ich die Rechnung haben?",
+      "tts": "Mag ik de rekening?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-b11-s01",
+      "tom": "ganha",
+      "es": "Mag ik een koffie? Mag ik een biertje? Mag ik afrekenen?",
+      "pinyin": "mach ik un kof-FEE? mach ik un BEER-tyuh? mach ik AF-ray-ke-nen?",
+      "pt": "Schatte denselben Öffner über drei völlig verschiedene Theken.",
+      "tts": "Mag ik een koffie? Mag ik een biertje? Mag ik afrekenen?",
+      "molde": "ICH-MOCHTE"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b11-n11",
+      "bloco": "clique",
+      "pt": "Zähl die Theken: der Tresen im Café, der Kiosk am Bahnsteig, der Tisch im Restaurant, die Bar am Abend."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b11-n12",
+      "bloco": "recap",
+      "pt": "B11 fertig. Zeg het maar ist die Einladung, Mag ik plus das Ding ist deine Antwort — auf jeder Theke, den ganzen Tag."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Mag ik, und warum der falsche Freund keinem schadet",
+    "secoes": [
+      {
+        "titulo": "Mag ik, plus das Ding",
+        "corpo": "Mag ik ist wörtlich Darf ich, eine höfliche Bitte um Erlaubnis — der universelle Bestellsatz an jedem Tresen. Er ersetzt sowohl Ich hätte gern als auch Können Sie mir geben, und danach steht das Ding in der Wörterbuchform: keine Beugung, kein Fall. Die informellen Varianten Doe mij maar en Een … alstublieft hörst du auch; du produzierst die höfliche Form mit Mag ik, weil sie überall passt, vom Kiosk bis zum Restaurant."
+      },
+      {
+        "titulo": "Warum mag hier nicht mögen heißt",
+        "corpo": "Mag stammt von mogen, dürfen, und ist der teuerste falsche Freund dieses Sprachpaars: er sieht aus wie dein mögen, meint aber Erlaubnis, nicht Geschmack. Weil das Ergebnis identisch ist — du bekommst den Kaffee so oder so —, merkt kaum jemand den Irrtum. Das macht ihn zur perfekten stillen Falle: Mag ik een koffie? klingt für ein deutsches Ohr wie ein Bekenntnis, ist aber eine Bitte."
+      },
+      {
+        "titulo": "Zeg het maar, die Einladung",
+        "corpo": "Zeg het maar — sag einfach, was du willst — ist die Formel, mit der Verkäufer und Barleute dich zum Sprechen einladen, landesweit, nicht nur in Amsterdam. Sie erwartet keine lange Antwort, nur den Baustein. Wer zögert, verliert nicht die Bestellung, aber verliert ein paar Sekunden Aufmerksamkeit — deshalb lohnt es sich, den Satz parat zu haben, bevor der Barmann überhaupt fragt."
+      }
+    ]
+  },
+  "permissao": "Du musst nicht für jedes Getränk einen neuen Satz erfinden. Mag ik plus das Ding ist überall an der Theke vollständig, und niemand erwartet mehr Text von dir — auch nicht am Abend, wenn der Tresen voll ist.",
+  "permissaoAudioKey": "hol-b11-n03",
+  "fichasCulturais": [
+    {
+      "sinal": "Der Barmann sieht dich für etwa anderthalb Sekunden an, sagt Zeg het maar, und wendet sich schon der nächsten Person zu.",
+      "suaLeitura": "Er ist unfreundlich, oder er hat es eilig und mag keine Touristen bedienen.",
+      "oQueEAli": "Es ist die Standardformel, mit der Theken im ganzen Land zum Bestellen einladen — das Tempo gehört zum Tresen, nicht zu dir persönlich. Ein voller Tresen bedient viele Leute schnell, und die Formel ist dafür gebaut, kurz zu sein.",
+      "oQueVoceFaz": "Antworte sofort mit Mag ik plus dem Ding, ohne Umweg über eine Begrüßung. Der Barmann erwartet genau das, nichts Höfleres.",
+      "oQueMelhora": "Du bestellst so schnell wie jemand, der schon hundertmal an dieser Theke stand, und die zwei Sekunden Aufmerksamkeit reichen locker.",
+      "ondeNaoVale": "In einem ruhigen Restaurant mit Tischbedienung wartet die Kellnerin, so lange du brauchst — der Zwei-Sekunden-Takt gehört zur schnellen Theke, nicht zu jeder Mahlzeit im Land.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "hol-b11-r01"
+      ]
+    },
+    {
+      "sinal": "Du trinkst dein zweites Bier, und niemand hat bisher eine laufende Rechnung für den Tisch angelegt.",
+      "suaLeitura": "Sie haben vergessen, mitzuschreiben, und am Ende gibt es Streit um den Betrag.",
+      "oQueEAli": "An vielen Theken wird pro Runde gezahlt, direkt wenn du bestellst — keine offene Rechnung, die bis zum Aufbruch wächst. Das ist keine Unhöflichkeit, sondern die übliche Reihenfolge: bestellen, hören was es kostet, gleich zahlen oder auf die Karte legen.",
+      "oQueVoceFaz": "Halte dein Portemonnaie griffbereit, wenn du bestellst, und rechne mit Mag ik afrekenen ab, sobald du fertig bist — nicht erst beim Verlassen.",
+      "oQueMelhora": "Du gehst nie mit der Unsicherheit, wie hoch die Rechnung am Ende ausfällt, und dein Geld liegt nicht den ganzen Abend beim Barmann.",
+      "ondeNaoVale": "In einem Restaurant mit Tischbedienung läuft es wie andernorts auch: eine Rechnung am Ende der Mahlzeit, nicht Runde für Runde.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "hol-b11-n08"
+      ]
+    }
+  ]
+}

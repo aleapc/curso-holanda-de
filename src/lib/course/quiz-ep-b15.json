@@ -1,0 +1,96 @@
+{
+  "id": "q-b15",
+  "nivel": "basico",
+  "titulo": "Quiz — Hoeveel kost dat, an drei verschiedenen Theken",
+  "subtitulo": "Ein Käsestand, ein Kleidergeschäft, und eine Kasse, die deine Kreditkarte nicht kennt",
+  "introAudioKey": "hol-b15-q-i",
+  "introPt": "Samstagvormittag auf einem Markt, ein Baustein, der jeden Preis herausholt.",
+  "cenario": "Samstagvormittag, ein Markt in Rotterdam.",
+  "dialogo": [
+    {
+      "audioKey": "hol-b15-q01",
+      "voz": "target_nl_f",
+      "es": "Hoeveel kost dit?",
+      "pt": "Wie viel kostet das hier?",
+      "tts": "Hoeveel kost dit?"
+    },
+    {
+      "audioKey": "hol-b15-q02",
+      "voz": "target_nl_m",
+      "es": "Dat is achttien euro per kilo.",
+      "pt": "Das ist achtzehn Euro pro Kilo.",
+      "tts": "Dat is achttien euro per kilo."
+    },
+    {
+      "audioKey": "hol-b15-q03",
+      "voz": "target_nl_f",
+      "es": "Heeft u een grotere maat?",
+      "pt": "Haben Sie eine größere Größe?",
+      "tts": "Heeft u een grotere maat?"
+    },
+    {
+      "audioKey": "hol-b15-q04",
+      "voz": "target_nl_f",
+      "es": "Neemt u ook contant?",
+      "pt": "Nehmen Sie auch Bargeld?",
+      "tts": "Neemt u ook contant?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Was kommt nach Hoeveel kost?",
+      "opcoes": [
+        "Immer mehrere Dinge zusammen",
+        "Ein einziges Ding — Hoeveel kosten, mit Endung, wäre die Mehrzahl",
+        "Ein Verb",
+        "Ein Ort"
+      ],
+      "correta": 1,
+      "explica": "Hoeveel kost fragt immer nach EINEM Ding. Die Endung kosten mit -en fragt nach mehreren Dingen zusammen, und die brauchst du hier nicht."
+    },
+    {
+      "pergunta": "Dat is achttien euro per kilo — was tust du?",
+      "opcoes": [
+        "Sofort kaufen, ohne nachzudenken",
+        "Grob umrechnen und entscheiden, bevor geschnitten wird",
+        "Nach Rabatt fragen",
+        "Weggehen"
+      ],
+      "correta": 1,
+      "explica": "Per kilo heißt pro Kilo. Rechne im Kopf grob um und entscheide, bevor er schneidet — danach ist das Stück deins."
+    },
+    {
+      "pergunta": "Heeft u een grotere maat? — welcher Baustein ist das?",
+      "opcoes": [
+        "Ein neuer, nur für Kleidung",
+        "Derselbe Heeft u aus B06, nur mit einem neuen Ding am Ende",
+        "Zonder, umgestellt",
+        "Hoeveel kost, umformuliert"
+      ],
+      "correta": 1,
+      "explica": "Heeft u, plus das Ding — hier ist das Ding jetzt eine Größe, kein Chip und keine Toilette. Derselbe Baustein, ein neues Ding."
+    },
+    {
+      "pergunta": "Deine Kreditkarte wird an der Selbstbedienungskasse abgelehnt. Warum?",
+      "opcoes": [
+        "Die Karte hat sicher ein Problem",
+        "Selbstbedienungskassen sind auf das inländische Debitnetz voreingestellt und weisen Kredit oft ab",
+        "Das ist ein Fehler des Geräts, der selten vorkommt",
+        "Kreditkarten funktionieren im ganzen Land nirgends"
+      ],
+      "correta": 1,
+      "explica": "Keine Fehlfunktion, keine Panik. Debitkarte oder Bargeld — die Schlange hinter dir merkt gar nichts davon."
+    },
+    {
+      "pergunta": "Mag ik dit ruilen? — worum bittest du?",
+      "opcoes": [
+        "Um eine Rückerstattung in bar",
+        "Um einen Umtausch",
+        "Um einen Preisnachlass",
+        "Um eine zweite Meinung"
+      ],
+      "correta": 1,
+      "explica": "Ruilen heißt umtauschen — derselbe Mag ik-Baustein aus B11, jetzt mit einem neuen Ding am Ende."
+    }
+  ]
+}

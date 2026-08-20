@@ -1,0 +1,79 @@
+{
+  "id": "q-b02",
+  "nivel": "basico",
+  "titulo": "Quiz — Goedendag, dank u wel",
+  "subtitulo": "Vier feste Wörter, eine Bäckerei, ein Kiosk und eine Rezeption",
+  "introAudioKey": "hol-b02-q-i",
+  "introPt": "Ein Reisender grüßt, dankt und verabschiedet sich dreimal an einem einzigen Vormittag.",
+  "cenario": "Eine Bäckerei, ein Kiosk am Bahnhof und eine Hotelrezeption.",
+  "dialogo": [
+    {
+      "audioKey": "hol-b02-q01",
+      "voz": "target_nl_f",
+      "es": "Goedendag! Alstublieft, uw brood.",
+      "pt": "Guten Tag! Bitte, Ihr Brot.",
+      "tts": "Goedendag! Alstublieft, uw brood."
+    },
+    {
+      "audioKey": "hol-b02-q02",
+      "voz": "target_nl_m",
+      "es": "Graag gedaan, tot ziens!",
+      "pt": "Gerne, auf Wiedersehen!",
+      "tts": "Graag gedaan, tot ziens!"
+    },
+    {
+      "audioKey": "hol-b02-q03",
+      "voz": "target_nl_m",
+      "es": "Dank je wel, en een fijne dag nog!",
+      "pt": "Danke dir, und noch einen schönen Tag!",
+      "tts": "Dank je wel, en een fijne dag nog!"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Die Glocke schlägt an, die Verkäuferin sieht auf. Was sagen Sie zuerst?",
+      "opcoes": ["Bedankt", "Goedendag", "Tot ziens", "Ihre Bestellung, direkt"],
+      "correta": 1,
+      "explica": "Der erste Ton gehört dem Gruß, nicht der Bestellung. Goedendag passt den ganzen Tag über, ohne dass Sie zwischen Morgen, Tag und Abend wählen müssen."
+    },
+    {
+      "pergunta": "Welche drei Formen gehören zum Baustein des Dankens?",
+      "opcoes": [
+        "Bedankt, dank u wel, dank je wel",
+        "Alstublieft, graag, bedankt",
+        "Goedendag, doei, tot ziens",
+        "Dank u wel, alstublieft, sorry"
+      ],
+      "correta": 0,
+      "explica": "Eine geschlossene Liste: bedankt ist kurz und überall sicher, dank u wel die höfliche Form mit u, dank je wel die vertraute, die Ihnen entgegenkommt."
+    },
+    {
+      "pergunta": "Jemand sagt zu Ihnen «Dank je wel». Was tun Sie?",
+      "opcoes": [
+        "Mit «Dank je wel» genauso antworten",
+        "Erkennen und zurücknicken — Sie müssen die Form nie selbst benutzen",
+        "Auf Deutsch antworten",
+        "Um Wiederholung bitten"
+      ],
+      "correta": 1,
+      "explica": "Dank je wel ist die vertraute Form, die man Ihnen entgegenbringt. Erkennen reicht; Sie produzieren im ganzen Kurs die höfliche Form mit u."
+    },
+    {
+      "pergunta": "An der Hotelrezeption bekommen Sie Ihren Schlüssel und wollen sich für heute Abend verabschieden. Was sagen Sie?",
+      "opcoes": ["Bedankt", "Goedendag", "Tot ziens", "Doei"],
+      "correta": 2,
+      "explica": "Tot ziens ist die sichere Abschiedsform bei Fremden. Doei ist die lockere Version, die Sie oft hören, aber selbst seltener eröffnen."
+    },
+    {
+      "pergunta": "Warum ist «dank u wel» der erste Baustein des Kurses?",
+      "opcoes": [
+        "Weil es nur an der Kasse funktioniert",
+        "Weil es sich nie ändert und hinter jeden Satz passt",
+        "Weil es die einzige höfliche Form im Niederländischen ist",
+        "Weil man es nur einmal am Tag sagen darf"
+      ],
+      "correta": 1,
+      "explica": "Kein Kasus, keine Beugung, keine Entscheidung — dank u wel bleibt an jedem Ort, jeden Tag, gleich, und ist deshalb der billigste Baustein des Kurses."
+    }
+  ]
+}

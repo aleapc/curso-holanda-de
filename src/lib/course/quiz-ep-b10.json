@@ -1,0 +1,96 @@
+{
+  "id": "q-b10",
+  "nivel": "basico",
+  "titulo": "Quiz — Lies das Schild, bevor du fragst",
+  "subtitulo": "Vier falsche Freunde, und der Baustein, der alles findet, was du noch nicht siehst",
+  "introAudioKey": "hol-b10-q-i",
+  "introPt": "Ein Sonntagmorgen, eine leere Straße, und ein Reisender, der mit Ik zoek jeden Ort findet, den er noch nicht kennt.",
+  "cenario": "Sonntag, halb zehn, eine Straße voller Rollläden.",
+  "dialogo": [
+    {
+      "audioKey": "hol-b10-q01",
+      "voz": "target_nl_f",
+      "es": "Ik zoek een pinautomaat.",
+      "pt": "Ich suche einen Geldautomaten.",
+      "tts": "Ik zoek een pinautomaat."
+    },
+    {
+      "audioKey": "hol-b10-q02",
+      "voz": "target_nl_m",
+      "es": "Op de hoek, bij de bank, rechts van de bakker.",
+      "pt": "An der Ecke, bei der Bank, rechts vom Bäcker.",
+      "tts": "Op de hoek, bij de bank, rechts van de bakker."
+    },
+    {
+      "audioKey": "hol-b10-q03",
+      "voz": "target_nl_m",
+      "es": "Let op: fietspad. Niet lopen.",
+      "pt": "Achtung: Radweg. Nicht darauf gehen.",
+      "tts": "Let op: fietspad. Niet lopen."
+    },
+    {
+      "audioKey": "hol-b10-q04",
+      "voz": "target_nl_m",
+      "es": "Hier bellen voor de conciërge.",
+      "pt": "Hier klingeln für den Hausmeister.",
+      "tts": "Hier bellen voor de conciërge."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Was kommt nach Ik zoek?",
+      "opcoes": [
+        "Ein Verb",
+        "Das Ding, das du noch nicht gefunden hast",
+        "Eine Zahl",
+        "Der Name der Straße"
+      ],
+      "correta": 1,
+      "explica": "Der Baustein ist Ik zoek plus ein Ding: een apotheek, een supermarkt, het centraal station. Er eröffnet die Suche, wenn du selbst nicht weißt, wo du bist."
+    },
+    {
+      "pergunta": "Ein Schild sagt Let op: fietspad. Was tust du?",
+      "opcoes": [
+        "Weitergehen, solange kein Fahrrad zu sehen ist",
+        "Vom farbigen Band heruntertreten, sofort",
+        "Stehen bleiben und fotografieren",
+        "Es als breiteren Gehweg benutzen"
+      ],
+      "correta": 1,
+      "explica": "Der Radweg ist eine eigene Fahrspur mit eigenem Vorrang, meist ohne Ampel und schneller, als der erste Blick verrät. Behandle ihn wie eine Autospur."
+    },
+    {
+      "pergunta": "Hier bellen voor de conciërge — was suchst du?",
+      "opcoes": [
+        "Einen Hund",
+        "Einen Klingelknopf",
+        "Ein Telefon zum Mitnehmen",
+        "Eine Rezeption mit Öffnungszeiten"
+      ],
+      "correta": 1,
+      "explica": "Bellen heißt telefonieren oder klingeln, nie das, was ein Hund tut. Drück den Knopf — das Schild bittet genau darum."
+    },
+    {
+      "pergunta": "Naar het Meer auf einem Wegweiser — worauf triffst du?",
+      "opcoes": [
+        "Auf das offene Meer mit Wellen",
+        "Auf einen See — oder manchmal einfach auf mehr",
+        "Auf einen Berg",
+        "Auf eine Grenze"
+      ],
+      "correta": 1,
+      "explica": "Meer ist hier ein See, nie das Meer mit Wellen. Dasselbe Wort trägt auch die Bedeutung mehr — der Kontext entscheidet."
+    },
+    {
+      "pergunta": "Slim Parkeren auf einem Parkschild — was verspricht es?",
+      "opcoes": [
+        "Wenig Platz für schmale Autos",
+        "Eine Diät für Fahrer",
+        "Cleveres Parken, meist mit einer Vergünstigung",
+        "Ein Parkverbot"
+      ],
+      "correta": 2,
+      "explica": "Slim heißt klug, nicht schlank. Das Schild verspricht eine Belohnung — hier meist die erste gratis Stunde — keine Diät."
+    }
+  ]
+}

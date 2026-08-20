@@ -1,0 +1,96 @@
+{
+  "id": "q-b04",
+  "nivel": "basico",
+  "titulo": "Quiz — Vijf beslissingen die uw eigen keukentafel nog mag nemen",
+  "subtitulo": "Contant, zondag, de stoel, het uitvoerpapier en de EHIC",
+  "introAudioKey": "de-b04-q-i",
+  "introPt": "Eén telefoontje, tien dagen vooraf, en vier getallen die goedkoper vanavond te leren zijn dan aan een balie.",
+  "cenario": "Uw keukentafel, de boeking op de laptop open, het pension aan de lijn.",
+  "dialogo": [
+    {
+      "audioKey": "de-b04-q01",
+      "voz": "target_de_f",
+      "es": "Guten Tag, ich habe eine Frage zur Buchung.",
+      "pt": "Goedendag, ik heb een vraag over de boeking.",
+      "tts": "Guten Tag, ich habe eine Frage zur Buchung."
+    },
+    {
+      "audioKey": "de-b04-q02",
+      "voz": "target_de_m",
+      "es": "Königstraße vierzehn, dritter Stock.",
+      "pt": "Königstraße veertien, derde verdieping.",
+      "tts": "Königstraße vierzehn, dritter Stock."
+    },
+    {
+      "audioKey": "de-b04-q03",
+      "voz": "target_de_f",
+      "es": "Nehmen Sie Karte?",
+      "pt": "Neemt u kaart aan?",
+      "tts": "Nehmen Sie Karte?"
+    },
+    {
+      "audioKey": "de-b04-q04",
+      "voz": "target_de_m",
+      "es": "Nur Bargeld, bitte.",
+      "pt": "Alleen contant, alstublieft.",
+      "tts": "Nur Bargeld, bitte."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Een winkel in Duitsland wuift uw kaart weg. Wat zegt de wet?",
+      "opcoes": [
+        "Ze moeten hem boven een minimumbedrag aanvaarden",
+        "Niets verplicht hen — bankbiljetten zijn hier het enige onbeperkte wettige betaalmiddel",
+        "Ze moeten hem aanvaarden als ze een terminal bezitten",
+        "Een kaart weigeren is een overtreding"
+      ],
+      "correta": 1,
+      "explica": "Er is in Duitsland geen plicht om kaarten te aanvaarden. Eurobankbiljetten zijn het enige onbeperkte wettige betaalmiddel, en een handelaar mag contant geld alleen weigeren wanneer vooraf een ander middel is afgesproken — dus «nur Bargeld» en «nur Karte» zijn allebei rechtsgeldig."
+    },
+    {
+      "pergunta": "U landt zondagmiddag met een lege koelkast. Wat is open, onder de resterende federale regel?",
+      "opcoes": [
+        "Alles, met kortere openingstijden",
+        "Supermarkten alleen in de grote steden",
+        "Niets — zondag winkelen is een feestdagregeling",
+        "De dienstdoende apotheek, een tankstation voor reisgoederen, een bakker in de ochtend, en winkels in stations en op luchthavens"
+      ],
+      "correta": 3,
+      "explica": "Winkels zijn dicht op zondagen en feestdagen en vanaf acht uur 's avonds op andere dagen. De uitzonderingen zijn smal en in de wet vastgelegd, en de zondagsbescherming is in de grondwet verankerd."
+    },
+    {
+      "pergunta": "U hebt een langeafstandskaartje. Hebt u een stoelreservering nodig?",
+      "opcoes": [
+        "Ja — het kaartje is niet geldig zonder",
+        "Alleen in eerste klas",
+        "Nee. De eigen clausule van de vervoerder noemt het een mogelijkheid; verplichte treinen dragen een R in de dienstregeling",
+        "Alleen in het weekend"
+      ],
+      "correta": 2,
+      "explica": "Reserveren kost 5,50 euro in tweede klas en 6,90 in eerste, en kan tot twaalf maanden vooraf. En een gereserveerde stoel is niet meer van u vijftien minuten nadat de trein het station heeft verlaten waar de reservering begon."
+    },
+    {
+      "pergunta": "Tax-free op weg de EU uit. Aan wie behoort de vrijstelling eigenlijk?",
+      "opcoes": [
+        "Aan de reiziger, die hem bij de fiscus terugvordert",
+        "Aan de handelaar — de reiziger krijgt een prijsvermindering die de winkel mag verlenen, minus een verwerkingsvergoeding",
+        "Aan de luchtvaartmaatschappij",
+        "Aan niemand, tenzij u meer dan 500 euro besteedt"
+      ],
+      "correta": 1,
+      "explica": "De regels eisen woonplaats buiten de EU, uitvoer binnen drie maanden en een totaal boven 50 euro — en de goederen moeten aan de grens in uw hand zijn, niet in het ruim. U ontvangt de volle negentien procent nooit, en dat is het systeem zoals geschreven."
+    },
+    {
+      "pergunta": "«Königstraße» — welke letter is dat vóór de e?",
+      "opcoes": [
+        "Een hoofdletter B",
+        "Een dubbele t",
+        "Een s, en niets extra om anders uit te spreken",
+        "Een stomme letter"
+      ],
+      "correta": 2,
+      "explica": "De ß is gewoon een stemloze s. Het is nooit een B, en er is niets extra om te zeggen. Schrijf hem als ss als u hem niet kunt typen en u zit binnen de regel, niet erbuiten."
+    }
+  ]
+}

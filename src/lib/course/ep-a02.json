@@ -1,0 +1,275 @@
+{
+  "id": "a02",
+  "nivel": "avancado",
+  "numero": 30,
+  "parte": "A02",
+  "titulo": "Worüber sie lachen, und der Scherz, der dir gehört",
+  "subtitulo": "Der Geiz-Witz ist ein Insiderwitz, «doe maar gewoon» ist die halbe Erziehung, und dein eigenes Niederländisch ist zuverlässiges Material",
+  "slot": "A02",
+  "moldura": "ganha",
+  "cena": "Der Rechnungsbetrag steht auf dem Tisch, und bevor du reagieren kannst, tippt schon jemand am Handy — der Tikkie-Link ist unterwegs, und alle am Tisch lachen bereits über sich selbst.",
+  "frasePiso": "Lach über den Tikkie-Witz mit, und du bist drin, statt daneben zu stehen. Mehr Vorbereitung braucht dieser Teil nicht.",
+  "permissao": "Du darfst einen Witz verpassen und das offen sagen. Sorry, wat was er grappig?, eine halbe Sekunde zu spät, kommt viel besser an als das höfliche Mitlächeln, das ohnehin durchschaut wird — und nachfragen, worüber gelacht wurde, ist hier das Freundlichste, was du nach einem gemeinsamen Lachen tun kannst.",
+  "permissaoAudioKey": "hol-a02-n09",
+  "espelho": "Wer je eine halbe Sekunde hinter einer Gruppe in der eigenen Sprache gelacht hat, kennt die kleine Panik dieses Teils bereits. Humor ist überall der Ort, an dem Sprachgefühl wirklich gemessen wird — und genau deshalb erwartet niemand, dass du hier in Woche zwei schnell bist.",
+  "fichasCulturais": [
+    {
+      "sinal": "Die Rechnung kommt, und noch bevor jemand etwas sagt, tippt schon jemand «Tikkie» ins Handy — und alle lachen, als wäre das selbst schon der Witz.",
+      "suaLeitura": "Über Geld reden gilt hier wohl als unhöflich, aber sie machen trotzdem einen Witz darüber, das verstehe ich nicht.",
+      "oQueEAli": "Es ist genau umgekehrt: Sparsamkeit und das exakte Teilen der Rechnung sind ein weithin akzeptierter Teil des Selbstbilds, und der niederländische Humor darüber ist selbstgewählt, nicht fremd zugefügt. Der Tikkie-Link, der Sekunden nach dem Essen verschickt wird, ist selbst schon eine kleine, liebevolle Pointe über die eigene Gründlichkeit beim Geld.",
+      "oQueVoceFaz": "Lach mit, statt betreten zu wirken — es ist kein Angriff auf dich. Wenn du magst, mach eine kleine, warme Bemerkung über deine eigene Rechnungskultur zu Hause; das kommt gut an.",
+      "oQueMelhora": "Du bekommst ein gemeinsames, risikoloses Lachthema, das an jedem Tisch funktioniert, ohne dass du selbst etwas Kluges sagen musst.",
+      "ondeNaoVale": "Es ist kein Freibrief, selbst als Erster einen Geiz-Witz zu machen, bevor du die Runde kennst — der Witz gehört ihnen, du lachst mit. Und in formellerem Rahmen, etwa bei einer Geschäftseinladung, bleibt das Thema Geld so zurückhaltend wie überall sonst in Europa.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["hol-a02-n05", "hol-a02-n06"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a02-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "Humor kommt zuletzt an und geht als Erstes daneben — also gehört ein Großteil dieses Teils deinem Ohr, wenig deinem Mund."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a02-n02",
+      "bloco": "callback",
+      "tom": "ganha",
+      "pt": "Erst der Öffner, der überall passt: dein eigenes Niederländisch ist gratis Material. Nutz ihn zuerst, bevor jemand anders es tun muss."
+    },
+    {
+      "consulta": ["simpatia/puxar-conversa"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-a02-p01",
+      "promptPt": "Du hast dich gerade zweimal versprochen, und alle haben es gehört. Sei als Erster darüber lustig. Sprich jetzt.",
+      "audioKey": "hol-a02-t01",
+      "es": "Mijn Nederlands is verschrikkelijk!",
+      "pinyin": "main NÉÉ-der-lants is fer-SCHRIK-ke-lük",
+      "pt": "Mein Niederländisch ist furchtbar!",
+      "tts": "Mijn Nederlands is verschrikkelijk!"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-a02-r01",
+      "tom": "ganha",
+      "receptivo": true,
+      "acao": "Nimm das Kompliment an und lass es dabei — dagegen anzureden macht aus einem kleinen Moment ein langes Gespräch.",
+      "es": "Welnee, dat is al heel goed hoor!",
+      "pinyin": "wel-NÉÉ, dat is al héél choet hoor",
+      "pt": "Aber nein, das ist doch schon sehr gut!",
+      "tts": "Welnee, dat is al heel goed hoor!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a02-n03",
+      "tom": "ganha",
+      "pt": "Zweitens, und der zuverlässigste Insiderwitz: das Geld. Sie machen ihn selbst, offen und gern."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_f",
+      "audioKey": "hol-a02-r02",
+      "tom": "ganha",
+      "receptivo": true,
+      "acao": "Der Link kommt oft noch am Tisch, keine Minute nach der letzten Gabel. Das ist der Witz — Präzision als Sport, nicht als Vorwurf.",
+      "es": "Ik stuur je zo een Tikkie, dan zijn we quitte!",
+      "pinyin": "ik stür jö zo en TIK-kie, dan zain wö KIT-te",
+      "pt": "Ich schick dir gleich einen Tikkie, dann sind wir quitt!",
+      "tts": "Ik stuur je zo een Tikkie, dan zijn we quitte!"
+    },
+    {
+      "consulta": ["simpatia/puxar-conversa", "pagar/rachar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-a02-p02",
+      "promptPt": "Der Link ist schon da, bevor du überhaupt dein Portemonnaie gesucht hast. Sag ihnen, dass dich das beeindruckt. Sprich jetzt.",
+      "audioKey": "hol-a02-t02",
+      "es": "Wat snel, dat had ik niet verwacht!",
+      "pinyin": "wat snel, dat had ik niet fer-WACHT",
+      "pt": "Wie schnell, das hätte ich nicht erwartet!",
+      "tts": "Wat snel, dat had ik niet verwacht!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a02-n04",
+      "tom": "ganha",
+      "pt": "Drittens: die direkte Antwort selbst ist manchmal der Witz. Ein knappes «nee» kommt ohne jede Boshaftigkeit."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-a02-r03",
+      "tom": "ganha",
+      "receptivo": true,
+      "acao": "Das «nee» ist die ganze Antwort, kein Vorspann nötig. Höre es als Effizienz, nicht als Kälte — es folgt fast immer ein Lächeln.",
+      "es": "Nee, dat wordt niks vanavond. Volgende keer beter!",
+      "pinyin": "néé, dat wort niks fan-AA-fond. FOL-chen-de KÉÉ-ke BÉÉ-ter",
+      "pt": "Nein, heute Abend wird das nichts. Nächstes Mal klappt's!",
+      "tts": "Nee, dat wordt niks vanavond. Volgende keer beter!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a02-n05",
+      "tom": "ganha",
+      "bloco": "capsula",
+      "pt": "Sparsamkeit als Insiderwitz ist der zuverlässigste des ganzen Kurses — sie machen ihn selbst, öfter als jeder Gast es könnte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a02-n06",
+      "tom": "ganha",
+      "pt": "Lach mit statt betreten zu wirken. Eine warme Bemerkung über die eigene Rechnungskultur zu Hause kommt fast immer gut an."
+    },
+    {
+      "consulta": ["simpatia/puxar-conversa", "pagar/rachar"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-a02-p03",
+      "promptPt": "Sie lachen über sich selbst wegen des Tikkie-Links. Zeig ihnen, dass ihr das auch kennt, nur langsamer. Sprich jetzt.",
+      "audioKey": "hol-a02-t03",
+      "es": "Bij ons duurt dat een week, en dan nog vaak niet!",
+      "pinyin": "bai ons dürt dat en wéék, en dan noch fak niet",
+      "pt": "Bei uns dauert das eine Woche, und dann oft immer noch nicht!",
+      "tts": "Bij ons duurt dat een week, en dan nog vaak niet!"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-a02-r04",
+      "tom": "ganha",
+      "receptivo": true,
+      "acao": "Ein Wort, das man sich merken sollte: gezellig. Es lobt die Stimmung, nicht dich persönlich — nimm es einfach an.",
+      "es": "Wat gezellig dat je meedoet, hoor!",
+      "pinyin": "wat che-ZEL-lich dat jö MÉÉ-doet, hoor",
+      "pt": "Wie schön, dass du mitmachst!",
+      "tts": "Wat gezellig dat je meedoet, hoor!"
+    },
+    {
+      "consulta": ["simpatia/agradecer"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "molde": "DANKE",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-a02-p04",
+      "promptPt": "Jemand hat dir gerade das gezellig-Kompliment gemacht. Bedank dich dafür, mit der Version, die du schon kennst. Sprich jetzt.",
+      "audioKey": "hol-a02-t04",
+      "es": "Dank je wel, dat is lief van je!",
+      "pinyin": "dank jö wel, dat is lief fan jö",
+      "pt": "Danke dir, das ist lieb von dir!",
+      "tts": "Dank je wel, dat is lief van je!"
+    },
+    {
+      "consulta": ["reparo/como-se-diz", "simpatia/puxar-conversa"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-a02-p05",
+      "promptPt": "Alle haben gerade gelacht, und du hast nichts davon mitbekommen. Frag nach, statt eine halbe Sekunde später falsch mitzulachen. Sprich jetzt.",
+      "audioKey": "hol-a02-t05",
+      "es": "Sorry, wat was er nou grappig?",
+      "pinyin": "SOR-rie, wat was er now CHRAP-pich",
+      "pt": "Sorry, was war denn jetzt lustig?",
+      "tts": "Sorry, wat was er nou grappig?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-a02-n07",
+      "tom": "ganha",
+      "pt": "Vierter Punkt: Direktheit selbst ist Stil, kein Fehler im System. Ein knapper Satz gilt als Respekt, nicht als Kälte."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-a02-r05",
+      "tom": "ganha",
+      "receptivo": true,
+      "acao": "«Doe maar gewoon» heißt wörtlich «benimm dich einfach normal» — der Rest des Satzes ist der eigentliche Witz.",
+      "es": "Doe maar gewoon, dan doe je al gek genoeg.",
+      "pinyin": "doe maar che-WOON, dan doe jö al chek che-NOECH",
+      "pt": "Benimm dich einfach normal, das ist schon verrückt genug.",
+      "tts": "Doe maar gewoon, dan doe je al gek genoeg."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a02-n08",
+      "tom": "ganha",
+      "pt": "Ein bekannter Spruch: gewöhnlich sein ist schon verrückt genug. Er nimmt sich selbst auf die Schippe, nicht dich."
+    },
+    {
+      "consulta": ["simpatia/puxar-conversa"],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-a02-p06",
+      "promptPt": "Jemand zitiert gerade den Spruch über das Normalsein, und alle am Tisch grinsen. Zeig, dass du die Pointe verstanden hast. Sprich jetzt.",
+      "audioKey": "hol-a02-t06",
+      "es": "Haha, die snap ik, goed gezegd!",
+      "pinyin": "ha-HA, die snap ik, choet che-ZECHT",
+      "pt": "Haha, die verstehe ich, gut gesagt!",
+      "tts": "Haha, die snap ik, goed gezegd!"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-a02-s01",
+      "tom": "ganha",
+      "es": "Mijn Nederlands is verschrikkelijk! Sorry, wat was er nou grappig? Wat gezellig dat je meedoet!",
+      "pinyin": "main NÉÉ-der-lants is fer-SCHRIK-ke-lük! SOR-rie, wat was er now CHRAP-pich? wat che-ZEL-lich dat jö MÉÉ-doet",
+      "pt": "Schatte die drei nach, die einen Tisch für dich öffnen: über dich selbst lachen, nachfragen, das Kompliment annehmen.",
+      "tts": "Mijn Nederlands is verschrikkelijk! Sorry, wat was er nou grappig? Wat gezellig dat je meedoet!"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "hol-a02-n10",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "A02 fertig. Lach zuerst über dich selbst, dann mit beim Geld-Witz, und frag ruhig nach, wenn dir eine Pointe entgeht."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Empfangender Humor, das eigene Material, und ein Spruch, der die halbe Erziehung ist",
+    "secoes": [
+      {
+        "titulo": "Dein eigenes Niederländisch ist das zuverlässigste Material",
+        "corpo": "Selbstironie ist das Register, das überall funktioniert, und hier ist es dazu noch billig herzustellen. Ein versprochener Satz, ein falscher Freund, eine verrutschte Aussprache — all das lässt sich mit einem Lächeln benennen, bevor jemand anders höflich darüber hinweggehen muss. Mijn Nederlands is verschrikkelijk ist der Öffner; die übliche Antwort welnee, dat is al heel goed will man dann einfach annehmen, nicht abwehren.",
+        "exemplos": [
+          { "es": "Mijn Nederlands is verschrikkelijk!", "pt": "Mein Niederländisch ist furchtbar!" },
+          { "es": "Welnee, dat is al heel goed hoor!", "pt": "Aber nein, das ist doch schon sehr gut!" }
+        ]
+      },
+      {
+        "titulo": "Der Geld-Witz gehört ihnen, nicht dir",
+        "corpo": "Sparsamkeit und das exakte Teilen der Rechnung sind ein weithin akzeptierter Teil des eigenen Selbstbilds, und der Humor darüber ist selbstgewählt. Der Tikkie-Link, der oft schon am Tisch verschickt wird, ist selbst die Pointe — Präzision beim Geld als kleiner, liebevoller Sport. Als Gast lachst du mit, statt betreten zu wirken; einen eigenen Geiz-Witz als Erster zu machen, bevor du die Runde kennst, ist der eine Fauxpas, den es hier zu vermeiden gilt."
+      },
+      {
+        "titulo": "«Doe maar gewoon» — die halbe Erziehung in einem Satz",
+        "corpo": "Doe maar gewoon, dan doe je al gek genoeg — benimm dich einfach normal, das ist schon verrückt genug — ist einer der bekanntesten niederländischen Alltagssprüche und ein guter Schlüssel zum Humorstil: Er nimmt Angeberei aufs Korn, nicht die Person, und funktioniert als Selbstermahnung, nicht als Vorwurf an andere. Wer ihn zitiert, macht sich meist selbst zum Ziel des Witzes."
+      },
+      {
+        "titulo": "Direktheit als Stil, nicht als Fehler",
+        "corpo": "Ein knappes nee ohne Vorspann kann für ein deutsches Ohr abrupt klingen, ist hier aber als Effizienz gemeint, nicht als Kälte — und wird oft von einem Lächeln begleitet, das die Wärme trägt, wo bei dir zu Hause ein Satz mehr stünde. Diese Direktheit selbst wird gelegentlich zum Witzstoff: ein besonders knapper Satz, ironisch überzogen, ist eine anerkannte kleine Pointe unter Freunden."
+      },
+      {
+        "titulo": "Was du nicht produzierst",
+        "corpo": "Dieser Teil ist absichtlich empfangend aufgebaut. Du lernst, den Geld-Witz, die Direktheit und gezellig als Kompliment zu erkennen — du musst selbst keinen Witz auf Niederländisch bauen, und niemand erwartet das von dir. Das einzige, was du produzierst, ist die ehrliche Nachfrage, wenn dir eine Pointe entgeht, und das Lachen über dich selbst, das überall funktioniert."
+      }
+    ]
+  }
+}

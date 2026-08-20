@@ -1,0 +1,96 @@
+{
+  "id": "q-b18",
+  "nivel": "basico",
+  "titulo": "Quiz — Hoe laat is, am letzten Tag",
+  "subtitulo": "Die Rezeption am letzten Morgen, der Frühstücksraum, und ein Bahnsteig zum Flughafen",
+  "introAudioKey": "hol-b18-q-i",
+  "introPt": "Der letzte Morgen, der Koffer halb gepackt, und ein Baustein, der jede Uhrzeit herausholt.",
+  "cenario": "Der letzte Morgen in Delft, der Koffer halb gepackt.",
+  "dialogo": [
+    {
+      "audioKey": "hol-b18-q01",
+      "voz": "target_nl_f",
+      "es": "Hoe laat is de check-out?",
+      "pt": "Wann ist der Check-out?",
+      "tts": "Hoe laat is de check-out?"
+    },
+    {
+      "audioKey": "hol-b18-q02",
+      "voz": "target_nl_m",
+      "es": "Uitchecken kan tot elf uur.",
+      "pt": "Auschecken geht bis elf Uhr.",
+      "tts": "Uitchecken kan tot elf uur."
+    },
+    {
+      "audioKey": "hol-b18-q03",
+      "voz": "target_nl_f",
+      "es": "Mag ik mijn koffer hier laten?",
+      "pt": "Darf ich meinen Koffer hier lassen?",
+      "tts": "Mag ik mijn koffer hier laten?"
+    },
+    {
+      "audioKey": "hol-b18-q04",
+      "voz": "target_nl_m",
+      "es": "Natuurlijk, u kunt hem tot vanavond ophalen.",
+      "pt": "Natürlich, Sie können ihn bis heute Abend abholen.",
+      "tts": "Natuurlijk, u kunt hem tot vanavond ophalen."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Was kommt nach Hoe laat is?",
+      "opcoes": [
+        "Ein Verb",
+        "Das Ding, dessen Uhrzeit du wissen willst",
+        "Ein Ort",
+        "Eine Person"
+      ],
+      "correta": 1,
+      "explica": "Hoe laat is trägt jede Uhrzeit — de check-out, het ontbijt, de volgende trein. Nur das Ding am Ende wechselt, nie das Verb."
+    },
+    {
+      "pergunta": "Warum ist die Check-out-Zeit selten irgendwo ausgehängt?",
+      "opcoes": [
+        "Weil sie gesetzlich geheim gehalten wird",
+        "Weil sie eine betriebliche Gewohnheit jeder einzelnen Unterkunft ist, keine landesweite Regel",
+        "Weil sie sich täglich ändert",
+        "Weil niemand danach fragt"
+      ],
+      "correta": 1,
+      "explica": "Check-out-Zeiten variieren von Haus zu Haus. Frag am Vortag oder am letzten Morgen — das ist die übliche, erwartete Frage."
+    },
+    {
+      "pergunta": "Mag ik mijn koffer hier laten? — welcher Baustein kehrt hier zurück?",
+      "opcoes": [
+        "Hoeveel kost, aus B15",
+        "Mag ik, aus B11 und B14",
+        "Ik zoek, aus B10",
+        "Waar is, aus B08"
+      ],
+      "correta": 1,
+      "explica": "Derselbe Baustein aus B11 und B14 — nur das Ding am Ende ist jetzt der Koffer, nicht der Kaffee oder die Rechnung."
+    },
+    {
+      "pergunta": "Uitchecken kan tot elf uur — was ist die einzige Zahl, die zählt?",
+      "opcoes": [
+        "Elf",
+        "Vier",
+        "Zwölf",
+        "Es gibt keine Zahl"
+      ],
+      "correta": 0,
+      "explica": "Tot heißt bis. Elf uur ist die Zahl, die du dir merkst, bevor du zurück ins Zimmer gehst."
+    },
+    {
+      "pergunta": "U kunt hem tot vanavond ophalen — wann?",
+      "opcoes": [
+        "Morgen früh",
+        "Heute Abend",
+        "Sofort",
+        "Nächste Woche"
+      ],
+      "correta": 1,
+      "explica": "Vanavond heißt heute Abend. Der Koffer wartet an der Rezeption, du musst nichts weiter tun, bis du zurückkommst."
+    }
+  ]
+}

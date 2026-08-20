@@ -1,0 +1,384 @@
+{
+  "id": "a07",
+  "nivel": "avancado",
+  "numero": 35,
+  "parte": "A07",
+  "titulo": "Het aanbod dat u nooit doet, en alleen hoeft aan te nemen",
+  "subtitulo": "Sie draagt de hele reis; de overstap naar du komt van de andere kant van de tafel, uw voornaam kan bij Sie opduiken, en de rusturen staan opgeschreven",
+  "cena": "Vierde avond in dezelfde Kneipe. De man die u drie keer heeft bediend, leunt over de bar en zegt een zin met uw voornaam erin — en later, boven, klopt iemand om tien over tien aan.",
+  "moldura": "ganha",
+  "frasePiso": "U gebruikt Sie de hele reis en herkent het aanbod als het komt. Dat is het hele systeem, en het bestaat uit één woord.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "de-a07-du-angebot",
+      "afirmacao": "Duits kent twee manieren om u te zeggen, en de reiziger heeft er maar één van nodig. De Duden-taalgids stelt dat in het zakenleven en bij nieuwe contacten Sie in eerste instantie de juiste aanspreekvorm is, en beschrijft het du als iets dat naar beneden wordt aangeboden — de baas biedt het de werknemer aan, de oudere collega de jongere — waarbij het ongevraagde du van een senior aan een junior als slechte manieren geldt. De taalkundige Horst Simon van de Vrije Universiteit Berlijn, geïnterviewd door Spektrum der Wissenschaft op 27 maart 2023, relativeert de hiërarchie — iedereen mag het aanbieden — en legt de echte asymmetrie ergens anders: de persoon die het aanbod krijgt kan het nauwelijks weigeren. De overstap is eenrichtings- en in de praktijk onomkeerbaar. Simon zegt ook dat de bewering dat het Sie verdwijnt niet bewezen is; het enige gevonden kwantitatieve gegeven, een Appinio-enquête van 7 januari 2026 met 4.877 respondenten van 16 tot 54, laat 54 procent Sie gebruiken tegen hun baas en in elke leeftijdsgroep steunt minder dan tien procent afschaffing van het Sie.",
+      "fonte": "Duden, Sprachratgeber «Duzen oder Siezen?», verbatim: «Grundsätzlich ist im Geschäftsleben oder bei neuen Kontakten aber zunächst das Sie die korrekte Ansprache» e «das Du wird von oben nach unten angeboten». Horst Simon (FU Berlin), entrevista à Spektrum der Wissenschaft, 27/3/2023 [RESUMO]. Irreversibilidade: Finkenstaedt 1963: 232, citado num trabalho da Univ. Oldenburg — o original NÃO foi acessado. Appinio, «Siezen oder Duzen», 7/1/2026, N=4.877, 16–54 anos [RESUMO]: instituto comercial, representatividade não declarada, faixa etária para em 54. Besch (1998) e Simon (2003): FONTES NÃO ACESSADAS. A assimetria de custo (o Sie a mais é barato, o du não solicitado não é) é raciocínio, não achado medido — não há fonte que meça consequência de erro de tratamento por estrangeiro.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "CONSENSO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-a07-n02",
+        "de-a07-n03"
+      ]
+    },
+    {
+      "id": "de-a07-hamburger-sie",
+      "afirmacao": "Uw voornaam en Sie kunnen in dezelfde zin voorkomen, en dat is geen versprekening. De Atlas zur deutschen Alltagssprache, een enquêteproject met gepubliceerde kaarten, vroeg in de achtste ronde precies naar deze mengvormen. Voornaam plus Sie — «Thomas, wann kommen Sie morgen?», bekend als het Hamburger Sie — komt het vaakst voor in Noord-Duitsland en is zeldzaam in het zuiden, in West-Oostenrijk en Zwitserland. Achternaam plus du wordt gemeld als af en toe in het hele gebied en ongebruikelijk in het noorden en oosten, terwijl Herr of Frau plus achternaam plus du, dat de atlas zelf het Münchner Du noemt, overal grotendeels ongebruikelijk is en alleen af en toe in Oost-Oostenrijk en Oost-Duitsland.",
+      "fonte": "Atlas zur deutschen Alltagssprache (AdA), Elspaß (Salzburg) / Möller (Liège), Rodada 8, questões 6c–6e [RESUMO — página lida por fetch]. RESSALVA DE MÉTODO: o AdA publica categorias ordinais (üblich / ab und zu / unüblich) por localidade e NÃO percentuais — qualquer número percentual atribuído ao AdA seria invenção. Há divergência de rótulo: a tradição popular chama sobrenome+du de «Münchner Du»; o AdA aplica o rótulo à variante Herr/Frau+sobrenome+du.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-a07-n05"
+      ]
+    },
+    {
+      "id": "de-a07-ruhezeit",
+      "afirmacao": "Rusturen in Duitsland zijn een opgeschreven regel en geen stemming, maar de federale versie is smaller dan het verhaal dat rondgaat. § 7 van de 32e federale immissiebeschermingsverordening bepaalt dat de in de bijlage genoemde apparaten en machines in woongebieden op zondagen en feestdagen helemaal niet gebruikt mogen worden, en op werkdagen tussen acht uur 's avonds en zeven uur 's ochtends. Die norm dekt de machines uit de bijlage — grasmaaiers, bladblazers en dergelijke — en geen geluid in het algemeen. De algemene nachtrust van tien 's avonds tot zes 's ochtends, en de volle zondagsrust, komen uit deelstaatwet, gemeentelijke verordening en het huisreglement van het afzonderlijke gebouw.",
+      "fonte": "§ 7 da 32. BImSchV, aberto em gesetze-im-internet.de, verbatim quanto ao escopo: «an Sonn- und Feiertagen ganztägig sowie an Werktagen in der Zeit von 20.00 Uhr bis 07.00 Uhr». DELIMITAÇÃO OBRIGATÓRIA: a norma federal cobre as máquinas do anexo, não «barulho» em geral; a Nachtruhe genérica (22h–6h) e a Sonntagsruhe integral vêm de lei estadual, regulamento municipal e Hausordnung. Não escrever «é proibido por lei fazer barulho no domingo na Alemanha» sem essa qualificação.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-a07-n07"
+      ]
+    },
+    {
+      "id": "de-a07-daumen",
+      "afirmacao": "Er is een gepubliceerd onderzoek dat vastlegt dat de telhand hier op een andere plek begint. Pika, Nicoladis en Marentette, «How to order a beer: Cultural differences in the use of conventional gestures for numbers», Journal of Cross-Cultural Psychology 40(1), 2009, melden in de samenvatting, verbatim: «only the Germans use the thumb to indicate the number 1, whereas the two North American cultures use the index finger.» De studie is klein — in totaal zestig deelnemers — en gebruikte hypothetische scenario's en geen naturalistische observatie, dus dit is een gedocumenteerd patroon en niet iets dat over elke toonbank in het land bewezen is. Wat de studie helemaal niet meet is wat de barman vervolgens doet, dus het bekende verhaal over één wijsvinger omhoog en twee bier krijgen is een anekdote en blijft dat.",
+      "fonte": "Pika, Nicoladis & Marentette, JCCP 40(1), 2009 — abstract verbatim. n=60 no total, cenários hipotéticos, não observação naturalística: dizer «há um estudo publicado que documenta esse padrão», não «está provado». O corolário «…e você recebe duas cervejas» é FOLCLORE e foi recusado: o estudo mede a FORMA do gesto, não a consequência comunicativa.",
+      "ano": 2026,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-a07-n09"
+      ]
+    },
+    {
+      "id": "de-a07-fussgaenger",
+      "afirmacao": "Wachten bij een lege oversteek tot het mannetje op groen springt is een wettelijke regel en geen lokale gril: § 25 van de Duitse Straßenverkehrs-Ordnung regelt voetgangers en lichtsignalen, en tegen het signaal in oversteken is een overtreding met een kleine boete ter plekke. Het bedrag dat in Duitse boetecatalogi verschijnt is vijf euro, oplopend wanneer er een ongeval volgt — maar die waarde komt van een commerciële catalogussite, en de officiële bijlage bij de boeteverordening kon niet geopend worden, dus het staat vermeld zoals catalogi het noemen en niet als geverifieerde wet.",
+      "fonte": "§ 25 StVO, gesetze-im-internet.de. VALOR NÃO VERIFICADO EM FONTE OFICIAL: o Verwarnungsgeld de 5 € (10 € com consequência de acidente) vem de bussgeldkatalog.de, site comercial; a Anlage do BKatV devolveu 404. Apresentar como «Verwarnungsgeld de 5 €, conforme catálogos alemães».",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "CONSENSO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-a07-n08"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a07-n01",
+      "gesto": 4,
+      "bloco": "aquecimento",
+      "pt": "Vierde avond in dezelfde bar. De man die u drie keer heeft bediend leunt in en zegt iets nieuws."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a07-n02",
+      "bloco": "corpo",
+      "pt": "Sie is de instapvorm voor elke volwassene die u niet kent, en draagt de hele reis. U kiest nooit."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-a07-r01",
+      "receptivo": true,
+      "es": "Wir können uns gerne duzen.",
+      "pinyin": "veer KURN-en oons GAIR-nuh DOO-tsen",
+      "pt": "We mogen elkaar rustig tutoyeren.",
+      "tts": "Wir können uns gerne duzen.",
+      "acao": "Dat is het aanbod, en het komt van hun kant van de bar. Eén woord terug is het hele antwoord."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a07-n03",
+      "pt": "Het wordt aangeboden, nooit genomen. Iedereen mag aanbieden, en wie het krijgt kan bijna geen nee zeggen."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "chegar/tu-usted"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-a07-p01",
+      "promptPt": "Hij heeft net de deur opengezet en wacht. Neem het aan, en geef het enige stukje info dat hem nog ontbreekt. Spreek nu.",
+      "audioKey": "de-a07-t01",
+      "es": "Gerne! Ich bin Alex.",
+      "pinyin": "GAIR-nuh! ikh bin AH-lex",
+      "pt": "Graag! Ik ben Alex.",
+      "tts": "Gerne! Ich bin Alex."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-a07-r02",
+      "receptivo": true,
+      "es": "Sag doch einfach Thomas zu mir.",
+      "pinyin": "zahk dokh INE-fakh TOH-mas tsoo meer",
+      "pt": "Zeg gewoon Thomas tegen mij.",
+      "tts": "Sag doch einfach Thomas zu mir.",
+      "acao": "Zelfde aanbod, andere vorm. U krijgt een naam aangereikt, niet de opdracht iets slims met de grammatica te doen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a07-n04",
+      "pt": "Gerne, en dan uw voornaam. Dat is warmer dan elke langere zin die u nu kunt bouwen."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "DANKE",
+      "encaixe": "vielen Dank",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-a07-p02",
+      "promptPt": "Iemand heeft een avond makkelijker gemaakt dan hij hoefde te zijn. Sluit het moment netjes af. Spreek nu.",
+      "audioKey": "de-a07-t02",
+      "es": "Vielen Dank, das ist sehr nett.",
+      "pinyin": "FEE-len dahnk, das ist zair net",
+      "pt": "Hartelijk dank, dat is heel aardig.",
+      "tts": "Vielen Dank, das ist sehr nett."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-a07-r03",
+      "receptivo": true,
+      "es": "Thomas, wann kommen Sie morgen?",
+      "pinyin": "TOH-mas, van KOM-en zee MOR-gen",
+      "pt": "Thomas, wanneer komt u morgen?",
+      "tts": "Thomas, wann kommen Sie morgen?",
+      "acao": "Voornaam en Sie in één zin is in het noorden gewoon. Het is warmte, geen aanbod — blijf bij Sie."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a07-n05",
+      "bloco": "capsula",
+      "pt": "Uw voornaam kan bij Sie horen, en in het noorden is dat normaal en geen verspreking."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-a07-p03",
+      "promptPt": "Twee mensen aan de tafel naast u zijn midden in een gesprek en u wilt de plek ernaast. Check het voor u gaat zitten. Spreek nu.",
+      "audioKey": "de-a07-t03",
+      "es": "Entschuldigung, störe ich?",
+      "pinyin": "ent-SHOOL-di-goong, SHTUR-uh ikh",
+      "pt": "Pardon, stoor ik?",
+      "tts": "Entschuldigung, störe ich?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a07-n06",
+      "pt": "Ö is uw eigen eu van neus — die klank heeft u al. Zelfde voor ü: uw uu van huis. Beide gratis."
+    },
+    {
+      "consulta": [
+        "mesa/bebida",
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-a07-p04",
+      "promptPt": "Aan de toog, drie rijen diep, één hand vrij en geen tijd voor een zin. Bestel, en houd de duim omhoog. Spreek nu.",
+      "audioKey": "de-a07-t04",
+      "es": "Einmal Bier, bitte.",
+      "pinyin": "INE-mahl beer, BIT-tuh",
+      "pt": "Eén bier, alstublieft.",
+      "tts": "Einmal Bier, bitte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a07-n09",
+      "pt": "Eentje voor de toog: een bier begint hier met de duim, niet met de wijsvinger. Daar bestaat onderzoek over."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-a07-r04",
+      "receptivo": true,
+      "es": "Könnten Sie das bitte etwas leiser machen? Es ist nach zehn.",
+      "pinyin": "KURN-ten zee das BIT-tuh ET-vas LY-zer MAKH-en? es ist nakh tsayn",
+      "pt": "Kunt u het iets zachter zetten, alstublieft? Het is na tienen.",
+      "tts": "Könnten Sie das bitte etwas leiser machen? Es ist nach zehn.",
+      "acao": "Een klop met een tijd erin is een verzoek, geen oordeel. Antwoord en zet zachter; meer wordt niet gevraagd."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-a07-n07",
+      "pt": "Rusturen staan hier opgeschreven. De genoemde machines stoppen om acht uur 's avonds op een werkdag."
+    },
+    {
+      "consulta": [
+        "quarto/nao-funciona",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-a07-p05",
+      "promptPt": "Uw raam staat open, de binnenplaats draagt alles, en er is net licht aangegaan aan de overkant. Vraag het voor iemand klopt. Spreek nu.",
+      "audioKey": "de-a07-t05",
+      "es": "Entschuldigung, sind wir zu laut?",
+      "pinyin": "ent-SHOOL-di-goong, zint veer tsoo lowt",
+      "pt": "Pardon, zijn wij te luid?",
+      "tts": "Entschuldigung, sind wir zu laut?"
+    },
+    {
+      "consulta": [
+        "quarto/nao-funciona"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-a07-p06",
+      "promptPt": "Er is beleefd geklopt, en de persoon staat er nog. Geef de vier woorden die het beëindigen. Spreek nu.",
+      "audioKey": "de-a07-t06",
+      "es": "Ja, ich mache es leiser.",
+      "pinyin": "yah, ikh MAKH-uh es LY-zer",
+      "pt": "Ja, ik zet het zachter.",
+      "tts": "Ja, ich mache es leiser."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a07-n08",
+      "pt": "En de oversteek: u wacht op het groene mannetje, ook op een lege straat, want de regel is een regel."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-a07-p07",
+      "promptPt": "Jas aan, glas leeg, en aan tafel gaat het gesprek door. Laat de avond open achter u. Spreek nu.",
+      "audioKey": "de-a07-t07",
+      "es": "Schönen Abend noch!",
+      "pinyin": "SHUR-nen AH-bent nokh",
+      "pt": "Nog een fijne avond!",
+      "tts": "Schönen Abend noch!"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-a07-s01",
+      "molde": "DANKE",
+      "es": "Gerne! Ich bin Alex. Vielen Dank, das ist sehr nett. Schönen Abend noch!",
+      "pinyin": "GAIR-nuh! ikh bin AH-lex. FEE-len dahnk, das ist zair net. SHUR-nen AH-bent nokh",
+      "pt": "Schaduw de drie voor een warme zaal: neem het aanbod, bedank, en laat het open.",
+      "tts": "Gerne! Ich bin Alex. Vielen Dank, das ist sehr nett. Schönen Abend noch!"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_f",
+      "audioKey": "de-a07-n10",
+      "bloco": "recap",
+      "pt": "A07 klaar. Sie de hele weg, gerne als het wordt aangeboden, en één korte zin als de zaal vraagt."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Eén aanspreekvorm, één aanbod, en de uren die opgeschreven staan",
+    "secoes": [
+      {
+        "titulo": "Waarom dit het makkelijkste systeem van de cursus is",
+        "corpo": "Vijf bestemmingen in deze catalogus vragen een bezoeker om onder druk aan een toonbank te kiezen tussen een formele en een familiaire u. Duits doet dat niet. Sie is de instapvorm voor elke volwassene die u niet kent — in een winkel, bij een ambtenaar, op het werk — en blijft de hele reis correct, wat betekent dat er geen beslissing is die u fout kunt doen. De overstap naar du is een aanbod, en aanboden komen van de andere kant. De Duden-taalgids zegt het duidelijk: Sie is de juiste aanspreekvorm in het zakenleven en bij nieuwe contacten, en het du wordt naar beneden aangeboden, van de senior aan de junior, waarbij het ongevraagde du in de andere richting als slechte manieren geldt. Een taalkundige aan de Vrije Universiteit Berlijn verzacht de hiërarchie — iedereen mag in feite aanbieden — en wijst op het deel dat meer weegt: wie het aangeboden krijgt, kan het bijna niet weigeren. Vandaar dat u nooit degene bent die aanbiedt."
+      },
+      {
+        "titulo": "Hoe het aanbod klinkt, en het ene woord dat het beantwoordt",
+        "corpo": "Wir können uns gerne duzen is de standaardvorm. Sag doch einfach Thomas zu mir is hetzelfde zijdelings gedaan, met de naam aangereikt in plaats van de regel benoemd. Hoe dan ook is het antwoord kort: gerne, en uw eigen voornaam. Er wordt op dat moment geen vloeiende zin van u verwacht, en niets in het aanbod verplicht u om vanaf dat moment anders te spreken — de meesten die het aannemen krijgen het de rest van de avond fout, en niemand die net het aanbod deed telt mee. Wat wel de moeite waard is om te weten, is dat de overstap niet terugkomt. Hij is eenrichtings en in de praktijk onomkeerbaar, en juist daarom wordt hij overgelaten aan de persoon die er woont.",
+        "exemplos": [
+          {
+            "es": "Gerne! Ich bin Alex.",
+            "pt": "Graag! Ik ben Alex."
+          },
+          {
+            "es": "Vielen Dank, das ist sehr nett.",
+            "pt": "Hartelijk dank, dat is heel aardig."
+          }
+        ]
+      },
+      {
+        "titulo": "Uw voornaam plus Sie, wat geen fout is",
+        "corpo": "Thomas, wann kommen Sie morgen. Voornaam, formeel u, één adem. De enquête-atlas van alledaags Duits vroeg er precies naar en vond het het vaakst in Noord-Duitsland, zeldzaam in het zuiden, in West-Oostenrijk en in Zwitserland; het heet het Hamburger Sie. De spiegel — Herr of Frau plus achternaam plus du, dat de atlas het Münchner Du noemt — is overal grotendeels ongebruikelijk. Wat u ermee doet is helemaal niets behalve herkennen: uw voornaam horen van iemand die nog Sie gebruikt is een kleine stap naar u toe, geen verspreking en geen aanbod, en het juiste antwoord is doorgaan met wat u al deed. Eén methodologische waarschuwing, want die verandert wat gezegd mag worden: de atlas publiceert ordinale categorieën per locatie en helemaal geen percentages, dus elk cijfer dat eraan wordt gekoppeld is verzonnen."
+      },
+      {
+        "titulo": "Rusturen, en de nuance die mee moet reizen",
+        "corpo": "Er is een echte federale regel over geluid en die is smaller dan zijn reputatie. De 32e immissiebeschermingsverordening verbiedt in woongebieden het gebruik van de in de bijlage genoemde machines op zondagen en feestdagen de hele dag, en op werkdagen tussen acht uur 's avonds en zeven uur 's ochtends. Dat gaat over grasmaaiers en bladblazers, niet over gesprek en niet over muziek. De bekende nachtrust van tien tot zes, en de volle zondagsrust, komen uit deelstaatwet, gemeentelijke verordening en het huisreglement van het afzonderlijke gebouw — vandaar dat de klop op uw deur om tien over tien volstrekt gewoon is en ook waarom niemand u er één nationale wet voor kan citeren. Behandel de klop voor wat hij is: een verzoek met een tijd eraan, in één zin beantwoord.",
+        "exemplos": [
+          {
+            "es": "Entschuldigung, sind wir zu laut?",
+            "pt": "Pardon, zijn wij te luid?"
+          },
+          {
+            "es": "Ja, ich mache es leiser.",
+            "pt": "Ja, ik zet het zachter."
+          }
+        ]
+      },
+      {
+        "titulo": "De duim, het groene mannetje, en wat hier niet wordt beweerd",
+        "corpo": "Twee kleine dingen reizen mee. De telhand begint met de duim: een studie uit 2009 laat zien dat alleen de Duitse deelnemers de duim gebruikten voor het getal één, waar de twee Noord-Amerikaanse groepen de wijsvinger gebruikten. Beschouw het als een gedocumenteerd patroon en niet als wet — zestig deelnemers, hypothetische scenario's — en laat het verhaal dat erbij hoort, over één bier bestellen met de wijsvinger en er twee krijgen, achterwege. De studie mat de vorm van het gebaar en niets over wat de barman vervolgens deed. Het andere is de oversteek: de verkeersregeling regelt voetgangers bij lichtsignalen, en ertegen oversteken is een overtreding met een kleine boete ter plekke, in Duitse catalogi op vijf euro gezet al kon de officiële bijlage niet worden geopend om het te bevestigen. En wat deze cursus niet beweert, omdat er geen data voor zijn: niets over handdrukken — hun stevigheid, hun volgorde, of ze na 2020 zijn teruggekomen — en niets over oogcontact bij het proosten. Die regels circuleren breed en rusten op etiquetteboeken en niet op waarneming."
+      }
+    ]
+  },
+  "slot": "A07",
+  "permissao": "U mag de hele reis op Sie blijven en er geen enkele keer vanaf gaan. Het leest niet als koelheid — het is de gewone instapvorm voor een volwassene die u niet kent, en de fout die het voorkomt is de dure en niet de goedkope. U mag ook een aanbod van du met één woord aannemen en het de rest van de avond fout doen; degene die het aanbod deed telt niet mee. En als iemand aanklopt over het geluid, mag u in vier woorden antwoorden en teruggaan naar waar u mee bezig was — een verzoek met een tijd erin is afgelopen op het moment dat u ja zegt.",
+  "permissaoAudioKey": "de-a07-n02",
+  "espelho": "De bezoekersgewoonte die hier vreemd overkomt is degene die thuis vriendelijk voelt: binnen een minuut na kennismaken overgaan op voornamen, omdat formaliteit als opzettelijk afstand houden voelt. Hier is die overstap zonder terugweg als hij eenmaal is gemaakt, en juist daarom wordt hij overgelaten aan degene die met het gevolg moet leven — en juist daarom kost het u helemaal niets om de gast te zijn die wachtte tot het werd aangeboden.",
+  "fichasCulturais": [
+    {
+      "sinal": "Iemand met wie u drie of vier keer heeft gesproken zegt wir können uns gerne duzen, en de tafel wacht op u.",
+      "suaLeitura": "Er is net een regel opgeworpen die ik niet ken, en ik ga zo een beleefdheidstest afleggen.",
+      "oQueEAli": "Het is een aanbod, geen examen. Sie is de juiste instapvorm bij nieuwe contacten, du wordt aangeboden en niet genomen, en wie het aangeboden krijgt kan bijna niet weigeren — daarom blijft de overstap bij de bewoner en is het krijgen ervan een klein compliment en geen valstrik.",
+      "oQueVoceFaz": "Zeg gerne en geef uw voornaam. Dat is het hele antwoord, en er wordt vanavond geen verdere verandering aan uw Duits van u verwacht.",
+      "oQueMelhora": "U behandelt een gewoon warm gebaar niet meer als een grammatica-examen, en de avond loopt binnen een seconde door in plaats van aan uw kant van de tafel vast te lopen.",
+      "ondeNaoVale": "De literatuur hierachter is dun en de cursus zegt dat: de onomkeerbaarheid rust op een werk uit 1963 dat alleen via derden bekend is, de standaardwerken over aanspreekvormen waren niet te openen, en het idee dat een Sie te veel goedkoop is terwijl een ongevraagd du duur is, is redenering en geen gemeten bevinding — niemand heeft onderzocht wat het een buitenlander kost. Het enige enquêtecijfer komt van een commercieel instituut waarvan het monster stopt bij 54. En de regel die rondgaat over wie eerst aanbiedt, op basis van sekse, heeft geen basis in de bereikte literatuur, die de andere kant op wijst.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "de-a07-n02",
+        "de-a07-n03"
+      ]
+    },
+    {
+      "sinal": "Om tien over tien klopt iemand op uw deur en vraagt, beleefd en met de tijd in de zin, of het zachter kan.",
+      "suaLeitura": "Er is over mij geklaagd, en dit gaat een dingetje worden met het gebouw.",
+      "oQueEAli": "Rusturen staan hier opgeschreven en niet onderhandeld, en de klop is de gewone manier waarop ze worden nageleefd — één buur, één zin, klaar. De federale verordening haalt de opgesomde machines in woongebieden op zondagen en feestdagen helemaal uit de lucht, en op werkdagen van acht uur 's avonds tot zeven uur 's ochtends.",
+      "oQueVoceFaz": "Zeg ja en zet het zachter. Ja, ich mache es leiser sluit het af. Als u het ziet aankomen, vraag eerst: Entschuldigung, sind wir zu laut.",
+      "oQueMelhora": "Een klop voelt niet meer als een beschuldiging maar als wat het is, een kort stukje huishoudwerk — en eerst vragen maakt van de buur iemand die u op de trap groet.",
+      "ondeNaoVale": "De federale regel die daadwerkelijk is gelezen, dekt de machines in de bijlage — maaiers, blazers — en geen geluid in het algemeen. De algemene nachtrust van tien tot zes en de volle zondagsrust komen uit deelstaatwet, gemeentelijke verordening en het huisreglement van het gebouw zelf, dus niemand moet dit herhalen als één nationale wet over geluid. En het is een zaak voor woonruimte: hij zegt niets over bars en niets over wat er in een stadscentrum buiten gebeurt.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-a07-n07"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "q-i04",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Die Runde, und wer als Nächstes bestellt",
+  "subtitulo": "Eine Runde übernehmen, eine auslassen, und mit einem Satz vom Tisch aufstehen",
+  "introAudioKey": "hol-i04-q-i",
+  "introPt": "Ein Reisender sitzt an einem Tisch voller leerer Gläser und muss entscheiden, ob er die nächste Runde übernimmt.",
+  "cenario": "Eine kleine Bar, Freitagabend.",
+  "dialogo": [
+    {
+      "audioKey": "hol-i04-q01",
+      "voz": "target_nl_m",
+      "es": "Wie is er aan de beurt?",
+      "pt": "Wer ist dran?",
+      "tts": "Wie is er aan de beurt?"
+    },
+    {
+      "audioKey": "hol-i04-q02",
+      "voz": "target_nl_f",
+      "es": "Mag ik nog een rondje?",
+      "pt": "Darf ich noch eine Runde haben?",
+      "tts": "Mag ik nog een rondje?"
+    },
+    {
+      "audioKey": "hol-i04-q03",
+      "voz": "target_nl_f",
+      "es": "Zonder ijs, alstublieft.",
+      "pt": "Ohne Eis, bitte.",
+      "tts": "Zonder ijs, alstublieft."
+    },
+    {
+      "audioKey": "hol-i04-q04",
+      "voz": "target_nl_f",
+      "es": "Bedankt voor de gezellige avond!",
+      "pt": "Danke für den geselligen Abend!",
+      "tts": "Bedankt voor de gezellige avond!"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "«Wie is er aan de beurt?» — was bedeutet das am Tisch?",
+      "opcoes": [
+        "Eine Beschwerde über die Bedienung",
+        "Die Frage, wer als Nächstes die Runde übernimmt",
+        "Die Frage nach der Uhrzeit",
+        "Eine Aufforderung zu zahlen und zu gehen"
+      ],
+      "correta": 1,
+      "explica": "Eine Runde übernehmen heißt, für den ganzen Tisch zu bestellen — und die Frage geht einfach reihum."
+    },
+    {
+      "pergunta": "Sie sind an der Reihe, aber möchten heute lieber aussetzen. Was ist die richtige Reaktion?",
+      "opcoes": [
+        "Aussetzen ist unhöflich und sollte vermieden werden",
+        "Sie dürfen aussetzen, ohne sich zu erklären",
+        "Sie müssen den ganzen Abend bezahlen, um das auszugleichen",
+        "Sie sollten den Tisch sofort verlassen"
+      ],
+      "correta": 1,
+      "explica": "Aussetzen ohne Erklärung ist völlig normal und schließt niemanden aus dem Abend aus."
+    },
+    {
+      "pergunta": "«Zonder ijs, alstublieft.» — welcher Baustein steckt darin?",
+      "opcoes": [
+        "Zonder + [Ding] — dasselbe Muster wie bei einer Allergie",
+        "Ein Baustein nur für Getränke",
+        "Mag ik, nur anders ausgesprochen",
+        "Eine feste Redewendung ohne Baustein"
+      ],
+      "correta": 0,
+      "explica": "Zonder + [Ding] ist derselbe Baustein, der auch bei Unverträglichkeiten und Restriktionen benutzt wird — hier trifft er auf Eis im Wein."
+    },
+    {
+      "pergunta": "Jemand hat für Sie ausgelegt. Was folgt am ehesten später?",
+      "opcoes": [
+        "Sofortiges Bargeld auf der Stelle",
+        "Eine kurze Zahlungsanfrage per App, ein sogenanntes Tikkie",
+        "Eine förmliche Rechnung per Post",
+        "Nichts — man teilt hier nie"
+      ],
+      "correta": 1,
+      "explica": "Rechnungen zu teilen ist ein selbstverständlicher Wert, und die App-Zahlungsanfrage ist der übliche, schnelle Weg dafür. Mehr dazu in I10."
+    },
+    {
+      "pergunta": "«Ik moet er zo langzaam vandoor.» Wofür benutzen Sie diesen Satz?",
+      "opcoes": [
+        "Um eine weitere Runde zu bestellen",
+        "Um sich langsam vom Tisch zu verabschieden, ohne den ganzen Abschied zu erklären",
+        "Um nach der Toilette zu fragen",
+        "Um eine Beschwerde einzureichen"
+      ],
+      "correta": 1,
+      "explica": "Ein kurzer Satz reicht, um anzukündigen, dass Sie bald gehen — ganz ohne lange Erklärung."
+    }
+  ]
+}

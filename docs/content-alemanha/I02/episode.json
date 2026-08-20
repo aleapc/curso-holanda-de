@@ -1,0 +1,417 @@
+{
+  "id": "i02",
+  "nivel": "intermediario",
+  "numero": 20,
+  "parte": "I02",
+  "titulo": "Moin, Grüß Gott, Hallo — en dan uw beurt aan de toonbank",
+  "subtitulo": "De groet verandert met de kaart, de bestelling blijft vier woorden, en het getal aan de kassa kan groter zijn dan dat op het schap",
+  "cena": "Een kleine winkel op dinsdagmiddag, drie mensen vóór u, geen ticketautomaat en geen wachtrij, en een kassa die zo dadelijk een getal noemt dat u niet op het schap hebt gelezen.",
+  "moldura": "ganha",
+  "frasePiso": "Groet op de weg naar binnen, zeg het ding, zeg bitte. Dat is de hele transactie, vier woorden lang.",
+  "decisao": "hoe u opent aan een toonbank en hoe u afrekent — welke groet u gebruikt voor de kaart waarop u staat, en of u vóór de bestelling in plaats van erna te weten komt hoe het met contant zit",
+  "emJogo": "dinheiro",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "de-i02-gruss",
+      "afirmacao": "De groet die u aan een kleine toonbank hoort, hangt af van waar u bent, en er bestaat een enquêteatlas die precies deze vraag heeft gesteld — hoe mensen 's middags gewoonlijk groeten bij het binnenlopen van een kleine winkel. Moin en Moinmoin horen bij Sleeswijk-Holstein en het noorden van Nedersaksen; Grüß Gott bij Zuid-Duitsland, Beieren en de vooralpengordel; Servus bij oostelijk Beieren; Hallo is algemeen, geregistreerd op zo'n 150 enquêtepunten, en de atlas noemt het de grootste verandering in gebruik sinds de jaren zeventig, concurrerend met of vervangend Guten Tag vooral in het noorden en westen buiten het Moin-gebied. Moin komt niet van Morgen: het gaat terug op moien Dag en op het Nederduitse en Friese moi, mooi of aangenaam, dus in de korte vorm blijft alleen het bijvoeglijk naamwoord over.",
+      "fonte": "Atlas zur deutschen Alltagssprache (AdA), Elspaß/Möller, Rodada 2, questão F01 «Gruß am Nachmittag» [RESUMO — página lida por fetch] (pesquisa §3.2). REGRA DE USO: o AdA publica CATEGORIAS ORDINAIS por localidade (üblich / ab und zu / unüblich), NUNCA percentuais — qualquer número percentual atribuído ao AdA seria invenção, e a pesquisa lista isso entre os itens excluídos. A «área exata» do Moin não existe: o AdA dá pontos de inquérito, não isoglossas. Despedidas regionais (Ade, Pfiat di) NÃO entram — as cartas existem mas estão sem texto publicado. Ensinar com segurança só Tschüss (neutro) e Auf Wiedersehen (formal).",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-i02-n02"
+      ]
+    },
+    {
+      "id": "de-i02-bargeld",
+      "afirmacao": "Duitsland kent geen wettelijke verplichting om een kaart te accepteren, en het omgekeerde staat zwart op wit: § 14 Abs. 1 BBankG maakt eurobiljetten «das einzige unbeschränkte gesetzliche Zahlungsmittel». Het standpunt van de Europese Centrale Bank is dat handelaren contant geld niet mogen weigeren tenzij koper en verkoper vooraf een ander middel zijn overeengekomen, en daarom moet een winkel die alleen kaart wil, dat aan de deur aangeven. Zowel «nur Bargeld» als «nur Karte» is dus volstrekt wettig en over geen van beide valt te klagen. De Zahlungsverhalten-studie 2025 van de Bundesbank, gepubliceerd op 17 juni 2026 op basis van 6.070 interviews en 5.302 betalingsdagboeken, vond dat voor het eerst meer dan de helft van de dagelijkse betalingen giraal was, 55 procent tegen 49 in 2023, terwijl contant naar aantal transacties met 45 procent het meestgebruikte instrument bleef. Contant kon in 94 procent van de aankopen ter plaatse worden gebruikt; giraal werd aanvaard of zou zijn aanvaard in 86 procent, tegen 81 in 2023 en 61 in 2021. Op markten en straatkraampjes waren negen op de tien betalingen contant en werd giraal in slechts 43 procent aanvaard. Los daarvan omvat het binnenlandse girocard-schema zo'n 100 miljoen kaarten en reikt het alleen tot in het buitenland via een co-badge zoals Maestro, Debit Mastercard, V Pay, Visa Debit of JCB.",
+      "fonte": "§ 14 Abs. 1 BBankG e FAQ do BCE, verbatim (pesquisa §4.1); Deutsche Bundesbank, Zahlungsverhalten in Deutschland 2025, publicado 17/6/2026, verbatim para 55%/45%/94%/86%/43% e metodologia forsa (pesquisa §4.2); girocard.eu, operado pela EURO Kartensysteme GmbH, verbatim sobre o co-badge (§4.4). ⚠ NÃO EXISTE declaração institucional de que cartão Visa/Mastercard estrangeiro falha em terminal girocard-only — a explicação de mecanismo entra, a citação não. Formulação segura: «aceitar cartão na Alemanha não significa aceitar o SEU cartão».",
+      "ano": 2026,
+      "revisarAte": "2028-06-30",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-i02-n07",
+        "de-i02-n08"
+      ]
+    },
+    {
+      "id": "de-i02-pfand",
+      "afirmacao": "De enige wettelijke uitzondering op «de getoonde prijs is de betaalde prijs» is het statiegeld. § 3 PAngV verplicht een handelaar tot vermelding van de Gesamtpreis, en § 2 definieert die als de prijs inclusief btw en alle andere prijscomponenten — daarom wordt aan een Duitse kassa nooit belasting bijgeteld. Maar § 7 PAngV zegt over statiegeld dat de handelaar «hat deren Höhe neben dem Gesamtpreis anzugeben und nicht in diesen einzubeziehen»: vermeld het naast de totaalprijs en neem het uitdrukkelijk niet daarin op. § 31 Abs. 1 VerpackG stelt het eenmalig statiegeld op «mindestens 0,25 Euro einschließlich Umsatzsteuer» per verpakking — een minimum, geen vast bedrag, en al inclusief btw. Een etiket van 0,99 € en een kassa van 1,24 € is dus geen fout en geen truc: het is de wettelijke plicht om niet op te tellen. Statiegeld op meermaals gebruikt glas is een ander dier, een privaatrechtelijke afspraak tussen bottelaars zonder wettelijke retourplicht, gebruikelijk rond 0,08 € voor een bierflesje tot een halve liter, 0,15 € voor een grotere fles en 1,50 € voor een lege krat.",
+      "fonte": "§§ 2, 3 e 7 PAngV 2022 e § 31 Abs. 1 e 2 VerpackG, verbatim de gesetze-im-internet.de (pesquisa §§4.6, 9.1, 9.2, 9.5, 9.6); Verbraucherzentrale, verbatim: «Die Pfandhöhe und die Erstattung für Mehrwegflaschen sind zivilrechtliche Vereinbarungen». Valores Mehrweg são USO DE MERCADO, não norma — MODERADA. O limite de 200 m² do § 31 Abs. 2 não isenta a loja pequena de aceitar retorno: ela pode limitar-se ao tipo de MATERIAL que vende. O termo «Pfandbon» NÃO aparece verbatim em fonte oficial e não é usado como termo de fonte.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-i02-n05",
+        "de-i02-n06"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i02-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "Het eerste woord valt op de weg naar binnen, niet aan de toonbank. Welk woord hangt af van de kaart."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-i02-r01",
+      "receptivo": true,
+      "es": "Moin! Was darf's sein?",
+      "pinyin": "moyn · vass darfs zyne",
+      "pt": "Moin! Wat mag het zijn?",
+      "tts": "Moin! Was darf's sein?",
+      "acao": "«Was darf's sein» is uw cue. Antwoord met het ding, niet met een zin over het ding."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i02-n02",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Moin hoort in het hoge noorden. Grüß Gott in het zuiden, Servus in oostelijk Beieren, Hallo overal."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i02-p01",
+      "promptPt": "Hamburg, vier uur 's middags, een bakkersdeur openduwend. Gebruik de vorm die hier ver in het noorden hoort. Spreek nu.",
+      "audioKey": "de-i02-t01",
+      "es": "Moin!",
+      "pinyin": "moyn",
+      "pt": "Moin!",
+      "tts": "Moin!"
+    },
+    {
+      "consulta": [
+        "compras/balcao",
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "zwei Brötchen",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i02-p02",
+      "promptPt": "Uw beurt, en de persoon tegenover u wacht op vier woorden, geen alinea. Spreek nu.",
+      "audioKey": "de-i02-t02",
+      "es": "Ich möchte zwei Brötchen, bitte.",
+      "pinyin": "ikh MOEKH-tuh tsvy BROET-khen, BIT-tuh",
+      "pt": "Ik wil graag twee broodjes, alstublieft.",
+      "tts": "Ich möchte zwei Brötchen, bitte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i02-n03",
+      "tom": "ganha",
+      "pt": "Sie is de veilige vorm voor de hele reis. De overstap naar du wordt u aangeboden — u stelt hem nooit voor."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i02-r02",
+      "receptivo": true,
+      "es": "Wir können uns gerne duzen. Ich bin Martin.",
+      "pinyin": "veer KOEN-en oons GAIR-nuh DOO-tsen · ikh bin MAR-tin",
+      "pt": "Wij mogen gerust duzen. Ik ben Martin.",
+      "tts": "Wir können uns gerne duzen. Ich bin Martin.",
+      "acao": "Dat is het aanbod, en het komt altijd van hun kant. Neem het aan, geef uw voornaam terug en ga door."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i02-n04",
+      "tom": "ganha",
+      "pt": "In het noorden hoort u soms uw voornaam samen met Sie. Die combinatie is een vorm op zich."
+    },
+    {
+      "consulta": [
+        "compras/balcao",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "wo ist die Kasse",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i02-p03",
+      "promptPt": "Drie gangpaden in, met twee dingen in de hand, en geen idee welk uiteinde van de winkel uw geld aanneemt. Spreek nu.",
+      "audioKey": "de-i02-t03",
+      "es": "Entschuldigung, wo ist die Kasse?",
+      "pinyin": "ent-SHOOL-di-goong, voh ist dee KASS-uh",
+      "pt": "Pardon, waar is de kassa?",
+      "tts": "Entschuldigung, wo ist die Kasse?"
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "KONNEN-SIE",
+      "encaixe": "das bitte wiederholen",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i02-p04",
+      "promptPt": "Het getal kwam snel op u af en u ving er ongeveer de helft van op. Spreek nu.",
+      "audioKey": "de-i02-t04",
+      "es": "Können Sie das bitte wiederholen?",
+      "pinyin": "KOEN-en zee dass BIT-tuh VEE-der-hoh-len",
+      "pt": "Kunt u dat alstublieft herhalen?",
+      "tts": "Können Sie das bitte wiederholen?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i02-n05",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "De prijs op het etiket heeft de btw al binnenin. Wat er niet in zit, is het statiegeld."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-i02-r03",
+      "receptivo": true,
+      "es": "Das macht ein Euro vierundzwanzig. Neunundneunzig Cent plus Pfand.",
+      "pinyin": "dass makht eyn OY-roh FEER-oont-tsvan-tsikh · NOYN-oont-noyn-tsikh tsent plooss pfant",
+      "pt": "Dat wordt een euro vierentwintig. Negenennegentig cent plus statiegeld.",
+      "tts": "Das macht ein Euro vierundzwanzig. Neunundneunzig Cent plus Pfand.",
+      "acao": "Het etiket zei 0,99 en de kassa zegt 1,24. De wet verbiedt de winkel het statiegeld in de etiketprijs op te nemen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i02-n06",
+      "tom": "protege",
+      "pt": "Minstens vijfentwintig cent, op elk eenmalig blikje en elke fles. U krijgt het terug bij de automaat."
+    },
+    {
+      "consulta": [
+        "compras/devolver"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "HABEN-SIE",
+      "encaixe": "einen Pfandautomaten",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i02-p05",
+      "promptPt": "Zes lege verpakkingen in een tas en een supermarkt waar u nog nooit binnen bent geweest. Spreek nu.",
+      "audioKey": "de-i02-t05",
+      "es": "Haben Sie einen Pfandautomaten?",
+      "pinyin": "HAH-ben zee EYE-nen PFANT-ow-toh-mah-ten",
+      "pt": "Heeft u een statiegeldautomaat?",
+      "tts": "Haben Sie einen Pfandautomaten?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i02-n07",
+      "tom": "protege",
+      "pt": "Biljetten zijn hier het enige onbeperkte wettige betaalmiddel. Alleen contant en alleen kaart zijn allebei wettig."
+    },
+    {
+      "consulta": [
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i02-p06",
+      "promptPt": "Vóór u bestelt in plaats van erna, aan een kraam op het plein met een blikje geld op tafel. Spreek nu.",
+      "audioKey": "de-i02-t06",
+      "es": "Nehmen Sie Karte?",
+      "pinyin": "NAY-men zee KAR-tuh",
+      "pt": "Neemt u kaart aan?",
+      "tts": "Nehmen Sie Karte?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i02-r04",
+      "receptivo": true,
+      "es": "Nur Bargeld, tut mir leid. Der Automat ist um die Ecke.",
+      "pinyin": "noor BAR-gelt, toot meer lyte · dair ow-toh-MAHT ist oom dee EK-uh",
+      "pt": "Alleen contant, sorry. De automaat staat om de hoek.",
+      "tts": "Nur Bargeld, tut mir leid. Der Automat ist um die Ecke.",
+      "acao": "Het nee komt met het adres van het ja erbij. Blijf één tel voorbij de eerste twee woorden."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i02-n08",
+      "tom": "ganha",
+      "pt": "Op markten en straatkraampjes zijn negen van de tien betalingen contant, en giraal werd in 43 procent aanvaard."
+    },
+    {
+      "consulta": [
+        "reparo/ingles"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "sprechen Sie Englisch",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i02-p07",
+      "promptPt": "Uw Duits is op en de persoon tegenover u is nog niet zonder geduld. Spreek nu.",
+      "audioKey": "de-i02-t07",
+      "es": "Entschuldigung, sprechen Sie Englisch?",
+      "pinyin": "ent-SHOOL-di-goong, SHPREKH-en zee ENG-lish",
+      "pt": "Pardon, spreekt u Engels?",
+      "tts": "Entschuldigung, sprechen Sie Englisch?"
+    },
+    {
+      "consulta": [
+        "mesa/bebida",
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "einen Kaffee zum Mitnehmen",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i02-p08",
+      "promptPt": "U blijft niet en het tafeltje bij het raam was nooit de bedoeling. Spreek nu.",
+      "audioKey": "de-i02-t08",
+      "es": "Ich möchte einen Kaffee zum Mitnehmen, bitte.",
+      "pinyin": "ikh MOEKH-tuh EYE-nen KAF-fay tsoom MIT-nay-men, BIT-tuh",
+      "pt": "Ik wil graag een koffie om mee te nemen, alstublieft.",
+      "tts": "Ich möchte einen Kaffee zum Mitnehmen, bitte."
+    },
+    {
+      "consulta": [
+        "compras/pagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "HABEN-SIE",
+      "encaixe": "eine Tüte",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i02-p09",
+      "promptPt": "Beide handen vol aan het eind van de kassaband en niets om er iets van in te dragen. Spreek nu.",
+      "audioKey": "de-i02-t09",
+      "es": "Haben Sie eine Tüte?",
+      "pinyin": "HAH-ben zee EYE-nuh TUE-tuh",
+      "pt": "Heeft u een tasje?",
+      "tts": "Haben Sie eine Tüte?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-i02-s01",
+      "molde": "ICH-MOCHTE",
+      "es": "Moin! Ich möchte zwei Brötchen, bitte. Nehmen Sie Karte?",
+      "pinyin": "moyn · ikh MOEKH-tuh tsvy BROET-khen, BIT-tuh · NAY-men zee KAR-tuh",
+      "pt": "Schaduw de hele toonbank in één adem: de groet, de bestelling, de vraag over betalen.",
+      "tts": "Moin! Ich möchte zwei Brötchen, bitte. Nehmen Sie Karte?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i02-n09",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "I02 klaar. Een groet die bij de kaart past, vier woorden aan de toonbank, en geen raadsel aan de kassa."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Vier woorden, en niets aan de kassa dat u niet zag aankomen",
+    "secoes": [
+      {
+        "titulo": "De groet is een kaart, geen regel",
+        "corpo": "Een enquêteatlas vroeg mensen hoe zij 's middags gewoonlijk groeten bij het binnenlopen van een kleine winkel — precies uw situatie — en de antwoorden vielen geografisch uit. Moin en Moinmoin zitten in Sleeswijk-Holstein en noordelijk Nedersaksen. Grüß Gott dekt Zuid-Duitsland, Beieren en de vooralpengordel. Servus leeft in oostelijk Beieren. Hallo dook bijna overal op, en de atlas noemt het de grootste verandering in groetgewoonten sinds de jaren zeventig, concurrerend met of vervangend Guten Tag in het noorden en westen buiten de Moin-zone. Er is geen exacte lijn op een kaart voor een van deze — de atlas publiceert enquêtepunten, geen grenzen — behandel ze dus als dingen die u zult horen, en antwoord met wat er op u af kwam.",
+        "exemplos": [
+          {
+            "es": "Moin!",
+            "pt": "Moin! (het hoge noorden, elk moment van de dag)"
+          },
+          {
+            "es": "Grüß Gott!",
+            "pt": "Grüß Gott! (het zuiden)"
+          },
+          {
+            "es": "Hallo!",
+            "pt": "Hallo! (overal)"
+          }
+        ]
+      },
+      {
+        "titulo": "Moin heeft niets met ochtend te maken",
+        "corpo": "De voor de hand liggende gok is fout en het echte verhaal is beter. Moin gaat terug op moien Dag en op het Nederduits en Fries moi, mooi of aangenaam, dus de korte vorm is gewoon het bijvoeglijk naamwoord dat overblijft. Het is geen verkorte Morgen, en daarom hoort u het om vier uur 's middags zonder dat iemand het vreemd vindt. Voor het weggaan geeft deze cursus u er twee: Tschüss voor alledag en Auf Wiedersehen voor formeel. De regionale afscheidsgroeten die in reisgidsen circuleren waren niet verifieerbaar en worden hier niet onderwezen."
+      },
+      {
+        "titulo": "Sie de hele weg, en het aanbod dat u alleen hoeft te herkennen",
+        "corpo": "Sie is de instapvorm voor elke volwassen onbekende, elke winkel, elke ambtenaar, elke werkplek, en blijft de hele reis goed. U hoeft er nooit een beslissing over te nemen. De overgang naar du wordt aangeboden door de andere kant, in een zin als wir können uns gerne duzen, en is eenmaal gemaakt niet terug te draaien — een linguïst noemt het echte asymmetrische punt niet wie hem mag aanbieden, maar hoe moeilijk hij te weigeren is. Uw taak is het aanbod herkennen en aannemen, en nooit zelf met du beginnen. Een verkeerde du is de dure fout; een Sie te veel kost niets. In het noorden kunt u ook uw voornaam met Sie horen, een vorm op zich in plaats van iemand die het half goed doet."
+      },
+      {
+        "titulo": "Eén getal op het schap, een ander aan de kassa",
+        "corpo": "Twee regels ontmoeten elkaar bij de kassa en trekken tegengesteld. De prijsopgaveregeling verplicht een handelaar tot vermelding van de totaalprijs, gedefinieerd als inclusief btw en elke andere component, en daarom wordt aan de kassa nooit iets bijgeteld zoals in de Verenigde Staten — het schapgetal is het getal. Dezelfde regeling zegt vervolgens over het statiegeld dat het naast de totaalprijs vermeld moet worden en er uitdrukkelijk niet in mag zitten. Een fles met etiket 0,99 € rekent dus af op 1,24 €, en dat gat is een wettelijke plicht om niet op te tellen, geen truc. Het eenmalig statiegeld is minstens vijfentwintig cent inclusief btw per verpakking."
+      },
+      {
+        "titulo": "Het statiegeld terugkrijgen, en de ene fles die anders werkt",
+        "corpo": "Plastic wegwerpflessen en blikjes dragen een gedrukte statiegeldmarkering en gaan bij vrijwel elke supermarkt in de automaat; de handelaar heeft een wettelijke plicht de materiaaltypen die hij verkoopt terug te nemen en het statiegeld kosteloos terug te betalen, en winkels onder tweehonderd vierkante meter mogen dat beperken tot wat ze in de schappen hebben in plaats van eraan te ontsnappen. Retourglas is het tegenovergestelde geval: dat statiegeld is een private afspraak tussen bottelaars zonder wettelijke retourplicht, en daarom betalen de meeste winkels het als hoffelijkheid alleen voor de eigen merken terug. Vuistregel: plastic of blik met de markering, elke supermarkt; retourglas, terug naar de winkel waar u het kocht. Gebruikelijke glasbedragen liggen rond acht cent voor een bierflesje tot een halve liter, vijftien voor een grotere en één euro vijftig voor een lege krat — marktgebruik, geen wet."
+      },
+      {
+        "titulo": "Contant, kaart, en het verschil tussen de twee vragen",
+        "corpo": "Er is geen verplichting voor een Duitse handelaar om kaart aan te nemen. Wat de wet in plaats daarvan zegt, is dat eurobiljetten het enige onbeperkte wettige betaalmiddel zijn, en de Europese Centrale Bank vindt dat een winkelier contant niet mag weigeren tenzij een ander middel vooraf is afgesproken — en daarom hangt een winkel die alleen kaart wil een bord op. Alleen contant en alleen kaart zijn allebei wettig en over geen van beide valt te twisten. De cijfers verschuiven snel: in de studie 2025 van de centrale bank passeerde giraal voor het eerst de helft van de dagelijkse betalingen met 55 procent, contant kon in 94 procent van de aankopen ter plaatse en giraal werd in 86 procent aanvaard, tegen 61 in 2021. Markten en straatkraampjes zijn de uitzondering, negen contante betalingen op tien. En er zit een tweede vraag in de eerste: het binnenlandse girocard-schema draait zo'n honderd miljoen kaarten en reikt alleen via een co-badge buiten het land, dus een terminal die kaarten aanneemt neemt niet per se de uwe aan. Vraag nehmen Sie Karte vóór u bestelt en houd biljetten bij voor de markt."
+      }
+    ]
+  },
+  "slot": "I02",
+  "permissao": "U bent aan een toonbank niemand een volledige zin schuldig. Groet, het ding, bitte is een complete en beleefde transactie, en het uitrekken tot een verontschuldiging voor uw bestaan is wat pas echt raar overkomt. U mag ook nehmen Sie Karte vragen voor u zich ergens aan vastlegt, en contant betalen zonder uitleg — de wet zet contant en kaart op gelijke voet en niemand oordeelt welke u pakt.",
+  "permissaoAudioKey": "de-i02-n01",
+  "espelho": "Wie ooit achter een toerist stond die één voor één munten telde terwijl de rij groeide, weet hoe de andere kant hiervan voelt. De oplossing is niet meer beleefdheid, maar minder woorden — en beslissen hoe u betaalt voor het uw beurt is.",
+  "fichasCulturais": [
+    {
+      "sinal": "U zegt Hallo bij het binnenlopen van een winkel in Beieren en krijgt Grüß Gott terug, of zegt Guten Tag in Hamburg en krijgt Moin.",
+      "suaLeitura": "Ik gebruikte de verkeerde en ben net stilzwijgend gecorrigeerd.",
+      "oQueEAli": "De groet aan een kleine toonbank is geografisch, en een enquêteatlas heeft hem vanuit precies deze situatie in kaart gebracht. Moin hoort in het hoge noorden en betekent helemaal geen ochtend — het komt van een woord dat mooi betekent. Grüß Gott is zuidelijk, Servus is oostelijk Beiers, en Hallo duikt bijna overal op en is de grootste verandering in gebruik sinds de jaren zeventig. Wat er op u af kwam is de lokale vorm van die persoon, geen oordeel over de uwe.",
+      "oQueVoceFaz": "Geef terug wat u kreeg. Hallo is overal veilig als u liever niet kiest, en de gehoorde groet herhalen is per definitie veilig.",
+      "oQueMelhora": "U stopt met een beslissing van twee lettergrepen te auditen en besteedt de aandacht aan de zin erna, die u geeft waarvoor u binnenkwam.",
+      "ondeNaoVale": "Er is geen exacte grens voor een van deze. De atlas publiceert enquêtepunten en ordinale categorieën, nooit percentages en nooit isoglossen, dus niets hier ondersteunt een uitspraak over een precieze lijn op een kaart of over hoe vaak iemand iets zegt.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-i02-n02"
+      ]
+    },
+    {
+      "sinal": "Op het schap staat 0,99 € en aan de kassa 1,24 €, en niemand legt het verschil uit.",
+      "suaLeitura": "Of het schap was verouderd, of er is zonder mijn instemming iets bij mijn rekening opgeteld.",
+      "oQueEAli": "Het is het statiegeld, en het gat bestaat omdat de wet het vereist. De prijsopgaveregels verplichten de handelaar tot een totaalprijs met de btw al binnenin — daarom wordt er aan een Duitse kassa nooit iets bijgeteld — en verplichten vervolgens het statiegeld naast dat totaal te tonen en uitdrukkelijk niet in te vouwen. Het eenmalig statiegeld is minstens vijfentwintig cent inclusief btw per verpakking.",
+      "oQueVoceFaz": "Zoek de kleine regel zzgl. Pfand onder de schapprijs, bewaar de flessen en blikjes, en voer ze bij vrijwel elke supermarkt in een automaat terug om het geld terug te krijgen.",
+      "oQueMelhora": "Een verwarrend kassatotaal wordt een terugvorderbaar bedragje dat u meedraagt, en een krat van twintig bieren stopt met misprijsd te ogen.",
+      "ondeNaoVale": "Het geldt niet voor retourglas, dat een private afspraak is zonder wettelijke retourplicht — de meeste winkels betalen als hoffelijkheid hun eigen merken terug en zijn niet verplicht een ander merk aan te nemen. En de gebruikelijke glasbedragen zijn marktgebruik in plaats van wet, dus ze kunnen verschillen.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-i02-n05",
+        "de-i02-n06"
+      ]
+    },
+    {
+      "sinal": "Een winkel of kraam wuift uw kaart weg en wijst naar een bord met nur Bargeld.",
+      "suaLeitura": "Deze plek loopt achter, of ontwijkt iets, en in de meeste landen zou ik recht hebben om per kaart te betalen.",
+      "oQueEAli": "Er is in Duitsland geen verplichting om kaarten aan te nemen. De verplichting loopt andersom: eurobiljetten zijn het enige onbeperkte wettige betaalmiddel, en een handelaar die contant wil weigeren, moet dat vooraf hebben afgesproken — en dat doet een bord met alleen kaart. Alleen contant en alleen kaart zijn even wettig. De girale acceptatie klimt snel — 86 procent van de aankopen ter plaatse in 2025 tegen 61 procent in 2021 — maar op markten en straatkraampjes is het nog altijd maar 43 procent.",
+      "oQueVoceFaz": "Vraag nehmen Sie Karte vóór u bestelt, en houd genoeg biljetten aan voor een marktdag. Als een kaart geweigerd wordt op een terminal die duidelijk kaarten aanneemt, is dat waarschijnlijk het binnenlandse schema en geen beslissing over u — betaal contant en ga door.",
+      "oQueMelhora": "U komt erachter terwijl u nog een keuze heeft waar te besteden, in plaats van op het moment dat het eten al voor u staat.",
+      "ondeNaoVale": "Er bestaat nergens een institutionele verklaring dat buitenlandse Visa- of Mastercard-kaarten falen op binnenlandse terminals — het mechanisme is gedocumenteerd, de causale uitspraak niet, behandel het dus als een plausibele verklaring in plaats van een feit. En niets hiervan is een uitspraak over hoe een bepaalde winkel zich gedraagt; de cijfers zijn nationale enquêtegemiddelden.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-i02-n07",
+        "de-i02-n08"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "id": "b01",
+  "nivel": "basico",
+  "numero": 1,
+  "parte": "B01",
+  "titulo": "De klanken zijn al van u — vijf letters krijgen ander werk",
+  "subtitulo": "Nederlands en Duits delen bijna dezelfde mond: sch, de ts van katz, Hand, Wasser, Buch. Wat verandert is welke letter om welke klank vraagt, en één hand houdt de vijf uit elkaar",
+  "cena": "Een bakkersetalage in Berlijn met vier woorden erop geschilderd — Weißbrot, Brötchen, Kuchen, Süß — waar elke letter er een is die u al sinds school schrijft en waar er vier niet de klank hebben die uw oog u aanbiedt.",
+  "moldura": "ganha",
+  "frasePiso": "Wissel voor w en v, zeg de tweede letter, tik de z aan, tuit de lippen voor ü en ö, laat de eind-r in een klein uh vallen. Vijf zetten, en het woord komt eruit.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "de-b01-regelwerk",
+      "afirmacao": "The letter-to-sound table this part teaches is the official one. The Amtliches Regelwerk der deutschen Rechtschreibung, 2024 edition, in force since 1 July 2024 (Rat für deutsche Rechtschreibung / IDS Mannheim), gives in § 22(1) [v] for w (wann, Wagen, Möwe), [z] for s before a vowel (sagen, Seife, lesen, Laser), [s] for s elsewhere (Hast, hopsen) and [ʃ] for sch. In § 22(2) it files z not as a single consonant but under Konsonantenverbindungen, [ts] (zart, Zaun, tanzen), beside qu = [kv] and x = [ks]. § 27 puts [ʃ] on s before p or t at the start of the STEM rather than of the word — hence verspotten with [ʃ] but Wespe and Kiste without.",
+      "fonte": "Rat für deutsche Rechtschreibung / IDS Mannheim, Amtliches Regelwerk der deutschen Rechtschreibung, edição 2024, em vigor desde 1/7/2024. PDF baixado, símbolos IPA íntegros. §22(1) verbatim: `[j] | j | ja, Jagd, Boje, Objekt` · `[s] | s | skurril, Hast, hopsen` · `[z] | s | sagen, Seife, lesen, Laser` · `[ʃ] | sch | scharf, Schaufel, rauschen` · `[v] | w | wann, Wagen, Möwe`. §22(2), sob «Konsonantenverbindungen»: `[ts] | z | zart, Zaun, tanzen, speziell, Zenit`. §27 verbatim: «Für den Laut [ʃ] am Anfang des Wortstammes vor folgendem [p] oder [t] schreibt man s statt sch.» Pesquisa §1.5.",
+      "ano": 2024,
+      "revisarAte": "2030-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-b01-n05"
+      ]
+    },
+    {
+      "id": "de-b01-vau",
+      "afirmacao": "The tidy rule «German v is f» is not what the official ruleset says, and the correction matters at a menu. § 29 of the Regelwerk 2024 gives [f] in a short, closed list of native words — Vater, Veilchen, Vettel, Vetter, Vieh, viel, vielleicht, vier, Vlies, Vogel, Vogt, Volk, voll, von, vor, vordere, vorn, plus Frevel and Nerv — and in the prefix ver-. § 30 gives [v] in words taken from other languages: privat, Revolution, Universität, Virus, zivil, Malve, Vase. And a third list is recorded as genuinely wavering between [v] and [f]: Initiative, Larve, Pulver, evangelisch, Vers, Vesper, November, brave. So Vater is f, Vase is v, and November goes either way.",
+      "fonte": "Regelwerk 2024, §29 verbatim: «Vater, Veilchen, Vettel, Vetter, Vieh, viel, vielleicht, vier, Vlies, Vogel, Vogt, Volk, voll (aber füllen), von, vor, vordere, vorn. Dazu kommen: Frevel, Nerv (Nerven).» §30 verbatim sobre oscilação: «Bei einigen Wörtern schwankt die Aussprache von v zwischen [v] und [f] wie bei Initiative, Larve, Pulver, evangelisch, Vers, Vesper, November, brave.» Pesquisa §1.5, com o aviso explícito de que «a regra simplista ⟨v⟩ = [f] está errada, e a norma oficial diz isso».",
+      "ano": 2024,
+      "revisarAte": "2030-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-b01-n03"
+      ]
+    },
+    {
+      "id": "de-b01-er",
+      "afirmacao": "The single highest-value item in this part is that a German r at the end of a syllable is not a consonant. Kohler's description of German for the Handbook of the International Phonetic Association (Cambridge University Press, 1999, pp. 87–88) records that /ʁ/ postvocalically before a consonant or word-finally is vocalised to [ɐ], and that the ending -er is realised as [ɐ] — Butter as [ˈbʊtɐ]. The rule of widest coverage for a traveller: unstressed -er is always that small uh, in Butter, Vater, Kinder, besser, aber, oder, unter. One point inside it is contested: after long /aː/, Dittrich and Reibisch (AIPUK 37, Kiel) measure a darker monophthong rather than the diphthong Kohler transcribes — the disagreement is about Haar, not about Uhr, Ohr or -er.",
+      "fonte": "Kohler, Klaus J., «German», Handbook of the International Phonetic Association, Cambridge UP, 1999, pp. 87–88, verbatim (símbolos restaurados): «postvocalically before a consonant or word-finally it is vocalized to [ɐ] … the ending -er is realized as [ɐ] (e.g. [ˈbʊtɐ] Butter 'butter')». CONTESTADO só para /aː/: Dittrich & Reibisch, «An acoustic study of /r/-vocalization in word-final position», AIPUK 37, Univ. Kiel. Recorte declarado da pesquisa: alemão padrão do NORTE da Alemanha; nada validado para a Áustria ou a Suíça. Pesquisa §1.2.",
+      "ano": 1999,
+      "revisarAte": "2031-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-b01-n08"
+      ]
+    },
+    {
+      "id": "de-b01-vokale",
+      "afirmacao": "The two rounded vowels ⟨ü⟩ and ⟨ö⟩ map to /y/ and /øː/ in Kohler's description of German (Handbook of the IPA, Cambridge UP 1999) — the same phonemes the Dutch learner already produces in huis and neus (Gussenhoven, Handbook of the IPA, 1999, pp. 74–77). The pedagogical work here is spelling recognition, not articulation.",
+      "fonte": "Kohler, «German», Handbook of the IPA, Cambridge UP 1999, listagem verbatim: `y hüten` / `ʏ Hütten` / `ø Goethe` / `œ Götter`. Gussenhoven, «Dutch», idem, pp. 74–77, verbatim: `y fuut` / `ʏ hut` / `øː neus`. Correspondência de fonema para fonema. Pesquisa §1.1: «⟨ü⟩ e ⟨ö⟩ — o comprador do Randstad já os tem de graça».",
+      "ano": 1999,
+      "revisarAte": "2031-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-b01-n06"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b01-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Goed nieuws vooraf. Nederlands en Duits delen bijna dezelfde mond. U bezit al sch, de ts van katz en veel woorden.",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b01-n02",
+      "bloco": "corpo",
+      "pt": "Uw hand doet hier vijf dingen, en elk verraadt een misstap voordat uw oor de kans krijgt.",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b01-n03",
+      "pt": "Zet één, de wissel. Duitse w klinkt als uw v; Duitse v is meestal f. Uw valstrik: v aan het begin sonoor uitspreken.",
+      "tom": "ganha"
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b01-p01",
+      "promptPt": "Aan de bakkerstoonbank; de kan op de plank achter haar is wat u wilt, en de eerste letter is er een die wisselt. Spreek nu.",
+      "audioKey": "de-b01-t01",
+      "es": "Wasser, bitte.",
+      "pinyin": "VAH-suh, BIT-tuh",
+      "pt": "Water, alstublieft.",
+      "tts": "Wasser, bitte."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b01-r01",
+      "receptivo": true,
+      "es": "wir — vier",
+      "pinyin": "veer — feer",
+      "pt": "Wij; vier. Twee woorden, twee letters — en de klanken zijn precies het omgekeerde van wat uw oog aanbiedt.",
+      "tts": "wir, vier.",
+      "acao": "Wissel de vingers bij elk woord voordat u nazegt. Doet uw hand niets, dan heeft uw oog al gewonnen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b01-n04",
+      "pt": "Zet twee, de tweede letter. Bij ei en ie zegt u de naam van de tweede. Ein Bier is ai, dan ie.",
+      "tom": "ganha"
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b01-p02",
+      "promptPt": "Avond, een kleine zaak met zes tafels, en u wilt het gewone dat iedereen aan de bar vasthoudt. Spreek nu.",
+      "audioKey": "de-b01-t02",
+      "es": "Ein Bier, bitte.",
+      "pinyin": "ine BEE-uh, BIT-tuh",
+      "pt": "Een biertje, alstublieft.",
+      "tts": "Ein Bier, bitte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b01-n05",
+      "pt": "Zet drie, de tik. Een z is altijd ts, nooit sonoor. Het is de s vóór een klinker die zoemt: sagen begint als zebra.",
+      "tom": "ganha"
+    },
+    {
+      "consulta": [
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b01-p03",
+      "promptPt": "Aan het loket; u reist met z'n tweeën en het getal vóór het zelfstandig naamwoord begint met de letter die tikt. Spreek nu.",
+      "audioKey": "de-b01-t03",
+      "es": "Zwei Karten, bitte.",
+      "pinyin": "tsvy KAH-ten, BIT-tuh",
+      "pt": "Twee kaartjes, alstublieft.",
+      "tts": "Zwei Karten, bitte."
+    },
+    {
+      "consulta": [
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b01-p04",
+      "promptPt": "U verlaat een kantoor waar iemand in pak u zojuist een formulier heeft teruggegeven. Vier van de vijf zetten zitten in dit ene woord. Spreek nu.",
+      "audioKey": "de-b01-t04",
+      "es": "Auf Wiedersehen.",
+      "pinyin": "owf VEE-duh-zay-en",
+      "pt": "Tot ziens.",
+      "tts": "Auf Wiedersehen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b01-n06",
+      "pt": "Zet vier, de lippen. De ü is uw fuut, de ö is uw neus. Dezelfde klanken, alleen een andere spelling.",
+      "tom": "ganha"
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b01-p05",
+      "promptPt": "Uw vinger wijst naar het schaaltje met de taart en er staat één iemand vóór u. De klinker in het midden is uw fuut. Spreek nu.",
+      "audioKey": "de-b01-t05",
+      "es": "Ein Stück Kuchen, bitte.",
+      "pinyin": "ine SHTUEK KOO-khen, BIT-tuh",
+      "pt": "Een stukje taart, alstublieft.",
+      "tts": "Ein Stück Kuchen, bitte."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b01-r02",
+      "receptivo": true,
+      "es": "Buch — Bücher",
+      "pinyin": "bookh — BUE-hyuh",
+      "pt": "Boek; boeken. Één klinker gaat naar voren met ronde lippen, en de schuring achterin schuift dun mee naar voren.",
+      "tts": "Buch, Bücher.",
+      "acao": "Tuit uw lippen bij het tweede woord voordat u nazegt, en laat de keelklank de klinker naar voren volgen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b01-n07",
+      "pt": "De keelklank rijdt op dezelfde hand. Bach is uw eigen g. Ich vraagt om een dunne variant die u nog niet hebt.",
+      "tom": "ganha"
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b01-p06",
+      "promptPt": "Zelfde toonbank, een plank lager; het kleine ronde broodje dat half het land als ontbijt eet. Ronde lippen, dan de dunne. Spreek nu.",
+      "audioKey": "de-b01-t06",
+      "es": "Ein Brötchen, bitte.",
+      "pinyin": "ine BROET-hyen, BIT-tuh",
+      "pt": "Een broodje, alstublieft.",
+      "tts": "Ein Brötchen, bitte."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b01-p07",
+      "promptPt": "Ze heeft het ingepakt, het geld aangenomen en kijkt weer op. Tuit de eerste klinker en loop erop naar buiten. Spreek nu.",
+      "audioKey": "de-b01-t07",
+      "es": "Schönen Tag noch.",
+      "pinyin": "SHOE-nen tahk nokh",
+      "pt": "Nog een fijne dag.",
+      "tts": "Schönen Tag noch."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b01-n08",
+      "pt": "Zet vijf, het laten vallen. Aan het eind van een lettergreep is de Duitse r geen medeklinker meer, maar een klein uh.",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-b01-r03",
+      "receptivo": true,
+      "es": "Wasser · Butter · aber · oder",
+      "pinyin": "VAH-suh · BOO-tuh · AH-buh · OH-duh",
+      "pt": "Water; boter; maar; of. Vier uitgangen, één klank, en nergens krult een tong.",
+      "tts": "Wasser. Butter. aber. oder.",
+      "acao": "Laat uw hand bij elk einde open vallen. Een kromme hand betekent een kromme tong, en die zit hier niet in."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b01-n09",
+      "pt": "Bonus die u gratis krijgt: eind-d, -b en -g klinken hard. Dat doet u thuis ook al: Rad wordt raht, net als bed en hond.",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b01-r04",
+      "receptivo": true,
+      "es": "Rad — Rat · Hund — Hunde",
+      "pinyin": "raht — raht · hoont — HOON-duh",
+      "pt": "Wiel; raad; hond; honden. Het eerste paar is één klank in twee spellingen, en de uitgang geeft de zachte terug.",
+      "tts": "Rad. Rat. Hund. Hunde.",
+      "acao": "Kopieer de harde uitgang bewust. In het Nederlands doet u hetzelfde met bed en hond — hier gebeurt het gewoon door."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b01-n10",
+      "pt": "Borden zijn hier goedkope oefening. Elk zelfstandig naamwoord krijgt een hoofdletter, dus het woord springt eruit.",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-b01-r05",
+      "receptivo": true,
+      "es": "Ausgang · Eingang · Ausfahrt · Einfahrt",
+      "pinyin": "OWS-gang · INE-gang · OWS-fahrt · INE-fahrt",
+      "pt": "Uitgang; ingang; uitrit; inrit. Twee klinkers, au en ai, en de rest van het bord volgt vanzelf.",
+      "acao": "Lees elk twee keer — één keer zoals uw oog het aanbiedt, één keer na de stem. De tweede is het woord.",
+      "tts": "Ausgang. Eingang. Ausfahrt. Einfahrt."
+    },
+    {
+      "consulta": [
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b01-p08",
+      "promptPt": "Het gangpad van de tram is smal en uw tas heeft net iemands arm geraakt. Langste woord van de dag — en u bezit elke klank al. Spreek nu.",
+      "audioKey": "de-b01-t08",
+      "es": "Entschuldigung.",
+      "pinyin": "ent-SHOOL-di-goong",
+      "pt": "Pardon; excuseer.",
+      "tts": "Entschuldigung."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b01-p09",
+      "promptPt": "Half acht 's ochtends, u stapt de bakkerij binnen en de vrouw achter de toonbank kijkt op. Spreek nu.",
+      "audioKey": "de-b01-t09",
+      "es": "Guten Morgen.",
+      "pinyin": "GOO-ten MOR-gen",
+      "pt": "Goedemorgen.",
+      "tts": "Guten Morgen."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-b01-s01",
+      "es": "Wasser, bitte. Ein Bier, bitte. Ein Brötchen, bitte.",
+      "pinyin": "VAH-suh · ine BEE-uh · ine BROET-hyen",
+      "pt": "Schaduw drie zetten achter elkaar: de wissel, de tweede letter en de ronde lippen.",
+      "tts": "Wasser, bitte. Ein Bier, bitte. Ein Brötchen, bitte."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b01-n11",
+      "bloco": "recap",
+      "pt": "B01 klaar. Wissel w en v, zeg de tweede letter, tik de z, tuit ü en ö, laat de eind-r in een klein uh vallen.",
+      "tom": "ganha"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Het klankmodel dat deze cursus gebruikt",
+    "secoes": [
+      {
+        "titulo": "Hoe u de hersyllabificatie leest",
+        "corpo": "De regel onder elke Duitse zin is geschreven voor een Engels oog, niet voor een foneticus. Als Nederlandstalige leest u ze prima mee: hoofdletters markeren de klemtoon; UE staat voor ü — uw fuut; OE staat voor ö — uw neus; KH is de ch die achterin schuurt, precies uw eigen g van gat; HY is de dunne ch, na e, i en medeklinkers, en die kent u niet — het is de nieuwe klank van deze les. Een eind-uh is de klinker waarin een geschreven r aan het eind van een lettergreep verandert.",
+        "exemplos": [
+          {
+            "es": "Ein Stück Kuchen, bitte.",
+            "pt": "ine SHTUEK KOO-khen — ronde lippen, dan de scherpe schuring achterin"
+          },
+          {
+            "es": "Ein Brötchen, bitte.",
+            "pt": "ine BROET-hyen — ronde lippen, dan de dunne"
+          }
+        ]
+      },
+      {
+        "titulo": "De omkering die in uw voordeel werkt",
+        "corpo": "Nederlands en Duits zijn zusters, en de woordenschat toont dat vóór de grammatica. Hand, Wasser, Buch, Milch, trinken, kommen, gut komen half bekend binnen, en de klank die het moeilijkst zou moeten zijn — sch — is uw eigen sch. Ook de klemtoon werkt hetzelfde. Beide talen leggen de klemtoon binnen de laatste drie lettergrepen, en beide leggen die regelmatig op de voorlaatste als de laatste gereduceerd is. Er is dus geen apart Duits klemtoonsysteem om te leren."
+      },
+      {
+        "titulo": "De wissel, en waarom de nette regel klopt maar niet volstaat",
+        "corpo": "Geschreven w is [v]: wann, Wagen, Möwe. Geschreven v is lastiger dan de reisgids doet vermoeden, en de officiële norm is er duidelijk over. Een korte gesloten lijst inheemse woorden krijgt [f] — Vater, viel, vier, von, vor, voll, Vogel, Volk en nog een handvol, plus het voorvoegsel ver-. Leenwoorden krijgen [v]: privat, Vase, Virus, Universität, zivil. En een derde lijst weifelt tussen beide, met November erbij. Uw eigen valstrik: u zegt in het Nederlands ⟨v⟩ al vrij zacht (varen, veel), en die gewoonte draagt u over op Duitse v aan het begin. Dwing uzelf tot [f] in Vater, viel, vier."
+      },
+      {
+        "titulo": "De twee ronde klinkers — en waarom de spelling het enige werk is",
+        "corpo": "⟨ü⟩ en ⟨ö⟩ hebben bij het Engelstalige oor 97 procent trefkans als achterklinker. Voor u zijn het geen nieuwe klanken: /y/ is uw fuut, /øː/ is uw neus. Wat u leert is de spelling die er niet als deze klanken uitziet, en het geluid komt gratis mee. Dat maakt Duitsland verreweg het goedkoopste van de vijf bestemmingen: geen articulatie te oefenen, alleen leren dat de twee puntjes u zeggen wat u al kunt."
+      },
+      {
+        "titulo": "De r die een klinker is",
+        "corpo": "Dit is het enkele item dat een zin het meest als vreemd markeert, en het is geen moeilijkheid maar een toestemming. Aan het eind van een lettergreep zit er in het Duits geen medeklinker: Wasser eindigt op een klein uh, Uhr is een lange oe die overglijdt in datzelfde uh, en de uitgang -er is elke keer dat uh — Butter, Vater, Kinder, besser, aber, oder, unter. In het Nederlands loopt de coda-r vaak uit op een keelvormige [ɹ] of wordt hij ingeslikt; hier moet u hem laten uitlopen op een klinker, niet op een medeklinker. Laat uw hand open vallen in plaats van kromtrekken. Eén punt hierin is onder fonetici omstreden — wat er na een lange a gebeurt, zoals in Haar — en dat raakt geen enkel woord uit deze les."
+      },
+      {
+        "titulo": "De harde uitgangen — die u gratis krijgt",
+        "corpo": "Een d, b of g aan het eind van een lettergreep klinkt stemloos, en de spelling registreert dat niet: Rad en Rat zijn allebei raht, Hund eindigt als Hunt, Tag als Tak. In het Nederlands doet u exact hetzelfde: bed klinkt als bet, hond als hont, weg als wek. Voor u is dit dus geen leerpunt maar een geruststelling — waar de Engelstalige moet oefenen om níét te verzachten, komt het bij u vanzelf. Ten slotte: ⟨ß⟩ is een letter, geen klank. Het is een stemloze s en niets anders. Wie in de plaats ⟨ss⟩ schrijft is nooit formeel fout — het regelwerk voorziet erin, en Zwitserland en Liechtenstein mogen het altijd zo schrijven."
+      }
+    ]
+  },
+  "slot": "B01",
+  "permissao": "U mag hier vreemd klinken. Niemand aan die toonbank telt uw ch, en het lastigste van deze les — twee ronde klinkers — kent u al uit huis en neus. Leg de klemtoon waar een Nederlands woord hem zou nemen, want het Duits doet hetzelfde, en steek al uw aandacht in de vijf letters. Dat is de hele klus van dag één, en het is een korte.",
+  "permissaoAudioKey": "de-b01-n01",
+  "espelho": "U leest ook thuis vormen die niet zijn wat ze lijken: de v van varen en van veertig, de ch van chocolade en van technisch, de g van gat en van goal. Niemand noemt het Nederlands moeilijk, want uw oog leerde die uitzonderingen ooit en houdt op met tegenspreken. Dit hoofdstuk is dezelfde klus op vijf letters, en het Duits is er veel consistenter in dan het Nederlands ooit was.",
+  "fichasCulturais": [
+    {
+      "sinal": "U leest een woord van het menu of het bord recht van het oog, en degene tegen wie u het zegt aarzelt voor hij antwoordt.",
+      "suaLeitura": "Mijn accent moet zo zwaar zijn dat zelfs losse woorden niet aankomen.",
+      "oQueEAli": "Heel vaak waren de klanken prima en de letters niet. Het Duits kent enkele letters anders toe dan het Nederlands, en de officiële norm zegt het duidelijk: w is [v], s vóór een klinker is [z], z valt onder de verbinding [ts], en sch is [ʃ]. De letter v ontsnapt aan een nette regel — [f] in een korte gesloten lijst oude inheemse woorden en in ver-, [v] in leenwoorden, en oscillerend in een derde lijst met November erbij.",
+      "oQueVoceFaz": "Wissel bewust bij elke w of v die uw oog tegenkomt, en zeg de tweede letter van ei en ie. Landt een woord nog niet, wijs het dan aan op papier in plaats van harder te herhalen.",
+      "oQueMelhora": "Losse woorden worden meteen herkend, en u behandelt een decodeerprobleem niet langer als een accentprobleem.",
+      "ondeNaoVale": "Dit is geen claim dat v altijd f is — het regelwerk splitst het zelf in drieën, en zelfs geboren lezers hakketakken op leenwoorden. Het is ook geen regel die iemand handhaaft: aan de kassa telt niemand mee, en veel gesprekken lopen door met elke letter fout uitgesproken.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-b01-n03"
+      ]
+    },
+    {
+      "sinal": "U zegt Wasser of Uhr met een volle Nederlandse eind-r, of u laat de r helemaal weg, en het woord landt scheef terwijl de rest klopte.",
+      "suaLeitura": "De Duitse r is een keelklank die ik niet kan maken, dus ik zit vast aan de mijne.",
+      "oQueEAli": "Aan het eind van een lettergreep hoeft u helemaal geen medeklinker te maken. De standaardbeschrijving van het Duits noteert dat een postvocale r vóór een medeklinker of aan het eind van een woord tot klinker wordt — [ɐ] — en dat de onbeklemtoonde uitgang -er die klinker elke keer is: Butter, Vater, Kinder, besser, aber, oder. De keel-r die u vreest komt alleen vóór een klinker terug, in woorden als rot en Reise.",
+      "oQueVoceFaz": "Laat uw hand aan het eind van het woord open vallen in plaats van te krommen, en zeg een klein uh. Doe dat bij elke -er zonder uitzondering — er is geen enkele die u apart hoeft te leren.",
+      "oQueMelhora": "De duidelijkste markering van een vreemd accent verdwijnt uit elk tweede woord, en dat kost één handbeweging, geen nieuwe medeklinker.",
+      "ondeNaoVale": "Eén punt hierin is onder fonetici omstreden — wat er na een lange a gebeurt, zoals in Haar, waar één studie een donkerder monoftong meet in plaats van de glijklank die elders wordt beschreven — en het raakt geen woord uit deze cursus. De beschrijving hier is bovendien van het standaard Duits uit het noorden van Duitsland; niets ervan is nagekeken voor Oostenrijk of Zwitserland.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-b01-n08"
+      ]
+    }
+  ]
+}

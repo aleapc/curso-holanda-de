@@ -1,0 +1,96 @@
+{
+  "id": "q-i08",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Uitgenodigd",
+  "subtitulo": "Op zaterdag gekocht, aan de deur bedankt, en de du komt als aanbod",
+  "introAudioKey": "de-i08-q-i",
+  "introPt": "Een bezoeker koopt op zaterdag voor een zondagse uitnodiging, en hoort dat de voornamen worden aangeboden.",
+  "cenario": "Een bloemenzaak op zaterdagmiddag, en de dag erna bij iemand thuis.",
+  "dialogo": [
+    {
+      "audioKey": "de-i08-q01",
+      "voz": "target_de_f",
+      "es": "Haben Sie einen Blumenstrauß?",
+      "pt": "Hebt u een boeket?",
+      "tts": "Haben Sie einen Blumenstrauß?"
+    },
+    {
+      "audioKey": "de-i08-q02",
+      "voz": "target_de_m",
+      "es": "Möchten Sie das als Geschenk?",
+      "pt": "Wilt u dat als cadeau?",
+      "tts": "Möchten Sie das als Geschenk?"
+    },
+    {
+      "audioKey": "de-i08-q03",
+      "voz": "target_de_f",
+      "es": "Vielen Dank für die Einladung.",
+      "pt": "Heel hartelijk dank voor de uitnodiging.",
+      "tts": "Vielen Dank für die Einladung."
+    },
+    {
+      "audioKey": "de-i08-q04",
+      "voz": "target_de_m",
+      "es": "Wir können uns gern duzen. Ich bin Thomas.",
+      "pt": "We kunnen elkaar gerust tutoyeren. Ik ben Thomas.",
+      "tts": "Wir können uns gern duzen. Ich bin Thomas."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "U bent uitgenodigd voor zondagmiddag. Wanneer koopt u de bloemen?",
+      "opcoes": [
+        "Zondag, onderweg — bloemisten zijn 's middags open",
+        "Zaterdag: de winkelsluitingswet houdt winkels dicht op zon- en feestdagen, en vanaf 20 uur op werkdagen",
+        "Bij het tankstation, dat op zondag alles verkoopt",
+        "Bij de stationssupermarkt, die in het weekend een gewone kruidenier is"
+      ],
+      "correta": 1,
+      "explica": "Een kort zondagvenster blijft over voor bakkerswaren, melk, vers fruit, bloemen en kranten, per deelstaat getimed rond de hoofddienst — vroeg en kort."
+    },
+    {
+      "pergunta": "Het tankstation is op zondag open. Wat mag het u wettelijk verkopen?",
+      "opcoes": [
+        "Alles wat op de schappen ligt",
+        "Brandstof, voertuigonderdelen om de auto te laten rijden, en reisbenodigdheden",
+        "Alleen brandstof",
+        "Alcohol alleen na 20 uur"
+      ],
+      "correta": 1,
+      "explica": "Station- en luchthavenwinkels vallen onder dezelfde beperking: open, maar wettelijk beperkt tot Reisebedarf voor reizigers."
+    },
+    {
+      "pergunta": "Uw gastheer zegt «wir können uns gern duzen». Wat gebeurt er?",
+      "opcoes": [
+        "U wordt op uw grammatica getest",
+        "Er wordt een aanbod gedaan van hun kant — iedereen mag het uitreiken, en wie het krijgt kan het bijna niet weigeren",
+        "U was te formeel en wordt gecorrigeerd",
+        "U moet in dezelfde zin de du teruggeven"
+      ],
+      "correta": 1,
+      "explica": "Neem het aan en antwoord met uw voornaam. U hoeft het aanbod nooit zelf te doen — en de overstap gaat daarna niet terug naar Sie."
+    },
+    {
+      "pergunta": "Waar komt de Duitse winkelsluitingsregel vandaan?",
+      "opcoes": [
+        "Één federale wet die overal identiek geldt",
+        "De deelstaten — de Grondwet sluit Ladenschluss uit van federale economische bevoegdheid, en Beieren nam in 2025 een eigen wet aan",
+        "De Europese Unie",
+        "Elke afzonderlijke winkelier"
+      ],
+      "correta": 1,
+      "explica": "De federale wet bestaat nog als restmodel. Beierens eigen wet, van kracht sinds 1 augustus 2025, laat zelfs onbemande winkels tot 150 m² 24 uur per dag open zijn."
+    },
+    {
+      "pergunta": "Greifen Sie zu, gezegd over de schaal, betekent:",
+      "opcoes": [
+        "Wacht tot de gastheer u opschept",
+        "Pak het zelf — reiken is het antwoord",
+        "De maaltijd is afgelopen",
+        "U moet om een kleinere portie vragen"
+      ],
+      "correta": 1,
+      "explica": "Nog een keer vragen is de bezoekersgewoonte die vreemd overkomt. Reik, en zeg das schmeckt wirklich gut terwijl u het doet."
+    }
+  ]
+}

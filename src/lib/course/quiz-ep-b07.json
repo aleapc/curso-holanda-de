@@ -1,0 +1,84 @@
+{
+  "id": "q-b07",
+  "nivel": "basico",
+  "titulo": "Quiz — Kunt u, vom Gepäckband bis zum Bett",
+  "subtitulo": "Ein Automat, ein Zug, ein Schalter — und ein Baustein für alle drei",
+  "introAudioKey": "hol-b07-q-i",
+  "introPt": "Ein Reisender landet spät, verpasst fast den letzten Zug und kommt mit vier Worten überall durch.",
+  "cenario": "Flughafen Schiphol, kurz vor Mitternacht.",
+  "dialogo": [
+    {
+      "audioKey": "hol-b07-q01",
+      "voz": "target_nl_f",
+      "es": "Kunt u mij helpen?",
+      "pt": "Können Sie mir helfen?",
+      "tts": "Kunt u mij helpen?"
+    },
+    {
+      "audioKey": "hol-b07-q02",
+      "voz": "target_nl_m",
+      "es": "Natuurlijk. Waar moet u naartoe?",
+      "pt": "Natürlich. Wohin müssen Sie?",
+      "tts": "Natuurlijk. Waar moet u naartoe?"
+    },
+    {
+      "audioKey": "hol-b07-q03",
+      "voz": "target_nl_m",
+      "es": "Zeker, over vijf minuten staat hij voor de deur.",
+      "pt": "Sicher, in fünf Minuten steht es vor der Tür.",
+      "tts": "Zeker, over vijf minuten staat hij voor de deur."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Was ist der Baustein dieses Kapitels?",
+      "opcoes": ["Heeft u ___?", "Kunt u ___?", "Mag ik ___?", "Waar is ___?"],
+      "correta": 1,
+      "explica": "Kunt u, gefolgt von dem, was die andere Person tun soll — im Infinitiv, ganz am Ende des Satzes."
+    },
+    {
+      "pergunta": "Welcher Weg vom Flughafen in die Stadt ist für die meisten Ankünfte am schnellsten?",
+      "opcoes": [
+        "Der Direktzug vom Bahnhof unter dem Terminal",
+        "Immer ein Taxi",
+        "Ein Mietwagen ab Ankunft",
+        "Es gibt keine direkte Verbindung"
+      ],
+      "correta": 0,
+      "explica": "Mehrmals pro Stunde fährt ein Direktzug vom Bahnhof unter Schiphol nach Amsterdam Centraal, in rund einer Viertelstunde."
+    },
+    {
+      "pergunta": "Der Lautsprecher übertönt die Gleisnummer, die der Schaffner gerade genannt hat. Was sagen Sie, statt um Wiederholung zu bitten?",
+      "opcoes": [
+        "Kunt u dat opschrijven?",
+        "Heeft u wifi?",
+        "Dank u wel!",
+        "Vakantie."
+      ],
+      "correta": 0,
+      "explica": "Derselbe Baustein aus B03 wartete auf diesen Moment: eine Zahl, die Sie nicht verhören dürfen, gehört auf Papier."
+    },
+    {
+      "pergunta": "In der Ankunftshalle spricht Sie jemand ohne Uniform an und bietet ein Taxi zum Festpreis an. Was tun Sie?",
+      "opcoes": [
+        "Sofort einsteigen, das spart Zeit",
+        "Weitergehen bis zum ausgeschilderten Taxistand",
+        "Laut protestieren",
+        "Die Person um eine Quittung bitten"
+      ],
+      "correta": 1,
+      "explica": "Inoffizielle Anwerber vor dem Taxistand kommen an vielen großen Flughäfen vor. Der ausgeschilderte Stand oder eine vermittelte Fahrt ist der sichere Weg."
+    },
+    {
+      "pergunta": "Für die Fahrkarte im Zug oder Bus brauchen Sie oft keine eigene Chipkarte. Warum?",
+      "opcoes": [
+        "Der ÖPNV ist in den Niederlanden kostenlos",
+        "Die meisten Verkehrsbetriebe nehmen inzwischen die kontaktlose Bankkarte direkt am Lesegerät",
+        "Nur Bargeld wird akzeptiert",
+        "Man braucht ein Abonnement"
+      ],
+      "correta": 1,
+      "explica": "Ein- und auschecken funktioniert mit der eigenen Bankkarte genauso wie mit der OV-chipkaart — mehr dazu in B09."
+    }
+  ]
+}

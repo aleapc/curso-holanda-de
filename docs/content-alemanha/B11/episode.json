@@ -1,0 +1,404 @@
+{
+  "id": "b11",
+  "nivel": "basico",
+  "numero": 11,
+  "parte": "B11",
+  "slot": "B11",
+  "titulo": "Ich möchte — en de eerste ronde komt binnen",
+  "subtitulo": "Eén beleefde opening, vier dingen om erachter te zetten, en het getal op de kaart is het getal dat u betaalt",
+  "cena": "Halfzeven in München, het tafeltje bij het raam is vrij, en de man achter de bar kijkt al op en wacht tot u uw mond opendoet.",
+  "moldura": "ganha",
+  "frasePiso": "Een tafel, een kaart, een bier en een koffie, door u besteld. De meesten die hier veertien dagen zijn, bestellen alles door naar een foto te wijzen.",
+  "moldes": [
+    "ICH-MOCHTE"
+  ],
+  "clique": {
+    "contagem": [
+      "het tafeltje bij het raam",
+      "de bar",
+      "de toonbank",
+      "de deuropening"
+    ],
+    "desconto": "U leerde vanavond geen vier zinnen. U leerde twee woorden en een bitte, en het ding in het midden deed de rest.",
+    "piso": "De volgende keer dat u ergens in dit land gaat zitten, staan de eerste dertig seconden al geschreven — en de beleefdheidsvorm zit in de woorden, zodat u er nooit één hoeft te kiezen."
+  },
+  "fatosDatados": [
+    {
+      "id": "de-b11-preco-final",
+      "afirmacao": "Het getal dat op de kaart staat is het getal dat u betaalt. § 3 van de Preisangabenverordnung verplicht een handelaar om de totaalprijs te vermelden, en § 2 definieert die als de prijs inclusief btw en elk ander bestanddeel. Aan de kassa wordt niets bijgeteld.",
+      "fonte": "Preisangabenverordnung 2022, §§ 2 e 3, texto integral em gesetze-im-internet.de, lido em 5/8/2026",
+      "ano": 2026,
+      "revisarAte": "2027-01-31",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-b11-n09"
+      ]
+    },
+    {
+      "id": "de-b11-iva-2026",
+      "afirmacao": "Sinds 1 januari 2026 worden restaurant- en cateringdiensten belast tegen het verlaagde tarief van 7% in plaats van 19%, bevestigd door de circulaire van het Ministerie van Financiën van 22 december 2025; dranken zijn uitdrukkelijk buiten gelaten en blijven op 19%. Omdat de weergegeven prijs de btw al moet bevatten, ziet de reiziger geen van beide cijfers — alleen één getal.",
+      "fonte": "BMF-Schreiben de 22/12/2025, GZ III C 2 - S 7220/00023/014/027; § 12 UStG",
+      "ano": 2026,
+      "revisarAte": "2027-01-31",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-b11-n10"
+      ]
+    },
+    {
+      "id": "de-b11-saudacao",
+      "afirmacao": "De groet die u bij binnenkomst hoort in een kleine zaak verandert per streek: Moin in Sleeswijk-Holstein en het noorden van Nedersaksen, Grüß Gott in heel Zuid-Duitsland, Servus in het oostelijke deel van Beieren, en Hallo dat op ongeveer 150 enquêtepunten in het hele land is opgetekend. Moin komt niet van Morgen: het komt van een Nedersaksisch en Fries woord voor «aangenaam», dus wat in de korte vorm overblijft is het bijvoeglijk naamwoord.",
+      "fonte": "Atlas zur deutschen Alltagssprache (AdA), rodada 2, questão F01 «Gruß am Nachmittag», carta ambientada num pequeno comércio",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-b11-n03"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b11-n01",
+      "gesto": 2,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "De ö van möchte kent u al uit neus en schön — hij komt gratis mee. Rond de lippen zonder de tong te bewegen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b11-n02",
+      "bloco": "cena",
+      "pt": "Halfzeven, het tafeltje bij het raam is vrij, en de man achter de bar kijkt al op."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b11-n03",
+      "bloco": "corpo",
+      "pt": "U loopt binnen met een groet. Hallo reist overal mee. In het zuiden hoort u Grüß Gott, in het noorden Moin."
+    },
+    {
+      "consulta": [
+        "chegar/entrar",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b11-p01",
+      "promptPt": "De deur valt achter u dicht en drie gezichten draaien om. Open met wat in alle zestien deelstaten werkt. Spreek nu.",
+      "audioKey": "de-b11-t01",
+      "es": "Hallo! Guten Abend.",
+      "pinyin": "ha-LOH! GOO-ten AH-bent",
+      "pt": "Hallo! Goedenavond.",
+      "tts": "Hallo! Guten Abend."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b11-r01",
+      "es": "Grüß Gott! Setzen Sie sich, wohin Sie möchten.",
+      "pinyin": "gruess got! ZET-sen zee zikh, voh-HIN zee MURKH-ten",
+      "pt": "Hallo! Gaat u zitten waar u wilt.",
+      "tts": "Grüß Gott! Setzen Sie sich, wohin Sie möchten.",
+      "receptivo": true,
+      "acao": "Kies een tafel. Waar de groet Grüß Gott is, doet hij hetzelfde werk als Hallo — antwoord met wat u al hebt."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b11-n04",
+      "pt": "Let op Sie in zijn zin. De beleefdheidsvorm zit hier al in elke opening ingebakken, dus u kiest hem nooit."
+    },
+    {
+      "consulta": [
+        "mesa/mesa",
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "HABEN-SIE",
+      "encaixe": "einen Tisch für zwei",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b11-p02",
+      "promptPt": "Vrijdag, de zaal is luidruchtig, en u en uw gezelschap staan al een minuut in de deuropening. Vraag het hem. Spreek nu.",
+      "audioKey": "de-b11-t02",
+      "es": "Haben Sie einen Tisch für zwei?",
+      "pinyin": "HAH-ben zee INE-en tish fuer tsvy",
+      "pt": "Hebt u een tafel voor twee?",
+      "tts": "Haben Sie einen Tisch für zwei?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b11-rr01",
+      "es": "Ja, gerne. Am Fenster ist noch frei.",
+      "pinyin": "yah, GAIR-nuh. am FEN-stuh ist nokh fry",
+      "pt": "Ja, graag. Die bij het raam is nog vrij.",
+      "tts": "Ja, gerne. Am Fenster ist noch frei."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b11-n05",
+      "bloco": "molde",
+      "pt": "Nu de bouwsteen voor de avond: ich möchte, het ding, bitte. Aan beide kanten omhuld, nooit een eis."
+    },
+    {
+      "consulta": [
+        "mesa/carta"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "die Karte",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b11-p03",
+      "promptPt": "U zit, jassen uit, en op tafel staat alleen een kaars. Vraag om het ding waaruit u leest. Spreek nu.",
+      "audioKey": "de-b11-t03",
+      "es": "Ich möchte die Karte, bitte.",
+      "pinyin": "ikh MURKH-tuh dee KAR-tuh, BIT-tuh",
+      "pt": "Ik wil graag de kaart, alstublieft.",
+      "tts": "Ich möchte die Karte, bitte."
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "ein Bier",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b11-p04",
+      "promptPt": "Hij staat aan uw elleboog met een blocnote en de eerste ronde is voor u. Bestel eerst voor uzelf. Spreek nu.",
+      "audioKey": "de-b11-t04",
+      "es": "Ich möchte ein Bier, bitte.",
+      "pinyin": "ikh MURKH-tuh ine beer, BIT-tuh",
+      "pt": "Ik wil graag een bier, alstublieft.",
+      "tts": "Ich möchte ein Bier, bitte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b11-n06",
+      "pt": "Bier, met ie, is precies uw bier. Zeg de tweede letter en de klank valt goed."
+    },
+    {
+      "consulta": [
+        "mesa/bebida",
+        "mesa/agua-pao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "ein Wasser",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b11-p05",
+      "promptPt": "U liep vandaag elf kilometer en dat gaat het bier niet in zijn eentje oplossen. Voeg nog iets toe. Spreek nu.",
+      "audioKey": "de-b11-t05",
+      "es": "Ich möchte ein Wasser, bitte.",
+      "pinyin": "ikh MURKH-tuh ine VAH-suh, BIT-tuh",
+      "pt": "Ik wil graag een water, alstublieft.",
+      "tts": "Ich möchte ein Wasser, bitte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b11-n07",
+      "pt": "Wasser begint met een v-klank. Hun ⟨w⟩ is altijd /v/ — dicht bij uw eigen w, bijna gratis."
+    },
+    {
+      "consulta": [
+        "mesa/bebida",
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "einen Kaffee",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b11-p06",
+      "promptPt": "Borden weg, negen uur, en morgen opent een museum vroeg. Bestel wat dat oplost. Spreek nu.",
+      "audioKey": "de-b11-t06",
+      "es": "Ich möchte einen Kaffee, bitte.",
+      "pinyin": "ikh MURKH-tuh INE-en KA-fay, BIT-tuh",
+      "pt": "Ik wil graag een koffie, alstublieft.",
+      "tts": "Ich möchte einen Kaffee, bitte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b11-n08",
+      "pt": "Het ding in het midden komt altijd aangekleed: einen Kaffee, ein Bier, die Karte. Leer elk als geheel."
+    },
+    {
+      "consulta": [
+        "chegar/balcao",
+        "quarto/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "HABEN-SIE",
+      "encaixe": "WLAN",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b11-p07",
+      "promptPt": "Uw data zijn op sinds de luchthaven en thuis wacht iemand op bericht dat u aangekomen bent. Vraag het aan de bar. Spreek nu.",
+      "audioKey": "de-b11-t07",
+      "es": "Haben Sie WLAN?",
+      "pinyin": "HAH-ben zee VAY-lahn",
+      "pt": "Hebt u wifi?",
+      "tts": "Haben Sie WLAN?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b11-n09",
+      "bloco": "capsula",
+      "pt": "Lees de menuprijs als de hele prijs. Btw zit er wettelijk in, en er wordt niets bij de rekening opgeteld."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b11-n10",
+      "pt": "Het tarief op eten daalde in januari 2026 naar zeven procent en op drank bleef het negentien."
+    },
+    {
+      "consulta": [
+        "chegar/entrar",
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WO-IST",
+      "encaixe": "die Toilette",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b11-p08",
+      "promptPt": "Tweede bier binnen, en de gang achterin heeft vier deuren zonder bordje. Vraag het aan de vrouw achter de toonbank. Spreek nu.",
+      "audioKey": "de-b11-t08",
+      "es": "Wo ist die Toilette?",
+      "pinyin": "voh ist dee twa-LET-tuh",
+      "pt": "Waar is het toilet?",
+      "tts": "Wo ist die Toilette?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b11-r02",
+      "es": "Da hinten rechts, die Treppe runter.",
+      "pinyin": "dah HIN-ten rekhts, dee TREP-puh ROON-tuh",
+      "pt": "Daar achter rechts, de trap af.",
+      "tts": "Da hinten rechts, die Treppe runter.",
+      "receptivo": true,
+      "acao": "Vang de laatste twee woorden en loop. Aanwijzingen eindigen hier meestal met de verdieping: trap af, trap op, eerste deur."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b11-n11",
+      "pt": "Eén slotwoord, drie maten. Danke alleen, danke schön warmer, vielen Dank bij echte moeite."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "DANKE",
+      "encaixe": "danke schön",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b11-p09",
+      "promptPt": "Het glas staat binnen een minuut voor u. Sluit de wisseling af in de middelste maat. Spreek nu.",
+      "audioKey": "de-b11-t09",
+      "es": "Danke schön!",
+      "pinyin": "DAN-kuh shurn",
+      "pt": "Dank u wel!",
+      "tts": "Danke schön!"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-b11-s01",
+      "es": "Ich möchte die Karte, bitte. Ich möchte ein Bier, bitte. Ich möchte einen Kaffee, bitte.",
+      "pinyin": "ikh MURKH-tuh dee KAR-tuh, BIT-tuh. ikh MURKH-tuh ine beer, BIT-tuh. ikh MURKH-tuh INE-en KA-fay, BIT-tuh",
+      "pt": "Herhaal dezelfde opening op drie verschillende momenten van één avond.",
+      "tts": "Ich möchte die Karte, bitte. Ich möchte ein Bier, bitte. Ich möchte einen Kaffee, bitte.",
+      "molde": "ICH-MOCHTE"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b11-n12",
+      "bloco": "clique",
+      "pt": "Tel ze: de deuropening, het tafeltje bij het raam, de bar, de toonbank. Vier plekken, één opening."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b11-n13",
+      "bloco": "recap",
+      "pt": "B11 klaar. Ich möchte, het ding, bitte — en het getal op de kaart is het getal op de rekening."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Gaan zitten, en de eerste dertig seconden",
+    "secoes": [
+      {
+        "titulo": "Ich möchte plus het ding, plus bitte",
+        "corpo": "Möchte is de beleefde vorm van mögen, en het is het Duitse «ik wil graag». Hij zit met opzet aan beide kanten ingepakt: ich vooraan zodat het duidelijk over u gaat, bitte achteraan zodat het verzoek zacht landt. Hij is beter dan ich will, wat als eis klinkt, en korter dan ich hätte gern, wat mooi is en te lang voor uw eerste avond. U spreekt er alleen mee namens uzelf, dus de vorm verandert nooit."
+      },
+      {
+        "titulo": "Waarom het ding met zijn kleine woord komt",
+        "corpo": "Het Duits markeert de rol die een zelfstandig naamwoord in een zin speelt, en die markering landt op het kleine woord ervoor in plaats van op het zelfstandig naamwoord zelf. Na ich möchte ligt die rol vast — dus einen Kaffee, ein Bier, ein Wasser, die Karte worden als blokken geleerd en als blokken gezegd. U wordt aan tafel niet gevraagd om einen versus ein uit te rekenen, en deze cursus belooft niet dat u dat ooit doet. Hij belooft dat u de koffie krijgt."
+      },
+      {
+        "titulo": "Sie zit al in de woorden",
+        "corpo": "Het Duits heeft een formeel «u» en een familiair «jij», en de hele cursus door gebruikt u de formele. Dat is echt goed nieuws en ligt dicht bij uw eigen U/jij-onderscheid: u hoeft nooit te beslissen. Sie zit in haben Sie, en in ich möchte valt er niets te beslissen omdat u het daar alleen over uzelf hebt. Als iemand later voorstelt om over te gaan op de familiaire vorm, is dat een aanbod dat de ander doet — niet een keuze die u zelf moet maken."
+      },
+      {
+        "titulo": "De groet waarmee u binnenkomt",
+        "corpo": "De enquêtevraag hierachter gaat letterlijk over binnenlopen in een kleine zaak in de middag, wat precies is wat u doet. Hallo is de algemene en is op ongeveer 150 enquêtepunten opgetekend; het is ook de grootste verandering in Duitse groetgewoonten sinds de jaren zeventig. Grüß Gott hoort bij Zuid-Duitsland, Servus bij het oostelijke deel van Beieren, en Moin bij Sleeswijk-Holstein en het noorden van Nedersaksen — waar het overigens niets met Morgen te maken heeft: het komt van een woord voor «aangenaam», dus de korte vorm is het bijvoeglijk naamwoord alleen, en werkt op elk uur. Bij het weggaan zijn er twee die overal veilig zijn: tschüss, en het formelere auf Wiedersehen."
+      },
+      {
+        "titulo": "Het getal op de kaart",
+        "corpo": "De prijzenregeling verplicht een totaalprijs met btw er al in, dus aan de kassa wordt niets bijgeklikt — een dagelijkse kleine opluchting. Het tarief op restauranteten ging op 1 januari 2026 omlaag naar zeven procent terwijl drank op negentien bleef, en door diezelfde regeling bereikt geen van beide cijfers u ooit. U ziet één getal, en u betaalt dat."
+      }
+    ]
+  },
+  "permissao": "U mag in drie woorden plus bitte bestellen. Ich möchte ein Bier, bitte is niet bot en niet kinderlijk — het is de gewone vorm van een verzoek hier, en de beleefdheid wordt gedragen door bitte in plaats van door een langere aanloop. U mag het geheel ook langzaam zeggen, en u mag naar de kaart wijzen terwijl u het zegt.",
+  "espelho": "Bestellen met een lang excuus eraan vast — sorry dat ik u lastigval, als u even tijd hebt — leest hier als aarzeling in plaats van als manieren, en houdt hem langer aan uw tafel dan een van u beiden wilde.",
+  "fichasCulturais": [
+    {
+      "sinal": "U loopt binnen, niemand komt naar de deur, en de man achter de bar kijkt alleen op en wacht af.",
+      "suaLeitura": "Er is geen gastheer, dus ik ben vergeten en moet hier blijven staan tot iemand mij redt.",
+      "oQueEAli": "Die blik is de uitnodiging. Waar de zitplaatskeuze aan u wordt overgelaten, is de zin die de avond opent die van u — haben Sie einen Tisch für zwei, of gewoon de groet gevolgd door een blik op een vrije tafel. De formele Sie zit al in de woorden, dus niets aan uw staan daar dwingt u om te berekenen hoe beleefd u moet zijn.",
+      "oQueVoceFaz": "Groet eerst, vraag als tweede, en ga zitten als het u wordt aangewezen of gebaard. Als een tafel gereserveerd blijkt, pak een andere en zeg er niets over.",
+      "oQueMelhora": "U krijgt het tafeltje bij het raam in plaats van dat bij de keukendeur, en de avond begint ermee dat u als eerste hebt gesproken.",
+      "ondeNaoVale": "Of een zaak u een tafel wijst of u zelf laat kiezen, is niet iets wat deze cursus kan voorspellen, en geen bron meet het. Neem de zin en gebruik welke helft de zaal ook nodig blijkt te hebben.",
+      "evidencia": "INFERENCIA",
+      "audioKeys": [
+        "de-b11-n04"
+      ]
+    },
+    {
+      "sinal": "De rekening arriveert en het totaal is precies de som van de getallen die u op de kaart las.",
+      "suaLeitura": "Ze zijn de btw vergeten op te tellen, en straks komt iemand terug om dit te corrigeren.",
+      "oQueEAli": "Niemand is iets vergeten. De prijzenregeling verplicht de handelaar om de totaalprijs met btw erin te tonen, dus het gedrukte getal is het hele getal. In januari 2026 daalde het tarief op restauranteten van negentien procent naar zeven terwijl drank op negentien bleef, en door diezelfde regel is die wijziging op geen enkele rekening in het land verschenen.",
+      "oQueVoceFaz": "Reken uw begroting vanaf de kaart zelf. Wat u leest, is wat u verschuldigd bent.",
+      "oQueMelhora": "U kunt twee zaken vanuit de deuropening in uw hoofd vergelijken, zonder rekenmachine — de borden buiten vertellen al de waarheid.",
+      "ondeNaoVale": "Er is één wettelijke uitzondering en dat is het statiegeld in een winkel, dat naast de prijs moet staan en er niet in mag worden opgeteld. En de fooi is een aparte zaak: het Duitse belastingrecht definieert die als vrijwillig, zonder juridische aanspraak, gegeven bovenop wat voor de dienst verschuldigd is.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-b11-n09",
+        "de-b11-n10"
+      ]
+    }
+  ]
+}

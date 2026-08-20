@@ -1,0 +1,96 @@
+{
+  "id": "q-b13",
+  "nivel": "basico",
+  "titulo": "Quiz — Ich habe eine Allergie, en de vraag die de kok bereikt",
+  "subtitulo": "De vlakke zin, ohne plus het ding, drin, en de twee telefoonnummers die echt zijn",
+  "introAudioKey": "de-b13-q-i",
+  "introPt": "Een reiziger zegt het vóór de bestelling weggaat, krijgt een eerlijk antwoord over de pan, en past aan.",
+  "cenario": "Een Gasthaus-tafel waar de ober het blocnote open heeft en de bestelling zo naar de keuken gaat.",
+  "dialogo": [
+    {
+      "audioKey": "de-b13-q01",
+      "voz": "target_de_f",
+      "es": "Ich habe eine Allergie. Bitte ohne Nüsse.",
+      "pt": "Ik heb een allergie. Zonder noten, alstublieft.",
+      "tts": "Ich habe eine Allergie. Bitte ohne Nüsse."
+    },
+    {
+      "audioKey": "de-b13-q02",
+      "voz": "target_de_m",
+      "es": "Moment. Im Pesto sind Nüsse drin.",
+      "pt": "Een moment. Er zitten noten in de pesto.",
+      "tts": "Moment. Im Pesto sind Nüsse drin."
+    },
+    {
+      "audioKey": "de-b13-q03",
+      "voz": "target_de_f",
+      "es": "Dann ohne Pesto. Was ist in der Suppe drin?",
+      "pt": "Dan zonder pesto. Wat zit er in de soep?",
+      "tts": "Dann ohne Pesto. Was ist in der Suppe drin?"
+    },
+    {
+      "audioKey": "de-b13-q04",
+      "voz": "target_de_m",
+      "es": "Das kann ich Ihnen nicht garantieren. Ich frage in der Küche.",
+      "pt": "Dat kan ik u niet garanderen. Ik vraag het in de keuken.",
+      "tts": "Das kann ich Ihnen nicht garantieren. Ich frage in der Küche."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Wanneer moet de allergie-zin gezegd worden?",
+      "opcoes": [
+        "Als het bord komt, zodat u ernaar kunt wijzen",
+        "Vóór de bestelling naar de keuken gaat",
+        "Aan het eind, bij de rekening",
+        "Alleen als iets op de kaart riskant lijkt"
+      ],
+      "correta": 1,
+      "explica": "Een keuken kan alleen handelen terwijl er nog gekookt wordt. Zodra het bord landt, blijft alleen terugsturen over, en dan is de pan al gebruikt."
+    },
+    {
+      "pergunta": "Wat zegt drin u wanneer het in het antwoord opduikt?",
+      "opcoes": [
+        "Dat het gerecht af is en onderweg",
+        "Dat het ingrediënt in het gerecht zit, niet ernaast",
+        "Dat de keuken het op heeft",
+        "Dat het een extra is die u moet bijbetalen"
+      ],
+      "correta": 1,
+      "explica": "Drin betekent erin. Im Pesto sind Nüsse drin is een ingrediëntenlijst in vier woorden, en het is het woord om op te letten in elk antwoord."
+    },
+    {
+      "pergunta": "Ohne Nüsse heeft geen lidwoord vóór Nüsse. Waarom niet?",
+      "opcoes": [
+        "Omdat de spreker expres kortaf is",
+        "Omdat ohne de enige plek is waar het ding kaal komt",
+        "Omdat noten meervoud zijn en meervouden er nooit een krijgen",
+        "Omdat het lidwoord is weggelaten om tijd te sparen"
+      ],
+      "correta": 1,
+      "explica": "Overal elders in deze cursus komt het ding met zijn lidwoord er al aan vast — einen Tisch, ein Zimmer. Na ohne krijgen stofvoedingsmiddelen en algemene meervouden niets ervoor, wat het de kortste instructie in de taal maakt."
+    },
+    {
+      "pergunta": "De ober zegt «Das kann ich Ihnen nicht garantieren.» Wat heeft hij zojuist gedaan?",
+      "opcoes": [
+        "Geweigerd u tegemoet te komen",
+        "U verteld dat het gerecht toch veilig is",
+        "Geweigerd iets te beloven wat hij niet kan overzien, wat eerlijk is",
+        "U gevraagd van een andere kaart te kiezen"
+      ],
+      "correta": 2,
+      "explica": "Neem het als een nee voor dat gerecht en vraag wat de keuken wel kan. Het is een recht antwoord, geen afwijzing, en de zin erna is hij die het gaat vragen."
+    },
+    {
+      "pergunta": "Welke nummers doen er echt toe voor een medisch noodgeval in Duitsland?",
+      "opcoes": [
+        "112 alleen, dat alles doorschakelt",
+        "112 voor brandweer en ambulance, 110 voor politie",
+        "116117, de lijn buiten kantooruren",
+        "110 alleen, dat medische oproepen doorzet"
+      ],
+      "correta": 1,
+      "explica": "Ze zijn een paar, geen enkele lijn: 112 verbindt u niet door met de politie, zoals u vanuit Nederland gewend bent. 116117 is de dienst buiten kantooruren voor klachten op praktijkniveau, niet voor iets levensbedreigends, en de eigen Engelse pagina zegt dat de telefoon alleen in het Duits antwoordt."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "q-a02",
+  "nivel": "avancado",
+  "titulo": "Quiz — Worüber sie lachen",
+  "subtitulo": "Fünf Fragen zum Tikkie-Witz, zu gezellig und zu «doe maar gewoon»",
+  "introAudioKey": "hol-a02-q-i",
+  "introPt": "Ein Tisch, eine Rechnung, ein Handy, das schon tippt, bevor jemand nach der Karte gefragt hat.",
+  "cenario": "Ein Abendessen mit neuen Bekannten, kurz nach dem letzten Bissen.",
+  "dialogo": [
+    {
+      "audioKey": "hol-a02-q01",
+      "voz": "target_nl_m",
+      "es": "Welnee, dat is al heel goed hoor!",
+      "pt": "Aber nein, das ist doch schon sehr gut!",
+      "tts": "Welnee, dat is al heel goed hoor!"
+    },
+    {
+      "audioKey": "hol-a02-q02",
+      "voz": "target_nl_f",
+      "es": "Ik stuur je zo een Tikkie, dan zijn we quitte!",
+      "pt": "Ich schick dir gleich einen Tikkie, dann sind wir quitt!",
+      "tts": "Ik stuur je zo een Tikkie, dan zijn we quitte!"
+    },
+    {
+      "audioKey": "hol-a02-q03",
+      "voz": "target_nl_m",
+      "es": "Wat gezellig dat je meedoet, hoor!",
+      "pt": "Wie schön, dass du mitmachst!",
+      "tts": "Wat gezellig dat je meedoet, hoor!"
+    },
+    {
+      "audioKey": "hol-a02-q04",
+      "voz": "target_nl_f",
+      "es": "Doe maar gewoon, dan doe je al gek genoeg.",
+      "pt": "Benimm dich einfach normal, das ist schon verrückt genug.",
+      "tts": "Doe maar gewoon, dan doe je al gek genoeg."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Der Tikkie-Link kommt schon während des Essens. Was tust du?",
+      "opcoes": [
+        "Mich beleidigt fühlen, weil über Geld geredet wird",
+        "Mitlachen — Sparsamkeit als Insiderwitz gehört ihnen, sie machen ihn selbst",
+        "So tun, als hätte ich das Handy nicht bemerkt",
+        "Erklären, wie das bei dir zu Hause besser läuft"
+      ],
+      "correta": 1,
+      "explica": "Sparsamkeit und exaktes Teilen sind ein selbstgewählter Teil des Selbstbilds, und der Witz darüber kommt von ihnen. Als Gast lachst du mit; einen eigenen Geiz-Witz als Erster zu machen, ist der Fauxpas."
+    },
+    {
+      "pergunta": "Was ist das zuverlässigste Lachmaterial, das du selbst mitbringen kannst?",
+      "opcoes": [
+        "Ein Witz über die niederländische Politik",
+        "Dein eigenes fehlerhaftes Niederländisch",
+        "Ein Kommentar über das Wetter als Beschwerde",
+        "Ein Vergleich mit einem Nachbarland"
+      ],
+      "correta": 1,
+      "explica": "Selbstironie funktioniert überall und ist billig herzustellen. Mijn Nederlands is verschrikkelijk öffnet, und die Antwort welnee, dat is al heel goed nimmst du am besten einfach an."
+    },
+    {
+      "pergunta": "Jemand sagt «wat gezellig dat je meedoet». Was macht das Wort gezellig hier?",
+      "opcoes": [
+        "Es bewertet dich persönlich als Person",
+        "Es lobt die Stimmung, und du nimmst es einfach an",
+        "Es ist ein förmlicher Ausdruck für offizielle Anlässe",
+        "Es bedeutet dasselbe wie sorry"
+      ],
+      "correta": 1,
+      "explica": "Gezellig lobt die gemeinsame Stimmung, nicht eine Einzelperson. Die richtige Reaktion ist ein einfaches Dankeschön, kein Widerspruch."
+    },
+    {
+      "pergunta": "«Doe maar gewoon, dan doe je al gek genoeg» — worüber macht sich dieser Spruch lustig?",
+      "opcoes": [
+        "Über Ausländer, die sich falsch benehmen",
+        "Über Angeberei — normal sein ist schon verrückt genug",
+        "Über schlechtes Wetter",
+        "Über zu langsames Sprechen"
+      ],
+      "correta": 1,
+      "explica": "Der Spruch nimmt Angeberei aufs Korn und funktioniert meist als Selbstermahnung. Wer ihn zitiert, macht sich in der Regel selbst zum Ziel des Witzes, nicht dich."
+    },
+    {
+      "pergunta": "Der Tisch lacht, und du hast die Pointe nicht mitbekommen. Was ist die beste Reaktion?",
+      "opcoes": [
+        "Höflich mitlächeln und hoffen, dass es niemand merkt",
+        "Sorry, wat was er nou grappig fragen",
+        "Das Thema sofort wechseln",
+        "So tun, als hättest du es verstanden"
+      ],
+      "correta": 1,
+      "explica": "Eine ehrliche Nachfrage kommt besser an als das durchschaubare höfliche Mitlächeln — Humor gilt überall als der Ort, an dem Sprachgefühl wirklich gemessen wird, also erwartet niemand, dass du in Woche zwei alles fängst."
+    }
+  ]
+}

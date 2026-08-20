@@ -1,0 +1,96 @@
+{
+  "id": "q-i03",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Het bord dat u niet ging bestellen",
+  "subtitulo": "Overhandig de keuze, en krijg een beter bord terug",
+  "introAudioKey": "de-i03-q-i",
+  "introPt": "Een reiziger stopt met door de gedrukte kaart te ploegen, vraagt om die van de dag en eet wat de keuken vanochtend kookte.",
+  "cenario": "Een Gasthaus om half een, een krijtbord bij de deur en een gedrukte kaart op tafel.",
+  "dialogo": [
+    {
+      "audioKey": "de-i03-q01",
+      "voz": "target_de_f",
+      "es": "Was empfehlen Sie?",
+      "pt": "Wat beveelt u aan?",
+      "tts": "Was empfehlen Sie?"
+    },
+    {
+      "audioKey": "de-i03-q02",
+      "voz": "target_de_m",
+      "es": "Heute empfehle ich das Tagesgericht. Steht draußen an der Tafel.",
+      "pt": "Vandaag beveel ik het daggerecht aan. Staat buiten op het bord.",
+      "tts": "Heute empfehle ich das Tagesgericht. Steht draußen an der Tafel."
+    },
+    {
+      "audioKey": "de-i03-q03",
+      "voz": "target_de_f",
+      "es": "Entschuldigung, was ist das?",
+      "pt": "Pardon, wat is dat?",
+      "tts": "Entschuldigung, was ist das?"
+    },
+    {
+      "audioKey": "de-i03-q04",
+      "voz": "target_de_m",
+      "es": "Das ist eine Suppe mit Klößen. Sehr gut heute.",
+      "pt": "Dat is een soep met knoedels. Vandaag erg lekker.",
+      "tts": "Das ist eine Suppe mit Klößen. Sehr gut heute."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Waarom «Was empfehlen Sie?» vragen in plaats van vragen wat lekker is?",
+      "opcoes": [
+        "Het vraagt een persoon om er één te kiezen, wat beantwoordbaar is — vragen wat lekker is nodigt uit tot een verdediging van de hele kaart",
+        "Het is formeler, en formaliteit wordt verwacht",
+        "Het is de enige grammaticaal correcte optie",
+        "Het signaleert dat u meer fooi zult geven"
+      ],
+      "correta": 0,
+      "explica": "Niets op een kaart wordt als slecht beschreven. Vragen om een aanbeveling is een kleinere, beantwoordbare vraag, en het antwoord noemt meestal één gerecht."
+    },
+    {
+      "pergunta": "De rekening klopt exact met de getallen op de kaart, zonder iets erbij. Waarom?",
+      "opcoes": [
+        "De ober vergat de belasting",
+        "Belasting wordt apart bij de deur geïnd",
+        "De prijsopgaveregels vereisen dat de vermelde prijs het totaal is, met de btw al binnenin",
+        "Restaurants zijn vrijgesteld van btw"
+      ],
+      "correta": 2,
+      "explica": "De vermelde prijs moet btw en alle andere componenten bevatten, dus wordt aan het eind niets bijgeteld. Sinds 1 januari 2026 wordt restauranteten belast tegen zeven procent en dranken tegen negentien — en u ziet geen van beide getallen ooit."
+    },
+    {
+      "pergunta": "Wat zegt de Duitse belastingwet over een fooi?",
+      "opcoes": [
+        "Het is een vast percentage bovenop de rekening",
+        "Het is vrijwillig, zonder wettelijke aanspraak, en bovenop het voor het werk verschuldigde bedrag",
+        "Het moet door het restaurant op de rekening worden vermeld",
+        "Het vervangt een deel van de vermelde prijs"
+      ],
+      "correta": 1,
+      "explica": "De vrijstelling in de inkomstenbelastingwet moet fooien eerst definiëren, en definieert ze precies zo — waardoor de prijs van de maaltijd juridisch de hele prijs is. Deze cursus geeft geen percentage: er is geen norm en geen officiële statistiek."
+    },
+    {
+      "pergunta": "U kunt één regel op het bord niet lezen. Wat is de zet?",
+      "opcoes": [
+        "Iets bestellen dat u al herkent",
+        "Het opzoeken en hopen dat de vertaling klopt",
+        "Om een Engelse kaart vragen en opnieuw beginnen",
+        "Wijzen en zeggen «Entschuldigung, was ist das?» — het antwoord komt als beschrijving, en dat was wat u nodig had"
+      ],
+      "correta": 3,
+      "explica": "Duitse menuwoorden lassen meerdere zelfstandige naamwoorden aan elkaar en geen enkele voorbereiding dekt ze. Een beschrijving — eine Suppe mit Klößen, sehr gut heute — is toch nuttiger dan een vertaling."
+    },
+    {
+      "pergunta": "«Und zu trinken?» komt meteen nadat u het eten heeft besteld. Wat is het?",
+      "opcoes": [
+        "Een hint dat u meer moet bestellen",
+        "De tweede vraag, en die komt snel — beslis voor u gaat zitten",
+        "Een verzoek om betaling",
+        "Een vraag of u kraanwater wilt"
+      ],
+      "correta": 1,
+      "explica": "Ze volgt meestal meteen op het eten en snel. Het antwoord klaar hebben houdt elke beurt van de uitwisseling vier woorden lang."
+    }
+  ]
+}

@@ -1,0 +1,391 @@
+{
+  "id": "b08",
+  "nivel": "basico",
+  "numero": 8,
+  "parte": "B08",
+  "slot": "B08",
+  "titulo": "Wo ist — en het antwoord dat u in uw hoofd meedraagt",
+  "subtitulo": "Twee letters die van plaats wisselen, drie woorden die niet veranderen, en een arm die omhoog gaat en wijst",
+  "cena": "Een kruispunt in een stad waar u gisteren aankwam, telefoon op vier procent, met de deur van een bakkerij op de hoek open gezet.",
+  "moldura": "ganha",
+  "frasePiso": "Wo ist, plus de plaats. Drie woorden, en het antwoord komt als een wijzende arm, geen alinea.",
+  "moldes": [
+    "WO-IST"
+  ],
+  "clique": {
+    "contagem": [
+      "de bakkerij",
+      "het kruispunt",
+      "de stationshal",
+      "de hotellobby"
+    ],
+    "desconto": "Vier plaatsen, vier verschillende mensen, en u leerde geen nieuwe zin voor één ervan. Alleen het laatste woord veranderde.",
+    "piso": "De volgende keer dat u verdwaalt, opent u geen vertaal-app. U loopt de eerstvolgende open deur binnen en zegt drie woorden."
+  },
+  "fatosDatados": [
+    {
+      "id": "de-b08-ingles",
+      "afirmacao": "In de veldronde 2023 van de Eurobarometer over talen zei 65 procent van de respondenten in Duitsland een extra taal goed genoeg te spreken om een gesprek te voeren, en die taal is overweldigend Engels; het EU27-gemiddelde op dezelfde vraag lag op 47 procent. Het vergelijkbare cijfer uit 2012 was 56 procent tegen een EU27-gemiddelde van 38 procent.",
+      "fonte": "Special Eurobarometer 540, «Europeans and their languages» (campo set–out 2023, publicado 2024; Verian para a DG EAC; DOI 10.2766/28257), p. 20, tabela D48.otherlang; série comparável com o Special Eurobarometer 386 (campo fev–mar 2012), p. 21. ⚠ Ressalva de proveniência registrada no dossiê: o PDF do SP540 efetivamente aberto veio de um espelho fora do domínio europa.eu, com capa, ISBN, DOI e layout íntegros e o valor validado contra o texto corrido da p. 19. ⚠ Não somar com o Adult Education Survey do Eurostat: são perguntas diferentes e não são intercambiáveis.",
+      "ano": 2024,
+      "revisarAte": "2027-06-30",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-b08-n07"
+      ]
+    },
+    {
+      "id": "de-b08-gruss",
+      "afirmacao": "De begroeting die u bij binnenkomst in een klein winkeltje hoort verschilt per regio en de kaart die dat in beeld brengt vroeg precies die vraag. Moin en Moinmoin zijn opgetekend in Sleeswijk-Holstein en het noorden van Nedersaksen; Grüß Gott in Zuid-Duitsland en de pre-Alpiene gordel; Servus in oostelijk Beieren; Hallo overal, opgetekend op ongeveer 150 enquêtepunten, en dat is de grootste gebruiksverschuiving sinds de jaren zeventig. Moin komt niet van «Morgen»: het komt van «moien Dag», van het Nederduitse en Friese bijvoeglijk naamwoord moi, «aangenaam» — de verkorte vorm bewaart alleen het bijvoeglijk naamwoord.",
+      "fonte": "Atlas zur deutschen Alltagssprache (AdA), Elspaß (Salzburg) / Möller (Liège), Rodada 2, questão F01 «Gruß am Nachmittag» — a pergunta é literalmente sobre entrar à tarde num pequeno comércio. Página lida em 2026 para o dossiê. ⚠ O AdA publica CATEGORIAS ORDINAIS por localidade (üblich / ab und zu / unüblich), não percentuais: qualquer número percentual atribuído a esta carta seria invenção. ⚠ A «área exata» do Moin não existe — o AdA dá pontos de inquérito, não isoglossas.",
+      "ano": 2026,
+      "revisarAte": "2028-08-01",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-b08-n06"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b08-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "Eén vraag, drie woorden, en een antwoord klein genoeg om vast te houden: een arm gaat omhoog en wijst."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b08-n02",
+      "bloco": "molde",
+      "tom": "ganha",
+      "pt": "De bouwsteen: Wo ist, dan de plaats. Wo is «voh» — de Duitse ⟨w⟩ klinkt ongeveer als uw eigen ⟨w⟩."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-b08-t01",
+      "es": "Entschuldigung, wo ist der Ausgang?",
+      "pinyin": "ent-SHOOL-di-goong, voh ist dair OWS-gahng",
+      "pt": "Neem me niet kwalijk, waar is de uitgang?",
+      "tts": "Entschuldigung, wo ist der Ausgang?"
+    },
+    {
+      "consulta": [
+        "chegar/sair",
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ENTSCHULDIGUNG",
+      "encaixe": "wo ist der Ausgang",
+      "encaixeGloss": "waar is de uitgang",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b08-p01",
+      "promptPt": "De stationshal heeft vier deuren en het daglicht komt uit de verkeerde kant. Open met het lange woord, vraag dan. Spreek nu.",
+      "audioKey": "de-b08-t01",
+      "es": "Entschuldigung, wo ist der Ausgang?",
+      "pinyin": "ent-SHOOL-di-goong, voh ist dair OWS-gahng",
+      "pt": "Neem me niet kwalijk, waar is de uitgang?",
+      "tts": "Entschuldigung, wo ist der Ausgang?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b08-r01",
+      "es": "Immer geradeaus, dann links.",
+      "pt": "Rechtdoor, dan links.",
+      "tts": "Immer geradeaus, dann links.",
+      "receptivo": true,
+      "acao": "Twee stukjes: een rechte lijn en één afslag. Herhaal de afslag — links of rechts — en kijk of ze knikken."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b08-n03",
+      "tom": "ganha",
+      "pt": "En Sie is «zie», met stem. Een geschreven s vóór een klinker aan het begin is hier stemhebbend — anders dan bij u."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WO-IST",
+      "encaixe": "die Toilette",
+      "encaixeGloss": "het toilet",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b08-p02",
+      "promptPt": "U bent in de bakkerij op de hoek en er is één stop die iedereen na een lange ochtend maakt. Vraag. Spreek nu.",
+      "audioKey": "de-b08-t02",
+      "es": "Wo ist die Toilette?",
+      "pinyin": "voh ist dee twa-LET-uh",
+      "pt": "Waar is het toilet?",
+      "tts": "Wo ist die Toilette?"
+    },
+    {
+      "consulta": [
+        "transporte/qual-trem",
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WO-IST",
+      "encaixe": "der Bahnhof",
+      "encaixeGloss": "het station",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b08-p03",
+      "promptPt": "U hebt over veertig minuten een trein en het grote gebouw met de klok zit ergens achter die daken. Vraag. Spreek nu.",
+      "audioKey": "de-b08-t03",
+      "es": "Wo ist der Bahnhof?",
+      "pinyin": "voh ist dair BAHN-hohf",
+      "pt": "Waar is het station?",
+      "tts": "Wo ist der Bahnhof?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b08-n04",
+      "tom": "ganha",
+      "pt": "Bier is gewoon uw «bier». Maar Duitse ⟨ei⟩ klinkt als het Engelse «I»: nein is «nain», niet als uw ⟨ij⟩."
+    },
+    {
+      "consulta": [
+        "transporte/plataforma"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WO-IST",
+      "encaixe": "die Haltestelle",
+      "encaixeGloss": "de halte",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b08-p04",
+      "promptPt": "Er reed net een tram over het kruispunt en u wilt de plek waar hij mensen laat instappen. Vraag. Spreek nu.",
+      "audioKey": "de-b08-t04",
+      "es": "Wo ist die Haltestelle?",
+      "pinyin": "voh ist dee HAHL-tuh-shtell-uh",
+      "pt": "Waar is de halte?",
+      "tts": "Wo ist die Haltestelle?"
+    },
+    {
+      "consulta": [
+        "quarto/mala"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WO-IST",
+      "encaixe": "der Aufzug",
+      "encaixeGloss": "de lift",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b08-p05",
+      "promptPt": "Terug in de hotellobby met een zware koffer en een kamer op de vierde verdieping. Vraag voordat u begint te klimmen. Spreek nu.",
+      "audioKey": "de-b08-t05",
+      "es": "Wo ist der Aufzug?",
+      "pinyin": "voh ist dair OWF-tsook",
+      "pt": "Waar is de lift?",
+      "tts": "Wo ist der Aufzug?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b08-n05",
+      "tom": "ganha",
+      "pt": "Vraag klein en het antwoord blijft klein. Links of rechts kan een vreemde met één hand beantwoorden."
+    },
+    {
+      "consulta": [
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b08-p06",
+      "promptPt": "Ze wezen en zeiden er nog veertig woorden bovenop. Beperk het tot een keuze tussen twee handen. Spreek nu.",
+      "audioKey": "de-b08-t06",
+      "es": "Links oder rechts?",
+      "pinyin": "links OH-der rekhts",
+      "pt": "Links of rechts?",
+      "tts": "Links oder rechts?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b08-r02",
+      "es": "Gleich um die Ecke, keine fünf Minuten.",
+      "pt": "Vlak om de hoek, geen vijf minuten.",
+      "tts": "Gleich um die Ecke, keine fünf Minuten.",
+      "receptivo": true,
+      "acao": "Ecke is hoek en Minuten is minuten. Die twee woorden zijn het hele antwoord — begin te lopen en vraag op de hoek opnieuw."
+    },
+    {
+      "consulta": [
+        "chegar/balcao",
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "HABEN-SIE",
+      "encaixe": "einen Stadtplan",
+      "encaixeGloss": "een plattegrond",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b08-p07",
+      "promptPt": "Vier procent batterij, en in de hotellobby staat een rekje met papierwerk bij de deur. Vraag of ze er een hebben. Spreek nu.",
+      "audioKey": "de-b08-t07",
+      "es": "Haben Sie einen Stadtplan?",
+      "pinyin": "HAH-ben zee EYE-nen SHTAT-plahn",
+      "pt": "Hebt u een plattegrond?",
+      "tts": "Haben Sie einen Stadtplan?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-b08-n06",
+      "tom": "ganha",
+      "pt": "Wat u aan de deur terugkrijgt beweegt met de kaart mee: Moin in het noorden, Grüß Gott in het zuiden, Hallo overal."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-b08-r03",
+      "es": "Moin! Was kann ich für Sie tun?",
+      "pt": "Moin! Waarmee kan ik u helpen?",
+      "tts": "Moin! Was kann ich für Sie tun?",
+      "receptivo": true,
+      "acao": "Herken het en antwoord met uw drie woorden. U hoeft de regionale groet zelf niet te produceren — Hallo werkt overal."
+    },
+    {
+      "consulta": [
+        "pagar/dinheiro",
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WO-IST",
+      "encaixe": "der Geldautomat",
+      "encaixeGloss": "de pinautomaat",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-b08-p08",
+      "promptPt": "De bakker neemt alleen briefjes en munten, en uw portemonnee heeft geen van beide. Stel de kruispunt-vraag. Spreek nu.",
+      "audioKey": "de-b08-t08",
+      "es": "Wo ist der Geldautomat?",
+      "pinyin": "voh ist dair GELT-ow-toh-maht",
+      "pt": "Waar is de pinautomaat?",
+      "tts": "Wo ist der Geldautomat?"
+    },
+    {
+      "consulta": [
+        "reparo/apontar",
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-b08-p09",
+      "promptPt": "Ze wezen een straat in zonder einde in zicht, en u hebt een tas op uw schouder. Vraag het ene dat bepaalt of u gaat lopen. Spreek nu.",
+      "audioKey": "de-b08-t09",
+      "es": "Ist es weit?",
+      "pinyin": "ist es vyte",
+      "pt": "Is het ver?",
+      "tts": "Ist es weit?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b08-n07",
+      "tom": "ganha",
+      "pt": "Twee op de drie volwassenen hier zeggen dat ze een gesprek in een andere taal aankunnen, meestal Engels."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-b08-s01",
+      "molde": "WO-IST",
+      "es": "Wo ist der Bahnhof? Wo ist die Toilette? Wo ist der Aufzug?",
+      "pinyin": "voh ist dair BAHN-hohf. voh ist dee twa-LET-uh. voh ist dair OWF-tsook",
+      "pt": "Herhaal dezelfde drie woorden voor drie plaatsen die niets met elkaar te maken hebben.",
+      "tts": "Wo ist der Bahnhof? Wo ist die Toilette? Wo ist der Aufzug?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_f",
+      "audioKey": "de-b08-n08",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "B08 klaar. Wo ist plus de plaats, en dan een vraag met twee antwoorden om de rest klein te houden."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Drie woorden eruit, één arm terug",
+    "secoes": [
+      {
+        "titulo": "Wo ist plus de plaats",
+        "corpo": "Dit is de goedkoopste bouwsteen van de cursus en daar is een grammaticale reden voor. Na ist gebruikt het Duits de kale woordenboekvorm van het zelfstandig naamwoord — dezelfde die op het bord staat en in uw woordenboek. Waar elke andere bouwsteen u vraagt lidwoord en zelfstandig naamwoord als één blok te leren, is het blok hier al voor u opgeschreven: der Bahnhof, die Toilette, der Ausgang.",
+        "exemplos": [
+          {
+            "es": "Wo ist der Bahnhof?",
+            "pt": "Waar is het station?"
+          },
+          {
+            "es": "Wo ist die Haltestelle?",
+            "pt": "Waar is de halte?"
+          }
+        ]
+      },
+      {
+        "titulo": "De letters die van plaats wisselen",
+        "corpo": "Drie omruilingen kopen u het meeste leeswerk, en geen enkele is een nieuwe klank voor u. Geschreven ⟨w⟩ ligt dicht bij uw eigen ⟨w⟩ — Wo als «voh», Wasser als «vasser» — maar met wat meer wrijving. Een geschreven ⟨v⟩ is meestal een /f/: viel is «feel», Vater is «fahter»; leenwoorden als Vase en privat houden hun v-klank. Hier zit uw dure valkuil: in het Nederlands wisselt uw ⟨v⟩ tussen [v] en [f]; in het Duits is de ⟨v⟩ vrijwel altijd stemloos. Verzet u tegen de reflex om Vater te vervoicen. Een geschreven ⟨s⟩ vóór een klinker aan het woordbegin is stemhebbend: Sie is «zie», sagen is «zahgen». En een geschreven ⟨z⟩ is «ts», nooit «zee»."
+      },
+      {
+        "titulo": "Zeg de tweede letter",
+        "corpo": "Het paar ei wordt uitgesproken als de Engelse letter I — nein is «nain», eins is «ainss». Het paar ie is een lange E — Bier is «bier», vier is «fier». Beide zijn de naam van de tweede letter van het paar, en in inheemse woorden breekt de regel niet. Voor u die «bier» al gratis leest is de valstrik de eerste helft: uw Nederlandse ⟨ij⟩ is niet hetzelfde als de Duitse ⟨ei⟩, en woorden als mein en nein klinken dichter bij «main» en «nain» dan bij «mijn»."
+      },
+      {
+        "titulo": "Stel een vraag met een antwoord dat in uw hoofd past",
+        "corpo": "Een vreemde die behulpzaam is geeft u meer dan u kunt vasthouden. Twee kleine vervolgvragen lossen dat op zonder grammatica: links oder rechts, dat het antwoord in één van twee handen dwingt, en ist es weit, dat beslist of u gaat lopen of iets pakt. Beide zijn ja-of-nee of of-of, en beide laten de ander vrij om met een gebaar te antwoorden."
+      },
+      {
+        "titulo": "Wat aan de deur terugkomt",
+        "corpo": "De groet die u bij binnenkomst hoort beweegt met de kaart mee: Moin in Sleeswijk-Holstein en het noorden van Nedersaksen, Grüß Gott dwars door het zuiden en de pre-Alpiene gordel, Servus in oostelijk Beieren, en Hallo min of meer overal — dat laatste is de grootste verschuiving in het dagelijks gebruik sinds de jaren zeventig. Moin heeft niets met Morgen te maken: het komt van een bijvoeglijk naamwoord dat aangenaam betekent, en de afkorting bewaarde alleen dat. U hoeft er zelf geen te produceren. Hallo is overal veilig, en het herkennen van de andere vormen voorkomt dat u een vriendelijke groet hoort als een woord dat u niet leerde."
+      },
+      {
+        "titulo": "Ze zullen vaak in het Engels antwoorden",
+        "corpo": "Ongeveer twee op de drie volwassenen hier zeggen dat ze een gesprek in een extra taal kunnen voeren, en in de praktijk is dat Engels. Een Engels antwoord op een Duitse vraag krijgen is geen mislukking van uw Duits: het is iemand die efficiënt is met een vreemde met een tas. Vraag in het Duits, neem het antwoord in welke taal het ook komt, en bedank in het Duits."
+      }
+    ]
+  },
+  "permissao": "U mag exact dezelfde drie woorden gebruiken in de bakkerij, op het kruispunt, in de stationshal en in de hotellobby, zonder ze op te leuken. U mag ook in het Engels beantwoord worden en daarna in het Duits doorgaan — de opening en de vraag hebben hun werk al gedaan, en niemand verwacht van een bezoeker dat hij zelf de regionale groet gebruikt.",
+  "permissaoAudioKey": "de-b08-n02",
+  "espelho": "Iedereen die thuis op straat wordt aangesproken door een bezoeker met drie woorden en een hoopvol gezicht weet al wat te doen: wijzen, één afslag noemen, en hem laten gaan. Dat is precies de transactie die u opzet, alleen van de andere kant.",
+  "fichasCulturais": [
+    {
+      "sinal": "U opent met uw drie woorden Duits en het antwoord komt in vloeiend Engels terug.",
+      "suaLeitura": "Uw accent verklapte u en de Duits die u oefende was een verspilling van een avond.",
+      "oQueEAli": "In de ronde 2023 van de Europese talenpeiling zei 65 procent van de respondenten in Duitsland een extra taal goed genoeg te spreken om een gesprek te voeren, tegen een EU-gemiddelde van 47 — en die taal is overweldigend Engels. Overschakelen is efficiëntie tegenover een vreemde, geen oordeel over uw uitspraak.",
+      "oQueVoceFaz": "Stel de vraag toch in het Duits, neem het antwoord in het Engels, en sluit af in het Duits. De opening verandert de temperatuur van het gesprek, niet het hele gesprek.",
+      "oQueMelhora": "U krijgt de informatie sneller en u krijgt nog steeds de erkenning voor het vragen, en dat is wat u op mensen hun gezicht ziet.",
+      "ondeNaoVale": "Het is zelfgerapporteerd vermogen uit een enquête, geen meting, en het nationale cijfer verbergt de onderverdelingen: de Europese data laten het cijfer stijgen met jeugd, met opleidingsjaren en met stadsgrootte, en het is alleen een nationaal cijfer. Er zijn geen gepubliceerde uitsplitsingen per Bundesland of tussen oost en west, dus draag geen verwachting mee naar een specifieke stad.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-b08-n07"
+      ]
+    },
+    {
+      "sinal": "U loopt een klein winkeltje binnen, zegt Guten Tag, en krijgt één lettergreep terug die er niets op lijkt.",
+      "suaLeitura": "U bent kortaf beantwoord, of u hebt de groet fout gedaan.",
+      "oQueEAli": "De enquête die dit in kaart brengt stelde precies uw vraag — hoe mensen 's middags een klein winkeltje binnen groeten — en het antwoord is regionaal. Moin en Moinmoin in Sleeswijk-Holstein en het noorden van Nedersaksen, Grüß Gott dwars door het zuiden, Servus in oostelijk Beieren, Hallo bijna overal. Moin is geen afkorting van Morgen; het komt van een bijvoeglijk naamwoord dat aangenaam betekent, en werkt op elk uur.",
+      "oQueVoceFaz": "Herken het, antwoord met Hallo, en ga meteen door met uw drie woorden. De lokale vorm kopiëren is niet vereist en is niet de prijs van een vriendelijk contact.",
+      "oQueMelhora": "Een groet van één lettergreep klinkt niet meer als ongeduld, en dat is het meest voorkomende misverstand dat een bezoeker aan een deur maakt.",
+      "ondeNaoVale": "De enquête publiceert ordinale categorieën per plaats — gebruikelijk, af en toe, ongebruikelijk — en geen percentages, dus er hoort geen getal bij deze vormen. De kaart geeft enquêtepunten in plaats van grenzen: de kern van Moin ligt in Sleeswijk-Holstein en het noorden van Nedersaksen, en een fijnere grens dan dat zou verzonnen zijn. En niets ervan voorspelt wat één individueel iemand tegen u zal zeggen.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-b08-n06"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "q-a01",
+  "nivel": "avancado",
+  "titulo": "Quiz — Hoe ze praten als het niet tegen u is",
+  "subtitulo": "Vijf vragen over de verdwijnende r, de omgekeerde letters en de harde uiteinden",
+  "introAudioKey": "de-a01-q-i",
+  "introPt": "Vier zinnen op volle snelheid, aan iemand anders gericht, met alle regels van dit deel tegelijk aan het werk.",
+  "cenario": "Een perron, een rij en een keukendeur, allemaal opgevangen in plaats van tegen u gezegd.",
+  "dialogo": [
+    {
+      "audioKey": "de-a01-q01",
+      "voz": "ear_de_f",
+      "es": "Wasser, Butter, Vater, aber, oder.",
+      "pt": "Water, boter, vader, maar, of.",
+      "tts": "Wasser, Butter, Vater, aber, oder."
+    },
+    {
+      "audioKey": "de-a01-q02",
+      "voz": "ear_de_m",
+      "es": "Wo ist der Wagen? Da vorne, viertel vor vier.",
+      "pt": "Waar is de auto? Recht vooruit, kwart voor vier.",
+      "tts": "Wo ist der Wagen? Da vorne, viertel vor vier."
+    },
+    {
+      "audioKey": "de-a01-q03",
+      "voz": "ear_de_f",
+      "es": "Vier Bier, bitte. Nein, sieben!",
+      "pt": "Vier bier, alstublieft. Nee, zeven!",
+      "tts": "Vier Bier, bitte. Nein, sieben!"
+    },
+    {
+      "audioKey": "de-a01-q04",
+      "voz": "ear_de_m",
+      "es": "Also, dann machen wir das so.",
+      "pt": "Goed, dan doen we het zo.",
+      "tts": "Also, dann machen wir das so."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "U hoort Butter en er is geen r aan het eind. Wat hoorde u eigenlijk?",
+      "opcoes": [
+        "Een weggelaten uitgang, slordig uitgesproken",
+        "Een klinker — de uitgang -er is altijd die zachte uh-klank",
+        "Een regionale gewoonte die u moet negeren",
+        "Een heel ander woord"
+      ],
+      "correta": 1,
+      "explica": "Na een klinker, en in de onbeklemtoonde uitgang -er, is de letter r helemaal geen medeklinker. Butter, Vater, Kinder, besser, aber, oder — altijd dezelfde klinker, en dat is de juiste uitspraak."
+    },
+    {
+      "pergunta": "Wagen kwam met een v en vier kwam met een f. Waarom?",
+      "opcoes": [
+        "De spreker heeft een accent",
+        "Duitse w is uw v, en Duitse v is in eigen woorden altijd /f/ — nooit sonoor zoals bij u thuis",
+        "De letters veranderen voor een achterklinker",
+        "Het gebeurt alleen op snelheid"
+      ],
+      "correta": 1,
+      "explica": "Pas op met uw eigen v: bij u wisselt hij tussen [v] en [f], in het Duits is hij altijd stemloos. Laat de stem los. En Wasser is vasser. In leenwoorden (Vase, Universität) blijft de v een v — een handvol wisselt."
+    },
+    {
+      "pergunta": "Bier en nein. Welke klinker is welke?",
+      "opcoes": [
+        "Allebei de Nederlandse ie",
+        "Allebei de Nederlandse ei",
+        "Zeg de tweede letter: ie is ie, ei is ei — precies zoals bij u",
+        "Het hangt af van de volgende medeklinker"
+      ],
+      "correta": 2,
+      "explica": "Cadeau uit het Nederlands: dezelfde digraaf, dezelfde regel. Bier is bier, nein rijmt op mijn, en eu en äu komen als oi."
+    },
+    {
+      "pergunta": "Iemand zegt Rad en iemand anders zegt Rat. Wat is het verschil voor uw oor?",
+      "opcoes": [
+        "De d is zachter",
+        "Er is er geen — de eindmedeklinker verhardt, precies zoals in het Nederlands (hond → hont)",
+        "De klinker is langer in Rad",
+        "Rat heeft een glottisslag"
+      ],
+      "correta": 1,
+      "explica": "Auslautverhärtung, en de spelling laat niets zien: Hund klinkt als Hunt, Tag als Tak, und als unt. Dit deed u thuis al; hier heet het alleen anders."
+    },
+    {
+      "pergunta": "Een snelle zin opent met also. Wat is er net gebeurd?",
+      "opcoes": [
+        "Er wordt iets aan een lijst toegevoegd",
+        "Er wordt een conclusie geopend — dus, dan, goed",
+        "Iemand stemt in",
+        "Er komt een vraag"
+      ],
+      "correta": 1,
+      "explica": "Also is dus of daarom, van folglich, demnach. Als u het als 'ook' hoort draait de logica van de zin om, en wat erna komt is meestal de helft die u nodig had."
+    }
+  ]
+}

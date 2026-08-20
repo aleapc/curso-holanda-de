@@ -1,0 +1,426 @@
+{
+  "id": "i01",
+  "nivel": "intermediario",
+  "numero": 19,
+  "parte": "I01",
+  "titulo": "Wann ist — de vraag die u hun rooster overhandigt",
+  "subtitulo": "Acht uur 's avonds zet een heel land in beweging, en één korte vraag haalt het uur op bij wie ernaar leeft",
+  "cena": "Kwart over zeven op een dinsdag, een bijna lege koelkast op de kamer en de supermarkt twee straten verderop met nog vijfenveertig minuten leven erin.",
+  "moldura": "ganha",
+  "frasePiso": "Raad het uur niet. Zeg Wann ist en bouw de avond op het antwoord dat terugkomt.",
+  "decisao": "hoe laat u eet — voor achten winkelen en laat eten zoals de straat, of om 20:05 ontdekken dat het enige eten in de stad achter een stationsbalie ligt",
+  "emJogo": "tempo",
+  "moldes": [
+    "WANN-IST"
+  ],
+  "clique": {
+    "contagem": [
+      "de receptie",
+      "het perron",
+      "de museumhal",
+      "de bakkerstoonbank"
+    ],
+    "desconto": "Niemand gaf u een andere zin voor het hotel, het perron, het museum en het plein. U hield drie woorden vast en veranderde alleen datgene waarvan u het uur wilde weten.",
+    "piso": "De volgende keer dat iets een vast uur heeft en u het niet kent, gaat u geen bordje zoeken. U vraagt het, in drie woorden, en krijgt een getal terug."
+  },
+  "fatosDatados": [
+    {
+      "id": "de-i01-ladenschluss",
+      "afirmacao": "Winkeltijden in Duitsland zijn wet, geen gewoonte. § 3 van de federale Ladenschlussgesetz beveelt verkooppunten gesloten op zon- en feestdagen, vóór 6 uur en vanaf 20 uur van maandag tot en met zaterdag, en vanaf 14 uur op 24 december als die op een werkdag valt; bakkerijen mogen vanaf 5.30 uur open. Sinds de Föderalismusreform van 2006 ligt de bevoegdheid bij de Länder — Art. 74 Abs. 1 Nr. 11 GG sluit «das Recht des Ladenschlusses» uit van het federale economische recht — dus het uur wordt vastgesteld waar u staat. Berlijn staat 24-uursopening toe van maandag tot en met zaterdag en houdt zondag als regel dicht. Beieren heeft zijn eigen wet aangenomen, de BayLadSchlG van 25 juli 2025, van kracht sinds 1 augustus 2025: die houdt 20 uur van maandag tot en met zaterdag maar voegt tot acht door de gemeente vrijgegeven late avonden per jaar toe, tot vier extra per handelaar met twee weken kennisgeving, en laat onbemande mini-supermarkten tot 150 m² 24 uur open, ook op zondag.",
+      "fonte": "§ 3 LadSchlG e Art. 74 Abs. 1 Nr. 11 GG, verbatim de gesetze-im-internet.de (pesquisa §7.1); BayLadSchlG de 25/7/2025, GVBl. S. 246, vigente desde 1/8/2025, verificado em gesetze-bayern.de. ATENÇÃO: a premissa corrente «só a Baviera segue a lei federal» está DESATUALIZADA e a pesquisa corrige. Berlim é [RESUMO de berlin.de] — a lei berlinense não foi aberta; o estatuto dos outros 13 Länder NÃO foi verificado e nada se afirma sobre eles.",
+      "ano": 2025,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-i01-n03",
+        "de-i01-n07"
+      ]
+    },
+    {
+      "id": "de-i01-sonntag",
+      "afirmacao": "De zondag is boven het gewone recht verankerd. Art. 140 GG neemt Art. 139 van de Weimarer grondwet over, die zondag en erkende feestdagen als rustdagen beschermt, en het Bundesverfassungsgericht oordeelde op 1 december 2009 (1 BvR 2857/07, 1 BvR 2858/07) dat het omzetbelang van een winkelier en het «Shopping-Interesse» van een klant op zichzelf onvoldoende zijn om opening te rechtvaardigen. Wat de federale wet op zondag wel doorlaat is smal en met naam: apotheken bij toerbeurt (§ 4), tankstations beperkt tot reisartikelen (§ 6), station- en luchthavenwinkels beperkt tot reisartikelen voor reizigers (§§ 8 en 9), kuuroorden (§ 10) en een kort venster voor melk, bakkerswaren, vers fruit, bloemen en kranten (§ 12), waarbij het Land de uren vaststelt «unter Berücksichtigung der Zeit des Hauptgottesdienstes».",
+      "fonte": "Art. 140 GG + Art. 139 WRV e §§ 4, 6, 8, 9, 10, 12 LadSchlG, verbatim de gesetze-im-internet.de; BVerfG 1/12/2009, comunicado bvg09-134, com o núcleo «Ein bloß wirtschaftliches Umsatzinteresse … genügen grundsätzlich nicht» (pesquisa §§7.2, 7.3, 7.5). NÃO AFIRMAR que restaurante abre no domingo por estar fora do Ladenschluss — a pesquisa marca isso como inferência, nenhum Gaststättengesetz foi aberto. O verkaufsoffener Sonntag é local, datado e ligado a evento: nunca ensinar o aluno a contar com ele.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "de-i01-n05"
+      ]
+    },
+    {
+      "id": "de-i01-db-pontualidade",
+      "afirmacao": "De spoorwegen houden hun eigen klok bij en publiceren hoe goed die klopt. In het jaarverslag 2025 van het DB-concern geldt een aankomst als op tijd bij een afwijking onder zes minuten, gemeten bij elke stop, niet alleen op de eindbestemming. Op die maatstaf kwam 60,1 procent van de langeafstandstreinen in 2025 op tijd aan, tegen 62,5 procent in 2024; de reizigersgerichte maatstaf, Reisendenpünktlichkeit, die gemiste aansluitingen en uitval met een drempel van 14:59 minuten meetelt, kwam uit op 65,5 procent. Regionaal spoor deed het veel beter met 89,2 procent. In 2026 daalde het langeafstandscijfer verder — 52,6 procent in juni en juli — en het bedrijf zelf noemt 2026 een recordbouwjaar en heeft zijn doel op 60 procent teruggezet.",
+      "fonte": "Geschäftsbericht 2025 do DB-Konzern (publicado 27/3/2026) e Presseinformation Bilanz 2025, verbatim: «Pünktlich sind Ankünfte mit einer Abweichung kleiner + 6 Minuten» e «60,1 Prozent der DB-Fernverkehrszüge erreichten 2025 pünktlich das Ziel (Vorjahr: 62,5 Prozent)»; tabela mensal oficial acessada em 5/8/2026 (pesquisa §5.1). ESTE FATO SUBSTITUI O ESTEREÓTIPO: a pesquisa RECUSA «alemães são pontuais» — em Levine & Norenzayan (1999) a Alemanha é 8ª em precisão de relógios públicos, atrás de Itália e Áustria, e o estudo mede ritmo de vida em Frankfurt nos anos 1990, não pontualidade em compromissos. Nada disso entra como traço de povo.",
+      "ano": 2026,
+      "revisarAte": "2027-04-30",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "de-i01-n04"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i01-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "De klok hier staat in de wet, niet in de gewoonte. Leer drie uren en de dag plant zichzelf."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-i01-r01",
+      "receptivo": true,
+      "es": "Wir schließen um acht. Die Kasse macht zehn vor zu.",
+      "pinyin": "veer SHLEE-sen oom akht · dee KASS-uh makht tsayn for tsoo",
+      "pt": "Wij sluiten om acht. De kassa gaat tien voor dicht.",
+      "tts": "Wir schließen um acht. Die Kasse macht zehn vor zu.",
+      "acao": "Vang «um acht» op. Dat is het uur waar de hele straat naar werkt, en het staat in de wet."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i01-n02",
+      "bloco": "molde",
+      "tom": "ganha",
+      "pt": "Dit is de bouwsteen: Wann ist, en daarna het ding. Drie woorden, en het uur komt terug."
+    },
+    {
+      "consulta": [
+        "quarto/checkin"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WANN-IST",
+      "encaixe": "das Frühstück",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i01-p01",
+      "promptPt": "De avond ervoor, aan de receptie, zodat de wekker van morgen een reden heeft. Spreek nu.",
+      "audioKey": "de-i01-t01",
+      "es": "Wann ist das Frühstück?",
+      "pinyin": "vahn ist dass FRUE-shtuek",
+      "pt": "Hoe laat is het ontbijt?",
+      "tts": "Wann ist das Frühstück?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i01-r02",
+      "receptivo": true,
+      "es": "Frühstück ist von sieben bis zehn.",
+      "pinyin": "FRUE-shtuek ist fon ZEE-ben biss tsayn",
+      "pt": "Ontbijt is van zeven tot tien.",
+      "tts": "Frühstück ist von sieben bis zehn.",
+      "acao": "Twee getallen, één venster. Schrijf ze allebei op voor de zin klaar is."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i01-n03",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Winkels sluiten om acht, maandag tot en met zaterdag, en de hele zondag. Dat is wet, geen gewoonte."
+    },
+    {
+      "consulta": [
+        "transporte/qual-trem",
+        "transporte/plataforma"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WANN-IST",
+      "encaixe": "der nächste Zug",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i01-p02",
+      "promptPt": "Op het perron, tien over tien, voor een papieren dienstregeling die u niet snel genoeg kunt lezen. Spreek nu.",
+      "audioKey": "de-i01-t02",
+      "es": "Wann ist der nächste Zug?",
+      "pinyin": "vahn ist dair NEKH-stuh tsook",
+      "pt": "Hoe laat is de volgende trein?",
+      "tts": "Wann ist der nächste Zug?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i01-r03",
+      "receptivo": true,
+      "es": "In zwölf Minuten, Gleis vier.",
+      "pinyin": "in tsvoelf mi-NOO-ten · glyce feer",
+      "pt": "Over twaalf minuten, spoor vier.",
+      "tts": "In zwölf Minuten, Gleis vier.",
+      "acao": "Het spoor hoort bij de tijd. Wacht de tweede helft af voor u uw voeten verzet."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i01-n04",
+      "tom": "ganha",
+      "pt": "Zestig komma één procent van de langeafstandstreinen kwam in 2025 op tijd — en op tijd is daar onder zes minuten."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WANN-IST",
+      "encaixe": "die Führung",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i01-p03",
+      "promptPt": "In de museumhal, aan de balie, voor u ook maar iets hebt betaald. Spreek nu.",
+      "audioKey": "de-i01-t03",
+      "es": "Wann ist die Führung?",
+      "pinyin": "vahn ist dee FUE-roong",
+      "pt": "Hoe laat is de rondleiding?",
+      "tts": "Wann ist die Führung?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i01-n05",
+      "bloco": "capsula",
+      "tom": "protege",
+      "pt": "De zondag staat in de grondwet. Brood, bloemen en kranten krijgen een kort ochtendvenster, en dat is het."
+    },
+    {
+      "consulta": [
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WANN-IST",
+      "encaixe": "das Abendessen",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i01-p04",
+      "promptPt": "In een klein pension waar één keuken de avond van iedereen tegelijk beslist. Spreek nu.",
+      "audioKey": "de-i01-t04",
+      "es": "Wann ist das Abendessen?",
+      "pinyin": "vahn ist dass AH-bunt-ess-en",
+      "pt": "Hoe laat is het avondeten?",
+      "tts": "Wann ist das Abendessen?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_f",
+      "audioKey": "de-i01-r04",
+      "receptivo": true,
+      "es": "Wir servieren ab halb sieben. Warm gibt es bis neun.",
+      "pinyin": "veer zer-VEE-ren ap halp ZEE-ben · varm gipt ess biss noyn",
+      "pt": "Wij serveren vanaf half zeven. Warm is er tot negen.",
+      "tts": "Wir servieren ab halb sieben. Warm gibt es bis neun.",
+      "acao": "«Halb sieben» is half zeven, net als thuis: half naar het volgende hele uur, dus 18:30. Geen valstrik hier."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_m",
+      "audioKey": "de-i01-n06",
+      "tom": "ganha",
+      "pt": "De bouwsteen haalt het uur van alles met een vaste tijd. Maaltijden, treinen, rondleidingen, de markt op het plein."
+    },
+    {
+      "consulta": [
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "einen Tisch um acht",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i01-p05",
+      "promptPt": "Ze zeiden dat de zaal laat volloopt. Neem de late plek hardop, terwijl u er nog staat. Spreek nu.",
+      "audioKey": "de-i01-t05",
+      "es": "Ich möchte einen Tisch um acht, bitte.",
+      "pinyin": "ikh MOEKH-tuh EYE-nen tish oom akht, BIT-tuh",
+      "pt": "Ik wil graag een tafel om acht uur, alstublieft.",
+      "tts": "Ich möchte einen Tisch um acht, bitte."
+    },
+    {
+      "consulta": [
+        "transporte/qual-trem"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WANN-IST",
+      "encaixe": "der letzte Bus",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i01-p06",
+      "promptPt": "U bent drie drankjes een goede avond in en de rit naar huis is het enige wat nog openstaat. Spreek nu.",
+      "audioKey": "de-i01-t06",
+      "es": "Wann ist der letzte Bus?",
+      "pinyin": "vahn ist dair LETS-tuh booss",
+      "pt": "Hoe laat is de laatste bus?",
+      "tts": "Wann ist der letzte Bus?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_de_m",
+      "audioKey": "de-i01-r05",
+      "receptivo": true,
+      "es": "Der letzte fährt um Viertel nach eins.",
+      "pinyin": "dair LETS-tuh fairt oom FEER-tel nakh eyns",
+      "pt": "De laatste gaat om kwart over een.",
+      "tts": "Der letzte fährt um Viertel nach eins.",
+      "acao": "«Viertel nach» is kwart over, «Viertel vor» is kwart voor. Eén lettergreep verschil, één uur verschil."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i01-n07",
+      "tom": "ganha",
+      "pt": "Beieren schreef in 2025 zijn eigen sluitingswet, en in Berlijn mogen winkels van maandag tot en met zaterdag de hele nacht draaien."
+    },
+    {
+      "consulta": [
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "ICH-MOCHTE",
+      "encaixe": "eine Fahrkarte für halb neun",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i01-p07",
+      "promptPt": "Aan het loket, morgenvroeg kopen voor de rij ervoor bestaat. Spreek nu.",
+      "audioKey": "de-i01-t07",
+      "es": "Ich möchte eine Fahrkarte für halb neun, bitte.",
+      "pinyin": "ikh MOEKH-tuh EYE-nuh FAR-kar-tuh fuer halp noyn, BIT-tuh",
+      "pt": "Ik wil graag een kaartje voor half negen, alstublieft.",
+      "tts": "Ich möchte eine Fahrkarte für halb neun, bitte."
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WANN-IST",
+      "encaixe": "der Markt",
+      "promptVoz": "guide_nl_f",
+      "promptAudioKey": "de-i01-p08",
+      "promptPt": "Iemand aan de bakkerstoonbank liet vallen dat het plein één ochtend per week een andere plek is. Spreek nu.",
+      "audioKey": "de-i01-t08",
+      "es": "Wann ist der Markt?",
+      "pinyin": "vahn ist dair markt",
+      "pt": "Hoe laat is de markt?",
+      "tts": "Wann ist der Markt?"
+    },
+    {
+      "consulta": [
+        "transporte/qual-trem"
+      ],
+      "tipo": "responde",
+      "voz": "target_de_f",
+      "molde": "WANN-IST",
+      "encaixe": "die erste S-Bahn",
+      "promptVoz": "guide_nl_m",
+      "promptAudioKey": "de-i01-p09",
+      "promptPt": "Een vlucht om zes uur 's ochtends, en taxigeld dat u liever aan de reis zelf besteedt. Spreek nu.",
+      "audioKey": "de-i01-t09",
+      "es": "Wann ist die erste S-Bahn?",
+      "pinyin": "vahn ist dee AIR-stuh ESS-bahn",
+      "pt": "Hoe laat is de eerste S-Bahn?",
+      "tts": "Wann ist die erste S-Bahn?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_de_f",
+      "audioKey": "de-i01-s01",
+      "molde": "WANN-IST",
+      "es": "Wann ist das Frühstück? Wann ist der nächste Zug? Wann ist das Abendessen?",
+      "pinyin": "vahn ist dass FRUE-shtuek · vahn ist dair NEKH-stuh tsook · vahn ist dass AH-bunt-ess-en",
+      "pt": "Schaduw één opening over drie totaal verschillende klokken.",
+      "tts": "Wann ist das Frühstück? Wann ist der nächste Zug? Wann ist das Abendessen?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_nl_f",
+      "audioKey": "de-i01-n08",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "I01 klaar. Acht uur, zondag, en één bouwsteen die het uur haalt van alles met een tijd."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Drie woorden, en elk uur in het land",
+    "secoes": [
+      {
+        "titulo": "Wann ist plus het ding",
+        "corpo": "Houd Wann ist vast en zet daarachter alles wat een vaste tijd heeft. De opening verandert nooit, het werkwoord zit er al in, en u hoeft onder druk nooit te kiezen tussen ist, öffnet en schließt. Na ist staat het ding in de nominatief, de woordenboekvorm — dus wat u als blok leert, is ook wat u op het bord zult lezen.",
+        "exemplos": [
+          {
+            "es": "Wann ist das Frühstück?",
+            "pt": "Hoe laat is het ontbijt?"
+          },
+          {
+            "es": "Wann ist der nächste Zug?",
+            "pt": "Hoe laat is de volgende trein?"
+          },
+          {
+            "es": "Wann ist der Markt?",
+            "pt": "Hoe laat is de markt?"
+          }
+        ]
+      },
+      {
+        "titulo": "Het ding komt met zijn lidwoord vast",
+        "corpo": "Het Duits markeert de rol van een zelfstandig naamwoord in de zin op het lidwoord ervoor, en dat lidwoord is het eerste woord van het gat. Deze cursus geeft u dus nooit een kaal zelfstandig naamwoord. U leert der nächste Zug, das Frühstück, die Führung in één stuk, zoals u een telefoonnummer leerde, en er wordt nooit van u gevraagd uit te zoeken welke van der, den, dem of des er hoort. Het kost u de grammatica en het koopt u de zin."
+      },
+      {
+        "titulo": "Half zeven is thuis ook al half zeven",
+        "corpo": "Dit is een van de weinige plekken waar u niets hoeft af te leren: halb sieben in het Duits werkt precies als half zeven in het Nederlands — half naar het volgende hele uur, dus 18:30, en halb acht is 19:30. Viertel nach is kwart over, Viertel vor is kwart voor. Waar een Engelstalige hier een uur verliest, herkent u het meteen. Neem het cadeau aan en ga door."
+      },
+      {
+        "titulo": "Acht uur, en waarom niets wat u doet dat verandert",
+        "corpo": "§ 3 van de federale Ladenschlussgesetz beveelt verkooppunten gesloten op zon- en feestdagen, vóór zes uur 's ochtends en vanaf acht uur 's avonds van maandag tot en met zaterdag, met bakkerijen die vanaf half zes mogen openen. Sinds 2006 ligt de bevoegdheid bij de Länder — de Basiswet zelf haalt «das Recht des Ladenschlusses» uit het federale economische recht — dus het precieze uur is een vraag over waar u staat. Berlijn staat 24-uursopening toe van maandag tot en met zaterdag. Beieren heeft in juli 2025 zijn eigen wet aangenomen: acht uur blijft staan, maar er komen tot acht door de gemeente vrijgegeven late avonden per jaar bij en onbemande mini-supermarkten onder 150 vierkante meter mogen dag en nacht open. De andere dertien Länder zijn voor deze cursus niet nagekeken en er wordt niets over beweerd."
+      },
+      {
+        "titulo": "Wat er op zondag echt open is",
+        "corpo": "De zondagsrust is niet louter een winkelregel: de Basiswet neemt de Weimarer bepaling over die de zondag als rustdag beschermt, en in 2009 oordeelde het Grondwettelijk Hof dat het omzetbelang van een winkelier en de wens van een klant om te winkelen op zichzelf onvoldoende zijn om opening te rechtvaardigen. Wat de federale wet als uitzonderingen noemt is kort en de moeite van het onthouden waard: de apotheek bij toerbeurt, het tankstation maar alleen voor reisartikelen, station- en luchthavenwinkels maar alleen voor reisartikelen aan reizigers, kuuroorden, en een kort ochtendvenster voor melk, bakkerswaren, vers fruit, bloemen en kranten — een venster dat elk Land rond het uur van de hoofdkerkdienst vaststelt, en daarom sluit het zo vroeg. Een zondag met open winkels is een lokale, gedateerde, aan een evenement gekoppelde vergunning. Reken er nooit op."
+      },
+      {
+        "titulo": "De treinen publiceren hun eigen cijfers",
+        "corpo": "Deze cursus vertelt u niet dat het land op tijd loopt, want de eigen cijfers van de vervoerder zeggen dat niet. Deutsche Bahn telt een aankomst als op tijd wanneer die minder dan zes minuten laat is, en meet dat bij elke stop; op die ruime definitie haalde 60,1 procent van de langeafstandstreinen het in 2025, tegen 62,5 het jaar ervoor. Het reizigersgerichte cijfer, dat de gemiste aansluiting meetelt, was 65,5 procent. Regionale treinen deden het veel beter, 89,2 procent. In juni en juli 2026 stond het langeafstandscijfer op 52,6 procent. Bouw ruimte in en neem de regionale dienst serieus — de getallen zeggen dat die werkt."
+      },
+      {
+        "titulo": "Hoe u de respelling in deze cursus leest",
+        "corpo": "Uw Nederlands geeft u hier een grote voorsprong, en dat is de moeite van het benoemen waard. Bach is /χ/, precies uw eigen ⟨g⟩ in *gat* — gratis. De ⟨ü⟩ van *Hüte* is uw *huis*, de ⟨ö⟩ van *schön* is uw *neus*. En de eindmedeklinkers verdooft u thuis al: *Rad* komt vanzelf uit uw mond als [raːt]. Waar u wel op moet letten: de Duitse ⟨w⟩ klinkt als /v/, dus *Wann* is «van»; de Duitse ⟨v⟩ meestal als /f/, dus *vier* is «fier» — en dit is uw echte valkuil, want thuis kan uw eigen ⟨v⟩ nog stemhebbend zijn, dus u wilt de Duitse ⟨v⟩ te veel stemhebben. Verdoof hem. De ⟨z⟩ is altijd /ts/, dus *zehn* is «tsehn», en de ⟨s⟩ vóór een klinker is /z/, dus *sieben* is «zieben». De ⟨ie⟩ is een lange *ie* zoals bij u, en in ⟨ei⟩ zegt u de tweede letter, met een klank tussen uw *ei* en de Engelse *ai* — *nein* rijmt niet op *nee*. En het duurste geluid is niet Bach: het is de ⟨ch⟩ na een voorklinker, zoals in *ich* — een zachte /ç/ die uw Randstad-systeem niet kent. Van *Bach* naar *ich* verplaatst u de klank ver naar voren, richting de tong onder het gehemelte. Dat is het kleine geld dat u hier kwijt bent."
+      }
+    ]
+  },
+  "slot": "I01",
+  "permissao": "U mag hardop, in drie woorden, vragen hoe laat iets is, in plaats van een bordje op te sporen of het af te leiden uit hoe vol een zaal staat. Niemand hoort Wann ist als onwetendheid — het is de vraag van iemand die van plan is erbij te zijn. En u mag laat eten: de sluiting om acht uur is een regel over winkels, en zegt niets over wanneer u geacht wordt honger te hebben.",
+  "permissaoAudioKey": "de-i01-n02",
+  "espelho": "Wie ooit ergens op een zondag is aangekomen en de hele hoofdstraat donker vond, kent dit gevoel van binnenuit. Het enige verschil hier is dat de donkere straat een wet is die u kunt lezen, en dus ook een dienstregeling waar u omheen kunt plannen.",
+  "fichasCulturais": [
+    {
+      "sinal": "Het is vijf over acht op een woensdag en elke supermarkt waar u langsloopt heeft het licht uit.",
+      "suaLeitura": "Deze buurt moet dood zijn, of ik ben in het verkeerde deel van de stad terechtgekomen.",
+      "oQueEAli": "§ 3 van de federale Ladenschlussgesetz sluit verkooppunten vanaf 20 uur van maandag tot en met zaterdag en de hele zondag en feestdagen, en sinds 2006 stelt elk Land zijn eigen versie van dat uur vast. Berlijn staat op werkdagen 24-uursopening toe; de eigen wet van Beieren uit 2025 houdt acht uur maar geeft extra avonden vrij en laat piepkleine onbemande winkels dag en nacht open.",
+      "oQueVoceFaz": "Doe de boodschappen voor achten, of eet waar eten geserveerd wordt in plaats van verkocht. Op de dag dat u wordt overvallen zijn het station en het tankstation open — wettelijk beperkt tot reisartikelen, in de praktijk een dun en duur schap.",
+      "oQueMelhora": "De avond stopt met een wedloop te zijn. U koopt 's middags en besteedt de stretch van acht tot middernacht aan de ruimtes die wél open zijn, waar de avond toch al zat.",
+      "ondeNaoVale": "Het is geen enkel nationaal rooster, en deze cursus heeft slechts drie Länder nagekeken. Beieren, Berlijn en Noordrijn-Westfalen zijn bekeken, de laatste twee slechts deels, en er wordt niets beweerd over de andere dertien. Restaurants en bars zijn een aparte juridische kwestie die helemaal niet is nagekeken.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-i01-n03",
+        "de-i01-n07"
+      ]
+    },
+    {
+      "sinal": "Uw trein is negen minuten te laat en het bord toont de dienst nog als normaal.",
+      "suaLeitura": "Er is iets misgegaan wat niemand toegeeft, en ik ga alles hierna missen.",
+      "oQueEAli": "De eigen definitie van de vervoerder van «op tijd» is een afwijking onder zes minuten, gemeten bij elke stop. Negen minuten is laat volgens die maatstaf en het bedrijf publiceert hoe vaak dat gebeurt: 60,1 procent van de langeafstandstreinen was in 2025 op tijd, en 52,6 procent in juni en juli 2026, wat het bedrijf toeschrijft aan een recordvolume aan bouwwerkzaamheden. Regionale treinen liepen op 89,2 procent.",
+      "oQueVoceFaz": "Laat echte ruimte rond elke aansluiting die u echt nodig heeft, en geef waar mogelijk voorrang aan de regionale dienst. Kijk naar het reizigerscijfer in plaats van het operationele — dat is het cijfer dat een gemiste aansluiting meetelt.",
+      "oQueMelhora": "U stopt met een late trein te lezen als een persoonlijke ramp of als bewijs over een land, en gaat het behandelen als een gepubliceerde kans waar u tegenop kunt plannen.",
+      "ondeNaoVale": "Het zegt niets over mensen. Het stereotype over nationale stiptheid is voor deze cursus geweigerd: op de dichtstbijzijnde gemeten indicator, de nauwkeurigheid van openbare klokken, kwam Duitsland als achtste, achter Italië en Oostenrijk, in een studie die ritme van het leven in Frankfurt begin jaren negentig mat en nooit heeft gemeten of iemand op tijd voor iets aankomt.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "de-i01-n04"
+      ]
+    }
+  ]
+}

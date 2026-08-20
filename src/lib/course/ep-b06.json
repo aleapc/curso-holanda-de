@@ -1,0 +1,434 @@
+{
+  "id": "b06",
+  "nivel": "basico",
+  "numero": 6,
+  "parte": "B06",
+  "titulo": "Heeft u — und dann, was die erste Stunde eben braucht",
+  "subtitulo": "Vier Schalter zwischen dem Gepäckband und einem Sitz im Zug, und ein Öffner, der auf jeden davon passt",
+  "cena": "Ankunftshalle in Amsterdam: das Band steht still, das Handy fand kein Netz, und zwischen dir und dem Sitzen stehen vier Schalter.",
+  "moldura": "ganha",
+  "frasePiso": "Heeft u, plus das Ding, und die ganze Ankunftshalle wird in drei Wörtern beantwortbar.",
+  "moldes": [
+    "HABEN-SIE"
+  ],
+  "clique": {
+    "contagem": [
+      "SIM-Schalter",
+      "Informationsschalter",
+      "Kiosk am Ausgang",
+      "Flughafencafé"
+    ],
+    "desconto": "Der SIM-Schalter, der Infoschalter, der Kiosk und das Café bekamen dieselben zwei Wörter von dir. Nur das Ding am Ende bewegte sich, und das kam schon fertig.",
+    "piso": "Das nächste Mal, wenn du nicht weißt, ob ein Laden das hat, was du brauchst, malst du es nicht vor und öffnest keine App. Du sagst Heeft u und nennst das Ding."
+  },
+  "fatosDatados": [
+    {
+      "id": "hol-b06-pinnen",
+      "afirmacao": "«Karten nehmen wir» heißt in den Niederlanden nicht «deine Kreditkarte nehmen wir». Rund vier von fünf Zahlungen am Ladentisch laufen über Karte, fast durchweg über die niederländische Debitkarte (pinnen), und weniger als ein halbes Prozent des stationären Umsatzes läuft über Kredit. Viele Kassen — der Supermarkt Albert Heijn ist das meistgenannte Beispiel — nehmen ausländische Visa- oder Mastercard-KREDITkarten gar nicht an, während dieselbe Karte als Debit (Maestro, V Pay, Visa Debit) meist durchgeht; an Selbstbedienungskassen und Automaten wird Kredit besonders oft abgewiesen. Die Faustregel für die erste Stunde: eine DEBITkarte plus etwas Bargeld dabeihaben und dich nie allein auf die Kreditkarte verlassen. Die Kreditakzeptanz wächst Jahr für Jahr — es ist «verlass dich nicht darauf», nicht «nehmen sie nie».",
+      "fonte": "Betaalvereniging Nederland / De Nederlandsche Bank (DNB), Factsheet Toonbankbetalingen 2024; DNB, «Point of sale payments 2024». RESSALVAS: die ~80%-Kartenquote und der <0,5%-Kreditanteil sind gerundete Aggregatwerte aus den DNB/Betaalvereniging-Erhebungen und keine wörtlichen Zitate; der Fall «Albert Heijn nimmt keine ausländische Kreditkarte» ist als weithin berichtete Praxis geführt, nicht als institutionelle Erklärung der Kette; die Abgrenzung Debit/Kredit im Terminal ist Mechanik-Erklärung, nicht Zitat.",
+      "ano": 2024,
+      "revisarAte": "2027-08-20",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "hol-b06-n06",
+        "hol-b06-n07",
+        "hol-b06-n10"
+      ]
+    },
+    {
+      "id": "hol-b06-pinnen-terminologie",
+      "afirmacao": "Das Wort, das du hörst und lesen wirst, ist «pinnen» — das Verb fürs Bezahlen mit der Debitkarte, und «alleen pinnen» oder «pin only» auf einem Schild heißt: Karte ja, aber nur als Debit, oft kein Bargeld. «Contant» ist Bargeld. Ein «pinautomaat» ist der Geldautomat. Das ist keine Schikane gegen dich, sondern der Normalzustand: die Kasse ist zuerst auf das inländische Debitsystem verdrahtet, und deine Kreditkarte ist die Ausnahme, nicht die Regel.",
+      "fonte": "Betaalvereniging Nederland, Begriffsgebrauch «pinnen/contant/pinautomaat» (Alltagssprache, belegt in DNB/Betaalvereniging-Verbrauchermaterial). RESSALVA: «pinnen» als Alltagswort ist unstrittig; ob ein konkretes «alleen pinnen»-Schild zusätzlich Bargeld ausschließt, hängt vom Laden ab und ist hier als typischer, nicht garantierter Fall geführt.",
+      "ano": 2024,
+      "revisarAte": "2027-08-20",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "hol-b06-n08"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b06-n01",
+      "gesto": 1,
+      "tom": "ganha",
+      "bloco": "aquecimento",
+      "pt": "Deine erste Stunde sind vier Schalter und vier kleine Bedürfnisse. Jedes davon öffnet mit denselben zwei Wörtern."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b06-n02",
+      "tom": "ganha",
+      "bloco": "molde",
+      "pt": "Hier ist der Baustein: Heeft u, und dann das Ding. Haben Sie — und dahinter, was du gerade brauchst."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_f",
+      "audioKey": "hol-b06-t01",
+      "tom": "ganha",
+      "es": "Goedendag, heeft u een simkaart?",
+      "pinyin": "CHUU-den-dach, HÉÉFT ü un SIM-kaart?",
+      "pt": "Guten Tag, haben Sie eine SIM-Karte?",
+      "tts": "Goedendag, heeft u een simkaart?"
+    },
+    {
+      "consulta": [
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "HABEN-SIE",
+      "encaixe": "een simkaart",
+      "encaixeGloss": "SIM-Karte",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b06-p01",
+      "promptPt": "Am SIM-Schalter neben dem Gepäckband, ohne Netz, seit die Räder den Boden berührten. Frag. Sag es jetzt.",
+      "audioKey": "hol-b06-t01",
+      "es": "Goedendag, heeft u een simkaart?",
+      "pinyin": "CHUU-den-dach, HÉÉFT ü un SIM-kaart?",
+      "pt": "Guten Tag, haben Sie eine SIM-Karte?",
+      "tts": "Goedendag, heeft u een simkaart?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b06-r01",
+      "tom": "ganha",
+      "es": "Ja, natuurlijk. Met of zonder abonnement?",
+      "pinyin": "yaa, na-TÜÜR-lük. met of ZON-der a-bo-ne-MENT?",
+      "pt": "Ja, natürlich. Mit oder ohne Vertrag?",
+      "tts": "Ja, natuurlijk. Met of zonder abonnement?",
+      "receptivo": true,
+      "acao": "Bleib für die zweite Hälfte der Antwort stehen — das ist die Frage, die entscheidet, was du zahlst."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b06-n03",
+      "tom": "ganha",
+      "bloco": "corpo",
+      "pt": "Gute Nachricht: kein Kasus. Das Ding kommt fertig, und «een» ist für beide Geschlechter gleich — een simkaart, een kamer."
+    },
+    {
+      "consulta": [
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "HABEN-SIE",
+      "encaixe": "wifi",
+      "encaixeGloss": "WLAN",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b06-p02",
+      "promptPt": "Am Informationsschalter, und alles, was du senden willst, sagt, dass es offline ist. Frag. Sag es jetzt.",
+      "audioKey": "hol-b06-t02",
+      "es": "Heeft u wifi?",
+      "pinyin": "HÉÉFT ü WIE-fie?",
+      "pt": "Haben Sie WLAN?",
+      "tts": "Heeft u wifi?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b06-n04",
+      "tom": "ganha",
+      "pt": "Der Baustein fragt, was diese Person hat, nicht ob das Ding irgendwo im Gebäude existiert."
+    },
+    {
+      "consulta": [
+        "pagar/dinheiro"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "HABEN-SIE",
+      "encaixe": "wisselgeld",
+      "encaixeGloss": "Wechselgeld",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b06-p03",
+      "promptPt": "Der Gepäckwagen am Kiosk am Ausgang nimmt Münzen, und der Automat gab dir einen Fünfziger. Frag. Sag es jetzt.",
+      "audioKey": "hol-b06-t03",
+      "es": "Heeft u wisselgeld?",
+      "pinyin": "HÉÉFT ü WIS-sel-chelt?",
+      "pt": "Haben Sie Wechselgeld?",
+      "tts": "Heeft u wisselgeld?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b06-r02",
+      "tom": "ganha",
+      "es": "Nee, maar de automaat daar geeft munten.",
+      "pinyin": "nee, maar de au-to-MAAT daar CHÉÉFT MÜN-ten.",
+      "pt": "Nein, aber der Automat da drüben gibt Münzen.",
+      "tts": "Nee, maar de automaat daar geeft munten.",
+      "receptivo": true,
+      "acao": "Bleib einen Takt über das erste Wort hinaus. Ein Nein kommt hier meist mit der Adresse des Ja dahinter."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b06-n05",
+      "tom": "ganha",
+      "pt": "«u» steckt schon im Baustein — die Höflichkeit ist geregelt, bevor du den Mund aufmachst. Kein du/Sie zu entscheiden."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "HABEN-SIE",
+      "encaixe": "een toilet",
+      "encaixeGloss": "Toilette",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b06-p04",
+      "promptPt": "Im Flughafencafé, vor einer Stunde im Zug in die Stadt. Frag. Sag es jetzt.",
+      "audioKey": "hol-b06-t04",
+      "es": "Heeft u een toilet?",
+      "pinyin": "HÉÉFT ü un twa-LET?",
+      "pt": "Haben Sie eine Toilette?",
+      "tts": "Heeft u een toilet?"
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "HABEN-SIE",
+      "encaixe": "water",
+      "encaixeGloss": "Wasser",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b06-p05",
+      "promptPt": "Noch im Flughafencafé, und was du mitgebracht hast, kam bei der Sicherheit in eine Wanne. Frag. Sag es jetzt.",
+      "audioKey": "hol-b06-t05",
+      "es": "Heeft u water?",
+      "pinyin": "HÉÉFT ü VAA-ter?",
+      "pt": "Haben Sie Wasser?",
+      "tts": "Heeft u water?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b06-n06",
+      "tom": "protege",
+      "pt": "Ein Wort für deinen ersten Kauf: pinnen — mit der Debitkarte zahlen. Hier ist das der Normalfall, nicht die Ausnahme."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_nl_m",
+      "audioKey": "hol-b06-r03",
+      "tom": "protege",
+      "es": "Sorry, we nemen alleen pinpas, geen creditcard.",
+      "pinyin": "SO-rie, we NÉÉ-men a-LÉÉN PIN-pas, chéén KRÉ-dit-kaart.",
+      "pt": "Tut mir leid, wir nehmen nur die Debitkarte, keine Kreditkarte.",
+      "tts": "Sorry, we nemen alleen pinpas, geen creditcard.",
+      "receptivo": true,
+      "acao": "Kein Ärger nötig. Zück die DEBITkarte oder Bargeld — die Kreditkarte ist hier der Sonderfall, nicht die Kasse ein Problem."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b06-n07",
+      "tom": "protege",
+      "pt": "Vier von fünf Zahlungen laufen über Debit. Nimm eine DEBITkarte plus etwas Bargeld — nie nur auf die Kreditkarte verlassen."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b06-n08",
+      "tom": "protege",
+      "pt": "«Alleen pinnen» auf einem Schild: nur Debit, oft kein Bargeld. «Contant» ist Bargeld, ein «pinautomaat» der Geldautomat."
+    },
+    {
+      "consulta": [
+        "chegar/balcao",
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "HABEN-SIE",
+      "encaixe": "een plattegrond",
+      "encaixeGloss": "Stadtplan",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b06-p06",
+      "promptPt": "Zurück am Informationsschalter, mit einem Handy auf vier Prozent und einer Straße, die du nie gegangen bist. Frag. Sag es jetzt.",
+      "audioKey": "hol-b06-t06",
+      "es": "Heeft u een plattegrond?",
+      "pinyin": "HÉÉFT ü un PLAT-te-chront?",
+      "pt": "Haben Sie einen Stadtplan?",
+      "tts": "Heeft u een plattegrond?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b06-n09",
+      "tom": "ganha",
+      "bloco": "capsula",
+      "pt": "Dem Baustein ist egal, was das Ding ist. Ein Plan, Münzen, Wasser, eine Toilette, Karten — dieselben zwei Wörter davor."
+    },
+    {
+      "consulta": [
+        "transporte/bagagem",
+        "quarto/mala"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "HABEN-SIE",
+      "encaixe": "een bagagekluis",
+      "encaixeGloss": "Gepäckschließfach",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b06-p07",
+      "promptPt": "Das Zimmer ist erst um drei fertig, und du trägst alles, was du besitzt. Frag am Informationsschalter. Sag es jetzt.",
+      "audioKey": "hol-b06-t07",
+      "es": "Heeft u een bagagekluis?",
+      "pinyin": "HÉÉFT ü un ba-CHAA-zhe-klöüs?",
+      "pt": "Haben Sie ein Gepäckschließfach?",
+      "tts": "Heeft u een bagagekluis?"
+    },
+    {
+      "consulta": [
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "HABEN-SIE",
+      "encaixe": "kaartjes",
+      "encaixeGloss": "Fahrkarten",
+      "promptVoz": "guide_de_f",
+      "promptAudioKey": "hol-b06-p08",
+      "promptPt": "Der Kiosk am Ausgang verkauft Reisetickets, und am Automaten stehen elf Leute. Frag. Sag es jetzt.",
+      "audioKey": "hol-b06-t08",
+      "es": "Heeft u kaartjes?",
+      "pinyin": "HÉÉFT ü KAART-yes?",
+      "pt": "Haben Sie Fahrkarten?",
+      "tts": "Heeft u kaartjes?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_de_m",
+      "audioKey": "hol-b06-n10",
+      "tom": "protege",
+      "pt": "Am Ticketautomaten und im Supermarkt wird Kredit oft an der Selbstbedienung abgewiesen. Nimm Debit oder Bargeld."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_nl_f",
+      "tom": "ganha",
+      "molde": "DANKE",
+      "encaixe": "dank u wel",
+      "encaixeGloss": "vielen Dank",
+      "promptVoz": "guide_de_m",
+      "promptAudioKey": "hol-b06-p09",
+      "promptPt": "Sie haben dir in zehn Sekunden geholfen. Schließ ab, wie man das hier macht — und ein Versuch auf Niederländisch kauft Sympathie. Sag es jetzt.",
+      "audioKey": "hol-b06-t09",
+      "es": "Dank u wel!",
+      "pinyin": "dank ü WEL!",
+      "pt": "Vielen Dank!",
+      "tts": "Dank u wel!"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_nl_f",
+      "audioKey": "hol-b06-s01",
+      "tom": "ganha",
+      "es": "Heeft u wifi? Heeft u wisselgeld? Heeft u een toilet?",
+      "pinyin": "HÉÉFT ü WIE-fie? HÉÉFT ü WIS-sel-chelt? HÉÉFT ü un twa-LET?",
+      "pt": "Schatten einen Öffner über drei völlig verschiedene Schalter.",
+      "tts": "Heeft u wifi? Heeft u wisselgeld? Heeft u een toilet?",
+      "molde": "HABEN-SIE"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_de_f",
+      "audioKey": "hol-b06-n12",
+      "tom": "ganha",
+      "bloco": "recap",
+      "pt": "B06 fertig. Ein Baustein, vier Schalter, und die ganze erste Stunde beantwortet mit Heeft u und einem Ding."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Ein Öffner, und acht Dinge zum Fragen",
+    "secoes": [
+      {
+        "titulo": "Heeft u plus das Ding",
+        "corpo": "Halt Heeft u und häng dahinter alles, was eine Person hinter einem Schalter physisch haben könnte. Der Öffner ändert sich nie: die höfliche Form («u») steckt schon drin, es ist schon eine Frage, sobald deine Stimme hochgeht, und nichts darin hängt davon ab, mit wem du sprichst oder was das Ding ist. Das macht ihn zum billigsten und breitesten Baustein des Kurses — er kommt in der Tickethalle wieder, am Tisch, im Laden und an der Hotelrezeption, ohne eine einzige Änderung. Die informelle Form «Heb je ___?» hörst du auch; du produzierst die formelle.",
+        "exemplos": [
+          {
+            "es": "Heeft u wifi?",
+            "pt": "Haben Sie WLAN?"
+          },
+          {
+            "es": "Heeft u wisselgeld?",
+            "pt": "Haben Sie Wechselgeld?"
+          }
+        ]
+      },
+      {
+        "titulo": "Warum das Ding hier fertig kommt — und im Deutschen nicht",
+        "corpo": "Im Deutschen markiert der Kasus die Rolle des Substantivs, und dein eigenes «Haben Sie einen Tisch?» steht im Akkusativ. Das Niederländische hat diesen Kasus nicht: nach Heeft u steht das Ding in der Wörterbuchform, «een tafel», «een kaartje», ganz gleich welche Rolle. Und «een» ist für beide Geschlechter dasselbe, anders als dein «ein/eine/einen». Das Einzige, was am Wort klebt, ist der bestimmte Artikel — de tafel, het toilet —, und den lernst du als Block mit, wie eine Telefonnummer. Beim Bestellen mit «een» siehst du das Geschlecht ohnehin fast nie. Zwei Dinge kommen wirklich blank, und das ist keine Ausnahme zum Bewachen: Mehrzahl, wie in Heeft u kaartjes, und Stoffe, wie in Heeft u water — genau wie im Deutschen."
+      },
+      {
+        "titulo": "Was diese Person hat, nicht was existiert",
+        "corpo": "Man kann auf Niederländisch «is er ___?» sagen — gibt es ___? —, und an einem Schalter ist das die schwächere Form. Die Frage, die eine Antwort bekommt, geht über die Person vor dir: was hast DU. Der Unterschied ist der zwischen dem Ablesen aus einem Sprachführer und dem Klang von jemandem, der das schon öfter gemacht hat. Und sie liefert eine bessere Antwort: wer das Ding nicht hat, sagt dir meist, wer es hat."
+      },
+      {
+        "titulo": "Karten ja — deine Kreditkarte vielleicht nicht",
+        "corpo": "In den Niederlanden laufen rund vier von fünf Ladentisch-Zahlungen über Karte, aber fast alles davon ist Debit — «pinnen». Weniger als ein halbes Prozent des Umsatzes ist Kredit, und viele Kassen, der Supermarkt Albert Heijn ist das meistgenannte Beispiel, nehmen ausländische Visa- oder Mastercard-KREDITkarten gar nicht, während dieselbe Karte als Debit (Maestro, V Pay, Visa Debit) meist durchgeht. An Selbstbedienungskassen und Automaten wird Kredit besonders oft abgewiesen. «Karten nehmen wir» ist deshalb nicht dasselbe wie «deine Karte nehmen wir». Die Faustregel für die erste Stunde: eine Debitkarte plus etwas Bargeld, und verlass dich nie nur auf Kredit. Die Akzeptanz wächst Jahr für Jahr — es ist «verlass dich nicht darauf», nicht «geht nie»."
+      },
+      {
+        "titulo": "Die drei Wörter, die das Geld regeln",
+        "corpo": "«Pinnen» ist mit der Debitkarte zahlen. «Contant» ist Bargeld. Ein «pinautomaat» ist der Geldautomat. «Alleen pinnen» oder «pin only» auf einem Schild heißt: Karte ja, aber nur als Debit, und oft nimmt der Laden dann kein Bargeld. Das ist keine Schikane, sondern der Normalzustand — die Kasse ist zuerst auf das inländische Debitsystem verdrahtet, und deine Kreditkarte ist die Ausnahme. Wenn du die drei Wörter erkennst, liest du die Kasse, bevor du dran bist, und stehst nicht mit der falschen Karte da."
+      }
+    ]
+  },
+  "slot": "B06",
+  "permissao": "Du brauchst keinen eigenen Satz für jeden Schalter in dem Gebäude, und niemand benotet dort dein Niederländisch. Goedendag, Heeft u, das Ding, und eine Stimme, die hochgeht, ist überall in der Halle eine vollständige Bitte — und du darfst dieselben zwei Wörter an allen vier Schaltern benutzen, ohne sie zu variieren, um besser zu klingen.",
+  "permissaoAudioKey": "hol-b06-n02",
+  "espelho": "Wer auf einem fremden Flughafen zu Hause landet, fährt diese Triage schon ab, ohne sie zu benennen — Signal, Geld, Koffer, ein Platz zum Stehen. Neu ist nur, das in drei Wörtern zu tun, die sich nie ändern.",
+  "fichasCulturais": [
+    {
+      "sinal": "Du legst an der Kasse deine Kreditkarte hin, und das Terminal weist sie ab — an der Selbstbedienungskasse im Supermarkt ohne ein Wort, an einem Automaten mit «geen creditcard».",
+      "suaLeitura": "Meine Karte ist gesperrt, oder mit dem Ding stimmt etwas nicht — zu Hause zahle ich überall damit.",
+      "oQueEAli": "Keins von beiden. In den Niederlanden ist Debit («pinnen») der Normalfall: rund vier von fünf Ladentisch-Zahlungen laufen über Karte, fast alles davon Debit, und weniger als ein halbes Prozent über Kredit. Viele Kassen — Albert Heijn ist das meistgenannte Beispiel — nehmen ausländische Kreditkarten gar nicht, während dieselbe Karte als Debit meist durchgeht. Es ist der Normalzustand des Systems, kein Problem mit dir.",
+      "oQueVoceFaz": "Zück die DEBITkarte (Maestro, V Pay, Visa Debit) oder Bargeld, und lass die Kreditkarte für Hotels und größere Läden. Für die erste Stunde: eine Debitkarte plus etwas Bargeld dabei, dann macht die Antwort der Kasse keinen Unterschied mehr.",
+      "oQueMelhora": "Eine abgewiesene Karte, die wie ein Notfall aussah, wird zu einem Griff in die andere Tasche, und du planst die erste Stunde um eine Regel, die du vorhersagen kannst. Das Wort dafür — pinnen — erkennst du ab jetzt auf jedem Schild.",
+      "ondeNaoVale": "«Nie» ist zu stark: die Kreditakzeptanz wächst Jahr für Jahr, Hotels und viele touristische Stellen nehmen Kredit ohne Weiteres, und kontaktlos mit Handy oder Smartwatch läuft oft als Debit durch. Es ist «verlass dich nicht allein auf die Kreditkarte», nicht «Kredit geht nirgends».",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "hol-b06-n06",
+        "hol-b06-n07",
+        "hol-b06-n10"
+      ]
+    },
+    {
+      "sinal": "Du fragst «Mag ik een koffie?» und denkst dabei, du sagst so etwas wie «ich mag einen Kaffee» — und bekommst den Kaffee trotzdem.",
+      "suaLeitura": "«Mag» ist doch «mögen», also habe ich gerade gesagt, dass ich Kaffee gern mag.",
+      "oQueEAli": "Das ist der teuerste Freund dieses Sprachpaars, weil er harmlos aussieht. «Mag» kommt von «mogen» und heißt hier «dürfen», nicht «mögen». «Mag ik een koffie?» ist «Darf ich einen Kaffee?» — eine höfliche Bitte, kein Geschmacksurteil. Weil das Ergebnis dasselbe ist (du bekommst den Kaffee), merkst du den Irrtum nie — und genau das macht ihn zur Falle, die sich durch den ganzen Aufenthalt zieht.",
+      "oQueVoceFaz": "Nimm «Mag ik ___?» als feste höfliche Bitte, so wie es hier gemeint ist, und lös es nicht in deine deutschen Wörter auf. Es ist der Baustein, mit dem du bestellst und um die Rechnung bittest — mehr dazu in B11.",
+      "oQueMelhora": "Du hörst auf, gegen das Wort anzukämpfen, und benutzt den nützlichsten Bestell-Öffner des Kurses richtig. Und du hast den ersten von einer Handvoll falscher Freunde erkannt, die alle gleich aussehen und etwas anderes meinen.",
+      "ondeNaoVale": "Das ist kein Pronunciation-Problem, sondern ein Bedeutungs-Problem — «mag» klingt fast wie im Deutschen, es meint nur etwas anderes. Und nicht jeder Ähnlichkeitsfall ist eine Falle: water, brood, bier, huis heißen genau, was du denkst.",
+      "evidencia": "PADRAO",
+      "audioKeys": [
+        "hol-b06-n02"
+      ]
+    }
+  ]
+}
