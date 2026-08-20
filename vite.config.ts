@@ -33,10 +33,10 @@ export default defineConfig({
         base: `${base}/`
       },
       manifest: {
-        name: '¡Dime! — Survival Spanish for Spain',
-        short_name: '¡Dime!',
-        description: 'Survival Spanish + culture for Spain · audio-first, works offline',
-        lang: 'en-GB',
+        name: 'Zeg het maar! — Niederländisch für die Niederlande',
+        short_name: 'Zeg het maar!',
+        description: 'Niederländisch + Kultur für die Niederlande · Audio zuerst, offline nutzbar',
+        lang: 'de',
         theme_color: '#C84B31',
         background_color: '#FFF7EC',
         display: 'standalone',
