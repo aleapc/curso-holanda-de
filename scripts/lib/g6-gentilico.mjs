@@ -18,10 +18,7 @@
 const REGRAS = {
   en: [
     // povo + cópula: plural direto, ou "people are/tend to…" no singular
-    // `greeks?`/`greek people` entrou porque o SKU EN → Grécia narra em inglês e o
-    // regex sem o gentílico do destino dá VERDE sem olhar — exatamente a falha do
-    // curso alemão descrita acima, só que no destino em produção agora.
-    /\b(the )?(spanish|spaniards|thai|chinese|italians?|french|germans?|greeks?|argentin\w+|brazilians?|british|americans?)\s+(?:people\s+(?:are|is|always|never|tend to|love to|like to)|are|always|never|tend to|love to|like to)\b/i
+    /\b(the )?(spanish|spaniards|thai|chinese|italians?|french|germans?|argentin\w+|brazilians?|british|americans?)\s+(?:people\s+(?:are|is|always|never|tend to|love to|like to)|are|always|never|tend to|love to|like to)\b/i
   ],
   pt: [
     /\b(os |as )?(espanhóis|espanhola?s|tailandeses|chineses|italianos|italianas|franceses|francesas|alemães|alemãs|argentinos|argentinas|brasileiros|brasileiras)\s+(são|estão|sempre|nunca|costumam|adoram|gostam de|tendem a)\b/i
@@ -36,9 +33,21 @@ const REGRAS = {
     // Gentílico + cópula: "les Espagnols sont", "les Français aiment". Acrescentado
     // ANTES de o primeiro autor francês escrever — a lição do alemão foi que um
     // portão sem a língua do SKU dá verde sem verificar.
-    /\b(les |l['’])?(espagnol|espagnole|français|française|catalan|catalane|basque|italien|italienne|allemand|chinois)s?\s+(sont|aiment|adorent|détestent|ont tendance|sont toujours|ne sont jamais|typiquement)\b/i,
-    // Adjetival: "typiquement espagnol", "à l'espagnole"
-    /\b(typiquement\s+(espagnol|français|catalan|italien)|à l['’]espagnol[e]?)\b/i
+    // Os gentílicos BRITÂNICOS entraram em 2026-08-20, ao abrir a sub-coluna
+    // fr → Reino Unido: sem eles, "les Britanniques sont réservés" e "les Anglais
+    // ne se plaignent jamais" — as duas frases que um curso sobre o Reino Unido
+    // mais quer escrever — passavam VERDES em todo o SKU. É a mesma lição do
+    // alemão e do francês, uma terceira vez: portão sem o gentílico do DESTINO
+    // dá verde sem verificar.
+    /\b(les |l['’])?(espagnol|espagnole|français|française|catalan|catalane|basque|italien|italienne|allemand|chinois|anglais|anglaise|britannique|écossais|écossaise|gallois|galloise|irlandais|irlandaise|néerlandais|néerlandaise|hollandais|hollandaise|américain|américaine|japonais|japonaise)s?\s+(sont|aiment|adorent|détestent|ont tendance|sont toujours|ne sont jamais|typiquement)\b/i,
+    // Adjetival: "typiquement espagnol", "à l'espagnole", "à l'anglaise"
+    // ADJETIVAL, e o feminino é OBRIGATÓRIO no «à la…». Testado contra o corpus:
+    // «à l'espagnole» é o modo (à moda espanhola) e dispara; «passer à l'espagnol»
+    // é MUDAR DE LÍNGUA e não pode disparar — apareceu 3× no curso-espanha-fr
+    // («on passe aussitôt à l'espagnol pour vous», «tout le monde passe à
+    // l'anglais»), que é o produto funcionando, não estereótipo. Sem o -e final
+    // o portão acusa a própria matéria do curso.
+    /(\btypiquement\s+(espagnol|français|catalan|italien|anglais|britannique|écossais|néerlandais|américain)\b|à l['’](espagnole|anglaise|américaine|italienne)\b)/i
   ]
 };
 
